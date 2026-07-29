@@ -1825,9 +1825,10 @@ function renderHub(){
   const tQ=MODULES.reduce((a,m)=>a+m.qui.length,0);
   const tF=MODULES.reduce((a,m)=>a+m.fla.length,0);
   const tW=allWrong().length;
+  const SB=SUBJECTS[S.subject]||SUBJECTS.civil;
   let h=`
-    <div class="hub-title">⚖️ LawMJ Mastery</div>
-    <div class="hub-sub">민법 암기장 완전학습 플랫폼 · 개념 아카이브 · 판례 카드 · OX · 객관식 · 사례 · 빈칸 · 플래시카드</div>
+    <div class="hub-title">${SB.title}</div>
+    <div class="hub-sub">${SB.sub} · 개념 아카이브 · 판례 카드 · OX · 객관식 · 사례 · 빈칸 · 플래시카드</div>
     <div class="hub-stats">
       <div class="hstat"><div class="hstat-num">${tC}</div><div class="hstat-label">개념</div></div>
       <div class="hstat"><div class="hstat-num">${tP}</div><div class="hstat-label">판례</div></div>
@@ -2540,9 +2541,16 @@ const CRIM_MODULES = [
   },
 ];
 const SUBJECTS = {
-  civil:{ name:'민법',   sub:'민법 교과서 완전학습 플랫폼',        mapInfo:'로스쿨 민법의 정석 9판 · 채권총론 → 채권각론 → 민법총칙 → 물권법', modules:CIVIL_MODULES, tags:CIVIL_TAGS, open:{'채권총론':true} },
-  crim: { name:'형사법', sub:'형법·형사소송법 완전학습 플랫폼',    mapInfo:'반반 형법 · 형법각론(개인·사회·국가적 법익)',                       modules:CRIM_MODULES,  tags:CRIM_TAGS,  open:{'형법각론':true} },
+  civil:{ name:'민법',   title:'⚖️ LawMJ Mastery', sub:'민법 암기장 완전학습 플랫폼', mapInfo:'로스쿨 민법의 정석 9판 · 채권총론 → 채권각론 → 민법총칙 → 물권법', modules:CIVIL_MODULES, tags:CIVIL_TAGS, open:{'채권총론':true} },
+  crim: { name:'형사법', title:'⚖️ H·H Mastery', sub:'형법 암기장 완전학습 플랫폼', mapInfo:'반반 형법 · 형법각론(개인·사회·국가적 법익)',                       modules:CRIM_MODULES,  tags:CRIM_TAGS,  open:{'형법각론':true} },
 };
+/* 사이드바 로고는 과목마다 다르다 — 민법은 LawMJ, 형사법은 H·H.
+   전환할 때와 새로고침으로 복원할 때 모두 이 함수를 거친다. */
+function applySubjectBrand(k){
+  const s=SUBJECTS[k]||SUBJECTS.civil;
+  const t=document.querySelector('.sb-logo-title'); if(t)t.textContent=s.title;
+  const b=document.querySelector('.sb-logo-sub');   if(b)b.textContent=s.sub;
+}
 function renderSubjectSwitch(){
   const el=document.getElementById('sb-subject'); if(!el)return;
   el.innerHTML=Object.keys(SUBJECTS).map(k=>`<div class="subj-btn ${S.subject===k?'active':''}" onclick="setSubject('${k}')">${SUBJECTS[k].name}</div>`).join('');
@@ -2552,7 +2560,7 @@ function setSubject(k){
   S.subject=k; MODULES=SUBJECTS[k].modules; TOPIC_TAGS=SUBJECTS[k].tags;
   S.modKey=null; S.topicKey=null; S.openMods=Object.assign({},SUBJECTS[k].open);
   localStorage.setItem('lawmj_subject',k);
-  const sub=document.querySelector('.sb-logo-sub'); if(sub)sub.textContent=SUBJECTS[k].sub;
+  applySubjectBrand(k);
   renderSubjectSwitch(); renderSB(); goMap();
 }
 
@@ -2712,7 +2720,7 @@ function renderBC(mode) {
   let sj=localStorage.getItem('lawmj_subject')||'civil'; if(!SUBJECTS[sj])sj='civil';
   S.subject=sj; MODULES=SUBJECTS[sj].modules; TOPIC_TAGS=SUBJECTS[sj].tags;
   S.openMods=Object.assign({},SUBJECTS[sj].open);
-  document.querySelector('.sb-logo-sub').textContent=SUBJECTS[sj].sub;
+  applySubjectBrand(sj);
   renderSubjectSwitch();
   updateDdayChip();
   renderSB(); renderBC('map'); renderMap();
