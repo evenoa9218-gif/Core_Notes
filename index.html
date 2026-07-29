@@ -466,7 +466,9 @@ body{font-family:'Noto Sans KR',sans-serif;background:var(--bg);color:var(--text
   </div>
 </div>
 
-<script src="data-criminal.js"></script>
+<!-- 형사법 데이터(929KB)는 그 과목을 고를 때 가져온다.
+     여기서 <script src>로 무조건 불러오면 민법만 보는 사람도 받아야 했다.
+     불러오는 코드는 loadSubjectData()에 있다. -->
 <script>
 // ================================================================
 // ① 데이터 배열 (아카이빙 시 순차적으로 채움)
@@ -2520,11 +2522,20 @@ let TOPIC_TAGS = {
 // 과목(SUBJECT) 레이어 — 민법 / 형사법(형법각론 파일럿)
 // ════════════════════════════════════════════════════════════════
 const CIVIL_MODULES = MODULES, CIVIL_TAGS = TOPIC_TAGS;
+/* 형사법 데이터는 나중에 도착한다. 그래서 여기서는 빈 껍데기만 만들고,
+   데이터가 오면 hydrateCrim()이 **같은 객체·같은 배열을 제자리에서 채운다**.
+   setSubject()가 MODULES·TOPIC_TAGS에 참조를 넘겨두기 때문에,
+   새 객체로 바꿔치면 화면이 옛 참조를 붙들고 빈 채로 남는다. */
 const CRIM_TAGS = {};
-(window.CRIM_GAKRON_CONCEPT||[]).forEach(c=>{(CRIM_TAGS[c[5]]=CRIM_TAGS[c[5]]||[]).push(c[1]);});
+function hydrateCrim(){
+  const list = window.CRIM_GAKRON_CONCEPT || [];
+  CRIM_MODULES[0].con = list;
+  Object.keys(CRIM_TAGS).forEach(k=>delete CRIM_TAGS[k]);
+  list.forEach(c=>{(CRIM_TAGS[c[5]]=CRIM_TAGS[c[5]]||[]).push(c[1]);});
+}
 const CRIM_MODULES = [
   { key:'형법각론', name:'형법각론', icon:'⚖️', color:'#a07a7a',
-    con:(window.CRIM_GAKRON_CONCEPT||[]), cas:[], qui:[], fla:[],
+    con:[], cas:[], qui:[], fla:[],   // con은 hydrateCrim()이 채운다
     topics:[
       {key:'gak_생명신체',     label:'제1장 생명과 신체'},
       {key:'gak_자유',         label:'제2장 자유에 관한 죄'},
@@ -2542,7 +2553,8 @@ const CRIM_MODULES = [
 ];
 const SUBJECTS = {
   civil:{ name:'민법',   title:'⚖️ LawMJ Mastery', sub:'민법 암기장 완전학습 플랫폼', mapInfo:'로스쿨 민법의 정석 9판 · 채권총론 → 채권각론 → 민법총칙 → 물권법', modules:CIVIL_MODULES, tags:CIVIL_TAGS, open:{'채권총론':true} },
-  crim: { name:'형사법', title:'⚖️ H·H Mastery', sub:'형법 암기장 완전학습 플랫폼', mapInfo:'반반 형법 · 형법각론(개인·사회·국가적 법익)',                       modules:CRIM_MODULES,  tags:CRIM_TAGS,  open:{'형법각론':true} },
+  crim: { data:{src:'data-criminal.js', global:'CRIM_GAKRON_CONCEPT', hydrate:hydrateCrim},
+          name:'형사법', title:'⚖️ H·H Mastery', sub:'형법 암기장 완전학습 플랫폼', mapInfo:'반반 형법 · 형법각론(개인·사회·국가적 법익)',                       modules:CRIM_MODULES,  tags:CRIM_TAGS,  open:{'형법각론':true} },
 };
 /* 사이드바 로고는 과목마다 다르다 — 민법은 LawMJ, 형사법은 H·H.
    전환할 때와 새로고침으로 복원할 때 모두 이 함수를 거친다. */
@@ -2555,13 +2567,41 @@ function renderSubjectSwitch(){
   const el=document.getElementById('sb-subject'); if(!el)return;
   el.innerHTML=Object.keys(SUBJECTS).map(k=>`<div class="subj-btn ${S.subject===k?'active':''}" onclick="setSubject('${k}')">${SUBJECTS[k].name}</div>`).join('');
 }
+/* 과목 데이터를 그 과목을 고를 때 가져온다.
+   민법은 index.html에 들어 있어 받을 게 없고, 형사법만 별도 파일이다.
+   과목이 늘면 SUBJECTS에 data:{src,global,hydrate}만 달면 된다. */
+const SUBJECT_PENDING = {};
+function loadSubjectData(k){
+  const spec = SUBJECTS[k] && SUBJECTS[k].data;
+  if(!spec) return Promise.resolve();
+  if(!SUBJECT_PENDING[k]){
+    SUBJECT_PENDING[k] = new Promise((ok,fail)=>{
+      const s = document.createElement('script');
+      s.src = spec.src;
+      s.onload  = ()=>{ spec.hydrate(); ok(); };
+      s.onerror = ()=>{ delete SUBJECT_PENDING[k]; fail(new Error(spec.src)); };  // 다시 시도할 수 있게
+      document.head.appendChild(s);
+    });
+  }
+  return SUBJECT_PENDING[k];
+}
+
 function setSubject(k){
   if(!SUBJECTS[k]||S.subject===k)return;
-  S.subject=k; MODULES=SUBJECTS[k].modules; TOPIC_TAGS=SUBJECTS[k].tags;
-  S.modKey=null; S.topicKey=null; S.openMods=Object.assign({},SUBJECTS[k].open);
-  localStorage.setItem('lawmj_subject',k);
-  applySubjectBrand(k);
-  renderSubjectSwitch(); renderSB(); goMap();
+  const 적용 = ()=>{
+    S.subject=k; MODULES=SUBJECTS[k].modules; TOPIC_TAGS=SUBJECTS[k].tags;
+    S.modKey=null; S.topicKey=null; S.openMods=Object.assign({},SUBJECTS[k].open);
+    localStorage.setItem('lawmj_subject',k);
+    applySubjectBrand(k);
+    renderSubjectSwitch(); renderSB(); goMap();
+  };
+  const el = document.getElementById('content');
+  if(el && SUBJECTS[k].data) el.innerHTML =
+    '<div style="text-align:center;padding:60px;color:var(--text2)">⚖️ 불러오는 중…</div>';
+  loadSubjectData(k).then(적용).catch(()=>{
+    if(el) el.innerHTML =
+      '<div style="text-align:center;padding:60px;color:#c0392b">데이터를 불러오지 못했습니다. 새로고침해 주세요.</div>';
+  });
 }
 
 // ================================================================
@@ -2724,6 +2764,8 @@ function renderBC(mode) {
   renderSubjectSwitch();
   updateDdayChip();
   renderSB(); renderBC('map'); renderMap();
+  // 새로고침으로 형사법이 복원된 경우 — 화면은 먼저 그리고 데이터가 오면 다시 그린다.
+  if(SUBJECTS[sj].data) loadSubjectData(sj).then(()=>{ renderSB(); renderMap(); }).catch(()=>{});
   pgInit();
 })();
 </script>
