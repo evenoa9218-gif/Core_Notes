@@ -347,6 +347,42 @@ body{font-family:'Noto Sans KR',sans-serif;background:var(--bg);color:var(--text
   .hub-stats{flex-wrap:wrap}
   .hstat{min-width:calc(50% - 6px)}
 }
+/* ══ 형법 리치 렌더(노션풍) ══ */
+.cs-h{font-weight:700;font-size:14px;color:var(--primary);margin:15px 0 6px;padding-bottom:3px;border-bottom:1px solid var(--border)}
+.cs-h:first-child{margin-top:2px}
+.cs-li{font-size:13px;line-height:1.74;color:var(--text);margin:2px 0}
+.cs-bul{position:relative;padding-left:13px}
+.cs-bul::before{content:"•";position:absolute;left:2px;color:var(--text3)}
+.cs-case{border:1px solid #d7b7b7;background:rgba(160,112,112,.06);border-radius:8px;margin:11px 0;overflow:hidden}
+.cs-case>summary{cursor:pointer;padding:9px 12px;font-size:13px;font-weight:600;color:var(--text);background:rgba(160,112,112,.10);list-style:none}
+.cs-case>summary::-webkit-details-marker{display:none}
+.cs-case>summary::before{content:"▶";font-size:9px;color:var(--accent);margin-right:7px;display:inline-block}
+.cs-case[open]>summary::before{content:"▼"}
+.cs-case-in{padding:10px 13px}
+.cs-fact{background:var(--bg2);border-radius:6px;padding:9px 11px;margin:2px 0 8px;font-size:12.5px;color:var(--text2);line-height:1.7}
+.cs-ans{margin:6px 0 2px;border-top:1px dashed var(--border);padding-top:7px}
+.cs-ans>summary{cursor:pointer;font-size:12.5px;font-weight:700;color:var(--accent);list-style:none}
+.cs-ans>summary::-webkit-details-marker{display:none}
+.cs-ans>summary::before{content:"▼ ";font-size:9px}
+.cs-ans:not([open])>summary::before{content:"▶ "}
+.cs-ans-in{padding:5px 0 2px}
+.cs-theory{background:rgba(154,128,96,.10);border-left:3px solid var(--warning);border-radius:0 6px 6px 0;padding:8px 12px;margin:8px 0}
+.cs-statute{background:var(--bg2);border:1px solid var(--border);border-radius:6px;padding:8px 11px;margin:6px 0;font-size:12.5px}
+.cs-stat{color:var(--primary);font-weight:600;white-space:nowrap}
+.cs-crime{color:#3f7ec4;font-weight:600}
+[data-theme="dark"] .cs-crime{color:#7fb0e0}
+.cs-exam{color:var(--warning);font-size:11.5px;font-weight:600;white-space:nowrap}
+.cs-o{color:#c0392b;font-weight:600}
+[data-theme="dark"] .cs-o{color:#e58a7f}
+.cs-x{color:#2e8b6f;font-weight:600}
+[data-theme="dark"] .cs-x{color:#6ec2a4}
+.cs-issue{background:rgba(190,160,60,.22);border-radius:3px;padding:0 4px;font-weight:600}
+.cs-fact-tag{background:rgba(196,120,150,.17);border-radius:3px;padding:0 4px}
+.cs-neg-tag{background:rgba(110,160,120,.17);border-radius:3px;padding:0 4px}
+/* ══ 과목 스위처 ══ */
+#sb-subject{display:flex;gap:6px;padding:12px 14px 2px}
+.subj-btn{flex:1;padding:7px 0;font-size:12.5px;font-weight:600;text-align:center;border-radius:7px;cursor:pointer;background:transparent;color:var(--sb-text);border:1px solid rgba(158,190,203,.28);transition:.15s}
+.subj-btn.active{background:var(--primary);color:#fff;border-color:var(--primary)}
 </style>
 </head>
 <body>
@@ -356,6 +392,7 @@ body{font-family:'Noto Sans KR',sans-serif;background:var(--bg);color:var(--text
     <div class="sb-logo-title">⚖️ LawMJ Mastery</div>
     <div class="sb-logo-sub">민법 교과서 완전학습 플랫폼</div>
   </div>
+  <div id="sb-subject"></div>
   <div id="sb-nav"></div>
   <div class="sb-stats" id="sb-stats"></div>
 </aside>
@@ -421,6 +458,7 @@ body{font-family:'Noto Sans KR',sans-serif;background:var(--bg);color:var(--text
   </div>
 </div>
 
+<script src="data-criminal.js"></script>
 <script>
 // ================================================================
 // ① 데이터 배열 (아카이빙 시 순차적으로 채움)
@@ -1602,7 +1640,7 @@ const 채권총론_FLASHCARD = []
 // ================================================================
 // ② MODULE REGISTRY
 // ================================================================
-const MODULES = [
+let MODULES = [
   {
     key:'채권총론', name:'채권총론', icon:'🤝', color:'#7aa8b8',
     con:채권총론_CONCEPT, cas:채권총론_CASE, qui:채권총론_QUIZ, fla:채권총론_FLASHCARD,
@@ -1679,6 +1717,7 @@ const TAB_TYPE = {ox:'OX', mcq:'MCQ', case_q:'CASE', blank:'BLANK'};
 // ③ STATE
 // ================================================================
 let S = {
+  subject:'civil',
   modKey:null, topicKey:null, tab:'concept',
   qIdx:0, qFilter:'all', qAnswered:null,
   fIdx:0, fFlipped:false,
@@ -1877,6 +1916,7 @@ function renderConTab(m){
 }
 function fmtBody(s){
   if(!s)return'';
+  if(S.subject==='crim')return s;   // 형사법 개념 본문은 사전 렌더된 HTML
   return esc(s).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>')
     .replace(/`([^`]+)`/g,'<code style="background:var(--bg2);padding:1px 5px;border-radius:3px;font-family:monospace;font-size:12.5px">$1</code>')
     .replace(/^&gt; (.+)/gm,'<blockquote style="border-left:3px solid var(--primary);padding:7px 12px;margin:6px 0;background:var(--bg2);border-radius:0 5px 5px 0;color:var(--text2)">$1</blockquote>');
@@ -2414,7 +2454,7 @@ document.addEventListener('keydown',e=>{
 // ================================================================
 // 목차 맵용 소제목 태그 (교재 절·관 단위)
 // ================================================================
-const TOPIC_TAGS = {
+let TOPIC_TAGS = {
   // Part 1 · 채권총론
   '채권일반서론':   ['채권의 의의','채무의 분류','기본적 효력(청구력·강제력)'],
   '채권목적':       ['특정물채권(§374·§462)','종류채권(§375)','외화채권(§378)','이자채권(§379)','선택채권(§380~)'],
@@ -2467,6 +2507,47 @@ const TOPIC_TAGS = {
   '비전형담보':  ['가등기담보(가담법)','양도담보','동산담보권·채권담보권'],
 };
 
+// ════════════════════════════════════════════════════════════════
+// 과목(SUBJECT) 레이어 — 민법 / 형사법(형법각론 파일럿)
+// ════════════════════════════════════════════════════════════════
+const CIVIL_MODULES = MODULES, CIVIL_TAGS = TOPIC_TAGS;
+const CRIM_TAGS = {};
+(window.CRIM_GAKRON_CONCEPT||[]).forEach(c=>{(CRIM_TAGS[c[5]]=CRIM_TAGS[c[5]]||[]).push(c[1]);});
+const CRIM_MODULES = [
+  { key:'형법각론', name:'형법각론', icon:'⚖️', color:'#a07a7a',
+    con:(window.CRIM_GAKRON_CONCEPT||[]), cas:[], qui:[], fla:[],
+    topics:[
+      {key:'gak_생명신체',     label:'제1장 생명과 신체'},
+      {key:'gak_자유',         label:'제2장 자유에 관한 죄'},
+      {key:'gak_성범죄',       label:'제3장 강간과 추행 (성범죄)'},
+      {key:'gak_명예주거',     label:'제4장 명예·업무·주거'},
+      {key:'gak_절도강도',     label:'제5장 절도와 강도'},
+      {key:'gak_사기공갈',     label:'제6장 사기와 공갈'},
+      {key:'gak_횡령배임',     label:'제7장 횡령과 배임'},
+      {key:'gak_기타재산',     label:'제8장 기타 재산범죄'},
+      {key:'gak_사회',         label:'사회적 법익'},
+      {key:'gak_국가공무원',   label:'국가적 법익 — 공무원 범죄'},
+      {key:'gak_국가공무방해', label:'국가적 법익 — 공무방해'},
+    ]
+  },
+];
+const SUBJECTS = {
+  civil:{ name:'민법',   sub:'민법 교과서 완전학습 플랫폼',        mapInfo:'로스쿨 민법의 정석 9판 · 채권총론 → 채권각론 → 민법총칙 → 물권법', modules:CIVIL_MODULES, tags:CIVIL_TAGS, open:{'채권총론':true} },
+  crim: { name:'형사법', sub:'형법·형사소송법 완전학습 플랫폼',    mapInfo:'반반 형법 · 형법각론(개인·사회·국가적 법익)',                       modules:CRIM_MODULES,  tags:CRIM_TAGS,  open:{'형법각론':true} },
+};
+function renderSubjectSwitch(){
+  const el=document.getElementById('sb-subject'); if(!el)return;
+  el.innerHTML=Object.keys(SUBJECTS).map(k=>`<div class="subj-btn ${S.subject===k?'active':''}" onclick="setSubject('${k}')">${SUBJECTS[k].name}</div>`).join('');
+}
+function setSubject(k){
+  if(!SUBJECTS[k]||S.subject===k)return;
+  S.subject=k; MODULES=SUBJECTS[k].modules; TOPIC_TAGS=SUBJECTS[k].tags;
+  S.modKey=null; S.topicKey=null; S.openMods=Object.assign({},SUBJECTS[k].open);
+  localStorage.setItem('lawmj_subject',k);
+  const sub=document.querySelector('.sb-logo-sub'); if(sub)sub.textContent=SUBJECTS[k].sub;
+  renderSubjectSwitch(); renderSB(); goMap();
+}
+
 // ================================================================
 // 목차 맵 + D-day
 // ================================================================
@@ -2504,7 +2585,7 @@ function renderMap() {
         <span class="map-dday-big">${d>0?'D-'+d:d===0?'D-Day':'D+'+ Math.abs(d)}</span>
         <div>
           <div class="map-dday-exam">변호사시험 ${examStr}</div>
-          <div class="map-dday-info">로스쿨 민법의 정석 9판 · 채권총론 → 채권각론 → 민법총칙 → 물권법</div>
+          <div class="map-dday-info">${(SUBJECTS[S.subject]||SUBJECTS.civil).mapInfo}</div>
         </div>
       </div>
       <div class="map-examdate-row">
@@ -2619,6 +2700,12 @@ function renderBC(mode) {
   const theme=localStorage.getItem('lawmj_theme')||'light';
   document.documentElement.setAttribute('data-theme',theme);
   document.getElementById('theme-btn').textContent=theme==='dark'?'☀️':'🌙';
+  // 과목 복원
+  let sj=localStorage.getItem('lawmj_subject')||'civil'; if(!SUBJECTS[sj])sj='civil';
+  S.subject=sj; MODULES=SUBJECTS[sj].modules; TOPIC_TAGS=SUBJECTS[sj].tags;
+  S.openMods=Object.assign({},SUBJECTS[sj].open);
+  document.querySelector('.sb-logo-sub').textContent=SUBJECTS[sj].sub;
+  renderSubjectSwitch();
   updateDdayChip();
   renderSB(); renderBC('map'); renderMap();
   pgInit();
