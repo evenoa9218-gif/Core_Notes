@@ -546,7 +546,7 @@ class Component extends DCLogic {
       name: sp[1], count: p.topics.length + (DATASETS[st.subject] || {}).unit,
       headBg: i === st.crimPart ? th.pick : 'transparent',
       bar: i === st.crimPart ? th.accent : 'transparent',
-      color: i === st.crimPart ? '#2f333a' : '#767c85', weight: i === st.crimPart ? 700 : 600,
+      color: th.headInk, weight: i === st.crimPart ? 700 : 600,
       rule: i === st.crimPart ? 'transparent' : 'rgba(45,48,56,.08)',
       countColor: i === st.crimPart ? th.ink : '#a8adb4',
       open: i === st.crimPart,
