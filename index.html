@@ -128,7 +128,7 @@
 <div style="padding:5px 10px;border-radius:7px;cursor:pointer;background:{{ foldBg }};border:1px solid {{ foldBorder }};font-weight:500;font-size:11px;color:{{ foldColor }}" onClick="{{ toggleFold }}">판례 접기</div>
 <sc-if value="{{ showProg }}" hint-placeholder-val="{{ true }}">
 <div style="padding:5px 10px;border-radius:7px;cursor:pointer;background:{{ doneBg }};border:1px solid {{ doneBorder }};font-weight:600;font-size:11px;color:{{ doneColor }}" onClick="{{ toggleDone }}">✓ 완료</div>
-<div style="padding:5px 10px;border-radius:7px;cursor:pointer;background:{{ weakBg }};border:1px solid {{ weakBorder }};font-weight:600;font-size:11px;color:{{ weakColor }}" onClick="{{ toggleWeak }}">★ 약점</div>
+<div style="padding:5px 10px;border-radius:7px;cursor:pointer;background:{{ weakBg }};border:1px solid {{ weakBorder }};font-weight:600;font-size:11px;color:{{ weakColor }}" onClick="{{ toggleWeak }}">△ 약점</div>
 </sc-if>
 <sc-if value="{{ hasQuiz }}" hint-placeholder-val="{{ true }}"><div style="padding:5px 10px;border-radius:7px;background:{{ accentSoft }};font-weight:600;font-size:11px;color:{{ accentInk }};cursor:pointer" onClick="{{ toggleQuiz }}">암기 확인</div></sc-if>
 </div>
@@ -290,8 +290,8 @@ const CRIM_CATS = [
 const DATASETS = {
   형법: { key:'CRIM_GAKRON_CONCEPT', label:'형법각론', unit:'논점',
          cats: () => CRIM_CATS },
-  민법: { key:'CIVIL_CHAECHONG', label:'로스쿨 민법의 정석 9판 · 채권총론', unit:'단원',
-         cats: () => (window.CIVIL_CHAECHONG_CATS || []).map(c => [c, c]) }
+  민법: { key:'CIVIL_UNITS', label:'로스쿨 민법의 정석 9판', unit:'단원',
+         cats: () => (window.CIVIL_UNITS_CATS || []).map(c => [c, c]) }
 };
 
 function stripTags(s) {
@@ -398,8 +398,8 @@ class Component extends DCLogic {
   state = { track:'민사법', subject:'민법', view:'toc', chapter:null, filter:'전체', size:0, fold:false, quizOpen:false, shown:{}, crimPart:0, mark:null };
 
   componentDidMount() {
-    if (!window.CRIM_GAKRON_CONCEPT || !window.CIVIL_CHAECHONG) {
-      const t = setInterval(() => { if (window.CRIM_GAKRON_CONCEPT && window.CIVIL_CHAECHONG) { clearInterval(t); this.forceUpdate(); } }, 200);
+    if (!window.CRIM_GAKRON_CONCEPT || !window.CIVIL_UNITS) {
+      const t = setInterval(() => { if (window.CRIM_GAKRON_CONCEPT && window.CIVIL_UNITS) { clearInterval(t); this.forceUpdate(); } }, 200);
       setTimeout(() => clearInterval(t), 8000);
     }
     // 모아보기에서 단원 제목을 눌렀을 때 그 단원으로 이동
@@ -470,7 +470,7 @@ class Component extends DCLogic {
         pick: () => this.setState({ subject:name, view:'toc', chapter:null }) };
     });
 
-    const filters = ['전체','★ 약점','✓ 완료','미학습'].map(name => {
+    const filters = ['전체','△ 약점','✓ 완료','미학습'].map(name => {
       const on = name === st.filter;
       return { name, bg: on ? th.accent : '#fff', border: on ? 'transparent' : 'rgba(45,48,56,.11)',
         color: on ? '#fff' : '#767c85', weight: on ? 600 : 500, pick: () => this.setState({ filter:name }) };
@@ -493,7 +493,7 @@ class Component extends DCLogic {
     }));
 
     const crimDecorate = list => list.map(t => ({
-      title: (stateOf(t.id) === 'done' ? '✓ ' : stateOf(t.id) === 'weak' ? '★ ' : '') + t.title,
+      title: (stateOf(t.id) === 'done' ? '✓ ' : stateOf(t.id) === 'weak' ? '△ ' : '') + t.title,
       sub: (t.tags || []).slice(0, 3).join(' · ') || (DATASETS[st.subject] || {}).unit + ' ' + t.id,
       concepts: 1, cases: (t.html.match(/cs-o|cs-x/g) || []).length,
       pct: stateOf(t.id) === 'done' ? '100%' : stateOf(t.id) === 'weak' ? '50%' : '0%',

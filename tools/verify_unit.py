@@ -87,6 +87,10 @@ def check(no, subject='채권총론'):
 
 
 if __name__ == '__main__':
-    args = sys.argv[1:] or sorted(p.stem.split('-')[1] for p in RAW.glob('채권총론-*.md'))
-    ok = all(check(a) for a in args)
+    args = sys.argv[1:]
+    subject = '채권총론'
+    if args and not args[0][0].isdigit():
+        subject, args = args[0], args[1:]
+    nums = args or sorted((p.stem.split('-')[1] for p in RAW.glob('%s-*.md' % subject)), key=int)
+    ok = all(check(n, subject) for n in nums)
     sys.exit(0 if ok else 1)

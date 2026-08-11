@@ -14,9 +14,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / 'tools' / 'notion_raw'
 
-# 과목 → 전역 변수 이름
-GLOBALS = {'채권총론': 'CIVIL_CHAECHONG', '채권각론': 'CIVIL_CHAEGAK',
-           '민법총칙': 'CIVIL_MINCHONG', '물권법': 'CIVIL_MULGWON'}
+# 민법 네 과목을 한 파일에 담는다 — 사이트에서는 '민법' 하나로 보이므로
+VAR = 'CIVIL_UNITS'
+SUBJECTS = ['채권총론', '채권각론', '민법총칙', '물권법']   # 책 순서
+ID_PREFIX = {'채권총론': '채총', '채권각론': '채각', '민법총칙': '민총', '물권법': '물권'}
 
 INDENT = 16  # 들여쓰기 한 단계 = 16px (형사법 데이터와 같은 값)
 
@@ -126,40 +127,56 @@ def parse(path):
             props = json.loads(m.group(1))
     tags = [t for t in (props.get('절'), props.get('관')) if t]
     tags += props.get('판례태그') or []
+    subject = props.get('과목', '')
     return {
-        'id': '채총%d' % props['번호'] if props.get('과목') == '채권총론' else str(props.get('번호')),
+        'id': '%s%s' % (ID_PREFIX.get(subject, ''), props.get('번호')),
         'title': props.get('주제', path.stem),
         'html': convert(text),
         'tags': tags,
         'level': 1,
-        'cat': props.get('장', ''),
+        'chap': props.get('장', ''),
+        'sec': props.get('절', ''),
         'no': props.get('번호', 0),
-        'subject': props.get('과목', ''),
+        'subject': subject,
     }
 
 
+def group_of(rows):
+    """목차를 어느 층위로 묶을지 — 장이 하나뿐이면(채권각론) 절로 내려간다."""
+    chaps = set(r['chap'] for r in rows if r['chap'])
+    key = 'sec' if len(chaps) <= 1 else 'chap'
+    for r in rows:
+        r['cat'] = '%s · %s' % (r['subject'], r[key] or r['chap'] or r['subject'])
+
+
 def main():
-    subject = sys.argv[1] if len(sys.argv) > 1 else '채권총론'
-    rows = sorted((parse(p) for p in RAW.glob('%s-*.md' % subject)), key=lambda r: r['no'])
-    if not rows:
-        sys.exit('원본이 없다: %s/%s-*.md' % (RAW, subject))
+    want = sys.argv[1:]
+    data, cats, seen, tally = [], [], set(), []
+    for subject in SUBJECTS:
+        if want and subject not in want:
+            continue
+        rows = sorted((parse(p) for p in RAW.glob('%s-*.md' % subject)), key=lambda r: r['no'])
+        if not rows:
+            continue
+        group_of(rows)
+        for r in rows:
+            if r['cat'] not in seen:
+                seen.add(r['cat'])
+                cats.append(r['cat'])
+            data.append([r['id'], r['title'], r['html'], r['tags'], r['level'], r['cat']])
+        tally.append((subject, len(rows)))
+    if not data:
+        sys.exit('원본이 없다: %s' % RAW)
 
-    cats, seen = [], set()
-    for r in rows:                                 # 장 순서는 번호순 등장 순서 그대로
-        if r['cat'] and r['cat'] not in seen:
-            seen.add(r['cat'])
-            cats.append(r['cat'])
-
-    data = [[r['id'], r['title'], r['html'], r['tags'], r['level'], r['cat']] for r in rows]
-    var = GLOBALS[subject]
     body = 'window.%s_CATS = %s;\nwindow.%s = %s;\n' % (
-        var, json.dumps(cats, ensure_ascii=False),
-        var, json.dumps(data, ensure_ascii=False))
+        VAR, json.dumps(cats, ensure_ascii=False),
+        VAR, json.dumps(data, ensure_ascii=False))
     out = ROOT / 'data-civil.js'
     io.open(out, 'w', encoding='utf-8', newline='\n').write(body)
-    print('%s 단원 %d개 → %s (%.1fKB)' % (subject, len(rows), out.name, out.stat().st_size / 1024))
-    for r in rows:
-        print('  %-3s %-22s %s' % (r['no'], r['title'], r['cat']))
+    print('%s → %s (%.1fKB)' % (' · '.join('%s %d단원' % t for t in tally),
+                                out.name, out.stat().st_size / 1024))
+    for c in cats:
+        print('  %-30s %d단원' % (c, sum(1 for d in data if d[5] == c)))
 
 
 if __name__ == '__main__':
