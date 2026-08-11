@@ -41,9 +41,10 @@ def inline(s):
     # 형광펜(_bg 계열) — 인접한 조각이 여러 개로 쪼개져 오므로 하나씩 감싼다
     s = re.sub(r'<span color="[a-z]+_bg">(.*?)</span>', r'<span class="cs-hl">\1</span>', s)
     # 결론 (O)/(X)
-    s = re.sub(r'<span color="[a-z]+">\s*<strong>\((O)\)</strong>\s*</span>',
+    # 굵게 안쪽에 공백이 끼기도 한다 — <strong>(O) </strong> 도 결론 표기다
+    s = re.sub(r'<span color="[a-z]+">\s*<strong>\s*\(O\)\s*</strong>\s*</span>',
                r'<span class="cs-o"><strong>(O)</strong></span>', s)
-    s = re.sub(r'<span color="[a-z]+">\s*<strong>\((X)\)</strong>\s*</span>',
+    s = re.sub(r'<span color="[a-z]+">\s*<strong>\s*\(X\)\s*</strong>\s*</span>',
                r'<span class="cs-x"><strong>(X)</strong></span>', s)
     # 남은 색 span은 색만 버리고 글자는 남긴다
     s = re.sub(r'<span color="[a-z_]+">(.*?)</span>', r'\1', s)

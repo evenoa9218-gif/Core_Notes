@@ -18,8 +18,9 @@ RAW = Path(__file__).resolve().parent / 'notion_raw'
 # 원본 표기 → 변환 결과에서 대응되는 것
 PAIRS = [
     ('★',          r'★',                        r'★'),
-    ('(O)',        r'\(O\)',                    r'class="cs-o"'),
-    ('(X)',        r'\(X\)',                    r'class="cs-x"'),
+    # 결론 표기만 센다. 산문 안에 낀 (O)/(X)(예: **위반 (O)**, **(O, 남용)**)는 대상이 아니다
+    ('(O)',        r'<span color="[a-z]+">\s*\*\*\s*\(O\)\s*\*\*\s*</span>', r'class="cs-o"'),
+    ('(X)',        r'<span color="[a-z]+">\s*\*\*\s*\(X\)\s*\*\*\s*</span>', r'class="cs-x"'),
     ('【…】(마커)', r'<span color="[a-z_]+">(?:\*\*)?【[^】]*】(?:\*\*)?</span>', r'class="cs-exam"'),
     ('正辯',        r'正辯',                      r'正辯'),
     ('밑줄',        r'<span underline="true">',   r'class="cs-u"'),
