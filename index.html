@@ -37,6 +37,9 @@
 <sc-if value="{{ hasParts }}" hint-placeholder-val="{{ true }}">
 <sc-for list="{{ navParts }}" as="p" hint-placeholder-count="4">
 <div style="display:flex;flex-direction:column">
+<sc-if value="{{ p.hasHead }}" hint-placeholder-val="{{ false }}">
+<div style="margin:12px 12px 3px;padding:7px 11px;border-radius:8px;background:{{ accentSoft }};font:700 13.5px 'Noto Serif KR',serif;color:{{ accentInk }};letter-spacing:-.2px">{{ p.head }}</div>
+</sc-if>
 <div style="padding:9px 16px;display:flex;align-items:flex-start;gap:8px;cursor:pointer;background:{{ p.headBg }}" onClick="{{ p.pick }}"><div style="width:3px;height:13px;border-radius:2px;background:{{ p.bar }};flex:none;margin-top:3px"></div><div style="flex:1;min-width:0;font-weight:{{ p.weight }};font-size:12.5px;line-height:1.45;color:{{ p.color }};word-break:keep-all">{{ p.name }}</div><div style="font:500 10.5px/1.6 Pretendard,sans-serif;color:{{ p.countColor }};white-space:nowrap;flex:none">{{ p.count }}</div></div>
 <sc-if value="{{ p.open }}" hint-placeholder-val="{{ true }}">
 <div style="padding:9px 16px 9px 26px;display:flex;flex-direction:column;gap:11px">
@@ -512,6 +515,11 @@ class Component extends DCLogic {
         pick: () => this.setState(on ? { mark:null, view:'toc' } : { mark:m.key, view:'page', chapter:null, quizOpen:false }) };
     }) : [];
 
+    const splitCat = c => {
+      const i = (c || '').indexOf(' · ');
+      return i > -1 ? [c.slice(0, i), c.slice(i + 3)] : ['', c || ''];
+    };
+
     const catNames = {};
     ((DATASETS[st.subject] || {}).cats ? DATASETS[st.subject].cats() : []).forEach(c => { catNames[c[0]] = c[1]; });
     const picked = st.mark ? collect(rows, st.mark, c => catNames[c] || c) : null;
@@ -520,11 +528,22 @@ class Component extends DCLogic {
     const parts = civil
       ? [{ label:'PART 1', name:'채권총론', count: visible.length + '개 장', chapters: decorate(visible) }]
       : crim && crimParts.length
-        ? crimParts.map((p, i) => ({ label:'분류 ' + (i + 1), name: p.name, count: p.topics.length + '개 ' + (DATASETS[st.subject] || {}).unit, chapters: crimDecorate(p.topics.filter(keep)) }))
+        ? crimParts.map((p, i) => {
+            const sp = splitCat(p.name);
+            return { label: sp[0] || ('분류 ' + (i + 1)), name: sp[1],
+              count: p.topics.length + '개 ' + (DATASETS[st.subject] || {}).unit,
+              chapters: crimDecorate(p.topics.filter(keep)) };
+          })
         : [];
 
-    const navParts = crim && crimParts.length ? crimParts.map((p, i) => ({
-      name: p.name, count: p.topics.length + (DATASETS[st.subject] || {}).unit,
+    let prevSubject = null;
+    const navParts = crim && crimParts.length ? crimParts.map((p, i) => {
+      const sp = splitCat(p.name);
+      const newSubject = !!sp[0] && sp[0] !== prevSubject;
+      if (sp[0]) prevSubject = sp[0];
+      return {
+      head: sp[0], hasHead: newSubject,
+      name: sp[1], count: p.topics.length + (DATASETS[st.subject] || {}).unit,
       headBg: i === st.crimPart ? th.soft : 'transparent',
       bar: i === st.crimPart ? th.accent : 'transparent',
       color: i === st.crimPart ? '#2f333a' : '#767c85', weight: i === st.crimPart ? 700 : 600,
@@ -538,7 +557,7 @@ class Component extends DCLogic {
         weight: t.title === st.chapter ? 600 : 400,
         open: () => this.openChapter(t.title)
       }))
-    })) : civil ? [{
+    }; }) : civil ? [{
       name:'채권총론', count: CIVIL.doneChapters + '/13', headBg: th.soft, bar: th.accent, color:'#2f333a', weight:700,
       rule:'transparent', countColor: th.ink, open:true, pick: () => this.setState({ view:'toc' }),
       chapters: chapters.map(c => ({
@@ -548,7 +567,7 @@ class Component extends DCLogic {
         open: () => this.openChapter(c.title)
       }))
     }, ...['채권각론','민법총칙','물권법'].map(name => ({
-      name, count:'0/16', headBg:'transparent', bar:'transparent', color:'#767c85', weight:600,
+      name, count:'0/16', head:'', hasHead:false, headBg:'transparent', bar:'transparent', color:'#767c85', weight:600,
       rule:'rgba(45,48,56,.08)', countColor:'#a8adb4', open:false, chapters:[], pick: () => {}
     }))] : [];
 
