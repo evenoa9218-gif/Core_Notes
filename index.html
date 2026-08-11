@@ -78,6 +78,13 @@
 </sc-for>
 </div>
 
+<div style="display:flex;gap:7px;flex-wrap:wrap;align-items:center;padding:0 30px 16px">
+<div style="font:500 11px Pretendard,sans-serif;color:#a8adb4;margin-right:3px;letter-spacing:.2px">표시 모아보기</div>
+<sc-for list="{{ marks }}" as="m" hint-placeholder-count="8">
+<div style="padding:7px 12px;border-radius:9px;cursor:pointer;background:{{ m.bg }};border:1px solid {{ m.border }};font-weight:{{ m.weight }};font-size:11.5px;color:{{ m.color }}" onClick="{{ m.pick }}">{{ m.name }}</div>
+</sc-for>
+</div>
+
 <sc-if value="{{ isEmpty }}" hint-placeholder-val="{{ false }}">
 <div style="flex:1;display:flex;align-items:center;justify-content:center;padding:60px 0">
 <div style="max-width:380px;display:flex;flex-direction:column;gap:11px;align-items:center;text-align:center">
@@ -119,6 +126,10 @@
 <div style="display:flex;gap:6px;flex:none;white-space:nowrap">
 <div style="padding:5px 10px;border-radius:7px;background:#fff;border:1px solid rgba(45,48,56,.1);font:500 11px Pretendard,sans-serif;color:#767c85;cursor:pointer" onClick="{{ cycleSize }}">가A {{ sizeLabel }}</div>
 <div style="padding:5px 10px;border-radius:7px;cursor:pointer;background:{{ foldBg }};border:1px solid {{ foldBorder }};font-weight:500;font-size:11px;color:{{ foldColor }}" onClick="{{ toggleFold }}">판례 접기</div>
+<sc-if value="{{ showProg }}" hint-placeholder-val="{{ true }}">
+<div style="padding:5px 10px;border-radius:7px;cursor:pointer;background:{{ doneBg }};border:1px solid {{ doneBorder }};font-weight:600;font-size:11px;color:{{ doneColor }}" onClick="{{ toggleDone }}">✓ 완료</div>
+<div style="padding:5px 10px;border-radius:7px;cursor:pointer;background:{{ weakBg }};border:1px solid {{ weakBorder }};font-weight:600;font-size:11px;color:{{ weakColor }}" onClick="{{ toggleWeak }}">★ 약점</div>
+</sc-if>
 <sc-if value="{{ hasQuiz }}" hint-placeholder-val="{{ true }}"><div style="padding:5px 10px;border-radius:7px;background:{{ accentSoft }};font-weight:600;font-size:11px;color:{{ accentInk }};cursor:pointer" onClick="{{ toggleQuiz }}">암기 확인</div></sc-if>
 </div>
 </div>
@@ -320,15 +331,89 @@ function dataFor(subject) {
   return def.cats().filter(([key]) => byCat[key]).map(([key, name]) => ({ key, name, topics: byCat[key] }));
 }
 
+// 진도는 브라우저에 남긴다 — 단원 id 별로 '완료' 또는 '약점'
+const PROG_KEY = 'lawmj_progress_v1';
+const PROG = {
+  data: null,
+  load() {
+    if (this.data) return this.data;
+    try { this.data = JSON.parse(localStorage.getItem(PROG_KEY)) || {}; } catch (e) { this.data = {}; }
+    return this.data;
+  },
+  save() { try { localStorage.setItem(PROG_KEY, JSON.stringify(this.data)); } catch (e) {} },
+  get(id) { return this.load()[id] || ''; },
+  toggle(id, v) {
+    const d = this.load();
+    if (d[id] === v) delete d[id]; else d[id] = v;
+    this.save();
+  }
+};
+
+// 본문에 찍힌 표시별로 줄을 모아 보는 기준.
+// 원문 마커를 그대로 쓰므로 데이터가 바뀌어도 따로 손볼 것이 없다.
+const MARKS = [
+  { key:'star1', name:'★',    test: h => /class="cs-star">★<\/span>/.test(h) },
+  { key:'star2', name:'★★',   test: h => /class="cs-star">★★<\/span>/.test(h) },
+  { key:'star3', name:'★★★',  test: h => /class="cs-star">★{3,}<\/span>/.test(h) },
+  { key:'amgi',  name:'암기',  test: h => h.indexOf('【암기】') > -1 },
+  { key:'choi',  name:'최신판례', test: h => /【최판】|【判例20\d\d】|【大判全合/.test(h) },
+  { key:'gaek',  name:'객관식', test: h => /【객빈】|【[^】]*(선택형|객관식)[^】]*】/.test(h) },
+  { key:'sarye', name:'사례형', test: h => /【[^】]*사례[^】]*】/.test(h) },
+  { key:'girok', name:'기록형', test: h => /【[^】]*기록[^】]*】/.test(h) },
+  { key:'exam',  name:'변시 기출', test: h => /class="cs-exam">【변\d/.test(h) },
+  { key:'ox',    name:'O·X 결론', test: h => /class="cs-(?:o|x)"/.test(h) }
+];
+
+// 마커 집계는 데이터가 바뀌지 않는 한 그대로다 — 과목별로 한 번만 센다
+const MARK_COUNTS = {};
+function markCounts(subject, rows) {
+  if (!rows || !rows.length) return {};
+  if (MARK_COUNTS[subject]) return MARK_COUNTS[subject];
+  const res = {};
+  MARKS.forEach(m => { res[m.key] = collect(rows, m.key).count; });
+  MARK_COUNTS[subject] = res;
+  return res;
+}
+
+// 표시가 붙은 줄만 뽑아 단원별로 묶는다. 제목을 누르면 그 단원으로 간다.
+function collect(rows, key, catName) {
+  const def = MARKS.filter(m => m.key === key)[0];
+  if (!def) return { count: 0, html: '' };
+  const out = [];
+  let count = 0;
+  (rows || []).forEach(row => {
+    const id = row[0], title = row[1], html = row[2], cat = row[5];
+    const lines = (html || '').match(/<div class="cs-(?:li|ans-in)[^"]*"[^>]*>[\s\S]*?<\/div>/g) || [];
+    const hit = lines.filter(def.test);
+    if (!hit.length) return;
+    count += hit.length;
+    out.push('<div class="cs-h" style="cursor:pointer" onclick="window.__lawmjOpen(&quot;' + id + '&quot;)">'
+      + (catName ? catName(cat) : cat) + ' · ' + title + ' <span class="cs-stat">' + hit.length + '건</span></div>'
+      + hit.map(l => l.replace(/margin-left:\d+px/, 'margin-left:0px')).join(''));
+  });
+  return { count: count, html: out.join('') };
+}
+
 class Component extends DCLogic {
-  state = { track:'민사법', subject:'민법', view:'toc', chapter:null, filter:'전체', size:0, fold:false, quizOpen:false, shown:{}, crimPart:0 };
+  state = { track:'민사법', subject:'민법', view:'toc', chapter:null, filter:'전체', size:0, fold:false, quizOpen:false, shown:{}, crimPart:0, mark:null };
 
   componentDidMount() {
     if (!window.CRIM_GAKRON_CONCEPT || !window.CIVIL_CHAECHONG) {
       const t = setInterval(() => { if (window.CRIM_GAKRON_CONCEPT && window.CIVIL_CHAECHONG) { clearInterval(t); this.forceUpdate(); } }, 200);
       setTimeout(() => clearInterval(t), 8000);
     }
+    // 모아보기에서 단원 제목을 눌렀을 때 그 단원으로 이동
+    window.__lawmjOpen = id => {
+      const parts = dataFor(this.state.subject) || [];
+      const all = parts.reduce((a, p) => a.concat(p.topics), []);
+      const hit = all.filter(t => t.id === id)[0];
+      if (hit) this.setState({ mark:null, view:'page', chapter:hit.title, shown:{} });
+    };
   }
+
+  progOf(id) { return PROG.get(id); }
+
+  markProg(id, kind) { if (id) { PROG.toggle(id, kind); this.forceUpdate(); } }
 
   hasData() { return !!dataFor(this.state.subject); }
 
@@ -343,7 +428,7 @@ class Component extends DCLogic {
     return CIVIL.parts[0].chapters;
   }
 
-  openChapter(title) { this.setState({ view:'page', chapter:title, shown:{} }); }
+  openChapter(title) { this.setState({ view:'page', chapter:title, shown:{}, mark:null }); }
 
   step(dir) {
     const list = this.chapterList();
@@ -365,7 +450,11 @@ class Component extends DCLogic {
     const civil = st.track === '민사법' && st.subject === '민법' && !crim;
     const crimParts = crim ? (dataFor(st.subject) || []) : [];
     const chapters = this.chapterList();
-    const done = civil ? CIVIL.doneChapters : 0;
+    const rows = crim ? (window[(DATASETS[st.subject] || {}).key] || []) : [];
+    const stateOf = id => PROG.get(id);
+    const doneIds = rows.filter(r => stateOf(r[0]) === 'done').length;
+    const weakIds = rows.filter(r => stateOf(r[0]) === 'weak').length;
+    const done = crim ? doneIds : (civil ? CIVIL.doneChapters : 0);
 
     const tracks = Object.keys(TRACKS).map(name => {
       const on = name === st.track;
@@ -387,6 +476,11 @@ class Component extends DCLogic {
         color: on ? '#fff' : '#767c85', weight: on ? 600 : 500, pick: () => this.setState({ filter:name }) };
     });
 
+    const keep = t => st.filter === '전체' ? true
+      : st.filter === '✓ 완료' ? stateOf(t.id) === 'done'
+      : st.filter === '미학습' ? !stateOf(t.id)
+      : stateOf(t.id) === 'weak';
+
     const visible = chapters.filter(c =>
       st.filter === '전체' ? true :
       st.filter === '✓ 완료' ? c.pct === 100 :
@@ -399,16 +493,31 @@ class Component extends DCLogic {
     }));
 
     const crimDecorate = list => list.map(t => ({
-      title: t.title, sub: (t.tags || []).slice(0, 3).join(' · ') || (DATASETS[st.subject] || {}).unit + ' ' + t.id,
-      concepts: 1, cases: (t.html.match(/cs-o|cs-x/g) || []).length, pct: '0%',
+      title: (stateOf(t.id) === 'done' ? '✓ ' : stateOf(t.id) === 'weak' ? '★ ' : '') + t.title,
+      sub: (t.tags || []).slice(0, 3).join(' · ') || (DATASETS[st.subject] || {}).unit + ' ' + t.id,
+      concepts: 1, cases: (t.html.match(/cs-o|cs-x/g) || []).length,
+      pct: stateOf(t.id) === 'done' ? '100%' : stateOf(t.id) === 'weak' ? '50%' : '0%',
       tags: (t.tags || []).slice(0, 3).map(x => Object.assign({ text: x }, this.tagStyle(/^§|\d/.test(x) ? 'grey' : 'chip'))),
       open: () => this.openChapter(t.title)
     }));
 
+    const counts = crim ? markCounts(st.subject, rows) : {};
+    const marks = crim ? MARKS.filter(m => counts[m.key] > 0).map(m => {
+      const on = st.mark === m.key;
+      return { name: m.name + ' ' + counts[m.key], bg: on ? th.accent : '#fff', border: on ? 'transparent' : 'rgba(45,48,56,.11)',
+        color: on ? '#fff' : '#767c85', weight: on ? 600 : 500,
+        pick: () => this.setState(on ? { mark:null, view:'toc' } : { mark:m.key, view:'page', chapter:null, quizOpen:false }) };
+    }) : [];
+
+    const catNames = {};
+    ((DATASETS[st.subject] || {}).cats ? DATASETS[st.subject].cats() : []).forEach(c => { catNames[c[0]] = c[1]; });
+    const picked = st.mark ? collect(rows, st.mark, c => catNames[c] || c) : null;
+    const markName = st.mark ? (MARKS.filter(m => m.key === st.mark)[0] || {}).name : '';
+
     const parts = civil
       ? [{ label:'PART 1', name:'채권총론', count: visible.length + '개 장', chapters: decorate(visible) }]
       : crim && crimParts.length
-        ? crimParts.map((p, i) => ({ label:'분류 ' + (i + 1), name: p.name, count: p.topics.length + '개 ' + (DATASETS[st.subject] || {}).unit, chapters: crimDecorate(p.topics) }))
+        ? crimParts.map((p, i) => ({ label:'분류 ' + (i + 1), name: p.name, count: p.topics.length + '개 ' + (DATASETS[st.subject] || {}).unit, chapters: crimDecorate(p.topics.filter(keep)) }))
         : [];
 
     const navParts = crim && crimParts.length ? crimParts.map((p, i) => ({
@@ -440,7 +549,7 @@ class Component extends DCLogic {
       rule:'rgba(45,48,56,.08)', countColor:'#a8adb4', open:false, chapters:[], pick: () => {}
     }))] : [];
 
-    const crimTopic = crim && st.chapter
+    const crimTopic = crim && !st.mark && st.chapter
       ? (crimParts.reduce((a, p) => a.concat(p.topics), []).find(t => t.title === st.chapter) || null)
       : null;
     const crimCards = crimTopic ? crimQuiz(crimTopic.html) : [];
@@ -450,7 +559,11 @@ class Component extends DCLogic {
           tags: (crimTopic.tags || []).map(x => [x, /^§|\d/.test(x) ? 'grey' : 'chip']),
           sections: [], margins: crimCards.slice(0, 3).map(c => ({ badge: c.badge, text: c.text.slice(0, 60) })),
           quiz: crimCards, rich: crimTopic.html }
-      : (PAGE[st.chapter] || null);
+      : picked
+        ? { eyebrow: st.subject + ' · 표시 모아보기', pageNo:'', caseCount: picked.count, quizCount: 0,
+            tags: [[markName, 'chip'], [picked.count + '건', 'grey']],
+            sections: [], margins: [], quiz: [], rich: picked.html || '<div class="cs-li">표시된 줄이 없습니다.</div>' }
+        : (PAGE[st.chapter] || null);
     const sizeSet = SIZES[st.size];
 
     const sections = page ? page.sections.map(s => ({
@@ -478,7 +591,7 @@ class Component extends DCLogic {
     const idx = list.findIndex(c => c.title === st.chapter);
 
     return {
-      tracks, subjects, filters, parts, navParts, hasParts: navParts.length > 0,
+      tracks, subjects, filters, marks, parts, navParts, hasParts: navParts.length > 0,
       accent: th.accent, accentInk: th.ink, accentSoft: th.soft, accentTint: th.tint, sidebarBg: th.sidebar,
       crumb: st.track + ' · ' + st.subject, subjectName: st.subject,
       sourceNote: civil ? CIVIL.source
@@ -486,17 +599,19 @@ class Component extends DCLogic {
         : '준비 중 — 민법 · 형법각론이 먼저 열려 있습니다',
       dday: 154,
       totalQ: civil ? CIVIL.totalQ : crim ? crimParts.reduce((a, p) => a + p.topics.length, 0) : 0,
-      wrongQ: civil ? CIVIL.wrongQ : 0,
+      wrongQ: crim ? weakIds : (civil ? CIVIL.wrongQ : 0),
       doneCount: done,
       topicCount: civil ? CIVIL.topicCount : crim ? crimParts.reduce((a, p) => a + p.topics.length, 0) : 0,
-      progressPct: (civil ? Math.round(done / CIVIL.topicCount * 100) : 0) + '%',
+      progressPct: (civil ? Math.round(done / CIVIL.topicCount * 100)
+        : crim && rows.length ? Math.round(doneIds / rows.length * 100) : 0) + '%',
       isEmpty: parts.length === 0,
       isRich: !!(page && page.rich),
       richBody: page && page.rich
         ? React.createElement('div', { style: { fontSize: sizeSet[1] }, dangerouslySetInnerHTML: { __html: page.rich } })
         : null,
       isToc: st.view === 'toc' || !page, isPage: st.view === 'page' && !!page,
-      chapterTitle: st.chapter || '', pageEyebrow: page ? page.eyebrow : '', pageNo: page ? page.pageNo : '',
+      chapterTitle: picked ? markName + ' 모아보기' : (st.chapter || ''),
+      pageEyebrow: page ? page.eyebrow : '', pageNo: page ? page.pageNo : '',
       pageTags: page ? page.tags.map(([text, kind]) => Object.assign({ text }, this.tagStyle(kind))) : [],
       sections, margins, showCases: !st.fold,
       statute: crimTopic ? ((crimTopic.tags || []).join(' · ') || '조문 태그 없음') : STATUTE,
@@ -511,7 +626,16 @@ class Component extends DCLogic {
       revealed: Object.values(st.shown).filter(Boolean).length,
       toggleQuiz: () => this.setState(s => ({ quizOpen: !s.quizOpen })),
       stop: e => e.stopPropagation(),
-      goToc: () => this.setState({ view:'toc', quizOpen:false }),
+      goToc: () => this.setState({ view:'toc', quizOpen:false, mark:null }),
+      showProg: !!crimTopic,
+      doneBg: crimTopic && stateOf(crimTopic.id) === 'done' ? '#7fa38f' : '#fff',
+      doneBorder: crimTopic && stateOf(crimTopic.id) === 'done' ? 'transparent' : 'rgba(45,48,56,.1)',
+      doneColor: crimTopic && stateOf(crimTopic.id) === 'done' ? '#fff' : '#767c85',
+      toggleDone: () => this.markProg(crimTopic && crimTopic.id, 'done'),
+      weakBg: crimTopic && stateOf(crimTopic.id) === 'weak' ? '#c2857f' : '#fff',
+      weakBorder: crimTopic && stateOf(crimTopic.id) === 'weak' ? 'transparent' : 'rgba(45,48,56,.1)',
+      weakColor: crimTopic && stateOf(crimTopic.id) === 'weak' ? '#fff' : '#767c85',
+      toggleWeak: () => this.markProg(crimTopic && crimTopic.id, 'weak'),
       prev: () => this.step(-1), next: () => this.step(1),
       prevTitle: idx > 0 ? list[idx - 1].title : list[list.length - 1].title,
       nextTitle: idx >= 0 && idx < list.length - 1 ? list[idx + 1].title : list[0].title
