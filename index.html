@@ -38,7 +38,7 @@
 <sc-for list="{{ navParts }}" as="p" hint-placeholder-count="4">
 <div style="display:flex;flex-direction:column">
 <sc-if value="{{ p.hasHead }}" hint-placeholder-val="{{ false }}">
-<div style="margin:16px 0 0;padding:8px 16px 7px;background:{{ accentHead }};border-bottom:1.5px solid {{ accent }};font:700 13px 'Noto Serif KR',serif;color:{{ accentHeadInk }};letter-spacing:1.5px;text-align:center">{{ p.head }}</div>
+<div style="margin:17px 14px 8px;padding:7px 12px;border-radius:999px;background:{{ accentHead }};border:1px solid {{ accent }};font:700 12.5px 'Noto Serif KR',serif;color:{{ accentHeadInk }};letter-spacing:1.5px;text-align:center">{{ p.head }}</div>
 </sc-if>
 <div style="padding:9px 16px;display:flex;align-items:flex-start;gap:8px;cursor:pointer;background:{{ p.headBg }}" onClick="{{ p.pick }}"><div style="width:3px;height:13px;border-radius:2px;background:{{ p.bar }};flex:none;margin-top:3px"></div><div style="flex:1;min-width:0;font-weight:{{ p.weight }};font-size:12.5px;line-height:1.45;color:{{ p.color }};word-break:keep-all">{{ p.name }}</div><div style="font:500 10.5px/1.6 Pretendard,sans-serif;color:{{ p.countColor }};white-space:nowrap;flex:none">{{ p.count }}</div></div>
 <sc-if value="{{ p.open }}" hint-placeholder-val="{{ true }}">
