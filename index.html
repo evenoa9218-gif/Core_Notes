@@ -232,9 +232,9 @@
 </x-dc>
 <script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1180,&quot;height&quot;:800}}">
 const THEMES = {
-  민사법: { accent:'#d9a3b0', ink:'#96566a', soft:'#f3dfe4', tint:'#fbf7f8', sidebar:'#fbf6f7', chip:'#f7f0f2', head:'#f4dde4', headInk:'#8a4a60' },
-  형사법: { accent:'#9dbcd4', ink:'#4f7593', soft:'#dfeaf3', tint:'#f5f9fc', sidebar:'#f6fafc', chip:'#eef4f9', head:'#dfebf4', headInk:'#456a8d' },
-  공법:   { accent:'#8aa89c', ink:'#556d63', soft:'#e3ebe6', tint:'#f4f7f5', sidebar:'#f6f9f7', chip:'#eef2ef', head:'#e2ece6', headInk:'#48624f' }
+  민사법: { accent:'#d9a3b0', ink:'#96566a', soft:'#f3dfe4', tint:'#fbf7f8', sidebar:'#fbf6f7', chip:'#f7f0f2', head:'#f4dde4', headInk:'#8a4a60', pick:'#f8e8ed' },
+  형사법: { accent:'#9dbcd4', ink:'#4f7593', soft:'#dfeaf3', tint:'#f5f9fc', sidebar:'#f6fafc', chip:'#eef4f9', head:'#dfebf4', headInk:'#456a8d', pick:'#eaf2f8' },
+  공법:   { accent:'#8aa89c', ink:'#556d63', soft:'#e3ebe6', tint:'#f4f7f5', sidebar:'#f6f9f7', chip:'#eef2ef', head:'#e2ece6', headInk:'#48624f', pick:'#ecf3ef' }
 };
 const TRACKS = {
   민사법: ['민법','민사소송법','상법'],
@@ -544,7 +544,7 @@ class Component extends DCLogic {
       return {
       head: sp[0], hasHead: newSubject,
       name: sp[1], count: p.topics.length + (DATASETS[st.subject] || {}).unit,
-      headBg: i === st.crimPart ? th.soft : 'transparent',
+      headBg: i === st.crimPart ? th.pick : 'transparent',
       bar: i === st.crimPart ? th.accent : 'transparent',
       color: i === st.crimPart ? '#2f333a' : '#767c85', weight: i === st.crimPart ? 700 : 600,
       rule: i === st.crimPart ? 'transparent' : 'rgba(45,48,56,.08)',
@@ -558,7 +558,7 @@ class Component extends DCLogic {
         open: () => this.openChapter(t.title)
       }))
     }; }) : civil ? [{
-      name:'채권총론', count: CIVIL.doneChapters + '/13', headBg: th.soft, bar: th.accent, color:'#2f333a', weight:700,
+      name:'채권총론', count: CIVIL.doneChapters + '/13', headBg: th.pick, bar: th.accent, color:'#2f333a', weight:700,
       rule:'transparent', countColor: th.ink, open:true, pick: () => this.setState({ view:'toc' }),
       chapters: chapters.map(c => ({
         title: c.title, dot: c.pct > 0 ? th.accent : 'rgba(45,48,56,.14)',
