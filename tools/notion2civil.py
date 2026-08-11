@@ -25,13 +25,20 @@ INDENT = 16  # 들여쓰기 한 단계 = 16px (형사법 데이터와 같은 값
 def inline(s):
     s = s.replace('\\[', '[').replace('\\]', ']')
     s = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', s)
+    # 사례 링크 — 대괄호 처리보다 먼저 걷어내야 링크 제목이 사실관계로 오인되지 않는다
+    s = re.sub(r'\[([^\]]+)\]\((https?://[^)]+)\)',
+               r'<a href="\2" target="_blank" rel="noopener">\1</a>', s)
 
     # 밑줄
     s = re.sub(r'<span underline="true">(.*?)</span>', r'<span class="cs-u">\1</span>', s)
+    # 【…】 마커(判例·통설·암기·객빈·변모) — 형광펜 규칙보다 먼저다.
+    # 【객빈】처럼 배경색으로 칠해진 것도 있어서 뒤로 두면 형광펜으로 먹힌다.
+    # 【변10 기록】처럼 볼드까지 걸린 것이 있어 <strong> 를 함께 받는다
+    s = re.sub(r'<span color="[a-z_]+">(<strong>)?(【[^】]*】)(</strong>)?</span>',
+               lambda m: '<span class="cs-exam">%s%s%s</span>'
+                         % (m.group(1) or '', m.group(2), m.group(3) or ''), s)
     # 형광펜(_bg 계열) — 인접한 조각이 여러 개로 쪼개져 오므로 하나씩 감싼다
     s = re.sub(r'<span color="[a-z]+_bg">(.*?)</span>', r'<span class="cs-hl">\1</span>', s)
-    # 【…】 마커(判例·통설·암기)
-    s = re.sub(r'<span color="[a-z]+">(【[^】]*】)</span>', r'<span class="cs-exam">\1</span>', s)
     # 결론 (O)/(X)
     s = re.sub(r'<span color="[a-z]+">\s*<strong>\((O)\)</strong>\s*</span>',
                r'<span class="cs-o"><strong>(O)</strong></span>', s)
@@ -48,7 +55,7 @@ def inline(s):
         return '<span class="%s">[%s]</span>' % (cls, body)
     s = re.sub(r'\[([^\[\]]{4,})\]', bracket, s)
 
-    s = re.sub(r'^★\s*', '<span class="cs-star">★</span>', s)
+    s = re.sub(r'^(★+)\s*', r'<span class="cs-star">\1</span>', s)
     return s.strip()
 
 
@@ -75,10 +82,11 @@ def convert(md):
         depth = len(raw) - len(raw.lstrip('\t'))
         line = raw.strip()
 
+        if re.match(r'^\*\(.*\)\*$', line):       # *(사례형 정리 — 추가 예정)* 자리표시자
+            continue
+
         m = HEAD_RE.match(line)
         if m:
-            if m.group(1).strip() == 'CASE':      # 사례형 자리표시자는 싣지 않는다
-                break
             close_theory()
             out.append('<div class="cs-h">%s</div>' % inline(m.group(1)))
             continue
