@@ -20,10 +20,10 @@ PAIRS = [
     ('★',          r'★',                        r'★'),
     ('(O)',        r'\(O\)',                    r'class="cs-o"'),
     ('(X)',        r'\(X\)',                    r'class="cs-x"'),
-    ('【…】',       r'【[^】]*】',                r'class="cs-exam"'),
+    ('【…】(마커)', r'<span color="[a-z_]+">(?:\*\*)?【[^】]*】(?:\*\*)?</span>', r'class="cs-exam"'),
     ('正辯',        r'正辯',                      r'正辯'),
     ('밑줄',        r'<span underline="true">',   r'class="cs-u"'),
-    ('형광펜',      r'<span color="[a-z]+_bg">(?!【)', r'class="cs-hl"'),
+    ('형광펜',      r'<span color="[a-z]+_bg">(?!(?:\*\*)?【[^】]*】(?:\*\*)?</span>)', r'class="cs-hl"'),
     ('####제목',    r'(?m)^#{2,4}\s',            r'class="cs-h"'),
 ]
 
