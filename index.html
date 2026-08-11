@@ -40,7 +40,7 @@
 <sc-if value="{{ p.hasHead }}" hint-placeholder-val="{{ false }}">
 <div style="margin:17px 14px 8px;padding:7px 12px;border-radius:999px;background:{{ accentHead }};border:1px solid {{ accent }};font:700 12.5px/1.45 Pretendard,sans-serif;color:{{ accentHeadInk }};text-align:center">{{ p.head }}</div>
 </sc-if>
-<div style="padding:9px 16px;display:flex;align-items:flex-start;gap:8px;cursor:pointer;background:{{ p.headBg }}" onClick="{{ p.pick }}"><div style="width:3px;height:13px;border-radius:2px;background:{{ p.bar }};flex:none;margin-top:3px"></div><div style="flex:1;min-width:0;font-weight:{{ p.weight }};font-size:12.5px;line-height:1.45;color:{{ p.color }};word-break:keep-all">{{ p.name }}</div><div style="font:500 10.5px/1.6 Pretendard,sans-serif;color:{{ p.countColor }};white-space:nowrap;flex:none">{{ p.count }}</div></div>
+<div style="padding:9px 16px;display:flex;align-items:flex-start;gap:8px;cursor:pointer;background:{{ p.headBg }}" onClick="{{ p.pick }}"><div style="width:3px;height:13px;border-radius:2px;background:{{ p.bar }};flex:none;margin-top:3px"></div><div style="flex:1;min-width:0;font-weight:{{ p.weight }};font-size:12.5px;line-height:1.45;color:{{ p.color }};word-break:keep-all"><span style="color:{{ p.numColor }}">{{ p.num }}</span>{{ p.rest }}</div><div style="font:500 10.5px/1.6 Pretendard,sans-serif;color:{{ p.countColor }};white-space:nowrap;flex:none">{{ p.count }}</div></div>
 <sc-if value="{{ p.open }}" hint-placeholder-val="{{ true }}">
 <div style="padding:9px 16px 9px 26px;display:flex;flex-direction:column;gap:11px">
 <sc-for list="{{ p.chapters }}" as="c" hint-placeholder-count="6">
@@ -546,7 +546,10 @@ class Component extends DCLogic {
       name: sp[1], count: p.topics.length + (DATASETS[st.subject] || {}).unit,
       headBg: i === st.crimPart ? th.pick : 'transparent',
       bar: i === st.crimPart ? th.accent : 'transparent',
-      color: th.headInk, weight: i === st.crimPart ? 700 : 600,
+      num: (sp[1].match(/^(제\d+[편장절관])\s*/) || ['', ''])[1],
+      rest: sp[1].replace(/^제\d+[편장절관]/, ''),
+      numColor: i === st.crimPart ? '#2f333a' : th.headInk,
+      color: i === st.crimPart ? '#2f333a' : '#767c85', weight: i === st.crimPart ? 700 : 600,
       rule: i === st.crimPart ? 'transparent' : 'rgba(45,48,56,.08)',
       countColor: i === st.crimPart ? th.ink : '#a8adb4',
       open: i === st.crimPart,
@@ -558,7 +561,7 @@ class Component extends DCLogic {
         open: () => this.openChapter(t.title)
       }))
     }; }) : civil ? [{
-      name:'채권총론', count: CIVIL.doneChapters + '/13', headBg: th.pick, bar: th.accent, color:'#2f333a', weight:700,
+      name:'채권총론', num:'', rest:'채권총론', numColor:'#2f333a', count: CIVIL.doneChapters + '/13', headBg: th.pick, bar: th.accent, color:'#2f333a', weight:700,
       rule:'transparent', countColor: th.ink, open:true, pick: () => this.setState({ view:'toc' }),
       chapters: chapters.map(c => ({
         title: c.title, dot: c.pct > 0 ? th.accent : 'rgba(45,48,56,.14)',
@@ -567,7 +570,7 @@ class Component extends DCLogic {
         open: () => this.openChapter(c.title)
       }))
     }, ...['채권각론','민법총칙','물권법'].map(name => ({
-      name, count:'0/16', head:'', hasHead:false, headBg:'transparent', bar:'transparent', color:'#767c85', weight:600,
+      name, num:'', rest:name, numColor:'#767c85', count:'0/16', head:'', hasHead:false, headBg:'transparent', bar:'transparent', color:'#767c85', weight:600,
       rule:'rgba(45,48,56,.08)', countColor:'#a8adb4', open:false, chapters:[], pick: () => {}
     }))] : [];
 
