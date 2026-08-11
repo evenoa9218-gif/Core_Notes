@@ -38,7 +38,7 @@
 <sc-for list="{{ navParts }}" as="p" hint-placeholder-count="4">
 <div style="display:flex;flex-direction:column">
 <sc-if value="{{ p.hasHead }}" hint-placeholder-val="{{ false }}">
-<div style="margin:12px 12px 3px;padding:7px 11px;border-radius:8px;background:{{ accentSoft }};font:700 13.5px 'Noto Serif KR',serif;color:{{ accentInk }};letter-spacing:-.2px">{{ p.head }}</div>
+<div style="margin:12px 12px 3px;padding:7px 11px;border-radius:8px;background:{{ accentHead }};font:700 13.5px 'Noto Serif KR',serif;color:{{ accentHeadInk }};letter-spacing:-.2px;text-align:center">{{ p.head }}</div>
 </sc-if>
 <div style="padding:9px 16px;display:flex;align-items:flex-start;gap:8px;cursor:pointer;background:{{ p.headBg }}" onClick="{{ p.pick }}"><div style="width:3px;height:13px;border-radius:2px;background:{{ p.bar }};flex:none;margin-top:3px"></div><div style="flex:1;min-width:0;font-weight:{{ p.weight }};font-size:12.5px;line-height:1.45;color:{{ p.color }};word-break:keep-all">{{ p.name }}</div><div style="font:500 10.5px/1.6 Pretendard,sans-serif;color:{{ p.countColor }};white-space:nowrap;flex:none">{{ p.count }}</div></div>
 <sc-if value="{{ p.open }}" hint-placeholder-val="{{ true }}">
@@ -232,9 +232,9 @@
 </x-dc>
 <script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1180,&quot;height&quot;:800}}">
 const THEMES = {
-  민사법: { accent:'#d9a3b0', ink:'#96566a', soft:'#f3dfe4', tint:'#fbf7f8', sidebar:'#fbf6f7', chip:'#f7f0f2' },
-  형사법: { accent:'#9dbcd4', ink:'#4f7593', soft:'#dfeaf3', tint:'#f5f9fc', sidebar:'#f6fafc', chip:'#eef4f9' },
-  공법:   { accent:'#8aa89c', ink:'#556d63', soft:'#e3ebe6', tint:'#f4f7f5', sidebar:'#f6f9f7', chip:'#eef2ef' }
+  민사법: { accent:'#d9a3b0', ink:'#96566a', soft:'#f3dfe4', tint:'#fbf7f8', sidebar:'#fbf6f7', chip:'#f7f0f2', head:'#e8c2ce', headInk:'#7a4055' },
+  형사법: { accent:'#9dbcd4', ink:'#4f7593', soft:'#dfeaf3', tint:'#f5f9fc', sidebar:'#f6fafc', chip:'#eef4f9', head:'#bfd5e6', headInk:'#3a6082' },
+  공법:   { accent:'#8aa89c', ink:'#556d63', soft:'#e3ebe6', tint:'#f4f7f5', sidebar:'#f6f9f7', chip:'#eef2ef', head:'#c6d8cf', headInk:'#3d574c' }
 };
 const TRACKS = {
   민사법: ['민법','민사소송법','상법'],
@@ -614,7 +614,7 @@ class Component extends DCLogic {
 
     return {
       tracks, subjects, filters, marks, parts, navParts, hasParts: navParts.length > 0,
-      accent: th.accent, accentInk: th.ink, accentSoft: th.soft, accentTint: th.tint, sidebarBg: th.sidebar,
+      accent: th.accent, accentInk: th.ink, accentSoft: th.soft, accentTint: th.tint, accentHead: th.head, accentHeadInk: th.headInk, sidebarBg: th.sidebar,
       crumb: st.track + ' · ' + st.subject, subjectName: st.subject,
       sourceNote: civil ? CIVIL.source
         : crim ? (DATASETS[st.subject] || {}).label + ' · ' + crimParts.length + '개 장 / ' + crimParts.reduce((a, p) => a + p.topics.length, 0) + '개 ' + (DATASETS[st.subject] || {}).unit
