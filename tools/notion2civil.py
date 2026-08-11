@@ -74,7 +74,33 @@ def convert(md):
             out.append('</div>')
             in_theory = False
 
-    for raw in md.split('\n'):
+    lines = md.split('\n')
+    i = -1
+    while i + 1 < len(lines):
+        i += 1
+        raw = lines[i]
+
+        # 표는 손대지 않고 그대로 흘려보낸다 (사이트의 table.sub 서식을 쓴다)
+        if raw.lstrip().startswith('<table'):
+            buf = []
+            while i < len(lines):
+                buf.append(lines[i])
+                if '</table>' in lines[i]:
+                    break
+                i += 1
+            close_theory()
+            tbl = '\n'.join(buf)
+            head = 'header-row="true"' in tbl
+            tbl = re.sub(r'<table[^>]*>', '<table class="sub">', tbl)
+            if head:                                   # 첫 행은 머리행으로
+                first = re.search(r'<tr>.*?</tr>', tbl, re.S)
+                if first:
+                    tbl = (tbl[:first.start()]
+                           + first.group(0).replace('<td>', '<th>').replace('</td>', '</th>')
+                           + tbl[first.end():])
+            out.append('<div class="cs-tbl" style="overflow-x:auto">%s</div>' % tbl)
+            continue
+
         if not raw.strip() or raw.strip() == '---':
             continue
         if raw.startswith('<!--'):
