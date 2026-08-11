@@ -13,9 +13,12 @@
 <div style="min-height:100vh;background:#f7f7f9;display:flex;font-family:Pretendard,sans-serif;color:#2f333a">
 
 <div style="width:256px;flex:none;background:{{ sidebarBg }};border-right:1px solid rgba(45,48,56,.09);display:flex;flex-direction:column;position:sticky;top:0;height:100vh;overflow:hidden">
-<div style="padding:20px 20px 15px;display:flex;flex-direction:column;gap:4px;border-bottom:1px solid rgba(45,48,56,.08)">
-<div style="font:700 18px 'Noto Serif KR',serif;color:#2f333a;letter-spacing:-.2px">⚖️ LawMJ Mastery</div>
+<div style="padding:20px 20px 15px;display:flex;align-items:center;gap:9px;border-bottom:1px solid rgba(45,48,56,.08)">
+<div style="font-size:19px;line-height:1;flex:none">⚖️</div>
+<div style="display:flex;flex-direction:column;gap:3px;min-width:0">
+<div style="font:700 18px 'Noto Serif KR',serif;color:#2f333a;letter-spacing:-.2px;white-space:nowrap">LawMJ Mastery</div>
 <div style="font:400 10.5px Pretendard,sans-serif;color:#8e939b">변호사시험 암기장</div>
+</div>
 </div>
 
 <div style="padding:14px 14px 12px;display:flex;gap:6px">
@@ -34,7 +37,7 @@
 <sc-if value="{{ hasParts }}" hint-placeholder-val="{{ true }}">
 <sc-for list="{{ navParts }}" as="p" hint-placeholder-count="4">
 <div style="display:flex;flex-direction:column">
-<div style="padding:9px 16px;display:flex;align-items:center;gap:8px;cursor:pointer;background:{{ p.headBg }}" onClick="{{ p.pick }}"><div style="width:3px;height:13px;border-radius:2px;background:{{ p.bar }}"></div><div style="font-weight:{{ p.weight }};font-size:12.5px;color:{{ p.color }};white-space:nowrap">{{ p.name }}</div><div style="flex:1;height:1px;background:{{ p.rule }}"></div><div style="font:500 10.5px Pretendard,sans-serif;color:{{ p.countColor }};white-space:nowrap">{{ p.count }}</div></div>
+<div style="padding:9px 16px;display:flex;align-items:flex-start;gap:8px;cursor:pointer;background:{{ p.headBg }}" onClick="{{ p.pick }}"><div style="width:3px;height:13px;border-radius:2px;background:{{ p.bar }};flex:none;margin-top:3px"></div><div style="flex:1;min-width:0;font-weight:{{ p.weight }};font-size:12.5px;line-height:1.45;color:{{ p.color }};word-break:keep-all">{{ p.name }}</div><div style="font:500 10.5px/1.6 Pretendard,sans-serif;color:{{ p.countColor }};white-space:nowrap;flex:none">{{ p.count }}</div></div>
 <sc-if value="{{ p.open }}" hint-placeholder-val="{{ true }}">
 <div style="padding:9px 16px 9px 26px;display:flex;flex-direction:column;gap:11px">
 <sc-for list="{{ p.chapters }}" as="c" hint-placeholder-count="6">
