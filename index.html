@@ -96,7 +96,7 @@
 <div style="max-width:380px;display:flex;flex-direction:column;gap:11px;align-items:center;text-align:center">
 <div style="width:38px;height:38px;border-radius:11px;background:{{ accentSoft }};display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px;color:{{ accentInk }}">{{ subjectName }}</div>
 <div style="font:700 15px Pretendard,sans-serif;color:#2f333a;letter-spacing:-.3px">아직 준비 중인 과목입니다</div>
-<div style="font:400 12.5px/1.7 Pretendard,sans-serif;color:#8e939b">현재는 민법(채권총론)과 형법각론 논점이 열려 있습니다. 자료가 추가되면 같은 구조로 목차가 채워집니다.</div>
+<div style="font:400 12.5px/1.7 Pretendard,sans-serif;color:#8e939b">현재는 민법 72단원(채권총론·채권각론·민법총칙·물권법)과 형법각론 논점이 열려 있습니다. 자료가 추가되면 같은 구조로 목차가 채워집니다.</div>
 </div>
 </div>
 </sc-if>
@@ -501,7 +501,8 @@ class Component extends DCLogic {
     const crimDecorate = list => list.map(t => ({
       title: (stateOf(t.id) === 'done' ? '✓ ' : stateOf(t.id) === 'weak' ? '△ ' : '') + t.title,
       sub: (t.tags || []).slice(0, 3).join(' · ') || (DATASETS[st.subject] || {}).unit + ' ' + t.id,
-      concepts: 1, cases: (t.html.match(/cs-o|cs-x/g) || []).length,
+      concepts: Math.max(1, (t.html.match(/class="cs-h"/g) || []).length),
+      cases: (t.html.match(/判例|大判全合|통판|【판례】/g) || []).length,
       pct: stateOf(t.id) === 'done' ? '100%' : stateOf(t.id) === 'weak' ? '50%' : '0%',
       tags: (t.tags || []).slice(0, 3).map(x => Object.assign({ text: x }, this.tagStyle(/^§|\d/.test(x) ? 'grey' : 'chip'))),
       open: () => this.openChapter(t.title)
