@@ -4,6 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>LawMJ Mastery</title>
+<script>
+/* React 를 저장소 사본으로 돌린다 — CDN 이 막히거나 오프라인이어도 앱이 뜬다.
+   support.js 의 cdnScriptFor() 가 이 표를 먼저 본다. 파일은 unpkg 원본과
+   sha384 가 일치함을 확인하고 받아둔 것. */
+window.__resources = {
+  "https://unpkg.com/react@18.3.1/umd/react.production.min.js": "./vendor/react.production.min.js",
+  "https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js": "./vendor/react-dom.production.min.js"
+};
+</script>
 <script src="./support.js"></script>
 </head>
 <body>
@@ -243,26 +252,6 @@ const TRACKS = {
 };
 const STATUTE = '§404 ① 채권자는 자기의 채권을 보전하기 위하여 채무자의 권리를 행사할 수 있다.';
 
-const CIVIL = {
-  source: '로스쿨 민법의 정석 9판 · 채권총론 → 채권각론 → 민법총칙 → 물권법',
-  totalQ: 40, wrongQ: 0, doneChapters: 3, topicCount: 54,
-  parts: [
-    { label:'PART 1', name:'채권총론', chapters:[
-      { title:'제1장 서설', sub:'채권 일반 · 채무의 분류', concepts:1, cases:2, pct:100,
-        tags:[['채권의 의의','chip'],['채무의 분류','chip'],['기본적 효력','chip']] },
-      { title:'제2장 채권의 목적', sub:'특정물 · 종류 · 외화 · 이자 · 선택', concepts:4, cases:11, pct:45,
-        tags:[['특정물채권 §374','grey'],['종류채권 §375','grey'],['이자채권 §379','grey']] },
-      { title:'제3장 채무불이행', sub:'이행지체 · 이행불능 · 이행거절 · 불완전', concepts:10, cases:45, pct:0,
-        tags:[['공통요건·입증책임','chip'],['이행보조자 §391','grey'],['이행지체 §387~','grey']] },
-      { title:'제4장 손해배상', sub:'범위 · 산정 · 예정 · 과실상계', concepts:9, cases:51, pct:0,
-        tags:[['배상범위 §393','grey'],['과실상계 §396','grey'],['배상액예정 §398','grey']] },
-      { title:'제5장 채권자대위권', sub:'보전의 필요성 · 행사방법 · 효과', concepts:9, cases:43, pct:0,
-        tags:[['요건 §404','grey'],['보전필요성','chip'],['피대위권리','chip']] },
-      { title:'제6장 채권자취소권', sub:'사해행위 · 사해의사 · 원상회복', concepts:24, cases:134, pct:0,
-        tags:[['요건 §406','grey'],['사해의사','chip'],['제척기간','chip']] }
-    ]}
-  ]
-};
 
 const PAGE = {
   '제5장 채권자대위권': {
@@ -431,13 +420,14 @@ class Component extends DCLogic {
       if (!d) return [];
       return (d[this.state.crimPart] || d[0]).topics.map(t => ({ title: t.title, id: t.id }));
     }
-    return CIVIL.parts[0].chapters;
+    return [];
   }
 
   openChapter(title) { this.setState({ view:'page', chapter:title, shown:{}, mark:null }); }
 
   step(dir) {
     const list = this.chapterList();
+    if (!list.length) return;                       // 자료 없는 과목 — 넘길 단원이 없다
     const i = list.findIndex(c => c.title === this.state.chapter);
     const n = list[(i + dir + list.length) % list.length];
     this.openChapter(n.title);
@@ -453,14 +443,13 @@ class Component extends DCLogic {
   renderVals() {
     const st = this.state, th = this.theme();
     const crim = this.hasData();
-    const civil = st.track === '민사법' && st.subject === '민법' && !crim;
     const crimParts = crim ? (dataFor(st.subject) || []) : [];
     const chapters = this.chapterList();
     const rows = crim ? (window[(DATASETS[st.subject] || {}).key] || []) : [];
     const stateOf = id => PROG.get(id);
     const doneIds = rows.filter(r => stateOf(r[0]) === 'done').length;
     const weakIds = rows.filter(r => stateOf(r[0]) === 'weak').length;
-    const done = crim ? doneIds : (civil ? CIVIL.doneChapters : 0);
+    const done = crim ? doneIds : 0;
 
     const tracks = Object.keys(TRACKS).map(name => {
       const on = name === st.track;
@@ -486,17 +475,6 @@ class Component extends DCLogic {
       : st.filter === '✓ 완료' ? stateOf(t.id) === 'done'
       : st.filter === '미학습' ? !stateOf(t.id)
       : stateOf(t.id) === 'weak';
-
-    const visible = chapters.filter(c =>
-      st.filter === '전체' ? true :
-      st.filter === '✓ 완료' ? c.pct === 100 :
-      st.filter === '미학습' ? c.pct === 0 : c.pct > 0 && c.pct < 100);
-
-    const decorate = list => list.map(c => Object.assign({}, c, {
-      pct: c.pct + '%',
-      tags: c.tags.map(([text, kind]) => Object.assign({ text }, this.tagStyle(kind))),
-      open: () => this.openChapter(c.title)
-    }));
 
     const crimDecorate = list => list.map(t => ({
       title: (stateOf(t.id) === 'done' ? '✓ ' : stateOf(t.id) === 'weak' ? '△ ' : '') + t.title,
@@ -526,9 +504,7 @@ class Component extends DCLogic {
     const picked = st.mark ? collect(rows, st.mark, c => catNames[c] || c) : null;
     const markName = st.mark ? (MARKS.filter(m => m.key === st.mark)[0] || {}).name : '';
 
-    const parts = civil
-      ? [{ label:'PART 1', name:'채권총론', count: visible.length + '개 장', chapters: decorate(visible) }]
-      : crim && crimParts.length
+    const parts = crim && crimParts.length
         ? crimParts.map((p, i) => {
             const sp = splitCat(p.name);
             return { label: sp[0] || ('분류 ' + (i + 1)), name: sp[1],
@@ -561,19 +537,7 @@ class Component extends DCLogic {
         weight: t.title === st.chapter ? 600 : 400,
         open: () => this.openChapter(t.title)
       }))
-    }; }) : civil ? [{
-      name:'채권총론', num:'', rest:'채권총론', numColor:'#2f333a', count: CIVIL.doneChapters + '/13', headBg: th.pick, bar: th.accent, color:'#2f333a', weight:700,
-      rule:'transparent', countColor: th.ink, open:true, pick: () => this.setState({ view:'toc' }),
-      chapters: chapters.map(c => ({
-        title: c.title, dot: c.pct > 0 ? th.accent : 'rgba(45,48,56,.14)',
-        color: c.title === st.chapter ? '#2f333a' : '#767c85',
-        weight: c.title === st.chapter ? 600 : 400,
-        open: () => this.openChapter(c.title)
-      }))
-    }, ...['채권각론','민법총칙','물권법'].map(name => ({
-      name, num:'', rest:name, numColor:'#767c85', count:'0/16', head:'', hasHead:false, headBg:'transparent', bar:'transparent', color:'#767c85', weight:600,
-      rule:'rgba(45,48,56,.08)', countColor:'#a8adb4', open:false, chapters:[], pick: () => {}
-    }))] : [];
+    }; }) : [];
 
     const crimTopic = crim && !st.mark && st.chapter
       ? (crimParts.reduce((a, p) => a.concat(p.topics), []).find(t => t.title === st.chapter) || null)
@@ -620,16 +584,14 @@ class Component extends DCLogic {
       tracks, subjects, filters, marks, parts, navParts, hasParts: navParts.length > 0,
       accent: th.accent, accentInk: th.ink, accentSoft: th.soft, accentTint: th.tint, accentHead: th.head, accentHeadInk: th.headInk, sidebarBg: th.sidebar,
       crumb: st.track + ' · ' + st.subject, subjectName: st.subject,
-      sourceNote: civil ? CIVIL.source
-        : crim ? (DATASETS[st.subject] || {}).label + ' · ' + crimParts.length + '개 장 / ' + crimParts.reduce((a, p) => a + p.topics.length, 0) + '개 ' + (DATASETS[st.subject] || {}).unit
+      sourceNote: crim ? (DATASETS[st.subject] || {}).label + ' · ' + crimParts.length + '개 장 / ' + crimParts.reduce((a, p) => a + p.topics.length, 0) + '개 ' + (DATASETS[st.subject] || {}).unit
         : '준비 중 — 민법 · 형법각론이 먼저 열려 있습니다',
       dday: 154,
-      totalQ: civil ? CIVIL.totalQ : crim ? crimParts.reduce((a, p) => a + p.topics.length, 0) : 0,
-      wrongQ: crim ? weakIds : (civil ? CIVIL.wrongQ : 0),
+      totalQ: crim ? crimParts.reduce((a, p) => a + p.topics.length, 0) : 0,
+      wrongQ: crim ? weakIds : 0,
       doneCount: done,
-      topicCount: civil ? CIVIL.topicCount : crim ? crimParts.reduce((a, p) => a + p.topics.length, 0) : 0,
-      progressPct: (civil ? Math.round(done / CIVIL.topicCount * 100)
-        : crim && rows.length ? Math.round(doneIds / rows.length * 100) : 0) + '%',
+      topicCount: crim ? crimParts.reduce((a, p) => a + p.topics.length, 0) : 0,
+      progressPct: (crim && rows.length ? Math.round(doneIds / rows.length * 100) : 0) + '%',
       isEmpty: parts.length === 0,
       isRich: !!(page && page.rich),
       richBody: page && page.rich
@@ -663,8 +625,8 @@ class Component extends DCLogic {
       weakColor: crimTopic && stateOf(crimTopic.id) === 'weak' ? '#fff' : '#767c85',
       toggleWeak: () => this.markProg(crimTopic && crimTopic.id, 'weak'),
       prev: () => this.step(-1), next: () => this.step(1),
-      prevTitle: idx > 0 ? list[idx - 1].title : list[list.length - 1].title,
-      nextTitle: idx >= 0 && idx < list.length - 1 ? list[idx + 1].title : list[0].title
+      prevTitle: !list.length ? '' : idx > 0 ? list[idx - 1].title : list[list.length - 1].title,
+      nextTitle: !list.length ? '' : idx >= 0 && idx < list.length - 1 ? list[idx + 1].title : list[0].title
     };
   }
 }
