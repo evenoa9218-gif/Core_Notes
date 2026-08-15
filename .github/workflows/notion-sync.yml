@@ -29,7 +29,9 @@ jobs:
       # 다시 받을 뿐이니(3분쯤) 없어도 동작은 같다.
       - uses: actions/cache@v4
         with:
-          path: tools/notion_raw
+          path: |
+            tools/notion_raw
+            tools/notion_raw_crim
           key: notion-raw-${{ github.run_id }}
           restore-keys: notion-raw-
 
@@ -37,13 +39,16 @@ jobs:
         env:
           # 시크릿 이름을 NOTIONTOKEN 으로 등록해 둔 상태라 두 이름 다 받는다
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN || secrets.NOTIONTOKEN }}
-        run: python tools/sync_notion.py
+        run: |
+          python tools/sync_notion.py
+          python tools/sync_crim.py
+          python tools/build_criminal.py
 
       - name: commit & push
         run: |
           git config user.name "notion-sync"
           git config user.email "noreply@github.com"
-          git add data-civil.js
+          git add data-civil.js data-criminal.js
           git diff --cached --quiet && echo "바뀐 것 없음" && exit 0
           git commit -m "sync: 노션 수정분 반영 (자동)"
           git push
