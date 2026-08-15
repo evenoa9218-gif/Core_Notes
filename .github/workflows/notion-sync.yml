@@ -1,0 +1,48 @@
+# 노션 「로민정 단원」 → data-civil.js 자동 반영.
+#
+# 노션에서 단원을 고쳐 두면 매일 새벽에 알아서 반영된다. 급하면 GitHub 의
+# Actions 탭에서 Run workflow 버튼을 누른다. 둘 다 Claude 토큰은 0이다.
+#
+# 사전 준비(한 번만): 저장소 Settings → Secrets and variables → Actions 에
+# NOTION_TOKEN 시크릿을 등록한다.
+name: notion-sync
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 20 * * *'   # 매일 05:00 KST
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # notion_raw 는 gitignore 라 캐시로 이어받는다. 캐시가 비면 전량을
+      # 다시 받을 뿐이니(3분쯤) 없어도 동작은 같다.
+      - uses: actions/cache@v4
+        with:
+          path: tools/notion_raw
+          key: notion-raw-${{ github.run_id }}
+          restore-keys: notion-raw-
+
+      - name: sync
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+        run: python tools/sync_notion.py
+
+      - name: commit & push
+        run: |
+          git config user.name "notion-sync"
+          git config user.email "noreply@github.com"
+          git add data-civil.js
+          git diff --cached --quiet && echo "바뀐 것 없음" && exit 0
+          git commit -m "sync: 노션 수정분 반영 (자동)"
+          git push

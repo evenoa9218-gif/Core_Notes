@@ -1,7 +1,13 @@
 """노션 「로민정 단원」 DB → tools/notion_raw/*.md → data-civil.js.
 
-    set NOTION_TOKEN=ntn_...        (한 번만)
-    python tools/sync_notion.py 채권총론
+    setx NOTION_TOKEN ntn_...       (한 번만, 새 터미널부터 적용)
+    python tools/sync_notion.py             # 4과목 전부, 바뀐 페이지만
+    python tools/sync_notion.py 채권총론     # 한 과목만
+    python tools/sync_notion.py --full      # 전량 다시 받기
+
+노션 페이지 하나를 고치면 그 페이지만 다시 받는다. 페이지 목록 조회가
+과목당 1회이고, last_edited_time 이 저장된 것과 같으면 본문 요청을 건너뛴다.
+그래서 "노션에서 한 단원 수정 → 실행" 이 몇 초로 끝난다.
 
 토큰은 노션 통합(Integration)의 시크릿이다. 저장소에 넣지 말 것 —
 환경변수 또는 GitHub Actions Secret 으로만 넘긴다.
@@ -110,12 +116,10 @@ def prop(p):
     return None
 
 
-def main():
-    if not TOKEN:
-        sys.exit('NOTION_TOKEN 환경변수가 없다.')
-    subject = sys.argv[1] if len(sys.argv) > 1 else '채권총론'
-    RAW.mkdir(parents=True, exist_ok=True)
+MANIFEST = RAW / '_manifest.json'   # 페이지 id → 마지막으로 받은 last_edited_time
 
+
+def sync_subject(subject, manifest, full):
     rows, cursor = [], None
     while True:
         res = call('POST', '/databases/%s/query' % DB,
@@ -126,21 +130,53 @@ def main():
             break
         cursor = res['next_cursor']
 
-    props = [{k: prop(v) for k, v in r['properties'].items()} | {'_id': r['id']} for r in rows]
+    props = [{k: prop(v) for k, v in r['properties'].items()}
+             | {'_id': r['id'], '_edited': r.get('last_edited_time', '')} for r in rows]
     props.sort(key=lambda p: p.get('번호') or 0)
-    print('%s %d단원' % (subject, len(props)))
 
+    expected, changed = set(), 0
     for p in props:
+        out = RAW / ('%s-%s.md' % (subject, p.get('번호')))
+        expected.add(out.name)
+        # 속성만 바꿔도 last_edited_time 이 바뀌므로 놓치는 수정은 없다
+        if not full and manifest.get(p['_id']) == p['_edited'] and out.exists():
+            continue
         body = '\n'.join(blocks(p['_id']))
         meta = {k: p[k] for k in ('과목', '번호', '주제', '장', '절', '관', '원본 p.', '판례태그') if k in p}
-        out = RAW / ('%s-%s.md' % (subject, p.get('번호')))
         io.open(out, 'w', encoding='utf-8', newline='\n').write(
             '<!-- notion-page: %s -->\n<!-- props: %s -->\n%s\n'
             % (p['_id'].replace('-', ''), json.dumps(meta, ensure_ascii=False), body))
-        print('  %-3s %-24s %6.1fKB' % (p.get('번호'), p.get('주제'), out.stat().st_size / 1024))
+        manifest[p['_id']] = p['_edited']
+        changed += 1
+        print('  받음 %-3s %-24s %6.1fKB' % (p.get('번호'), p.get('주제'), out.stat().st_size / 1024))
+
+    # 번호가 바뀌거나 페이지가 빠지면 옛 파일이 남는다 — 남겨두면 사이트에 유령 단원이 생긴다
+    for old in RAW.glob('%s-*.md' % subject):
+        if old.name not in expected:
+            old.unlink()
+            print('  삭제 %s (노션에 더 없음)' % old.name)
+    print('%s: %d단원 중 %d개 갱신' % (subject, len(props), changed))
+    return changed
+
+
+def main():
+    if not TOKEN:
+        sys.exit('NOTION_TOKEN 환경변수가 없다.')
+    args = [a for a in sys.argv[1:] if a != '--full']
+    full = '--full' in sys.argv
+    RAW.mkdir(parents=True, exist_ok=True)
+    # --full 이어도 기록은 남긴다 — 지우면 다음 증분 실행이 전량을 다시 받는다
+    manifest = json.loads(MANIFEST.read_text(encoding='utf-8')) if MANIFEST.exists() else {}
 
     import notion2civil
-    notion2civil.main.__globals__['sys'].argv = ['notion2civil', subject]
+    subjects = args or notion2civil.SUBJECTS
+    total = sum(sync_subject(s, manifest, full) for s in subjects)
+    MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=0), encoding='utf-8')
+
+    if total == 0:
+        print('바뀐 페이지 없음 — data-civil.js 그대로')
+        return
+    notion2civil.main.__globals__['sys'].argv = ['notion2civil']   # 전 과목으로 다시 빌드
     notion2civil.main()
 
 
