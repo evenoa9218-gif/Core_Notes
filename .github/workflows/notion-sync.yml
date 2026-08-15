@@ -35,7 +35,8 @@ jobs:
 
       - name: sync
         env:
-          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          # 시크릿 이름을 NOTIONTOKEN 으로 등록해 둔 상태라 두 이름 다 받는다
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN || secrets.NOTIONTOKEN }}
         run: python tools/sync_notion.py
 
       - name: commit & push
