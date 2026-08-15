@@ -27,6 +27,7 @@ def strip_raw(text):
 
 def strip_html(h):
     s = re.sub(r'<[^>]+>', '', h)
+    s = s.replace('&lt;', '<').replace('&gt;', '>').replace('&amp;', '&')
     return re.sub(r'[\s​]+', '', s)
 
 

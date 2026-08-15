@@ -37,7 +37,9 @@ EXAM_RE = re.compile(r'^【[^】]*】\s*$')
 
 
 def esc(s):
-    return s  # 노션 본문에 < > 가 원문 글자로 오는 일은 없다(태그는 rt 가 만든 것뿐)
+    # 본문에 부등호가 진짜 글자로 온다 — "고의범 법정형 < 부진정결과적가중범"
+    # (형총041). 안 벗기면 브라우저가 태그로 읽고 뒷문장을 삼킨다
+    return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
 
 
 def runs_of(line):
@@ -225,23 +227,44 @@ def collect(lines, i, closer):
 
 
 def render_toggle(summary, inner):
-    """토글 → CASE 상자. 모범답안 표시 앞뒤로 사실관계/답안을 가른다."""
+    """토글 → CASE 상자.
+
+    구조가 둘이다.
+      ① 이중 토글: 바깥 [CASE] 토글 안에 summary 가 '모범답안'인 토글이 또 있다.
+         안쪽 토글의 표식 줄을 글자로 흘리면 안 되므로 구조로 갈라낸다.
+      ② 평면: '모범답안' 이라는 줄 뒤에 답안이 이어진다.
+    """
     base = min((depth_of(x) for x in inner if x.strip()), default=0)
-    split = None
+
+    # ① 안쪽 모범답안 토글을 찾는다
+    for k, x in enumerate(inner):
+        if x.strip() != '<details>':
+            continue
+        if k + 1 < len(inner) and '모범답안' in inner[k + 1] and inner[k + 1].strip().startswith('<summary>'):
+            ans_lines, after = collect(inner, k + 2, '</details>')
+            fact, _ = parse_blocks(inner[:k], 0, base)
+            tail = inner[after:]
+            ans_base = min((depth_of(y) for y in ans_lines if y.strip()), default=0)
+            ans, _ = parse_blocks(ans_lines + tail, 0, ans_base)
+            return _case(summary, fact, ans)
+
+    # ② 평면 표기
     for k, x in enumerate(inner):
         if '모범답안' in x and depth_of(x) - base <= 1:
-            split = k
-            break
-    if split is None:
-        body, _ = parse_blocks(inner, 0, base)
-        return ('<details class="cs-case"><summary>%s</summary>'
-                '<div class="cs-case-in">%s</div></details>' % (inline(summary), body))
-    fact, _ = parse_blocks(inner[:split], 0, base)
-    ans, _ = parse_blocks(inner[split:], 0, base)
+            fact, _ = parse_blocks(inner[:k], 0, base)
+            ans, _ = parse_blocks(inner[k + 1:], 0, base)
+            return _case(summary, fact, ans)
+
+    body, _ = parse_blocks(inner, 0, base)
+    return ('<details class="cs-case"><summary>%s</summary>'
+            '<div class="cs-case-in">%s</div></details>' % (inline(summary), body))
+
+
+def _case(summary, fact, ans):
     return ('<details class="cs-case"><summary>%s</summary>'
             '<div class="cs-case-in"><div class="cs-fact">%s</div>'
-            '<div class="cs-ans-in">%s</div></div></details>'
-            % (inline(summary), fact, ans))
+            '<div class="cs-ans-in"><div class="cs-li"><strong>모범답안</strong></div>%s</div>'
+            '</div></details>' % (inline(summary), fact, ans))
 
 
 # ── 단원 ──────────────────────────────────────────────
