@@ -33,13 +33,18 @@ def call(method, path, body=None):
                  'Notion-Version': '2022-06-28',
                  'Content-Type': 'application/json',
                  'User-Agent': 'core-notes-sync/1.0'})   # UA 없으면 앞단에서 막힌다
-    for attempt in range(5):
+    for attempt in range(8):
         try:
             with urllib.request.urlopen(req, timeout=60) as r:
+                time.sleep(0.34)     # 초당 3회 제한을 애초에 안 밟는다
                 return json.loads(r.read().decode())
         except urllib.error.HTTPError as e:
-            if e.code == 429 and attempt < 4:            # 초당 3회 제한
-                time.sleep(2 ** attempt)
+            if e.code == 429 and attempt < 7:
+                # 분당 제한에 걸리면 "몇 분 뒤에 다시" 수준으로 길게 기다려야 한다.
+                # 짧은 지수 백오프(최대 8초)로는 같은 창에 다시 부딪혀 죽는다.
+                wait = max(int(e.headers.get('Retry-After') or 0), 20 * (attempt + 1))
+                print('  429 — %d초 대기' % wait, flush=True)
+                time.sleep(wait)
                 continue
             sys.exit('%s %s → %s\n%s' % (method, path, e.code, e.read().decode()[:400]))
     return None
@@ -83,6 +88,15 @@ def blocks(bid, depth=0, acc=None):
             data = b.get(t) or {}
             text = rt(data.get('rich_text'))
             pad = '\t' * depth
+            if t == 'toggle':
+                # 형사법 CASE 가 토글이다. 여는/닫는 표시를 잃으면 변환기가
+                # 접이식 구조를 복원할 수 없어서 details 로 감싸 보존한다
+                acc.append('%s<details>' % pad)
+                acc.append('%s<summary>%s</summary>' % (pad, text))
+                if b.get('has_children'):
+                    blocks(b['id'], depth + 1, acc)
+                acc.append('%s</details>' % pad)
+                continue
             if t in HEADS:
                 acc.append('%s %s' % (HEADS[t], text))
             elif t == 'bulleted_list_item' or t == 'numbered_list_item':
