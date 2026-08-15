@@ -59,7 +59,10 @@ def rt(items):
         if a.get('underline'): t = '<span underline="true">%s</span>' % t
         color = a.get('color', 'default')
         if color != 'default':
-            t = '<span color="%s">%s</span>' % (color, t)
+            # API 는 yellow_background, MCP 방언(notion2civil 이 아는 쪽)은 yellow_bg.
+            # 이걸 안 맞추면 형광펜 규칙이 못 알아보고 색만 벗겨 낸다 — 실제로
+            # 첫 동기화에서 형광펜 수천 개가 통째로 사라졌었다.
+            t = '<span color="%s">%s</span>' % (color.replace('_background', '_bg'), t)
         if it.get('href'):
             t = '[%s](%s)' % (t, it['href'])
         out.append(t)
@@ -93,7 +96,23 @@ def blocks(bid, depth=0, acc=None):
             elif t == 'code':
                 acc.append('%s`%s`' % (pad, text))
             elif t == 'table':
-                acc.append('<!-- table: %d행 — 확인 필요 -->' % (data.get('table_width') or 0))
+                # 행은 children(table_row)으로 온다. MCP 방언과 같은 HTML 로 펴서
+                # notion2civil 의 표 처리(<table class="sub">, 첫 행 th 승격)에 태운다
+                rows, tcur = [], None
+                while True:
+                    tq = '/blocks/%s/children?page_size=100' % b['id'] + (('&start_cursor=' + tcur) if tcur else '')
+                    tres = call('GET', tq)
+                    for row in tres['results']:
+                        cells = (row.get('table_row') or {}).get('cells') or []
+                        rows.append('<tr>' + ''.join(
+                            '<td>%s</td>' % ''.join(x.get('plain_text', '') for x in c)
+                            for c in cells) + '</tr>')
+                    if not tres.get('has_more'):
+                        break
+                    tcur = tres['next_cursor']
+                acc.append('<table%s>' % (' header-row="true"' if data.get('has_column_header') else ''))
+                acc += rows
+                acc.append('</table>')
             elif text:
                 acc.append(pad + text)
             if b.get('has_children') and t != 'table':
