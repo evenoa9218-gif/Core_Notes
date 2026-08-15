@@ -88,6 +88,16 @@ def blocks(bid, depth=0, acc=None):
             data = b.get(t) or {}
             text = rt(data.get('rich_text'))
             pad = '\t' * depth
+            if t == 'callout':
+                # 형법의 조문박스가 callout 이다. 색과 경계를 잃으면 조문 전문이
+                # 본문과 구분 없이 섞인다
+                acc.append('%s<callout color="%s">' % (pad, data.get('color', '')))
+                if text:
+                    acc.append('%s%s' % ('\t' * (depth + 1), text))
+                if b.get('has_children'):
+                    blocks(b['id'], depth + 1, acc)
+                acc.append('%s</callout>' % pad)
+                continue
             if t == 'toggle':
                 # 형사법 CASE 가 토글이다. 여는/닫는 표시를 잃으면 변환기가
                 # 접이식 구조를 복원할 수 없어서 details 로 감싸 보존한다
