@@ -8,6 +8,8 @@ python tools\sync_notion.py %*
 if errorlevel 1 goto :fail
 python tools\sync_crim.py %*
 if errorlevel 1 goto :fail
+python tools\verify_fidelity.py
+if errorlevel 1 goto :fail
 python tools\build_criminal.py
 if errorlevel 1 goto :fail
 python tools\sync_minso.py %*

@@ -43,6 +43,7 @@ jobs:
         run: |
           python tools/sync_notion.py
           python tools/sync_crim.py
+          python tools/verify_fidelity.py
           python tools/build_criminal.py
           python tools/sync_minso.py
           python tools/build_minso.py

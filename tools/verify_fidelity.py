@@ -56,6 +56,8 @@ def main():
                   % (p.stem, len(a), len(b), a[max(0, i - 15):i + 25], b[max(0, i - 15):i + 25]))
             bad += 1
     print('총 %d단원 / 불일치 %d' % (total, bad))
+    if bad:
+        sys.exit(1)      # CI 가 변환 회귀를 배포하지 못하게 명시적으로 실패한다
 
 
 if __name__ == '__main__':
