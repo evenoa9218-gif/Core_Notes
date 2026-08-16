@@ -32,6 +32,7 @@ jobs:
           path: |
             tools/notion_raw
             tools/notion_raw_crim
+            tools/notion_raw_minso
           key: notion-raw-${{ github.run_id }}
           restore-keys: notion-raw-
 
@@ -43,12 +44,14 @@ jobs:
           python tools/sync_notion.py
           python tools/sync_crim.py
           python tools/build_criminal.py
+          python tools/sync_minso.py
+          python tools/build_minso.py
 
       - name: commit & push
         run: |
           git config user.name "notion-sync"
           git config user.email "noreply@github.com"
-          git add data-civil.js data-criminal.js
+          git add data-civil.js data-criminal.js data-minso.js
           git diff --cached --quiet && echo "바뀐 것 없음" && exit 0
           git commit -m "sync: 노션 수정분 반영 (자동)"
           git push

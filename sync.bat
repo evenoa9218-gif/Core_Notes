@@ -10,8 +10,12 @@ python tools\sync_crim.py %*
 if errorlevel 1 goto :fail
 python tools\build_criminal.py
 if errorlevel 1 goto :fail
+python tools\sync_minso.py %*
+if errorlevel 1 goto :fail
+python tools\build_minso.py
+if errorlevel 1 goto :fail
 
-git add data-civil.js data-criminal.js
+git add data-civil.js data-criminal.js data-minso.js
 git diff --cached --quiet
 if not errorlevel 1 (
   echo 바뀐 것이 없어 배포하지 않습니다.

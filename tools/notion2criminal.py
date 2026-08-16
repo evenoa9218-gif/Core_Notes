@@ -57,20 +57,28 @@ def runs_of(line):
         elif tok == '</b>':
             bold = max(0, bold - 1)
         elif tok.startswith('<span'):
+            # 색과 밑줄이 한 태그에 같이 붙는 표기도 있다 (민소 조문:
+            # <span color="blue" underline="true">) — 둘 다 집계한다
             m = re.search(r'color="([a-z_]+)"', tok)
-            if m:
+            has_u = 'underline' in tok
+            if m and has_u:
+                stack.append('cu:' + m.group(1))
+                ul += 1
+            elif m:
                 stack.append('c:' + m.group(1))
-            elif 'underline' in tok:
+            elif has_u:
                 stack.append('u')
                 ul += 1
             else:
                 stack.append('?')
         elif tok == '</span>':
             if stack:
-                if stack.pop() == 'u':
+                top = stack.pop()
+                if top == 'u' or top.startswith('cu:'):
                     ul = max(0, ul - 1)
         else:
-            color = next((s[2:] for s in reversed(stack) if s.startswith('c:')), None)
+            color = next((s.split(':', 1)[1] for s in reversed(stack)
+                          if s.startswith(('c:', 'cu:'))), None)
             out.append([tok, color, bold > 0, ul > 0])
     return out
 
@@ -194,6 +202,10 @@ def parse_blocks(lines, i, base):
             continue
 
         i += 1
+        if line.startswith('#### ') or line.startswith('### ') or line.startswith('## '):
+            # 민소는 로마자 제목이 heading 블록으로 온다 (형법·형소는 평문 줄)
+            out.append('<div class="cs-h">%s</div>' % inline(line.lstrip('#').strip()))
+            continue
         if line.startswith('- '):
             out.append('<div class="cs-li cs-bul" style="margin-left:%dpx">%s</div>'
                        % (max(0, d) * INDENT, inline(line[2:])))

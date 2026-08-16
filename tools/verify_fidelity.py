@@ -20,6 +20,7 @@ def strip_raw(text):
     s = re.sub(r'</?(?:callout|details|summary|table|tr|td)[^>]*>', '', s)
     s = re.sub(r'</?span[^>]*>', '', s)
     s = s.replace('*', '').replace('`', '')
+    s = re.sub(r'^\s*#+\s*', '', s, flags=re.M)   # heading 표식은 html 에서 cs-h 로 바뀐다
     s = re.sub(r'^\s*-\s*$', '', s, flags=re.M)
     s = re.sub(r'^\s*-\s', '', s, flags=re.M)
     return re.sub(r'[\s​]+', '', s)
