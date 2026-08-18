@@ -12,13 +12,37 @@ window.__resources = {
   "https://unpkg.com/react@18.3.1/umd/react.production.min.js": "./vendor/react.production.min.js",
   "https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js": "./vendor/react-dom.production.min.js"
 };
+
+/* 데이터(합계 5.7MB)는 과목에 들어갈 때 받는다 — 진입 시엔 앱 껍데기만.
+   같은 파일은 두 번 받지 않고, 로딩 완료 시 대기 중인 재렌더 콜백 하나를 깨운다. */
+window.__dataState = {};   // 파일명 → 'loading' | 'done' | 'fail'
+window.__dataWake = {};    // 파일명 → 로딩 끝나면 부를 콜백 (마지막 것 하나만)
+window.__loadData = function (file, onDone) {
+  var st = window.__dataState[file];
+  if (st === 'done') return;
+  window.__dataWake[file] = onDone;
+  if (st === 'loading') return;
+  window.__dataState[file] = 'loading';
+  var s = document.createElement('script');
+  s.src = './' + file;
+  s.onload = function () {
+    window.__dataState[file] = 'done';
+    var f = window.__dataWake[file]; delete window.__dataWake[file];
+    if (f) f();
+  };
+  s.onerror = function () {
+    window.__dataState[file] = 'fail';
+    var f = window.__dataWake[file]; delete window.__dataWake[file];
+    if (f) f();
+  };
+  document.head.appendChild(s);
+};
 </script>
 <script src="./support.js"></script>
 </head>
 <body>
 <x-dc>
-<helmet><template id="__bundler_thumbnail"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><rect width="120" height="120" fill="#fbf6f7"/><rect x="36" y="34" width="48" height="52" rx="6" fill="#d9a3b0"/><rect x="46" y="46" width="28" height="4" rx="2" fill="#fff"/><rect x="46" y="56" width="28" height="4" rx="2" fill="#fff" opacity=".7"/><rect x="46" y="66" width="18" height="4" rx="2" fill="#fff" opacity=".5"/></svg></template><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600;700&display=swap"><script src="data-minso.js"></script>
-<script src="data-criminal.js"></script><script src="data-civil.js"></script><style>.cs-h{font-weight:700;font-size:15.5px;letter-spacing:-.2px;color:#23262c;margin:20px 0 10px}.cs-h:first-child{margin-top:0}.cs-theory{display:flex;flex-direction:column;gap:7px;margin-bottom:12px}.cs-li{font-size:14.5px;line-height:1.9;color:#33373e;letter-spacing:-.1px}.cs-bul::before{content:"· ";color:#9aa0a8}.cs-fact-tag{display:inline-block;padding:2px 7px;border-radius:6px;background:#f2f4f7;color:#6b7580;font-size:11.5px;margin-right:5px}.cs-neg-tag{display:inline-block;padding:2px 7px;border-radius:6px;background:#f7efee;color:#a1655f;font-size:11.5px;margin-right:5px}.cs-o{display:inline-block;min-width:17px;text-align:center;padding:1px 5px;border-radius:5px;background:#7fa38f;color:#fff;font-size:11px;font-weight:700}.cs-x{display:inline-block;min-width:17px;text-align:center;padding:1px 5px;border-radius:5px;background:#c2857f;color:#fff;font-size:11px;font-weight:700}.cs-exam{display:inline-block;padding:2px 7px;border-radius:6px;background:#dfeaf3;color:#4f7593;font-size:11px;font-weight:600;margin-left:5px}.cs-crime{font-weight:700;color:#23262c}.cs-stat{color:#6b7580;font-size:12.5px}.cs-statute{display:inline-block;padding:2px 7px;border-radius:6px;background:#f2f4f7;color:#6b7580;font-size:11.5px}.cs-issue{font-weight:600;color:#2f333a}.cs-case{border:1px solid rgba(45,48,56,.12);border-radius:10px;overflow:hidden;margin:14px 0}.cs-case-in{padding:14px 15px;display:flex;flex-direction:column;gap:9px}.cs-fact{font-size:14px;line-height:1.9;color:#33373e}.cs-ans,.cs-ans-in{font-size:13.5px;line-height:1.9;color:#4b525c;background:#fcfcfd;border-radius:8px;padding:12px 13px}.cs-u{text-decoration:underline;text-underline-offset:3px;text-decoration-color:#c9ced6}.cs-hl{background:#fdf1f3;border-radius:3px;padding:0 1px}.cs-star{color:#c58b98;font-weight:700;margin-right:4px}.cs-def{background:#f6efe7;border-radius:3px;padding:0 2px}.cs-glabel{display:inline-block;background:#f2f4f7;border-radius:5px;padding:1px 6px;font-size:12.5px;font-weight:600;color:#4b525c}.cs-sub{display:inline-block;background:#fdf3e7;border-radius:5px;padding:1px 6px;font-weight:700;color:#8a6a3c}.cs-gbg{background:#edf5ef;border-radius:3px;padding:0 2px}.cs-red{color:#b3564e}.cs-green{color:#4e7a5e}.cs-blue{color:#4f7593}.cs-callout{border:1px solid rgba(45,48,56,.1);border-left:3px solid #9dbcd4;background:#f5f9fc;border-radius:8px;padding:10px 12px;margin:10px 0;font-size:13.2px}.cs-case summary{cursor:pointer;padding:11px 14px;font-weight:600;background:#fbfbfc}body{margin:0;background:#f7f7f9;font-family:Pretendard,system-ui,sans-serif;-webkit-font-smoothing:antialiased}*{word-break:keep-all;overflow-wrap:break-word}a{color:#96566a}a:hover{color:#7a4256}</style></helmet>
+<helmet><template id="__bundler_thumbnail"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><rect width="120" height="120" fill="#fbf6f7"/><rect x="36" y="34" width="48" height="52" rx="6" fill="#d9a3b0"/><rect x="46" y="46" width="28" height="4" rx="2" fill="#fff"/><rect x="46" y="56" width="28" height="4" rx="2" fill="#fff" opacity=".7"/><rect x="46" y="66" width="18" height="4" rx="2" fill="#fff" opacity=".5"/></svg></template><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600;700&display=swap"><link rel="preload" as="script" href="data-civil.js"><style>.cs-h{font-weight:700;font-size:15.5px;letter-spacing:-.2px;color:#23262c;margin:20px 0 10px}.cs-h:first-child{margin-top:0}.cs-theory{display:flex;flex-direction:column;gap:7px;margin-bottom:12px}.cs-li{font-size:14.5px;line-height:1.9;color:#33373e;letter-spacing:-.1px}.cs-bul::before{content:"· ";color:#9aa0a8}.cs-fact-tag{display:inline-block;padding:2px 7px;border-radius:6px;background:#f2f4f7;color:#6b7580;font-size:11.5px;margin-right:5px}.cs-neg-tag{display:inline-block;padding:2px 7px;border-radius:6px;background:#f7efee;color:#a1655f;font-size:11.5px;margin-right:5px}.cs-o{display:inline-block;min-width:17px;text-align:center;padding:1px 5px;border-radius:5px;background:#7fa38f;color:#fff;font-size:11px;font-weight:700}.cs-x{display:inline-block;min-width:17px;text-align:center;padding:1px 5px;border-radius:5px;background:#c2857f;color:#fff;font-size:11px;font-weight:700}.cs-exam{display:inline-block;padding:2px 7px;border-radius:6px;background:#dfeaf3;color:#4f7593;font-size:11px;font-weight:600;margin-left:5px}.cs-crime{font-weight:700;color:#23262c}.cs-stat{color:#6b7580;font-size:12.5px}.cs-statute{display:inline-block;padding:2px 7px;border-radius:6px;background:#f2f4f7;color:#6b7580;font-size:11.5px}.cs-issue{font-weight:600;color:#2f333a}.cs-case{border:1px solid rgba(45,48,56,.12);border-radius:10px;overflow:hidden;margin:14px 0}.cs-case-in{padding:14px 15px;display:flex;flex-direction:column;gap:9px}.cs-fact{font-size:14px;line-height:1.9;color:#33373e}.cs-ans,.cs-ans-in{font-size:13.5px;line-height:1.9;color:#4b525c;background:#fcfcfd;border-radius:8px;padding:12px 13px}.cs-u{text-decoration:underline;text-underline-offset:3px;text-decoration-color:#c9ced6}.cs-hl{background:#fdf1f3;border-radius:3px;padding:0 1px}.cs-star{color:#c58b98;font-weight:700;margin-right:4px}.cs-def{background:#f6efe7;border-radius:3px;padding:0 2px}.cs-glabel{display:inline-block;background:#f2f4f7;border-radius:5px;padding:1px 6px;font-size:12.5px;font-weight:600;color:#4b525c}.cs-sub{display:inline-block;background:#fdf3e7;border-radius:5px;padding:1px 6px;font-weight:700;color:#8a6a3c}.cs-gbg{background:#edf5ef;border-radius:3px;padding:0 2px}.cs-red{color:#b3564e}.cs-green{color:#4e7a5e}.cs-blue{color:#4f7593}.cs-callout{border:1px solid rgba(45,48,56,.1);border-left:3px solid #9dbcd4;background:#f5f9fc;border-radius:8px;padding:10px 12px;margin:10px 0;font-size:13.2px}.cs-case summary{cursor:pointer;padding:11px 14px;font-weight:600;background:#fbfbfc}body{margin:0;background:#f7f7f9;font-family:Pretendard,system-ui,sans-serif;-webkit-font-smoothing:antialiased}*{word-break:keep-all;overflow-wrap:break-word}a{color:#96566a}a:hover{color:#7a4256}</style></helmet>
 
 <div style="min-height:100vh;background:#f7f7f9;display:flex;font-family:Pretendard,sans-serif;color:#2f333a">
 
@@ -105,8 +129,8 @@ window.__resources = {
 <div style="flex:1;display:flex;align-items:center;justify-content:center;padding:60px 0">
 <div style="max-width:380px;display:flex;flex-direction:column;gap:11px;align-items:center;text-align:center">
 <div style="width:38px;height:38px;border-radius:11px;background:{{ accentSoft }};display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px;color:{{ accentInk }}">{{ subjectName }}</div>
-<div style="font:700 15px Pretendard,sans-serif;color:#2f333a;letter-spacing:-.3px">아직 준비 중인 과목입니다</div>
-<div style="font:400 12.5px/1.7 Pretendard,sans-serif;color:#8e939b">현재는 민법 72단원(채권총론·채권각론·민법총칙·물권법)과 형법각론 논점이 열려 있습니다. 자료가 추가되면 같은 구조로 목차가 채워집니다.</div>
+<div style="font:700 15px Pretendard,sans-serif;color:#2f333a;letter-spacing:-.3px">{{ emptyTitle }}</div>
+<div style="font:400 12.5px/1.7 Pretendard,sans-serif;color:#8e939b">{{ emptyDesc }}</div>
 </div>
 </div>
 </sc-if>
@@ -283,6 +307,14 @@ const CRIM_CATS = [
   ['gak_사회','사회적 법익'],['gak_국가공무원','국가·공무원'],['gak_국가공무방해','공무방해']
 ];
 
+// 과목 → 데이터 파일. 형법·형소는 한 파일에 같이 들어 있다.
+const DATA_FILES = {
+  민법: 'data-civil.js',
+  민사소송법: 'data-minso.js',
+  형법: 'data-criminal.js',
+  형사소송법: 'data-criminal.js'
+};
+
 const DATASETS = {
   형법: { key:'CRIM_GAKRON_CONCEPT', label:'반반형법 논점 (총론·각론)', unit:'논점',
          cats: () => window.CRIM_CATS_DATA || CRIM_CATS },
@@ -398,10 +430,6 @@ class Component extends DCLogic {
   state = { track:'민사법', subject:'민법', view:'toc', chapter:null, filter:'전체', size:0, fold:false, quizOpen:false, shown:{}, crimPart:0, mark:null };
 
   componentDidMount() {
-    if (!window.CRIM_GAKRON_CONCEPT || !window.CIVIL_UNITS) {
-      const t = setInterval(() => { if (window.CRIM_GAKRON_CONCEPT && window.CIVIL_UNITS) { clearInterval(t); this.forceUpdate(); } }, 200);
-      setTimeout(() => clearInterval(t), 8000);
-    }
     // 모아보기에서 단원 제목을 눌렀을 때 그 단원으로 이동
     window.__lawmjOpen = id => {
       const parts = dataFor(this.state.subject) || [];
@@ -447,6 +475,10 @@ class Component extends DCLogic {
 
   renderVals() {
     const st = this.state, th = this.theme();
+    // 현재 과목의 데이터 파일을 (아직이면) 이제 받는다 — 도착하면 재렌더
+    const dataFile = DATA_FILES[st.subject];
+    if (dataFile) window.__loadData(dataFile, () => this.forceUpdate());
+    const dataLoading = !!dataFile && window.__dataState[dataFile] === 'loading';
     const crim = this.hasData();
     const crimParts = crim ? (dataFor(st.subject) || []) : [];
     const chapters = this.chapterList();
@@ -590,7 +622,7 @@ class Component extends DCLogic {
       accent: th.accent, accentInk: th.ink, accentSoft: th.soft, accentTint: th.tint, accentHead: th.head, accentHeadInk: th.headInk, sidebarBg: th.sidebar,
       crumb: st.track + ' · ' + st.subject, subjectName: st.subject,
       sourceNote: crim ? (DATASETS[st.subject] || {}).label + ' · ' + crimParts.length + '개 장 / ' + crimParts.reduce((a, p) => a + p.topics.length, 0) + '개 ' + (DATASETS[st.subject] || {}).unit
-        : '준비 중 — 민법 · 형법각론이 먼저 열려 있습니다',
+        : dataLoading ? st.subject + ' 자료 불러오는 중…' : '준비 중 — 민사법·형사법이 먼저 열려 있습니다',
       dday: 154,
       totalQ: crim ? crimParts.reduce((a, p) => a + p.topics.length, 0) : 0,
       wrongQ: crim ? weakIds : 0,
@@ -598,6 +630,10 @@ class Component extends DCLogic {
       topicCount: crim ? crimParts.reduce((a, p) => a + p.topics.length, 0) : 0,
       progressPct: (crim && rows.length ? Math.round(doneIds / rows.length * 100) : 0) + '%',
       isEmpty: parts.length === 0,
+      emptyTitle: dataLoading ? '불러오는 중…' : '아직 준비 중인 과목입니다',
+      emptyDesc: dataLoading
+        ? st.subject + ' 자료를 받고 있습니다. 잠시만 기다려 주세요.'
+        : '현재는 민법·민사소송법·형법·형사소송법이 열려 있습니다. 자료가 추가되면 같은 구조로 목차가 채워집니다.',
       isRich: !!(page && page.rich),
       richBody: page && page.rich
         ? React.createElement('div', { style: { fontSize: sizeSet[1] }, dangerouslySetInnerHTML: { __html: page.rich } })
