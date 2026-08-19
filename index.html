@@ -312,7 +312,9 @@ const DATA_FILES = {
   민법: 'data-civil.js',
   민사소송법: 'data-minso.js',
   형법: 'data-criminal.js',
-  형사소송법: 'data-criminal.js'
+  형사소송법: 'data-criminal.js',
+  헌법: 'data-public.js',
+  행정법: 'data-public.js'
 };
 
 const DATASETS = {
@@ -323,7 +325,11 @@ const DATASETS = {
   민법: { key:'CIVIL_UNITS', label:'로스쿨 민법의 정석 9판', unit:'단원',
          cats: () => (window.CIVIL_UNITS_CATS || []).map(c => [c, c]) },
   민사소송법: { key:'MINSO_UNITS', label:'박승수 민소법 암기장', unit:'논점',
-         cats: () => window.MINSO_CATS_DATA || [] }
+         cats: () => window.MINSO_CATS_DATA || [] },
+  헌법: { key:'CONST_UNITS', label:'류정모 진리 헌법 암기장 제3판', unit:'논점',
+         cats: () => window.CONST_CATS_DATA || [] },
+  행정법: { key:'ADMIN_UNITS', label:'류정모 진리 행정법 암기장 제3판', unit:'논점',
+         cats: () => window.ADMIN_CATS_DATA || [] }
 };
 
 function stripTags(s) {
