@@ -44,49 +44,42 @@ window.__loadData = function (file, onDone) {
 <x-dc>
 <helmet><template id="__bundler_thumbnail"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><rect width="120" height="120" fill="#fbf6f7"/><rect x="36" y="34" width="48" height="52" rx="6" fill="#d9a3b0"/><rect x="46" y="46" width="28" height="4" rx="2" fill="#fff"/><rect x="46" y="56" width="28" height="4" rx="2" fill="#fff" opacity=".7"/><rect x="46" y="66" width="18" height="4" rx="2" fill="#fff" opacity=".5"/></svg></template><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600;700&display=swap"><link rel="preload" as="script" href="data-civil.js"><style>.cs-h{font-weight:700;font-size:15.5px;letter-spacing:-.2px;color:#23262c;margin:20px 0 10px}.cs-h:first-child{margin-top:0}.cs-theory{display:flex;flex-direction:column;gap:7px;margin-bottom:12px}.cs-li{font-size:14.5px;line-height:1.9;color:#33373e;letter-spacing:-.1px}.cs-bul::before{content:"· ";color:#9aa0a8}.cs-fact-tag{display:inline-block;padding:2px 7px;border-radius:6px;background:#f2f4f7;color:#6b7580;font-size:11.5px;margin-right:5px}.cs-neg-tag{display:inline-block;padding:2px 7px;border-radius:6px;background:#f7efee;color:#a1655f;font-size:11.5px;margin-right:5px}.cs-o{display:inline-block;min-width:17px;text-align:center;padding:1px 5px;border-radius:5px;background:#7fa38f;color:#fff;font-size:11px;font-weight:700}.cs-x{display:inline-block;min-width:17px;text-align:center;padding:1px 5px;border-radius:5px;background:#c2857f;color:#fff;font-size:11px;font-weight:700}.cs-exam{display:inline-block;padding:2px 7px;border-radius:6px;background:#dfeaf3;color:#4f7593;font-size:11px;font-weight:600;margin-left:5px}.cs-crime{font-weight:700;color:#23262c}.cs-stat{color:#6b7580;font-size:12.5px}.cs-statute{display:inline-block;padding:2px 7px;border-radius:6px;background:#f2f4f7;color:#6b7580;font-size:11.5px}.cs-issue{font-weight:600;color:#2f333a}.cs-case{border:1px solid rgba(45,48,56,.12);border-radius:10px;overflow:hidden;margin:14px 0}.cs-case-in{padding:14px 15px;display:flex;flex-direction:column;gap:9px}.cs-fact{font-size:14px;line-height:1.9;color:#33373e}.cs-ans,.cs-ans-in{font-size:13.5px;line-height:1.9;color:#4b525c;background:#fcfcfd;border-radius:8px;padding:12px 13px}.cs-u{text-decoration:underline;text-underline-offset:3px;text-decoration-color:#c9ced6}.cs-hl{background:#fdf1f3;border-radius:3px;padding:0 1px}.cs-star{color:#c58b98;font-weight:700;margin-right:4px}.cs-def{background:#f6efe7;border-radius:3px;padding:0 2px}.cs-glabel{display:inline-block;background:#f2f4f7;border-radius:5px;padding:1px 6px;font-size:12.5px;font-weight:600;color:#4b525c}.cs-sub{display:inline-block;background:#fdf3e7;border-radius:5px;padding:1px 6px;font-weight:700;color:#8a6a3c}.cs-gbg{background:#edf5ef;border-radius:3px;padding:0 2px}.cs-red{color:#b3564e}.cs-green{color:#4e7a5e}.cs-blue{color:#4f7593}.cs-callout{border:1px solid rgba(45,48,56,.1);border-left:3px solid #9dbcd4;background:#f5f9fc;border-radius:8px;padding:10px 12px;margin:10px 0;font-size:13.2px}.cs-case summary{cursor:pointer;padding:11px 14px;font-weight:600;background:#fbfbfc}body{margin:0;background:#f7f7f9;font-family:Pretendard,system-ui,sans-serif;-webkit-font-smoothing:antialiased}*{word-break:keep-all;overflow-wrap:break-word}a{color:#96566a}a:hover{color:#7a4256}
 /* ── 좁은 화면 대응 (2026-08-20) ────────────────────────────────
-   이 화면은 좌측 목차 256px + 본문이 가로로 나란한 구조라, 폰에서 열면
-   내용이 화면 밖으로 밀려 가로 스크롤이 생겼다(375px 화면에 685px 콘텐츠).
-   매일 쓰는 앱이라 이게 가장 큰 불편이었다. 레이아웃 골격을 건드리지 않고
-   좁은 화면에서만 세로로 쌓아 해결한다. 선택자는 인라인 스타일을 그대로 겨눈다
-   (이 문서는 빌더 산출물이라 클래스가 없다). */
+   좌측 목차 256px + 본문이 가로로 나란한 구조인데 미디어 쿼리가 없어,
+   375px 화면에서 콘텐츠가 685px 로 밀려 가로 스크롤이 생겼다. 매일 쓰는 앱이라
+   체감이 컸다. 골격은 두고 좁은 화면에서만 세로로 쌓는다.
+
+   ⚠ 선택자를 :is() 로 두 벌 쓰는 이유 — React 는 인라인 스타일을 `padding: 5px`
+   (콜론 뒤 공백)로 렌더하는데 정적 템플릿에는 공백이 없다. 한쪽만 겨누면
+   화면에 실제로 안 먹는다. 처음에 그렇게 만들었다가 라이브에서 그대로 넘쳤다. */
 @media (max-width:760px){
   /* 목차와 본문을 위아래로 */
-  div[style*="min-height:100vh"][style*="display:flex"]{flex-direction:column!important}
+  div:is([style*="min-height:100vh"],[style*="min-height: 100vh"]):is([style*="display:flex"],[style*="display: flex"]){flex-direction:column!important}
   /* 목차는 화면 위쪽에 접어 두고 스스로 스크롤 */
-  div[style*="width:256px"]{width:100%!important;height:auto!important;max-height:38vh;position:static!important;border-right:none!important;border-bottom:1px solid rgba(45,48,56,.12)!important}
+  div:is([style*="width:256px"],[style*="width: 256px"]){width:100%!important;height:auto!important;max-height:38vh;position:static!important;border-right:none!important;border-bottom:1px solid rgba(45,48,56,.12)!important}
   /* 본문 여백을 줄여 글줄을 확보 */
-  div[style*="padding:44px 60px 32px"]{padding:20px 16px 24px!important}
-  div[style*="padding:24px 26px 34px"]{padding:16px 14px 24px!important}
-  div[style*="padding:12px 26px"],div[style*="padding:11px 30px"],
-  div[style*="padding:14px 30px"]{padding-left:14px!important;padding-right:14px!important}
-  /* 판례 여백단은 본문 아래로 내린다 */
-  div[style*="grid-template-columns:minmax(0,1fr) 172px"]{grid-template-columns:1fr!important}
-  div[style*="border-left:1px solid rgba(45,48,56,.09)"][style*="padding-left:19px"]{border-left:none!important;padding-left:0!important;padding-top:8px!important;border-top:1px solid rgba(45,48,56,.09)}
+  div:is([style*="padding:44px 60px 32px"],[style*="padding: 44px 60px 32px"]){padding:20px 16px 24px!important}
+  div:is([style*="padding:24px 26px 34px"],[style*="padding: 24px 26px 34px"]){padding:16px 14px 24px!important}
+  div:is([style*="padding:12px 26px"],[style*="padding: 12px 26px"]),div:is([style*="padding:11px 30px"],[style*="padding: 11px 30px"]),div:is([style*="padding:14px 30px"],[style*="padding: 14px 30px"]){padding-left:14px!important;padding-right:14px!important;flex-wrap:wrap!important}
+  /* 판례 여백단을 본문 아래로 */
+  div:is([style*="grid-template-columns:minmax(0,1fr) 172px"],[style*="grid-template-columns: minmax(0,1fr) 172px"]){grid-template-columns:1fr!important}
+  div:is([style*="border-left:1px solid rgba(45,48,56,.09)"],[style*="border-left: 1px solid rgba(45,48,56,.09)"]):is([style*="padding-left:19px"],[style*="padding-left: 19px"]){border-left:none!important;padding-left:0!important;padding-top:8px!important;border-top:1px solid rgba(45,48,56,.09)}
   /* 목차 카드는 한 줄에 하나 */
   div[style*="minmax(250px,1fr)"]{grid-template-columns:1fr!important}
-  /* 표시 모아보기 줄의 큰 좌우 여백 제거 */
-  div[style*="padding:0 30px 16px"]{padding:0 0 12px!important}
-  /* 좁은 화면에서 밖으로 밀려나던 것들 — 고정폭 진도막대와 줄바꿈을 막아둔 도구줄 */
-  div[style*="width:190px"][style*="height:5px"]{width:100%!important}
-  div[style*="align-items:flex-end"][style*="flex:none"]{align-items:flex-start!important;width:100%}
-  div[style*="white-space:nowrap"][style*="display:flex"][style*="gap:6px"]{white-space:normal!important;flex-wrap:wrap!important}
-  div[style*="justify-content:space-between"][style*="align-items:flex-end"]{flex-direction:column!important;align-items:stretch!important;gap:10px!important}
-  /* 단원 상단 도구줄(가A·판례접기·완료·약점·암기확인)이 한 줄에 갇혀 넘쳤다 */
-  div[style*="display:flex"][style*="gap:6px"][style*="flex:none"][style*="white-space:nowrap"]{white-space:normal!important;flex-wrap:wrap!important;flex:1 1 100%!important;justify-content:flex-start!important}
-  div[style*="padding:11px 30px"][style*="align-items:center"]{flex-wrap:wrap!important}
-  div[style*="padding:12px 26px"][style*="align-items:center"]{flex-wrap:wrap!important}
-  /* 하단 이동줄(이전/다음 단원 · 선택형 링크)도 좁으면 줄바꿈 */
-  div[style*="padding:14px 30px"][style*="align-items:center"]{flex-wrap:wrap!important;gap:8px!important;justify-content:space-between!important}
-  div[style*="padding:9px 14px"][style*="white-space:nowrap"]{white-space:normal!important}
-  /* 암기 확인 모달이 화면보다 넓어지지 않게 */
-  div[style*="position:fixed;inset:0"]{max-width:100vw!important;overflow-x:hidden!important}
-  div[style*="max-width:720px"][style*="max-height:76vh"]{max-width:100%!important;padding:16px 14px 20px!important}
+  div:is([style*="padding:0 30px 16px"],[style*="padding: 0 30px 16px"]){padding:0 0 12px!important}
+  /* 고정폭 진도막대와 오른쪽 정렬 묶음 */
+  div:is([style*="width:190px"],[style*="width: 190px"]):is([style*="height:5px"],[style*="height: 5px"]){width:100%!important}
+  div:is([style*="align-items:flex-end"],[style*="align-items: flex-end"]):is([style*="flex:none"],[style*="flex: none"]){align-items:flex-start!important;width:100%}
+  div:is([style*="justify-content:space-between"],[style*="justify-content: space-between"]):is([style*="align-items:flex-end"],[style*="align-items: flex-end"]){flex-direction:column!important;align-items:stretch!important;gap:10px!important}
+  /* 도구줄이 한 줄에 갇혀 넘치던 것 */
+  div:is([style*="display:flex"],[style*="display: flex"]):is([style*="gap:6px"],[style*="gap: 6px"]):is([style*="flex:none"],[style*="flex: none"]):is([style*="white-space:nowrap"],[style*="white-space: nowrap"]){white-space:normal!important;flex-wrap:wrap!important;flex:1 1 100%!important}
+  div:is([style*="padding:9px 14px"],[style*="padding: 9px 14px"]):is([style*="white-space:nowrap"],[style*="white-space: nowrap"]){white-space:normal!important}
+  /* 암기 확인 모달이 화면 밖으로 나가지 않게 */
+  div:is([style*="position:fixed"],[style*="position: fixed"]):is([style*="inset:0"],[style*="inset: 0"]){max-width:100vw!important;overflow-x:hidden!important}
+  div:is([style*="max-width:720px"],[style*="max-width: 720px"]):is([style*="max-height:76vh"],[style*="max-height: 76vh"]){max-width:100%!important;padding:16px 14px 20px!important}
 }
-/* 좁은 화면에서 누르기 좋은 크기 — 과목/필터 칩이 24px 대라 손끝으로 집기 어려웠다 */
+/* 터치 기기에서 과목·필터 칩이 24px 대라 손끝으로 집기 어려웠다 */
 @media (max-width:760px) and (pointer:coarse){
-  div[style*="border-radius:7px"][style*="cursor:pointer"],
-  div[style*="border-radius:9px"][style*="cursor:pointer"],
-  div[style*="border-radius:11px"][style*="cursor:pointer"]{min-height:38px;display:flex;align-items:center;justify-content:center}
+  div:is([style*="border-radius:7px"],[style*="border-radius: 7px"]):is([style*="cursor:pointer"],[style*="cursor: pointer"]),div:is([style*="border-radius:9px"],[style*="border-radius: 9px"]):is([style*="cursor:pointer"],[style*="cursor: pointer"]),div:is([style*="border-radius:11px"],[style*="border-radius: 11px"]):is([style*="cursor:pointer"],[style*="cursor: pointer"]){min-height:38px;display:flex;align-items:center;justify-content:center}
 }
 </style></helmet>
 
