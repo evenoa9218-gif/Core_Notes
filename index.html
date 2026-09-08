@@ -3,6 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="manifest" href="/manifest.json">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#f7f7f9">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="변시대비">
 <title>암기장 — 변호사시험</title>
 <script>
 /* 첫 칠 전에 테마를 정한다 — 렌더 뒤에 바꾸면 어두운 화면이 흰색으로 한 번 번쩍인다.
@@ -11,6 +17,8 @@
   var v=localStorage.getItem('lawmj_theme');
   if(!v) v=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';
   document.documentElement.dataset.theme=v;
+  var mt=document.querySelector('meta[name=theme-color]');
+  if(mt) mt.content = v==='dark' ? '#15171b' : '#f7f7f9';
 }catch(e){document.documentElement.dataset.theme='light';}})();
 /* React 를 저장소 사본으로 돌린다 — CDN 이 막히거나 오프라인이어도 앱이 뜬다.
    support.js 의 cdnScriptFor() 가 이 표를 먼저 본다. 파일은 unpkg 원본과
@@ -746,6 +754,8 @@ class Component extends DCLogic {
       toggleTheme: () => this.setState(s2 => {
         const dark = !s2.dark;
         document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+        const mt = document.querySelector('meta[name=theme-color]');
+        if (mt) mt.content = dark ? '#15171b' : '#f7f7f9';
         try { localStorage.setItem('lawmj_theme', dark ? 'dark' : 'light'); } catch (e) {}
         return { dark };
       }),
