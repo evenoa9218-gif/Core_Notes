@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>LawMJ Mastery</title>
+<title>암기장 — 변호사시험</title>
 <script>
 /* React 를 저장소 사본으로 돌린다 — CDN 이 막히거나 오프라인이어도 앱이 뜬다.
    support.js 의 cdnScriptFor() 가 이 표를 먼저 본다. 파일은 unpkg 원본과
@@ -89,8 +89,8 @@ window.__loadData = function (file, onDone) {
 <div style="padding:20px 20px 15px;display:flex;align-items:center;gap:9px;border-bottom:1px solid rgba(45,48,56,.08)">
 <div style="font-size:19px;line-height:1;flex:none">⚖️</div>
 <div style="display:flex;flex-direction:column;gap:3px;min-width:0">
-<div style="font:700 18px 'Noto Serif KR',serif;color:#2f333a;letter-spacing:-.2px;white-space:nowrap">LawMJ Mastery</div>
-<div style="font:400 10.5px Pretendard,sans-serif;color:#8e939b">변호사시험 암기장</div>
+<div style="font:700 18px 'Noto Serif KR',serif;color:#2f333a;letter-spacing:-.2px;white-space:nowrap">{{ brand }}</div>
+<div style="font:400 10.5px Pretendard,sans-serif;color:#8e939b">{{ brandSub }}</div>
 </div>
 </div>
 
@@ -136,7 +136,7 @@ window.__loadData = function (file, onDone) {
 <div style="font:400 11.5px Pretendard,sans-serif;color:#c3c7cc">{{ crumb }}</div>
 <div style="flex:1"></div>
 <div style="padding:5px 11px;border-radius:99px;background:{{ accentSoft }};font-weight:700;font-size:11.5px;color:{{ accentInk }};white-space:nowrap;flex:none">D-{{ dday }}</div>
-<div style="padding:5px 11px;border-radius:99px;background:#f7f7f9;border:1px solid rgba(45,48,56,.09);font:500 11.5px Pretendard,sans-serif;color:#767c85;cursor:pointer">앱 전환</div>
+<a href="/" title="다른 앱 고르기" style="padding:5px 11px;border-radius:99px;background:#f7f7f9;border:1px solid rgba(45,48,56,.09);font:500 11.5px Pretendard,sans-serif;color:#767c85;cursor:pointer;text-decoration:none;flex:none">앱 전환</a>
 <div style="width:28px;height:28px;border-radius:99px;background:#f7f7f9;border:1px solid rgba(45,48,56,.09);display:flex;align-items:center;justify-content:center;font-size:12px;color:#8e939b;cursor:pointer">☾</div>
 </div>
 
@@ -314,6 +314,15 @@ const TRACKS = {
   형사법: ['형법','형사소송법'],
   공법: ['헌법','행정법']
 };
+// 사이드바·탭 제목. 과목마다 부르는 이름이 달라 한 이름으로 묶을 수 없다.
+//   민법  → LawMJ Mastery   (과목 단위)
+//   형사법 → BB Mastery      (트랙 단위 — 형법·형사소송법 공용)
+//   그 밖 → 중립 이름
+const BRAND_SUBJECT = { 민법: 'LawMJ Mastery' };
+const BRAND_TRACK   = { 형사법: 'BB Mastery' };
+const brandOf = (track, subject) =>
+  BRAND_SUBJECT[subject] || BRAND_TRACK[track] || '암기장';
+
 const STATUTE = '§404 ① 채권자는 자기의 채권을 보전하기 위하여 채무자의 권리를 행사할 수 있다.';
 
 
@@ -482,6 +491,36 @@ class Component extends DCLogic {
       const hit = all.filter(t => t.id === id)[0];
       if (hit) this.setState({ mark:null, view:'page', chapter:hit.title, shown:{} });
     };
+
+    // 뒤로가기 — 화면 전환을 브라우저 방문 기록에 남긴다.
+    // 링크 이동이 없는 단일 페이지라, 단원을 몇 개 열어 본 뒤 뒤로가기를 누르면
+    // 직전 화면이 아니라 사이트 밖으로 나가 버렸다.
+    // setState 호출부가 여러 곳이므로 각각 고치지 않고 componentDidUpdate 한 곳에서 쌓는다.
+    this._nav = this.navSnap(this.state);
+    history.replaceState({ __nav: this._nav }, '');
+    window.addEventListener('popstate', e => {
+      const s = e.state && e.state.__nav;
+      if (!s) return;
+      this._popping = true;               // 되돌린 상태를 다시 쌓지 않도록
+      this.setState(Object.assign({ shown:{} }, s));
+    });
+  }
+
+  // 「지금 어느 화면인가」만 추린다 — 글자 크기·필터 같은 보기 설정은 기록에 남기지 않는다.
+  navSnap(s) {
+    return { track:s.track, subject:s.subject, view:s.view, chapter:s.chapter,
+             mark:s.mark, crimPart:s.crimPart, quizOpen:s.quizOpen };
+  }
+
+  // 이 런타임은 componentDidUpdate 에 prevProps 만 넘긴다 — 직전 화면은 직접 들고 비교한다.
+  componentDidUpdate() {
+    const t = brandOf(this.state.track, this.state.subject) + ' — 변호사시험 ' + this.state.subject;
+    if (document.title !== t) document.title = t;
+    const now = this.navSnap(this.state);
+    if (this._popping) { this._popping = false; this._nav = now; return; }
+    if (this._nav && Object.keys(now).some(k => this._nav[k] !== now[k]))
+      history.pushState({ __nav: now }, '');
+    this._nav = now;
   }
 
   progOf(id) { return PROG.get(id); }
@@ -665,6 +704,7 @@ class Component extends DCLogic {
     return {
       tracks, subjects, filters, marks, parts, navParts, hasParts: navParts.length > 0,
       accent: th.accent, accentInk: th.ink, accentSoft: th.soft, accentTint: th.tint, accentHead: th.head, accentHeadInk: th.headInk, sidebarBg: th.sidebar,
+      brand: brandOf(st.track, st.subject), brandSub: '변호사시험 ' + st.subject,
       crumb: st.track + ' · ' + st.subject, subjectName: st.subject,
       sourceNote: crim ? (DATASETS[st.subject] || {}).label + ' · ' + crimParts.length + '개 장 / ' + crimParts.reduce((a, p) => a + p.topics.length, 0) + '개 ' + (DATASETS[st.subject] || {}).unit
         : dataLoading ? st.subject + ' 자료 불러오는 중…' : '준비 중 — 민사법·형사법이 먼저 열려 있습니다',
