@@ -5,6 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>암기장 — 변호사시험</title>
 <script>
+/* 첫 칠 전에 테마를 정한다 — 렌더 뒤에 바꾸면 어두운 화면이 흰색으로 한 번 번쩍인다.
+   저장소가 막힌 브라우저(사파리 비공개 모드 등)에서도 죽지 않게 try 로 감싼다. */
+(function(){try{
+  var v=localStorage.getItem('lawmj_theme');
+  if(!v) v=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';
+  document.documentElement.dataset.theme=v;
+}catch(e){document.documentElement.dataset.theme='light';}})();
 /* React 를 저장소 사본으로 돌린다 — CDN 이 막히거나 오프라인이어도 앱이 뜬다.
    support.js 의 cdnScriptFor() 가 이 표를 먼저 본다. 파일은 unpkg 원본과
    sha384 가 일치함을 확인하고 받아둔 것. */
@@ -42,7 +49,30 @@ window.__loadData = function (file, onDone) {
 </head>
 <body>
 <x-dc>
-<helmet><template id="__bundler_thumbnail"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><rect width="120" height="120" fill="#fbf6f7"/><rect x="36" y="34" width="48" height="52" rx="6" fill="#d9a3b0"/><rect x="46" y="46" width="28" height="4" rx="2" fill="#fff"/><rect x="46" y="56" width="28" height="4" rx="2" fill="#fff" opacity=".7"/><rect x="46" y="66" width="18" height="4" rx="2" fill="#fff" opacity=".5"/></svg></template><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600;700&display=swap"><link rel="preload" as="script" href="data-civil.js"><style>.cs-h{font-weight:700;font-size:15.5px;letter-spacing:-.2px;color:#23262c;margin:20px 0 10px}.cs-h:first-child{margin-top:0}.cs-theory{display:flex;flex-direction:column;gap:7px;margin-bottom:12px}.cs-li{font-size:14.5px;line-height:1.9;color:#33373e;letter-spacing:-.1px}.cs-bul::before{content:"· ";color:#9aa0a8}.cs-fact-tag{display:inline-block;padding:2px 7px;border-radius:6px;background:#f2f4f7;color:#6b7580;font-size:11.5px;margin-right:5px}.cs-neg-tag{display:inline-block;padding:2px 7px;border-radius:6px;background:#f7efee;color:#a1655f;font-size:11.5px;margin-right:5px}.cs-o{display:inline-block;min-width:17px;text-align:center;padding:1px 5px;border-radius:5px;background:#7fa38f;color:#fff;font-size:11px;font-weight:700}.cs-x{display:inline-block;min-width:17px;text-align:center;padding:1px 5px;border-radius:5px;background:#c2857f;color:#fff;font-size:11px;font-weight:700}.cs-exam{display:inline-block;padding:2px 7px;border-radius:6px;background:#dfeaf3;color:#4f7593;font-size:11px;font-weight:600;margin-left:5px}.cs-crime{font-weight:700;color:#23262c}.cs-stat{color:#6b7580;font-size:12.5px}.cs-statute{display:inline-block;padding:2px 7px;border-radius:6px;background:#f2f4f7;color:#6b7580;font-size:11.5px}.cs-issue{font-weight:600;color:#2f333a}.cs-case{border:1px solid rgba(45,48,56,.12);border-radius:10px;overflow:hidden;margin:14px 0}.cs-case-in{padding:14px 15px;display:flex;flex-direction:column;gap:9px}.cs-fact{font-size:14px;line-height:1.9;color:#33373e}.cs-ans,.cs-ans-in{font-size:13.5px;line-height:1.9;color:#4b525c;background:#fcfcfd;border-radius:8px;padding:12px 13px}.cs-u{text-decoration:underline;text-underline-offset:3px;text-decoration-color:#c9ced6}.cs-hl{background:#fdf1f3;border-radius:3px;padding:0 1px}.cs-star{color:#c58b98;font-weight:700;margin-right:4px}.cs-def{background:#f6efe7;border-radius:3px;padding:0 2px}.cs-glabel{display:inline-block;background:#f2f4f7;border-radius:5px;padding:1px 6px;font-size:12.5px;font-weight:600;color:#4b525c}.cs-sub{display:inline-block;background:#fdf3e7;border-radius:5px;padding:1px 6px;font-weight:700;color:#8a6a3c}.cs-gbg{background:#edf5ef;border-radius:3px;padding:0 2px}.cs-red{color:#b3564e}.cs-green{color:#4e7a5e}.cs-blue{color:#4f7593}.cs-callout{border:1px solid rgba(45,48,56,.1);border-left:3px solid #9dbcd4;background:#f5f9fc;border-radius:8px;padding:10px 12px;margin:10px 0;font-size:13.2px}.cs-case summary{cursor:pointer;padding:11px 14px;font-weight:600;background:#fbfbfc}body{margin:0;background:#f7f7f9;font-family:Pretendard,system-ui,sans-serif;-webkit-font-smoothing:antialiased}*{word-break:keep-all;overflow-wrap:break-word}a{color:#96566a}a:hover{color:#7a4256}
+<helmet><template id="__bundler_thumbnail"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><rect width="120" height="120" fill="#fbf6f7"/><rect x="36" y="34" width="48" height="52" rx="6" fill="#d9a3b0"/><rect x="46" y="46" width="28" height="4" rx="2" fill="#fff"/><rect x="46" y="56" width="28" height="4" rx="2" fill="#fff" opacity=".7"/><rect x="46" y="66" width="18" height="4" rx="2" fill="#fff" opacity=".5"/></svg></template><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600;700&display=swap"><link rel="preload" as="script" href="data-civil.js"><style>:root{color-scheme:light;
+--bg:#f7f7f9;--surface:#fff;--surface-2:#fcfcfd;--surface-3:#fbfbfc;--chip:#f2f4f7;--rule:#eeeef1;
+--ink:#2f333a;--ink-strong:#23262c;--ink-2:#33373e;--ink-3:#4b525c;--ink-muted:#6b7580;--ink-soft:#767c85;
+--ink-faint:#8e939b;--ink-fainter:#a8adb4;--ink-ghost:#b3b8be;--ink-ghostest:#c3c7cc;--bullet:#9aa0a8;
+--underline:#c9ced6;--line-08:rgba(45,48,56,.08);--line-09:rgba(45,48,56,.09);--line-10:rgba(45,48,56,.1);
+--line-11:rgba(45,48,56,.11);--line-12:rgba(45,48,56,.12);--line-15:rgba(45,48,56,.15);
+--scrim:rgba(35,38,44,.42);--scrim-2:rgba(35,38,44,.2);
+--ox-o:#7fa38f;--ox-x:#c2857f;--neg-bg:#f7efee;--neg-ink:#a1655f;--exam-bg:#dfeaf3;--blue:#4f7593;
+--hl:#fdf1f3;--star:#c58b98;--def:#f6efe7;--sub-bg:#fdf3e7;--sub-ink:#8a6a3c;--gbg:#edf5ef;
+--red:#b3564e;--green:#4e7a5e;--callout-line:#9dbcd4;--callout-bg:#f5f9fc;--link:#96566a;--link-hover:#7a4256}
+
+/* 다크 — 밝기만 뒤집지 않는다. 종이처럼 읽히던 대비를 어두운 바탕에서 다시 잡은 값이다.
+   O·X 배지처럼 흰 글자를 얹는 색은 그대로 두고, 배경으로 쓰이는 옅은 색만 어둡게 옮겼다. */
+html[data-theme="dark"]{color-scheme:dark;
+--bg:#15171b;--surface:#1c1f24;--surface-2:#20242a;--surface-3:#20242a;--chip:#282d35;--rule:#2c313a;
+--ink:#e7e9ed;--ink-strong:#f3f5f8;--ink-2:#d5dae1;--ink-3:#bcc3cc;--ink-muted:#a3abb5;--ink-soft:#9aa2ac;
+--ink-faint:#878f99;--ink-fainter:#767e88;--ink-ghost:#697079;--ink-ghostest:#79818b;--bullet:#79818b;
+--underline:#4a515a;--line-08:rgba(255,255,255,.08);--line-09:rgba(255,255,255,.09);--line-10:rgba(255,255,255,.11);
+--line-11:rgba(255,255,255,.12);--line-12:rgba(255,255,255,.13);--line-15:rgba(255,255,255,.17);
+--scrim:rgba(0,0,0,.62);--scrim-2:rgba(0,0,0,.45);
+--ox-o:#5f8a74;--ox-x:#a86a64;--neg-bg:#3a2c2a;--neg-ink:#dba79f;--exam-bg:#24313d;--blue:#93bbdb;
+--hl:#3b2831;--star:#dfa3b1;--def:#3a3327;--sub-bg:#3a3227;--sub-ink:#dcb98a;--gbg:#25332a;
+--red:#e28c82;--green:#87c49d;--callout-line:#4f7593;--callout-bg:#232b33;--link:#e0a2b4;--link-hover:#f0bccb}
+.cs-h{font-weight:700;font-size:15.5px;letter-spacing:-.2px;color:var(--ink-strong);margin:20px 0 10px}.cs-h:first-child{margin-top:0}.cs-theory{display:flex;flex-direction:column;gap:7px;margin-bottom:12px}.cs-li{font-size:14.5px;line-height:1.9;color:var(--ink-2);letter-spacing:-.1px}.cs-bul::before{content:"· ";color:var(--bullet)}.cs-fact-tag{display:inline-block;padding:2px 7px;border-radius:6px;background:var(--chip);color:var(--ink-muted);font-size:11.5px;margin-right:5px}.cs-neg-tag{display:inline-block;padding:2px 7px;border-radius:6px;background:var(--neg-bg);color:var(--neg-ink);font-size:11.5px;margin-right:5px}.cs-o{display:inline-block;min-width:17px;text-align:center;padding:1px 5px;border-radius:5px;background:var(--ox-o);color:#fff;font-size:11px;font-weight:700}.cs-x{display:inline-block;min-width:17px;text-align:center;padding:1px 5px;border-radius:5px;background:var(--ox-x);color:#fff;font-size:11px;font-weight:700}.cs-exam{display:inline-block;padding:2px 7px;border-radius:6px;background:var(--exam-bg);color:var(--blue);font-size:11px;font-weight:600;margin-left:5px}.cs-crime{font-weight:700;color:var(--ink-strong)}.cs-stat{color:var(--ink-muted);font-size:12.5px}.cs-statute{display:inline-block;padding:2px 7px;border-radius:6px;background:var(--chip);color:var(--ink-muted);font-size:11.5px}.cs-issue{font-weight:600;color:var(--ink)}.cs-case{border:1px solid var(--line-12);border-radius:10px;overflow:hidden;margin:14px 0}.cs-case-in{padding:14px 15px;display:flex;flex-direction:column;gap:9px}.cs-fact{font-size:14px;line-height:1.9;color:var(--ink-2)}.cs-ans,.cs-ans-in{font-size:13.5px;line-height:1.9;color:var(--ink-3);background:var(--surface-2);border-radius:8px;padding:12px 13px}.cs-u{text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--underline)}.cs-hl{background:var(--hl);border-radius:3px;padding:0 1px}.cs-star{color:var(--star);font-weight:700;margin-right:4px}.cs-def{background:var(--def);border-radius:3px;padding:0 2px}.cs-glabel{display:inline-block;background:var(--chip);border-radius:5px;padding:1px 6px;font-size:12.5px;font-weight:600;color:var(--ink-3)}.cs-sub{display:inline-block;background:var(--sub-bg);border-radius:5px;padding:1px 6px;font-weight:700;color:var(--sub-ink)}.cs-gbg{background:var(--gbg);border-radius:3px;padding:0 2px}.cs-red{color:var(--red)}.cs-green{color:var(--green)}.cs-blue{color:var(--blue)}.cs-callout{border:1px solid var(--line-10);border-left:3px solid var(--callout-line);background:var(--callout-bg);border-radius:8px;padding:10px 12px;margin:10px 0;font-size:13.2px}.cs-case summary{cursor:pointer;padding:11px 14px;font-weight:600;background:var(--surface-3)}body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-webkit-font-smoothing:antialiased}*{word-break:keep-all;overflow-wrap:break-word}a{color:var(--link)}a:hover{color:var(--link-hover)}
 /* ── 좁은 화면 대응 (2026-08-20) ────────────────────────────────
    좌측 목차 256px + 본문이 가로로 나란한 구조인데 미디어 쿼리가 없어,
    375px 화면에서 콘텐츠가 685px 로 밀려 가로 스크롤이 생겼다. 매일 쓰는 앱이라
@@ -55,14 +85,14 @@ window.__loadData = function (file, onDone) {
   /* 목차와 본문을 위아래로 */
   div:is([style*="min-height:100vh"],[style*="min-height: 100vh"]):is([style*="display:flex"],[style*="display: flex"]){flex-direction:column!important}
   /* 목차는 화면 위쪽에 접어 두고 스스로 스크롤 */
-  div:is([style*="width:256px"],[style*="width: 256px"]){width:100%!important;height:auto!important;max-height:38vh;position:static!important;border-right:none!important;border-bottom:1px solid rgba(45,48,56,.12)!important}
+  div:is([style*="width:256px"],[style*="width: 256px"]){width:100%!important;height:auto!important;max-height:38vh;position:static!important;border-right:none!important;border-bottom:1px solid var(--line-12)!important}
   /* 본문 여백을 줄여 글줄을 확보 */
   div:is([style*="padding:44px 60px 32px"],[style*="padding: 44px 60px 32px"]){padding:20px 16px 24px!important}
   div:is([style*="padding:24px 26px 34px"],[style*="padding: 24px 26px 34px"]){padding:16px 14px 24px!important}
   div:is([style*="padding:12px 26px"],[style*="padding: 12px 26px"]),div:is([style*="padding:11px 30px"],[style*="padding: 11px 30px"]),div:is([style*="padding:14px 30px"],[style*="padding: 14px 30px"]){padding-left:14px!important;padding-right:14px!important;flex-wrap:wrap!important}
   /* 판례 여백단을 본문 아래로 */
   div:is([style*="grid-template-columns:minmax(0,1fr) 172px"],[style*="grid-template-columns: minmax(0,1fr) 172px"]){grid-template-columns:1fr!important}
-  div:is([style*="border-left:1px solid rgba(45,48,56,.09)"],[style*="border-left: 1px solid rgba(45,48,56,.09)"]):is([style*="padding-left:19px"],[style*="padding-left: 19px"]){border-left:none!important;padding-left:0!important;padding-top:8px!important;border-top:1px solid rgba(45,48,56,.09)}
+  div:is([style*="border-left:1px solid var(--line-09)"],[style*="border-left: 1px solid var(--line-09)"]):is([style*="padding-left:19px"],[style*="padding-left: 19px"]){border-left:none!important;padding-left:0!important;padding-top:8px!important;border-top:1px solid var(--line-09)}
   /* 목차 카드는 한 줄에 하나 */
   div[style*="minmax(250px,1fr)"]{grid-template-columns:1fr!important}
   div:is([style*="padding:0 30px 16px"],[style*="padding: 0 30px 16px"]){padding:0 0 12px!important}
@@ -83,14 +113,14 @@ window.__loadData = function (file, onDone) {
 }
 </style></helmet>
 
-<div style="min-height:100vh;background:#f7f7f9;display:flex;font-family:Pretendard,sans-serif;color:#2f333a">
+<div style="min-height:100vh;background:var(--bg);display:flex;font-family:Pretendard,sans-serif;color:var(--ink)">
 
-<div style="width:256px;flex:none;background:{{ sidebarBg }};border-right:1px solid rgba(45,48,56,.09);display:flex;flex-direction:column;position:sticky;top:0;height:100vh;overflow:hidden">
-<div style="padding:20px 20px 15px;display:flex;align-items:center;gap:9px;border-bottom:1px solid rgba(45,48,56,.08)">
+<div style="width:256px;flex:none;background:{{ sidebarBg }};border-right:1px solid var(--line-09);display:flex;flex-direction:column;position:sticky;top:0;height:100vh;overflow:hidden">
+<div style="padding:20px 20px 15px;display:flex;align-items:center;gap:9px;border-bottom:1px solid var(--line-08)">
 <div style="font-size:19px;line-height:1;flex:none">⚖️</div>
 <div style="display:flex;flex-direction:column;gap:3px;min-width:0">
-<div style="font:700 18px 'Noto Serif KR',serif;color:#2f333a;letter-spacing:-.2px;white-space:nowrap">{{ brand }}</div>
-<div style="font:400 10.5px Pretendard,sans-serif;color:#8e939b">{{ brandSub }}</div>
+<div style="font:700 18px 'Noto Serif KR',serif;color:var(--ink);letter-spacing:-.2px;white-space:nowrap">{{ brand }}</div>
+<div style="font:400 10.5px Pretendard,sans-serif;color:var(--ink-faint)">{{ brandSub }}</div>
 </div>
 </div>
 
@@ -126,39 +156,39 @@ window.__loadData = function (file, onDone) {
 </sc-if>
 </div>
 
-<div style="padding:13px 18px;border-top:1px solid rgba(45,48,56,.08);display:flex;justify-content:space-between;white-space:nowrap"><div style="font:400 10.5px Pretendard,sans-serif;color:#8e939b">전체 문제 {{ totalQ }}개</div><div style="font-weight:600;font-size:10.5px;color:{{ accent }}">오답 {{ wrongQ }}개</div></div>
+<div style="padding:13px 18px;border-top:1px solid var(--line-08);display:flex;justify-content:space-between;white-space:nowrap"><div style="font:400 10.5px Pretendard,sans-serif;color:var(--ink-faint)">전체 문제 {{ totalQ }}개</div><div style="font-weight:600;font-size:10.5px;color:{{ accent }}">오답 {{ wrongQ }}개</div></div>
 </div>
 
-<div style="flex:1;display:flex;flex-direction:column;min-width:0;background:#fff">
+<div style="flex:1;display:flex;flex-direction:column;min-width:0;background:var(--surface)">
 
-<div style="padding:12px 26px;display:flex;align-items:center;gap:10px;border-bottom:1px solid rgba(45,48,56,.08);position:sticky;top:0;background:#fff;z-index:2">
-<div style="display:flex;align-items:center;gap:10px;cursor:pointer" onClick="{{ goToc }}"><div style="width:3px;height:13px;border-radius:2px;background:{{ accent }}"></div><div style="font:600 12.5px Pretendard,sans-serif;color:#2f333a">목차</div></div>
-<div style="font:400 11.5px Pretendard,sans-serif;color:#c3c7cc">{{ crumb }}</div>
+<div style="padding:12px 26px;display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--line-08);position:sticky;top:0;background:var(--surface);z-index:2">
+<div style="display:flex;align-items:center;gap:10px;cursor:pointer" onClick="{{ goToc }}"><div style="width:3px;height:13px;border-radius:2px;background:{{ accent }}"></div><div style="font:600 12.5px Pretendard,sans-serif;color:var(--ink)">목차</div></div>
+<div style="font:400 11.5px Pretendard,sans-serif;color:var(--ink-ghostest)">{{ crumb }}</div>
 <div style="flex:1"></div>
 <div style="padding:5px 11px;border-radius:99px;background:{{ accentSoft }};font-weight:700;font-size:11.5px;color:{{ accentInk }};white-space:nowrap;flex:none">D-{{ dday }}</div>
-<a href="/" title="다른 앱 고르기" style="padding:5px 11px;border-radius:99px;background:#f7f7f9;border:1px solid rgba(45,48,56,.09);font:500 11.5px Pretendard,sans-serif;color:#767c85;cursor:pointer;text-decoration:none;flex:none">앱 전환</a>
-<div style="width:28px;height:28px;border-radius:99px;background:#f7f7f9;border:1px solid rgba(45,48,56,.09);display:flex;align-items:center;justify-content:center;font-size:12px;color:#8e939b;cursor:pointer">☾</div>
+<a href="/" title="다른 앱 고르기" style="padding:5px 11px;border-radius:99px;background:var(--chip);border:1px solid var(--line-09);font:500 11.5px Pretendard,sans-serif;color:var(--ink-soft);cursor:pointer;text-decoration:none;flex:none">앱 전환</a>
+<div style="width:28px;height:28px;border-radius:99px;background:var(--chip);border:1px solid var(--line-09);display:flex;align-items:center;justify-content:center;font-size:12px;color:var(--ink-faint);cursor:pointer;flex:none" title="{{ themeLabel }}" onClick="{{ toggleTheme }}">{{ themeIcon }}</div>
 </div>
 
 <sc-if value="{{ isToc }}" hint-placeholder-val="{{ true }}">
-<div style="padding:24px 26px 34px;display:flex;flex-direction:column;gap:18px;background:#fcfcfd;flex:1">
+<div style="padding:24px 26px 34px;display:flex;flex-direction:column;gap:18px;background:var(--surface-2);flex:1">
 <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:20px">
 <div style="display:flex;flex-direction:column;gap:7px">
-<div style="display:flex;align-items:baseline;gap:12px"><div style="font:700 32px/1 Pretendard,sans-serif;color:#2f333a;letter-spacing:-1px">D-{{ dday }}</div><div style="font:600 13.5px Pretendard,sans-serif;color:#767c85;white-space:nowrap">변호사시험 2027.01.12</div></div>
-<div style="font:400 11.5px Pretendard,sans-serif;color:#a8adb4">{{ sourceNote }}</div>
+<div style="display:flex;align-items:baseline;gap:12px"><div style="font:700 32px/1 Pretendard,sans-serif;color:var(--ink);letter-spacing:-1px">D-{{ dday }}</div><div style="font:600 13.5px Pretendard,sans-serif;color:var(--ink-soft);white-space:nowrap">변호사시험 2027.01.12</div></div>
+<div style="font:400 11.5px Pretendard,sans-serif;color:var(--ink-fainter)">{{ sourceNote }}</div>
 </div>
-<div style="display:flex;flex-direction:column;gap:6px;align-items:flex-end;flex:none"><div style="font:400 11px Pretendard,sans-serif;color:#8e939b;white-space:nowrap">{{ subjectName }} 진도 {{ doneCount }}/{{ topicCount }} 논점</div><div style="width:190px;height:5px;border-radius:99px;background:#eeeef1;overflow:hidden;display:flex"><div style="width:{{ progressPct }};background:{{ accent }}"></div></div></div>
+<div style="display:flex;flex-direction:column;gap:6px;align-items:flex-end;flex:none"><div style="font:400 11px Pretendard,sans-serif;color:var(--ink-faint);white-space:nowrap">{{ subjectName }} 진도 {{ doneCount }}/{{ topicCount }} 논점</div><div style="width:190px;height:5px;border-radius:99px;background:var(--rule);overflow:hidden;display:flex"><div style="width:{{ progressPct }};background:{{ accent }}"></div></div></div>
 </div>
 
 <div style="display:flex;gap:9px;align-items:center;flex-wrap:wrap">
-<div style="flex:1;min-width:240px;padding:11px 14px;border-radius:11px;background:#fff;border:1px solid rgba(45,48,56,.11);font:400 12.5px Pretendard,sans-serif;color:#a8adb4">쟁점·조문 검색 (예: 상계, 366, 표현대리)</div>
+<div style="flex:1;min-width:240px;padding:11px 14px;border-radius:11px;background:var(--surface);border:1px solid var(--line-11);font:400 12.5px Pretendard,sans-serif;color:var(--ink-fainter)">쟁점·조문 검색 (예: 상계, 366, 표현대리)</div>
 <sc-for list="{{ filters }}" as="f" hint-placeholder-count="4">
 <div style="padding:10px 15px;border-radius:11px;cursor:pointer;background:{{ f.bg }};border:1px solid {{ f.border }};font-weight:{{ f.weight }};font-size:12px;color:{{ f.color }}" onClick="{{ f.pick }}">{{ f.name }}</div>
 </sc-for>
 </div>
 
 <div style="display:flex;gap:7px;flex-wrap:wrap;align-items:center;padding:0 30px 16px">
-<div style="font:500 11px Pretendard,sans-serif;color:#a8adb4;margin-right:3px;letter-spacing:.2px">표시 모아보기</div>
+<div style="font:500 11px Pretendard,sans-serif;color:var(--ink-fainter);margin-right:3px;letter-spacing:.2px">표시 모아보기</div>
 <sc-for list="{{ marks }}" as="m" hint-placeholder-count="8">
 <div style="padding:7px 12px;border-radius:9px;cursor:pointer;background:{{ m.bg }};border:1px solid {{ m.border }};font-weight:{{ m.weight }};font-size:11.5px;color:{{ m.color }}" onClick="{{ m.pick }}">{{ m.name }}</div>
 </sc-for>
@@ -168,27 +198,27 @@ window.__loadData = function (file, onDone) {
 <div style="flex:1;display:flex;align-items:center;justify-content:center;padding:60px 0">
 <div style="max-width:380px;display:flex;flex-direction:column;gap:11px;align-items:center;text-align:center">
 <div style="width:38px;height:38px;border-radius:11px;background:{{ accentSoft }};display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px;color:{{ accentInk }}">{{ subjectName }}</div>
-<div style="font:700 15px Pretendard,sans-serif;color:#2f333a;letter-spacing:-.3px">{{ emptyTitle }}</div>
-<div style="font:400 12.5px/1.7 Pretendard,sans-serif;color:#8e939b">{{ emptyDesc }}</div>
+<div style="font:700 15px Pretendard,sans-serif;color:var(--ink);letter-spacing:-.3px">{{ emptyTitle }}</div>
+<div style="font:400 12.5px/1.7 Pretendard,sans-serif;color:var(--ink-faint)">{{ emptyDesc }}</div>
 </div>
 </div>
 </sc-if>
 <sc-for list="{{ parts }}" as="p" hint-placeholder-count="1">
 <div style="display:flex;flex-direction:column;gap:14px">
-<div style="display:flex;align-items:center;gap:11px"><div style="font-weight:700;font-size:12px;letter-spacing:.6px;color:{{ accentInk }}">{{ p.label }}</div><div style="font:700 13px Pretendard,sans-serif;color:#2f333a">{{ p.name }}</div><div style="flex:1;height:1px;background:rgba(45,48,56,.1)"></div><div style="font:400 11px Pretendard,sans-serif;color:#a8adb4">{{ p.count }}</div></div>
+<div style="display:flex;align-items:center;gap:11px"><div style="font-weight:700;font-size:12px;letter-spacing:.6px;color:{{ accentInk }}">{{ p.label }}</div><div style="font:700 13px Pretendard,sans-serif;color:var(--ink)">{{ p.name }}</div><div style="flex:1;height:1px;background:var(--line-10)"></div><div style="font:400 11px Pretendard,sans-serif;color:var(--ink-fainter)">{{ p.count }}</div></div>
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px">
 <sc-for list="{{ p.chapters }}" as="c" hint-placeholder-count="6">
-<div style="background:#fff;border:1px solid rgba(45,48,56,.1);border-radius:13px;padding:16px 17px;display:flex;flex-direction:column;gap:12px;cursor:pointer;transition:box-shadow .16s ease,transform .16s ease" style-hover="box-shadow:0 6px 18px rgba(45,48,56,.09);transform:translateY(-2px)" onClick="{{ c.open }}">
+<div style="background:var(--surface);border:1px solid var(--line-10);border-radius:13px;padding:16px 17px;display:flex;flex-direction:column;gap:12px;cursor:pointer;transition:box-shadow .16s ease,transform .16s ease" style-hover="box-shadow:0 6px 18px var(--line-09);transform:translateY(-2px)" onClick="{{ c.open }}">
 <div style="display:flex;justify-content:space-between;gap:10px;align-items:flex-start">
-<div style="display:flex;flex-direction:column;gap:4px;min-height:40px"><div style="font:700 15px/1.35 Pretendard,sans-serif;color:#2f333a;letter-spacing:-.3px">{{ c.title }}</div><div style="font:400 11.5px/1.4 Pretendard,sans-serif;color:#9aa0a8">{{ c.sub }}</div></div>
-<div style="font:400 10px/1.5 Pretendard,sans-serif;color:#a8adb4;text-align:right;flex:none">개념 {{ c.concepts }}<br>판례 {{ c.cases }}</div>
+<div style="display:flex;flex-direction:column;gap:4px;min-height:40px"><div style="font:700 15px/1.35 Pretendard,sans-serif;color:var(--ink);letter-spacing:-.3px">{{ c.title }}</div><div style="font:400 11.5px/1.4 Pretendard,sans-serif;color:var(--bullet)">{{ c.sub }}</div></div>
+<div style="font:400 10px/1.5 Pretendard,sans-serif;color:var(--ink-fainter);text-align:right;flex:none">개념 {{ c.concepts }}<br>판례 {{ c.cases }}</div>
 </div>
 <div style="display:flex;gap:6px;flex-wrap:wrap">
 <sc-for list="{{ c.tags }}" as="g" hint-placeholder-count="3">
 <div style="padding:4px 9px;border-radius:7px;background:{{ g.bg }};font-weight:500;font-size:11px;color:{{ g.color }};font-variant-numeric:tabular-nums">{{ g.text }}</div>
 </sc-for>
 </div>
-<div style="height:3px;border-radius:99px;background:#eeeef1;overflow:hidden;display:flex"><div style="width:{{ c.pct }};background:{{ accent }}"></div></div>
+<div style="height:3px;border-radius:99px;background:var(--rule);overflow:hidden;display:flex"><div style="width:{{ c.pct }};background:{{ accent }}"></div></div>
 </div>
 </sc-for>
 </div>
@@ -199,11 +229,11 @@ window.__loadData = function (file, onDone) {
 
 <sc-if value="{{ isPage }}" hint-placeholder-val="{{ false }}">
 <div style="display:flex;flex-direction:column;flex:1">
-<div style="padding:11px 30px;display:flex;align-items:center;gap:10px;border-bottom:1px solid rgba(45,48,56,.08);background:#fcfcfd">
-<div style="font:500 11.5px Pretendard,sans-serif;color:#8e939b;cursor:pointer" onClick="{{ goToc }}">{{ crumb }}</div><div style="font:400 11px Pretendard,sans-serif;color:#c3c7cc">/</div><div style="font:600 11.5px Pretendard,sans-serif;color:#2f333a">{{ chapterTitle }}</div>
+<div style="padding:11px 30px;display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--line-08);background:var(--surface-2)">
+<div style="font:500 11.5px Pretendard,sans-serif;color:var(--ink-faint);cursor:pointer" onClick="{{ goToc }}">{{ crumb }}</div><div style="font:400 11px Pretendard,sans-serif;color:var(--ink-ghostest)">/</div><div style="font:600 11.5px Pretendard,sans-serif;color:var(--ink)">{{ chapterTitle }}</div>
 <div style="flex:1"></div>
 <div style="display:flex;gap:6px;flex:none;white-space:nowrap">
-<div style="padding:5px 10px;border-radius:7px;background:#fff;border:1px solid rgba(45,48,56,.1);font:500 11px Pretendard,sans-serif;color:#767c85;cursor:pointer" onClick="{{ cycleSize }}">가A {{ sizeLabel }}</div>
+<div style="padding:5px 10px;border-radius:7px;background:var(--surface);border:1px solid var(--line-10);font:500 11px Pretendard,sans-serif;color:var(--ink-soft);cursor:pointer" onClick="{{ cycleSize }}">가A {{ sizeLabel }}</div>
 <div style="padding:5px 10px;border-radius:7px;cursor:pointer;background:{{ foldBg }};border:1px solid {{ foldBorder }};font-weight:500;font-size:11px;color:{{ foldColor }}" onClick="{{ toggleFold }}">판례 접기</div>
 <sc-if value="{{ showProg }}" hint-placeholder-val="{{ true }}">
 <div style="padding:5px 10px;border-radius:7px;cursor:pointer;background:{{ doneBg }};border:1px solid {{ doneBorder }};font-weight:600;font-size:11px;color:{{ doneColor }}" onClick="{{ toggleDone }}">✓ 완료</div>
@@ -215,8 +245,8 @@ window.__loadData = function (file, onDone) {
 
 <div style="padding:44px 60px 32px;display:flex;flex-direction:column;gap:28px;max-width:980px;width:100%;box-sizing:border-box">
 <div style="display:flex;flex-direction:column;gap:11px;align-items:center;text-align:center">
-<div style="font:400 10.5px Pretendard,sans-serif;color:#b3b8be;letter-spacing:2.5px">{{ pageEyebrow }}</div>
-<div style="font:700 27px/1.35 Pretendard,sans-serif;color:#23262c;letter-spacing:-.6px">{{ chapterTitle }}</div>
+<div style="font:400 10.5px Pretendard,sans-serif;color:var(--ink-ghost);letter-spacing:2.5px">{{ pageEyebrow }}</div>
+<div style="font:700 27px/1.35 Pretendard,sans-serif;color:var(--ink-strong);letter-spacing:-.6px">{{ chapterTitle }}</div>
 <div style="display:flex;gap:7px;align-items:center;flex-wrap:wrap;justify-content:center">
 <sc-for list="{{ pageTags }}" as="g" hint-placeholder-count="3">
 <div style="padding:3px 9px;border-radius:6px;background:{{ g.bg }};font-weight:500;font-size:10.5px;color:{{ g.color }};font-variant-numeric:tabular-nums">{{ g.text }}</div>
@@ -233,52 +263,52 @@ window.__loadData = function (file, onDone) {
 <sc-for list="{{ sections }}" as="s" hint-placeholder-count="3">
 <div style="display:flex;flex-direction:column;gap:11px">
 <sc-if value="{{ s.isHead }}" hint-placeholder-val="{{ true }}">
-<div style="font-weight:700;font-size:15.5px;letter-spacing:-.2px;color:#23262c">{{ s.head }}</div>
+<div style="font-weight:700;font-size:15.5px;letter-spacing:-.2px;color:var(--ink-strong)">{{ s.head }}</div>
 </sc-if>
 <sc-if value="{{ s.isBody }}" hint-placeholder-val="{{ true }}">
-<div style="font-weight:400;font-size:{{ bodySize }};line-height:1.95;letter-spacing:-.1px;color:#33373e;text-wrap:pretty">{{ s.body }}</div>
+<div style="font-weight:400;font-size:{{ bodySize }};line-height:1.95;letter-spacing:-.1px;color:var(--ink-2);text-wrap:pretty">{{ s.body }}</div>
 </sc-if>
 <sc-if value="{{ s.isNote }}" hint-placeholder-val="{{ false }}">
 <div style="padding:17px 19px;background:{{ accentTint }};border-radius:8px;border-left:2px solid {{ accent }};display:flex;flex-direction:column;gap:8px">
 <div style="font-weight:700;font-size:10.5px;letter-spacing:1px;color:{{ accentInk }}">{{ s.noteLabel }}</div>
-<div style="font-weight:400;font-size:{{ noteSize }};line-height:1.9;letter-spacing:-.1px;color:#33373e">{{ s.note }}</div>
+<div style="font-weight:400;font-size:{{ noteSize }};line-height:1.9;letter-spacing:-.1px;color:var(--ink-2)">{{ s.note }}</div>
 </div>
 </sc-if>
 </div>
 </sc-for>
 </div>
 
-<div style="display:flex;flex-direction:column;gap:17px;padding-top:36px;border-left:1px solid rgba(45,48,56,.09);padding-left:19px">
+<div style="display:flex;flex-direction:column;gap:17px;padding-top:36px;border-left:1px solid var(--line-09);padding-left:19px">
 <sc-if value="{{ showCases }}" hint-placeholder-val="{{ true }}">
 <sc-for list="{{ margins }}" as="m" hint-placeholder-count="2">
 <div style="display:flex;flex-direction:column;gap:6px;cursor:pointer" onClick="{{ m.reveal }}">
 <div style="display:flex;gap:6px;align-items:center"><div style="width:15px;height:15px;border-radius:4px;background:{{ m.badgeBg }};display:flex;align-items:center;justify-content:center;font-weight:700;font-size:9px;color:{{ m.badgeInk }}">{{ m.badge }}</div><div style="font-weight:600;font-size:10.5px;color:{{ m.labelColor }}">判例</div></div>
-<div style="font:400 12px/1.75 Pretendard,sans-serif;color:#767c85">{{ m.text }}</div>
+<div style="font:400 12px/1.75 Pretendard,sans-serif;color:var(--ink-soft)">{{ m.text }}</div>
 </div>
 </sc-for>
 </sc-if>
-<div style="height:1px;background:rgba(45,48,56,.09)"></div>
+<div style="height:1px;background:var(--line-09)"></div>
 <div style="display:flex;flex-direction:column;gap:6px">
-<div style="font:600 10.5px Pretendard,sans-serif;color:#8e939b;letter-spacing:.6px">조문</div>
-<div style="font:400 11.5px/1.8 Pretendard,sans-serif;color:#767c85">{{ statute }}</div>
+<div style="font:600 10.5px Pretendard,sans-serif;color:var(--ink-faint);letter-spacing:.6px">조문</div>
+<div style="font:400 11.5px/1.8 Pretendard,sans-serif;color:var(--ink-soft)">{{ statute }}</div>
 </div>
 <div style="display:flex;flex-direction:column;gap:6px">
-<div style="font:600 10.5px Pretendard,sans-serif;color:#8e939b;letter-spacing:.6px">내 메모</div>
-<div style="padding:9px 10px;border-radius:6px;background:#fcfcfd;border:1px dashed rgba(45,48,56,.15);font:400 11px/1.7 Pretendard,sans-serif;color:#b3b8be">여백에 적어두기…</div>
+<div style="font:600 10.5px Pretendard,sans-serif;color:var(--ink-faint);letter-spacing:.6px">내 메모</div>
+<div style="padding:9px 10px;border-radius:6px;background:var(--surface-2);border:1px dashed var(--line-15);font:400 11px/1.7 Pretendard,sans-serif;color:var(--ink-ghost)">여백에 적어두기…</div>
 </div>
 </div>
 </div>
 
-<div style="display:flex;align-items:center;gap:14px;padding-top:8px"><div style="flex:1;height:1px;background:rgba(45,48,56,.09)"></div><div style="font:400 11px Pretendard,sans-serif;color:#b3b8be">{{ pageNo }}</div><div style="flex:1;height:1px;background:rgba(45,48,56,.09)"></div></div>
+<div style="display:flex;align-items:center;gap:14px;padding-top:8px"><div style="flex:1;height:1px;background:var(--line-09)"></div><div style="font:400 11px Pretendard,sans-serif;color:var(--ink-ghost)">{{ pageNo }}</div><div style="flex:1;height:1px;background:var(--line-09)"></div></div>
 </div>
 
 <div style="flex:1"></div>
-<div style="padding:14px 30px;background:#fcfcfd;border-top:1px solid rgba(45,48,56,.08);display:flex;align-items:center;gap:10px;position:sticky;bottom:0">
-<div style="font:500 11.5px Pretendard,sans-serif;color:#8e939b;cursor:pointer" onClick="{{ prev }}">‹ {{ prevTitle }}</div>
+<div style="padding:14px 30px;background:var(--surface-2);border-top:1px solid var(--line-08);display:flex;align-items:center;gap:10px;position:sticky;bottom:0">
+<div style="font:500 11.5px Pretendard,sans-serif;color:var(--ink-faint);cursor:pointer" onClick="{{ prev }}">‹ {{ prevTitle }}</div>
 <div style="flex:1"></div>
-<sc-if value="{{ hasQuiz }}" hint-placeholder-val="{{ true }}"><div style="padding:9px 14px;border-radius:9px;background:#fff;border:1px solid rgba(45,48,56,.11);font:600 11.5px Pretendard,sans-serif;color:#767c85;cursor:pointer;white-space:nowrap" onClick="{{ toggleQuiz }}">이 장 판례 {{ caseCount }}개 O/X</div></sc-if>
+<sc-if value="{{ hasQuiz }}" hint-placeholder-val="{{ true }}"><div style="padding:9px 14px;border-radius:9px;background:var(--surface);border:1px solid var(--line-11);font:600 11.5px Pretendard,sans-serif;color:var(--ink-soft);cursor:pointer;white-space:nowrap" onClick="{{ toggleQuiz }}">이 장 판례 {{ caseCount }}개 O/X</div></sc-if>
 <sc-if value="{{ hasLinkedQuiz }}" hint-placeholder-val="{{ true }}"><div style="padding:9px 14px;border-radius:9px;font-weight:600;font-size:11.5px;color:#fff;background:{{ accent }};cursor:pointer;white-space:nowrap">선택형 {{ quizCount }}문항 →</div></sc-if>
-<div style="font:500 11.5px Pretendard,sans-serif;color:#8e939b;cursor:pointer" onClick="{{ next }}">{{ nextTitle }} ›</div>
+<div style="font:500 11.5px Pretendard,sans-serif;color:var(--ink-faint);cursor:pointer" onClick="{{ next }}">{{ nextTitle }} ›</div>
 </div>
 </div>
 </sc-if>
@@ -286,14 +316,14 @@ window.__loadData = function (file, onDone) {
 </div>
 
 <sc-if value="{{ quizOpen }}" hint-placeholder-val="{{ false }}">
-<div style="position:fixed;inset:0;background:rgba(35,38,44,.42);display:flex;align-items:flex-end;justify-content:center;z-index:10">
-<div style="width:100%;max-width:720px;max-height:76vh;overflow-y:auto;overflow-x:hidden;background:#fff;border-radius:18px 18px 0 0;padding:22px 26px 26px;display:flex;flex-direction:column;gap:14px;box-shadow:0 -8px 40px rgba(35,38,44,.2)" onClick="{{ stop }}">
-<div style="display:flex;align-items:center;gap:10px"><div style="width:3px;height:14px;border-radius:2px;background:{{ accent }}"></div><div style="font:700 15px Pretendard,sans-serif;color:#2f333a;letter-spacing:-.3px">암기 확인 — {{ chapterTitle }}</div><div style="flex:1"></div><div style="font:500 11.5px Pretendard,sans-serif;color:#8e939b;white-space:nowrap">{{ revealed }} / {{ quizTotal }} 확인</div><div style="width:26px;height:26px;border-radius:8px;background:#f2f4f7;display:flex;align-items:center;justify-content:center;font-size:13px;color:#767c85;cursor:pointer;flex:none" onClick="{{ toggleQuiz }}">✕</div></div>
-<div style="font:400 12px/1.6 Pretendard,sans-serif;color:#8e939b">결론만 가렸습니다. 먼저 판단하고 카드를 눌러 확인하세요.</div>
+<div style="position:fixed;inset:0;background:var(--scrim);display:flex;align-items:flex-end;justify-content:center;z-index:10">
+<div style="width:100%;max-width:720px;max-height:76vh;overflow-y:auto;overflow-x:hidden;background:var(--surface);border-radius:18px 18px 0 0;padding:22px 26px 26px;display:flex;flex-direction:column;gap:14px;box-shadow:0 -8px 40px var(--scrim-2)" onClick="{{ stop }}">
+<div style="display:flex;align-items:center;gap:10px"><div style="width:3px;height:14px;border-radius:2px;background:{{ accent }}"></div><div style="font:700 15px Pretendard,sans-serif;color:var(--ink);letter-spacing:-.3px">암기 확인 — {{ chapterTitle }}</div><div style="flex:1"></div><div style="font:500 11.5px Pretendard,sans-serif;color:var(--ink-faint);white-space:nowrap">{{ revealed }} / {{ quizTotal }} 확인</div><div style="width:26px;height:26px;border-radius:8px;background:var(--chip);display:flex;align-items:center;justify-content:center;font-size:13px;color:var(--ink-soft);cursor:pointer;flex:none" onClick="{{ toggleQuiz }}">✕</div></div>
+<div style="font:400 12px/1.6 Pretendard,sans-serif;color:var(--ink-faint)">결론만 가렸습니다. 먼저 판단하고 카드를 눌러 확인하세요.</div>
 <sc-for list="{{ quizCards }}" as="q" hint-placeholder-count="3">
-<div style="padding:15px 16px;border-radius:12px;background:#fcfcfd;border:1px solid rgba(45,48,56,.1);display:flex;gap:12px;align-items:flex-start;cursor:pointer" onClick="{{ q.toggle }}">
+<div style="padding:15px 16px;border-radius:12px;background:var(--surface-2);border:1px solid var(--line-10);display:flex;gap:12px;align-items:flex-start;cursor:pointer" onClick="{{ q.toggle }}">
 <div style="width:22px;height:22px;border-radius:6px;flex:none;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:11px;background:{{ q.badgeBg }};color:{{ q.badgeInk }};border:{{ q.badgeBorder }}">{{ q.badge }}</div>
-<div style="display:flex;flex-direction:column;gap:7px;min-width:0"><div style="font:400 13.5px/1.75 Pretendard,sans-serif;color:#33373e">{{ q.text }}</div><div style="font-weight:400;font-size:11px;line-height:1.5;color:{{ q.srcColor }}">{{ q.src }}</div></div>
+<div style="display:flex;flex-direction:column;gap:7px;min-width:0"><div style="font:400 13.5px/1.75 Pretendard,sans-serif;color:var(--ink-2)">{{ q.text }}</div><div style="font-weight:400;font-size:11px;line-height:1.5;color:{{ q.srcColor }}">{{ q.src }}</div></div>
 </div>
 </sc-for>
 </div>
@@ -309,6 +339,12 @@ const THEMES = {
   형사법: { accent:'#9dbcd4', ink:'#4f7593', soft:'#dfeaf3', tint:'#f5f9fc', sidebar:'#f6fafc', chip:'#eef4f9', head:'#dfebf4', headInk:'#456a8d', pick:'#eaf2f8' },
   공법:   { accent:'#8aa89c', ink:'#556d63', soft:'#e3ebe6', tint:'#f4f7f5', sidebar:'#f6f9f7', chip:'#eef2ef', head:'#e2ece6', headInk:'#48624f', pick:'#ecf3ef' }
 };
+const DARK_THEMES = {
+  민사법: { accent:'#c58b98', ink:'#e3a9b8', soft:'#3a2b31', tint:'#1e1a1c', sidebar:'#1a171a', chip:'#312329', head:'#3d2b33', headInk:'#e7b3c0', pick:'#37262d' },
+  형사법: { accent:'#7ea6c4', ink:'#9dc3e0', soft:'#26333e', tint:'#181c20', sidebar:'#171b1f', chip:'#232e38', head:'#293743', headInk:'#a8cae4', pick:'#26323d' },
+  공법:   { accent:'#7fa08f', ink:'#9dc0ac', soft:'#26322b', tint:'#181c19', sidebar:'#171b18', chip:'#232e27', head:'#293630', headInk:'#a6c8b3', pick:'#263129' }
+};
+
 const TRACKS = {
   민사법: ['민법','민사소송법','상법'],
   형사법: ['형법','형사소송법'],
@@ -481,7 +517,7 @@ function collect(rows, key, catName) {
 }
 
 class Component extends DCLogic {
-  state = { track:'민사법', subject:'민법', view:'toc', chapter:null, filter:'전체', size:0, fold:false, quizOpen:false, shown:{}, crimPart:0, mark:null };
+  state = { dark: (document.documentElement.dataset.theme === 'dark'), track:'민사법', subject:'민법', view:'toc', chapter:null, filter:'전체', size:0, fold:false, quizOpen:false, shown:{}, crimPart:0, mark:null };
 
   componentDidMount() {
     // 모아보기에서 단원 제목을 눌렀을 때 그 단원으로 이동
@@ -529,7 +565,7 @@ class Component extends DCLogic {
 
   hasData() { return !!dataFor(this.state.subject); }
 
-  theme() { return THEMES[this.state.track]; }
+  theme() { return (this.state.dark ? DARK_THEMES : THEMES)[this.state.track]; }
 
   chapterList() {
     if (this.hasData()) {
@@ -553,7 +589,7 @@ class Component extends DCLogic {
   tagStyle(kind) {
     const th = this.theme();
     return kind === 'grey'
-      ? { bg:'#f2f4f7', color:'#6b7580' }
+      ? { bg:'var(--chip)', color:'var(--ink-muted)' }
       : { bg:th.chip, color:th.ink };
   }
 
@@ -574,22 +610,22 @@ class Component extends DCLogic {
 
     const tracks = Object.keys(TRACKS).map(name => {
       const on = name === st.track;
-      return { name, bg: on ? THEMES[name].accent : '#fff', border: on ? 'transparent' : 'rgba(45,48,56,.1)',
-        color: on ? '#fff' : '#767c85', weight: on ? 700 : 600,
+      return { name, bg: on ? THEMES[name].accent : 'var(--surface)', border: on ? 'transparent' : 'var(--line-10)',
+        color: on ? '#fff' : 'var(--ink-soft)', weight: on ? 700 : 600,
         pick: () => this.setState({ track:name, subject:TRACKS[name][0], view:'toc', chapter:null, quizOpen:false }) };
     });
 
     const subjects = TRACKS[st.track].map((name, i) => {
       const on = name === st.subject;
-      return { name, bg: on ? th.soft : '#fff', border: on ? 'transparent' : 'rgba(45,48,56,.09)',
-        color: on ? th.ink : '#a8adb4', weight: on ? 600 : 500,
+      return { name, bg: on ? th.soft : 'var(--surface)', border: on ? 'transparent' : 'rgba(45,48,56,.09)',
+        color: on ? th.ink : 'var(--ink-fainter)', weight: on ? 600 : 500,
         pick: () => this.setState({ subject:name, view:'toc', chapter:null }) };
     });
 
     const filters = ['전체','△ 약점','✓ 완료','미학습'].map(name => {
       const on = name === st.filter;
-      return { name, bg: on ? th.accent : '#fff', border: on ? 'transparent' : 'rgba(45,48,56,.11)',
-        color: on ? '#fff' : '#767c85', weight: on ? 600 : 500, pick: () => this.setState({ filter:name }) };
+      return { name, bg: on ? th.accent : 'var(--surface)', border: on ? 'transparent' : 'var(--line-11)',
+        color: on ? '#fff' : 'var(--ink-soft)', weight: on ? 600 : 500, pick: () => this.setState({ filter:name }) };
     });
 
     const keep = t => st.filter === '전체' ? true
@@ -610,8 +646,8 @@ class Component extends DCLogic {
     const counts = crim ? markCounts(st.subject, rows) : {};
     const marks = crim ? MARKS.filter(m => counts[m.key] > 0).map(m => {
       const on = st.mark === m.key;
-      return { name: m.name + ' ' + counts[m.key], bg: on ? th.accent : '#fff', border: on ? 'transparent' : 'rgba(45,48,56,.11)',
-        color: on ? '#fff' : '#767c85', weight: on ? 600 : 500,
+      return { name: m.name + ' ' + counts[m.key], bg: on ? th.accent : 'var(--surface)', border: on ? 'transparent' : 'var(--line-11)',
+        color: on ? '#fff' : 'var(--ink-soft)', weight: on ? 600 : 500,
         pick: () => this.setState(on ? { mark:null, view:'toc' } : { mark:m.key, view:'page', chapter:null, quizOpen:false }) };
     }) : [];
 
@@ -646,15 +682,15 @@ class Component extends DCLogic {
       bar: i === st.crimPart ? th.accent : 'transparent',
       num: (sp[1].match(/^(제\d+[편장절관])\s*/) || ['', ''])[1],
       rest: sp[1].replace(/^제\d+[편장절관]/, ''),
-      numColor: i === st.crimPart ? '#2f333a' : th.headInk,
-      color: i === st.crimPart ? '#2f333a' : '#767c85', weight: i === st.crimPart ? 700 : 600,
+      numColor: i === st.crimPart ? 'var(--ink)' : th.headInk,
+      color: i === st.crimPart ? 'var(--ink)' : 'var(--ink-soft)', weight: i === st.crimPart ? 700 : 600,
       rule: i === st.crimPart ? 'transparent' : 'rgba(45,48,56,.08)',
-      countColor: i === st.crimPart ? th.ink : '#a8adb4',
+      countColor: i === st.crimPart ? th.ink : 'var(--ink-fainter)',
       open: i === st.crimPart,
       pick: () => this.setState({ crimPart: i, view:'toc' }),
       chapters: p.topics.slice(0, 8).map(t => ({
         title: t.title, dot: 'rgba(45,48,56,.14)',
-        color: t.title === st.chapter ? '#2f333a' : '#767c85',
+        color: t.title === st.chapter ? 'var(--ink)' : 'var(--ink-soft)',
         weight: t.title === st.chapter ? 600 : 400,
         open: () => this.openChapter(t.title)
       }))
@@ -685,16 +721,16 @@ class Component extends DCLogic {
 
     const margins = page ? page.margins.map(m => ({
       badge: m.badge, text: m.text,
-      badgeBg: m.badge === 'O' ? '#7fa38f' : '#c2857f', badgeInk:'#fff',
-      labelColor: m.badge === 'O' ? '#5c6b64' : '#a1655f',
+      badgeBg: m.badge === 'O' ? 'var(--ox-o)' : 'var(--ox-x)', badgeInk:'#fff',
+      labelColor: m.badge === 'O' ? 'var(--green)' : 'var(--neg-ink)',
       reveal: () => {}
     })) : [];
 
     const quizCards = page ? page.quiz.map((q, i) => {
       const on = !!st.shown[i];
-      return { text:q.text, src: on ? q.src : '가려짐 — 눌러서 확인', srcColor: on ? '#a8adb4' : th.ink,
-        badge: on ? q.badge : '?', badgeBg: on ? (q.badge === 'O' ? '#7fa38f' : '#c2857f') : '#f2f4f7',
-        badgeInk: on ? '#fff' : '#a8adb4', badgeBorder: on ? 'none' : '1px dashed rgba(45,48,56,.2)',
+      return { text:q.text, src: on ? q.src : '가려짐 — 눌러서 확인', srcColor: on ? 'var(--ink-fainter)' : th.ink,
+        badge: on ? q.badge : '?', badgeBg: on ? (q.badge === 'O' ? 'var(--ox-o)' : 'var(--ox-x)') : 'var(--chip)',
+        badgeInk: on ? '#fff' : 'var(--ink-fainter)', badgeBorder: on ? 'none' : '1px dashed rgba(45,48,56,.2)',
         toggle: () => this.setState(s => ({ shown: Object.assign({}, s.shown, { [i]: !s.shown[i] }) })) };
     }) : [];
 
@@ -705,6 +741,14 @@ class Component extends DCLogic {
       tracks, subjects, filters, marks, parts, navParts, hasParts: navParts.length > 0,
       accent: th.accent, accentInk: th.ink, accentSoft: th.soft, accentTint: th.tint, accentHead: th.head, accentHeadInk: th.headInk, sidebarBg: th.sidebar,
       brand: brandOf(st.track, st.subject), brandSub: '변호사시험 ' + st.subject,
+      themeIcon: st.dark ? '☀' : '☾',
+      themeLabel: st.dark ? '밝은 화면으로' : '어두운 화면으로',
+      toggleTheme: () => this.setState(s2 => {
+        const dark = !s2.dark;
+        document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+        try { localStorage.setItem('lawmj_theme', dark ? 'dark' : 'light'); } catch (e) {}
+        return { dark };
+      }),
       crumb: st.track + ' · ' + st.subject, subjectName: st.subject,
       sourceNote: crim ? (DATASETS[st.subject] || {}).label + ' · ' + crimParts.length + '개 장 / ' + crimParts.reduce((a, p) => a + p.topics.length, 0) + '개 ' + (DATASETS[st.subject] || {}).unit
         : dataLoading ? st.subject + ' 자료 불러오는 중…' : '준비 중 — 민사법·형사법이 먼저 열려 있습니다',
@@ -734,21 +778,21 @@ class Component extends DCLogic {
       bodySize: sizeSet[1], noteSize: sizeSet[2], sizeLabel: sizeSet[0],
       cycleSize: () => this.setState(s => ({ size: (s.size + 1) % SIZES.length })),
       toggleFold: () => this.setState(s => ({ fold: !s.fold })),
-      foldBg: st.fold ? th.soft : '#fff', foldBorder: st.fold ? 'transparent' : 'rgba(45,48,56,.1)',
-      foldColor: st.fold ? th.ink : '#767c85',
+      foldBg: st.fold ? th.soft : 'var(--surface)', foldBorder: st.fold ? 'transparent' : 'var(--line-10)',
+      foldColor: st.fold ? th.ink : 'var(--ink-soft)',
       quizOpen: st.quizOpen, quizCards, quizTotal: quizCards.length,
       revealed: Object.values(st.shown).filter(Boolean).length,
       toggleQuiz: () => this.setState(s => ({ quizOpen: !s.quizOpen })),
       stop: e => e.stopPropagation(),
       goToc: () => this.setState({ view:'toc', quizOpen:false, mark:null }),
       showProg: !!crimTopic,
-      doneBg: crimTopic && stateOf(crimTopic.id) === 'done' ? '#7fa38f' : '#fff',
-      doneBorder: crimTopic && stateOf(crimTopic.id) === 'done' ? 'transparent' : 'rgba(45,48,56,.1)',
-      doneColor: crimTopic && stateOf(crimTopic.id) === 'done' ? '#fff' : '#767c85',
+      doneBg: crimTopic && stateOf(crimTopic.id) === 'done' ? 'var(--ox-o)' : 'var(--surface)',
+      doneBorder: crimTopic && stateOf(crimTopic.id) === 'done' ? 'transparent' : 'var(--line-10)',
+      doneColor: crimTopic && stateOf(crimTopic.id) === 'done' ? '#fff' : 'var(--ink-soft)',
       toggleDone: () => this.markProg(crimTopic && crimTopic.id, 'done'),
-      weakBg: crimTopic && stateOf(crimTopic.id) === 'weak' ? '#c2857f' : '#fff',
-      weakBorder: crimTopic && stateOf(crimTopic.id) === 'weak' ? 'transparent' : 'rgba(45,48,56,.1)',
-      weakColor: crimTopic && stateOf(crimTopic.id) === 'weak' ? '#fff' : '#767c85',
+      weakBg: crimTopic && stateOf(crimTopic.id) === 'weak' ? 'var(--ox-x)' : 'var(--surface)',
+      weakBorder: crimTopic && stateOf(crimTopic.id) === 'weak' ? 'transparent' : 'var(--line-10)',
+      weakColor: crimTopic && stateOf(crimTopic.id) === 'weak' ? '#fff' : 'var(--ink-soft)',
       toggleWeak: () => this.markProg(crimTopic && crimTopic.id, 'weak'),
       prev: () => this.step(-1), next: () => this.step(1),
       prevTitle: !list.length ? '' : idx > 0 ? list[idx - 1].title : list[list.length - 1].title,
