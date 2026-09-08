@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/icon-256.png" type="image/png">
 <link rel="manifest" href="/manifest.json">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#f7f7f9">
@@ -92,8 +93,11 @@ html[data-theme="dark"]{color-scheme:dark;
 @media (max-width:760px){
   /* 목차와 본문을 위아래로 */
   div:is([style*="min-height:100vh"],[style*="min-height: 100vh"]):is([style*="display:flex"],[style*="display: flex"]){flex-direction:column!important}
-  /* 목차는 화면 위쪽에 접어 두고 스스로 스크롤 */
-  div:is([style*="width:256px"],[style*="width: 256px"]){width:100%!important;height:auto!important;max-height:38vh;position:static!important;border-right:none!important;border-bottom:1px solid var(--line-12)!important}
+  /* 목차는 화면 위쪽에 접어 두고 스스로 스크롤.
+     ⚠ 38vh 로 두면 머리글·과목칩·바닥글이 대부분을 먹고 목록에 58px 만 남아
+        920px 짜리 단원 목록이 그 틈에 갇힌다(실측). 목록 자체에 최소 높이를 준다. */
+  div:is([style*="width:256px"],[style*="width: 256px"]){width:100%!important;height:auto!important;max-height:60vh;position:static!important;border-right:none!important;border-bottom:1px solid var(--line-12)!important}
+  div:is([style*="width:256px"],[style*="width: 256px"])>div:is([style*="overflow-y:auto"],[style*="overflow-y: auto"]){min-height:210px!important}
   /* 본문 여백을 줄여 글줄을 확보 */
   div:is([style*="padding:44px 60px 32px"],[style*="padding: 44px 60px 32px"]){padding:20px 16px 24px!important}
   div:is([style*="padding:24px 26px 34px"],[style*="padding: 24px 26px 34px"]){padding:16px 14px 24px!important}
@@ -117,6 +121,12 @@ html[data-theme="dark"]{color-scheme:dark;
 }
 /* 터치 기기에서 과목·필터 칩이 24px 대라 손끝으로 집기 어려웠다 */
 @media (max-width:760px) and (pointer:coarse){
+  /* 목차의 장(36px)·단원(17px) 행은 손끝으로 집기엔 너무 얕았다.
+     사이드바 안의 누를 수 있는 줄에 최소 높이를 준다. */
+  div:is([style*="width:256px"],[style*="width: 256px"]) div:is([style*="cursor:pointer"],[style*="cursor: pointer"]){min-height:40px;box-sizing:border-box}
+  /* 상단바 조작부. 앱(홈 화면)으로 열면 브라우저 뒤로가기가 없어
+     「목차」가 사실상 유일한 복귀 수단인데 높이가 15px 였다. */
+  div:is([style*="padding:12px 26px"],[style*="padding: 12px 26px"])>:is(a,div:is([style*="cursor:pointer"],[style*="cursor: pointer"])){min-height:40px;display:flex;align-items:center;justify-content:center;box-sizing:border-box}
   div:is([style*="border-radius:7px"],[style*="border-radius: 7px"]):is([style*="cursor:pointer"],[style*="cursor: pointer"]),div:is([style*="border-radius:9px"],[style*="border-radius: 9px"]):is([style*="cursor:pointer"],[style*="cursor: pointer"]),div:is([style*="border-radius:11px"],[style*="border-radius: 11px"]):is([style*="cursor:pointer"],[style*="cursor: pointer"]){min-height:38px;display:flex;align-items:center;justify-content:center}
 }
 </style></helmet>
@@ -167,7 +177,7 @@ html[data-theme="dark"]{color-scheme:dark;
 <div style="padding:13px 18px;border-top:1px solid var(--line-08);display:flex;justify-content:space-between;white-space:nowrap"><div style="font:400 10.5px Pretendard,sans-serif;color:var(--ink-faint)">전체 문제 {{ totalQ }}개</div><div style="font-weight:600;font-size:10.5px;color:{{ accent }}">오답 {{ wrongQ }}개</div></div>
 </div>
 
-<div style="flex:1;display:flex;flex-direction:column;min-width:0;background:var(--surface)">
+<div id="main" style="flex:1;display:flex;flex-direction:column;min-width:0;background:var(--surface)">
 
 <div style="padding:12px 26px;display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--line-08);position:sticky;top:0;background:var(--surface);z-index:2">
 <div style="display:flex;align-items:center;gap:10px;cursor:pointer" onClick="{{ goToc }}"><div style="width:3px;height:13px;border-radius:2px;background:{{ accent }}"></div><div style="font:600 12.5px Pretendard,sans-serif;color:var(--ink)">목차</div></div>
@@ -533,7 +543,7 @@ class Component extends DCLogic {
       const parts = dataFor(this.state.subject) || [];
       const all = parts.reduce((a, p) => a.concat(p.topics), []);
       const hit = all.filter(t => t.id === id)[0];
-      if (hit) this.setState({ mark:null, view:'page', chapter:hit.title, shown:{} });
+      if (hit) { this.setState({ mark:null, view:'page', chapter:hit.title, shown:{} }); this.toMain(); }
     };
 
     // 뒤로가기 — 화면 전환을 브라우저 방문 기록에 남긴다.
@@ -584,7 +594,29 @@ class Component extends DCLogic {
     return [];
   }
 
-  openChapter(title) { this.setState({ view:'page', chapter:title, shown:{}, mark:null }); }
+  // 좁은 화면에선 목차가 본문 위에 쌓여 본문이 690px 아래에 있다.
+  // 단원을 열거나 목차로 돌아올 때 본문 머리로 데려간다.
+  // 렌더가 본문 노드를 갈아끼우므로 노드를 미리 잡아두면 안 된다(좌표가 0이 된다).
+  toMain() {
+    if (innerWidth > 760) return;
+    // 화면을 바꾸는 순간 문서가 잠깐 짧아져 목표 위치가 잘린다(스크롤 최대값 제한).
+    // 자리가 잡힐 때까지 몇 프레임 다시 시도한다.
+    let tries = 0;
+    const go = () => {
+      const el = document.getElementById('main');
+      if (el) {
+        const target = el.getBoundingClientRect().top + window.scrollY;
+        window.scrollTo({ top: target });
+        if (Math.abs(window.scrollY - target) < 2) return;
+      }
+      if (++tries < 8) setTimeout(go, 24);
+    };
+    // rAF 는 화면이 숨겨져 있으면 아예 돌지 않는다(백그라운드에서 복귀한 직후 등).
+    // getBoundingClientRect 가 배치를 강제하므로 타이머로도 좌표는 정확하다.
+    setTimeout(go, 0);
+  }
+
+  openChapter(title) { this.setState({ view:'page', chapter:title, shown:{}, mark:null }); this.toMain(); }
 
   step(dir) {
     const list = this.chapterList();
@@ -794,7 +826,7 @@ class Component extends DCLogic {
       revealed: Object.values(st.shown).filter(Boolean).length,
       toggleQuiz: () => this.setState(s => ({ quizOpen: !s.quizOpen })),
       stop: e => e.stopPropagation(),
-      goToc: () => this.setState({ view:'toc', quizOpen:false, mark:null }),
+      goToc: () => { this.setState({ view:'toc', quizOpen:false, mark:null }); this.toMain(); },
       showProg: !!crimTopic,
       doneBg: crimTopic && stateOf(crimTopic.id) === 'done' ? 'var(--ox-o)' : 'var(--surface)',
       doneBorder: crimTopic && stateOf(crimTopic.id) === 'done' ? 'transparent' : 'var(--line-10)',
