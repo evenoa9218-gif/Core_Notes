@@ -377,6 +377,16 @@ const BRAND_TRACK   = { 형사법: 'BB Mastery' };
 const brandOf = (track, subject) =>
   BRAND_SUBJECT[subject] || BRAND_TRACK[track] || '암기장';
 
+// 시험일까지 남은 날. 숫자를 박아 두면 만든 날에 멈춰 매일 틀어진다.
+// 자정 기준으로 세고, 시험 당일은 D-0, 지나면 D+n 으로 표시한다.
+const EXAM_DATE = new Date(2027, 0, 12);
+function ddayText() {
+  const day = 24 * 60 * 60 * 1000;
+  const t = new Date(); t.setHours(0, 0, 0, 0);
+  const n = Math.round((EXAM_DATE - t) / day);
+  return n >= 0 ? String(n) : '+' + (-n);
+}
+
 const STATUTE = '§404 ① 채권자는 자기의 채권을 보전하기 위하여 채무자의 권리를 행사할 수 있다.';
 
 
@@ -793,8 +803,8 @@ class Component extends DCLogic {
       }),
       crumb: st.track + ' · ' + st.subject, subjectName: st.subject,
       sourceNote: crim ? (DATASETS[st.subject] || {}).label + ' · ' + crimParts.length + '개 장 / ' + crimParts.reduce((a, p) => a + p.topics.length, 0) + '개 ' + (DATASETS[st.subject] || {}).unit
-        : dataLoading ? st.subject + ' 자료 불러오는 중…' : '준비 중 — 민사법·형사법이 먼저 열려 있습니다',
-      dday: 154,
+        : dataLoading ? st.subject + ' 자료 불러오는 중…' : '준비 중 — 상법을 뺀 여섯 과목이 열려 있습니다',
+      dday: ddayText(),
       totalQ: crim ? crimParts.reduce((a, p) => a + p.topics.length, 0) : 0,
       wrongQ: crim ? weakIds : 0,
       doneCount: done,
@@ -804,7 +814,7 @@ class Component extends DCLogic {
       emptyTitle: dataLoading ? '불러오는 중…' : '아직 준비 중인 과목입니다',
       emptyDesc: dataLoading
         ? st.subject + ' 자료를 받고 있습니다. 잠시만 기다려 주세요.'
-        : '현재는 민법·민사소송법·형법·형사소송법이 열려 있습니다. 자료가 추가되면 같은 구조로 목차가 채워집니다.',
+        : '현재는 민법·민사소송법·형법·형사소송법·헌법·행정법이 열려 있습니다. 자료가 추가되면 같은 구조로 목차가 채워집니다.',
       isRich: !!(page && page.rich),
       richBody: page && page.rich
         ? React.createElement('div', { style: { fontSize: sizeSet[1] }, dangerouslySetInnerHTML: { __html: page.rich } })
