@@ -92,7 +92,10 @@ html[data-theme="dark"]{color-scheme:dark;
 .q-input:focus{border-color:var(--underline)}
 .q-clear{position:absolute;right:9px;width:22px;height:22px;border-radius:99px;background:var(--chip);color:var(--ink-faint);font-size:11px;display:flex;align-items:center;justify-content:center;cursor:pointer}
 mark.q-hit{background:var(--q-bg);color:var(--q-ink);border-radius:3px;padding:0 2px;font-weight:600}
-@media (max-width:760px){.q-input{font-size:16px;padding:12px 14px}}
+.q-memo{width:100%;box-sizing:border-box;min-height:74px;resize:vertical;padding:9px 10px;border-radius:6px;background:var(--surface-2);border:1px dashed var(--line-15);font:400 11.5px/1.7 Pretendard,sans-serif;color:var(--ink-2);outline:none}
+.q-memo::placeholder{color:var(--ink-ghost)}
+.q-memo:focus{border-style:solid;border-color:var(--underline)}
+@media (max-width:760px){.q-input{font-size:16px;padding:12px 14px}.q-memo{font-size:16px}}
 body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-webkit-font-smoothing:antialiased}*{word-break:keep-all;overflow-wrap:break-word}a{color:var(--link)}a:hover{color:var(--link-hover)}
 /* ── 좁은 화면 대응 (2026-08-20) ────────────────────────────────
    좌측 목차 256px + 본문이 가로로 나란한 구조인데 미디어 쿼리가 없어,
@@ -333,10 +336,12 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div style="font:600 10.5px Pretendard,sans-serif;color:var(--ink-faint);letter-spacing:.6px">조문</div>
 <div style="font:400 11.5px/1.8 Pretendard,sans-serif;color:var(--ink-soft)">{{ statute }}</div>
 </div>
+<sc-if value="{{ hasMemo }}" hint-placeholder-val="{{ true }}">
 <div style="display:flex;flex-direction:column;gap:6px">
 <div style="font:600 10.5px Pretendard,sans-serif;color:var(--ink-faint);letter-spacing:.6px">내 메모</div>
-<div style="padding:9px 10px;border-radius:6px;background:var(--surface-2);border:1px dashed var(--line-15);font:400 11px/1.7 Pretendard,sans-serif;color:var(--ink-ghost)">여백에 적어두기…</div>
+<textarea id="lawmj-memo" class="q-memo" placeholder="여백에 적어두기…" onInput="{{ onMemo }}"></textarea>
 </div>
+</sc-if>
 </div>
 </div>
 
@@ -569,6 +574,24 @@ function buildQuiz(html, unitId) {
   return out;
 }
 
+// 여백 메모. 「여백에 적어두기…」는 점선 상자일 뿐 누를 수도 없었다 — 진짜로 적히게 한다.
+const MEMO_KEY = 'lawmj_memo_v1';
+const MEMO = {
+  data: null,
+  load() {
+    if (this.data) return this.data;
+    try { this.data = JSON.parse(localStorage.getItem(MEMO_KEY)) || {}; } catch (e) { this.data = {}; }
+    return this.data;
+  },
+  get(id) { return (id && this.load()[id]) || ''; },
+  set(id, v) {
+    if (!id) return;
+    const d = this.load();
+    if (v) d[id] = v; else delete d[id];
+    try { localStorage.setItem(MEMO_KEY, JSON.stringify(d)); } catch (e) {}
+  }
+};
+
 // 푼 기록. 맞았는지 틀렸는지를 남겨야 오답이 쌓이고, 틀린 것만 다시 볼 수 있다.
 // 문항 id 는 본문 글자에서 뽑으므로 노션에서 줄 순서가 바뀌어도 기록이 따라간다.
 const OX_KEY = 'lawmj_ox_v1';
@@ -773,7 +796,7 @@ const BOOT = parseHash(location.hash) || lastSeen();
 
 class Component extends DCLogic {
   state = Object.assign(
-    { dark: (document.documentElement.dataset.theme === 'dark'), track:'민사법', subject:'민법', view:'toc', chapter:null, filter:'전체', size:0, fold:false, quizOpen:false, shown:{}, crimPart:0, mark:null, q:'', quizFilter:'all', quizSeed:0 },
+    { dark: (document.documentElement.dataset.theme === 'dark'), track:'민사법', subject:'민법', view:'toc', chapter:null, filter:'전체', size:0, fold:false, quizOpen:false, shown:{}, crimPart:0, mark:null, q:'', quizFilter:'all', quizSeed:0, peek:{} },
     BOOT || {});
 
   componentDidMount() {
@@ -782,7 +805,7 @@ class Component extends DCLogic {
       const parts = dataFor(this.state.subject) || [];
       const all = parts.reduce((a, p) => a.concat(p.topics), []);
       const hit = all.filter(t => t.id === id)[0];
-      if (hit) { this.setState({ mark:null, view:'page', chapter:hit.title, shown:{} }); this.toMain(); }
+      if (hit) { this.setState({ mark:null, view:'page', chapter:hit.title, shown:{}, peek:{} }); this.toMain(); }
     };
 
     // 뒤로가기 — 화면 전환을 브라우저 방문 기록에 남긴다.
@@ -822,6 +845,15 @@ class Component extends DCLogic {
       navigator.serviceWorker.register('sw.js').catch(() => {});
 
     this.syncBox();
+  }
+
+  // 메모도 검색칸과 같은 이유로 비제어다. 단원을 옮기면 그 단원의 메모로 갈아 끼운다.
+  syncMemo() {
+    const el = document.getElementById('lawmj-memo');
+    if (!el) return;
+    const id = el.getAttribute('data-unit') || '';
+    const want = this._memoUnit || '';
+    if (id !== want) { el.value = MEMO.get(want); el.setAttribute('data-unit', want); }
   }
 
   // 검색칸은 비제어로 둔다 — 글쇠마다 React 가 값을 되돌리면 커서가 튀기 때문이다.
@@ -864,7 +896,7 @@ class Component extends DCLogic {
     const t = brandOf(this.state.track, this.state.subject) + ' — 변호사시험 ' + this.state.subject;
     if (document.title !== t) document.title = t;
     const now = this.navSnap(this.state);
-    if (this._popping) { this._popping = false; this._nav = now; this.syncPart(); this.syncBox(); return; }
+    if (this._popping) { this._popping = false; this._nav = now; this.syncPart(); this.syncBox(); this.syncMemo(); return; }
     const moved = this._nav ? Object.keys(now).filter(k => this._nav[k] !== now[k]) : [];
     if (moved.length) {
       // 검색어만 바뀐 것은 한 번의 이동으로 친다 — 글쇠마다 기록이 쌓이면 뒤로가기가 막힌다
@@ -875,6 +907,7 @@ class Component extends DCLogic {
     this._nav = now;
     this.syncPart();
     this.syncBox();
+    this.syncMemo();
   }
 
   progOf(id) { return PROG.get(id); }
@@ -923,7 +956,7 @@ class Component extends DCLogic {
     setTimeout(go, 0);
   }
 
-  openChapter(title) { this.setState({ view:'page', chapter:title, shown:{}, mark:null }); this.toMain(); }
+  openChapter(title) { this.setState({ view:'page', chapter:title, shown:{}, peek:{}, mark:null }); this.toMain(); }
 
   step(dir) {
     const list = this.chapterList();
@@ -1052,6 +1085,7 @@ class Component extends DCLogic {
       ? (crimParts.reduce((a, p) => a.concat(p.topics), []).find(t => t.title === st.chapter) || null)
       : null;
     const crimCards = crimTopic ? buildQuiz(crimTopic.html, crimTopic.id) : [];
+    this._memoUnit = crimTopic ? crimTopic.id : '';
     const page = crimTopic
       ? { eyebrow: (crimParts.find(p => p.topics.indexOf(crimTopic) > -1) || {}).name + ' · ' + crimTopic.id,
           pageNo: crimTopic.id, caseCount: crimCards.length, quizCount: 0,
@@ -1071,12 +1105,18 @@ class Component extends DCLogic {
       isNote: !!s.note, note: s.note || '', noteLabel: s.noteLabel || ''
     })) : [];
 
-    const margins = page ? page.margins.map(m => ({
-      badge: m.badge, text: m.text,
-      badgeBg: m.badge === 'O' ? 'var(--ox-o)' : 'var(--ox-x)', badgeInk:'#fff',
-      labelColor: m.badge === 'O' ? 'var(--green)' : 'var(--neg-ink)',
-      reveal: () => {}
-    })) : [];
+    // 여백의 판례. 예전에는 결론(O·X)이 펼쳐진 채로 본문 옆에 붙어 있어,
+    // 본문을 읽기도 전에 답이 먼저 눈에 들어왔다. 누르면 벗겨지게 하고 기본은 가린다.
+    const margins = page ? page.margins.map((m, i) => {
+      const on = !!st.peek[i];
+      return {
+        badge: on ? m.badge : '?', text: m.text,
+        badgeBg: on ? (m.badge === 'O' ? 'var(--ox-o)' : 'var(--ox-x)') : 'var(--chip)',
+        badgeInk: on ? '#fff' : 'var(--ink-fainter)',
+        labelColor: on ? (m.badge === 'O' ? 'var(--green)' : 'var(--neg-ink)') : 'var(--ink-faint)',
+        reveal: () => this.setState(s2 => ({ peek: Object.assign({}, s2.peek, { [i]: !s2.peek[i] }) }))
+      };
+    }) : [];
 
     // 푼 것 / 맞은 것 / 틀린 것
     const allCards = page ? page.quiz : [];
@@ -1170,6 +1210,8 @@ class Component extends DCLogic {
       pageTags: page ? page.tags.map(([text, kind]) => Object.assign({ text }, this.tagStyle(kind))) : [],
       sections, margins, showCases: !st.fold,
       statute: crimTopic ? ((crimTopic.tags || []).join(' · ') || '조문 태그 없음') : STATUTE,
+      hasMemo: !!crimTopic,
+      onMemo: e => { const v = e.target.value; clearTimeout(this._mt); this._mt = setTimeout(() => MEMO.set(crimTopic && crimTopic.id, v), 300); },
       caseCount: page ? page.caseCount : 0, quizCount: page ? page.quizCount : 0,
       hasQuiz: quizCards.length > 0, hasLinkedQuiz: !!(page && page.quizCount),
       bodySize: sizeSet[1], noteSize: sizeSet[2], sizeLabel: sizeSet[0],
