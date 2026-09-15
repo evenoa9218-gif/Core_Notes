@@ -145,6 +145,16 @@ mark.q-hit{background:var(--q-bg);color:var(--q-ink);border-radius:3px;padding:0
 .q-unit-name{font-weight:400;font-size:11.5px;line-height:1.5;color:var(--ink-soft);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
 .q-unit[data-on="true"] .q-unit-name{font-weight:600;color:var(--ink)}
 
+/* 화면 밖은 그리지 않는다 (2026-09-15)
+   목록이 길면 브라우저가 화면에 없는 칸까지 배치·칠을 한다. 목차 카드 170장,
+   모아보기 876줄, 암기 확인 244칸이 그렇다. content-visibility 는 화면 밖 칸을
+   건너뛰되 DOM 에는 그대로 남긴다 — 그래서 브라우저 찾기(Ctrl+F)도 그대로 되고
+   내용이 사라지지 않는다. contain-intrinsic-size 는 아직 안 그린 칸의 높이를
+   미리 알려 줘 스크롤 막대가 널뛰지 않게 한다(실측 높이). */
+.q-tcard,.q-card,.q-line{content-visibility:auto}
+.q-tcard{contain-intrinsic-size:auto 150px}
+.q-card{contain-intrinsic-size:auto 92px}
+.q-line{contain-intrinsic-size:auto 58px}
 .q-tcard{background:var(--surface);border:1px solid var(--line-10);border-radius:13px;padding:16px 17px;display:flex;flex-direction:column;gap:12px;cursor:pointer;transition:box-shadow .16s ease,transform .16s ease}
 .q-tcard:hover{box-shadow:0 6px 18px var(--line-09);transform:translateY(-2px)}
 .q-tcard-top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
@@ -388,12 +398,14 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div style="display:flex;flex-direction:column;gap:12px">
 <div style="display:flex;align-items:baseline;gap:10px;flex-wrap:wrap"><div style="font:700 13px Pretendard,sans-serif;color:var(--ink)">‘{{ queryText }}’ 검색</div><div style="font:400 11.5px Pretendard,sans-serif;color:var(--ink-faint)">{{ searchNote }}</div></div>
 <div>{{ searchBody }}</div>
+<div>{{ searchTail }}</div>
 </div>
 </sc-if>
 <sc-if value="{{ isMark }}" hint-placeholder-val="{{ false }}">
 <div style="display:flex;flex-direction:column;gap:12px">
 <div style="display:flex;align-items:baseline;gap:10px;flex-wrap:wrap"><div style="font:700 13px Pretendard,sans-serif;color:var(--ink)">{{ markTitle }}</div><div style="font:400 11.5px Pretendard,sans-serif;color:var(--ink-faint)">{{ markNote }}</div><div style="flex:1"></div><div role="button" tabIndex="0" style="font:500 11.5px Pretendard,sans-serif;color:var(--ink-faint);cursor:pointer" onClick="{{ clearMark }}">모아보기 끄기 ✕</div></div>
 <div>{{ markBody }}</div>
+<div>{{ markTail }}</div>
 </div>
 </sc-if>
 <sc-if value="{{ isBrowse }}" hint-placeholder-val="{{ true }}">
@@ -944,7 +956,7 @@ function collect(subject, rows, key, catName, keep) {
       + (catName ? catName(cat) : cat) + ' · ' + title + ' <span class="cs-stat">' + hit.length + '건</span></div>'
       + hit.map(l => jumpWrap(id, l)).join(''));
   });
-  return { count: count, html: out.join('') };
+  return { count: count, html: out.join(''), groups: out };
 }
 
 // ── 줄 색인 ──────────────────────────────────────────────────
@@ -1009,7 +1021,7 @@ function searchIn(subject, rows, q, catName, cacheKey) {
       + take.map(l => jumpWrap(u.id, l, paint)).join(''));
   });
 
-  const val = { units, total, shown, html: out.join('') };
+  const val = { units, total, shown, html: out.join(''), groups: out };
   QCACHE.key = cacheKey; QCACHE.val = val;
   return val;
 }
@@ -1226,6 +1238,23 @@ class Component extends DCLogic {
     this.runJump();
   }
 
+  // 긴 목록은 두 번에 나눠 그린다.
+  //
+  // 목차 카드 170장이면 요소 5,105개가 한 번에 만들어진다. 다 만들 때까지 화면이
+  // 멈춰 있으니 누른 순간이 굼떠 보였다(실측 137ms). 그렇다고 화면 밖을 안 그리는
+  // 가상 스크롤로 가면 브라우저 찾기(Ctrl+F)에서 내용이 빠지고, 스크롤을 놓치면
+  // 빈 자리가 생긴다. 그래서 「첫 화면 몫을 먼저, 나머지는 곧바로 뒤이어」로 간다.
+  // 끝나고 나면 모든 칸이 DOM 에 그대로 있다 — 빠지는 내용이 없다.
+  listPass(key) {
+    if (this._listKey !== key) {
+      this._listKey = key;
+      this._pass = 0;
+      clearTimeout(this._passT);
+      this._passT = setTimeout(() => { this._pass = 1; this.forceUpdate(); }, 0);
+    }
+    return this._pass || 0;
+  }
+
   progOf(id) { return PROG.get(id); }
 
   // 사이드바 바닥에 잠깐 뜨는 알림 — 내보내기·불러오기 결과를 알린다
@@ -1418,17 +1447,26 @@ class Component extends DCLogic {
     const picked = st.mark ? collect(st.subject, rows, st.mark, c => catNames[c] || c, keepId) : null;
     const markName = st.mark ? (MARKS.filter(m => m.key === st.mark)[0] || {}).name : '';
 
+    // 이 목록이 「같은 목록」인지 가리는 열쇠. 바뀌면 다시 첫 몫부터 그린다.
+    const pass = this.listPass([st.subject, st.filter, st.mark, st.q, st.view, st.chapter,
+                                st.crimPart, st.quizOpen, st.quizFilter, st.quizSeed].join('|'));
+    const FIRST_CARDS = 24, FIRST_GROUPS = 8, FIRST_QUIZ = 24;
+
     const qText = st.q || '';
     const found = crim && qText.trim().length >= 2
       ? searchIn(st.subject, rows, qText, c => catNames[c] || c, st.subject + '::' + qText.trim())
       : null;
 
+    let quota = pass ? Infinity : FIRST_CARDS;
     const parts = crim && crimParts.length
         ? crimParts.map((p, i) => {
             const sp = splitCat(p.name);
+            const kept = p.topics.filter(keep);
+            const take = quota >= kept.length ? kept : kept.slice(0, Math.max(0, quota));
+            quota -= take.length;
             return { label: sp[0] || ('분류 ' + (i + 1)), name: sp[1],
               count: p.topics.length + '개 ' + (DATASETS[st.subject] || {}).unit,
-              chapters: crimDecorate(p.topics.filter(keep)) };
+              chapters: crimDecorate(take) };
           })
         : [];
 
@@ -1505,7 +1543,7 @@ class Component extends DCLogic {
       deck = deck.slice().sort((x, y) => (hash32(x.id + seed) < hash32(y.id + seed) ? -1 : 1));
     }
 
-    const quizCards = deck.map(q => {
+    const quizCards = (pass ? deck : deck.slice(0, FIRST_QUIZ)).map(q => {
       const r = recOf(q);
       return { id:q.id, answer:q.badge, text:q.text, stars:q.stars, hasStars: !!q.stars,
         src: q.src,
@@ -1556,7 +1594,11 @@ class Component extends DCLogic {
       markNote: picked ? (picked.count + '건' + (st.filter === '전체' ? '' : ' · ' + st.filter + '만')) : '',
       markBody: picked
         ? React.createElement('div', { style: { fontSize: sizeSet[1], '--lh': leadSet[1] },
-            dangerouslySetInnerHTML: { __html: picked.html || '<div class="cs-li" style="color:var(--ink-fainter)">이 조건에 맞는 줄이 없다.</div>' } })
+            dangerouslySetInnerHTML: { __html: picked.groups.slice(0, FIRST_GROUPS).join('') || '<div class="cs-li" style="color:var(--ink-fainter)">이 조건에 맞는 줄이 없다.</div>' } })
+        : null,
+      markTail: picked && pass && picked.groups.length > FIRST_GROUPS
+        ? React.createElement('div', { style: { fontSize: sizeSet[1], '--lh': leadSet[1] },
+            dangerouslySetInnerHTML: { __html: picked.groups.slice(FIRST_GROUPS).join('') } })
         : null,
       clearMark: () => this.setState({ mark:null }),
       searchNote: found
@@ -1566,7 +1608,11 @@ class Component extends DCLogic {
         : (qText.trim().length === 1 ? '두 글자 이상 입력하세요' : ''),
       searchBody: found
         ? React.createElement('div', { style: { fontSize: sizeSet[1], '--lh': leadSet[1] },
-            dangerouslySetInnerHTML: { __html: found.html || '<div class="cs-li" style="color:var(--ink-fainter)">다른 말로 찾아보세요 — 조문 번호(366), 쟁점 이름(표현대리), 판례 연도(2023) 모두 됩니다.</div>' } })
+            dangerouslySetInnerHTML: { __html: found.groups.slice(0, FIRST_GROUPS).join('') || '<div class="cs-li" style="color:var(--ink-fainter)">다른 말로 찾아보세요 — 조문 번호(366), 쟁점 이름(표현대리), 판례 연도(2023) 모두 됩니다.</div>' } })
+        : null,
+      searchTail: found && pass && found.groups.length > FIRST_GROUPS
+        ? React.createElement('div', { style: { fontSize: sizeSet[1], '--lh': leadSet[1] },
+            dangerouslySetInnerHTML: { __html: found.groups.slice(FIRST_GROUPS).join('') } })
         : null,
       isEmpty: parts.length === 0,
       emptyTitle: dataLoading ? '불러오는 중…' : '아직 준비 중인 과목입니다',
