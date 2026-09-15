@@ -14,7 +14,9 @@
 import json, re, sys, os
 
 BASE = r"D:\_gongbeop"
-OUT = r"C:\Users\82109\Core_Notes\data-public.js"
+# 과목마다 제 파일로 낸다 (예전에는 헌법·행정법을 data-public.js 한 곳에 같이 담았다)
+OUT = {"헌법":   r"C:\Users\82109\Core_Notes\data-const.js",
+       "행정법": r"C:\Users\82109\Core_Notes\data-admin.js"}
 
 # 과목 → (전역변수 접두어, 논점 id 접두어)
 SUBJ = {"헌법": ("CONST", "헌법"), "행정법": ("ADMIN", "행정")}
@@ -109,17 +111,17 @@ def build(name):
     return rows, cats
 
 if __name__ == "__main__":
-    parts, ok = [], True
+    made, ok = [], True
     for name in ("헌법", "행정법"):
         rows, cats = build(name)
         if rows is None:
             ok = False; continue
         pre = SUBJ[name][0]
-        parts.append(f"window.{pre}_CATS_DATA = " +
-                     json.dumps(cats, ensure_ascii=False) + ";")
-        parts.append(f"window.{pre}_UNITS = " +
-                     json.dumps(rows, ensure_ascii=False) + ";")
+        parts = [f"window.{pre}_CATS_DATA = " + json.dumps(cats, ensure_ascii=False) + ";",
+                 f"window.{pre}_UNITS = " + json.dumps(rows, ensure_ascii=False) + ";"]
+        made.append((name, "\n".join(parts) + "\n"))
     if not ok:
-        sys.exit(1)
-    open(OUT, "w", encoding="utf-8").write("\n".join(parts) + "\n")
-    print(f"→ {OUT}  {os.path.getsize(OUT):,} bytes")
+        sys.exit(1)          # 한 과목이라도 어긋나면 어느 파일도 건드리지 않는다
+    for name, body in made:
+        open(OUT[name], "w", encoding="utf-8").write(body)
+        print(f"→ {OUT[name]}  {os.path.getsize(OUT[name]):,} bytes")

@@ -8,7 +8,9 @@
    ⚠ scope 는 /Core_Notes/ 다. 루트(허브)와 옆 앱들은 이 워커가 건드리지 않는다.
    ⚠ 캐시 이름을 올리면 activate 에서 옛 캐시를 지운다. 데이터 형식을 바꿀 땐 올릴 것. */
 
-const CACHE = 'lawmj-v2';
+// v3 — 데이터 파일을 과목별로 갈랐다(data-criminal/public → crim/crimpro/const/admin).
+// 이름을 올려 옛 캐시에 남은 합본 4MB 를 activate 에서 지운다.
+const CACHE = 'lawmj-v3';
 const SCOPE = new URL('./', self.location).pathname;
 const SHELL = ['./', './manifest.json', './support.js',
                './vendor/react.production.min.js', './vendor/react-dom.production.min.js'];

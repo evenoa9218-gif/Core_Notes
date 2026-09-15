@@ -21,7 +21,10 @@ sys.path.insert(0, str(Path(__file__).parent))
 import notion2criminal as n2c
 
 ROOT = Path(__file__).resolve().parent.parent
-OUT = ROOT / 'data-criminal.js'
+# 과목마다 제 파일로 낸다. 예전에는 한 파일(data-criminal.js)에 형법·형소를 같이 담아,
+# 형법에 들어가기만 해도 형소 1MB 를 통째로 받아 파싱했다.
+OUT_CRIM = ROOT / 'data-crim.js'        # 형법 (CRIM_CATS_DATA, CRIM_GAKRON_CONCEPT)
+OUT_PRO  = ROOT / 'data-crimpro.js'     # 형소 (CRIMPRO_CATS_DATA, CRIMPRO_UNITS)
 
 # 총론 60논점의 목차 — 장 이름을 그대로 키로 쓰면 이름이 길어서 짧은 표시명을 단다
 CHONG_LABEL = {}   # 장 → (key, 표시명), 등장 순서대로 만든다
@@ -101,16 +104,16 @@ def proc_rows():
 def main():
     crim, crim_cats = crim_rows()
     pro, pro_cats = proc_rows()
-    body = ''.join('window.%s = %s;\n' % (k, json.dumps(v, ensure_ascii=False)) for k, v in [
-        ('CRIM_CATS_DATA', crim_cats),
-        ('CRIM_GAKRON_CONCEPT', crim),
-        ('CRIMPRO_CATS_DATA', pro_cats),
-        ('CRIMPRO_UNITS', pro),
-    ])
-    io.open(OUT, 'w', encoding='utf-8', newline='\n').write(body)
-    print('형법 %d(총론 %d) · 형소 %d → %s (%.1fMB)'
-          % (len(crim), sum(1 for r in crim if r[0].startswith('형총')), len(pro),
-             OUT.name, OUT.stat().st_size / 1e6))
+    def dump(path, pairs):
+        body = ''.join('window.%s = %s;\n' % (k, json.dumps(v, ensure_ascii=False)) for k, v in pairs)
+        io.open(path, 'w', encoding='utf-8', newline='\n').write(body)
+        return path.stat().st_size / 1e6
+
+    mb_crim = dump(OUT_CRIM, [('CRIM_CATS_DATA', crim_cats), ('CRIM_GAKRON_CONCEPT', crim)])
+    mb_pro  = dump(OUT_PRO,  [('CRIMPRO_CATS_DATA', pro_cats), ('CRIMPRO_UNITS', pro)])
+    print('형법 %d(총론 %d) → %s (%.1fMB) · 형소 %d → %s (%.1fMB)'
+          % (len(crim), sum(1 for r in crim if r[0].startswith('형총')), OUT_CRIM.name, mb_crim,
+             len(pro), OUT_PRO.name, mb_pro))
     for k, name in crim_cats + pro_cats:
         n = sum(1 for r in crim + pro if r[5] == k)
         print('  %-16s %-14s %d' % (k, name, n))
