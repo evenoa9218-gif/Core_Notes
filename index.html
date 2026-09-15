@@ -194,7 +194,9 @@ mark.q-hit{background:var(--q-bg);color:var(--q-ink);border-radius:3px;padding:0
 .q-cardbody{display:flex;flex-direction:column;gap:9px;min-width:0;flex:1}
 .q-ctx{font:600 10.5px Pretendard,sans-serif;color:var(--ink-fainter);letter-spacing:.3px}
 .q-ctx:empty{display:none}
-.q-qtext{font:400 calc(13.5px * var(--fs,1))/1.75 Pretendard,sans-serif;color:var(--ink-2)}
+.q-fact{font:400 calc(12.5px * var(--fs,1))/1.7 Pretendard,sans-serif;color:var(--ink-3);background:var(--surface-3);border-radius:7px;padding:7px 9px}
+.q-tag{display:inline-block;margin-right:6px;padding:1px 6px;border-radius:5px;background:var(--chip);color:var(--ink-muted);font-size:calc(10.5px * var(--fs,1));font-weight:600;vertical-align:1px}
+.q-qtext{font:500 calc(13.5px * var(--fs,1))/1.75 Pretendard,sans-serif;color:var(--ink)}
 /* 결론 뒤에 붙어 있던 근거 — 채점하고 나서 보여준다. 이게 실은 해설이었다. */
 .q-why{width:100%;font:400 calc(12px * var(--fs,1))/1.7 Pretendard,sans-serif;color:var(--ink-3);background:var(--surface-3);border-left:2px solid var(--line-15);border-radius:0 6px 6px 0;padding:7px 10px}
 .q-why:empty{display:none}
@@ -614,7 +616,7 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div class="q-card" data-qid="{{ q.id }}" data-badge="{{ q.answer }}" data-state="{{ q.state }}" data-choice="{{ q.choice }}">
 <div class="q-badge"><span class="q-b-ask">?</span><span class="q-b-ans">{{ q.answer }}</span></div>
 <div class="q-cardbody">
-<div class="q-ctx">{{ q.ctx }}</div><div class="q-qtext"><sc-if value="{{ q.hasStars }}" hint-placeholder-val="{{ false }}"><span class="cs-star">{{ q.stars }}</span></sc-if>{{ q.text }}</div>
+<div class="q-ctx">{{ q.ctx }}</div><sc-if value="{{ q.hasFact }}" hint-placeholder-val="{{ true }}"><div class="q-fact"><span class="q-tag">사안</span>{{ q.fact }}</div></sc-if><div class="q-qtext"><sc-if value="{{ q.hasStars }}" hint-placeholder-val="{{ false }}"><span class="cs-star">{{ q.stars }}</span></sc-if>{{ q.text }}</div>
 <div class="q-ask">
 <div class="q-ox" role="button" tabIndex="0" aria-label="맞다 O" onClick="{{ q.pickO }}">O</div>
 <div class="q-ox" role="button" tabIndex="0" aria-label="틀리다 X" onClick="{{ q.pickX }}">X</div>
@@ -774,6 +776,32 @@ function hash32(s) {
   return (h >>> 0).toString(36);
 }
 
+// 소제목에서 번호를 떼어 술어로 쓸 부분만 남긴다 (「나. 보호의무 인정 사례」→「보호의무 인정 사례」)
+function headWord(ctx) {
+  return (ctx || '').replace(/^(?:[0-9]{1,2}|[가-힣]|[ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ]+|[IVX]{1,4})[.．)]\s*/, '').trim();
+}
+
+// 원문 한 줄을 「사안 + 물음」으로 세운다.
+//
+// 암기장 원문은 완결된 문장이 아니라 줄임말이다. 실측한 꼴 —
+//   [사안] 술어         1,445줄   [임차목적물 화재로 이행불능] 임차인은 … 손해배상책임
+//   서술형              1,239줄   사실인 관습은 … 직권으로 유무 판단
+//   [사안]만              122줄   [숙박계약 고객의 안전 배려의무, …]      ← 술어가 아예 없다
+//   짧은 구               118줄   태아에게 일반적 권리능력 인정
+// 술어가 없는 줄은 바로 위 소제목이 술어다(「나. 보호의무 인정 사례」→ 이에 해당하는가).
+// 그 맥락을 안 주면 「[] 안 나열」만 덩그러니 남아 무엇을 묻는지 알 수 없다.
+function frameQ(text, ctx) {
+  const m = /^\[([^\]]{6,})\]\s*([\s\S]*)$/.exec(text);
+  const tail = t => /[?？]$/.test(t) ? t : t + ' — 맞는가?';
+  if (m) {
+    const fact = m[1].trim(), rest = m[2].trim();
+    if (rest.length >= 4) return { fact: fact, ask: tail(rest) };
+    const head = headWord(ctx);
+    return { fact: fact, ask: head ? '「' + head + '」에 해당하는가?' : '맞는가?' };
+  }
+  return { fact: '', ask: tail(text) };
+}
+
 // 길면 자르되 낱말·괄호 한가운데서 끊지 않는다
 function cutAt(t, n) {
   if (t.length <= n) return t;
@@ -830,9 +858,10 @@ function buildQuiz(html, unitId) {
       if (why.length > 160) why = why.slice(0, 160) + '…';
       if (why.length < 3) why = '';
 
+      const framed = frameQ(cutAt(text, 220), ctx);
       out.push({ id: unitId + ':' + hash32(text), badge: sp.ans, stars: stars,
                  ctx: ctx && ctx.slice(0, 44), why: why,
-                 text: cutAt(text, 220),
+                 fact: framed.fact, ask: framed.ask, text: text,
                  src: srcOf(raw, after) });
     });
   });
@@ -1715,7 +1744,8 @@ class Component extends DCLogic {
 
     const quizCards = (pass ? deck : deck.slice(0, FIRST_QUIZ)).map(q => {
       const r = recOf(q);
-      return { id:q.id, answer:q.badge, text:q.text, stars:q.stars, hasStars: !!q.stars,
+      return { id:q.id, answer:q.badge, text:q.ask, fact:q.fact || '', hasFact: !!q.fact,
+        stars:q.stars, hasStars: !!q.stars,
         ctx: q.ctx || '', why: q.why || '', src: q.src,
         state: !r ? 'ask' : r.ok ? 'right' : 'wrong',
         choice: r ? r.a : '',
