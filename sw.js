@@ -10,7 +10,7 @@
 
 const CACHE = 'lawmj-v2';
 const SCOPE = new URL('./', self.location).pathname;
-const SHELL = ['./', './support.js',
+const SHELL = ['./', './manifest.json', './support.js',
                './vendor/react.production.min.js', './vendor/react-dom.production.min.js'];
 const NET_TIMEOUT = 4000;
 
