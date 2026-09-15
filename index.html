@@ -67,7 +67,8 @@ window.__loadData = function (file, onDone) {
 --scrim:rgba(35,38,44,.42);--scrim-2:rgba(35,38,44,.2);
 --ox-o:#7fa38f;--ox-x:#c2857f;--neg-bg:#f7efee;--neg-ink:#a1655f;--exam-bg:#dfeaf3;--blue:#4f7593;
 --hl:#fdf1f3;--star:#c58b98;--def:#f6efe7;--sub-bg:#fdf3e7;--sub-ink:#8a6a3c;--gbg:#edf5ef;
---red:#b3564e;--green:#4e7a5e;--callout-line:#9dbcd4;--callout-bg:#f5f9fc;--link:#96566a;--link-hover:#7a4256}
+--red:#b3564e;--green:#4e7a5e;--callout-line:#9dbcd4;--callout-bg:#f5f9fc;--link:#96566a;--link-hover:#7a4256;
+--q-bg:#ffe0a3;--q-ink:#4a3410}
 
 /* 다크 — 밝기만 뒤집지 않는다. 종이처럼 읽히던 대비를 어두운 바탕에서 다시 잡은 값이다.
    O·X 배지처럼 흰 글자를 얹는 색은 그대로 두고, 배경으로 쓰이는 옅은 색만 어둡게 옮겼다. */
@@ -80,8 +81,19 @@ html[data-theme="dark"]{color-scheme:dark;
 --scrim:rgba(0,0,0,.62);--scrim-2:rgba(0,0,0,.45);
 --ox-o:#5f8a74;--ox-x:#a86a64;--neg-bg:#3a2c2a;--neg-ink:#dba79f;--exam-bg:#24313d;--blue:#93bbdb;
 --hl:#3b2831;--star:#dfa3b1;--def:#3a3327;--sub-bg:#3a3227;--sub-ink:#dcb98a;--gbg:#25332a;
---red:#e28c82;--green:#87c49d;--callout-line:#4f7593;--callout-bg:#232b33;--link:#e0a2b4;--link-hover:#f0bccb}
-.cs-h{font-weight:700;font-size:15.5px;letter-spacing:-.2px;color:var(--ink-strong);margin:20px 0 10px}.cs-h:first-child{margin-top:0}.cs-theory{display:flex;flex-direction:column;gap:7px;margin-bottom:12px}.cs-li{font-size:14.5px;line-height:1.9;color:var(--ink-2);letter-spacing:-.1px}.cs-bul::before{content:"· ";color:var(--bullet)}.cs-fact-tag{display:inline-block;padding:2px 7px;border-radius:6px;background:var(--chip);color:var(--ink-muted);font-size:11.5px;margin-right:5px}.cs-neg-tag{display:inline-block;padding:2px 7px;border-radius:6px;background:var(--neg-bg);color:var(--neg-ink);font-size:11.5px;margin-right:5px}.cs-o{display:inline-block;min-width:17px;text-align:center;padding:1px 5px;border-radius:5px;background:var(--ox-o);color:#fff;font-size:11px;font-weight:700}.cs-x{display:inline-block;min-width:17px;text-align:center;padding:1px 5px;border-radius:5px;background:var(--ox-x);color:#fff;font-size:11px;font-weight:700}.cs-exam{display:inline-block;padding:2px 7px;border-radius:6px;background:var(--exam-bg);color:var(--blue);font-size:11px;font-weight:600;margin-left:5px}.cs-crime{font-weight:700;color:var(--ink-strong)}.cs-stat{color:var(--ink-muted);font-size:12.5px}.cs-statute{display:inline-block;padding:2px 7px;border-radius:6px;background:var(--chip);color:var(--ink-muted);font-size:11.5px}.cs-issue{font-weight:600;color:var(--ink)}.cs-case{border:1px solid var(--line-12);border-radius:10px;overflow:hidden;margin:14px 0}.cs-case-in{padding:14px 15px;display:flex;flex-direction:column;gap:9px}.cs-fact{font-size:14px;line-height:1.9;color:var(--ink-2)}.cs-ans,.cs-ans-in{font-size:13.5px;line-height:1.9;color:var(--ink-3);background:var(--surface-2);border-radius:8px;padding:12px 13px}.cs-u{text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--underline)}.cs-hl{background:var(--hl);border-radius:3px;padding:0 1px}.cs-star{color:var(--star);font-weight:700;margin-right:4px}.cs-def{background:var(--def);border-radius:3px;padding:0 2px}.cs-glabel{display:inline-block;background:var(--chip);border-radius:5px;padding:1px 6px;font-size:12.5px;font-weight:600;color:var(--ink-3)}.cs-sub{display:inline-block;background:var(--sub-bg);border-radius:5px;padding:1px 6px;font-weight:700;color:var(--sub-ink)}.cs-gbg{background:var(--gbg);border-radius:3px;padding:0 2px}.cs-red{color:var(--red)}.cs-green{color:var(--green)}.cs-blue{color:var(--blue)}.cs-callout{border:1px solid var(--line-10);border-left:3px solid var(--callout-line);background:var(--callout-bg);border-radius:8px;padding:10px 12px;margin:10px 0;font-size:13.2px}.cs-case summary{cursor:pointer;padding:11px 14px;font-weight:600;background:var(--surface-3)}body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-webkit-font-smoothing:antialiased}*{word-break:keep-all;overflow-wrap:break-word}a{color:var(--link)}a:hover{color:var(--link-hover)}
+--red:#e28c82;--green:#87c49d;--callout-line:#4f7593;--callout-bg:#232b33;--link:#e0a2b4;--link-hover:#f0bccb;
+--q-bg:#6b5320;--q-ink:#ffe7bb}
+.cs-h{font-weight:700;font-size:15.5px;letter-spacing:-.2px;color:var(--ink-strong);margin:20px 0 10px}.cs-h:first-child{margin-top:0}.cs-theory{display:flex;flex-direction:column;gap:7px;margin-bottom:12px}.cs-li{font-size:14.5px;line-height:1.9;color:var(--ink-2);letter-spacing:-.1px}.cs-bul::before{content:"· ";color:var(--bullet)}.cs-fact-tag{display:inline-block;padding:2px 7px;border-radius:6px;background:var(--chip);color:var(--ink-muted);font-size:11.5px;margin-right:5px}.cs-neg-tag{display:inline-block;padding:2px 7px;border-radius:6px;background:var(--neg-bg);color:var(--neg-ink);font-size:11.5px;margin-right:5px}.cs-o{display:inline-block;min-width:17px;text-align:center;padding:1px 5px;border-radius:5px;background:var(--ox-o);color:#fff;font-size:11px;font-weight:700}.cs-x{display:inline-block;min-width:17px;text-align:center;padding:1px 5px;border-radius:5px;background:var(--ox-x);color:#fff;font-size:11px;font-weight:700}.cs-exam{display:inline-block;padding:2px 7px;border-radius:6px;background:var(--exam-bg);color:var(--blue);font-size:11px;font-weight:600;margin-left:5px}.cs-crime{font-weight:700;color:var(--ink-strong)}.cs-stat{color:var(--ink-muted);font-size:12.5px}.cs-statute{display:inline-block;padding:2px 7px;border-radius:6px;background:var(--chip);color:var(--ink-muted);font-size:11.5px}.cs-issue{font-weight:600;color:var(--ink)}.cs-case{border:1px solid var(--line-12);border-radius:10px;overflow:hidden;margin:14px 0}.cs-case-in{padding:14px 15px;display:flex;flex-direction:column;gap:9px}.cs-fact{font-size:14px;line-height:1.9;color:var(--ink-2)}.cs-ans,.cs-ans-in{font-size:13.5px;line-height:1.9;color:var(--ink-3);background:var(--surface-2);border-radius:8px;padding:12px 13px}.cs-u{text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--underline)}.cs-hl{background:var(--hl);border-radius:3px;padding:0 1px}.cs-star{color:var(--star);font-weight:700;margin-right:4px}.cs-def{background:var(--def);border-radius:3px;padding:0 2px}.cs-glabel{display:inline-block;background:var(--chip);border-radius:5px;padding:1px 6px;font-size:12.5px;font-weight:600;color:var(--ink-3)}.cs-sub{display:inline-block;background:var(--sub-bg);border-radius:5px;padding:1px 6px;font-weight:700;color:var(--sub-ink)}.cs-gbg{background:var(--gbg);border-radius:3px;padding:0 2px}.cs-red{color:var(--red)}.cs-green{color:var(--green)}.cs-blue{color:var(--blue)}.cs-callout{border:1px solid var(--line-10);border-left:3px solid var(--callout-line);background:var(--callout-bg);border-radius:8px;padding:10px 12px;margin:10px 0;font-size:13.2px}.cs-case summary{cursor:pointer;padding:11px 14px;font-weight:600;background:var(--surface-3)}
+/* 검색 — 지금까지 자리만 잡고 있던 상자를 진짜 입력칸으로 바꿨다 (2026-09-15).
+   ⚠ iOS 는 16px 미만 입력칸에 초점이 가면 화면을 확대한다. 폰에서 검색할 때마다
+      배율이 튀어 본문이 어긋나므로 좁은 화면에서만 글자를 키운다. */
+.q-input{flex:1;min-width:0;padding:11px 14px;border-radius:11px;background:var(--surface);border:1px solid var(--line-11);font:400 12.5px Pretendard,sans-serif;color:var(--ink);outline:none;-webkit-appearance:none;appearance:none}
+.q-input::placeholder{color:var(--ink-fainter)}
+.q-input:focus{border-color:var(--underline)}
+.q-clear{position:absolute;right:9px;width:22px;height:22px;border-radius:99px;background:var(--chip);color:var(--ink-faint);font-size:11px;display:flex;align-items:center;justify-content:center;cursor:pointer}
+mark.q-hit{background:var(--q-bg);color:var(--q-ink);border-radius:3px;padding:0 2px;font-weight:600}
+@media (max-width:760px){.q-input{font-size:16px;padding:12px 14px}}
+body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-webkit-font-smoothing:antialiased}*{word-break:keep-all;overflow-wrap:break-word}a{color:var(--link)}a:hover{color:var(--link-hover)}
 /* ── 좁은 화면 대응 (2026-08-20) ────────────────────────────────
    좌측 목차 256px + 본문이 가로로 나란한 구조인데 미디어 쿼리가 없어,
    375px 화면에서 콘텐츠가 685px 로 밀려 가로 스크롤이 생겼다. 매일 쓰는 앱이라
@@ -199,7 +211,10 @@ html[data-theme="dark"]{color-scheme:dark;
 </div>
 
 <div style="display:flex;gap:9px;align-items:center;flex-wrap:wrap">
-<div style="flex:1;min-width:240px;padding:11px 14px;border-radius:11px;background:var(--surface);border:1px solid var(--line-11);font:400 12.5px Pretendard,sans-serif;color:var(--ink-fainter)">쟁점·조문 검색 (예: 상계, 366, 표현대리)</div>
+<div style="flex:1;min-width:240px;position:relative;display:flex;align-items:center">
+<input id="lawmj-q" class="q-input" type="text" placeholder="{{ searchHint }}" onInput="{{ onQuery }}" onKeyDown="{{ onQueryKey }}">
+<sc-if value="{{ hasQuery }}" hint-placeholder-val="{{ false }}"><div class="q-clear" title="검색어 지우기" onClick="{{ clearQuery }}">✕</div></sc-if>
+</div>
 <sc-for list="{{ filters }}" as="f" hint-placeholder-count="4">
 <div style="padding:10px 15px;border-radius:11px;cursor:pointer;background:{{ f.bg }};border:1px solid {{ f.border }};font-weight:{{ f.weight }};font-size:12px;color:{{ f.color }}" onClick="{{ f.pick }}">{{ f.name }}</div>
 </sc-for>
@@ -221,6 +236,13 @@ html[data-theme="dark"]{color-scheme:dark;
 </div>
 </div>
 </sc-if>
+<sc-if value="{{ isSearch }}" hint-placeholder-val="{{ false }}">
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="display:flex;align-items:baseline;gap:10px;flex-wrap:wrap"><div style="font:700 13px Pretendard,sans-serif;color:var(--ink)">‘{{ queryText }}’ 검색</div><div style="font:400 11.5px Pretendard,sans-serif;color:var(--ink-faint)">{{ searchNote }}</div></div>
+<div>{{ searchBody }}</div>
+</div>
+</sc-if>
+<sc-if value="{{ isBrowse }}" hint-placeholder-val="{{ true }}">
 <sc-for list="{{ parts }}" as="p" hint-placeholder-count="1">
 <div style="display:flex;flex-direction:column;gap:14px">
 <div style="display:flex;align-items:center;gap:11px"><div style="font-weight:700;font-size:12px;letter-spacing:.6px;color:{{ accentInk }}">{{ p.label }}</div><div style="font:700 13px Pretendard,sans-serif;color:var(--ink)">{{ p.name }}</div><div style="flex:1;height:1px;background:var(--line-10)"></div><div style="font:400 11px Pretendard,sans-serif;color:var(--ink-fainter)">{{ p.count }}</div></div>
@@ -242,6 +264,7 @@ html[data-theme="dark"]{color-scheme:dark;
 </div>
 </div>
 </sc-for>
+</sc-if>
 </div>
 </sc-if>
 
@@ -544,8 +567,106 @@ function collect(rows, key, catName) {
   return { count: count, html: out.join('') };
 }
 
+// ── 전문 검색 ────────────────────────────────────────────────
+// 데이터가 이미 메모리에 있으므로 색인을 따로 만들지 않는다.
+// 민법 72논점(본문 123만 자)을 통째로 훑는 데 16ms 라 입력마다 돌려도 된다.
+// 그래도 테마·글자크기처럼 검색과 무관한 재렌더에서 다시 훑지 않도록 한 벌만 기억한다.
+const QCACHE = { key:'', val:null };
+const reEsc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+function searchIn(rows, q, catName, cacheKey) {
+  const needle = (q || '').trim();
+  if (needle.length < 2) return null;
+  if (QCACHE.key === cacheKey) return QCACHE.val;
+
+  const low = needle.toLowerCase();
+  const re = new RegExp(reEsc(needle), 'gi');
+  // 하이라이트는 태그 밖(텍스트 노드)만 건드린다. 검색어에 &·<·; 이 있으면
+  // 엔티티(&amp; 등) 한가운데를 갈라 화면이 깨지므로 그때는 칠하지 않는다.
+  const safe = !/[&;<>]/.test(needle);
+  const paint = html => safe
+    ? html.replace(/>([^<]+)</g, (m, t) => '>' + t.replace(re, s => '<mark class="q-hit">' + s + '</mark>') + '<')
+    : html;
+
+  const CAP = 240;   // 한 화면에 펼칠 줄 수 상한 — 폰에서 끝없이 늘어지지 않게
+  const PER = 6;     // 한 단원에서 펼칠 줄 수 상한
+  const out = [];
+  let units = 0, total = 0, shown = 0;
+
+  (rows || []).forEach(row => {
+    const id = row[0], title = row[1], html = row[2] || '', tags = row[3] || [], cat = row[5];
+    const inTitle = title.toLowerCase().indexOf(low) > -1;
+    const inTag = tags.some(t => String(t).toLowerCase().indexOf(low) > -1);
+    const lines = html.match(/<div class="cs-(?:h|li|ans-in)[^"]*"[^>]*>[\s\S]*?<\/div>/g) || [];
+    const hit = lines.filter(l => stripTags(l).toLowerCase().indexOf(low) > -1);
+    if (!hit.length && !inTitle && !inTag) return;
+
+    units++; total += hit.length;
+    const take = hit.slice(0, Math.min(PER, Math.max(0, CAP - shown)));
+    shown += take.length;
+    out.push('<div class="cs-h" style="cursor:pointer" onclick="window.__lawmjOpen(&quot;' + id + '&quot;)">'
+      + (catName ? catName(cat) : cat) + ' · ' + title
+      + ' <span class="cs-stat">' + (hit.length ? hit.length + '건' : '제목·조문 일치') + '</span></div>'
+      + take.map(l => paint(l.replace(/margin-left:\d+px/, 'margin-left:0px'))).join('')
+      + (hit.length > take.length
+          ? '<div class="cs-li" style="color:var(--ink-fainter)">…이 단원에 ' + (hit.length - take.length) + '건 더 — 제목을 누르면 본문으로</div>'
+          : ''));
+  });
+
+  const val = { units, total, shown, html: out.join('') };
+  QCACHE.key = cacheKey; QCACHE.val = val;
+  return val;
+}
+
+// ── 주소에 지금 자리를 적는다 ──────────────────────────────────
+// 여태 pushState 가 URL 을 안 바꿔서, 새로고침하거나 앱을 껐다 켜면 늘 민법 목차였다.
+// 단원 링크를 북마크·공유할 수도 없었다. 해시 하나로 셋 다 풀린다.
+const SUBJ_TRACK = {};
+Object.keys(TRACKS).forEach(t => TRACKS[t].forEach(s => { SUBJ_TRACK[s] = t; }));
+
+function hashOf(s) {
+  // 화면에 보이는 것이 주소가 된다. 검색 결과에서 단원으로 들어가면 검색어는 상태로만 남고
+  // (뒤로가기로 결과가 되살아나게) 주소에는 지금 읽는 단원이 적힌다.
+  const tail = (s.view === 'page' && s.chapter) ? '/' + encodeURIComponent(s.chapter)
+    : s.mark ? '/!' + encodeURIComponent(s.mark)
+    : s.q ? '/?' + encodeURIComponent(s.q)
+    : '';
+  return '#/' + encodeURIComponent(s.subject) + tail;
+}
+
+function parseHash(h) {
+  const body = (h || '').replace(/^#\/?/, '');
+  if (!body) return null;
+  const cut = body.indexOf('/');
+  let subject, rest;
+  try {
+    subject = decodeURIComponent(cut < 0 ? body : body.slice(0, cut));
+    rest = cut < 0 ? '' : decodeURIComponent(body.slice(cut + 1));
+  } catch (e) { return null; }          // 손으로 고친 주소가 깨져 있을 수 있다
+  const track = SUBJ_TRACK[subject];
+  if (!track) return null;
+  const base = { track, subject, view:'toc', chapter:null, mark:null, q:'', crimPart:0, quizOpen:false };
+  if (!rest) return base;
+  if (rest[0] === '?') return Object.assign(base, { q: rest.slice(1) });
+  if (rest[0] === '!') return Object.assign(base, { mark: rest.slice(1), view:'page' });
+  return Object.assign(base, { view:'page', chapter: rest });
+}
+
+// 해시 없이 열렸을 때(홈 화면 아이콘·바로가기)의 이어보기
+const LAST_KEY = 'lawmj_last_v1';
+function lastSeen() {
+  try {
+    const s = JSON.parse(localStorage.getItem(LAST_KEY));
+    return s && SUBJ_TRACK[s.subject] ? s : null;
+  } catch (e) { return null; }
+}
+
+const BOOT = parseHash(location.hash) || lastSeen();
+
 class Component extends DCLogic {
-  state = { dark: (document.documentElement.dataset.theme === 'dark'), track:'민사법', subject:'민법', view:'toc', chapter:null, filter:'전체', size:0, fold:false, quizOpen:false, shown:{}, crimPart:0, mark:null };
+  state = Object.assign(
+    { dark: (document.documentElement.dataset.theme === 'dark'), track:'민사법', subject:'민법', view:'toc', chapter:null, filter:'전체', size:0, fold:false, quizOpen:false, shown:{}, crimPart:0, mark:null, q:'' },
+    BOOT || {});
 
   componentDidMount() {
     // 모아보기에서 단원 제목을 눌렀을 때 그 단원으로 이동
@@ -561,19 +682,73 @@ class Component extends DCLogic {
     // 직전 화면이 아니라 사이트 밖으로 나가 버렸다.
     // setState 호출부가 여러 곳이므로 각각 고치지 않고 componentDidUpdate 한 곳에서 쌓는다.
     this._nav = this.navSnap(this.state);
-    history.replaceState({ __nav: this._nav }, '');
+    history.replaceState({ __nav: this._nav }, '', hashOf(this._nav));
     window.addEventListener('popstate', e => {
-      const s = e.state && e.state.__nav;
+      // 주소창을 직접 고쳤을 수도 있어 기록에 상태가 없으면 해시에서 읽는다
+      const s = (e.state && e.state.__nav) || parseHash(location.hash);
       if (!s) return;
       this._popping = true;               // 되돌린 상태를 다시 쌓지 않도록
+      const box = document.getElementById('lawmj-q');
+      if (box) box.value = s.q || '';     // 입력칸은 비제어라 직접 맞춘다
       this.setState(Object.assign({ shown:{} }, s));
     });
+
+    // 단축키 — 매일 쓰는 앱인데 키보드로 닿을 데가 없었다.
+    window.addEventListener('keydown', e => {
+      const el = e.target || {};
+      const tag = (el.tagName || '').toLowerCase();
+      const typing = tag === 'input' || tag === 'textarea' || el.isContentEditable;
+      if (e.key === '/' && !typing && !e.metaKey && !e.ctrlKey && !e.altKey) {
+        e.preventDefault();
+        this.setState({ view:'toc', mark:null, quizOpen:false });
+        // 목차로 바뀐 뒤에야 입력칸이 화면에 생긴다
+        setTimeout(() => { const b = document.getElementById('lawmj-q'); if (b) { b.focus(); b.select(); } }, 0);
+      } else if (e.key === 'Escape') {
+        if (typing && el.id === 'lawmj-q') { el.value = ''; this.setQuery(''); el.blur(); }
+        else if (this.state.quizOpen) this.setState({ quizOpen:false });
+      }
+    });
+
+    // 오프라인 대비. 지하철에서 앱이 안 뜨던 것을 막는다.
+    if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost'))
+      navigator.serviceWorker.register('sw.js').catch(() => {});
+
+    this.syncBox();
+  }
+
+  // 검색칸은 비제어로 둔다 — 글쇠마다 React 가 값을 되돌리면 커서가 튀기 때문이다.
+  // 대신 밖에서 검색어가 바뀐 경우(주소로 복귀·뒤로가기·과목 전환·지우기)에만 DOM 을 맞춘다.
+  // 사용자가 치고 있는 중에는 건드리지 않는다.
+  syncBox() {
+    const b = document.getElementById('lawmj-q');
+    if (b && document.activeElement !== b && b.value !== (this.state.q || '')) b.value = this.state.q || '';
+  }
+
+  // 검색어는 글쇠마다 화면을 다시 그리므로 잠깐 모았다가 한 번에 반영한다
+  setQuery(v) {
+    clearTimeout(this._qt);
+    if (this.state.q === v) return;
+    this.setState({ q: v, view:'toc', mark:null });
+  }
+
+  // 다른 장의 단원으로 건너뛰면(검색·모아보기·링크) 왼쪽 목차도 그 장을 편다
+  syncPart() {
+    const st = this.state;
+    if (st.view !== 'page' || !st.chapter || st.mark) return;
+    const d = dataFor(st.subject);
+    if (!d || !d.length) return;
+    if ((d[st.crimPart] || { topics: [] }).topics.some(t => t.title === st.chapter)) return;
+    const i = d.findIndex(p => p.topics.some(t => t.title === st.chapter));
+    if (i > -1 && i !== st.crimPart) {
+      this._popping = true;               // 목차를 펴는 것은 기록에 남길 이동이 아니다
+      this.setState({ crimPart: i });
+    }
   }
 
   // 「지금 어느 화면인가」만 추린다 — 글자 크기·필터 같은 보기 설정은 기록에 남기지 않는다.
   navSnap(s) {
     return { track:s.track, subject:s.subject, view:s.view, chapter:s.chapter,
-             mark:s.mark, crimPart:s.crimPart, quizOpen:s.quizOpen };
+             mark:s.mark, crimPart:s.crimPart, quizOpen:s.quizOpen, q:s.q || '' };
   }
 
   // 이 런타임은 componentDidUpdate 에 prevProps 만 넘긴다 — 직전 화면은 직접 들고 비교한다.
@@ -581,10 +756,17 @@ class Component extends DCLogic {
     const t = brandOf(this.state.track, this.state.subject) + ' — 변호사시험 ' + this.state.subject;
     if (document.title !== t) document.title = t;
     const now = this.navSnap(this.state);
-    if (this._popping) { this._popping = false; this._nav = now; return; }
-    if (this._nav && Object.keys(now).some(k => this._nav[k] !== now[k]))
-      history.pushState({ __nav: now }, '');
+    if (this._popping) { this._popping = false; this._nav = now; this.syncPart(); this.syncBox(); return; }
+    const moved = this._nav ? Object.keys(now).filter(k => this._nav[k] !== now[k]) : [];
+    if (moved.length) {
+      // 검색어만 바뀐 것은 한 번의 이동으로 친다 — 글쇠마다 기록이 쌓이면 뒤로가기가 막힌다
+      const typingOnly = moved.length === 1 && moved[0] === 'q' && !!this._nav.q && !!now.q;
+      history[typingOnly ? 'replaceState' : 'pushState']({ __nav: now }, '', hashOf(now));
+      try { localStorage.setItem(LAST_KEY, JSON.stringify(now)); } catch (e) {}
+    }
     this._nav = now;
+    this.syncPart();
+    this.syncBox();
   }
 
   progOf(id) { return PROG.get(id); }
@@ -662,14 +844,14 @@ class Component extends DCLogic {
       const on = name === st.track;
       return { name, bg: on ? THEMES[name].accent : 'var(--surface)', border: on ? 'transparent' : 'var(--line-10)',
         color: on ? '#fff' : 'var(--ink-soft)', weight: on ? 700 : 600,
-        pick: () => this.setState({ track:name, subject:TRACKS[name][0], view:'toc', chapter:null, quizOpen:false }) };
+        pick: () => this.setState({ track:name, subject:TRACKS[name][0], view:'toc', chapter:null, quizOpen:false, q:'', mark:null }) };
     });
 
     const subjects = TRACKS[st.track].map((name, i) => {
       const on = name === st.subject;
       return { name, bg: on ? th.soft : 'var(--surface)', border: on ? 'transparent' : 'rgba(45,48,56,.09)',
         color: on ? th.ink : 'var(--ink-fainter)', weight: on ? 600 : 500,
-        pick: () => this.setState({ subject:name, view:'toc', chapter:null }) };
+        pick: () => this.setState({ subject:name, view:'toc', chapter:null, q:'', mark:null }) };
     });
 
     const filters = ['전체','△ 약점','✓ 완료','미학습'].map(name => {
@@ -698,7 +880,7 @@ class Component extends DCLogic {
       const on = st.mark === m.key;
       return { name: m.name + ' ' + counts[m.key], bg: on ? th.accent : 'var(--surface)', border: on ? 'transparent' : 'var(--line-11)',
         color: on ? '#fff' : 'var(--ink-soft)', weight: on ? 600 : 500,
-        pick: () => this.setState(on ? { mark:null, view:'toc' } : { mark:m.key, view:'page', chapter:null, quizOpen:false }) };
+        pick: () => this.setState(on ? { mark:null, view:'toc' } : { mark:m.key, view:'page', chapter:null, quizOpen:false, q:'' }) };
     }) : [];
 
     const splitCat = c => {
@@ -710,6 +892,11 @@ class Component extends DCLogic {
     ((DATASETS[st.subject] || {}).cats ? DATASETS[st.subject].cats() : []).forEach(c => { catNames[c[0]] = c[1]; });
     const picked = st.mark ? collect(rows, st.mark, c => catNames[c] || c) : null;
     const markName = st.mark ? (MARKS.filter(m => m.key === st.mark)[0] || {}).name : '';
+
+    const qText = st.q || '';
+    const found = crim && qText.trim().length >= 2
+      ? searchIn(rows, qText, c => catNames[c] || c, st.subject + '::' + qText.trim())
+      : null;
 
     const parts = crim && crimParts.length
         ? crimParts.map((p, i) => {
@@ -810,6 +997,23 @@ class Component extends DCLogic {
       doneCount: done,
       topicCount: crim ? crimParts.reduce((a, p) => a + p.topics.length, 0) : 0,
       progressPct: (crim && rows.length ? Math.round(doneIds / rows.length * 100) : 0) + '%',
+      queryText: qText,
+      hasQuery: !!qText,
+      searchHint: crim ? st.subject + ' 전문 검색 — 쟁점·조문·판례 (예: 상계, 366, 표현대리)' : '쟁점·조문 검색',
+      onQuery: e => { const v = e.target.value; clearTimeout(this._qt); this._qt = setTimeout(() => this.setQuery(v), 160); },
+      onQueryKey: e => { if (e.key === 'Enter') this.setQuery(e.target.value); },
+      clearQuery: () => { const b = document.getElementById('lawmj-q'); if (b) b.value = ''; this.setQuery(''); },
+      isSearch: !!found,
+      isBrowse: !found,
+      searchNote: found
+        ? (found.units ? found.units + '개 ' + (DATASETS[st.subject] || {}).unit + ' · ' + found.total + '건'
+                           + (found.shown < found.total ? ' · 단원마다 6줄까지 펼침' : '')
+                       : '일치하는 줄이 없습니다')
+        : (qText.trim().length === 1 ? '두 글자 이상 입력하세요' : ''),
+      searchBody: found
+        ? React.createElement('div', { style: { fontSize: sizeSet[1] },
+            dangerouslySetInnerHTML: { __html: found.html || '<div class="cs-li" style="color:var(--ink-fainter)">다른 말로 찾아보세요 — 조문 번호(366), 쟁점 이름(표현대리), 판례 연도(2023) 모두 됩니다.</div>' } })
+        : null,
       isEmpty: parts.length === 0,
       emptyTitle: dataLoading ? '불러오는 중…' : '아직 준비 중인 과목입니다',
       emptyDesc: dataLoading
