@@ -87,6 +87,21 @@ html[data-theme="dark"]{color-scheme:dark;
 --hl:#3b2831;--star:#dfa3b1;--def:#3a3327;--sub-bg:#3a3227;--sub-ink:#dcb98a;--gbg:#25332a;
 --red:#e28c82;--green:#87c49d;--callout-line:#4f7593;--callout-bg:#232b33;--link:#e0a2b4;--link-hover:#f0bccb;
 --q-bg:#6b5320;--q-ink:#ffe7bb}
+
+/* ── 트랙 색을 CSS 로 옮긴다 (2026-09-15) ───────────────────────────
+   여태 강조색을 자바스크립트가 들고 있어서, 화면 색을 바꾸려면 앱 전체를
+   다시 그려야 했다. 실측 — 목차에서 테마를 토글하면 요소 2,959~5,105개가
+   통째로 다시 칠해지며 140~679ms 가 걸렸다. 폰이면 그 서너 배다.
+   색을 변수로 내려두면 테마·트랙 전환은 <html> 속성 한 글자 바꾸는 일이 된다. */
+:root{--accent:#d9a3b0;--accent-ink:#96566a;--accent-soft:#f3dfe4;--accent-tint:#fbf7f8;--accent-side:#fbf6f7;--accent-chip:#f7f0f2;--accent-head:#f4dde4;--accent-headink:#8a4a60;--accent-pick:#f8e8ed}
+html[data-track="형사법"]{--accent:#9dbcd4;--accent-ink:#4f7593;--accent-soft:#dfeaf3;--accent-tint:#f5f9fc;--accent-side:#f6fafc;--accent-chip:#eef4f9;--accent-head:#dfebf4;--accent-headink:#456a8d;--accent-pick:#eaf2f8}
+html[data-track="공법"]{--accent:#8aa89c;--accent-ink:#556d63;--accent-soft:#e3ebe6;--accent-tint:#f4f7f5;--accent-side:#f6f9f7;--accent-chip:#eef2ef;--accent-head:#e2ece6;--accent-headink:#48624f;--accent-pick:#ecf3ef}
+html[data-theme="dark"]{--accent:#c58b98;--accent-ink:#e3a9b8;--accent-soft:#3a2b31;--accent-tint:#1e1a1c;--accent-side:#1a171a;--accent-chip:#312329;--accent-head:#3d2b33;--accent-headink:#e7b3c0;--accent-pick:#37262d}
+html[data-theme="dark"][data-track="형사법"]{--accent:#7ea6c4;--accent-ink:#9dc3e0;--accent-soft:#26333e;--accent-tint:#181c20;--accent-side:#171b1f;--accent-chip:#232e38;--accent-head:#293743;--accent-headink:#a8cae4;--accent-pick:#26323d}
+html[data-theme="dark"][data-track="공법"]{--accent:#7fa08f;--accent-ink:#9dc0ac;--accent-soft:#26322b;--accent-tint:#181c19;--accent-side:#171b18;--accent-chip:#232e27;--accent-head:#293630;--accent-headink:#a6c8b3;--accent-pick:#263129}
+/* 테마 단추의 그림도 CSS 로 — 이것 하나 때문에 상태를 들고 있을 이유가 없다 */
+.q-theme::after{content:'☾'}
+html[data-theme="dark"] .q-theme::after{content:'☀'}
 .cs-h{font-weight:700;font-size:15.5px;letter-spacing:-.2px;color:var(--ink-strong);margin:20px 0 10px}.cs-h:first-child{margin-top:0}.cs-theory{display:flex;flex-direction:column;gap:7px;margin-bottom:12px}.cs-li{font-size:14.5px;line-height:var(--lh,1.9);color:var(--ink-2);letter-spacing:-.1px}.cs-bul::before{content:"· ";color:var(--bullet)}.cs-fact-tag{display:inline-block;padding:2px 7px;border-radius:6px;background:var(--chip);color:var(--ink-muted);font-size:11.5px;margin-right:5px}.cs-neg-tag{display:inline-block;padding:2px 7px;border-radius:6px;background:var(--neg-bg);color:var(--neg-ink);font-size:11.5px;margin-right:5px}.cs-o{display:inline-block;min-width:17px;text-align:center;padding:1px 5px;border-radius:5px;background:var(--ox-o);color:#fff;font-size:11px;font-weight:700}.cs-x{display:inline-block;min-width:17px;text-align:center;padding:1px 5px;border-radius:5px;background:var(--ox-x);color:#fff;font-size:11px;font-weight:700}.cs-exam{display:inline-block;padding:2px 7px;border-radius:6px;background:var(--exam-bg);color:var(--blue);font-size:11px;font-weight:600;margin-left:5px}.cs-crime{font-weight:700;color:var(--ink-strong)}.cs-stat{color:var(--ink-muted);font-size:12.5px}.cs-statute{display:inline-block;padding:2px 7px;border-radius:6px;background:var(--chip);color:var(--ink-muted);font-size:11.5px}.cs-issue{font-weight:600;color:var(--ink)}.cs-case{border:1px solid var(--line-12);border-radius:10px;overflow:hidden;margin:14px 0}.cs-case-in{padding:14px 15px;display:flex;flex-direction:column;gap:9px}.cs-fact{font-size:14px;line-height:var(--lh,1.9);color:var(--ink-2)}.cs-ans,.cs-ans-in{font-size:13.5px;line-height:var(--lh,1.9);color:var(--ink-3);background:var(--surface-2);border-radius:8px;padding:12px 13px}.cs-u{text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--underline)}.cs-hl{background:var(--hl);border-radius:3px;padding:0 1px}.cs-star{color:var(--star);font-weight:700;margin-right:4px}.cs-def{background:var(--def);border-radius:3px;padding:0 2px}.cs-glabel{display:inline-block;background:var(--chip);border-radius:5px;padding:1px 6px;font-size:12.5px;font-weight:600;color:var(--ink-3)}.cs-sub{display:inline-block;background:var(--sub-bg);border-radius:5px;padding:1px 6px;font-weight:700;color:var(--sub-ink)}.cs-gbg{background:var(--gbg);border-radius:3px;padding:0 2px}.cs-red{color:var(--red)}.cs-green{color:var(--green)}.cs-blue{color:var(--blue)}.cs-callout{border:1px solid var(--line-10);border-left:3px solid var(--callout-line);background:var(--callout-bg);border-radius:8px;padding:10px 12px;margin:10px 0;font-size:13.2px}.cs-case summary{cursor:pointer;padding:11px 14px;font-weight:600;background:var(--surface-3)}
 /* 검색 — 지금까지 자리만 잡고 있던 상자를 진짜 입력칸으로 바꿨다 (2026-09-15).
    ⚠ iOS 는 16px 미만 입력칸에 초점이 가면 화면을 확대한다. 폰에서 검색할 때마다
@@ -99,6 +114,83 @@ mark.q-hit{background:var(--q-bg);color:var(--q-ink);border-radius:3px;padding:0
 .q-memo{width:100%;box-sizing:border-box;min-height:74px;resize:vertical;padding:9px 10px;border-radius:6px;background:var(--surface-2);border:1px dashed var(--line-15);font:400 11.5px/1.7 Pretendard,sans-serif;color:var(--ink-2);outline:none}
 .q-memo::placeholder{color:var(--ink-ghost)}
 .q-memo:focus{border-style:solid;border-color:var(--underline)}
+
+
+/* 목록·칩의 모양을 CSS 로 내린 이유 (2026-09-15)
+   목차 한 장을 그릴 때마다 요소 2,959개(민법)~5,105개(형법)가 각자
+   인라인 스타일 뭉치를 새로 받았다. 켜짐/꺼짐 색까지 자바스크립트가 들고 있어
+   필터를 누르는 것만으로 스타일 속성 수만 개가 다시 계산됐다(실측 134~213ms).
+   모양은 CSS 에 두고, 자바스크립트는 data-on 한 글자만 넘긴다. */
+.q-chip{padding:10px 15px;border-radius:11px;cursor:pointer;background:var(--surface);border:1px solid var(--line-11);font-weight:500;font-size:12px;color:var(--ink-soft)}
+.q-chip[data-on="true"]{background:var(--accent);border-color:transparent;color:#fff;font-weight:600}
+.q-mchip{padding:7px 12px;border-radius:9px;cursor:pointer;background:var(--surface);border:1px solid var(--line-11);font-weight:500;font-size:11.5px;color:var(--ink-soft)}
+.q-mchip[data-on="true"]{background:var(--accent);border-color:transparent;color:#fff;font-weight:600}
+.q-track{flex:1;padding:8px 0;border-radius:9px;text-align:center;cursor:pointer;background:var(--surface);border:1px solid var(--line-10);font-weight:600;font-size:12px;color:var(--ink-soft);transition:background .15s ease}
+.q-track[data-on="true"]{background:var(--accent);border-color:transparent;color:#fff;font-weight:700}
+.q-subj{padding:6px 12px;border-radius:7px;cursor:pointer;background:var(--surface);border:1px solid rgba(45,48,56,.09);font-weight:500;font-size:11.5px;color:var(--ink-fainter)}
+.q-subj[data-on="true"]{background:var(--accent-soft);border-color:transparent;color:var(--accent-ink);font-weight:600}
+
+.q-part{padding:9px 16px;display:flex;align-items:flex-start;gap:8px;cursor:pointer;background:transparent}
+.q-part[data-on="true"]{background:var(--accent-pick)}
+.q-part-bar{width:3px;height:13px;border-radius:2px;background:transparent;flex:none;margin-top:3px}
+.q-part[data-on="true"] .q-part-bar{background:var(--accent)}
+.q-part-name{flex:1;min-width:0;font-weight:600;font-size:12.5px;line-height:1.45;color:var(--ink-soft);word-break:keep-all}
+.q-part[data-on="true"] .q-part-name{font-weight:700;color:var(--ink)}
+.q-part-num{color:var(--accent-headink)}
+.q-part[data-on="true"] .q-part-num{color:var(--ink)}
+.q-part-count{font:500 10.5px/1.6 Pretendard,sans-serif;color:var(--ink-fainter);white-space:nowrap;flex:none}
+.q-part[data-on="true"] .q-part-count{color:var(--accent-ink)}
+.q-unit{display:flex;gap:8px;align-items:center;cursor:pointer;min-width:0}
+.q-unit-dot{width:4px;height:4px;border-radius:50%;background:rgba(45,48,56,.14);flex:none}
+.q-unit-name{font-weight:400;font-size:11.5px;line-height:1.5;color:var(--ink-soft);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.q-unit[data-on="true"] .q-unit-name{font-weight:600;color:var(--ink)}
+
+.q-tcard{background:var(--surface);border:1px solid var(--line-10);border-radius:13px;padding:16px 17px;display:flex;flex-direction:column;gap:12px;cursor:pointer;transition:box-shadow .16s ease,transform .16s ease}
+.q-tcard:hover{box-shadow:0 6px 18px var(--line-09);transform:translateY(-2px)}
+.q-tcard-top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.q-tcard-head{display:flex;flex-direction:column;gap:4px;min-height:40px}
+.q-tcard-title{font:700 15px/1.35 Pretendard,sans-serif;color:var(--ink);letter-spacing:-.3px}
+.q-tcard-sub{font:400 11.5px/1.4 Pretendard,sans-serif;color:var(--bullet)}
+.q-tcard-meta{font:400 10px/1.5 Pretendard,sans-serif;color:var(--ink-fainter);text-align:right;flex:none}
+.q-tcard-tags{display:flex;gap:6px;flex-wrap:wrap}
+.q-tag{padding:4px 9px;border-radius:7px;font-weight:500;font-size:11px;font-variant-numeric:tabular-nums}
+.q-tcard-bar{height:3px;border-radius:99px;background:var(--rule);overflow:hidden;display:flex}
+.q-tcard-fill{background:var(--accent)}
+/* 암기 확인 카드 — 색과 상태를 CSS 로 내린 이유 (2026-09-15)
+   O·X 를 한 번 누를 때마다 앱 전체가 다시 그려져 실측 86ms 가 걸렸다.
+   한 단원에 120번을 누르는 자리라 폰에서는 이게 그대로 굼뜸으로 느껴진다.
+   맞음/틀림/안 푼 상태를 data-state 한 글자로 표현해 두면, 채점은 그 글자만
+   바꾸는 일이 된다 — 화면을 다시 그리지 않는다. */
+.q-card{padding:15px 16px;border-radius:12px;display:flex;gap:12px;align-items:flex-start;background:var(--surface-2);border:1px solid var(--line-10)}
+.q-card[data-state="wrong"]{background:var(--neg-bg);border-color:var(--ox-x)}
+.q-badge{width:22px;height:22px;border-radius:6px;flex:none;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:11px;background:var(--chip);color:var(--ink-fainter);border:1px dashed var(--line-15)}
+.q-card[data-state="right"] .q-badge,.q-card[data-state="wrong"] .q-badge{color:#fff;border:none}
+.q-card[data-badge="O"][data-state="right"] .q-badge,.q-card[data-badge="O"][data-state="wrong"] .q-badge{background:var(--ox-o)}
+.q-card[data-badge="X"][data-state="right"] .q-badge,.q-card[data-badge="X"][data-state="wrong"] .q-badge{background:var(--ox-x)}
+.q-cardbody{display:flex;flex-direction:column;gap:9px;min-width:0;flex:1}
+.q-qtext{font:400 13.5px/1.75 Pretendard,sans-serif;color:var(--ink-2)}
+.q-ask{display:flex;gap:7px}
+.q-ox{padding:7px 18px;border-radius:8px;cursor:pointer;background:var(--surface);border:1px solid var(--line-12);font-weight:700;font-size:12.5px}
+.q-ask .q-ox:first-child{color:var(--ox-o)}
+.q-ask .q-ox:last-child{color:var(--ox-x)}
+.q-done{display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+.q-verdict{font-weight:600;font-size:11.5px;color:var(--green)}
+.q-card[data-state="wrong"] .q-verdict{color:var(--red)}
+.q-src{font:400 11px Pretendard,sans-serif;color:var(--ink-fainter)}
+.q-src:empty{display:none}
+.q-again{font:500 11px Pretendard,sans-serif;color:var(--ink-fainter);cursor:pointer}
+.q-card[data-state="ask"] .q-done{display:none}
+.q-card:not([data-state="ask"]) .q-ask{display:none}
+/* 맞음/틀림/안 푼 세 모습을 미리 다 그려 두고 CSS 가 고른다.
+   그래야 채점이 「속성 한 글자 바꾸기」로 끝난다 — React 가 들고 있는 글자 마디를
+   손으로 갈아 끼우면 다음 렌더에서 짝이 어긋난다. */
+.q-card[data-state="ask"] .q-b-ans{display:none}
+.q-card:not([data-state="ask"]) .q-b-ask{display:none}
+.q-card[data-state="right"] .q-v-wrong{display:none}
+.q-card[data-state="wrong"] .q-v-right{display:none}
+.q-card[data-choice="X"] .q-v-o{display:none}
+.q-card[data-choice="O"] .q-v-x{display:none}
+.q-card[data-state="ask"] .q-src{display:none}
 .q-navtoggle{display:none;margin-left:auto;padding:6px 10px;border-radius:8px;background:var(--chip);border:1px solid var(--line-09);font:600 11px Pretendard,sans-serif;color:var(--ink-soft);cursor:pointer;white-space:nowrap;align-items:center;flex:none}
 .q-navtoggle::after{content:'목차 ▾'}
 html[data-nav="1"] .q-navtoggle::after{content:'목차 ▴'}
@@ -195,7 +287,7 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 
 <div class="q-shell" style="min-height:100vh;background:var(--bg);display:flex;font-family:Pretendard,sans-serif;color:var(--ink)">
 
-<div role="navigation" aria-label="과목과 목차" class="q-side" style="width:256px;flex:none;background:{{ sidebarBg }};border-right:1px solid var(--line-09);display:flex;flex-direction:column;position:sticky;top:0;height:100vh;overflow:hidden">
+<div role="navigation" aria-label="과목과 목차" class="q-side" style="width:256px;flex:none;background:var(--accent-side);border-right:1px solid var(--line-09);display:flex;flex-direction:column;position:sticky;top:0;height:100vh;overflow:hidden">
 <div style="padding:20px 20px 15px;display:flex;align-items:center;gap:9px;border-bottom:1px solid var(--line-08)">
 <div style="font-size:19px;line-height:1;flex:none">⚖️</div>
 <div style="display:flex;flex-direction:column;gap:3px;min-width:0">
@@ -207,13 +299,13 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 
 <div class="q-navbody" style="padding:14px 14px 12px;display:flex;gap:6px">
 <sc-for list="{{ tracks }}" as="t" hint-placeholder-count="3">
-<div role="button" tabIndex="0" style="flex:1;padding:8px 0;border-radius:9px;text-align:center;cursor:pointer;background:{{ t.bg }};border:1px solid {{ t.border }};font-weight:{{ t.weight }};font-size:12px;color:{{ t.color }};transition:background .15s ease" onClick="{{ t.pick }}">{{ t.name }}</div>
+<div role="button" tabIndex="0" class="q-track" data-on="{{ t.on }}" onClick="{{ t.pick }}">{{ t.name }}</div>
 </sc-for>
 </div>
 
 <div class="q-navbody" style="padding:2px 14px 12px;display:flex;gap:6px;flex-wrap:wrap">
 <sc-for list="{{ subjects }}" as="s" hint-placeholder-count="3">
-<div role="button" tabIndex="0" style="padding:6px 12px;border-radius:7px;cursor:pointer;background:{{ s.bg }};border:1px solid {{ s.border }};font-weight:{{ s.weight }};font-size:11.5px;color:{{ s.color }}" onClick="{{ s.pick }}">{{ s.name }}</div>
+<div role="button" tabIndex="0" class="q-subj" data-on="{{ s.on }}" onClick="{{ s.pick }}">{{ s.name }}</div>
 </sc-for>
 </div>
 
@@ -222,13 +314,13 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <sc-for list="{{ navParts }}" as="p" hint-placeholder-count="4">
 <div style="display:flex;flex-direction:column">
 <sc-if value="{{ p.hasHead }}" hint-placeholder-val="{{ false }}">
-<div style="margin:17px 14px 8px;padding:7px 12px;border-radius:999px;background:{{ accentHead }};border:1px solid {{ accent }};font:700 12.5px/1.45 Pretendard,sans-serif;color:{{ accentHeadInk }};text-align:center">{{ p.head }}</div>
+<div style="margin:17px 14px 8px;padding:7px 12px;border-radius:999px;background:var(--accent-head);border:1px solid var(--accent);font:700 12.5px/1.45 Pretendard,sans-serif;color:var(--accent-headink);text-align:center">{{ p.head }}</div>
 </sc-if>
-<div role="button" tabIndex="0" style="padding:9px 16px;display:flex;align-items:flex-start;gap:8px;cursor:pointer;background:{{ p.headBg }}" onClick="{{ p.pick }}"><div style="width:3px;height:13px;border-radius:2px;background:{{ p.bar }};flex:none;margin-top:3px"></div><div style="flex:1;min-width:0;font-weight:{{ p.weight }};font-size:12.5px;line-height:1.45;color:{{ p.color }};word-break:keep-all"><span style="color:{{ p.numColor }}">{{ p.num }}</span>{{ p.rest }}</div><div style="font:500 10.5px/1.6 Pretendard,sans-serif;color:{{ p.countColor }};white-space:nowrap;flex:none">{{ p.count }}</div></div>
+<div role="button" tabIndex="0" class="q-part" data-on="{{ p.open }}" onClick="{{ p.pick }}"><div class="q-part-bar"></div><div class="q-part-name"><span class="q-part-num">{{ p.num }}</span>{{ p.rest }}</div><div class="q-part-count">{{ p.count }}</div></div>
 <sc-if value="{{ p.open }}" hint-placeholder-val="{{ true }}">
 <div style="padding:9px 16px 9px 26px;display:flex;flex-direction:column;gap:11px">
 <sc-for list="{{ p.chapters }}" as="c" hint-placeholder-count="6">
-<div role="button" tabIndex="0" style="display:flex;gap:8px;align-items:center;cursor:pointer;min-width:0" onClick="{{ c.open }}"><div style="width:4px;height:4px;border-radius:50%;background:{{ c.dot }};flex:none"></div><div style="font-weight:{{ c.weight }};font-size:11.5px;line-height:1.5;color:{{ c.color }};white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0">{{ c.title }}</div></div>
+<div role="button" tabIndex="0" class="q-unit" data-on="{{ c.on }}" onClick="{{ c.open }}"><div class="q-unit-dot"></div><div class="q-unit-name">{{ c.title }}</div></div>
 </sc-for>
 </div>
 </sc-if>
@@ -238,9 +330,9 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 </div>
 
 <div class="q-navbody" style="padding:11px 18px 12px;border-top:1px solid var(--line-08);display:flex;flex-direction:column;gap:7px">
-<div style="display:flex;justify-content:space-between;white-space:nowrap"><div style="font:400 10.5px Pretendard,sans-serif;color:var(--ink-faint)">O·X 문항 {{ totalQ }}개</div><div style="font-weight:600;font-size:10.5px;color:{{ accent }}">오답 {{ wrongQ }}개</div></div>
+<div style="display:flex;justify-content:space-between;white-space:nowrap"><div style="font:400 10.5px Pretendard,sans-serif;color:var(--ink-faint)">O·X 문항 {{ totalQ }}개</div><div style="font-weight:600;font-size:10.5px;color:var(--accent)">오답 {{ wrongQ }}개</div></div>
 <div style="display:flex;gap:10px;align-items:center"><div role="button" tabIndex="0" style="font:500 10px Pretendard,sans-serif;color:var(--ink-fainter);cursor:pointer" onClick="{{ doExport }}">기록 내보내기</div><div role="button" tabIndex="0" style="font:500 10px Pretendard,sans-serif;color:var(--ink-fainter);cursor:pointer" onClick="{{ doImport }}">불러오기</div></div>
-<sc-if value="{{ hasNote }}" hint-placeholder-val="{{ false }}"><div style="font:500 10px Pretendard,sans-serif;color:{{ accentInk }}">{{ note }}</div></sc-if>
+<sc-if value="{{ hasNote }}" hint-placeholder-val="{{ false }}"><div style="font:500 10px Pretendard,sans-serif;color:var(--accent-ink)">{{ note }}</div></sc-if>
 <input id="lawmj-file" type="file" accept="application/json,.json" style="display:none" onChange="{{ onFile }}">
 </div>
 </div>
@@ -248,12 +340,12 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div role="main" id="main" style="flex:1;display:flex;flex-direction:column;min-width:0;background:var(--surface)">
 
 <div class="q-topbar" style="padding:12px 26px;display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--line-08);position:sticky;top:0;background:var(--surface);z-index:2">
-<div role="button" tabIndex="0" style="display:flex;align-items:center;gap:10px;cursor:pointer" onClick="{{ goToc }}"><div style="width:3px;height:13px;border-radius:2px;background:{{ accent }}"></div><div style="font:600 12.5px Pretendard,sans-serif;color:var(--ink)">목차</div></div>
+<div role="button" tabIndex="0" style="display:flex;align-items:center;gap:10px;cursor:pointer" onClick="{{ goToc }}"><div style="width:3px;height:13px;border-radius:2px;background:var(--accent)"></div><div style="font:600 12.5px Pretendard,sans-serif;color:var(--ink)">목차</div></div>
 <div style="font:400 11.5px Pretendard,sans-serif;color:var(--ink-ghostest)">{{ crumb }}</div>
 <div style="flex:1"></div>
-<div style="padding:5px 11px;border-radius:99px;background:{{ accentSoft }};font-weight:700;font-size:11.5px;color:{{ accentInk }};white-space:nowrap;flex:none">D-{{ dday }}</div>
+<div style="padding:5px 11px;border-radius:99px;background:var(--accent-soft);font-weight:700;font-size:11.5px;color:var(--accent-ink);white-space:nowrap;flex:none">D-{{ dday }}</div>
 <a href="/" title="다른 앱 고르기" style="padding:5px 11px;border-radius:99px;background:var(--chip);border:1px solid var(--line-09);font:500 11.5px Pretendard,sans-serif;color:var(--ink-soft);cursor:pointer;text-decoration:none;flex:none">앱 전환</a>
-<div role="button" tabIndex="0" style="width:28px;height:28px;border-radius:99px;background:var(--chip);border:1px solid var(--line-09);display:flex;align-items:center;justify-content:center;font-size:12px;color:var(--ink-faint);cursor:pointer;flex:none" aria-label="{{ themeLabel }}" title="{{ themeLabel }}" onClick="{{ toggleTheme }}">{{ themeIcon }}</div>
+<div role="button" tabIndex="0" class="q-theme" style="width:28px;height:28px;border-radius:99px;background:var(--chip);border:1px solid var(--line-09);display:flex;align-items:center;justify-content:center;font-size:12px;color:var(--ink-faint);cursor:pointer;flex:none" aria-label="밝은 화면과 어두운 화면 바꾸기" title="밝은 화면과 어두운 화면 바꾸기" onClick="{{ toggleTheme }}"></div>
 </div>
 
 <sc-if value="{{ isToc }}" hint-placeholder-val="{{ true }}">
@@ -263,7 +355,7 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div style="display:flex;align-items:baseline;gap:12px"><div style="font:700 32px/1 Pretendard,sans-serif;color:var(--ink);letter-spacing:-1px">D-{{ dday }}</div><div style="font:600 13.5px Pretendard,sans-serif;color:var(--ink-soft);white-space:nowrap">변호사시험 2027.01.12</div></div>
 <div style="font:400 11.5px Pretendard,sans-serif;color:var(--ink-fainter)">{{ sourceNote }}</div>
 </div>
-<div class="q-proghead" style="display:flex;flex-direction:column;gap:6px;align-items:flex-end;flex:none"><div style="font:400 11px Pretendard,sans-serif;color:var(--ink-faint);white-space:nowrap">{{ subjectName }} 진도 {{ doneCount }}/{{ topicCount }} 논점</div><div class="q-progbar" style="width:190px;height:5px;border-radius:99px;background:var(--rule);overflow:hidden;display:flex"><div style="width:{{ progressPct }};background:{{ accent }}"></div></div></div>
+<div class="q-proghead" style="display:flex;flex-direction:column;gap:6px;align-items:flex-end;flex:none"><div style="font:400 11px Pretendard,sans-serif;color:var(--ink-faint);white-space:nowrap">{{ subjectName }} 진도 {{ doneCount }}/{{ topicCount }} 논점</div><div class="q-progbar" style="width:190px;height:5px;border-radius:99px;background:var(--rule);overflow:hidden;display:flex"><div style="width:{{ progressPct }};background:var(--accent)"></div></div></div>
 </div>
 
 <div style="display:flex;gap:9px;align-items:center;flex-wrap:wrap">
@@ -272,21 +364,21 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <sc-if value="{{ hasQuery }}" hint-placeholder-val="{{ false }}"><div role="button" tabIndex="0" class="q-clear" aria-label="검색어 지우기" title="검색어 지우기" onClick="{{ clearQuery }}">✕</div></sc-if>
 </div>
 <sc-for list="{{ filters }}" as="f" hint-placeholder-count="4">
-<div role="button" tabIndex="0" style="padding:10px 15px;border-radius:11px;cursor:pointer;background:{{ f.bg }};border:1px solid {{ f.border }};font-weight:{{ f.weight }};font-size:12px;color:{{ f.color }}" onClick="{{ f.pick }}">{{ f.name }}</div>
+<div role="button" tabIndex="0" class="q-chip" data-on="{{ f.on }}" onClick="{{ f.pick }}">{{ f.name }}</div>
 </sc-for>
 </div>
 
 <div class="q-marks" style="display:flex;gap:7px;flex-wrap:wrap;align-items:center;padding:0 30px 16px">
 <div style="font:500 11px Pretendard,sans-serif;color:var(--ink-fainter);margin-right:3px;letter-spacing:.2px;flex:none">표시 모아보기</div>
 <sc-for list="{{ marks }}" as="m" hint-placeholder-count="8">
-<div role="button" tabIndex="0" style="padding:7px 12px;border-radius:9px;cursor:pointer;background:{{ m.bg }};border:1px solid {{ m.border }};font-weight:{{ m.weight }};font-size:11.5px;color:{{ m.color }}" onClick="{{ m.pick }}">{{ m.name }}</div>
+<div role="button" tabIndex="0" class="q-mchip" data-on="{{ m.on }}" onClick="{{ m.pick }}">{{ m.name }}</div>
 </sc-for>
 </div>
 
 <sc-if value="{{ isEmpty }}" hint-placeholder-val="{{ false }}">
 <div style="flex:1;display:flex;align-items:center;justify-content:center;padding:60px 0">
 <div style="max-width:380px;display:flex;flex-direction:column;gap:11px;align-items:center;text-align:center">
-<div style="width:38px;height:38px;border-radius:11px;background:{{ accentSoft }};display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px;color:{{ accentInk }}">{{ subjectName }}</div>
+<div style="width:38px;height:38px;border-radius:11px;background:var(--accent-soft);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px;color:var(--accent-ink)">{{ subjectName }}</div>
 <div style="font:700 15px Pretendard,sans-serif;color:var(--ink);letter-spacing:-.3px">{{ emptyTitle }}</div>
 <div style="font:400 12.5px/1.7 Pretendard,sans-serif;color:var(--ink-faint)">{{ emptyDesc }}</div>
 </div>
@@ -307,20 +399,20 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <sc-if value="{{ isBrowse }}" hint-placeholder-val="{{ true }}">
 <sc-for list="{{ parts }}" as="p" hint-placeholder-count="1">
 <div style="display:flex;flex-direction:column;gap:14px">
-<div style="display:flex;align-items:center;gap:11px"><div style="font-weight:700;font-size:12px;letter-spacing:.6px;color:{{ accentInk }}">{{ p.label }}</div><div style="font:700 13px Pretendard,sans-serif;color:var(--ink)">{{ p.name }}</div><div style="flex:1;height:1px;background:var(--line-10)"></div><div style="font:400 11px Pretendard,sans-serif;color:var(--ink-fainter)">{{ p.count }}</div></div>
+<div style="display:flex;align-items:center;gap:11px"><div style="font-weight:700;font-size:12px;letter-spacing:.6px;color:var(--accent-ink)">{{ p.label }}</div><div style="font:700 13px Pretendard,sans-serif;color:var(--ink)">{{ p.name }}</div><div style="flex:1;height:1px;background:var(--line-10)"></div><div style="font:400 11px Pretendard,sans-serif;color:var(--ink-fainter)">{{ p.count }}</div></div>
 <div class="q-cards" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px">
 <sc-for list="{{ p.chapters }}" as="c" hint-placeholder-count="6">
-<div role="button" tabIndex="0" style="background:var(--surface);border:1px solid var(--line-10);border-radius:13px;padding:16px 17px;display:flex;flex-direction:column;gap:12px;cursor:pointer;transition:box-shadow .16s ease,transform .16s ease" style-hover="box-shadow:0 6px 18px var(--line-09);transform:translateY(-2px)" onClick="{{ c.open }}">
-<div style="display:flex;justify-content:space-between;gap:10px;align-items:flex-start">
-<div style="display:flex;flex-direction:column;gap:4px;min-height:40px"><div style="font:700 15px/1.35 Pretendard,sans-serif;color:var(--ink);letter-spacing:-.3px">{{ c.title }}</div><div style="font:400 11.5px/1.4 Pretendard,sans-serif;color:var(--bullet)">{{ c.sub }}</div></div>
-<div style="font:400 10px/1.5 Pretendard,sans-serif;color:var(--ink-fainter);text-align:right;flex:none">개념 {{ c.concepts }}<br>판례 {{ c.cases }}</div>
+<div role="button" tabIndex="0" class="q-tcard" onClick="{{ c.open }}">
+<div class="q-tcard-top">
+<div class="q-tcard-head"><div class="q-tcard-title">{{ c.title }}</div><div class="q-tcard-sub">{{ c.sub }}</div></div>
+<div class="q-tcard-meta">O·X {{ c.concepts }}<br>판례 {{ c.cases }}</div>
 </div>
-<div style="display:flex;gap:6px;flex-wrap:wrap">
+<div class="q-tcard-tags">
 <sc-for list="{{ c.tags }}" as="g" hint-placeholder-count="3">
-<div style="padding:4px 9px;border-radius:7px;background:{{ g.bg }};font-weight:500;font-size:11px;color:{{ g.color }};font-variant-numeric:tabular-nums">{{ g.text }}</div>
+<div class="q-tag" style="background:{{ g.bg }};color:{{ g.color }}">{{ g.text }}</div>
 </sc-for>
 </div>
-<div style="height:3px;border-radius:99px;background:var(--rule);overflow:hidden;display:flex"><div style="width:{{ c.pct }};background:{{ accent }}"></div></div>
+<div class="q-tcard-bar"><div class="q-tcard-fill" style="width:{{ c.pct }}"></div></div>
 </div>
 </sc-for>
 </div>
@@ -343,7 +435,7 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;cursor:pointer;background:{{ doneBg }};border:1px solid {{ doneBorder }};font-weight:600;font-size:11px;color:{{ doneColor }}" onClick="{{ toggleDone }}">✓ 완료</div>
 <div role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;cursor:pointer;background:{{ weakBg }};border:1px solid {{ weakBorder }};font-weight:600;font-size:11px;color:{{ weakColor }}" onClick="{{ toggleWeak }}">△ 약점</div>
 </sc-if>
-<sc-if value="{{ hasQuiz }}" hint-placeholder-val="{{ true }}"><div role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;background:{{ accentSoft }};font-weight:600;font-size:11px;color:{{ accentInk }};cursor:pointer" onClick="{{ toggleQuiz }}">암기 확인</div></sc-if>
+<sc-if value="{{ hasQuiz }}" hint-placeholder-val="{{ true }}"><div role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;background:var(--accent-soft);font-weight:600;font-size:11px;color:var(--accent-ink);cursor:pointer" onClick="{{ toggleQuiz }}">암기 확인</div></sc-if>
 </div>
 </div>
 
@@ -356,7 +448,7 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div style="padding:3px 9px;border-radius:6px;background:{{ g.bg }};font-weight:500;font-size:10.5px;color:{{ g.color }};font-variant-numeric:tabular-nums">{{ g.text }}</div>
 </sc-for>
 </div>
-<div style="width:40px;height:1px;background:{{ accent }};margin-top:5px"></div>
+<div style="width:40px;height:1px;background:var(--accent);margin-top:5px"></div>
 </div>
 
 <sc-if value="{{ hasOutline }}" hint-placeholder-val="{{ true }}">
@@ -386,8 +478,8 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div style="font-weight:400;font-size:{{ bodySize }};line-height:1.95;letter-spacing:-.1px;color:var(--ink-2);text-wrap:pretty">{{ s.body }}</div>
 </sc-if>
 <sc-if value="{{ s.isNote }}" hint-placeholder-val="{{ false }}">
-<div style="padding:17px 19px;background:{{ accentTint }};border-radius:8px;border-left:2px solid {{ accent }};display:flex;flex-direction:column;gap:8px">
-<div style="font-weight:700;font-size:10.5px;letter-spacing:1px;color:{{ accentInk }}">{{ s.noteLabel }}</div>
+<div style="padding:17px 19px;background:var(--accent-tint);border-radius:8px;border-left:2px solid var(--accent);display:flex;flex-direction:column;gap:8px">
+<div style="font-weight:700;font-size:10.5px;letter-spacing:1px;color:var(--accent-ink)">{{ s.noteLabel }}</div>
 <div style="font-weight:400;font-size:{{ noteSize }};line-height:1.9;letter-spacing:-.1px;color:var(--ink-2)">{{ s.note }}</div>
 </div>
 </sc-if>
@@ -427,7 +519,7 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div role="button" tabIndex="0" aria-label="맨 위로" title="맨 위로" style="padding:5px 9px;border-radius:7px;background:var(--surface);border:1px solid var(--line-10);font:500 11.5px Pretendard,sans-serif;color:var(--ink-faint);cursor:pointer;flex:none" onClick="{{ toTop }}">↑</div>
 <div style="flex:1"></div>
 <sc-if value="{{ hasQuiz }}" hint-placeholder-val="{{ true }}"><div role="button" tabIndex="0" class="q-oxbtn" style="padding:9px 14px;border-radius:9px;background:var(--surface);border:1px solid var(--line-11);font:600 11.5px Pretendard,sans-serif;color:var(--ink-soft);cursor:pointer;white-space:nowrap" onClick="{{ toggleQuiz }}">이 장 판례 {{ caseCount }}개 O/X</div></sc-if>
-<a href="/MCQ/" class="q-mcq" title="선택형 앱으로" style="padding:9px 14px;border-radius:9px;font-weight:600;font-size:11.5px;color:#fff;background:{{ accent }};cursor:pointer;white-space:nowrap;text-decoration:none;flex:none">선택형 →</a>
+<a href="/MCQ/" class="q-mcq" title="선택형 앱으로" style="padding:9px 14px;border-radius:9px;font-weight:600;font-size:11.5px;color:#fff;background:var(--accent);cursor:pointer;white-space:nowrap;text-decoration:none;flex:none">선택형 →</a>
 <div role="button" tabIndex="0" class="q-step" style="font:500 11.5px Pretendard,sans-serif;color:var(--ink-faint);cursor:pointer" onClick="{{ next }}"><span class="q-navlabel">{{ nextTitle }}</span> ›</div>
 </div>
 </div>
@@ -438,7 +530,7 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <sc-if value="{{ quizOpen }}" hint-placeholder-val="{{ false }}">
 <div class="q-modal" style="position:fixed;inset:0;background:var(--scrim);display:flex;align-items:flex-end;justify-content:center;z-index:10" onClick="{{ toggleQuiz }}">
 <div class="q-panel" style="width:100%;max-width:720px;max-height:76vh;overflow-y:auto;overflow-x:hidden;background:var(--surface);border-radius:18px 18px 0 0;padding:22px 26px 26px;display:flex;flex-direction:column;gap:14px;box-shadow:0 -8px 40px var(--scrim-2)" onClick="{{ stop }}">
-<div style="display:flex;align-items:center;gap:10px"><div style="width:3px;height:14px;border-radius:2px;background:{{ accent }}"></div><div style="font:700 15px Pretendard,sans-serif;color:var(--ink);letter-spacing:-.3px">암기 확인 — {{ chapterTitle }}</div><div style="flex:1"></div><div style="font:500 11.5px Pretendard,sans-serif;color:var(--ink-faint);white-space:nowrap">{{ quizScore }}</div><div role="button" tabIndex="0" style="width:26px;height:26px;border-radius:8px;background:var(--chip);display:flex;align-items:center;justify-content:center;font-size:13px;color:var(--ink-soft);cursor:pointer;flex:none" aria-label="암기 확인 닫기" onClick="{{ toggleQuiz }}">✕</div></div>
+<div style="display:flex;align-items:center;gap:10px"><div style="width:3px;height:14px;border-radius:2px;background:var(--accent)"></div><div style="font:700 15px Pretendard,sans-serif;color:var(--ink);letter-spacing:-.3px">암기 확인 — {{ chapterTitle }}</div><div style="flex:1"></div><div class="q-score" style="font:500 11.5px Pretendard,sans-serif;color:var(--ink-faint);white-space:nowrap">{{ quizScore }}</div><div role="button" tabIndex="0" style="width:26px;height:26px;border-radius:8px;background:var(--chip);display:flex;align-items:center;justify-content:center;font-size:13px;color:var(--ink-soft);cursor:pointer;flex:none" aria-label="암기 확인 닫기" onClick="{{ toggleQuiz }}">✕</div></div>
 <div style="display:flex;gap:6px;flex-wrap:wrap">
 <div role="button" tabIndex="0" style="padding:6px 11px;border-radius:8px;cursor:pointer;background:{{ quizAllBg }};border:1px solid var(--line-10);font-weight:600;font-size:11px;color:{{ quizAllInk }}" onClick="{{ showAll }}">{{ quizAllLabel }}</div>
 <div role="button" tabIndex="0" style="padding:6px 11px;border-radius:8px;cursor:pointer;background:{{ quizWrongBg }};border:1px solid var(--line-10);font-weight:600;font-size:11px;color:{{ quizWrongInk }}" onClick="{{ showWrong }}">{{ quizWrongLabel }}</div>
@@ -451,24 +543,20 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div style="padding:26px 0;text-align:center;font:400 12.5px Pretendard,sans-serif;color:var(--ink-fainter)">{{ quizEmptyText }}</div>
 </sc-if>
 <sc-for list="{{ quizCards }}" as="q" hint-placeholder-count="3">
-<div style="padding:15px 16px;border-radius:12px;background:{{ q.cardBg }};border:1px solid {{ q.cardBorder }};display:flex;gap:12px;align-items:flex-start">
-<div style="width:22px;height:22px;border-radius:6px;flex:none;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:11px;background:{{ q.badgeBg }};color:{{ q.badgeInk }};border:{{ q.badgeBorder }}">{{ q.badge }}</div>
-<div style="display:flex;flex-direction:column;gap:9px;min-width:0;flex:1">
-<div style="font:400 13.5px/1.75 Pretendard,sans-serif;color:var(--ink-2)"><sc-if value="{{ q.hasStars }}" hint-placeholder-val="{{ false }}"><span class="cs-star">{{ q.stars }}</span></sc-if>{{ q.text }}</div>
-<sc-if value="{{ q.asked }}" hint-placeholder-val="{{ true }}">
-<div style="display:flex;gap:7px">
-<div class="q-ox" role="button" tabIndex="0" style="padding:7px 18px;border-radius:8px;cursor:pointer;background:var(--surface);border:1px solid var(--line-12);font-weight:700;font-size:12.5px;color:var(--ox-o)" aria-label="맞다 O" onClick="{{ q.pickO }}">O</div>
-<div class="q-ox" role="button" tabIndex="0" style="padding:7px 18px;border-radius:8px;cursor:pointer;background:var(--surface);border:1px solid var(--line-12);font-weight:700;font-size:12.5px;color:var(--ox-x)" aria-label="틀리다 X" onClick="{{ q.pickX }}">X</div>
+<div class="q-card" data-qid="{{ q.id }}" data-badge="{{ q.answer }}" data-state="{{ q.state }}" data-choice="{{ q.choice }}">
+<div class="q-badge"><span class="q-b-ask">?</span><span class="q-b-ans">{{ q.answer }}</span></div>
+<div class="q-cardbody">
+<div class="q-qtext"><sc-if value="{{ q.hasStars }}" hint-placeholder-val="{{ false }}"><span class="cs-star">{{ q.stars }}</span></sc-if>{{ q.text }}</div>
+<div class="q-ask">
+<div class="q-ox" role="button" tabIndex="0" aria-label="맞다 O" onClick="{{ q.pickO }}">O</div>
+<div class="q-ox" role="button" tabIndex="0" aria-label="틀리다 X" onClick="{{ q.pickX }}">X</div>
 </div>
-</sc-if>
-<sc-if value="{{ q.done }}" hint-placeholder-val="{{ false }}">
-<div style="display:flex;gap:9px;align-items:center;flex-wrap:wrap">
-<div style="font-weight:600;font-size:11.5px;color:{{ q.resultColor }}">{{ q.resultLabel }}</div>
-<sc-if value="{{ q.hasSrc }}" hint-placeholder-val="{{ true }}"><div style="font:400 11px Pretendard,sans-serif;color:var(--ink-fainter)">{{ q.src }}</div></sc-if>
+<div class="q-done">
+<div class="q-verdict"><span class="q-v-right">맞음</span><span class="q-v-wrong">틀림 — <span class="q-v-o">O</span><span class="q-v-x">X</span> 를 골랐다</span></div>
+<div class="q-src">{{ q.src }}</div>
 <div style="flex:1"></div>
-<div role="button" tabIndex="0" style="font:500 11px Pretendard,sans-serif;color:var(--ink-fainter);cursor:pointer" onClick="{{ q.again }}">다시</div>
+<div class="q-again" role="button" tabIndex="0" onClick="{{ q.again }}">다시</div>
 </div>
-</sc-if>
 </div>
 </div>
 </sc-for>
@@ -480,16 +568,6 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 
 </x-dc>
 <script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1180,&quot;height&quot;:800}}">
-const THEMES = {
-  민사법: { accent:'#d9a3b0', ink:'#96566a', soft:'#f3dfe4', tint:'#fbf7f8', sidebar:'#fbf6f7', chip:'#f7f0f2', head:'#f4dde4', headInk:'#8a4a60', pick:'#f8e8ed' },
-  형사법: { accent:'#9dbcd4', ink:'#4f7593', soft:'#dfeaf3', tint:'#f5f9fc', sidebar:'#f6fafc', chip:'#eef4f9', head:'#dfebf4', headInk:'#456a8d', pick:'#eaf2f8' },
-  공법:   { accent:'#8aa89c', ink:'#556d63', soft:'#e3ebe6', tint:'#f4f7f5', sidebar:'#f6f9f7', chip:'#eef2ef', head:'#e2ece6', headInk:'#48624f', pick:'#ecf3ef' }
-};
-const DARK_THEMES = {
-  민사법: { accent:'#c58b98', ink:'#e3a9b8', soft:'#3a2b31', tint:'#1e1a1c', sidebar:'#1a171a', chip:'#312329', head:'#3d2b33', headInk:'#e7b3c0', pick:'#37262d' },
-  형사법: { accent:'#7ea6c4', ink:'#9dc3e0', soft:'#26333e', tint:'#181c20', sidebar:'#171b1f', chip:'#232e38', head:'#293743', headInk:'#a8cae4', pick:'#26323d' },
-  공법:   { accent:'#7fa08f', ink:'#9dc0ac', soft:'#26322b', tint:'#181c19', sidebar:'#171b18', chip:'#232e27', head:'#293630', headInk:'#a6c8b3', pick:'#263129' }
-};
 
 const TRACKS = {
   민사법: ['민법','민사소송법','상법'],
@@ -832,7 +910,7 @@ function markCounts(subject, rows) {
   if (!rows || !rows.length) return {};
   if (MARK_COUNTS[subject]) return MARK_COUNTS[subject];
   const res = {};
-  MARKS.forEach(m => { res[m.key] = collect(rows, m.key).count; });
+  MARKS.forEach(m => { res[m.key] = collect(subject, rows, m.key).count; });
   MARK_COUNTS[subject] = res;
   return res;
 }
@@ -850,16 +928,16 @@ function jumpWrap(id, line, paint) {
 }
 
 // 표시가 붙은 줄만 뽑아 단원별로 묶는다. 제목을 누르면 그 단원으로 간다.
-function collect(rows, key, catName, keep) {
+function collect(subject, rows, key, catName, keep) {
   const def = MARKS.filter(m => m.key === key)[0];
   if (!def) return { count: 0, html: '' };
   const out = [];
   let count = 0;
-  (rows || []).forEach(row => {
-    const id = row[0], title = row[1], html = row[2], cat = row[5];
+  lineIndex(subject, rows).forEach(u => {
+    const id = u.id, title = u.title, cat = u.cat;
     if (keep && !keep(id)) return;      // 표시 모아보기와 진도 필터를 겹쳐 볼 수 있게
-    const lines = (html || '').match(/<div class="cs-(?:li|ans-in)[^"]*"[^>]*>[\s\S]*?<\/div>/g) || [];
-    const hit = lines.filter(def.test);
+    // 색인에는 소제목(cs-h)도 들어 있다 — 표시 모아보기는 본문 줄만 본다
+    const hit = u.lines.filter(l => l.indexOf('class="cs-h"') === -1 && def.test(l));
     if (!hit.length) return;
     count += hit.length;
     out.push('<div class="cs-h" role="button" tabindex="0" style="cursor:pointer" onclick="window.__lawmjOpen(&quot;' + id + '&quot;)">'
@@ -869,14 +947,34 @@ function collect(rows, key, catName, keep) {
   return { count: count, html: out.join('') };
 }
 
+// ── 줄 색인 ──────────────────────────────────────────────────
+// 과목마다 한 번만 만든다.
+//
+// 처음에는 색인 없이 갔다 — 데이터가 이미 메모리에 있으니 그때그때 훑으면 된다고 봤다.
+// 그런데 글자를 칠 때마다 과목 본문 전체(민법 123만 자, 형사법 320만 자)에서
+// 태그를 벗겨 내고 있었다. 실측 94ms — 검색이 굼뜬 이유의 거의 전부였다.
+// 벗긴 결과를 들고 있으면 이후 검색은 문자열 찾기만 남는다.
+// 표시 모아보기(collect)도 같은 색인을 쓴다 — 렌더마다 본문을 다시 쪼개던 자리다.
+const LINE_RE = /<div class="cs-(?:h|li|ans-in)[^"]*"[^>]*>[\s\S]*?<\/div>/g;
+const LINES = {};
+function lineIndex(subject, rows) {
+  if (LINES[subject]) return LINES[subject];
+  const idx = (rows || []).map(row => {
+    const lines = (row[2] || '').match(LINE_RE) || [];
+    return { id: row[0], title: row[1], low: (row[1] || '').toLowerCase(),
+             tags: (row[3] || []).map(t => String(t).toLowerCase()), cat: row[5],
+             lines: lines, flat: lines.map(l => stripTags(l).toLowerCase()) };
+  });
+  LINES[subject] = idx;
+  return idx;
+}
+
 // ── 전문 검색 ────────────────────────────────────────────────
-// 데이터가 이미 메모리에 있으므로 색인을 따로 만들지 않는다.
-// 민법 72논점(본문 123만 자)을 통째로 훑는 데 16ms 라 입력마다 돌려도 된다.
-// 그래도 테마·글자크기처럼 검색과 무관한 재렌더에서 다시 훑지 않도록 한 벌만 기억한다.
+// 테마·글자크기처럼 검색과 무관한 재렌더에서 다시 훑지 않도록 결과를 한 벌 기억한다.
 const QCACHE = { key:'', val:null };
 const reEsc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
-function searchIn(rows, q, catName, cacheKey) {
+function searchIn(subject, rows, q, catName, cacheKey) {
   const needle = (q || '').trim();
   if (needle.length < 2) return null;
   if (QCACHE.key === cacheKey) return QCACHE.val;
@@ -890,29 +988,25 @@ function searchIn(rows, q, catName, cacheKey) {
     ? html.replace(/>([^<]+)</g, (m, t) => '>' + t.replace(re, s => '<mark class="q-hit">' + s + '</mark>') + '<')
     : html;
 
-  const CAP = 240;   // 한 화면에 펼칠 줄 수 상한 — 폰에서 끝없이 늘어지지 않게
+  const CAP = 240;   // 화면에 펼칠 줄 수 상한 — 폰에서 끝없이 늘어지지 않게
   const PER = 6;     // 한 단원에서 펼칠 줄 수 상한
   const out = [];
   let units = 0, total = 0, shown = 0;
 
-  (rows || []).forEach(row => {
-    const id = row[0], title = row[1], html = row[2] || '', tags = row[3] || [], cat = row[5];
-    const inTitle = title.toLowerCase().indexOf(low) > -1;
-    const inTag = tags.some(t => String(t).toLowerCase().indexOf(low) > -1);
-    const lines = html.match(/<div class="cs-(?:h|li|ans-in)[^"]*"[^>]*>[\s\S]*?<\/div>/g) || [];
-    const hit = lines.filter(l => stripTags(l).toLowerCase().indexOf(low) > -1);
+  lineIndex(subject, rows).forEach(u => {
+    const inTitle = u.low.indexOf(low) > -1;
+    const inTag = u.tags.some(t => t.indexOf(low) > -1);
+    const hit = [];
+    for (let k = 0; k < u.flat.length; k++) if (u.flat[k].indexOf(low) > -1) hit.push(u.lines[k]);
     if (!hit.length && !inTitle && !inTag) return;
 
     units++; total += hit.length;
     const take = hit.slice(0, Math.min(PER, Math.max(0, CAP - shown)));
     shown += take.length;
-    out.push('<div class="cs-h" role="button" tabindex="0" style="cursor:pointer" onclick="window.__lawmjOpen(&quot;' + id + '&quot;)">'
-      + (catName ? catName(cat) : cat) + ' · ' + title
+    out.push('<div class="cs-h" role="button" tabindex="0" style="cursor:pointer" onclick="window.__lawmjOpen(&quot;' + u.id + '&quot;)">'
+      + (catName ? catName(u.cat) : u.cat) + ' · ' + u.title
       + ' <span class="cs-stat">' + (hit.length ? hit.length + '건' : '제목·조문 일치') + '</span></div>'
-      + take.map(l => jumpWrap(id, l, paint)).join('')
-      + (hit.length > take.length
-          ? '<div class="cs-li" style="color:var(--ink-fainter)">…이 단원에 ' + (hit.length - take.length) + '건 더 — 제목을 누르면 본문으로</div>'
-          : ''));
+      + take.map(l => jumpWrap(u.id, l, paint)).join(''));
   });
 
   const val = { units, total, shown, html: out.join('') };
@@ -964,10 +1058,12 @@ function lastSeen() {
 }
 
 const BOOT = parseHash(location.hash) || lastSeen();
+// 첫 칠 전에 트랙 색을 정한다 — 렌더 뒤에 바꾸면 분홍으로 한 번 번쩍인다
+try { document.documentElement.dataset.track = (BOOT && BOOT.track) || '민사법'; } catch (e) {}
 
 class Component extends DCLogic {
   state = Object.assign(
-    { dark: (document.documentElement.dataset.theme === 'dark'), track:'민사법', subject:'민법', view:'toc', chapter:null, filter:'전체', size:0, lead:0, fold:false, quizOpen:false, shown:{}, crimPart:0, mark:null, q:'', quizFilter:'all', quizSeed:0, peek:{}, outline:true, note:'' },
+    { track:'민사법', subject:'민법', view:'toc', chapter:null, filter:'전체', size:0, lead:0, fold:false, quizOpen:false, shown:{}, crimPart:0, mark:null, q:'', quizFilter:'all', quizSeed:0, peek:{}, outline:true, note:'' },
     BOOT || {});
 
   componentDidMount() {
@@ -1140,10 +1236,40 @@ class Component extends DCLogic {
   }
 
   // O·X 를 고르는 순간 채점한다. 맞았는지까지 남겨야 오답이 쌓인다.
-  answerOX(card, choice) {
-    OX.set(card.id, { a: choice, ok: choice === card.badge,
+  //
+  // ⚠ 예전에는 여기서 forceUpdate 를 불렀다. 카드 한 장 바뀌자고 앱 전체(모달의
+  //    문항 122장 + 뒤에 깔린 본문)를 다시 그려 실측 86ms 가 걸렸고, 한 단원에
+  //    120번을 누르는 자리라 폰에서는 그게 그대로 굼뜸이 됐다.
+  //    이제 카드의 data-state 한 글자와 글자 몇 개만 고친다.
+  answerOX(card, choice, e) {
+    const ok = choice === card.badge;
+    OX.set(card.id, { a: choice, ok: ok,
                       s: this.state.subject, u: this.state.chapter || '', t: Date.now() });
-    this.forceUpdate();
+    this.paintCard(e, { state: ok ? 'right' : 'wrong', choice: choice });
+  }
+
+  unanswer(card, e) {
+    OX.reset([card.id]);
+    this.paintCard(e, { state:'ask', choice:'' });
+  }
+
+  // 누른 자리에서 가장 가까운 카드 한 장만 고쳐 칠한다.
+  // 다음에 모달을 다시 그릴 때는 기록(OX)에서 같은 모습이 그대로 나온다.
+  paintCard(e, v) {
+    const card = e && e.currentTarget && e.currentTarget.closest('.q-card');
+    if (!card) { this.forceUpdate(); return; }
+    card.dataset.state = v.state;
+    card.dataset.choice = v.choice || '';
+    this.paintScore();
+  }
+
+  // 머리글의 「n 맞음 · n 틀림 · n 남음」도 세어 다시 쓴다
+  paintScore() {
+    const box = document.querySelector('.q-score .sc-interp') || document.querySelector('.q-score');
+    if (!box) return;
+    const cards = [].slice.call(document.querySelectorAll('.q-card'));
+    const n = st => cards.filter(c => c.dataset.state === st).length;
+    box.textContent = n('right') + ' 맞음 · ' + n('wrong') + ' 틀림 · ' + n('ask') + ' 남음';
   }
 
   markProg(id, kind) { if (id) { PROG.toggle(id, kind); this.forceUpdate(); } }
@@ -1158,8 +1284,6 @@ class Component extends DCLogic {
   }
 
   hasData() { return !!dataFor(this.state.subject); }
-
-  theme() { return (this.state.dark ? DARK_THEMES : THEMES)[this.state.track]; }
 
   chapterList() {
     if (this.hasData()) {
@@ -1211,18 +1335,23 @@ class Component extends DCLogic {
   }
 
   tagStyle(kind) {
-    const th = this.theme();
     return kind === 'grey'
       ? { bg:'var(--chip)', color:'var(--ink-muted)' }
-      : { bg:th.chip, color:th.ink };
+      : { bg:'var(--accent-chip)', color:'var(--accent-ink)' };
   }
 
   renderVals() {
-    const st = this.state, th = this.theme();
+    const st = this.state;
     // 현재 과목의 데이터 파일을 (아직이면) 이제 받는다 — 도착하면 재렌더
     const dataFile = DATA_FILES[st.subject];
     if (dataFile) window.__loadData(dataFile, () => this.forceUpdate());
     const dataLoading = !!dataFile && window.__dataState[dataFile] === 'loading';
+    // 색인은 한가할 때 미리 만들어 둔다 — 그러지 않으면 첫 검색 한 번이 100ms 를 문다
+    if (!LINES[st.subject] && window[(DATASETS[st.subject] || {}).key]) {
+      const warm = () => lineIndex(st.subject, window[DATASETS[st.subject].key]);
+      if (typeof requestIdleCallback === 'function') requestIdleCallback(warm, { timeout: 2000 });
+      else setTimeout(warm, 300);
+    }
     const crim = this.hasData();
     const crimParts = crim ? (dataFor(st.subject) || []) : [];
     const chapters = this.chapterList();
@@ -1234,15 +1363,14 @@ class Component extends DCLogic {
 
     const tracks = Object.keys(TRACKS).map(name => {
       const on = name === st.track;
-      return { name, bg: on ? THEMES[name].accent : 'var(--surface)', border: on ? 'transparent' : 'var(--line-10)',
-        color: on ? '#fff' : 'var(--ink-soft)', weight: on ? 700 : 600,
-        pick: () => this.setState({ track:name, subject:TRACKS[name][0], view:'toc', chapter:null, quizOpen:false, q:'', mark:null }) };
+      return { name, on,
+        pick: () => { document.documentElement.dataset.track = name;
+          this.setState({ track:name, subject:TRACKS[name][0], view:'toc', chapter:null, quizOpen:false, q:'', mark:null }); } };
     });
 
     const subjects = TRACKS[st.track].map((name, i) => {
       const on = name === st.subject;
-      return { name, bg: on ? th.soft : 'var(--surface)', border: on ? 'transparent' : 'rgba(45,48,56,.09)',
-        color: on ? th.ink : 'var(--ink-fainter)', weight: on ? 600 : 500,
+      return { name, on,
         pick: () => this.setState({ subject:name, view:'toc', chapter:null, q:'', mark:null }) };
     });
 
@@ -1253,8 +1381,7 @@ class Component extends DCLogic {
 
     const filters = ['전체','복습','△ 약점','✓ 완료','미학습'].map(name => {
       const on = name === st.filter;
-      return { name, bg: on ? th.accent : 'var(--surface)', border: on ? 'transparent' : 'var(--line-11)',
-        color: on ? '#fff' : 'var(--ink-soft)', weight: on ? 600 : 500, pick: () => this.setState({ filter:name }) };
+      return { name, on, pick: () => this.setState({ filter:name }) };
     });
 
     const keepId = id => st.filter === '전체' ? true
@@ -1277,8 +1404,7 @@ class Component extends DCLogic {
     const counts = crim ? markCounts(st.subject, rows) : {};
     const marks = crim ? MARKS.filter(m => counts[m.key] > 0).map(m => {
       const on = st.mark === m.key;
-      return { name: m.name + ' ' + counts[m.key], bg: on ? th.accent : 'var(--surface)', border: on ? 'transparent' : 'var(--line-11)',
-        color: on ? '#fff' : 'var(--ink-soft)', weight: on ? 600 : 500,
+      return { name: m.name + ' ' + counts[m.key], on,
         pick: () => this.setState(on ? { mark:null } : { mark:m.key, view:'toc', chapter:null, quizOpen:false, q:'' }) };
     }) : [];
 
@@ -1289,12 +1415,12 @@ class Component extends DCLogic {
 
     const catNames = {};
     ((DATASETS[st.subject] || {}).cats ? DATASETS[st.subject].cats() : []).forEach(c => { catNames[c[0]] = c[1]; });
-    const picked = st.mark ? collect(rows, st.mark, c => catNames[c] || c, keepId) : null;
+    const picked = st.mark ? collect(st.subject, rows, st.mark, c => catNames[c] || c, keepId) : null;
     const markName = st.mark ? (MARKS.filter(m => m.key === st.mark)[0] || {}).name : '';
 
     const qText = st.q || '';
     const found = crim && qText.trim().length >= 2
-      ? searchIn(rows, qText, c => catNames[c] || c, st.subject + '::' + qText.trim())
+      ? searchIn(st.subject, rows, qText, c => catNames[c] || c, st.subject + '::' + qText.trim())
       : null;
 
     const parts = crim && crimParts.length
@@ -1314,20 +1440,12 @@ class Component extends DCLogic {
       return {
       head: sp[0], hasHead: newSubject,
       name: sp[1], count: p.topics.length + (DATASETS[st.subject] || {}).unit,
-      headBg: i === st.crimPart ? th.pick : 'transparent',
-      bar: i === st.crimPart ? th.accent : 'transparent',
       num: (sp[1].match(/^(제\d+[편장절관])\s*/) || ['', ''])[1],
       rest: sp[1].replace(/^제\d+[편장절관]/, ''),
-      numColor: i === st.crimPart ? 'var(--ink)' : th.headInk,
-      color: i === st.crimPart ? 'var(--ink)' : 'var(--ink-soft)', weight: i === st.crimPart ? 700 : 600,
-      rule: i === st.crimPart ? 'transparent' : 'rgba(45,48,56,.08)',
-      countColor: i === st.crimPart ? th.ink : 'var(--ink-fainter)',
       open: i === st.crimPart,
       pick: () => this.setState({ crimPart: i, view:'toc' }),
       chapters: p.topics.slice(0, 8).map(t => ({
-        title: t.title, dot: 'rgba(45,48,56,.14)',
-        color: t.title === st.chapter ? 'var(--ink)' : 'var(--ink-soft)',
-        weight: t.title === st.chapter ? 600 : 400,
+        title: t.title, on: t.title === st.chapter,
         open: () => this.openChapter(t.title)
       }))
     }; }) : [];
@@ -1389,20 +1507,13 @@ class Component extends DCLogic {
 
     const quizCards = deck.map(q => {
       const r = recOf(q);
-      const ok = r && r.ok;
-      return { text:q.text, stars:q.stars, hasStars: !!q.stars,
-        src: q.src, hasSrc: !!(r && q.src),
-        asked: !r, done: !!r,
-        badge: r ? q.badge : '?',
-        badgeBg: r ? (q.badge === 'O' ? 'var(--ox-o)' : 'var(--ox-x)') : 'var(--chip)',
-        badgeInk: r ? '#fff' : 'var(--ink-fainter)', badgeBorder: r ? 'none' : '1px dashed var(--line-15)',
-        resultLabel: !r ? '' : ok ? '맞음' : ('틀림 — ' + r.a + ' 를 골랐다'),
-        resultColor: ok ? 'var(--green)' : 'var(--red)',
-        cardBg: !r ? 'var(--surface-2)' : ok ? 'var(--surface-2)' : 'var(--neg-bg)',
-        cardBorder: !r ? 'var(--line-10)' : ok ? 'var(--line-10)' : 'var(--ox-x)',
-        pickO: () => this.answerOX(q, 'O'),
-        pickX: () => this.answerOX(q, 'X'),
-        again: () => { OX.reset([q.id]); this.forceUpdate(); } };
+      return { id:q.id, answer:q.badge, text:q.text, stars:q.stars, hasStars: !!q.stars,
+        src: q.src,
+        state: !r ? 'ask' : r.ok ? 'right' : 'wrong',
+        choice: r ? r.a : '',
+        pickO: e => this.answerOX(q, 'O', e),
+        pickX: e => this.answerOX(q, 'X', e),
+        again: e => this.unanswer(q, e) };
     });
 
     const list = chapters;
@@ -1410,18 +1521,19 @@ class Component extends DCLogic {
 
     return {
       tracks, subjects, filters, marks, parts, navParts, hasParts: navParts.length > 0,
-      accent: th.accent, accentInk: th.ink, accentSoft: th.soft, accentTint: th.tint, accentHead: th.head, accentHeadInk: th.headInk, sidebarBg: th.sidebar,
       brand: brandOf(st.track, st.subject), brandSub: '변호사시험 ' + st.subject,
       themeIcon: st.dark ? '☀' : '☾',
       themeLabel: st.dark ? '밝은 화면으로' : '어두운 화면으로',
-      toggleTheme: () => this.setState(s2 => {
-        const dark = !s2.dark;
-        document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+      // 색이 전부 CSS 변수라 화면을 다시 그릴 필요가 없다 — 속성 한 글자만 바꾼다.
+      // (예전에는 이 토글 하나에 요소 수천 개가 통째로 다시 칠해졌다)
+      toggleTheme: () => {
+        const de = document.documentElement;
+        const dark = de.dataset.theme !== 'dark';
+        de.dataset.theme = dark ? 'dark' : 'light';
         const mt = document.querySelector('meta[name=theme-color]');
         if (mt) mt.content = dark ? '#15171b' : '#f7f7f9';
         try { localStorage.setItem('lawmj_theme', dark ? 'dark' : 'light'); } catch (e) {}
-        return { dark };
-      }),
+      },
       crumb: st.track + ' · ' + st.subject, subjectName: st.subject,
       sourceNote: crim ? (DATASETS[st.subject] || {}).label + ' · ' + crimParts.length + '개 장 / ' + crimParts.reduce((a, p) => a + p.topics.length, 0) + '개 ' + (DATASETS[st.subject] || {}).unit
         : dataLoading ? st.subject + ' 자료 불러오는 중…' : '준비 중 — 상법을 뺀 여섯 과목이 열려 있습니다',
@@ -1434,7 +1546,7 @@ class Component extends DCLogic {
       queryText: qText,
       hasQuery: !!qText,
       searchHint: crim ? st.subject + ' 전문 검색 — 쟁점·조문·판례 (예: 상계, 366, 표현대리)' : '쟁점·조문 검색',
-      onQuery: e => { const v = e.target.value; clearTimeout(this._qt); this._qt = setTimeout(() => this.setQuery(v), 160); },
+      onQuery: e => { const v = e.target.value; clearTimeout(this._qt); this._qt = setTimeout(() => this.setQuery(v), 90); },   // 색인 뒤로 실제 작업이 40~60ms 라 더 기다릴 이유가 없다
       onQueryKey: e => { if (e.key === 'Enter') this.setQuery(e.target.value); },
       clearQuery: () => { const b = document.getElementById('lawmj-q'); if (b) b.value = ''; this.setQuery(''); },
       isSearch: !!found,
@@ -1516,16 +1628,16 @@ class Component extends DCLogic {
       bodySize: sizeSet[1], noteSize: sizeSet[2], sizeLabel: sizeSet[0],
       cycleSize: () => this.setState(s => ({ size: (s.size + 1) % SIZES.length })),
       toggleFold: () => this.setState(s => ({ fold: !s.fold })),
-      foldBg: st.fold ? th.soft : 'var(--surface)', foldBorder: st.fold ? 'transparent' : 'var(--line-10)',
-      foldColor: st.fold ? th.ink : 'var(--ink-soft)',
+      foldBg: st.fold ? 'var(--accent-soft)' : 'var(--surface)', foldBorder: st.fold ? 'transparent' : 'var(--line-10)',
+      foldColor: st.fold ? 'var(--accent-ink)' : 'var(--ink-soft)',
       quizOpen: st.quizOpen, quizCards, quizTotal: allCards.length,
       quizScore: rightN + ' 맞음 · ' + wrongN + ' 틀림 · ' + (allCards.length - rightN - wrongN) + ' 남음',
       quizEmpty: quizCards.length === 0,
       quizEmptyText: st.quizFilter === 'wrong' ? '틀린 문항이 없다.' : '이 단원에는 O·X 결론이 없다.',
-      quizAllBg: st.quizFilter === 'all' ? th.soft : 'var(--surface)',
-      quizAllInk: st.quizFilter === 'all' ? th.ink : 'var(--ink-soft)',
-      quizWrongBg: st.quizFilter === 'wrong' ? th.soft : 'var(--surface)',
-      quizWrongInk: st.quizFilter === 'wrong' ? th.ink : 'var(--ink-soft)',
+      quizAllBg: st.quizFilter === 'all' ? 'var(--accent-soft)' : 'var(--surface)',
+      quizAllInk: st.quizFilter === 'all' ? 'var(--accent-ink)' : 'var(--ink-soft)',
+      quizWrongBg: st.quizFilter === 'wrong' ? 'var(--accent-soft)' : 'var(--surface)',
+      quizWrongInk: st.quizFilter === 'wrong' ? 'var(--accent-ink)' : 'var(--ink-soft)',
       quizAllLabel: '전체 ' + allCards.length,
       quizWrongLabel: '오답만 ' + wrongN,
       showAll: () => this.setState({ quizFilter:'all' }),

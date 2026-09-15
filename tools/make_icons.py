@@ -18,7 +18,8 @@ import os
 SRC   = r'C:\Users\82109\hub_site\icon-512.png'
 OUT   = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PAPER = (246, 244, 240)     # 허브 아이콘의 바탕(기준)
-PINK  = (243, 223, 228)     # 암기장 민사법 --soft. 홈 화면 60px 에서도 갈린다
+PINK  = (240, 226, 230)     # 암기장 민사법 --soft 에서 채도를 30% 뺀 값.
+                            # 홈 화면 60px 에서 허브와는 갈리되 너무 분홍하지 않게
 
 def tinted():
     a = np.asarray(Image.open(SRC).convert('RGB')).astype(np.float32)
