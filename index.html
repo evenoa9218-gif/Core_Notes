@@ -192,7 +192,13 @@ mark.q-hit{background:var(--q-bg);color:var(--q-ink);border-radius:3px;padding:0
 .q-card[data-badge="O"][data-state="right"] .q-badge,.q-card[data-badge="O"][data-state="wrong"] .q-badge{background:var(--ox-o)}
 .q-card[data-badge="X"][data-state="right"] .q-badge,.q-card[data-badge="X"][data-state="wrong"] .q-badge{background:var(--ox-x)}
 .q-cardbody{display:flex;flex-direction:column;gap:9px;min-width:0;flex:1}
-.q-qtext{font:400 13.5px/1.75 Pretendard,sans-serif;color:var(--ink-2)}
+.q-ctx{font:600 10.5px Pretendard,sans-serif;color:var(--ink-fainter);letter-spacing:.3px}
+.q-ctx:empty{display:none}
+.q-qtext{font:400 calc(13.5px * var(--fs,1))/1.75 Pretendard,sans-serif;color:var(--ink-2)}
+/* 결론 뒤에 붙어 있던 근거 — 채점하고 나서 보여준다. 이게 실은 해설이었다. */
+.q-why{width:100%;font:400 calc(12px * var(--fs,1))/1.7 Pretendard,sans-serif;color:var(--ink-3);background:var(--surface-3);border-left:2px solid var(--line-15);border-radius:0 6px 6px 0;padding:7px 10px}
+.q-why:empty{display:none}
+.q-card[data-state="ask"] .q-why{display:none}
 .q-ask{display:flex;gap:7px}
 .q-ox{padding:7px 18px;border-radius:8px;cursor:pointer;background:var(--surface);border:1px solid var(--line-12);font-weight:700;font-size:12.5px}
 .q-ask .q-ox:first-child{color:var(--ox-o)}
@@ -608,12 +614,13 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div class="q-card" data-qid="{{ q.id }}" data-badge="{{ q.answer }}" data-state="{{ q.state }}" data-choice="{{ q.choice }}">
 <div class="q-badge"><span class="q-b-ask">?</span><span class="q-b-ans">{{ q.answer }}</span></div>
 <div class="q-cardbody">
-<div class="q-qtext"><sc-if value="{{ q.hasStars }}" hint-placeholder-val="{{ false }}"><span class="cs-star">{{ q.stars }}</span></sc-if>{{ q.text }}</div>
+<div class="q-ctx">{{ q.ctx }}</div><div class="q-qtext"><sc-if value="{{ q.hasStars }}" hint-placeholder-val="{{ false }}"><span class="cs-star">{{ q.stars }}</span></sc-if>{{ q.text }}</div>
 <div class="q-ask">
 <div class="q-ox" role="button" tabIndex="0" aria-label="맞다 O" onClick="{{ q.pickO }}">O</div>
 <div class="q-ox" role="button" tabIndex="0" aria-label="틀리다 X" onClick="{{ q.pickX }}">X</div>
 </div>
 <div class="q-done">
+<div class="q-why">{{ q.why }}</div>
 <div class="q-verdict"><span class="q-v-right">맞음</span><span class="q-v-wrong">틀림 — <span class="q-v-o">O</span><span class="q-v-x">X</span> 를 골랐다</span></div>
 <div class="q-src">{{ q.src }}</div>
 <div style="flex:1"></div>
@@ -734,6 +741,9 @@ function cleanQ(s) {
     .replace(/^[·\s]+/, '')
     .replace(/^구분\]?\s*/, '')
     .replace(/\s{2,}/g, ' ')
+    // stripTags 가 태그 자리마다 공백을 넣어 「[ 토지매매 , 영상물 ]」처럼 벌어진다 — 여민다
+    .replace(/([\[\(])\s+/g, '$1').replace(/\s+([\]\)])/g, '$1')
+    .replace(/\s+([,·:;])/g, '$1').replace(/,(?=\S)/g, ', ')
     .trim();
 }
 
@@ -764,30 +774,67 @@ function hash32(s) {
   return (h >>> 0).toString(36);
 }
 
+// 길면 자르되 낱말·괄호 한가운데서 끊지 않는다
+function cutAt(t, n) {
+  if (t.length <= n) return t;
+  const head = t.slice(0, n);
+  const at = Math.max(head.lastIndexOf('] '), head.lastIndexOf(', '), head.lastIndexOf(' '));
+  return (at > n * 0.6 ? head.slice(0, at) : head).trim() + '…';
+}
+
 function buildQuiz(html, unitId) {
   const out = [];
-  const lines = (html || '').match(/<div class="cs-li[^"]*"[^>]*>[\s\S]*?<\/div>/g) || [];
-  lines.forEach(line => {
+  // 소제목을 따라가며 읽는다. 「[숙박계약 고객의 안전 배려의무 …] (O)」 같은 줄은
+  // 그 자체로는 무엇을 묻는지 알 수 없다 — 바로 위 소제목(「나. 보호의무 인정 사례」)이
+  // 문항의 절반이다. 예전에는 그 맥락을 통째로 버려서 「[] 안의 나열」만 남았다.
+  let ctx = '';
+  const blocks = (html || '').match(/<div class="cs-(?:h|li)[^"]*"[^>]*>[\s\S]*?<\/div>/g) || [];
+
+  blocks.forEach(line => {
+    if (isHead(line)) { ctx = cleanQ(stripTags(line)); return; }
+    if (line.indexOf('class="cs-o"') === -1 && line.indexOf('class="cs-x"') === -1) return;
+
     const marker = /<span class="cs-(o|x)">\s*(?:<strong>)?\s*\((O|X)\)/g;
-    let m, cursor = 0, n = 0, lead = '';
-    while ((m = marker.exec(line)) !== null) {
-      const raw = line.slice(cursor, m.index);
-      const after = line.slice(m.index + m[0].length);
-      cursor = m.index + m[0].length;
+    const spots = [];
+    let m;
+    while ((m = marker.exec(line)) !== null) spots.push({ at: m.index, end: m.index + m[0].length, ans: m[2] });
+
+    spots.forEach((sp, n) => {
+      const raw = line.slice(n ? spots[n - 1].end : 0, sp.at);
+      // 결론 뒤 「— 모두 부수적 의무일 뿐」 같은 근거가 실제 해설이다.
+      // 다음 결론 전까지를 해설로 삼는다(예전에는 출처만 훑고 버렸다).
+      const after = line.slice(sp.end, n + 1 < spots.length ? spots[n + 1].at : line.length);
       const stars = (raw.match(/class="cs-star">(★+)</) || ['', ''])[1] || '';
-      if (!n) lead = leadOf(stripTags(raw));
 
-      let text = cleanQ(stripTags(raw));
-      // 한 줄에 결론이 여럿이면 '(출소기간' 같은 토막이 남는다. 앞 카드에 이미 들어 있는
-      // 말이라 문항이 되지 않는다 — 버린다. 자르지 않고 통째로 두는 편이 안전하다:
-      // ' / ' 로 늘어놓은 판례들은 결론 하나를 같이 받는 경우가 많다.
-      if (text.length < 12) { n++; continue; }
-      if (n && lead && text.indexOf(lead) !== 0) text = lead + ' — ' + text;
-      if (text.length > 220) text = text.slice(0, 220) + '…';
+      let text = cleanQ(stripTags(raw)).replace(/^[↔→⇔]\s*/, '');
+      if (text.length < 12) return;                    // 앞 카드에 이미 든 토막
+      // 열린 채 끝난 대괄호가 있으면 그 괄호가 곧 물음이다. 닫는 ] 가 결론 뒤에 있어서
+      // 그렇게 보일 뿐이다. 실제로 「…[구법 시행 시 … 신법이 적용된다 (X).]」 처럼 쓴다.
+      // ⚠ 처음에 반대로(괄호 앞에서 끊게) 짰더니 「'행위시' = 범죄행위의 종료시 → X」가 되어
+      //    맞는 명제에 틀렸다는 답이 붙었다. 뒤를 남겨야 한다.
+      const openAt = text.lastIndexOf('[');
+      if (openAt > 0 && text.indexOf(']', openAt) === -1) {
+        const tail = text.slice(openAt).trim();
+        // 긴 꼬리는 그 자체로 온전한 명제다 → 그것만 묻는다.
+        // 짧은 꼬리는 앞 문장에 붙은 대비 항목이라(「…일반인 기준이면 위반 X [전문가 기준으로 (X)」)
+        // 떼어 놓으면 뜻이 사라진다 → 줄을 통째로 둔다.
+        if (tail.length >= 25) text = tail;
+      }
 
-      out.push({ id: unitId + ':' + hash32(text), badge: m[2], stars, text, src: srcOf(raw, after) });
-      n++;
-    }
+      let why = cleanQ(stripTags(after))
+        .replace(/^[).\]】:：·,\s]+/, '')               // 결론 괄호 뒤에 남는 「.]」 같은 부스러기
+        .replace(/^[—–-]\s*/, '').replace(/^→\s*/, '');
+      // 한 줄에 (가)(나) 로 여러 문항이 이어 붙은 경우 — 다음 문항까지 끌고 오지 않는다
+      const nextItem = why.search(/\((?:가|나|다|라|마)\)/);
+      if (nextItem > 8) why = why.slice(0, nextItem).trim();
+      if (why.length > 160) why = why.slice(0, 160) + '…';
+      if (why.length < 3) why = '';
+
+      out.push({ id: unitId + ':' + hash32(text), badge: sp.ans, stars: stars,
+                 ctx: ctx && ctx.slice(0, 44), why: why,
+                 text: cutAt(text, 220),
+                 src: srcOf(raw, after) });
+    });
   });
   return out;
 }
@@ -913,8 +960,20 @@ const QUIZ_N = {};
 function quizTotalOf(subject, rows) {
   if (QUIZ_TOTAL[subject] != null) return QUIZ_TOTAL[subject];
   let n = 0;
-  (rows || []).forEach(r => { const c = buildQuiz(r[2], r[0]).length; QUIZ_N[r[0]] = c; n += c; });
+  const live = {};
+  (rows || []).forEach(r => {
+    const cards = buildQuiz(r[2], r[0]);
+    cards.forEach(c => { live[c.id] = 1; });
+    QUIZ_N[r[0]] = cards.length; n += cards.length;
+  });
   QUIZ_TOTAL[subject] = n;
+  // 문항 글자가 바뀌면 id 도 바뀐다(글자에서 뽑으므로). 옛 기록이 남으면 사라진 문항이
+  // 유령 오답으로 세어져 「복습」에 계속 걸린다 — 이 과목의 죽은 기록만 걷어낸다.
+  if (n) {
+    const d = OX.load();
+    const dead = Object.keys(d).filter(k => d[k].s === subject && !live[k]);
+    if (dead.length) { dead.forEach(k => { delete d[k]; }); OX.save(); }
+  }
   return n;
 }
 function quizCountOf(subject, rows, id) {
@@ -1657,7 +1716,7 @@ class Component extends DCLogic {
     const quizCards = (pass ? deck : deck.slice(0, FIRST_QUIZ)).map(q => {
       const r = recOf(q);
       return { id:q.id, answer:q.badge, text:q.text, stars:q.stars, hasStars: !!q.stars,
-        src: q.src,
+        ctx: q.ctx || '', why: q.why || '', src: q.src,
         state: !r ? 'ask' : r.ok ? 'right' : 'wrong',
         choice: r ? r.a : '',
         pickO: e => this.answerOX(q, 'O', e),
