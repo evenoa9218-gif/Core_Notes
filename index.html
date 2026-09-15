@@ -95,6 +95,10 @@ mark.q-hit{background:var(--q-bg);color:var(--q-ink);border-radius:3px;padding:0
 .q-memo{width:100%;box-sizing:border-box;min-height:74px;resize:vertical;padding:9px 10px;border-radius:6px;background:var(--surface-2);border:1px dashed var(--line-15);font:400 11.5px/1.7 Pretendard,sans-serif;color:var(--ink-2);outline:none}
 .q-memo::placeholder{color:var(--ink-ghost)}
 .q-memo:focus{border-style:solid;border-color:var(--underline)}
+.q-line{cursor:pointer;border-radius:6px}
+.q-line:hover{background:var(--surface-2)}
+@keyframes q-flash{0%{background:var(--q-bg)}100%{background:transparent}}
+.q-flash{animation:q-flash 1.8s ease-out;border-radius:4px}
 @media (max-width:760px){.q-input{font-size:16px;padding:12px 14px}.q-memo{font-size:16px}}
 body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-webkit-font-smoothing:antialiased}*{word-break:keep-all;overflow-wrap:break-word}a{color:var(--link)}a:hover{color:var(--link-hover)}
 /* ── 좁은 화면 대응 (2026-08-20) ────────────────────────────────
@@ -299,6 +303,19 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div style="width:40px;height:1px;background:{{ accent }};margin-top:5px"></div>
 </div>
 
+<sc-if value="{{ hasOutline }}" hint-placeholder-val="{{ true }}">
+<div style="border:1px solid var(--line-10);border-radius:10px;background:var(--surface-2);overflow:hidden">
+<div style="padding:9px 13px;display:flex;align-items:center;gap:7px;cursor:pointer" onClick="{{ toggleOutline }}"><div style="font:400 11px Pretendard,sans-serif;color:var(--ink-fainter)">{{ outlineIcon }}</div><div style="font:600 11.5px Pretendard,sans-serif;color:var(--ink-muted)">{{ outlineLabel }}</div></div>
+<sc-if value="{{ outlineOpen }}" hint-placeholder-val="{{ true }}">
+<div style="padding:2px 13px 11px;display:flex;flex-direction:column;gap:7px;max-height:230px;overflow-y:auto">
+<sc-for list="{{ outlineItems }}" as="o" hint-placeholder-count="5">
+<div style="cursor:pointer;margin-left:{{ o.indent }};font-weight:{{ o.weight }};font-size:12px;line-height:1.5;color:{{ o.color }}" onClick="{{ o.go }}">{{ o.text }}</div>
+</sc-for>
+</div>
+</sc-if>
+</div>
+</sc-if>
+
 <div style="display:grid;grid-template-columns:minmax(0,1fr) 172px;gap:32px;align-items:start">
 <div style="display:flex;flex-direction:column;gap:24px">
 <sc-if value="{{ isRich }}" hint-placeholder-val="{{ false }}">
@@ -351,6 +368,7 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div style="flex:1"></div>
 <div style="padding:14px 30px;background:var(--surface-2);border-top:1px solid var(--line-08);display:flex;align-items:center;gap:10px;position:sticky;bottom:0">
 <div style="font:500 11.5px Pretendard,sans-serif;color:var(--ink-faint);cursor:pointer" onClick="{{ prev }}">‹ {{ prevTitle }}</div>
+<div title="맨 위로" style="padding:5px 9px;border-radius:7px;background:var(--surface);border:1px solid var(--line-10);font:500 11.5px Pretendard,sans-serif;color:var(--ink-faint);cursor:pointer;flex:none" onClick="{{ toTop }}">↑</div>
 <div style="flex:1"></div>
 <sc-if value="{{ hasQuiz }}" hint-placeholder-val="{{ true }}"><div style="padding:9px 14px;border-radius:9px;background:var(--surface);border:1px solid var(--line-11);font:600 11.5px Pretendard,sans-serif;color:var(--ink-soft);cursor:pointer;white-space:nowrap" onClick="{{ toggleQuiz }}">이 장 판례 {{ caseCount }}개 O/X</div></sc-if>
 <sc-if value="{{ hasLinkedQuiz }}" hint-placeholder-val="{{ true }}"><div style="padding:9px 14px;border-radius:9px;font-weight:600;font-size:11.5px;color:#fff;background:{{ accent }};cursor:pointer;white-space:nowrap">선택형 {{ quizCount }}문항 →</div></sc-if>
@@ -592,6 +610,43 @@ const MEMO = {
   }
 };
 
+// 줄을 가리키는 열쇠. 검색·모아보기에서 고른 줄을 본문에서 다시 찾아 내려가는 데 쓴다.
+// 공백을 모두 지우고 해싱한다 — stripTags 가 태그 자리에 넣는 공백과 DOM 의 textContent 가
+// 서로 달라, 공백을 남겨 두면 같은 줄인데도 열쇠가 어긋난다.
+const keyOf = t => hash32((t || '').replace(/\s+/g, ''));
+
+// 단원 안 차례. 한 단원이 6만 자인데 소제목(cs-h)은 1개뿐이라 본문이 평평하게 깔려 있었다.
+// 원문이 쓰는 두 층(「1.·2.」 = cs-li 단독, 「가.·나.」 = cs-issue)을 그대로 차례로 삼는다.
+const OUTLINE = {};
+const ANCHORED = {};
+const HEAD_RE = /<div class="cs-li(?: cs-issue)?"[^>]*>(?:(?!<\/div>)[\s\S]){0,220}?<\/div>/g;
+const isHead = h => {
+  const issue = h.indexOf('cs-issue') > -1;
+  const t = stripTags(h);
+  if (!t || t.length > 80) return 0;   // 46자로 끊었더니 「나. 기산점 — …(166조)」 같은 긴 항목이 차례에서 빠졌다
+  if (issue) return 2;
+  return /^(?:[0-9]{1,2}|[ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ]+|[IVX]{1,4})[.．)]\s*\S/.test(t) ? 1 : 0;
+};
+
+function outlineOf(id, html) {
+  if (OUTLINE[id]) return OUTLINE[id];
+  const out = [];
+  let anchored = html || '';
+  (html || '').match(HEAD_RE) || [];
+  anchored = anchored.replace(HEAD_RE, m => {
+    const lv = isHead(m);
+    if (!lv) return m;
+    const t = stripTags(m);
+    const k = keyOf(t);
+    out.push({ k, t, lv });
+    return m.replace('<div ', '<div data-h="' + k + '" ');
+  });
+  OUTLINE[id] = out;
+  ANCHORED[id] = anchored;
+  return out;
+}
+function anchoredOf(id, html) { outlineOf(id, html); return ANCHORED[id]; }
+
 // 푼 기록. 맞았는지 틀렸는지를 남겨야 오답이 쌓이고, 틀린 것만 다시 볼 수 있다.
 // 문항 id 는 본문 글자에서 뽑으므로 노션에서 줄 순서가 바뀌어도 기록이 따라간다.
 const OX_KEY = 'lawmj_ox_v1';
@@ -614,12 +669,17 @@ const OX = {
 
 // 과목 전체 문항 수는 데이터가 바뀌지 않는 한 그대로다 — 한 번만 센다
 const QUIZ_TOTAL = {};
+const QUIZ_N = {};
 function quizTotalOf(subject, rows) {
   if (QUIZ_TOTAL[subject] != null) return QUIZ_TOTAL[subject];
   let n = 0;
-  (rows || []).forEach(r => { n += buildQuiz(r[2], r[0]).length; });
+  (rows || []).forEach(r => { const c = buildQuiz(r[2], r[0]).length; QUIZ_N[r[0]] = c; n += c; });
   QUIZ_TOTAL[subject] = n;
   return n;
+}
+function quizCountOf(subject, rows, id) {
+  if (QUIZ_N[id] == null) quizTotalOf(subject, rows);
+  return QUIZ_N[id] || 0;
 }
 
 function dataFor(subject) {
@@ -679,6 +739,15 @@ function markCounts(subject, rows) {
   return res;
 }
 
+// 모아보기·검색에 뽑힌 줄은 그 줄 자체가 본문으로 가는 문이다.
+// 예전에는 제목만 눌러 들어갈 수 있었고 단원 맨 위에 떨궈 놨다 — ★ 876건 중 하나가
+// 눈에 띄어 원문을 보러 가면 6만 자 안에서 그 줄을 다시 찾아야 했다.
+function jumpWrap(id, line, paint) {
+  const flat = line.replace(/margin-left:\d+px/, 'margin-left:0px');
+  return '<div class="q-line" onclick="window.__lawmjJump(&quot;' + id + '&quot;,&quot;'
+    + keyOf(stripTags(line)) + '&quot;)">' + (paint ? paint(flat) : flat) + '</div>';
+}
+
 // 표시가 붙은 줄만 뽑아 단원별로 묶는다. 제목을 누르면 그 단원으로 간다.
 function collect(rows, key, catName) {
   const def = MARKS.filter(m => m.key === key)[0];
@@ -693,7 +762,7 @@ function collect(rows, key, catName) {
     count += hit.length;
     out.push('<div class="cs-h" style="cursor:pointer" onclick="window.__lawmjOpen(&quot;' + id + '&quot;)">'
       + (catName ? catName(cat) : cat) + ' · ' + title + ' <span class="cs-stat">' + hit.length + '건</span></div>'
-      + hit.map(l => l.replace(/margin-left:\d+px/, 'margin-left:0px')).join(''));
+      + hit.map(l => jumpWrap(id, l)).join(''));
   });
   return { count: count, html: out.join('') };
 }
@@ -738,7 +807,7 @@ function searchIn(rows, q, catName, cacheKey) {
     out.push('<div class="cs-h" style="cursor:pointer" onclick="window.__lawmjOpen(&quot;' + id + '&quot;)">'
       + (catName ? catName(cat) : cat) + ' · ' + title
       + ' <span class="cs-stat">' + (hit.length ? hit.length + '건' : '제목·조문 일치') + '</span></div>'
-      + take.map(l => paint(l.replace(/margin-left:\d+px/, 'margin-left:0px'))).join('')
+      + take.map(l => jumpWrap(id, l, paint)).join('')
       + (hit.length > take.length
           ? '<div class="cs-li" style="color:var(--ink-fainter)">…이 단원에 ' + (hit.length - take.length) + '건 더 — 제목을 누르면 본문으로</div>'
           : ''));
@@ -796,11 +865,14 @@ const BOOT = parseHash(location.hash) || lastSeen();
 
 class Component extends DCLogic {
   state = Object.assign(
-    { dark: (document.documentElement.dataset.theme === 'dark'), track:'민사법', subject:'민법', view:'toc', chapter:null, filter:'전체', size:0, fold:false, quizOpen:false, shown:{}, crimPart:0, mark:null, q:'', quizFilter:'all', quizSeed:0, peek:{} },
+    { dark: (document.documentElement.dataset.theme === 'dark'), track:'민사법', subject:'민법', view:'toc', chapter:null, filter:'전체', size:0, fold:false, quizOpen:false, shown:{}, crimPart:0, mark:null, q:'', quizFilter:'all', quizSeed:0, peek:{}, outline:true },
     BOOT || {});
 
   componentDidMount() {
     // 모아보기에서 단원 제목을 눌렀을 때 그 단원으로 이동
+    // 검색·모아보기에서 고른 「그 줄」로 내려간다
+    window.__lawmjJump = (id, key) => { this._jumpKey = key; window.__lawmjOpen(id); };
+
     window.__lawmjOpen = id => {
       const parts = dataFor(this.state.subject) || [];
       const all = parts.reduce((a, p) => a.concat(p.topics), []);
@@ -845,6 +917,7 @@ class Component extends DCLogic {
       navigator.serviceWorker.register('sw.js').catch(() => {});
 
     this.syncBox();
+    this.syncMemo();
   }
 
   // 메모도 검색칸과 같은 이유로 비제어다. 단원을 옮기면 그 단원의 메모로 갈아 끼운다.
@@ -869,6 +942,26 @@ class Component extends DCLogic {
     clearTimeout(this._qt);
     if (this.state.q === v) return;
     this.setState({ q: v, view:'toc', mark:null });
+  }
+
+  // 예약된 줄로 내려간다. 본문은 통째로 갈아 끼워지므로 노드를 미리 잡아둘 수 없다.
+  runJump() {
+    const key = this._jumpKey;
+    if (!key) return;
+    let tries = 0;
+    const go = () => {
+      const hit = [].slice.call(document.querySelectorAll('#main .cs-li, #main .cs-h, #main .cs-ans-in'))
+        .filter(n => keyOf(n.textContent) === key)[0];
+      if (hit) {
+        this._jumpKey = null;
+        hit.scrollIntoView({ block: 'center' });
+        hit.classList.add('q-flash');
+        setTimeout(() => hit.classList.remove('q-flash'), 1800);
+        return;
+      }
+      if (++tries < 10) setTimeout(go, 40); else this._jumpKey = null;
+    };
+    setTimeout(go, 0);
   }
 
   // 다른 장의 단원으로 건너뛰면(검색·모아보기·링크) 왼쪽 목차도 그 장을 편다
@@ -896,7 +989,7 @@ class Component extends DCLogic {
     const t = brandOf(this.state.track, this.state.subject) + ' — 변호사시험 ' + this.state.subject;
     if (document.title !== t) document.title = t;
     const now = this.navSnap(this.state);
-    if (this._popping) { this._popping = false; this._nav = now; this.syncPart(); this.syncBox(); this.syncMemo(); return; }
+    if (this._popping) { this._popping = false; this._nav = now; this.syncPart(); this.syncBox(); this.syncMemo(); this.runJump(); return; }
     const moved = this._nav ? Object.keys(now).filter(k => this._nav[k] !== now[k]) : [];
     if (moved.length) {
       // 검색어만 바뀐 것은 한 번의 이동으로 친다 — 글쇠마다 기록이 쌓이면 뒤로가기가 막힌다
@@ -908,6 +1001,7 @@ class Component extends DCLogic {
     this.syncPart();
     this.syncBox();
     this.syncMemo();
+    this.runJump();
   }
 
   progOf(id) { return PROG.get(id); }
@@ -938,14 +1032,17 @@ class Component extends DCLogic {
   // 단원을 열거나 목차로 돌아올 때 본문 머리로 데려간다.
   // 렌더가 본문 노드를 갈아끼우므로 노드를 미리 잡아두면 안 된다(좌표가 0이 된다).
   toMain() {
-    if (innerWidth > 760) return;
+    if (this._jumpKey) return;          // 줄로 내려갈 참이면 맨 위로 끌어올리지 않는다
     // 화면을 바꾸는 순간 문서가 잠깐 짧아져 목표 위치가 잘린다(스크롤 최대값 제한).
     // 자리가 잡힐 때까지 몇 프레임 다시 시도한다.
     let tries = 0;
     const go = () => {
       const el = document.getElementById('main');
       if (el) {
-        const target = el.getBoundingClientRect().top + window.scrollY;
+        // 좁은 화면에선 목차가 본문 위에 쌓여 있어 본문 머리가 690px 아래에 있다.
+        // 넓은 화면에선 그냥 맨 위 — 예전에는 여기서 바로 빠져나가서, 바닥에서
+        // 「다음 단원」을 누르면 새 단원의 한가운데부터 보였다.
+        const target = innerWidth > 760 ? 0 : el.getBoundingClientRect().top + window.scrollY;
         window.scrollTo({ top: target });
         if (Math.abs(window.scrollY - target) < 2) return;
       }
@@ -1016,7 +1113,7 @@ class Component extends DCLogic {
     const crimDecorate = list => list.map(t => ({
       title: (stateOf(t.id) === 'done' ? '✓ ' : stateOf(t.id) === 'weak' ? '△ ' : '') + t.title,
       sub: (t.tags || []).slice(0, 3).join(' · ') || (DATASETS[st.subject] || {}).unit + ' ' + t.id,
-      concepts: Math.max(1, (t.html.match(/class="cs-h"/g) || []).length),
+      concepts: quizCountOf(st.subject, rows, t.id),
       cases: (t.html.match(/判例|大判全合|통판|【판례】/g) || []).length,
       pct: stateOf(t.id) === 'done' ? '100%' : stateOf(t.id) === 'weak' ? '50%' : '0%',
       tags: (t.tags || []).slice(0, 3).map(x => Object.assign({ text: x }, this.tagStyle(/^§|\d/.test(x) ? 'grey' : 'chip'))),
@@ -1081,6 +1178,11 @@ class Component extends DCLogic {
       }))
     }; }) : [];
 
+    const outlineTopic = crim && !st.mark && st.chapter
+      ? (crimParts.reduce((a, p) => a.concat(p.topics), []).find(t => t.title === st.chapter) || null)
+      : null;
+    const outline = outlineTopic ? outlineOf(outlineTopic.id, outlineTopic.html) : [];
+
     const crimTopic = crim && !st.mark && st.chapter
       ? (crimParts.reduce((a, p) => a.concat(p.topics), []).find(t => t.title === st.chapter) || null)
       : null;
@@ -1091,7 +1193,7 @@ class Component extends DCLogic {
           pageNo: crimTopic.id, caseCount: crimCards.length, quizCount: 0,
           tags: (crimTopic.tags || []).map(x => [x, /^§|\d/.test(x) ? 'grey' : 'chip']),
           sections: [], margins: crimCards.slice(0, 3).map(c => ({ badge: c.badge, text: c.text.slice(0, 60) })),
-          quiz: crimCards, rich: crimTopic.html }
+          quiz: crimCards, rich: anchoredOf(crimTopic.id, crimTopic.html) }
       : picked
         ? { eyebrow: st.subject + ' · 표시 모아보기', pageNo:'', caseCount: picked.count, quizCount: 0,
             tags: [[markName, 'chip'], [picked.count + '건', 'grey']],
@@ -1204,6 +1306,17 @@ class Component extends DCLogic {
       richBody: page && page.rich
         ? React.createElement('div', { style: { fontSize: sizeSet[1] }, dangerouslySetInnerHTML: { __html: page.rich } })
         : null,
+      hasOutline: outline.length > 1,
+      outlineLabel: '이 단원 차례 ' + outline.length,
+      outlineOpen: st.outline,
+      outlineIcon: st.outline ? '▾' : '▸',
+      toggleOutline: () => this.setState(s2 => ({ outline: !s2.outline })),
+      outlineItems: outline.map(o => ({
+        text: o.t.length > 40 ? o.t.slice(0, 40) + '…' : o.t, indent: o.lv === 2 ? '14px' : '0px',
+        weight: o.lv === 1 ? 600 : 400,
+        color: o.lv === 1 ? 'var(--ink-2)' : 'var(--ink-muted)',
+        go: () => { this._jumpKey = o.k; this.runJump(); } })),
+      toTop: () => window.scrollTo({ top: 0 }),
       isToc: st.view === 'toc' || !page, isPage: st.view === 'page' && !!page,
       chapterTitle: picked ? markName + ' 모아보기' : (st.chapter || ''),
       pageEyebrow: page ? page.eyebrow : '', pageNo: page ? page.pageNo : '',
