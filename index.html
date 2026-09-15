@@ -193,7 +193,12 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 </sc-if>
 </div>
 
-<div style="padding:13px 18px;border-top:1px solid var(--line-08);display:flex;justify-content:space-between;white-space:nowrap"><div style="font:400 10.5px Pretendard,sans-serif;color:var(--ink-faint)">O·X 문항 {{ totalQ }}개</div><div style="font-weight:600;font-size:10.5px;color:{{ accent }}">오답 {{ wrongQ }}개</div></div>
+<div style="padding:11px 18px 12px;border-top:1px solid var(--line-08);display:flex;flex-direction:column;gap:7px">
+<div style="display:flex;justify-content:space-between;white-space:nowrap"><div style="font:400 10.5px Pretendard,sans-serif;color:var(--ink-faint)">O·X 문항 {{ totalQ }}개</div><div style="font-weight:600;font-size:10.5px;color:{{ accent }}">오답 {{ wrongQ }}개</div></div>
+<div style="display:flex;gap:10px;align-items:center"><div style="font:500 10px Pretendard,sans-serif;color:var(--ink-fainter);cursor:pointer" onClick="{{ doExport }}">기록 내보내기</div><div style="font:500 10px Pretendard,sans-serif;color:var(--ink-fainter);cursor:pointer" onClick="{{ doImport }}">불러오기</div></div>
+<sc-if value="{{ hasNote }}" hint-placeholder-val="{{ false }}"><div style="font:500 10px Pretendard,sans-serif;color:{{ accentInk }}">{{ note }}</div></sc-if>
+<input id="lawmj-file" type="file" accept="application/json,.json" style="display:none" onChange="{{ onFile }}">
+</div>
 </div>
 
 <div id="main" style="flex:1;display:flex;flex-direction:column;min-width:0;background:var(--surface)">
@@ -247,6 +252,12 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div style="display:flex;flex-direction:column;gap:12px">
 <div style="display:flex;align-items:baseline;gap:10px;flex-wrap:wrap"><div style="font:700 13px Pretendard,sans-serif;color:var(--ink)">‘{{ queryText }}’ 검색</div><div style="font:400 11.5px Pretendard,sans-serif;color:var(--ink-faint)">{{ searchNote }}</div></div>
 <div>{{ searchBody }}</div>
+</div>
+</sc-if>
+<sc-if value="{{ isMark }}" hint-placeholder-val="{{ false }}">
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="display:flex;align-items:baseline;gap:10px;flex-wrap:wrap"><div style="font:700 13px Pretendard,sans-serif;color:var(--ink)">{{ markTitle }}</div><div style="font:400 11.5px Pretendard,sans-serif;color:var(--ink-faint)">{{ markNote }}</div><div style="flex:1"></div><div style="font:500 11.5px Pretendard,sans-serif;color:var(--ink-faint);cursor:pointer" onClick="{{ clearMark }}">모아보기 끄기 ✕</div></div>
+<div>{{ markBody }}</div>
 </div>
 </sc-if>
 <sc-if value="{{ isBrowse }}" hint-placeholder-val="{{ true }}">
@@ -667,6 +678,37 @@ const OX = {
   }
 };
 
+// 기록은 이 브라우저에만 있다. 브라우저 데이터를 지우거나 폰을 바꾸면 그날로 0/72 였다.
+// 진도·O·X·메모를 한 파일로 내보내고 되불러온다.
+function dumpAll() {
+  return { app:'lawmj-core-notes', v:1, at:new Date().toISOString(),
+           progress:PROG.load(), ox:OX.load(), memo:MEMO.load() };
+}
+
+function mergeAll(inc) {
+  if (!inc || inc.app !== 'lawmj-core-notes') throw new Error('암기장 기록 파일이 아니다');
+  let n = 0;
+  const prog = PROG.load();
+  Object.keys(inc.progress || {}).forEach(k => { if (prog[k] !== inc.progress[k]) { prog[k] = inc.progress[k]; n++; } });
+  PROG.save();
+
+  const ox = OX.load();
+  Object.keys(inc.ox || {}).forEach(k => {
+    const mine = ox[k], theirs = inc.ox[k];
+    // 같은 문항을 양쪽에서 풀었으면 나중에 푼 것을 남긴다
+    if (!mine || (theirs.t || 0) > (mine.t || 0)) { ox[k] = theirs; n++; }
+  });
+  OX.save();
+
+  const memo = MEMO.load();
+  Object.keys(inc.memo || {}).forEach(k => {
+    // 빈 메모로 적어 둔 메모를 덮지 않는다
+    if (inc.memo[k] && memo[k] !== inc.memo[k]) { memo[k] = inc.memo[k]; n++; }
+  });
+  try { localStorage.setItem(MEMO_KEY, JSON.stringify(memo)); } catch (e) {}
+  return n;
+}
+
 // 과목 전체 문항 수는 데이터가 바뀌지 않는 한 그대로다 — 한 번만 센다
 const QUIZ_TOTAL = {};
 const QUIZ_N = {};
@@ -749,13 +791,14 @@ function jumpWrap(id, line, paint) {
 }
 
 // 표시가 붙은 줄만 뽑아 단원별로 묶는다. 제목을 누르면 그 단원으로 간다.
-function collect(rows, key, catName) {
+function collect(rows, key, catName, keep) {
   const def = MARKS.filter(m => m.key === key)[0];
   if (!def) return { count: 0, html: '' };
   const out = [];
   let count = 0;
   (rows || []).forEach(row => {
     const id = row[0], title = row[1], html = row[2], cat = row[5];
+    if (keep && !keep(id)) return;      // 표시 모아보기와 진도 필터를 겹쳐 볼 수 있게
     const lines = (html || '').match(/<div class="cs-(?:li|ans-in)[^"]*"[^>]*>[\s\S]*?<\/div>/g) || [];
     const hit = lines.filter(def.test);
     if (!hit.length) return;
@@ -865,7 +908,7 @@ const BOOT = parseHash(location.hash) || lastSeen();
 
 class Component extends DCLogic {
   state = Object.assign(
-    { dark: (document.documentElement.dataset.theme === 'dark'), track:'민사법', subject:'민법', view:'toc', chapter:null, filter:'전체', size:0, fold:false, quizOpen:false, shown:{}, crimPart:0, mark:null, q:'', quizFilter:'all', quizSeed:0, peek:{}, outline:true },
+    { dark: (document.documentElement.dataset.theme === 'dark'), track:'민사법', subject:'민법', view:'toc', chapter:null, filter:'전체', size:0, fold:false, quizOpen:false, shown:{}, crimPart:0, mark:null, q:'', quizFilter:'all', quizSeed:0, peek:{}, outline:true, note:'' },
     BOOT || {});
 
   componentDidMount() {
@@ -1006,6 +1049,13 @@ class Component extends DCLogic {
 
   progOf(id) { return PROG.get(id); }
 
+  // 사이드바 바닥에 잠깐 뜨는 알림 — 내보내기·불러오기 결과를 알린다
+  say(msg) {
+    clearTimeout(this._noteT);
+    this.setState({ note: msg });
+    this._noteT = setTimeout(() => this.setState({ note: '' }), 4000);
+  }
+
   // O·X 를 고르는 순간 채점한다. 맞았는지까지 남겨야 오답이 쌓인다.
   answerOX(card, choice) {
     OX.set(card.id, { a: choice, ok: choice === card.badge,
@@ -1099,16 +1149,23 @@ class Component extends DCLogic {
         pick: () => this.setState({ subject:name, view:'toc', chapter:null, q:'', mark:null }) };
     });
 
-    const filters = ['전체','△ 약점','✓ 완료','미학습'].map(name => {
+    // 오답이 있는 단원. 「다시 볼 곳」을 앱이 알고 있어야 표시가 쌓이기만 하고 안 돌아오는 일이 없다.
+    const wrongUnits = {};
+    const oxAll = OX.load();
+    Object.keys(oxAll).forEach(k => { if (!oxAll[k].ok) wrongUnits[k.slice(0, k.indexOf(':'))] = 1; });
+
+    const filters = ['전체','복습','△ 약점','✓ 완료','미학습'].map(name => {
       const on = name === st.filter;
       return { name, bg: on ? th.accent : 'var(--surface)', border: on ? 'transparent' : 'var(--line-11)',
         color: on ? '#fff' : 'var(--ink-soft)', weight: on ? 600 : 500, pick: () => this.setState({ filter:name }) };
     });
 
-    const keep = t => st.filter === '전체' ? true
-      : st.filter === '✓ 완료' ? stateOf(t.id) === 'done'
-      : st.filter === '미학습' ? !stateOf(t.id)
-      : stateOf(t.id) === 'weak';
+    const keepId = id => st.filter === '전체' ? true
+      : st.filter === '복습' ? (stateOf(id) === 'weak' || !!wrongUnits[id])
+      : st.filter === '✓ 완료' ? stateOf(id) === 'done'
+      : st.filter === '미학습' ? !stateOf(id)
+      : stateOf(id) === 'weak';
+    const keep = t => keepId(t.id);
 
     const crimDecorate = list => list.map(t => ({
       title: (stateOf(t.id) === 'done' ? '✓ ' : stateOf(t.id) === 'weak' ? '△ ' : '') + t.title,
@@ -1125,7 +1182,7 @@ class Component extends DCLogic {
       const on = st.mark === m.key;
       return { name: m.name + ' ' + counts[m.key], bg: on ? th.accent : 'var(--surface)', border: on ? 'transparent' : 'var(--line-11)',
         color: on ? '#fff' : 'var(--ink-soft)', weight: on ? 600 : 500,
-        pick: () => this.setState(on ? { mark:null, view:'toc' } : { mark:m.key, view:'page', chapter:null, quizOpen:false, q:'' }) };
+        pick: () => this.setState(on ? { mark:null } : { mark:m.key, view:'toc', chapter:null, quizOpen:false, q:'' }) };
     }) : [];
 
     const splitCat = c => {
@@ -1135,7 +1192,7 @@ class Component extends DCLogic {
 
     const catNames = {};
     ((DATASETS[st.subject] || {}).cats ? DATASETS[st.subject].cats() : []).forEach(c => { catNames[c[0]] = c[1]; });
-    const picked = st.mark ? collect(rows, st.mark, c => catNames[c] || c) : null;
+    const picked = st.mark ? collect(rows, st.mark, c => catNames[c] || c, keepId) : null;
     const markName = st.mark ? (MARKS.filter(m => m.key === st.mark)[0] || {}).name : '';
 
     const qText = st.q || '';
@@ -1194,10 +1251,6 @@ class Component extends DCLogic {
           tags: (crimTopic.tags || []).map(x => [x, /^§|\d/.test(x) ? 'grey' : 'chip']),
           sections: [], margins: crimCards.slice(0, 3).map(c => ({ badge: c.badge, text: c.text.slice(0, 60) })),
           quiz: crimCards, rich: anchoredOf(crimTopic.id, crimTopic.html) }
-      : picked
-        ? { eyebrow: st.subject + ' · 표시 모아보기', pageNo:'', caseCount: picked.count, quizCount: 0,
-            tags: [[markName, 'chip'], [picked.count + '건', 'grey']],
-            sections: [], margins: [], quiz: [], rich: picked.html || '<div class="cs-li">표시된 줄이 없습니다.</div>' }
         : (PAGE[st.chapter] || null);
     const sizeSet = SIZES[st.size];
 
@@ -1287,7 +1340,15 @@ class Component extends DCLogic {
       onQueryKey: e => { if (e.key === 'Enter') this.setQuery(e.target.value); },
       clearQuery: () => { const b = document.getElementById('lawmj-q'); if (b) b.value = ''; this.setQuery(''); },
       isSearch: !!found,
-      isBrowse: !found,
+      isMark: !found && !!picked,
+      isBrowse: !found && !picked,
+      markTitle: markName + ' 모아보기',
+      markNote: picked ? (picked.count + '건' + (st.filter === '전체' ? '' : ' · ' + st.filter + '만')) : '',
+      markBody: picked
+        ? React.createElement('div', { style: { fontSize: sizeSet[1] },
+            dangerouslySetInnerHTML: { __html: picked.html || '<div class="cs-li" style="color:var(--ink-fainter)">이 조건에 맞는 줄이 없다.</div>' } })
+        : null,
+      clearMark: () => this.setState({ mark:null }),
       searchNote: found
         ? (found.units ? found.units + '개 ' + (DATASETS[st.subject] || {}).unit + ' · ' + found.total + '건'
                            + (found.shown < found.total ? ' · 단원마다 6줄까지 펼침' : '')
@@ -1317,8 +1378,32 @@ class Component extends DCLogic {
         color: o.lv === 1 ? 'var(--ink-2)' : 'var(--ink-muted)',
         go: () => { this._jumpKey = o.k; this.runJump(); } })),
       toTop: () => window.scrollTo({ top: 0 }),
+      note: st.note || '',
+      hasNote: !!st.note,
+      doExport: () => {
+        const blob = new Blob([JSON.stringify(dumpAll())], { type: 'application/json' });
+        const a2 = document.createElement('a');
+        a2.href = URL.createObjectURL(blob);
+        a2.download = 'lawmj-기록-' + new Date().toISOString().slice(0, 10) + '.json';
+        document.body.appendChild(a2); a2.click();
+        setTimeout(() => { URL.revokeObjectURL(a2.href); a2.remove(); }, 0);
+        this.say('기록을 파일로 내보냈다');
+      },
+      doImport: () => { const f = document.getElementById('lawmj-file'); if (f) { f.value = ''; f.click(); } },
+      onFile: e => {
+        const f = e.target.files && e.target.files[0];
+        if (!f) return;
+        const r = new FileReader();
+        r.onload = () => {
+          try {
+            const n = mergeAll(JSON.parse(r.result));
+            this.say(n ? n + '건을 합쳤다' : '새로 합칠 것이 없었다');
+          } catch (err) { this.say('읽지 못했다 — ' + err.message); }
+        };
+        r.readAsText(f);
+      },
       isToc: st.view === 'toc' || !page, isPage: st.view === 'page' && !!page,
-      chapterTitle: picked ? markName + ' 모아보기' : (st.chapter || ''),
+      chapterTitle: st.chapter || '',
       pageEyebrow: page ? page.eyebrow : '', pageNo: page ? page.pageNo : '',
       pageTags: page ? page.tags.map(([text, kind]) => Object.assign({ text }, this.tagStyle(kind))) : [],
       sections, margins, showCases: !st.fold,
