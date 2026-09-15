@@ -172,7 +172,9 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
   .q-ohead{min-height:40px;box-sizing:border-box}
   .q-oitem{min-height:36px;display:flex;align-items:center;box-sizing:border-box}
   .q-olist{gap:2px!important}
-  .q-ox{min-height:44px;min-width:64px;display:flex;align-items:center;justify-content:center;box-sizing:border-box}
+  /* ⚠ 위의 반경 규칙이 (0,2,1) 로 더 구체적이라 그냥 쓰면 38px 로 눌린다.
+     한 단원에 120번 누르는 자리라 44px 를 지킨다. */
+  .q-ox{min-height:44px!important;min-width:64px;display:flex;align-items:center;justify-content:center;box-sizing:border-box}
 }
 </style></helmet>
 
