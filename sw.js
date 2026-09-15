@@ -43,7 +43,11 @@ function networkFirst(e, req, key) {
     let done = false;
     const finish = r => { if (!done && r) { done = true; resolve(r); } };
     const timer = setTimeout(() => caches.match(key).then(finish), NET_TIMEOUT);
-    fetch(req).then(res => {
+    // ⚠ 그냥 fetch(req) 를 쓰면 브라우저의 HTTP 캐시가 먼저 답한다. GitHub Pages 는
+    //    max-age=600 을 주므로 배포한 지 10분이 안 됐으면 옛 화면이 그대로 뜬다
+    //    (실제로 이번에 밟았다 — 새 빌드를 올렸는데 폰 화면이 안 바뀌었다).
+    //    no-cache 는 서버에 물어보게만 할 뿐 몸통을 매번 받지는 않는다(보통 304).
+    fetch(req.url, { cache: 'no-cache', credentials: 'same-origin' }).then(res => {
       clearTimeout(timer);
       keep(e, key, res);
       finish(res);
