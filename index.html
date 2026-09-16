@@ -194,6 +194,12 @@ mark.q-hit{background:var(--q-bg);color:var(--q-ink);border-radius:3px;padding:0
 .q-cardbody{display:flex;flex-direction:column;gap:9px;min-width:0;flex:1}
 .q-ctx{font:600 10.5px Pretendard,sans-serif;color:var(--ink-fainter);letter-spacing:.3px}
 .q-ctx:empty{display:none}
+.q-ask .q-cz{flex:none;padding:7px 14px;font-weight:600;font-size:calc(11.5px * var(--fs,1));color:var(--ink-soft)}
+.q-card[data-badge="빈칸"] .q-badge{font-size:calc(9px * var(--fs,1));background:var(--chip);color:var(--ink-muted);border:1px solid var(--line-12)}
+.q-card[data-badge="빈칸"][data-state="right"] .q-badge,.q-card[data-badge="빈칸"][data-state="wrong"] .q-badge{color:var(--ink-muted);background:var(--chip);border:1px solid var(--line-12)}
+.q-card[data-badge="빈칸"] .q-verdict{display:none}
+.q-card[data-badge="빈칸"] .q-why{border-left-color:var(--accent);color:var(--ink-2);font-weight:600}
+.q-due{padding:10px 15px;border-radius:11px;cursor:pointer;background:var(--accent);border:1px solid transparent;font-weight:700;font-size:12px;color:#fff;white-space:nowrap}
 .q-fact{font:400 calc(12.5px * var(--fs,1))/1.7 Pretendard,sans-serif;color:var(--ink-3);background:var(--surface-3);border-radius:7px;padding:7px 9px}
 .q-tag{display:inline-block;margin-right:6px;padding:1px 6px;border-radius:5px;background:var(--chip);color:var(--ink-muted);font-size:calc(10.5px * var(--fs,1));font-weight:600;vertical-align:1px}
 .q-qtext{font:500 calc(13.5px * var(--fs,1))/1.75 Pretendard,sans-serif;color:var(--ink)}
@@ -434,6 +440,7 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <input id="lawmj-q" class="q-input" type="text" placeholder="{{ searchHint }}" onInput="{{ onQuery }}" onKeyDown="{{ onQueryKey }}">
 <sc-if value="{{ hasQuery }}" hint-placeholder-val="{{ false }}"><div role="button" tabIndex="0" class="q-clear" aria-label="검색어 지우기" title="검색어 지우기" onClick="{{ clearQuery }}">✕</div></sc-if>
 </div>
+<sc-if value="{{ hasDue }}" hint-placeholder-val="{{ true }}"><div role="button" tabIndex="0" class="q-due" title="기한이 된 문항을 모아 푼다" onClick="{{ openDue }}">{{ dueLabel }}</div></sc-if>
 <sc-for list="{{ filters }}" as="f" hint-placeholder-count="4">
 <div role="button" tabIndex="0" class="q-chip" data-on="{{ f.on }}" onClick="{{ f.pick }}">{{ f.name }}</div>
 </sc-for>
@@ -506,7 +513,7 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;cursor:pointer;background:{{ doneBg }};border:1px solid {{ doneBorder }};font-weight:600;font-size:11px;color:{{ doneColor }}" onClick="{{ toggleDone }}">✓ 완료</div>
 <div role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;cursor:pointer;background:{{ weakBg }};border:1px solid {{ weakBorder }};font-weight:600;font-size:11px;color:{{ weakColor }}" onClick="{{ toggleWeak }}">△ 약점</div>
 </sc-if>
-<sc-if value="{{ hasQuiz }}" hint-placeholder-val="{{ true }}"><div role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;background:var(--accent-soft);font-weight:600;font-size:11px;color:var(--accent-ink);cursor:pointer" onClick="{{ toggleQuiz }}">암기 확인</div></sc-if>
+<sc-if value="{{ hasQuiz }}" hint-placeholder-val="{{ true }}"><div role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;background:var(--accent-soft);font-weight:600;font-size:11px;color:var(--accent-ink);cursor:pointer" onClick="{{ toggleQuiz }}">암기 확인 {{ quizTotal }}</div></sc-if>
 </div>
 </div>
 
@@ -600,7 +607,7 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <sc-if value="{{ quizOpen }}" hint-placeholder-val="{{ false }}">
 <div class="q-modal" style="position:fixed;inset:0;background:var(--scrim);display:flex;align-items:flex-end;justify-content:center;z-index:10" onClick="{{ toggleQuiz }}">
 <div class="q-panel" style="width:100%;max-width:720px;max-height:76vh;overflow-y:auto;overflow-x:hidden;background:var(--surface);border-radius:18px 18px 0 0;padding:22px 26px 26px;display:flex;flex-direction:column;gap:14px;box-shadow:0 -8px 40px var(--scrim-2)" onClick="{{ stop }}">
-<div style="display:flex;align-items:center;gap:10px"><div style="width:3px;height:14px;border-radius:2px;background:var(--accent)"></div><div style="font:700 15px Pretendard,sans-serif;color:var(--ink);letter-spacing:-.3px">암기 확인 — {{ chapterTitle }}</div><div style="flex:1"></div><div class="q-score" style="font:500 11.5px Pretendard,sans-serif;color:var(--ink-faint);white-space:nowrap">{{ quizScore }}</div><div role="button" tabIndex="0" style="width:26px;height:26px;border-radius:8px;background:var(--chip);display:flex;align-items:center;justify-content:center;font-size:13px;color:var(--ink-soft);cursor:pointer;flex:none" aria-label="암기 확인 닫기" onClick="{{ toggleQuiz }}">✕</div></div>
+<div style="display:flex;align-items:center;gap:10px"><div style="width:3px;height:14px;border-radius:2px;background:var(--accent)"></div><div style="font:700 15px Pretendard,sans-serif;color:var(--ink);letter-spacing:-.3px">{{ deckTitle }}</div><div style="flex:1"></div><div class="q-score" style="font:500 11.5px Pretendard,sans-serif;color:var(--ink-faint);white-space:nowrap">{{ quizScore }}</div><div role="button" tabIndex="0" style="width:26px;height:26px;border-radius:8px;background:var(--chip);display:flex;align-items:center;justify-content:center;font-size:13px;color:var(--ink-soft);cursor:pointer;flex:none" aria-label="암기 확인 닫기" onClick="{{ toggleQuiz }}">✕</div></div>
 <div style="display:flex;gap:6px;flex-wrap:wrap">
 <div role="button" tabIndex="0" style="padding:6px 11px;border-radius:8px;cursor:pointer;background:{{ quizAllBg }};border:1px solid var(--line-10);font-weight:600;font-size:11px;color:{{ quizAllInk }}" onClick="{{ showAll }}">{{ quizAllLabel }}</div>
 <div role="button" tabIndex="0" style="padding:6px 11px;border-radius:8px;cursor:pointer;background:{{ quizWrongBg }};border:1px solid var(--line-10);font-weight:600;font-size:11px;color:{{ quizWrongInk }}" onClick="{{ showWrong }}">{{ quizWrongLabel }}</div>
@@ -618,8 +625,14 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div class="q-cardbody">
 <div class="q-ctx">{{ q.ctx }}</div><sc-if value="{{ q.hasFact }}" hint-placeholder-val="{{ true }}"><div class="q-fact"><span class="q-tag">사안</span>{{ q.fact }}</div></sc-if><div class="q-qtext"><sc-if value="{{ q.hasStars }}" hint-placeholder-val="{{ false }}"><span class="cs-star">{{ q.stars }}</span></sc-if>{{ q.text }}</div>
 <div class="q-ask">
+<sc-if value="{{ q.isOX }}" hint-placeholder-val="{{ true }}">
 <div class="q-ox" role="button" tabIndex="0" aria-label="맞다 O" onClick="{{ q.pickO }}">O</div>
 <div class="q-ox" role="button" tabIndex="0" aria-label="틀리다 X" onClick="{{ q.pickX }}">X</div>
+</sc-if>
+<sc-if value="{{ q.isCZ }}" hint-placeholder-val="{{ false }}">
+<div class="q-ox q-cz" role="button" tabIndex="0" onClick="{{ q.pickO }}">떠올렸다</div>
+<div class="q-ox q-cz" role="button" tabIndex="0" onClick="{{ q.pickX }}">못 떠올렸다</div>
+</sc-if>
 </div>
 <div class="q-done">
 <div class="q-why">{{ q.why }}</div>
@@ -932,6 +945,46 @@ function outlineOf(id, html) {
 }
 function anchoredOf(id, html) { outlineOf(id, html); return ANCHORED[id]; }
 
+// ── 빈칸 채우기 ────────────────────────────────────────────────
+// O·X 는 「골라 맞히기」(재인)다. 외운 것을 실제로 꺼내 보는 「인출」이 없었다.
+// 그런데 원문에 형광펜이 8,162곳 찍혀 있다 — 글쓴이가 이미 「여기가 핵심」이라고
+// 표시해 둔 자리다. 그걸 그대로 빈칸으로 쓴다.
+//
+// ⚠ 한 줄의 형광펜을 전부 가리면 「★★ 【判例2023】 ____ — ↔ ____」처럼 읽을 수가 없다.
+//    줄마다 한 곳만 가리고 나머지는 문맥으로 남긴다.
+function clozeCand(spans) {
+  return spans
+    .filter(t => t.length >= 3 && t.length <= 40)
+    .filter(t => !/^[\[\]()·,—→:;]/.test(t) && !/[,·]$/.test(t))   // 낱말 경계를 안 지킨 조각은 뺀다
+    .sort((a, b) => b.length - a.length)[0];
+}
+
+function buildCloze(html, unitId) {
+  const out = [];
+  let ctx = '';
+  const blocks = (html || '').match(/<div class="cs-(?:h|li)[^"]*"[^>]*>[\s\S]*?<\/div>/g) || [];
+  blocks.forEach(line => {
+    if (isHead(line)) { ctx = cleanQ(stripTags(line)); return; }
+    if (line.indexOf('cs-hl') === -1) return;
+
+    const spans = [];
+    line.replace(/<span class="cs-hl">([\s\S]*?)<\/span>/g, (m, t) => { spans.push(stripTags(t)); return m; });
+    const answer = clozeCand(spans);
+    if (!answer) return;
+
+    const full = cleanQ(stripTags(line));
+    const at = full.indexOf(answer);
+    if (at < 0) return;
+    const text = full.slice(0, at) + '____' + full.slice(at + answer.length);
+    // 가리고 남은 글자가 너무 적으면 단서가 없다
+    if (text.replace(/_/g, '').trim().length < 12) return;
+
+    out.push({ id: unitId + ':c:' + hash32(text), kind: 'cz', ctx: ctx && ctx.slice(0, 44),
+               text: cutAt(text, 220), answer: answer.replace(/\s*(?:v\.|↔|—|→|:)\s*$/, '').trim(), stars: (line.match(/class="cs-star">(★+)</) || ['', ''])[1] || '' });
+  });
+  return out;
+}
+
 // 푼 기록. 맞았는지 틀렸는지를 남겨야 오답이 쌓이고, 틀린 것만 다시 볼 수 있다.
 // 문항 id 는 본문 글자에서 뽑으므로 노션에서 줄 순서가 바뀌어도 기록이 따라간다.
 const OX_KEY = 'lawmj_ox_v1';
@@ -945,6 +998,7 @@ const OX = {
   save() { try { localStorage.setItem(OX_KEY, JSON.stringify(this.data)); } catch (e) {} },
   get(id) { return this.load()[id] || null; },
   set(id, rec) { this.load()[id] = rec; this.save(); },
+  streak(id) { const r = this.get(id); return r ? (r.n || 0) : 0; },
   reset(ids) { const d = this.load(); ids.forEach(id => { delete d[id]; }); this.save(); },
   wrongIn(subject) {
     const d = this.load();
@@ -983,6 +1037,43 @@ function mergeAll(inc) {
   return n;
 }
 
+// ── 언제 다시 볼까 ─────────────────────────────────────────────
+// D-118 이 크게 떠 있는데 「오늘 뭘 볼지」는 앱이 몰랐다. 푼 기록에 시각이 이미 있으니
+// 간격만 얹으면 된다. 틀리면 내일, 맞히면 3 → 7 → 16 → 35일.
+// (연속으로 맞힌 횟수 n 을 같이 남긴다. 옛 기록엔 없으니 0으로 본다.)
+const DAY = 24 * 60 * 60 * 1000;
+const STEPS = [1, 3, 7, 16, 35];
+function nextDue(ok, n) {
+  const step = ok ? STEPS[Math.min((n || 0) + 1, STEPS.length - 1)] : STEPS[0];
+  return { n: ok ? (n || 0) + 1 : 0, due: Date.now() + step * DAY };
+}
+
+// 과목의 모든 카드(O·X + 빈칸)를 한 번만 만들어 둔다 — 「오늘 볼 것」이 id 로 되찾는다
+const CARDS = {};
+function cardsOf(subject, rows) {
+  if (CARDS[subject]) return CARDS[subject];
+  const idx = {};
+  (rows || []).forEach(r => {
+    buildQuiz(r[2], r[0]).concat(buildCloze(r[2], r[0]))
+      .forEach(c => { c.unit = r[1]; idx[c.id] = c; });
+  });
+  CARDS[subject] = idx;
+  return idx;
+}
+
+// 오늘 볼 것 — 기한이 된 기록만, 틀렸던 것 먼저
+function dueCards(subject, rows) {
+  const idx = cardsOf(subject, rows), d = OX.load(), now = Date.now(), out = [];
+  Object.keys(d).forEach(k => {
+    const r = d[k];
+    if (r.s !== subject || !idx[k]) return;
+    const due = r.due || ((r.t || 0) + (r.ok ? 3 : 1) * DAY);   // 옛 기록은 푼 날에서 셈한다
+    if (due <= now) out.push({ card: idx[k], ok: r.ok, due: due });
+  });
+  out.sort((a, b) => (a.ok === b.ok ? a.due - b.due : (a.ok ? 1 : -1)));
+  return out.map(x => x.card);
+}
+
 // 과목 전체 문항 수는 데이터가 바뀌지 않는 한 그대로다 — 한 번만 센다
 const QUIZ_TOTAL = {};
 const QUIZ_N = {};
@@ -991,7 +1082,7 @@ function quizTotalOf(subject, rows) {
   let n = 0;
   const live = {};
   (rows || []).forEach(r => {
-    const cards = buildQuiz(r[2], r[0]);
+    const cards = buildQuiz(r[2], r[0]).concat(buildCloze(r[2], r[0]));
     cards.forEach(c => { live[c.id] = 1; });
     QUIZ_N[r[0]] = cards.length; n += cards.length;
   });
@@ -1216,7 +1307,7 @@ try { document.documentElement.dataset.track = (BOOT && BOOT.track) || '민사�
 class Component extends DCLogic {
   // fold:true 는 「지금 [CASE] 가 접혀 있다」는 뜻이다 — 본문은 늘 접힌 채로 그려지므로 참으로 시작한다
   state = Object.assign(
-    { track:'민사법', subject:'민법', view:'toc', chapter:null, filter:'전체', fold:true, quizOpen:false, shown:{}, crimPart:0, mark:null, q:'', quizFilter:'all', quizSeed:0, peek:{}, outline:true, note:'', offlineN:0, offlineAll:0, settings:false },
+    { track:'민사법', subject:'민법', view:'toc', chapter:null, filter:'전체', fold:true, quizOpen:false, shown:{}, crimPart:0, mark:null, q:'', quizFilter:'all', quizSeed:0, deck:'unit', peek:{}, outline:true, note:'', offlineN:0, offlineAll:0, settings:false },
     BOOT || {});
 
   componentDidMount() {
@@ -1471,9 +1562,10 @@ class Component extends DCLogic {
   //    120번을 누르는 자리라 폰에서는 그게 그대로 굼뜸이 됐다.
   //    이제 카드의 data-state 한 글자와 글자 몇 개만 고친다.
   answerOX(card, choice, e) {
-    const ok = choice === card.badge;
-    OX.set(card.id, { a: choice, ok: ok,
-                      s: this.state.subject, u: this.state.chapter || '', t: Date.now() });
+    const ok = card.kind === 'cz' ? (choice === 'know') : (choice === card.badge);
+    const plan = nextDue(ok, OX.streak(card.id));
+    OX.set(card.id, { a: choice, ok: ok, k: card.kind || 'ox', n: plan.n, due: plan.due,
+                      s: this.state.subject, u: card.unit || this.state.chapter || '', t: Date.now() });
     this.paintCard(e, { state: ok ? 'right' : 'wrong', choice: choice });
   }
 
@@ -1696,7 +1788,8 @@ class Component extends DCLogic {
     const crimTopic = crim && !st.mark && st.chapter
       ? (crimParts.reduce((a, p) => a.concat(p.topics), []).find(t => t.title === st.chapter) || null)
       : null;
-    const crimCards = crimTopic ? buildQuiz(crimTopic.html, crimTopic.id) : [];
+    const crimCards = crimTopic ? buildQuiz(crimTopic.html, crimTopic.id).concat(buildCloze(crimTopic.html, crimTopic.id)) : [];
+    const todo = crim ? dueCards(st.subject, rows) : [];
     const caseBlocks = crimTopic ? ((crimTopic.html || '').match(/<details class="cs-case"/g) || []).length : 0;
     this._memoUnit = crimTopic ? crimTopic.id : '';
     const page = crimTopic
@@ -1727,7 +1820,8 @@ class Component extends DCLogic {
     }) : [];
 
     // 푼 것 / 맞은 것 / 틀린 것
-    const allCards = page ? page.quiz : [];
+    // 덱은 둘 중 하나다 — 지금 보는 단원, 또는 기한이 된 「오늘 볼 것」
+    const allCards = st.deck === 'due' ? todo : (page ? page.quiz : []);
     const recOf = c => OX.get(c.id);
     const rightN = allCards.filter(c => (recOf(c) || {}).ok === true).length;
     const wrongN = allCards.filter(c => { const r = recOf(c); return r && !r.ok; }).length;
@@ -1744,13 +1838,17 @@ class Component extends DCLogic {
 
     const quizCards = (pass ? deck : deck.slice(0, FIRST_QUIZ)).map(q => {
       const r = recOf(q);
-      return { id:q.id, answer:q.badge, text:q.ask, fact:q.fact || '', hasFact: !!q.fact,
+      const cz = q.kind === 'cz';
+      return { id:q.id, answer: cz ? '빈칸' : q.badge, text: cz ? q.text : q.ask,
+        isOX: !cz, isCZ: cz,
+        fact: cz ? '' : (q.fact || ''), hasFact: !cz && !!q.fact,
         stars:q.stars, hasStars: !!q.stars,
-        ctx: q.ctx || '', why: q.why || '', src: q.src,
+        ctx: (st.deck === 'due' && q.unit ? q.unit + ' · ' : '') + (q.ctx || ''),
+        why: cz ? ('정답 — ' + q.answer) : (q.why || ''), src: q.src,
         state: !r ? 'ask' : r.ok ? 'right' : 'wrong',
         choice: r ? r.a : '',
-        pickO: e => this.answerOX(q, 'O', e),
-        pickX: e => this.answerOX(q, 'X', e),
+        pickO: e => this.answerOX(q, cz ? 'know' : 'O', e),
+        pickX: e => this.answerOX(q, cz ? 'miss' : 'X', e),
         again: e => this.unanswer(q, e) };
     });
 
@@ -1880,6 +1978,10 @@ class Component extends DCLogic {
       },
       hasQuiz: quizCards.length > 0, hasLinkedQuiz: !!(page && page.quizCount),
       quizOpen: st.quizOpen, quizCards, quizTotal: allCards.length,
+      deckTitle: st.deck === 'due' ? '오늘 볼 것' : ('암기 확인 — ' + (st.chapter || '')),
+      dueCount: todo.length, hasDue: todo.length > 0,
+      dueLabel: '오늘 볼 것 ' + todo.length,
+      openDue: () => this.setState({ deck:'due', quizOpen:true, quizFilter:'all' }),
       quizScore: rightN + ' 맞음 · ' + wrongN + ' 틀림 · ' + (allCards.length - rightN - wrongN) + ' 남음',
       quizEmpty: quizCards.length === 0,
       quizEmptyText: st.quizFilter === 'wrong' ? '틀린 문항이 없다.' : '이 단원에는 O·X 결론이 없다.',
@@ -1894,7 +1996,7 @@ class Component extends DCLogic {
       shuffle: () => this.setState(s2 => ({ quizSeed: s2.quizSeed ? 0 : Date.now() })),
       shuffleLabel: st.quizSeed ? '원래 차례' : '섞기',
       resetQuiz: () => { OX.reset(allCards.map(c => c.id)); this.setState({ quizFilter:'all' }); },
-      toggleQuiz: () => this.setState(s => ({ quizOpen: !s.quizOpen, quizFilter:'all' })),
+      toggleQuiz: () => this.setState(s => ({ quizOpen: !s.quizOpen, deck:'unit', quizFilter:'all' })),
       stop: e => e.stopPropagation(),
       goToc: () => { this.setState({ view:'toc', quizOpen:false, mark:null }); this.toMain(); },
       showProg: !!crimTopic,
