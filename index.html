@@ -1939,13 +1939,18 @@ class Component extends DCLogic {
 
     // 푼 것 / 맞은 것 / 틀린 것
     // 덱은 둘 중 하나다 — 지금 보는 단원, 또는 기한이 된 「오늘 볼 것」
-    const dueDeck = st.deck === 'due' && st.dueIds
+    // 창이 닫혀 있으면 언제나 단원 덱이다.
+    // 덱 종류는 단추로 열 때만 정해지고 ✕ 로 닫을 때만 되돌려졌다. 사례형·「오늘 볼 것」을
+    // 폰 뒤로가기(또는 Esc)로 닫으면 그대로 남아, 다른 단원에서 「암기 확인」 단추가 사라지거나
+    // 사례 수를 달고 나타났다.
+    const deckKind = st.quizOpen ? st.deck : 'unit';
+    const dueDeck = deckKind === 'due' && st.dueIds
       ? (ix => st.dueIds.map(id => ix[id]).filter(Boolean))(cardsOf(st.subject, rows))
       : todo;
-    const allCards = st.deck === 'due' ? dueDeck : st.deck === 'case' ? unitCases : (page ? page.quiz : []);
+    const allCards = deckKind === 'due' ? dueDeck : deckKind === 'case' ? unitCases : (page ? page.quiz : []);
     // 「오늘 볼 것」은 다시 푸는 자리다. 예전 기록을 그대로 칠하면 카드가 정답·해설을 펼친 채로 나와
     // 풀어 볼 수가 없었다. 덱을 연 뒤에 남긴 기록만 결과로 친다.
-    const recOf = st.deck === 'due'
+    const recOf = deckKind === 'due'
       ? c => { const r = OX.get(c.id); return r && r.t >= (st.dueAt || 0) ? r : null; }
       : c => OX.get(c.id);
     const rightN = allCards.filter(c => (recOf(c) || {}).ok === true).length;
@@ -1969,7 +1974,7 @@ class Component extends DCLogic {
         ansHtml: sa ? React.createElement('div', { dangerouslySetInnerHTML: { __html: q.ansHtml } }) : null,
         fact: cz ? '' : (q.fact || ''), hasFact: !cz && !!q.fact,
         stars:q.stars, hasStars: !!q.stars,
-        ctx: (st.deck === 'due' && q.unit ? q.unit + ' · ' : '') + (q.ctx || ''),
+        ctx: (deckKind === 'due' && q.unit ? q.unit + ' · ' : '') + (q.ctx || ''),
         why: sa ? '' : cz ? ('정답 — ' + q.answer) : (q.why || ''), src: q.src,
         state: !r ? 'ask' : r.ok ? 'right' : 'wrong',
         choice: r ? r.a : '',
@@ -2108,10 +2113,10 @@ class Component extends DCLogic {
       },
       hasQuiz: quizCards.length > 0, hasLinkedQuiz: !!(page && page.quizCount),
       quizOpen: st.quizOpen, quizCards, quizTotal: allCards.length,
-      deckHint: st.deck === 'case'
+      deckHint: deckKind === 'case'
         ? '답안 구성을 머릿속으로 세운 뒤 펼쳐 맞춰 본다. 못 떠올린 것은 오답으로 남는다.'
         : '먼저 판단하고 고르면 바로 채점한다. 빈칸은 떠올린 뒤 고른다. 틀린 것은 오답으로 남는다.',
-      deckTitle: st.deck === 'due' ? '오늘 볼 것' : st.deck === 'case' ? ('사례형 — ' + curTitle) : ('암기 확인 — ' + curTitle),
+      deckTitle: deckKind === 'due' ? '오늘 볼 것' : deckKind === 'case' ? ('사례형 — ' + curTitle) : ('암기 확인 — ' + curTitle),
       dueCount: todo.length, hasDue: todo.length > 0,
       dueLabel: '오늘 볼 것 ' + todo.length,
       // 연 순간의 목록을 붙잡는다. 풀면 기한이 뒤로 밀려 todo 에서 빠지므로,
