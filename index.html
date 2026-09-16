@@ -199,6 +199,11 @@ mark.q-hit{background:var(--q-bg);color:var(--q-ink);border-radius:3px;padding:0
 .q-card[data-badge="빈칸"][data-state="right"] .q-badge,.q-card[data-badge="빈칸"][data-state="wrong"] .q-badge{color:var(--ink-muted);background:var(--chip);border:1px solid var(--line-12)}
 .q-card[data-badge="빈칸"] .q-verdict{display:none}
 .q-card[data-badge="빈칸"] .q-why{border-left-color:var(--accent);color:var(--ink-2);font-weight:600}
+.q-ansbox{width:100%;background:var(--surface-3);border-left:2px solid var(--accent);border-radius:0 8px 8px 0;padding:10px 12px}
+.q-card[data-state="ask"] .q-ansbox{display:none}
+.q-card[data-badge="사례"] .q-badge{font-size:calc(9px * var(--fs,1));background:var(--accent-soft);color:var(--accent-ink);border:none}
+.q-card[data-badge="사례"] .q-verdict{display:none}
+.q-card[data-badge="사례"] .q-qtext{font-weight:400}
 .q-due{padding:10px 15px;border-radius:11px;cursor:pointer;background:var(--accent);border:1px solid transparent;font-weight:700;font-size:12px;color:#fff;white-space:nowrap}
 .q-fact{font:400 calc(12.5px * var(--fs,1))/1.7 Pretendard,sans-serif;color:var(--ink-3);background:var(--surface-3);border-radius:7px;padding:7px 9px}
 .q-tag{display:inline-block;margin-right:6px;padding:1px 6px;border-radius:5px;background:var(--chip);color:var(--ink-muted);font-size:calc(10.5px * var(--fs,1));font-weight:600;vertical-align:1px}
@@ -514,6 +519,7 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;cursor:pointer;background:{{ weakBg }};border:1px solid {{ weakBorder }};font-weight:600;font-size:11px;color:{{ weakColor }}" onClick="{{ toggleWeak }}">△ 약점</div>
 </sc-if>
 <sc-if value="{{ hasQuiz }}" hint-placeholder-val="{{ true }}"><div role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;background:var(--accent-soft);font-weight:600;font-size:11px;color:var(--accent-ink);cursor:pointer" onClick="{{ toggleQuiz }}">암기 확인 {{ quizTotal }}</div></sc-if>
+<sc-if value="{{ hasCaseDeck }}" hint-placeholder-val="{{ false }}"><div role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;background:var(--surface);border:1px solid var(--accent);font-weight:600;font-size:11px;color:var(--accent-ink);cursor:pointer" onClick="{{ openCases }}">{{ caseLabel }}</div></sc-if>
 </div>
 </div>
 
@@ -615,7 +621,7 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div style="flex:1"></div>
 <div role="button" tabIndex="0" style="padding:6px 11px;border-radius:8px;cursor:pointer;background:var(--surface);border:1px solid var(--line-10);font-weight:500;font-size:11px;color:var(--ink-faint)" onClick="{{ resetQuiz }}">기록 지우고 다시</div>
 </div>
-<div style="font:400 12px/1.6 Pretendard,sans-serif;color:var(--ink-faint)">먼저 판단하고 O·X 를 고르면 바로 채점한다. 틀린 것은 오답으로 남는다.</div>
+<div style="font:400 12px/1.6 Pretendard,sans-serif;color:var(--ink-faint)">{{ deckHint }}</div>
 <sc-if value="{{ quizEmpty }}" hint-placeholder-val="{{ false }}">
 <div style="padding:26px 0;text-align:center;font:400 12.5px Pretendard,sans-serif;color:var(--ink-fainter)">{{ quizEmptyText }}</div>
 </sc-if>
@@ -636,6 +642,7 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 </div>
 <div class="q-done">
 <div class="q-why">{{ q.why }}</div>
+<sc-if value="{{ q.isCase }}" hint-placeholder-val="{{ false }}"><div class="q-ansbox">{{ q.ansHtml }}</div></sc-if>
 <div class="q-verdict"><span class="q-v-right">맞음</span><span class="q-v-wrong">틀림 — <span class="q-v-o">O</span><span class="q-v-x">X</span> 를 골랐다</span></div>
 <div class="q-src">{{ q.src }}</div>
 <div style="flex:1"></div>
@@ -952,11 +959,49 @@ function anchoredOf(id, html) { outlineOf(id, html); return ANCHORED[id]; }
 //
 // ⚠ 한 줄의 형광펜을 전부 가리면 「★★ 【判例2023】 ____ — ↔ ____」처럼 읽을 수가 없다.
 //    줄마다 한 곳만 가리고 나머지는 문맥으로 남긴다.
+// 괄호가 한쪽만 들어 있으면 형광펜이 낱말·묶음 한가운데를 그은 자리다
+// (「《 상해·폭행치」 + 남은 글 「사 죄 에도 …》」처럼 갈라진다). 그런 건 답이 못 된다.
+function balanced(t) {
+  const pair = [['《', '》'], ['(', ')'], ['[', ']'], ['「', '」']];
+  return pair.every(([a, b]) => (t.split(a).length === t.split(b).length));
+}
+
 function clozeCand(spans) {
   return spans
     .filter(t => t.length >= 3 && t.length <= 40)
     .filter(t => !/^[\[\]()·,—→:;]/.test(t) && !/[,·]$/.test(t))   // 낱말 경계를 안 지킨 조각은 뺀다
+    .filter(balanced)
     .sort((a, b) => b.length - a.length)[0];
+}
+
+// 형사법은 형광펜을 거의 안 쓴다(민법 6,310곳 vs 형법 71곳). 대신 정의가 따로
+// 표시돼 있다(형법 486·형소 379). 「용어의 개념: 뜻」 꼴이라 뜻 쪽을 가리면
+// 그대로 인출 카드가 된다 — 빈칸과 같은 물건이라 같은 화면을 쓴다.
+function defCloze(line) {
+  if (line.indexOf('cs-def') === -1) return null;
+  const full = cleanQ(stripTags(line));
+
+  // 꼴 ① 「[표제] 설명」 — 형소가 주로 이렇게 쓴다. 표제를 단서로 두고 설명을 가린다.
+  const br = /^\[([^\]]{2,40})\]\s*([\s\S]+)$/.exec(full);
+  if (br && br[2].trim().length >= 10) {
+    const def = br[2].trim();
+    return { text: '[' + br[1] + '] ____', answer: def.length > 160 ? cutAt(def, 160) : def };
+  }
+
+  // 꼴 ② 「용어의 개념: 뜻」 — 형법이 주로 이렇게 쓴다. 뜻을 가린다.
+  const m = /<span class="cs-def">([\s\S]*?)<\/span>/.exec(line);
+  const term = cleanQ(stripTags(m[1] || ''));
+  if (!term || term.length > 30) return null;
+  const at = full.indexOf(term);
+  if (at < 0) return null;
+  const colon = full.indexOf(':', at + term.length);
+  if (colon > -1 && colon - (at + term.length) < 12) {
+    const def = full.slice(colon + 1).trim();
+    if (def.length >= 6 && def.length <= 160) return { text: full.slice(0, colon + 1) + ' ____', answer: def };
+  }
+  // ⚠ 용어 자체를 가리는 갈래는 뺐다 — 《논점》 표시까지 빈칸이 되어
+  //    「____ [고의 '전용'의 문제…]」 같은 못 쓸 카드가 나왔다.
+  return null;
 }
 
 function buildCloze(html, unitId) {
@@ -965,7 +1010,12 @@ function buildCloze(html, unitId) {
   const blocks = (html || '').match(/<div class="cs-(?:h|li)[^"]*"[^>]*>[\s\S]*?<\/div>/g) || [];
   blocks.forEach(line => {
     if (isHead(line)) { ctx = cleanQ(stripTags(line)); return; }
-    if (line.indexOf('cs-hl') === -1) return;
+    if (line.indexOf('cs-hl') === -1) {
+      const d = line.indexOf('cs-def') > -1 ? defCloze(line) : null;
+      if (d) out.push({ id: unitId + ':c:' + hash32(d.text), kind: 'cz', ctx: ctx && ctx.slice(0, 44),
+                        text: cutAt(d.text, 220), answer: d.answer, stars: '' });
+      return;
+    }
 
     const spans = [];
     line.replace(/<span class="cs-hl">([\s\S]*?)<\/span>/g, (m, t) => { spans.push(stripTags(t)); return m; });
@@ -978,6 +1028,9 @@ function buildCloze(html, unitId) {
     const text = full.slice(0, at) + '____' + full.slice(at + answer.length);
     // 가리고 남은 글자가 너무 적으면 단서가 없다
     if (text.replace(/_/g, '').trim().length < 12) return;
+    // 줄 맨 앞이 통째로 빈칸이고 답까지 길면 실마리가 없다 —
+    // 「____ [고의 '전용'의 문제이지…]」처럼 논점 제목을 통째로 가려 버린 카드가 그랬다.
+    if (at === 0 && answer.length > 15) return;
 
     out.push({ id: unitId + ':c:' + hash32(text), kind: 'cz', ctx: ctx && ctx.slice(0, 44),
                text: cutAt(text, 220), answer: answer.replace(/\s*(?:v\.|↔|—|→|:)\s*$/, '').trim(), stars: (line.match(/class="cs-star">(★+)</) || ['', ''])[1] || '' });
@@ -1037,6 +1090,23 @@ function mergeAll(inc) {
   return n;
 }
 
+// ── 사례형 연습 ────────────────────────────────────────────────
+// [CASE] 토글이 형법 85·형소 108개 있는데 지금은 그냥 접힌 상자였다.
+// 사실관계만 보여주고 모범답안을 가리면 그대로 사례형 문제집이 된다.
+function buildCases(html, unitId) {
+  const out = [];
+  const blocks = (html || '').match(/<details class="cs-case">[\s\S]*?<\/details>/g) || [];
+  blocks.forEach(b => {
+    const title = cleanQ(stripTags((/<summary[^>]*>([\s\S]*?)<\/summary>/.exec(b) || [])[1] || ''));
+    const fact = cleanQ(stripTags((/<div class="cs-fact">([\s\S]*?)<\/div>\s*<div class="cs-ans-in">/.exec(b) || [])[1] || ''));
+    const ans = (/<div class="cs-ans-in">([\s\S]*?)<\/div>\s*<\/div>\s*<\/details>/.exec(b) || [])[1] || '';
+    if (fact.length < 20 || !ans) return;
+    out.push({ id: unitId + ':s:' + hash32(fact), kind: 'case', ctx: title.replace(/^\[CASE\]\s*/, ''),
+               text: fact, ansHtml: ans, stars: '' });
+  });
+  return out;
+}
+
 // ── 언제 다시 볼까 ─────────────────────────────────────────────
 // D-118 이 크게 떠 있는데 「오늘 뭘 볼지」는 앱이 몰랐다. 푼 기록에 시각이 이미 있으니
 // 간격만 얹으면 된다. 틀리면 내일, 맞히면 3 → 7 → 16 → 35일.
@@ -1054,7 +1124,7 @@ function cardsOf(subject, rows) {
   if (CARDS[subject]) return CARDS[subject];
   const idx = {};
   (rows || []).forEach(r => {
-    buildQuiz(r[2], r[0]).concat(buildCloze(r[2], r[0]))
+    buildQuiz(r[2], r[0]).concat(buildCloze(r[2], r[0])).concat(buildCases(r[2], r[0]))
       .forEach(c => { c.unit = r[1]; idx[c.id] = c; });
   });
   CARDS[subject] = idx;
@@ -1082,7 +1152,7 @@ function quizTotalOf(subject, rows) {
   let n = 0;
   const live = {};
   (rows || []).forEach(r => {
-    const cards = buildQuiz(r[2], r[0]).concat(buildCloze(r[2], r[0]));
+    const cards = buildQuiz(r[2], r[0]).concat(buildCloze(r[2], r[0])).concat(buildCases(r[2], r[0]));
     cards.forEach(c => { live[c.id] = 1; });
     QUIZ_N[r[0]] = cards.length; n += cards.length;
   });
@@ -1788,6 +1858,7 @@ class Component extends DCLogic {
     const crimTopic = crim && !st.mark && st.chapter
       ? (crimParts.reduce((a, p) => a.concat(p.topics), []).find(t => t.title === st.chapter) || null)
       : null;
+    const unitCases = crimTopic ? buildCases(crimTopic.html, crimTopic.id) : [];
     const crimCards = crimTopic ? buildQuiz(crimTopic.html, crimTopic.id).concat(buildCloze(crimTopic.html, crimTopic.id)) : [];
     const todo = crim ? dueCards(st.subject, rows) : [];
     const caseBlocks = crimTopic ? ((crimTopic.html || '').match(/<details class="cs-case"/g) || []).length : 0;
@@ -1821,7 +1892,7 @@ class Component extends DCLogic {
 
     // 푼 것 / 맞은 것 / 틀린 것
     // 덱은 둘 중 하나다 — 지금 보는 단원, 또는 기한이 된 「오늘 볼 것」
-    const allCards = st.deck === 'due' ? todo : (page ? page.quiz : []);
+    const allCards = st.deck === 'due' ? todo : st.deck === 'case' ? unitCases : (page ? page.quiz : []);
     const recOf = c => OX.get(c.id);
     const rightN = allCards.filter(c => (recOf(c) || {}).ok === true).length;
     const wrongN = allCards.filter(c => { const r = recOf(c); return r && !r.ok; }).length;
@@ -1838,13 +1909,14 @@ class Component extends DCLogic {
 
     const quizCards = (pass ? deck : deck.slice(0, FIRST_QUIZ)).map(q => {
       const r = recOf(q);
-      const cz = q.kind === 'cz';
-      return { id:q.id, answer: cz ? '빈칸' : q.badge, text: cz ? q.text : q.ask,
-        isOX: !cz, isCZ: cz,
+      const cz = q.kind === 'cz', sa = q.kind === 'case';
+      return { id:q.id, answer: sa ? '사례' : cz ? '빈칸' : q.badge, text: (cz || sa) ? q.text : q.ask,
+        isOX: !cz && !sa, isCZ: cz || sa, isCase: sa,
+        ansHtml: sa ? React.createElement('div', { dangerouslySetInnerHTML: { __html: q.ansHtml } }) : null,
         fact: cz ? '' : (q.fact || ''), hasFact: !cz && !!q.fact,
         stars:q.stars, hasStars: !!q.stars,
         ctx: (st.deck === 'due' && q.unit ? q.unit + ' · ' : '') + (q.ctx || ''),
-        why: cz ? ('정답 — ' + q.answer) : (q.why || ''), src: q.src,
+        why: sa ? '' : cz ? ('정답 — ' + q.answer) : (q.why || ''), src: q.src,
         state: !r ? 'ask' : r.ok ? 'right' : 'wrong',
         choice: r ? r.a : '',
         pickO: e => this.answerOX(q, cz ? 'know' : 'O', e),
@@ -1978,10 +2050,16 @@ class Component extends DCLogic {
       },
       hasQuiz: quizCards.length > 0, hasLinkedQuiz: !!(page && page.quizCount),
       quizOpen: st.quizOpen, quizCards, quizTotal: allCards.length,
-      deckTitle: st.deck === 'due' ? '오늘 볼 것' : ('암기 확인 — ' + (st.chapter || '')),
+      deckHint: st.deck === 'case'
+        ? '답안 구성을 머릿속으로 세운 뒤 펼쳐 맞춰 본다. 못 떠올린 것은 오답으로 남는다.'
+        : '먼저 판단하고 고르면 바로 채점한다. 빈칸은 떠올린 뒤 고른다. 틀린 것은 오답으로 남는다.',
+      deckTitle: st.deck === 'due' ? '오늘 볼 것' : st.deck === 'case' ? ('사례형 — ' + (st.chapter || '')) : ('암기 확인 — ' + (st.chapter || '')),
       dueCount: todo.length, hasDue: todo.length > 0,
       dueLabel: '오늘 볼 것 ' + todo.length,
       openDue: () => this.setState({ deck:'due', quizOpen:true, quizFilter:'all' }),
+      hasCaseDeck: unitCases.length > 0,
+      caseLabel: '사례형 ' + unitCases.length,
+      openCases: () => this.setState({ deck:'case', quizOpen:true, quizFilter:'all' }),
       quizScore: rightN + ' 맞음 · ' + wrongN + ' 틀림 · ' + (allCards.length - rightN - wrongN) + ' 남음',
       quizEmpty: quizCards.length === 0,
       quizEmptyText: st.quizFilter === 'wrong' ? '틀린 문항이 없다.' : '이 단원에는 O·X 결론이 없다.',
