@@ -219,8 +219,7 @@ mark.q-hit{background:var(--q-bg);color:var(--q-ink);border-radius:3px;padding:0
 .q-ask .q-ox:last-child{color:var(--ox-x)}
 /* 빈칸·사례는 직접 써서 앱이 채점한다 (2026-09-17).
    처음엔 「떠올렸다/못 떠올렸다」, 다음엔 「정답 보기 → 맞혔다/틀렸다」였다 — 둘 다 머릿속으로만
-   떠올리고 스스로 매기는 방식이라 인출 연습이 안 된다는 사용자 지적으로 입력·자동 채점으로 바꿨다.
-   shown = 자동 채점할 논점 표시가 없는 사례를 모범답안만 펼친 상태(기록하지 않는다). */
+   떠올리고 스스로 매기는 방식이라 인출 연습이 안 된다는 사용자 지적으로 입력·자동 채점으로 바꿨다. */
 .q-ask{flex-wrap:wrap}
 .q-ask .q-ox.q-cz{color:var(--ink-soft)}
 .q-czin{flex:1;min-width:0;box-sizing:border-box;padding:7px 10px;border-radius:8px;background:var(--surface);border:1px solid var(--line-12);font:500 calc(13px * var(--fs,1)) Pretendard,sans-serif;color:var(--ink);outline:none}
@@ -1005,41 +1004,99 @@ function balanced(t) {
   return pair.every(([a, b]) => (t.split(a).length === t.split(b).length));
 }
 
+// 빈칸 정답이 될 수 있는 「핵심어」인가 (2026-09-17).
+// 형광펜을 그대로 쓰니 「처분에」「나아가」「회복을 마치지 않은 이상」「원채권·담보권 행사 범위는」
+// 같은 문장 조각이 정답이 됐다. 직접 써서 채점하게 되자 이런 카드는 맞힐 수가 없었다.
+// 용어·요건·기간·학설명처럼 외워서 쓸 수 있는 짧은 명사구만 남긴다.
+//   ① 띄어쓰기를 뺀 길이 2~14자, 낱말 3개 이하
+//   ② 조사·어미로 끝나면 조각이다 — 단 「최고·원고·허가·선의·고의·인도·한도」처럼 그 글자로
+//      끝나는 법률 용어는 살린다
+//   ③ 「나아가·다만」 같은 이음말로 시작하거나 「~하여·~으로서」 같은 활용이 들어 있으면 문장이다
+const TERM_KEEP = new RegExp('(?:' + [
+  '최고|원고|피고|항고|상고|신고|공고|경고|보고|재고|사고|광고|계고|선고|예고|통고|권고|포고|잔고',
+  '대가|평가|허가|인가|추가|시가|국가|원가|단가|증가|물가|지가|전문가',
+  '선의|악의|고의|합의|동의|주의|이의|협의|결의|임의|의의|정의|회의|심의|신의|항의|논의|창의',
+  '제도|정도|한도|용도|인도|양도|매도|태도|강도|절도|척도|의도|과도|전도|부도|명도|연도|빈도|속도',
+  '결과|효과|성과|부과|경과|통과|초과',
+  '문서|증서|순서|질서|각서|약서|인서|명서|보증서|확인서|신청서|이유서|계약서|청구서|답변서|준비서|진술서|조서|영수증서',
+  '토지|대지|취지|금지|정지|유지|의지|고지|통지|지지|방지|부지|농지|표지|휴지',
+  '기한|권한|제한|시한|상한|하한|이전|사전|안전|발전|사후|어음|소음|녹음|이하|착하',
+  '책임|위임|신임|선임|해임|퇴임|방임|결함|포함|급여|증여|대여|기여|수여|참여|잉여',
+  '필요|수요|강요|서면|측면|국면|전면|표면|미만|기만|평등|균등|동등|차이|경로|통로|공로|진로'
+].join('|') + ')$');
+const TERM_TAIL = /(?:은|는|을|를|이|가|에|에서|에게|께|으로|로|와|과|도|만|의|고|며|면|서|여|어|아|야|하|돼|해|아닌|닌|게|지|도록|므로|는데|으나|지만|한|된|할|될|하는|되는|있는|없는|않는|던|했|였|다|요|함|됨|음|임|이며|이고|이나|이면|라|나|든지|거나|처럼|같이|보다|까지|부터|마다|조차|밖에|후|전|때|경우|이상|이하|이외|바|것|데|뿐|등|히|이)$/;
+const TERM_OPEN = /^(?:나아가|다만|또한|따라서|즉|단|그러나|그리고|그러므로|한편|특히|오히려|이에|이는|그|이|저|이라면|라면|이면|으로|로|에|을|를|은|는|가)\s/;
+const TERM_VERB = /(?:하여|되어|하고|되고|으로서|으로써|에게|에서는|에서도|이라는|라는|이라면|하지|되지|않|했|였|겠|이므로|하므로|한다|된다|이다|어야|여야)/;
+// 「성질: …」「효력: …」처럼 소제목 구실만 하는 말은 가려 봐야 무엇을 쓰라는지 알 수 없다
+const TERM_GENERIC = /^(?:키워드|이내|미리|반면|각각|이론적근거|종합적|개별적|전부|일부|성질|효력|요건|효과|의의|종료|대위|별개|내용|범위|방법|절차|종류|구별|비교|취지|근거|문제점|쟁점|적용|해석|의미|개념|정의|특징|유형|사례|기타|참고|원칙|예외|판례|학설|결론|검토|기본법리|법리|판단|기준|요지|정리|유의|주의|요약|사안|논점|문제|구성|결과|이유)$/;
+function isKeyTerm(t) {
+  t = (t || '').trim();
+  const bare = t.replace(/\s/g, '');
+  if (bare.length < 2 || bare.length > 14) return false;
+  const words = t.split(/\s+/);
+  if (words.length > 3) return false;
+  if (!/[가-힣A-Za-z0-9]$/.test(bare) || /^[^가-힣A-Za-z0-9§]/.test(bare)) return false;
+  if (TERM_OPEN.test(t + ' ') || TERM_VERB.test(bare) || TERM_GENERIC.test(bare)) return false;
+  if (/[OX]$/.test(bare)) return false;                           // 「감정상O」「규정X」 같은 결론 부호
+  if (/^(?:[가-하]|\d{1,2}|[①-⑳㉠-㉭])[.)]?\s/.test(t) || /^[①-⑳㉠-㉭]/.test(t)) return false;   // 「가. 청구 가부」 — 번호표가 딸린 소제목
+  if (/[가-힣]{2,}(?:효|적|능|당|연)인$|(?:위법|적법)인$/.test(bare)) return false;   // 「당연무효인」 — 「법인」은 살린다
+  // 가운데 낱말이 격조사로 끝나면 문장이다(「증명책임은 수령자」「수익자가 선순위」)
+  // 「압류·가압류하면 무효」「유리하게 변경」처럼 가운데 낱말이 어미로 끝나도 문장이다
+  if (words.slice(0, -1).some(w => /(?:은|는|을|를|이|가|에|에서|로|으로|도|만|조차|고|며|면|서|게|지|거나|한|된|할|될|하는|되는|돼|해|어|아|야|여|다|하|후|전|때)$/.test(w) && !TERM_KEEP.test(w))) return false;
+  // 「10년 이내」「3분의 2 이상」「송달 후 2주」 같은 기간·수치는 핵심이다 — 끝말을 따지지 않는다
+  const numeric = /\d/.test(bare) && /(?:이상|이하|미만|초과|이내|내|전|후|일|년|월|주|분|원|개월|배|%|조|항|호)$/.test(bare);
+  if (!numeric && TERM_TAIL.test(bare) && !TERM_KEEP.test(bare)) return false;
+  if (/(?:^|[^가-힣])[OX]$/.test(t)) return false;              // 「규정X」 같은 결론 부호
+  return true;
+}
+
+// 형광펜이 조사까지 그은 경우(「대외적 구속력을」「직위해제처분이」)는 조사를 떼면 핵심어다.
+// 조사는 빈칸 밖에 남겨 문장을 읽을 수 있게 한다.
+const TERM_PARTICLE = /(?:으로|에서|에게|은|는|을|를|이|가|에|의|로|도|만|과|와)$/;
 function clozeCand(spans) {
   return spans
-    .filter(t => t.length >= 3 && t.length <= 40)
-    .filter(t => !/^[\[\]()·,—→:;]/.test(t) && !/[,·]$/.test(t))   // 낱말 경계를 안 지킨 조각은 뺀다
+    .map(t => t.trim())
+    .filter(t => !/^[\[\]()·,—→:;]/.test(t))                      // 낱말 경계를 안 지킨 조각은 뺀다
+    .map(t => t.replace(/[,·]$/, ''))
     .filter(balanced)
+    .map(t => isKeyTerm(t) ? t : (TERM_PARTICLE.test(t) && isKeyTerm(t.replace(TERM_PARTICLE, '')) ? t.replace(TERM_PARTICLE, '') : ''))
+    .filter(Boolean)
     .sort((a, b) => b.length - a.length)[0];
 }
 
 // 형사법은 형광펜을 거의 안 쓴다(민법 6,310곳 vs 형법 71곳). 대신 정의가 따로
 // 표시돼 있다(형법 486·형소 379). 「용어의 개념: 뜻」 꼴이라 뜻 쪽을 가리면
 // 그대로 인출 카드가 된다 — 빈칸과 같은 물건이라 같은 화면을 쓴다.
+// ⚠ 예전에는 방향이 반대였다 — 용어를 보여 주고 정의 문장을 가렸다(「[반포] ____」).
+//    정의는 한 문장이 통째로라 직접 써서는 맞힐 수가 없다. 정의를 보여 주고 용어를 쓰게 뒤집었다.
+//    「[判例 적극설]」「[위헌결정 → 전단무죄]」처럼 표제에 머리말이 붙은 것은 끝 낱말만 가린다.
 function defCloze(line) {
   if (line.indexOf('cs-def') === -1) return null;
   const full = cleanQ(stripTags(line));
+  const leak = (def, ans) => normAns(def).indexOf(normAns(ans)) > -1;   // 정의 안에 정답이 그대로 보이면 못 쓴다
 
-  // 꼴 ① 「[표제] 설명」 — 형소가 주로 이렇게 쓴다. 표제를 단서로 두고 설명을 가린다.
-  const br = /^\[([^\]]{2,40})\]\s*([\s\S]+)$/.exec(full);
+  // 꼴 ① 「[표제] 설명」 — 형소가 주로 이렇게 쓴다
+  const br = /^\[([^\]]{2,40})\]\s*[=:]?\s*([\s\S]+)$/.exec(full);
   if (br && br[2].trim().length >= 10) {
-    const def = br[2].trim();
-    return { text: '[' + br[1] + '] ____', answer: def.length > 160 ? cutAt(def, 160) : def };
+    const head = br[1].trim(), def = cutAt(br[2].trim(), 200);
+    const cut = /^(.*(?:→|->|-|—|:|判例|判|학설)\s*)(.+)$/.exec(head);
+    const lead = cut ? cut[1] : '', ans = (cut ? cut[2] : head).trim();
+    if (!isKeyTerm(ans) || leak(def, ans)) return null;
+    return { text: '[' + lead + '____] ' + def, answer: ans };
   }
 
-  // 꼴 ② 「용어의 개념: 뜻」 — 형법이 주로 이렇게 쓴다. 뜻을 가린다.
+  // 꼴 ② 「용어: 뜻」 — 형법이 주로 이렇게 쓴다
   const m = /<span class="cs-def">([\s\S]*?)<\/span>/.exec(line);
-  const term = cleanQ(stripTags(m[1] || ''));
-  if (!term || term.length > 30) return null;
+  const term = cleanQ(stripTags(m[1] || '')).replace(/의\s*(?:개념|의의|정의|뜻)$/, '').trim();
+  if (!isKeyTerm(term)) return null;
   const at = full.indexOf(term);
   if (at < 0) return null;
   const colon = full.indexOf(':', at + term.length);
   if (colon > -1 && colon - (at + term.length) < 12) {
     const def = full.slice(colon + 1).trim();
-    if (def.length >= 6 && def.length <= 160) return { text: full.slice(0, colon + 1) + ' ____', answer: def };
+    if (def.length < 6 || leak(def, term)) return null;
+    return { text: full.slice(0, at) + '____' + full.slice(at + term.length, colon + 1) + ' ' + cutAt(def, 200), answer: term };
   }
-  // ⚠ 용어 자체를 가리는 갈래는 뺐다 — 《논점》 표시까지 빈칸이 되어
-  //    「____ [고의 '전용'의 문제…]」 같은 못 쓸 카드가 나왔다.
   return null;
 }
 
@@ -1068,9 +1125,18 @@ function buildCloze(html, unitId) {
     const full = cleanQ(stripTags(line));
     const at = full.indexOf(answer);
     if (at < 0) return;
-    const text = full.slice(0, at) + '____' + full.slice(at + answer.length);
+    // 형광펜이 낱말 한가운데서 끝나면(「소멸시효 각각 별|개」「취소 없|이」) 조각이다.
+    // 뒤에 붙은 것이 조사뿐이면(「대외적 구속력|을」) 괜찮다.
+    const after = full.slice(at + answer.length);
+    if (/[가-힣]$/.test(full.slice(0, at))) return;
+    if (/^[가-힣]/.test(after) && !/^(?:으로|에서|에게|은|는|을|를|이|가|에|의|로|도|만|과|와)(?![가-힣])/.test(after)) return;
+    // 긴 줄은 220자에서 잘린다. 빈칸이 그 뒤에 있으면 빈칸 없는 문제가 되므로 빈칸 앞 80자부터 보여 준다.
+    const from = at > 140 ? Math.max(0, full.lastIndexOf(' ', at - 80) + 1) : 0;
+    const text = (from ? '… ' : '') + full.slice(from, at) + '____' + full.slice(at + answer.length);
     // 가리고 남은 글자가 너무 적으면 단서가 없다
     if (text.replace(/_/g, '').trim().length < 12) return;
+    // 같은 말이 줄 안(또는 소제목)에 또 나오면 빈칸이 그대로 보이는 셈이다
+    if (normAns(text.replace('____', ' ') + ' ' + ctx).indexOf(normAns(answer)) > -1) return;
     // 줄 맨 앞이 통째로 빈칸이고 답까지 길면 실마리가 없다 —
     // 「____ [고의 '전용'의 문제이지…]」처럼 논점 제목을 통째로 가려 버린 카드가 그랬다.
     if (at === 0 && answer.length > 15) return;
@@ -1181,7 +1247,12 @@ function gradeCloze(typed, answer) {
 //   「[특수강도미수죄의 성립여부]」의 「의 성립여부」는 떼고 본다 — 답안엔 죄명만 쓴다.
 //   조문(§250 · 제17조)은 따로 세어 보여 주기만 한다. 제148조의2 같은 번호까지 외웠는지로
 //   맞음/틀림을 가르면 논점을 다 짚어도 틀림이 된다.
-//   논점이 2개 미만인 사례(형소에 많다)는 셀 것이 없어 채점하지 않고 모범답안만 펼친다.
+//
+// ⚠ 형소 사례 108개 중 34개는 모범답안이 [논점] 대괄호 없이 「① … → 공소기각판결(§327제5호)」처럼
+//   쓰여 있다. 답안이 모자란 게 아니라 채점기가 그 형식을 못 읽었던 것이다. 처음엔 이런 사례를
+//   「채점하지 않고 모범답안만 펼치기」로 넘겼는데, 채점을 포기하는 것이라 되돌렸다(2026-09-17 사용자 지적).
+//   이제 대괄호가 모자라면 답안 본문에서 법률 용어(「~죄·~설·~판결·~증거능력·~공소시효」 꼴과
+//   굵게 표시된 말)를 채점 요소로 뽑는다. 모든 사례가 채점된다.
 const CASE_TAIL = /(?:의\s*)?(?:성립\s*여부|적용\s*여부|인정\s*여부|해당\s*여부|허용\s*여부|성부|여부|문제|검토|판단)$/;
 function caseKeys(html) {
   const t = stripTags(html), issues = [], arts = [];
@@ -1221,12 +1292,41 @@ function artHit(typed, n) {
   const u = typed.replace(/\s/g, '').replace(/제?(\d+)조(?:의(\d+))?/g, (m, a, b) => '§' + a + (b ? '의' + b : ''));
   return new RegExp('§' + n + '(?!\\d|의\\d)').test(u);
 }
+// 대괄호 없는 답안에서 채점 요소가 될 법률 용어를 뽑는다.
+// 끝말로 가른다 — 「야간주거침입절도교사죄」「관할구역기준설」「공소기각판결」「재전문진술」「공소시효」.
+const LAW_SUFFIX = /(?:죄|설|권|능력|주의|원칙|원리|판결|결정|명령|영장|조서|진술|증거|증언|절차|시효|고소|고발|공소|법원|심리|수사|체포|구속|압수|수색|검증|감정|동의|취소|철회|기각|각하|무죄|면소|몰수|추징|책임|의무|요건|효력|관할|병합|이송|상도례|공범|정범|교사범|방조범|미수|기수|착수|고의|과실|착오|경합|신분|인과관계|정당방위|긴급피난|추정|배제|계약|채권|채무|등기|소유권|점유|저당권|해제|해지|무효|손해배상|부당이득|기본권|처분|재량|소송|이익|적격|청구|항소|상고|항고|재심|확정|기판력|변경|허가|탄핵|자백|보강|임의성|특신상태|전문법칙|위법수집|행위|포기)$/;
+const CASE_PARTICLE = /(?:으로서|으로|에서|에게|에는|에도|은|는|이|가|을|를|에|의|로|도|만|과|와)$/;
+function caseTerms(html) {
+  const out = [];
+  const add = w => {
+    w = w.replace(CASE_PARTICLE, '').trim();
+    if (w.length < 3 || w.length > 16 || /^\d|^[甲乙丙丁戊]|^(?:모범답안|판례|학설|결론|검토)$/.test(w)) return;
+    if (out.some(x => x.indexOf(w) > -1)) return;                   // 더 긴 말에 이미 들어 있다
+    for (let i = out.length - 1; i >= 0; i--) if (w.indexOf(out[i]) > -1) out.splice(i, 1);
+    out.push(w);
+  };
+  // 굵게 쓴 말은 글쓴이가 짚은 결론이다(「서울고등법원」「대법원」)
+  (html.match(/<strong>([^<]{2,20})<\/strong>/g) || [])
+    .map(x => stripTags(x).replace(/[\[\]()]/g, '').trim())
+    .filter(x => isKeyTerm(x) && !/^\(?\d|§|제\d/.test(x))
+    .forEach(add);
+  stripTags(html).split(/[\s·,→=:;()（）\[\]'"‘’“”「」]+/)
+    .filter(w => LAW_SUFFIX.test(w.replace(CASE_PARTICLE, '')))
+    .forEach(add);
+  return out;
+}
 function gradeCase(typed, html) {
   const { issues, arts } = caseKeys(html);
-  if (issues.length < 2) return { ok: null };
-  const hit = issues.filter(k => issueHit(typed, k)), miss = issues.filter(k => !issueHit(typed, k));
   const artOk = arts.filter(n => artHit(typed, n)).length;
-  return { ok: hit.length / issues.length >= 0.6, hit, miss, artOk, artN: arts.length };
+  // 논점 대괄호가 2개 이상이면 논점으로, 아니면 법률 용어로 센다
+  if (issues.length >= 2) {
+    const hit = issues.filter(k => issueHit(typed, k)), miss = issues.filter(k => !issueHit(typed, k));
+    return { ok: hit.length / issues.length >= 0.6, label: '논점', hit, miss, artOk, artN: arts.length };
+  }
+  // 용어는 답안 곳곳에서 뽑히므로 논점보다 촘촘하다 — 절반을 짚으면 맞음
+  const keys = issues.concat(caseTerms(html).filter(t => !issues.some(i => i.indexOf(t) > -1))).slice(0, 12);
+  const hit = keys.filter(k => issueHit(typed, k)), miss = keys.filter(k => !issueHit(typed, k));
+  return { ok: keys.length ? hit.length / keys.length >= 0.5 : artOk > 0, label: '핵심 용어', hit, miss, artOk, artN: arts.length };
 }
 
 // ── 언제 다시 볼까 ─────────────────────────────────────────────
@@ -1816,14 +1916,9 @@ class Component extends DCLogic {
     if (card.kind === 'case') {
       if (!typed) { box && box.focus(); return; }
       const g = gradeCase(typed, card.ansHtml);
-      if (g.ok === null) {
-        setMine('이 사례는 모범답안에 [논점] 표시가 적어 자동 채점을 하지 않는다. 아래 모범답안과 맞춰 볼 것.');
-        this.paintCard(e, { state:'shown', choice:'' });
-        return;
-      }
-      const m = '짚은 논점 ' + g.hit.length + '/' + (g.hit.length + g.miss.length)
+      const m = '짚은 ' + g.label + ' ' + g.hit.length + '/' + (g.hit.length + g.miss.length)
         + (g.artN ? ' · 조문 ' + g.artOk + '/' + g.artN : '')
-        + (g.miss.length ? '\n빠진 논점: ' + g.miss.join(', ') : '');
+        + (g.miss.length ? '\n빠진 ' + g.label + ': ' + g.miss.join(', ') : '');
       this.record(card, g.ok, typed.slice(0, 2000), m);
       setMine(m);
       this.paintCard(e, { state: g.ok ? 'right' : 'wrong', choice:'' });
@@ -1875,7 +1970,7 @@ class Component extends DCLogic {
     if (!box) return;
     const cards = [].slice.call(document.querySelectorAll('.q-card'));
     const n = st => cards.filter(c => c.dataset.state === st).length;
-    box.textContent = n('right') + ' 맞음 · ' + n('wrong') + ' 틀림 · ' + (n('ask') + n('shown')) + ' 남음';
+    box.textContent = n('right') + ' 맞음 · ' + n('wrong') + ' 틀림 · ' + n('ask') + ' 남음';
   }
 
   markProg(id, kind) { if (id) { PROG.toggle(id, kind); this.forceUpdate(); } }
@@ -2286,7 +2381,7 @@ class Component extends DCLogic {
       hasQuiz: quizCards.length > 0, hasLinkedQuiz: !!(page && page.quizCount),
       quizOpen: st.quizOpen, quizCards, quizTotal: allCards.length,
       deckHint: deckKind === 'case'
-        ? '답안 구성(논점·조문·결론)을 적고 채점을 누르면 모범답안의 논점을 몇 개 짚었는지 센다. 60% 미만이면 오답으로 남는다.'
+        ? '답안 구성(논점·조문·결론)을 적고 채점을 누르면 모범답안의 논점(또는 핵심 용어)을 몇 개 짚었는지 센다. 모자라면 오답으로 남는다.'
         : 'O·X 는 고르면 바로 채점한다. 빈칸은 들어갈 말을 적고 Enter(또는 채점). 띄어쓰기·괄호 속 조문은 안 본다. 틀린 것은 오답으로 남는다.',
       deckTitle: deckKind === 'due' ? '오늘 볼 것' : deckKind === 'case' ? ('사례형 — ' + curTitle) : ('암기 확인 — ' + curTitle),
       dueCount: todo.length, hasDue: todo.length > 0,
