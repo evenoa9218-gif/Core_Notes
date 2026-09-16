@@ -438,12 +438,13 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div style="display:flex;align-items:baseline;gap:12px"><div style="font:700 32px/1 Pretendard,sans-serif;color:var(--ink);letter-spacing:-1px">D-{{ dday }}</div><div style="font:600 13.5px Pretendard,sans-serif;color:var(--ink-soft);white-space:nowrap">변호사시험 2027.01.12</div></div>
 <div style="font:400 11.5px Pretendard,sans-serif;color:var(--ink-fainter)">{{ sourceNote }}</div>
 </div>
-<div class="q-proghead" style="display:flex;flex-direction:column;gap:6px;align-items:flex-end;flex:none"><div style="font:400 11px Pretendard,sans-serif;color:var(--ink-faint);white-space:nowrap">{{ subjectName }} 진도 {{ doneCount }}/{{ topicCount }} 논점</div><div class="q-progbar" style="width:190px;height:5px;border-radius:99px;background:var(--rule);overflow:hidden;display:flex"><div style="width:{{ progressPct }};background:var(--accent)"></div></div></div>
+<div class="q-proghead" style="display:flex;flex-direction:column;gap:6px;align-items:flex-end;flex:none"><div style="font:400 11px Pretendard,sans-serif;color:var(--ink-faint);white-space:nowrap">{{ subjectName }} 진도 {{ doneCount }}/{{ topicCount }} {{ unitName }}</div><div class="q-progbar" style="width:190px;height:5px;border-radius:99px;background:var(--rule);overflow:hidden;display:flex"><div style="width:{{ progressPct }};background:var(--accent)"></div></div></div>
 </div>
 
 <div style="display:flex;gap:9px;align-items:center;flex-wrap:wrap">
 <div style="flex:1;min-width:240px;position:relative;display:flex;align-items:center">
 <input id="lawmj-q" class="q-input" type="text" placeholder="{{ searchHint }}" onInput="{{ onQuery }}" onKeyDown="{{ onQueryKey }}">
+<sc-if value="{{ oneChar }}" hint-placeholder-val="{{ false }}"><div class="q-onechar" style="position:absolute;right:40px;font:500 11px Pretendard,sans-serif;color:var(--ink-faint);pointer-events:none">두 글자 이상</div></sc-if>
 <sc-if value="{{ hasQuery }}" hint-placeholder-val="{{ false }}"><div role="button" tabIndex="0" class="q-clear" aria-label="검색어 지우기" title="검색어 지우기" onClick="{{ clearQuery }}">✕</div></sc-if>
 </div>
 <sc-if value="{{ hasDue }}" hint-placeholder-val="{{ true }}"><div role="button" tabIndex="0" class="q-due" title="기한이 된 문항을 모아 푼다" onClick="{{ openDue }}">{{ dueLabel }}</div></sc-if>
@@ -1139,6 +1140,7 @@ function nextDue(ok, n) {
 const CARDS = {};
 function cardsOf(subject, rows) {
   if (CARDS[subject]) return CARDS[subject];
+  if (!rows || !rows.length) return {};      // 자료가 오기 전엔 캐시하지 않는다 — lineIndex 주석 참고
   const idx = {};
   (rows || []).forEach(r => {
     buildQuiz(r[2], r[0]).concat(buildCloze(r[2], r[0])).concat(buildCases(r[2], r[0]))
@@ -1166,6 +1168,7 @@ const QUIZ_TOTAL = {};
 const QUIZ_N = {};
 function quizTotalOf(subject, rows) {
   if (QUIZ_TOTAL[subject] != null) return QUIZ_TOTAL[subject];
+  if (!rows || !rows.length) return 0;
   let n = 0;
   const live = {};
   (rows || []).forEach(r => {
@@ -1199,6 +1202,18 @@ function dataFor(subject) {
     (byCat[cat] = byCat[cat] || []).push({ id, title, html, tags: tags || [], level: level || 1 });
   });
   return def.cats().filter(([key]) => byCat[key]).map(([key, name]) => ({ key, name, topics: byCat[key] }));
+}
+
+// 단원은 id 로 가리킨다.
+// 예전에는 제목으로 찾았다. 헌법「제1절 의의」가 5개, 행정법「제1절 양식」이 3개 …
+// 제목이 겹치는 단원이 35개라 목차에서 어느 것을 눌러도 첫 번째만 열렸다(23단원은 아예 못 열었다).
+// 옛 주소·이어보기 기록에는 제목이 적혀 있으니 제목도 받는다 — 그땐 첫 번째로 간다.
+function topicsOf(subject) {
+  return (dataFor(subject) || []).reduce((a, p) => a.concat(p.topics), []);
+}
+function findTopic(all, key) {
+  if (!key) return null;
+  return all.find(t => t.id === key) || all.find(t => t.title === key) || null;
 }
 
 // 진도는 브라우저에 남긴다 — 단원 id 별로 '완료' 또는 '약점'
@@ -1289,7 +1304,13 @@ const LINE_RE = /<div class="cs-(?:h|li|ans-in)[^"]*"[^>]*>[\s\S]*?<\/div>/g;
 const LINES = {};
 function lineIndex(subject, rows) {
   if (LINES[subject]) return LINES[subject];
-  const idx = (rows || []).map(row => {
+  // ⚠ 빈 자료는 캐시하지 않는다.
+  //    과목 자료는 늦게 받아 온다. 모아보기 주소(#/형법/!exam)로 앱이 열리면 자료가 오기 전에
+  //    collect 가 여길 불러 LINES['형법'] = [] 가 박혔고, 그 뒤로는 새로고침 전까지
+  //    그 과목 검색·모아보기가 모두 0건이었다. 홈 화면 아이콘은 마지막 화면을 이어 여니
+  //    모아보기를 켠 채 닫으면 다음 실행마다 그랬다.
+  if (!rows || !rows.length) return [];
+  const idx = rows.map(row => {
     const lines = (row[2] || '').match(LINE_RE) || [];
     return { id: row[0], title: row[1], low: (row[1] || '').toLowerCase(),
              tags: (row[3] || []).map(t => String(t).toLowerCase()), cat: row[5],
@@ -1353,7 +1374,12 @@ Object.keys(TRACKS).forEach(t => TRACKS[t].forEach(s => { SUBJ_TRACK[s] = t; }))
 function hashOf(s) {
   // 화면에 보이는 것이 주소가 된다. 검색 결과에서 단원으로 들어가면 검색어는 상태로만 남고
   // (뒤로가기로 결과가 되살아나게) 주소에는 지금 읽는 단원이 적힌다.
-  const tail = (s.view === 'page' && s.chapter) ? '/' + encodeURIComponent(s.chapter)
+  let name = s.chapter;
+  if (s.view === 'page' && name) {
+    const all = topicsOf(s.subject), t = findTopic(all, name);
+    if (t) name = all.filter(x => x.title === t.title).length > 1 ? t.id : t.title;
+  }
+  const tail = (s.view === 'page' && name) ? '/' + encodeURIComponent(name)
     : s.mark ? '/!' + encodeURIComponent(s.mark)
     : s.q ? '/?' + encodeURIComponent(s.q)
     : '';
@@ -1406,7 +1432,7 @@ class Component extends DCLogic {
       const parts = dataFor(this.state.subject) || [];
       const all = parts.reduce((a, p) => a.concat(p.topics), []);
       const hit = all.filter(t => t.id === id)[0];
-      if (hit) { this.setState({ mark:null, view:'page', chapter:hit.title, shown:{}, peek:{}, fold:true }); this.toMain(); }
+      if (hit) { this.setState({ mark:null, view:'page', chapter:hit.id, shown:{}, peek:{}, fold:true }); this.toMain(); }
     };
 
     // 뒤로가기 — 화면 전환을 브라우저 방문 기록에 남긴다.
@@ -1525,8 +1551,10 @@ class Component extends DCLogic {
     if (st.view !== 'page' || !st.chapter || st.mark) return;
     const d = dataFor(st.subject);
     if (!d || !d.length) return;
-    if ((d[st.crimPart] || { topics: [] }).topics.some(t => t.title === st.chapter)) return;
-    const i = d.findIndex(p => p.topics.some(t => t.title === st.chapter));
+    const cur = findTopic(topicsOf(st.subject), st.chapter);
+    if (!cur) return;
+    if ((d[st.crimPart] || { topics: [] }).topics.some(t => t.id === cur.id)) return;
+    const i = d.findIndex(p => p.topics.some(t => t.id === cur.id));
     if (i > -1 && i !== st.crimPart) {
       this._popping = true;               // 목차를 펴는 것은 기록에 남길 이동이 아니다
       this.setState({ crimPart: i });
@@ -1656,7 +1684,7 @@ class Component extends DCLogic {
     const ok = self ? (choice === 'know') : (choice === card.badge);
     const plan = nextDue(ok, OX.streak(card.id));
     OX.set(card.id, { a: choice, ok: ok, k: card.kind || 'ox', n: plan.n, due: plan.due,
-                      s: this.state.subject, u: card.unit || this.state.chapter || '', t: Date.now() });
+                      s: this.state.subject, u: card.unit || ((findTopic(topicsOf(this.state.subject), this.state.chapter) || {}).title) || '', t: Date.now() });
     this.paintCard(e, { state: ok ? 'right' : 'wrong', choice: choice });
   }
 
@@ -1688,22 +1716,19 @@ class Component extends DCLogic {
 
   // 단축키로 지금 보는 단원을 완료·약점으로 찍는다
   markHere(kind) {
-    const d = dataFor(this.state.subject) || [];
-    const hit = d.reduce((a, p) => a.concat(p.topics), []).filter(t => t.title === this.state.chapter)[0];
+    const hit = findTopic(topicsOf(this.state.subject), this.state.chapter);
     if (!hit) return;
     this.markProg(hit.id, kind);
-    this.say(this.state.chapter + ' — ' + (PROG.get(hit.id) === kind ? (kind === 'done' ? '완료' : '약점') : '표시 해제'));
+    this.say(hit.title + ' — ' + (PROG.get(hit.id) === kind ? (kind === 'done' ? '완료' : '약점') : '표시 해제'));
   }
 
   hasData() { return !!dataFor(this.state.subject); }
 
+  // ‹ › 가 넘기는 차례 — 과목 전체.
+  // 예전에는 지금 펼친 장 안에서만 돌아서, 단원이 하나뿐인 장(민법「일반론」등 12곳)에서는
+  // 앞뒤 단추가 모두 자기 자신을 가리켜 옴짝달싹 못 했고, 장 끝에서는 같은 장 처음으로 되돌아갔다.
   chapterList() {
-    if (this.hasData()) {
-      const d = dataFor(this.state.subject);
-      if (!d) return [];
-      return (d[this.state.crimPart] || d[0]).topics.map(t => ({ title: t.title, id: t.id }));
-    }
-    return [];
+    return topicsOf(this.state.subject).map(t => ({ title: t.title, id: t.id }));
   }
 
   // 좁은 화면에선 목차가 본문 위에 쌓여 본문이 690px 아래에 있다.
@@ -1731,19 +1756,20 @@ class Component extends DCLogic {
     setTimeout(go, 0);
   }
 
-  openChapter(title) {
+  openChapter(key) {
     // 폰에서는 단원을 고르는 순간 목차를 접는다 — 그러지 않으면 본문이 또 한 화면 아래다
     if (innerWidth <= 760) document.documentElement.dataset.nav = '0';
-    this.setState({ view:'page', chapter:title, shown:{}, peek:{}, mark:null, fold:true });
+    this.setState({ view:'page', chapter:key, shown:{}, peek:{}, mark:null, fold:true });
     this.toMain();
   }
 
   step(dir) {
     const list = this.chapterList();
     if (!list.length) return;                       // 자료 없는 과목 — 넘길 단원이 없다
-    const i = list.findIndex(c => c.title === this.state.chapter);
-    const n = list[(i + dir + list.length) % list.length];
-    this.openChapter(n.title);
+    const cur = findTopic(list, this.state.chapter);
+    const i = cur ? list.findIndex(c => c.id === cur.id) : -1;
+    const n = i < 0 ? list[dir > 0 ? 0 : list.length - 1] : list[(i + dir + list.length) % list.length];
+    this.openChapter(n.id);
   }
 
   tagStyle(kind) {
@@ -1810,7 +1836,7 @@ class Component extends DCLogic {
       cases: (t.html.match(/判例|大判全合|통판|【판례】/g) || []).length,
       pct: stateOf(t.id) === 'done' ? '100%' : stateOf(t.id) === 'weak' ? '50%' : '0%',
       tags: (t.tags || []).slice(0, 3).map(x => Object.assign({ text: x }, this.tagStyle(/^§|\d/.test(x) ? 'grey' : 'chip'))),
-      open: () => this.openChapter(t.title)
+      open: () => this.openChapter(t.id)
     }));
 
     const counts = crim ? markCounts(st.subject, rows) : {};
@@ -1853,6 +1879,9 @@ class Component extends DCLogic {
           })
         : [];
 
+    const allTopics = crimParts.reduce((a, p) => a.concat(p.topics), []);
+    const curTopic = crim && !st.mark ? findTopic(allTopics, st.chapter) : null;
+
     let prevSubject = null;
     const navParts = crim && crimParts.length ? crimParts.map((p, i) => {
       const sp = splitCat(p.name);
@@ -1865,20 +1894,17 @@ class Component extends DCLogic {
       rest: sp[1].replace(/^제\d+[편장절관]/, ''),
       open: i === st.crimPart,
       pick: () => this.setState({ crimPart: i, view:'toc' }),
-      chapters: p.topics.slice(0, 8).map(t => ({
-        title: t.title, on: t.title === st.chapter,
-        open: () => this.openChapter(t.title)
+      // 예전엔 slice(0, 8) — 옆에 「17논점」이라 적어 두고 8개만 보여 줬다(과목 합쳐 124단원이 빠졌다)
+      chapters: p.topics.map(t => ({
+        title: t.title, on: !!curTopic && t.id === curTopic.id,
+        open: () => this.openChapter(t.id)
       }))
     }; }) : [];
 
-    const outlineTopic = crim && !st.mark && st.chapter
-      ? (crimParts.reduce((a, p) => a.concat(p.topics), []).find(t => t.title === st.chapter) || null)
-      : null;
+    const outlineTopic = curTopic;
     const outline = outlineTopic ? outlineOf(outlineTopic.id, outlineTopic.html) : [];
 
-    const crimTopic = crim && !st.mark && st.chapter
-      ? (crimParts.reduce((a, p) => a.concat(p.topics), []).find(t => t.title === st.chapter) || null)
-      : null;
+    const crimTopic = curTopic;
     const unitCases = crimTopic ? buildCases(crimTopic.html, crimTopic.id) : [];
     const crimCards = crimTopic ? buildQuiz(crimTopic.html, crimTopic.id).concat(buildCloze(crimTopic.html, crimTopic.id)) : [];
     const todo = crim ? dueCards(st.subject, rows) : [];
@@ -1913,8 +1939,15 @@ class Component extends DCLogic {
 
     // 푼 것 / 맞은 것 / 틀린 것
     // 덱은 둘 중 하나다 — 지금 보는 단원, 또는 기한이 된 「오늘 볼 것」
-    const allCards = st.deck === 'due' ? todo : st.deck === 'case' ? unitCases : (page ? page.quiz : []);
-    const recOf = c => OX.get(c.id);
+    const dueDeck = st.deck === 'due' && st.dueIds
+      ? (ix => st.dueIds.map(id => ix[id]).filter(Boolean))(cardsOf(st.subject, rows))
+      : todo;
+    const allCards = st.deck === 'due' ? dueDeck : st.deck === 'case' ? unitCases : (page ? page.quiz : []);
+    // 「오늘 볼 것」은 다시 푸는 자리다. 예전 기록을 그대로 칠하면 카드가 정답·해설을 펼친 채로 나와
+    // 풀어 볼 수가 없었다. 덱을 연 뒤에 남긴 기록만 결과로 친다.
+    const recOf = st.deck === 'due'
+      ? c => { const r = OX.get(c.id); return r && r.t >= (st.dueAt || 0) ? r : null; }
+      : c => OX.get(c.id);
     const rightN = allCards.filter(c => (recOf(c) || {}).ok === true).length;
     const wrongN = allCards.filter(c => { const r = recOf(c); return r && !r.ok; }).length;
 
@@ -1946,7 +1979,8 @@ class Component extends DCLogic {
     });
 
     const list = chapters;
-    const idx = list.findIndex(c => c.title === st.chapter);
+    const idx = curTopic ? list.findIndex(c => c.id === curTopic.id) : -1;
+    const curTitle = curTopic ? curTopic.title : (st.chapter || '');
 
     return {
       tracks, subjects, filters, marks, parts, navParts, hasParts: navParts.length > 0,
@@ -1960,10 +1994,13 @@ class Component extends DCLogic {
       totalQ: crim ? quizTotalOf(st.subject, rows) : 0,
       wrongQ: crim ? OX.wrongIn(st.subject) : 0,
       doneCount: done,
+      unitName: (DATASETS[st.subject] || {}).unit || '논점',
       topicCount: crim ? crimParts.reduce((a, p) => a + p.topics.length, 0) : 0,
       progressPct: (crim && rows.length ? Math.round(doneIds / rows.length * 100) : 0) + '%',
       queryText: qText,
       hasQuery: !!qText,
+      // 결과 머리의 「두 글자 이상 입력하세요」는 결과가 있을 때만 그려져 한 번도 보인 적이 없었다
+      oneChar: qText.trim().length === 1,
       searchHint: crim ? st.subject + ' 전문 검색 — 쟁점·조문·판례 (예: 상계, 366, 표현대리)' : '쟁점·조문 검색',
       onQuery: e => { const v = e.target.value; clearTimeout(this._qt); this._qt = setTimeout(() => this.setQuery(v), 90); },   // 색인 뒤로 실제 작업이 40~60ms 라 더 기다릴 이유가 없다
       onQueryKey: e => { if (e.key === 'Enter') this.setQuery(e.target.value); },
@@ -2051,7 +2088,7 @@ class Component extends DCLogic {
         r.readAsText(f);
       },
       isToc: st.view === 'toc' || !page, isPage: st.view === 'page' && !!page,
-      chapterTitle: st.chapter || '',
+      chapterTitle: curTitle,
       pageEyebrow: page ? page.eyebrow : '', pageNo: page ? page.pageNo : '',
       pageTags: page ? page.tags.map(([text, kind]) => Object.assign({ text }, this.tagStyle(kind))) : [],
       sections, margins,
@@ -2074,10 +2111,12 @@ class Component extends DCLogic {
       deckHint: st.deck === 'case'
         ? '답안 구성을 머릿속으로 세운 뒤 펼쳐 맞춰 본다. 못 떠올린 것은 오답으로 남는다.'
         : '먼저 판단하고 고르면 바로 채점한다. 빈칸은 떠올린 뒤 고른다. 틀린 것은 오답으로 남는다.',
-      deckTitle: st.deck === 'due' ? '오늘 볼 것' : st.deck === 'case' ? ('사례형 — ' + (st.chapter || '')) : ('암기 확인 — ' + (st.chapter || '')),
+      deckTitle: st.deck === 'due' ? '오늘 볼 것' : st.deck === 'case' ? ('사례형 — ' + curTitle) : ('암기 확인 — ' + curTitle),
       dueCount: todo.length, hasDue: todo.length > 0,
       dueLabel: '오늘 볼 것 ' + todo.length,
-      openDue: () => this.setState({ deck:'due', quizOpen:true, quizFilter:'all' }),
+      // 연 순간의 목록을 붙잡는다. 풀면 기한이 뒤로 밀려 todo 에서 빠지므로,
+      // 그대로 todo 를 쓰면 필터·섞기로 다시 그릴 때 푼 카드가 사라진다.
+      openDue: () => this.setState({ deck:'due', quizOpen:true, quizFilter:'all', dueAt: Date.now(), dueIds: todo.map(c => c.id) }),
       hasCaseDeck: unitCases.length > 0,
       caseLabel: '사례형 ' + unitCases.length,
       openCases: () => this.setState({ deck:'case', quizOpen:true, quizFilter:'all' }),
