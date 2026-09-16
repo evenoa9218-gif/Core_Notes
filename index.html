@@ -1914,7 +1914,10 @@ class Component extends DCLogic {
       ? { eyebrow: (crimParts.find(p => p.topics.indexOf(crimTopic) > -1) || {}).name + ' · ' + crimTopic.id,
           pageNo: crimTopic.id, caseCount: crimCards.length, quizCount: 0,
           tags: (crimTopic.tags || []).map(x => [x, /^§|\d/.test(x) ? 'grey' : 'chip']),
-          sections: [], margins: crimCards.slice(0, 3).map(c => ({ badge: c.badge, text: c.text.slice(0, 60) })),
+          sections: [],
+          // 여백 카드는 눌러서 O/X 를 보는 자리라 O·X 문항만 쓴다. 헌법·행정법은 O·X 가 0개라
+          // 빈칸 문항이 들어와 「?」를 눌러도 빈 칸만 남았다 — 그런 단원에선 여백 카드를 두지 않는다.
+          margins: crimCards.filter(c => c.badge === 'O' || c.badge === 'X').slice(0, 3).map(c => ({ badge: c.badge, text: c.text.slice(0, 60) })),
           quiz: crimCards, rich: anchoredOf(crimTopic.id, crimTopic.html) }
         : (PAGE[st.chapter] || null);
 
