@@ -1649,7 +1649,11 @@ class Component extends DCLogic {
   //    120번을 누르는 자리라 폰에서는 그게 그대로 굼뜸이 됐다.
   //    이제 카드의 data-state 한 글자와 글자 몇 개만 고친다.
   answerOX(card, choice, e) {
-    const ok = card.kind === 'cz' ? (choice === 'know') : (choice === card.badge);
+    // 사례형도 빈칸과 같이 「떠올렸다/못 떠올렸다」로 스스로 매긴다.
+    // (예전엔 kind==='case' 가 여기 O·X 갈래로 떨어졌다. 사례 카드엔 badge 가 없어서
+    //  'O' === undefined → 언제나 틀림이 됐다.)
+    const self = card.kind === 'cz' || card.kind === 'case';
+    const ok = self ? (choice === 'know') : (choice === card.badge);
     const plan = nextDue(ok, OX.streak(card.id));
     OX.set(card.id, { a: choice, ok: ok, k: card.kind || 'ox', n: plan.n, due: plan.due,
                       s: this.state.subject, u: card.unit || this.state.chapter || '', t: Date.now() });
@@ -1936,8 +1940,8 @@ class Component extends DCLogic {
         why: sa ? '' : cz ? ('정답 — ' + q.answer) : (q.why || ''), src: q.src,
         state: !r ? 'ask' : r.ok ? 'right' : 'wrong',
         choice: r ? r.a : '',
-        pickO: e => this.answerOX(q, cz ? 'know' : 'O', e),
-        pickX: e => this.answerOX(q, cz ? 'miss' : 'X', e),
+        pickO: e => this.answerOX(q, (cz || sa) ? 'know' : 'O', e),
+        pickX: e => this.answerOX(q, (cz || sa) ? 'miss' : 'X', e),
         again: e => this.unanswer(q, e) };
     });
 
