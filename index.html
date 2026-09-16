@@ -217,14 +217,21 @@ mark.q-hit{background:var(--q-bg);color:var(--q-ink);border-radius:3px;padding:0
 .q-ox{padding:7px 18px;border-radius:8px;cursor:pointer;background:var(--surface);border:1px solid var(--line-12);font-weight:700;font-size:12.5px}
 .q-ask .q-ox:first-child{color:var(--ox-o)}
 .q-ask .q-ox:last-child{color:var(--ox-x)}
-/* 빈칸·사례는 두 단계다 — 떠올려 본 뒤 「정답 보기」, 정답과 맞춰 보고 「맞혔다/틀렸다」.
-   예전엔 정답을 보기도 전에 「떠올렸다/못 떠올렸다」를 먼저 누르게 해서, O·X 옆에 놓이면
-   무엇을 누르라는 건지 알 수 없었다(2026-09-16 사용자 지적). peek 은 기록하지 않는 중간 상태다. */
-.q-ask .q-ox.q-peekbtn{color:var(--ink-soft)}
-.q-ask .q-ox.q-grade-o{color:var(--ox-o)}
-.q-ask .q-ox.q-grade-x{color:var(--ox-x)}
-.q-card[data-state="ask"] .q-grade,.q-card[data-state="peek"] .q-peekbtn{display:none}
-.q-card[data-state="peek"] .q-again,.q-card[data-state="peek"] .q-b-ans{display:none}
+/* 빈칸·사례는 직접 써서 앱이 채점한다 (2026-09-17).
+   처음엔 「떠올렸다/못 떠올렸다」, 다음엔 「정답 보기 → 맞혔다/틀렸다」였다 — 둘 다 머릿속으로만
+   떠올리고 스스로 매기는 방식이라 인출 연습이 안 된다는 사용자 지적으로 입력·자동 채점으로 바꿨다.
+   shown = 자동 채점할 논점 표시가 없는 사례를 모범답안만 펼친 상태(기록하지 않는다). */
+.q-ask{flex-wrap:wrap}
+.q-ask .q-ox.q-cz{color:var(--ink-soft)}
+.q-czin{flex:1;min-width:0;box-sizing:border-box;padding:7px 10px;border-radius:8px;background:var(--surface);border:1px solid var(--line-12);font:500 calc(13px * var(--fs,1)) Pretendard,sans-serif;color:var(--ink);outline:none}
+.q-casein{width:100%;box-sizing:border-box;min-height:120px;resize:vertical;padding:9px 10px;border-radius:8px;background:var(--surface);border:1px solid var(--line-12);font:400 calc(12.5px * var(--fs,1))/1.7 Pretendard,sans-serif;color:var(--ink);outline:none}
+.q-czin:focus,.q-casein:focus{border-color:var(--accent)}
+.q-mine{width:100%;font:500 calc(12px * var(--fs,1))/1.7 Pretendard,sans-serif;color:var(--ink-2);white-space:pre-wrap}
+.q-mine:empty,.q-card[data-state="ask"] .q-mine{display:none}
+.q-card[data-state="wrong"] .q-mine{color:var(--neg-ink)}
+.q-accept{font:500 11px Pretendard,sans-serif;color:var(--accent-ink);cursor:pointer}
+.q-card:not([data-state="wrong"]) .q-accept{display:none}
+@media (max-width:760px){.q-czin,.q-casein{font-size:16px}}
 .q-done{display:flex;gap:9px;align-items:center;flex-wrap:wrap}
 .q-verdict{font-weight:600;font-size:11.5px;color:var(--green)}
 .q-card[data-state="wrong"] .q-verdict{color:var(--red)}
@@ -232,12 +239,12 @@ mark.q-hit{background:var(--q-bg);color:var(--q-ink);border-radius:3px;padding:0
 .q-src:empty{display:none}
 .q-again{font:500 11px Pretendard,sans-serif;color:var(--ink-fainter);cursor:pointer}
 .q-card[data-state="ask"] .q-done{display:none}
-.q-card:not([data-state="ask"]):not([data-state="peek"]) .q-ask{display:none}
+.q-card:not([data-state="ask"]) .q-ask{display:none}
 /* 맞음/틀림/안 푼 세 모습을 미리 다 그려 두고 CSS 가 고른다.
    그래야 채점이 「속성 한 글자 바꾸기」로 끝난다 — React 가 들고 있는 글자 마디를
    손으로 갈아 끼우면 다음 렌더에서 짝이 어긋난다. */
 .q-card[data-state="ask"] .q-b-ans{display:none}
-.q-card:not([data-state="ask"]):not([data-state="peek"]) .q-b-ask{display:none}
+.q-card:not([data-state="ask"]) .q-b-ask{display:none}
 .q-card[data-state="right"] .q-v-wrong{display:none}
 .q-card[data-state="wrong"] .q-v-right{display:none}
 .q-card[data-choice="X"] .q-v-o{display:none}
@@ -646,17 +653,22 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div class="q-ox" role="button" tabIndex="0" aria-label="틀리다 X" onClick="{{ q.pickX }}">X</div>
 </sc-if>
 <sc-if value="{{ q.isCZ }}" hint-placeholder-val="{{ false }}">
-<div class="q-ox q-cz q-peekbtn" role="button" tabIndex="0" onClick="{{ q.peek }}">{{ q.peekLabel }}</div>
-<div class="q-ox q-cz q-grade q-grade-o" role="button" tabIndex="0" onClick="{{ q.pickO }}">맞혔다</div>
-<div class="q-ox q-cz q-grade q-grade-x" role="button" tabIndex="0" onClick="{{ q.pickX }}">틀렸다</div>
+<input class="q-czin" type="text" placeholder="빈칸에 들어갈 말" autocomplete="off" onKeyUp="{{ q.enter }}">
+<div class="q-ox q-cz" role="button" tabIndex="0" onClick="{{ q.grade }}">채점</div>
+</sc-if>
+<sc-if value="{{ q.isCase }}" hint-placeholder-val="{{ false }}">
+<textarea class="q-casein" placeholder="논점·조문·결론 순으로 답안 구성을 적는다"></textarea>
+<div class="q-ox q-cz" role="button" tabIndex="0" onClick="{{ q.grade }}">채점</div>
 </sc-if>
 </div>
 <div class="q-done">
+<div class="q-mine">{{ q.mine }}</div>
 <div class="q-why">{{ q.why }}</div>
 <sc-if value="{{ q.isCase }}" hint-placeholder-val="{{ false }}"><div class="q-ansbox">{{ q.ansHtml }}</div></sc-if>
 <div class="q-verdict"><span class="q-v-right">맞음</span><span class="q-v-wrong">틀림 — <span class="q-v-o">O</span><span class="q-v-x">X</span> 를 골랐다</span></div>
 <div class="q-src">{{ q.src }}</div>
 <div style="flex:1"></div>
+<sc-if value="{{ q.isCZ }}" hint-placeholder-val="{{ false }}"><div class="q-accept" role="button" tabIndex="0" onClick="{{ q.accept }}">표현만 달랐다 — 맞음으로</div></sc-if>
 <div class="q-again" role="button" tabIndex="0" onClick="{{ q.again }}">다시</div>
 </div>
 </div>
@@ -1138,6 +1150,85 @@ function buildCases(html, unitId) {
   return out;
 }
 
+// ── 써서 채점하기 ─────────────────────────────────────────────
+// 빈칸·사례는 머릿속으로 떠올리고 스스로 「맞혔다」를 누르는 방식이었다. 실제로 써 보지 않으니
+// 인출 연습이 안 됐다. 이제 적은 글을 앱이 정답과 맞춰 본다.
+//
+// 빈칸 — 띄어쓰기·문장부호·괄호 속 조문 표시는 보지 않는다(「선관주의의무(제374조)」에
+//   「선관주의 의무」면 맞음). 오타 한두 자는 글자쌍 일치율 0.8 이상이면 맞음으로 친다.
+//   다른 말로 바꿔 쓴 것까지는 못 잡으니, 틀림일 때만 「맞음으로」를 누를 수 있게 둔다.
+const normAns = s => {
+  const k = x => (x || '').replace(MARK_BRACKET, '')
+    .replace(/[\s·,.\-—–~'"‘’“”「」『』《》<>\[\]:;!?/]/g, '').toLowerCase();
+  return k((s || '').replace(/\([^)]*\)|（[^）]*）/g, '')) || k(s);
+};
+function pairRatio(a, b) {
+  if (a.length < 2 || b.length < 2) return a === b ? 1 : 0;
+  const bag = {};
+  for (let i = 0; i < a.length - 1; i++) { const g = a.substr(i, 2); bag[g] = (bag[g] || 0) + 1; }
+  let hit = 0;
+  for (let i = 0; i < b.length - 1; i++) { const g = b.substr(i, 2); if (bag[g]) { bag[g]--; hit++; } }
+  return 2 * hit / (a.length + b.length - 2);
+}
+function gradeCloze(typed, answer) {
+  const u = normAns(typed), a = normAns(answer);
+  if (!u) return false;
+  return u === a || (a.length >= 4 && pairRatio(u, a) >= 0.8);
+}
+
+// 사례 — 모범답안의 [논점] 대괄호를 채점 요소로 삼아, 적은 답안이 몇 개를 짚었는지 센다.
+//   「[乙의 죄책]」 같은 인물별 머리와 「[결론]」「[소결]」 같은 틀 말은 요소가 아니다.
+//   「[특수강도미수죄의 성립여부]」의 「의 성립여부」는 떼고 본다 — 답안엔 죄명만 쓴다.
+//   조문(§250 · 제17조)은 따로 세어 보여 주기만 한다. 제148조의2 같은 번호까지 외웠는지로
+//   맞음/틀림을 가르면 논점을 다 짚어도 틀림이 된다.
+//   논점이 2개 미만인 사례(형소에 많다)는 셀 것이 없어 채점하지 않고 모범답안만 펼친다.
+const CASE_TAIL = /(?:의\s*)?(?:성립\s*여부|적용\s*여부|인정\s*여부|해당\s*여부|허용\s*여부|성부|여부|문제|검토|판단)$/;
+function caseKeys(html) {
+  const t = stripTags(html), issues = [], arts = [];
+  const add = (arr, k) => { if (k && arr.indexOf(k) < 0) arr.push(k); };
+  (t.match(/\[([^\[\]]{2,30})\]/g) || []).map(x => x.slice(1, -1).trim())
+    .filter(x => !/죄책|책임$|^[甲乙丙丁戊]/.test(x) && !/있음$/.test(x))
+    .map(x => x.replace(CASE_TAIL, '').trim())
+    .filter(x => x.length >= 2 && !/^(?:결론|소결|검토|사안|사안의|문제의 소재|쟁점|논점|설문)$/.test(x))
+    .forEach(x => add(issues, x));
+  (t.match(/§\s?\d+(?:의\s?\d+)?|제\s?\d+조(?:의\s?\d+)?/g) || [])
+    .forEach(x => add(arts, x.replace(/[§제조\s]/g, '')));
+  return { issues, arts };
+}
+const squash = s => (s || '').replace(/[\s'"‘’“”·,()（）]/g, '');
+// 논점 이름을 통째로 찾으면 「[권리행사방해죄의 교사범 성립가능성]」에 「권리행사방해 교사범」이
+// 안 걸린다. 핵심 낱말(권리행사방해 · 교사범)로 쪼개 60% 이상 나오면 짚은 것으로 친다.
+const ISSUE_STOP = /^(?:성립|가능성|성립가능성|가능|인정|여부|문제|검토|판단|적용|해당)$/;
+function issueWords(key) {
+  return key.replace(/[()（）'"‘’“”·,]/g, ' ').split(/\s+/)
+    // 「결과」「효과」가 잘리지 않게 와·과는 「과의」「와의」 꼴에서만 뗀다
+    .map(w => w.replace(/(?:와의|과의|에대한|에서|의|에)$/, '').replace(/(?:죄|설)$/, ''))
+    .filter(w => w.length >= 2 && !ISSUE_STOP.test(w));
+}
+function issueHit(typed, key) {
+  const u = squash(typed);
+  const whole = squash(key).replace(/(?:죄|설)$/, '');
+  if (whole.length >= 2 && u.indexOf(whole) > -1) return true;
+  const inner = (/\(([^)]{2,})\)/.exec(key) || [])[1];            // 「특가법위반(위험운전치상)」→ 위험운전치상
+  if (inner && u.indexOf(squash(inner).replace(/(?:죄|설)$/, '')) > -1) return true;
+  const ws = issueWords(key);
+  // 「인과관계와」처럼 조사가 남은 낱말은 뗀 꼴로도 찾는다
+  const has = w => u.indexOf(w) > -1 || (/[와과]$/.test(w) && w.length >= 3 && u.indexOf(w.slice(0, -1)) > -1);
+  return ws.length > 0 && ws.filter(has).length / ws.length >= 0.6;
+}
+// 「제148조의2」「148조의 2」「§148의2」를 모두 「§148의2」 꼴로 맞춘 뒤 찾는다
+function artHit(typed, n) {
+  const u = typed.replace(/\s/g, '').replace(/제?(\d+)조(?:의(\d+))?/g, (m, a, b) => '§' + a + (b ? '의' + b : ''));
+  return new RegExp('§' + n + '(?!\\d|의\\d)').test(u);
+}
+function gradeCase(typed, html) {
+  const { issues, arts } = caseKeys(html);
+  if (issues.length < 2) return { ok: null };
+  const hit = issues.filter(k => issueHit(typed, k)), miss = issues.filter(k => !issueHit(typed, k));
+  const artOk = arts.filter(n => artHit(typed, n)).length;
+  return { ok: hit.length / issues.length >= 0.6, hit, miss, artOk, artN: arts.length };
+}
+
 // ── 언제 다시 볼까 ─────────────────────────────────────────────
 // D-118 이 크게 떠 있는데 「오늘 뭘 볼지」는 앱이 몰랐다. 푼 기록에 시각이 이미 있으니
 // 간격만 얹으면 된다. 틀리면 내일, 맞히면 3 → 7 → 16 → 35일.
@@ -1598,7 +1689,19 @@ class Component extends DCLogic {
     this.syncPart();
     this.syncBox();
     this.syncMemo();
+    this.syncAnswerBoxes();
     this.runJump();
+  }
+
+  // 답 입력칸은 비제어라, 목록이 바뀌어(오답만·섞기) 칸이 다른 카드에 재사용되면 앞 카드에 적던 글이
+  // 그대로 남는다. 칸마다 어느 카드의 것이었는지 기억해 두고, 주인이 바뀌면 비운다.
+  syncAnswerBoxes() {
+    const own = this._boxOwner || (this._boxOwner = new WeakMap());
+    document.querySelectorAll('.q-czin, .q-casein').forEach(box => {
+      const card = box.closest('.q-card'), id = card ? card.dataset.qid : '';
+      if (own.has(box) && own.get(box) !== id) box.value = '';
+      own.set(box, id);
+    });
   }
 
   // 긴 목록은 두 번에 나눠 그린다.
@@ -1691,19 +1794,68 @@ class Component extends DCLogic {
   //    120번을 누르는 자리라 폰에서는 그게 그대로 굼뜸이 됐다.
   //    이제 카드의 data-state 한 글자와 글자 몇 개만 고친다.
   answerOX(card, choice, e) {
-    // 사례형도 빈칸과 같이 「떠올렸다/못 떠올렸다」로 스스로 매긴다.
-    // (예전엔 kind==='case' 가 여기 O·X 갈래로 떨어졌다. 사례 카드엔 badge 가 없어서
-    //  'O' === undefined → 언제나 틀림이 됐다.)
-    const self = card.kind === 'cz' || card.kind === 'case';
-    const ok = self ? (choice === 'know') : (choice === card.badge);
-    const plan = nextDue(ok, OX.streak(card.id));
-    OX.set(card.id, { a: choice, ok: ok, k: card.kind || 'ox', n: plan.n, due: plan.due,
-                      s: this.state.subject, u: card.unit || ((findTopic(topicsOf(this.state.subject), this.state.chapter) || {}).title) || '', t: Date.now() });
+    const ok = choice === card.badge;
+    this.record(card, ok, choice, '');
     this.paintCard(e, { state: ok ? 'right' : 'wrong', choice: choice });
+  }
+
+  // m = 채점 뒤 카드에 남길 글(「내 답 — …」「짚은 논점 3/5 …」). 다시 열어도 같은 글이 나오게 기록에 둔다.
+  record(card, ok, a, m) {
+    const plan = nextDue(ok, OX.streak(card.id));
+    OX.set(card.id, { a: a, ok: ok, m: m, k: card.kind || 'ox', n: plan.n, due: plan.due,
+                      s: this.state.subject, u: card.unit || ((findTopic(topicsOf(this.state.subject), this.state.chapter) || {}).title) || '', t: Date.now() });
+  }
+
+  // 빈칸·사례 — 적은 글을 채점한다
+  gradeTyped(card, e) {
+    const el = e && e.currentTarget && e.currentTarget.closest('.q-card');
+    if (!el) return;
+    const box = el.querySelector('.q-czin, .q-casein');
+    const typed = ((box && box.value) || '').trim();
+    const setMine = t => { const m = el.querySelector('.q-mine'); if (m) m.textContent = t; };
+    if (card.kind === 'case') {
+      if (!typed) { box && box.focus(); return; }
+      const g = gradeCase(typed, card.ansHtml);
+      if (g.ok === null) {
+        setMine('이 사례는 모범답안에 [논점] 표시가 적어 자동 채점을 하지 않는다. 아래 모범답안과 맞춰 볼 것.');
+        this.paintCard(e, { state:'shown', choice:'' });
+        return;
+      }
+      const m = '짚은 논점 ' + g.hit.length + '/' + (g.hit.length + g.miss.length)
+        + (g.artN ? ' · 조문 ' + g.artOk + '/' + g.artN : '')
+        + (g.miss.length ? '\n빠진 논점: ' + g.miss.join(', ') : '');
+      this.record(card, g.ok, typed.slice(0, 2000), m);
+      setMine(m);
+      this.paintCard(e, { state: g.ok ? 'right' : 'wrong', choice:'' });
+      return;
+    }
+    // 빈칸은 비워 두고 채점해도 된다 — 모르는 것은 모르는 것으로 남긴다
+    const ok = gradeCloze(typed, card.answer);
+    const m = '내 답 — ' + (typed || '(비워 둠)');
+    this.record(card, ok, typed, m);
+    setMine(m);
+    this.paintCard(e, { state: ok ? 'right' : 'wrong', choice:'' });
+  }
+
+  // 한국어 입력 중 Enter 는 글자 조합을 끝내는 키다. keydown 에서 받으면 keyCode 229 로 오거나
+  // 마지막 글자가 아직 칸에 안 들어가 있다. 키를 뗄 때(keyup)는 조합이 끝난 뒤라 한 번에 된다.
+  gradeOnEnter(card, e) {
+    if (e.key !== 'Enter' || (e.nativeEvent || e).isComposing) return;
+    this.gradeTyped(card, e);
+  }
+
+  acceptTyped(card, e) {
+    const r = OX.get(card.id) || {};
+    OX.reset([card.id]);          // 틀림으로 끊긴 간격을 되돌린다
+    this.record(card, true, r.a || '', r.m || '');
+    this.paintCard(e, { state:'right', choice:'' });
   }
 
   unanswer(card, e) {
     OX.reset([card.id]);
+    const el = e && e.currentTarget && e.currentTarget.closest('.q-card');
+    const box = el && el.querySelector('.q-czin, .q-casein');
+    if (box) box.value = '';
     this.paintCard(e, { state:'ask', choice:'' });
   }
 
@@ -1723,7 +1875,7 @@ class Component extends DCLogic {
     if (!box) return;
     const cards = [].slice.call(document.querySelectorAll('.q-card'));
     const n = st => cards.filter(c => c.dataset.state === st).length;
-    box.textContent = n('right') + ' 맞음 · ' + n('wrong') + ' 틀림 · ' + (n('ask') + n('peek')) + ' 남음';
+    box.textContent = n('right') + ' 맞음 · ' + n('wrong') + ' 틀림 · ' + (n('ask') + n('shown')) + ' 남음';
   }
 
   markProg(id, kind) { if (id) { PROG.toggle(id, kind); this.forceUpdate(); } }
@@ -1987,7 +2139,7 @@ class Component extends DCLogic {
       const r = recOf(q);
       const cz = q.kind === 'cz', sa = q.kind === 'case';
       return { id:q.id, answer: sa ? '사례' : cz ? '빈칸' : q.badge, text: (cz || sa) ? q.text : q.ask,
-        isOX: !cz && !sa, isCZ: cz || sa, isCase: sa,
+        isOX: !cz && !sa, isCZ: cz, isCase: sa, mine: r ? (r.m || '') : '',
         ansHtml: sa ? React.createElement('div', { dangerouslySetInnerHTML: { __html: q.ansHtml } }) : null,
         fact: cz ? '' : (q.fact || ''), hasFact: !cz && !!q.fact,
         stars:q.stars, hasStars: !!q.stars,
@@ -1995,10 +2147,11 @@ class Component extends DCLogic {
         why: sa ? '' : cz ? ('정답 — ' + q.answer) : (q.why || ''), src: q.src,
         state: !r ? 'ask' : r.ok ? 'right' : 'wrong',
         choice: r ? r.a : '',
-        peek: e => this.paintCard(e, { state:'peek', choice:'' }),
-        peekLabel: sa ? '답안 보기' : '정답 보기',
-        pickO: e => this.answerOX(q, (cz || sa) ? 'know' : 'O', e),
-        pickX: e => this.answerOX(q, (cz || sa) ? 'miss' : 'X', e),
+        grade: e => this.gradeTyped(q, e),
+        enter: e => this.gradeOnEnter(q, e),
+        accept: e => this.acceptTyped(q, e),
+        pickO: e => this.answerOX(q, 'O', e),
+        pickX: e => this.answerOX(q, 'X', e),
         again: e => this.unanswer(q, e) };
     });
 
@@ -2133,8 +2286,8 @@ class Component extends DCLogic {
       hasQuiz: quizCards.length > 0, hasLinkedQuiz: !!(page && page.quizCount),
       quizOpen: st.quizOpen, quizCards, quizTotal: allCards.length,
       deckHint: deckKind === 'case'
-        ? '답안 구성을 머릿속으로 세운 뒤 「답안 보기」로 펼쳐 맞춰 보고 맞혔다/틀렸다를 고른다. 틀린 것은 오답으로 남는다.'
-        : 'O·X 는 고르면 바로 채점한다. 빈칸은 들어갈 말을 떠올린 뒤 「정답 보기」로 확인하고 맞혔다/틀렸다를 고른다. 틀린 것은 오답으로 남는다.',
+        ? '답안 구성(논점·조문·결론)을 적고 채점을 누르면 모범답안의 논점을 몇 개 짚었는지 센다. 60% 미만이면 오답으로 남는다.'
+        : 'O·X 는 고르면 바로 채점한다. 빈칸은 들어갈 말을 적고 Enter(또는 채점). 띄어쓰기·괄호 속 조문은 안 본다. 틀린 것은 오답으로 남는다.',
       deckTitle: deckKind === 'due' ? '오늘 볼 것' : deckKind === 'case' ? ('사례형 — ' + curTitle) : ('암기 확인 — ' + curTitle),
       dueCount: todo.length, hasDue: todo.length > 0,
       dueLabel: '오늘 볼 것 ' + todo.length,
