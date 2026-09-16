@@ -1448,7 +1448,8 @@ class Component extends DCLogic {
       this._popping = true;               // 되돌린 상태를 다시 쌓지 않도록
       const box = document.getElementById('lawmj-q');
       if (box) box.value = s.q || '';     // 입력칸은 비제어라 직접 맞춘다
-      this.setState(Object.assign({ shown:{} }, s));
+      // peek 도 비운다 — 안 그러면 앞 단원에서 공개한 여백 O/X 가 뒤로가기로 옮긴 단원에 공개된 채 남는다
+      this.setState(Object.assign({ shown:{}, peek:{} }, s));
     });
 
     // 단축키 — 매일 쓰는 앱인데 키보드로 닿을 데가 없었다.
