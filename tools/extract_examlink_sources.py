@@ -149,6 +149,20 @@ def kwak_section(start):
     a = hs[0].start() if hs else 0
     b = hs[1].start() if len(hs) > 1 else len(buf)
     text = buf[a:b]
+    # 절마다 문제문을 다시 싣고 「［해 설］ 목 차 …」 작은 목차를 둔 뒤 본문이 시작한다. 문제는 창의 「문제」 탭에
+    # 이미 있으니 절 제목만 남기고 해설 본문부터 보여 준다(목차는 「1. 쟁점」이 두 번째 나오는 곳에서 끝난다).
+    # ⚠ 닫는 괄호가 빠진 「［해 설」도 있고, 목차 항목은 OCR 이 뭉개 본문과 글자가 안 맞는다(「1. 논점」→「1 노저 I」,
+    #   江↔己). 대신 목차는 늘 「결론」으로 끝난다 — 첫 「1.」과 둘째 「1.」 사이에 「결론」이 있으면 첫째는 목차다.
+    title = text.split('\n', 1)[0]
+    h = re.search(r'[［\[]\s*해\s*설\s*[］\]]?', text)
+    if h:
+        body = text[h.end():]
+        ones = [m.start() for m in re.finditer(r'(?:^|\n)\s*1\s*[.．]', body)]
+        if len(ones) >= 2 and re.search(r'결\s*론', body[ones[0]:ones[1]]):
+            body = body[ones[1]:]
+        elif ones:
+            body = body[ones[0]:]
+        text = title + '\n' + body
     for pat, rep in PARTY:
         text = pat.sub(rep, text)
     return reflow(text.split('\n'))

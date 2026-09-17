@@ -285,8 +285,15 @@ UNITS.forEach(([uid, title, html]) => {
 
       if (l.cls === 'mcq') {
         const { items, pool } = mcqPool();
-        const sc = pool.score(note);
-        const top = sc.map((v, i) => [v, i]).sort((a, b) => b[0] - a[0]).slice(0, 3).filter(([v]) => v >= 0.35);   // 0.3대는 절반쯤 엉뚱한 지문이었다
+        // 선택형 지문은 한 줄짜리 법리라 앞줄까지 붙이면 오히려 흐려진다 — 그 줄(표시 뺀 것)로 맞추고 너무 짧을 때만 앞줄을 붙인다
+        let q = text.replace(NOISE, ' ');
+        for (let j = bi - 1; q.replace(/\s/g, '').length < 25 && j >= 0; j--) q = stripTags(blocks[j]).replace(NOISE, ' ') + ' ' + q;
+        const sc = pool.score(q);
+        // 글자쌍만으로는 편이 다른 비슷한 말에 끌린다(채권각론 「해제 전 제3자 보호」 → 민법총칙 「대리권 남용과 제3자」).
+        // 단원 번호로 편을 알 수 있으니 같은 편 지문은 0.35, 다른 편 지문은 0.6 이상일 때만 받는다.
+        const mod = { 채총: '채권총론', 채각: '채권각론', 민총: '민법총칙', 물권: '물권법' }[uid.replace(/\d+$/, '')];
+        const top = sc.map((v, i) => [v, i]).filter(([v, i]) => v >= (items[i].mod === mod ? 0.35 : 0.6))
+          .sort((a, b) => b[0] - a[0]).slice(0, 3);
         if (!top.length) { miss.push(`선택형 비슷한 지문 없음 ${uid} 「${l.raw}」`); return; }
         const ref = { site: '선택형', examId: 'MCQ', exam: 'MCQ 민법 OX', group: top.map(([, i]) => items[i].mod + items[i].no).join(','),
                       groupLabel: '내용이 가장 가까운 지문 ' + top.length + '개', points: null, asks: [],
