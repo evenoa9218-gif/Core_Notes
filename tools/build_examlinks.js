@@ -292,7 +292,12 @@ UNITS.forEach(([uid, title, html]) => {
         // 글자쌍만으로는 편이 다른 비슷한 말에 끌린다(채권각론 「해제 전 제3자 보호」 → 민법총칙 「대리권 남용과 제3자」).
         // 단원 번호로 편을 알 수 있으니 같은 편 지문은 0.35, 다른 편 지문은 0.6 이상일 때만 받는다.
         const mod = { 채총: '채권총론', 채각: '채권각론', 민총: '민법총칙', 물권: '물권법' }[uid.replace(/\d+$/, '')];
-        const top = sc.map((v, i) => [v, i]).filter(([v, i]) => v >= (items[i].mod === mod ? 0.35 : 0.6))
+        // 줄 머리에 용어를 정의한 줄(「손해담보계약 : …」)은 그 용어가 든 지문만 받는다 — 글자쌍 점수만으로는
+        // 「과실상계」가 겹친 「해제와 과실상계」 지문이 0.44로 붙었다
+        const headM = /^[★☆\s]*(?:【[^】]*】\s*)*([^:：\[\]【】()]{3,20}?)\s*[:：]/.exec(text);
+        const head = headM ? headM[1].replace(/\s|\(.*$/g, '') : '';
+        const hasHead = i => !head || /^[가-힣A-Za-z§·0-9]{3,}$/.test(head) === false || (items[i].q + (items[i].why || '')).replace(/\s/g, '').includes(head);
+        const top = sc.map((v, i) => [v, i]).filter(([v, i]) => v >= (items[i].mod === mod ? 0.35 : 0.6) && hasHead(i))
           .sort((a, b) => b[0] - a[0]).slice(0, 3);
         if (!top.length) { miss.push(`선택형 비슷한 지문 없음 ${uid} 「${l.raw}」`); return; }
         const ref = { site: '선택형', examId: 'MCQ', exam: 'MCQ 민법 OX', group: top.map(([, i]) => items[i].mod + items[i].no).join(','),

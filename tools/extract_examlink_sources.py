@@ -156,10 +156,16 @@ def kwak_section(start):
     title = text.split('\n', 1)[0]
     h = re.search(r'[［\[]\s*해\s*설\s*[］\]]?', text)
     if h:
-        body = text[h.end():]
+        # 줄 길이는 문단을 이어 붙인 뒤에 재야 한다 — PDF 줄 그대로면 본문 첫 줄도 짧아 목차와 구별이 안 된다
+        body = reflow(text[h.end():].split('\n'))
         ones = [m.start() for m in re.finditer(r'(?:^|\n)\s*1\s*[.．]', body)]
+        # 목차 순서가 뒤섞인 절도 있다(「3. 결론」이 「1. 쟁점」보다 앞) — 목차 항목은 짧고 본문 첫 문단은 문장이 이어져 길다
+        # 「결론」 규칙을 먼저 본다 — 이어 붙이면 목차 항목끼리도 한 줄로 길어져 길이 규칙만으론 목차를 본문으로 잡는다(p.948·715)
+        long_first = [s for s in ones if len(body[s:].lstrip('\n').split('\n', 1)[0]) >= 60]
         if len(ones) >= 2 and re.search(r'결\s*론', body[ones[0]:ones[1]]):
             body = body[ones[1]:]
+        elif long_first:
+            body = body[long_first[0]:]
         elif ones:
             body = body[ones[0]:]
         text = title + '\n' + body
