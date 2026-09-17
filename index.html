@@ -205,6 +205,29 @@ mark.q-hit{background:var(--q-bg);color:var(--q-ink);border-radius:3px;padding:0
 .q-card[data-badge="사례"] .q-badge{font-size:calc(9px * var(--fs,1));background:var(--accent-soft);color:var(--accent-ink);border:none}
 .q-card[data-badge="사례"] .q-verdict{display:none}
 .q-card[data-badge="사례"] .q-qtext{font-weight:400}
+/* 기출 연결 — 본문의 기출 표시와 그 창 (2026-09-17) */
+.x-link{cursor:pointer;color:var(--blue);text-decoration:underline dotted;text-underline-offset:3px;border-radius:3px}
+.x-link:hover,.x-link:focus-visible{background:var(--exam-bg);outline:none}
+.xp{position:fixed;z-index:60;max-height:min(62vh,560px);overflow:auto;box-sizing:border-box;background:var(--surface);color:var(--ink);border:1px solid var(--line-12);border-radius:12px;box-shadow:0 12px 36px var(--scrim-2);padding:12px 14px;font:400 calc(12.5px * var(--fs,1))/1.7 Pretendard,sans-serif}
+.xp[hidden]{display:none}
+.xp.xp-pin{top:64px;right:16px;left:auto;width:min(460px,42vw);max-height:none;height:calc(100vh - 84px)}
+@media (max-width:760px){.xp.xp-pin{top:auto;bottom:0;right:0;left:0;width:auto;height:72vh;border-radius:16px 16px 0 0}}
+/* 고정 창이 본문을 가리지 않게 넓은 화면에선 본문을 왼쪽으로 비켜 준다 */
+@media (min-width:1100px){body.xp-open{padding-right:min(476px,42vw);box-sizing:border-box}}
+.xp-ref+.xp-ref{margin-top:14px;padding-top:12px;border-top:1px solid var(--line-10)}
+.xp-head{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap;position:sticky;top:-12px;background:var(--surface);padding:2px 0 6px;z-index:1}
+.xp-head b{font-weight:700;color:var(--ink-strong)}
+.xp-sp{flex:1}
+.xp-site{padding:1px 7px;border-radius:5px;background:var(--exam-bg);color:var(--blue);font-size:11px;font-weight:600}
+.xp button{font:600 11px Pretendard,sans-serif;padding:4px 9px;border-radius:7px;border:1px solid var(--line-12);background:var(--surface);color:var(--ink-soft);cursor:pointer}
+.xp-guess{margin:2px 0 6px;font-size:11px;color:var(--neg-ink)}
+.xp-tabs{display:flex;gap:6px;margin:4px 0 8px}
+.xp-tabs button.on{background:var(--accent-soft);color:var(--accent-ink);border-color:transparent}
+.xp-asks{margin:0 0 8px;padding-left:20px;color:var(--ink-2);font-weight:600}
+.xp-pt{color:var(--ink-faint);font-weight:400}
+.xp-src{font-size:11px;color:var(--ink-faint);margin-bottom:4px}
+.xp-text{white-space:pre-wrap;word-break:keep-all;overflow-wrap:anywhere;color:var(--ink-2)}
+.xp-go{display:inline-block;margin-top:10px;font-weight:600;font-size:12px;color:var(--blue)}
 .q-due{padding:10px 15px;border-radius:11px;cursor:pointer;background:var(--accent);border:1px solid transparent;font-weight:700;font-size:12px;color:#fff;white-space:nowrap}
 .q-fact{font:400 calc(12.5px * var(--fs,1))/1.7 Pretendard,sans-serif;color:var(--ink-3);background:var(--surface-3);border-radius:7px;padding:7px 9px}
 .q-tag{display:inline-block;margin-right:6px;padding:1px 6px;border-radius:5px;background:var(--chip);color:var(--ink-muted);font-size:calc(10.5px * var(--fs,1));font-weight:600;vertical-align:1px}
@@ -970,10 +993,131 @@ const isHead = h => {
   return /^(?:제\s?[0-9]{1,2}\s?[편장절관]|[0-9]{1,2}|[ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ]+|[IVX]{1,4})[.．)]?\s*\S/.test(t) ? 1 : 0;
 };
 
+// ── 기출 연결 (2026-09-17) ─────────────────────────────────────
+// 본문의 「【변10 사례】」「24년 8모 사례」 같은 표시를 실제 시험 문항에 잇는다. 무엇에 잇는지는
+// tools/build_examlinks.js 가 미리 계산해 data-examlinks.js 에 둔다(줄 내용과 문항을 맞춰 몇 문인지 고른다).
+// 여기서는 그 줄의 표시 글자만 <span class="x-link"> 로 감싼다. 마우스를 대면 문제·답안이 뜨고,
+// 누르면 옆에 고정돼 본문을 읽으며 같이 볼 수 있다.
+// ⚠ 줄 고르기(EXAM_BLOCK_RE)·열쇠(keyOf(stripTags))·표시 읽기(EXAM_LABEL_RE)는 빌드 스크립트와 같아야 한다.
+const EXAM_BLOCK_RE = /<div class="cs-(?:h|li|ans-in)[^"]*"[^>]*>[\s\S]*?<\/div>/g;
+const EXAM_LABEL_RE = /변시?\s?(\d{1,2})회?\s*(사례형?|기록형?|기출|선택형)?|(\d{2})\s?(?:년\s?|\.\s?)(\d{1,2})\s?모\s*(사례|기록|기출|채점기준)?/g;
+function linkExams(id, html) {
+  const L = window.EXAM_LINKS;
+  if (!L || !html) return html;
+  return html.replace(EXAM_BLOCK_RE, blk => {
+    const base = id + '|' + keyOf(stripTags(blk)) + '|';
+    return blk.replace(/>([^<]+)</g, (m, txt) => '>' + txt.replace(EXAM_LABEL_RE, lab => {
+      const k = base + lab.trim().replace(/\s/g, '');
+      const sp = lab.match(/\s*$/)[0];                               // 「19년 10모 」의 끝 공백은 밑줄 밖으로
+      return L[k] ? '<span class="x-link" role="button" tabindex="0" data-xl="' + k + '">' + lab.trimEnd() + '</span>' + sp : lab;
+    }) + '<');
+  });
+}
+
+// 기출 창. 앱 밖(body)에 하나만 두고 직접 그린다 — 본문은 innerHTML 로 들어가 React 가 모르는 영역이고,
+// 마우스를 댈 때마다 앱 전체를 다시 그리면 굼뜨다.
+//   · 마우스를 대면 표시 옆에 뜨고, 떼면 사라진다(창 안으로 옮겨 가 스크롤해도 유지)
+//   · 누르면(폰은 탭) 오른쪽에 고정 — 본문을 스크롤해도 그대로 있어 같이 읽을 수 있다. ✕·Esc 로 닫는다
+function setupExamPopover() {
+  if (window.__xpReady) return;
+  window.__xpReady = true;
+  const pop = document.createElement('div');
+  pop.className = 'xp';
+  pop.hidden = true;
+  document.body.appendChild(pop);
+  let timer = 0, pinned = false, current = '';
+  const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+  function render(key) {
+    const links = (window.EXAM_LINKS || {})[key] || [];
+    const tab = pop.dataset.tab || 'q';
+    pop.innerHTML = links.map((ln, i) => {
+      const r = (window.EXAM_REFS || [])[ln.r];
+      if (!r) return '';
+      const guess = !ln.sure || ln.typeGuess;
+      const asks = r.asks.length
+        ? '<ol class="xp-asks">' + r.asks.map(a => '<li>' + esc(a.ask) + (a.points ? ' <span class="xp-pt">(' + a.points + '점)</span>' : '') + '</li>').join('') + '</ol>'
+        : '';
+      const body = tab === 'a'
+        ? '<div class="xp-src">' + esc(r.answerSrc) + '</div><div class="xp-text">' + esc(r.answer || '이 문항은 사례형 사이트에 채점기준표·해설이 아직 없다. 문제는 「문제」 탭에서 볼 수 있다.') + '</div>'
+        : asks + (r.problem ? '<div class="xp-text">' + esc(r.problem) + '</div>' : '');
+      return '<section class="xp-ref">' +
+        '<header class="xp-head"><span class="xp-site">' + esc(r.site) + '</span>' +
+        '<b>' + esc(r.exam) + '</b> <span>' + esc(r.groupLabel) + (r.points ? ' · ' + r.points + '점' : '') + '</span>' +
+        (i === 0 ? '<span class="xp-sp"></span>' + (pinned ? '' : '<button data-xp="pin" title="옆에 고정">고정</button>') +
+          '<button data-xp="close" aria-label="닫기">✕</button>' : '') + '</header>' +
+        (ln.alt ? '<div class="xp-guess">다른 후보 — 위 문항과 점수가 비슷하다</div>'
+          : guess ? '<div class="xp-guess">' + (ln.typeGuess ? '유형 표시가 없어 ' : '') + '본문 내용으로 가장 가까운 문항을 고른 추정' + (links.some(x => x.alt) ? ' — 아래 다른 후보와 비교할 것' : ' — 사이트에서 확인할 것') + '</div>' : '') +
+        (i === 0 ? '<nav class="xp-tabs"><button data-xp="q" class="' + (tab === 'q' ? 'on' : '') + '">문제</button>' +
+          '<button data-xp="a" class="' + (tab === 'a' ? 'on' : '') + '">답안 구성</button></nav>' : '') +
+        '<div class="xp-body">' + body + '</div>' +
+        '<a class="xp-go" href="' + esc(r.url) + '" target="_blank" rel="noopener">' + esc(r.site) + ' 사이트에서 풀어 보기 ↗</a>' +
+        '</section>';
+    }).join('');
+  }
+
+  function place(anchor) {
+    if (pinned) { pop.style.left = pop.style.top = pop.style.width = ''; return; }
+    const a = anchor.getBoundingClientRect(), vw = window.innerWidth, vh = window.innerHeight;
+    const w = Math.min(520, vw - 24);
+    pop.style.width = w + 'px';
+    pop.style.left = Math.max(12, Math.min(a.left, vw - w - 12)) + 'px';
+    const h = pop.offsetHeight;
+    pop.style.top = (a.bottom + 8 + h < vh || a.top < h + 16 ? Math.min(a.bottom + 8, vh - h - 12) : a.top - h - 8) + 'px';
+  }
+
+  function open(anchor, pin) {
+    clearTimeout(timer);
+    current = anchor.dataset.xl;
+    pinned = pin;
+    pop.dataset.tab = 'q';
+    pop.classList.toggle('xp-pin', pin);
+    document.body.classList.toggle('xp-open', pin);
+    pop.hidden = false;
+    render(current);
+    place(anchor);
+    pop.scrollTop = 0;
+  }
+  function close() { pinned = false; pop.hidden = true; current = ''; pop.classList.remove('xp-pin'); document.body.classList.remove('xp-open'); }
+  const closeSoon = () => { clearTimeout(timer); timer = setTimeout(() => { if (!pinned) close(); }, 220); };
+
+  const linkOf = e => e.target && e.target.closest && e.target.closest('.x-link');
+  // 터치 기기는 mouseover 가 탭과 함께 흉내로 와서 창이 떴다 사라진다 — 호버는 마우스일 때만
+  const hoverable = window.matchMedia && window.matchMedia('(hover: hover)').matches;
+  document.addEventListener('mouseover', e => {
+    const el = linkOf(e);
+    if (!el || pinned || !hoverable) return;
+    clearTimeout(timer);
+    timer = setTimeout(() => open(el, false), 120);
+  });
+  document.addEventListener('mouseout', e => { if (linkOf(e) && !pinned) closeSoon(); });
+  pop.addEventListener('mouseenter', () => clearTimeout(timer));
+  pop.addEventListener('mouseleave', () => { if (!pinned) closeSoon(); });
+  document.addEventListener('click', e => {
+    const el = linkOf(e);
+    if (el) { e.preventDefault(); e.stopPropagation(); open(el, true); }
+  }, true);
+  document.addEventListener('keydown', e => {
+    const el = linkOf(e);
+    if (el && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); open(el, true); }
+    else if (e.key === 'Escape' && !pop.hidden) { e.stopPropagation(); close(); }
+  }, true);
+  pop.addEventListener('click', e => {
+    const b = e.target.closest('button[data-xp]');
+    if (!b) return;
+    const act = b.dataset.xp;
+    if (act === 'close') return close();
+    if (act === 'pin') { pinned = true; pop.classList.add('xp-pin'); document.body.classList.add('xp-open'); pop.style.left = pop.style.top = pop.style.width = ''; render(current); return; }
+    pop.dataset.tab = act;
+    render(current);
+    pop.scrollTop = 0;
+  });
+}
+
 function outlineOf(id, html) {
   if (OUTLINE[id]) return OUTLINE[id];
   const out = [];
-  const anchored = (html || '').replace(HEAD_RE, m => {
+  const anchored = linkExams(id, html || '').replace(HEAD_RE, m => {
     const lv = isHead(m);
     if (!lv) return m;
     const t = stripTags(m);
@@ -1628,6 +1772,7 @@ class Component extends DCLogic {
     BOOT || {});
 
   componentDidMount() {
+    setupExamPopover();
     // 모아보기에서 단원 제목을 눌렀을 때 그 단원으로 이동
     // 검색·모아보기에서 고른 「그 줄」로 내려간다
     window.__lawmjJump = (id, key) => { this._jumpKey = key; window.__lawmjOpen(id); };
@@ -2044,6 +2189,11 @@ class Component extends DCLogic {
     // 현재 과목의 데이터 파일을 (아직이면) 이제 받는다 — 도착하면 재렌더
     const dataFile = DATA_FILES[st.subject];
     if (dataFile) window.__loadData(dataFile, () => { this.countOffline(); this.forceUpdate(); });
+    // 기출 연결은 민법만 있다. 늦게 도착하면 이미 만들어 둔 본문(표시가 안 감싸진 것)을 버리고 다시 만든다.
+    if (st.subject === '민법') window.__loadData('data-examlinks.js', () => {
+      Object.keys(ANCHORED).forEach(k => { delete ANCHORED[k]; delete OUTLINE[k]; });
+      this.forceUpdate();
+    });
     const dataLoading = !!dataFile && window.__dataState[dataFile] === 'loading';
     // 색인은 한가할 때 미리 만들어 둔다 — 그러지 않으면 첫 검색 한 번이 100ms 를 문다
     if (!LINES[st.subject] && window[(DATASETS[st.subject] || {}).key]) {
