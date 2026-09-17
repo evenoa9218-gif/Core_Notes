@@ -48,11 +48,30 @@ jobs:
           python tools/sync_minso.py
           python tools/build_minso.py
 
+      # 민법 본문의 기출 표시 → 사례형·기록형·선택형 문항 연결(data-examlinks.js).
+      # 연결 열쇠가 「줄 내용」이라 노션에서 줄을 고치면 그 줄의 연결이 끊긴다 — 동기화할 때마다 다시 만든다.
+      # 책 원문(tools/examlinks_sources.json)은 D 드라이브에서 미리 뽑아 커밋해 두었으니 여기선 필요 없다.
+      - uses: actions/checkout@v4
+        with: { repository: evenoa9218-gif/CASE_Practice, path: _ext/CASE_Practice }
+      - uses: actions/checkout@v4
+        with: { repository: evenoa9218-gif/RECORD_Practice, path: _ext/RECORD }
+      - uses: actions/checkout@v4
+        with: { repository: evenoa9218-gif/MCQ, path: _ext/MCQ }
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: exam links
+        env:
+          CASE_DIR: _ext/CASE_Practice
+          RECORD_DIR: _ext/RECORD
+          MCQ_DIR: _ext/MCQ
+        run: node tools/build_examlinks.js
+
       - name: commit & push
         run: |
           git config user.name "notion-sync"
           git config user.email "noreply@github.com"
-          git add data-civil.js data-crim.js data-crimpro.js data-minso.js
+          git add data-civil.js data-crim.js data-crimpro.js data-minso.js data-examlinks.js tools/examlinks_report.txt
           git diff --cached --quiet && echo "바뀐 것 없음" && exit 0
           git commit -m "sync: 노션 수정분 반영 (자동)"
           git push
