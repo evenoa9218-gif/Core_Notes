@@ -8,8 +8,8 @@
 //
 // 표시는 세 갈래다.
 //   회차 표시   「변10 사례」「24년 8모」     → 그 회차 안에서 문을 고른다
-//   회차 없음   「변모 사례」「21년 신모 사례」 → 전 회차에서 내용이 가장 가까운 문 2개(추정)
-//                「모의 기록」「변시 사례형」     (「신모」는 어떤 시험인지 자료가 없어 이렇게 처리한다)
+//   회차 없음   「변모 사례」「모의 기록」     → 전 회차에서 내용이 가장 가까운 문 2개(추정)
+//                「변시 사례형」「사례형」
 //   선택형      「객빈」「모의 객관식」         → MCQ 민법 OX 문항 중 내용이 가장 가까운 지문 3개
 //
 // 자료 출처 — 경로는 환경변수로 바꿀 수 있다(CI 는 다른 곳에 체크아웃한다).
@@ -55,7 +55,7 @@ const UNITS = win.CIVIL_UNITS;
 const LABEL_SRC =
   '(?<=【)(?:객빈(?:\\s?—[^】]*)?|(?:모의\\s?)?객관식|변시\\s?선택형|변모\\s?(?:사례|기록|선택형|×\\s?\\d)|' +
   '모의\\s?(?:사례|기록)(?:·(?:사례|기록))?(?:\\s?\\d회↑)?|법전협\\s?모의\\s?(?:사례|기록)|변시\\s?사례형|사례형|' +
-  '\\d{2}년\\s?(?:모의\\s?출제|신모\\s?(?:사례|기록)?))(?=】)' +
+  '\\d{2}년\\s?모의\\s?출제)(?=】)' +
   '|변시?\\s?(\\d{1,2})회?\\s*(사례형?|기록형?|기출|선택형)?' +
   '|(\\d{2})\\s?(?:년\\s?|\\.\\s?)(\\d{1,2})\\s?모\\s*(사례|기록|기출|채점기준)?';
 const LABEL_RE = new RegExp(LABEL_SRC, 'g');
@@ -73,7 +73,7 @@ function readLabels(text) {
       const types = /사례/.test(raw) && /기록/.test(raw) ? ['사례', '기록'] : /사례/.test(raw) ? ['사례'] : /기록/.test(raw) ? ['기록'] : ['사례', '기록'];
       const kinds = /^변시/.test(raw) ? ['변시'] : /^(?:모의|법전협|\d{2}년)/.test(raw) ? ['모의'] : ['변시', '모의'];
       const y = /^(\d{2})년\s?모의\s?출제/.exec(raw);
-      out.push({ raw, cls: 'generic', types, kinds: /신모/.test(raw) ? ['변시', '모의'] : kinds, year: y ? 2000 + +y[1] : null, sinmo: /신모/.test(raw) });
+      out.push({ raw, cls: 'generic', types, kinds, year: y ? 2000 + +y[1] : null });
       continue;
     }
     const before = text.slice(Math.max(0, m.index - 1), m.index);
@@ -145,6 +145,32 @@ function splitByPoints(ex, groups) {
   return probOf;
 }
 
+// 채점기준표는 있는데 문항별 조각(basisSlice)이 없는 회차가 있다(2023·2025년 3차 등).
+// 설문 머리 표기가 회차마다 달라(「문제 5.」가 있는 회차도, 아예 없는 회차도 있다) 번호로는 못 자른다 —
+// 문단 덩어리로 나눠 그 설문의 물음과 가장 가까운 대목을 보여 주고, 추정이라고 밝힌다.
+const rubricCache = {};
+function rubricExcerpt(ex, g) {
+  const t = ex.rubricText || '';
+  if (t.length < 500) return '';
+  let chunks = rubricCache[ex.id];
+  if (!chunks) {
+    chunks = [];
+    let buf = '';
+    t.split(/\n\s*\n/).forEach(p => {
+      buf += (buf ? '\n\n' : '') + p;
+      if (buf.length > 900) { chunks.push(buf); buf = ''; }
+    });
+    if (buf.trim()) chunks.push(buf);
+    rubricCache[ex.id] = chunks;
+  }
+  const note = (g.questions || []).map(q => q.ask).join(' ');
+  if (!note.trim() || chunks.length < 2) return '';
+  const sc = scoreAll(note, chunks);
+  let best = 0;
+  sc.forEach((v, i) => { if (v > sc[best]) best = i; });
+  return chunks.slice(best, best + 2).join('\n\n').slice(0, 3000);
+}
+
 const groupCache = {};
 function caseGroups(id, ex) {
   if (groupCache[id]) return groupCache[id];
@@ -175,6 +201,7 @@ function caseGroups(id, ex) {
     // 사례형 사이트에 해설·채점기준표가 없는 문은 책에서 뽑아 둔 해설로 채운다
     const extra = (SOURCES.extra || {})[id + '|' + g.key];
     if (!answer && extra) { answer = extra.text; src = extra.src; }
+    if (!answer) { answer = rubricExcerpt(ex, g); if (answer) src = '채점기준표 — 이 설문에 가장 가까운 대목(추정)'; }
     return { g, problem: (probOf[g.label] || []).join('\n\n'), answer, src,
              asks: (g.questions || []).map(q => ({ no: q.no, points: q.points, ask: q.ask })) };
   }));
@@ -331,7 +358,7 @@ UNITS.forEach(([uid, title, html]) => {
         cands.sort((a, b) => b.score - a.score);
         const top = cands.slice(0, 2).filter(c => c.score >= 0.3);
         if (!top.length) { miss.push(`가까운 기출 없음 ${uid} 「${l.raw}」`); return; }
-        top.forEach((c, i) => { if (pushLink(k, { r: addRef(makeRef(c)), sure: false, generic: true, sinmo: !!l.sinmo, alt: i > 0 }) && i === 0) linked++; });
+        top.forEach((c, i) => { if (pushLink(k, { r: addRef(makeRef(c)), sure: false, generic: true, alt: i > 0 }) && i === 0) linked++; });
         report.push(`○ ${uid} 「${l.raw}」 → ${top.map(c => candName(c) + '(' + c.score.toFixed(2) + ')').join(' / ')}\n    줄: ${text.slice(0, 100)}`);
         return;
       }
