@@ -55,7 +55,7 @@ const UNITS = win.CIVIL_UNITS;
 const LABEL_SRC =
   '(?<=【)(?:객빈(?:\\s?—[^】]*)?|(?:모의\\s?)?객관식|변시\\s?선택형|변모\\s?(?:사례|기록|선택형|×\\s?\\d)|' +
   '모의\\s?(?:사례|기록)(?:·(?:사례|기록))?(?:\\s?\\d회↑)?|법전협\\s?모의\\s?(?:사례|기록)|변시\\s?사례형|사례형|' +
-  '\\d{2}년\\s?모의\\s?출제)(?=】)' +
+  '\\d{2}년\\s?(?:모의\\s?출제|법무\\s?(?:사례|기록)?)|기록형|기록\\s?기출|변\\s?기출)(?=】)' +
   '|변시?\\s?(\\d{1,2})회?\\s*(사례형?|기록형?|기출|선택형)?' +
   '|(\\d{2})\\s?(?:년\\s?|\\.\\s?)(\\d{1,2})\\s?모\\s*(사례|기록|기출|채점기준)?';
 const LABEL_RE = new RegExp(LABEL_SRC, 'g');
@@ -71,8 +71,8 @@ function readLabels(text) {
     if (!m[1] && !m[3]) {                                          // 【】 단독 표시
       if (/객빈|객관식|선택형/.test(raw)) { out.push({ raw, cls: 'mcq' }); continue; }
       const types = /사례/.test(raw) && /기록/.test(raw) ? ['사례', '기록'] : /사례/.test(raw) ? ['사례'] : /기록/.test(raw) ? ['기록'] : ['사례', '기록'];
-      const kinds = /^변시/.test(raw) ? ['변시'] : /^(?:모의|법전협|\d{2}년)/.test(raw) ? ['모의'] : ['변시', '모의'];
-      const y = /^(\d{2})년\s?모의\s?출제/.exec(raw);
+      const kinds = /^변시|^변\s?기출/.test(raw) ? ['변시'] : /법무/.test(raw) ? ['변시', '모의'] : /^(?:모의|법전협|\d{2}년)/.test(raw) ? ['모의'] : ['변시', '모의'];
+      const y = /^(\d{2})년/.exec(raw);
       out.push({ raw, cls: 'generic', types, kinds, year: y ? 2000 + +y[1] : null });
       continue;
     }
@@ -271,7 +271,7 @@ function genericPool() {
   return (GEN = { caseDocs, casePool: makePool(caseDocs.map(d => d.text)), recs });
 }
 const kindOf = id => /_변시_/.test(id) ? '변시' : '모의';
-const yearOf = id => { const m = /_모의_(\d{4})_/.exec(id); return m ? +m[1] : null; };
+const yearOf = id => { const m = /_모의_(\d{4})_/.exec(id); if (m) return +m[1]; const v = /_변시_(\d{1,2})회/.exec(id); return v ? 2011 + +v[1] : null; };   // 변시 N회 = 2011+N 년 1월
 
 // ── 선택형: MCQ 민법 OX ──
 let MCQ_POOL = null;
@@ -356,7 +356,8 @@ UNITS.forEach(([uid, title, html]) => {
           });
         }
         cands.sort((a, b) => b.score - a.score);
-        const top = cands.slice(0, 2).filter(c => c.score >= 0.3);
+        // 연도가 밚혀 있으면 후보가 네다섯뿐이다 — 줄이 짧아 점수가 낮아도 가장 가까운 것을 보인다(추정 표시는 그대로).
+        const top = l.year ? cands.slice(0, 2) : cands.slice(0, 2).filter(c => c.score >= 0.3);
         if (!top.length) { miss.push(`가까운 기출 없음 ${uid} 「${l.raw}」`); return; }
         top.forEach((c, i) => { if (pushLink(k, { r: addRef(makeRef(c)), sure: false, generic: true, alt: i > 0 }) && i === 0) linked++; });
         report.push(`○ ${uid} 「${l.raw}」 → ${top.map(c => candName(c) + '(' + c.score.toFixed(2) + ')').join(' / ')}\n    줄: ${text.slice(0, 100)}`);
