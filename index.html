@@ -794,7 +794,7 @@ const DATASETS = {
          cats: () => window.CONST_CATS_DATA || [] },
   행정법: { key:'ADMIN_UNITS', label:'류정모 진리 행정법 암기장 제3판', unit:'논점',
          cats: () => window.ADMIN_CATS_DATA || [] },
-  최신판례: { key:'CHOIPAN_UNITS', label:'정연석 최신 1.5개년 민사판례 — 22·23년 보충', unit:'판례',
+  최신판례: { key:'CHOIPAN_UNITS', label:'정연석 최신 민사판례 — 민법 22·23년 보충 + 민소·가족법', unit:'판례',
          cats: () => window.CHOIPAN_CATS_DATA || [] }
 };
 
@@ -1618,7 +1618,9 @@ const MARKS = [
   { key:'star2', name:'★★',   test: h => /class="cs-star">★★<\/span>/.test(h) },
   { key:'star3', name:'★★★',  test: h => /class="cs-star">★{3,}<\/span>/.test(h) },
   { key:'amgi',  name:'암기',  test: h => h.indexOf('【암기】') > -1 },
-  { key:'choi',  name:'최신판례', test: h => /【최판】|【判例20\d\d】|【大判全合/.test(h) },
+  // ⚠ 연도가 둘인 【判例2021·2023】 때문에 닫는 괄호를 요구하지 않는다.
+  //   연도 없는 【判例】(일반 판례 표시, 228건)는 여전히 안 걸려야 하므로 20\d\d 는 남긴다.
+  { key:'choi',  name:'최신판례', test: h => /【최판】|【判例20\d\d|【大判全合/.test(h) },
   { key:'gaek',  name:'객관식', test: h => /【객빈】|【[^】]*(선택형|객관식)[^】]*】/.test(h) },
   { key:'sarye', name:'사례형', test: h => /【[^】]*사례[^】]*】/.test(h) },
   { key:'girok', name:'기록형', test: h => /【[^】]*기록[^】]*】/.test(h) },
