@@ -14,6 +14,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / 'tools' / 'notion_raw'
 
+# 정연석 22·23년 보충 85건을 해당 단원 꼬리에 덧붙인다 ({단원id: {html, tags}}).
+# 노션 본문이 아니라 «빌드 단계»에서 붙이는 이유는 D:\_choipan\build_civil_merge.py 머리에
+# 적어 뒀다 — 요지는 로민정 페이지의 앵커 댓글을 지키고 MCP 글자오염을 피하려는 것이다.
+# 파일이 없으면 그냥 건너뛴다(이 변환기만 따로 돌려도 깨지지 않게).
+MERGE = ROOT / 'tools' / 'choipan_merge.json'
+
 # 민법 네 과목을 한 파일에 담는다 — 사이트에서는 '민법' 하나로 보이므로
 VAR = 'CIVIL_UNITS'
 SUBJECTS = ['채권총론', '채권각론', '민법총칙', '물권법']   # 책 순서
@@ -202,6 +208,31 @@ def group_of(rows):
         r['cat'] = '%s · %s' % (r['subject'], r[key] or r['chap'] or r['subject'])
 
 
+def merge_choipan(data):
+    """보충 판례를 단원 html 꼬리에 붙인다. 대상 id 가 하나도 안 맞으면 멈춘다 —
+    로민정 번호가 재정렬되면 조용히 전부 누락되기 때문이다."""
+    if not MERGE.exists():
+        return 0
+    frag = json.loads(io.open(MERGE, encoding='utf-8').read())
+    by_id = {r[0]: r for r in data}
+    hit = sum(1 for k in frag if k in by_id)
+    if hit == 0:
+        sys.exit('보충 조각 %d개가 어느 단원에도 안 붙었다 — 단원 id 규칙이 바뀌었는지 보라: %s'
+                 % (len(frag), MERGE))
+    if hit < len(frag):
+        sys.exit('보충 조각이 붙지 않은 단원이 있다: %s'
+                 % sorted(k for k in frag if k not in by_id))
+    n = 0
+    for uid, f in frag.items():
+        r = by_id[uid]
+        r[2] += f['html']
+        for t in f.get('tags') or []:
+            if t not in r[3]:
+                r[3].append(t)
+        n += f.get('n', 1)
+    return n
+
+
 def main():
     want = sys.argv[1:]
     data, cats, seen, tally = [], [], set(), []
@@ -221,6 +252,9 @@ def main():
     if not data:
         sys.exit('원본이 없다: %s' % RAW)
 
+    # ⚠ 과목을 골라 돌린 경우엔 합치지 않는다 — 조각의 단원이 빠져 있어 위 검사가 멈춘다.
+    merged = 0 if want else merge_choipan(data)
+
     body = 'window.%s_CATS = %s;\nwindow.%s = %s;\n' % (
         VAR, json.dumps(cats, ensure_ascii=False),
         VAR, json.dumps(data, ensure_ascii=False))
@@ -228,6 +262,9 @@ def main():
     io.open(out, 'w', encoding='utf-8', newline='\n').write(body)
     print('%s → %s (%.1fKB)' % (' · '.join('%s %d단원' % t for t in tally),
                                 out.name, out.stat().st_size / 1024))
+    if merged:
+        print('  최판 보충 %d건을 %d단원에 덧붙였다' % (merged, len(
+            json.loads(io.open(MERGE, encoding='utf-8').read()))))
     for c in cats:
         print('  %-30s %d단원' % (c, sum(1 for d in data if d[5] == c)))
 
