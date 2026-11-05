@@ -20,9 +20,22 @@ const SUBJ = {
 
 const closeOf = open => '</' + /^<([a-z]+)/.exec(open)[1] + '>';
 
-function render(blocks) {
+// 여는 태그에 블록 id 를 심는다 — 화면의 한 줄과 정본의 한 블록을 잇는 유일한 끈이다.
+// 체크·형광펜·수정·카드가 전부 이걸로 자리를 찾는다.
+// ⚠ 반드시 class 뒤에 붙인다. 앱과 build_examlinks 의 줄 고르기가
+//   /<div class="cs-(?:h|li)[^"]*"[^>]*>/ 라 class 가 먼저여야 한다.
+//   (전 블록 27,385개가 class 를 첫 속성으로 가진 것을 확인했다.)
+const withId = (open, id) => {
+  const m = /^<([a-z]+)([^>]*)>$/.exec(open);
+  const at = m[2].indexOf('"', m[2].indexOf('class=') + 7);
+  return m[2].indexOf('class=') < 0
+    ? '<' + m[1] + ' data-i="' + id + '"' + m[2] + '>'
+    : '<' + m[1] + m[2].slice(0, at + 1) + ' data-i="' + id + '"' + m[2].slice(at + 1) + '>';
+};
+
+function render(blocks, ids = true) {
   return blocks.map(b => b.w !== undefined ? b.w
-    : b.o + (b.b ? render(b.b) : b.h) + closeOf(b.o)).join('');
+    : (ids ? withId(b.o, b.i) : b.o) + (b.b ? render(b.b, ids) : b.h) + closeOf(b.o)).join('');
 }
 
 function rowsOf(subj) {

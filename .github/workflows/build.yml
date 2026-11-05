@@ -44,6 +44,11 @@ jobs:
       - name: 번들 생성
         run: node tools/build_bundle.js
 
+      # 카드 경계(data-cards.js). 번들과 달리 파생물 중의 파생물이라
+      # 진도가 붙지 않는다 — 규칙을 바꿔도 기록이 안 흔들린다.
+      - name: 카드 경계
+        run: node tools/build_cards.js
+
       # 되그리기가 정본과 어긋나지 않는지 — 왕복 검증
       - name: 왕복 검증
         run: node tools/verify_units.js

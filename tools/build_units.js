@@ -89,12 +89,15 @@ function toBlocks(html, unitId, used, oldById) {
       return { w: p.text };
     }
     const here = pathStr + '/' + idx + p.name;
+    // 번들이 이미 id 를 달고 있으면(2단계 이후) 그걸 그대로 쓴다 — 경로가 아니라 id 가 정본이다.
+    const carried = (/ data-i="([^"]+)"/.exec(p.open) || [])[1];
+    if (carried) { p.open = p.open.replace(/ data-i="[^"]+"/, ''); used.add(carried); }
     const kids = scan(p.inner);
     if (hasBlockChild(kids)) {
       const b = walk(p.inner, here);
-      return { i: pickId(unitId, here, p.open, used, oldById), o: p.open, b };
+      return { i: carried || pickId(unitId, here, p.open, used, oldById), o: p.open, b };
     }
-    const node = { i: pickId(unitId, here, p.open + p.inner, used, oldById), o: p.open, h: p.inner };
+    const node = { i: carried || pickId(unitId, here, p.open + p.inner, used, oldById), o: p.open, h: p.inner };
     const k = keyOf(stripTags(p.open + p.inner + '</' + p.name + '>'));
     if (k) node.k = k;
     return node;
