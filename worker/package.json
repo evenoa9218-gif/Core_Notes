@@ -1,0 +1,14 @@
+{
+  "name": "core-notes-writer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "암기장 본문 쓰기 프록시 (Cloudflare Worker)",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
