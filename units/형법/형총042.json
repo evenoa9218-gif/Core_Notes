@@ -1,0 +1,69 @@
+{"id":"형총042","t":"합동범과 공동범","cat":"chong_06","lv":1,"tg":["A급"],"b":[
+ {"i":"1rzhfr0","o":"<details class=\"cs-case\">","b":[
+  {"i":"1uu9goe","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 합동절도·공동주거침입·강도상해</strong></span> <span class=\"cs-exam\">【변사24】 </span><span class=\"cs-red\">(45)</span>","k":"p4m9ux"},
+  {"i":"4h7w5m","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"16osa68","o":"<div class=\"cs-fact\">","b":[
+    {"i":"rapz94","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1n638kx","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲·乙·丙 금값 이야기 중 乙이 외삼촌 A 집 금고 금괴 있고 A 출장 중 빈집이니 훔쳐 나누자 제안. 동의한 甲·丙에 乙은 A집 비밀번호·금고 위치·비밀번호·CCTV 없는 도주로 등 상세 정보·범행계획 제공. 범행 당일 10:00 乙은 자기 오피스텔 잔류, 甲·丙 A집行. 丙이 비밀번호 눌러 문 열고 문앞 망보는 사이 甲 침입해 금고 열었으나 텅 빔. 甲 계속 찾던 중 출장 연기로 침실에 있던 A 발각, 붙잡으려는 A 얼굴 주먹 폭행 후 도주. 丙은 망보기 길어지자 甲에 문자, 甲이 \"금괴 없다\" 답하자 甲 나오기 前 이미 현장 이탈. 금괴는 오래전 처분·당시 금고 비어있음, A는 甲 폭행으로 2주 비강출혈상. A는 경찰서 \"甲·乙·丙 처벌 원한다\" 진술·진술조서 기재. 甲·乙·丙 죄책? (45점)","k":"160fvr5"}
+    ]}
+   ]},
+   {"i":"1dccfvr","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"16rifum","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1d35e6i","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-exam\">【변사24】</span>","k":"1rqns1a"},
+    {"i":"1cx1dww","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [甲과 丙의 폭처법위반(공동주거침입)죄]</strong>","k":"10qri20"},
+    {"i":"1j1vffc","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 폭처법 '공동' = 수인 사이 공범관계 존재 + 수인이 동일 장소·동일 기회에 상호 타인 범행 인식·이용해 폭행한 경우","k":"9rkbri"},
+    {"i":"eq22j7","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 甲·丙 공모, 甲 침입해 금괴 찾고 丙 문앞 망봐 실행행위 분담 → 각 폭처법위반(공동주거침입)죄(폭처법 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제2조</strong></span></span>②제1호·형법 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제319조</strong></span></span>①) 성립","k":"1gtfuxu"},
+    {"i":"wr8doa","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [甲과 丙의 강도상해죄]</strong> (가) [합동으로 인한 특수절도죄]","k":"1hq19yd"},
+    {"i":"5k82f1","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① '합동' 의미 — 공모공동정범설/가중적 공동정범설/현장설/현장적 공동정범설, 판례 = 현장설. 공동정범과 별도 '합동' 개념으로 형 가중 취지 → '협동'으로 이해하는 현장설 타당","k":"ua83ym"},
+    {"i":"cg5zdq","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 甲·丙 금괴 절취 공모·실행행위 분담·시간적·장소적 협동관계 → '합동' 해당","k":"1b7npkc"},
+    {"i":"w7tc6v","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 甲·丙 각 합동 특수절도미수죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제342조</strong></span></span>·<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제331조</strong></span></span>②①) 성립 (나) [불능미수죄]","k":"720ukq"},
+    {"i":"1t4z784","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제27조</strong></span></span>","k":"4ro158"},
+    {"i":"lzndbm","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② A가 오래전 금괴 처분해 보유 X → 처음부터 절취 불가 = 대상 착오로 결과발생 불가능","k":"6107hy"},
+    {"i":"13rx978","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 위험성 — 구객관설/구체적 위험설/추상적 위험설 등, 판례 = 추상적 위험설(\"행위 당시 인식 사정 놓고 일반인이 객관적 판단해 결과발생 가능성 여부\")","k":"nz4eep"},
+    {"i":"1yfn164","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"④ 추상적 위험설: 甲·丙 금괴 있다 인식, 일반인 객관적 판단 시 절취 가능성 有 → 각 특수절도불능미수죄 성립 (다) [甲에 대한 강도상해죄]","k":"uwl7u2"},
+    {"i":"1lt67q6","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 준강도죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제335조</strong></span></span>) '절도'에 '특수절도 미수' 포함","k":"se0nr1"},
+    {"i":"1fsbcdq","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 강도상해죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제337조</strong></span></span>) '강도'에 '준강도' 포함","k":"1kibe3u"},
+    {"i":"fzvh5x","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 특수절도미수범 甲이 붙잡으려는 A 얼굴 폭행 = 상해 미필적 고의 인정, A 2주 비강출혈상 → 甲 강도상해죄 성립 (라) [丙에 대한 강도상해죄]","k":"1buuymc"},
+    {"i":"1i4omyc","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 2인 이상 합동절도 중 1인이 체포면탈 목적 폭행·상해 시 나머지 범인도 예기 못한 것 아니면 강도상해죄 면할 수 없음","k":"1oaux12"},
+    {"i":"1ya5bbj","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 丙은 빈집 인식·甲 문자받고 甲 나오기 前 이미 이탈 → 甲은 丙 이탈 후 A 폭행 → 丙은 예견 못함","k":"1q8qt70"},
+    {"i":"5j5n1u","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 丙 강도상해죄 X, 공모 범위 내 특수절도 불능미수 죄책만","k":"1an4ndq"},
+    {"i":"12f5ax5","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [乙의 죄책]</strong> (가) [가담형태]","k":"gey7uz"},
+    {"i":"1a3anuv","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 공동정범(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제30조</strong></span></span>) = 공동가공 의사 + 공동의사에 기한 기능적 행위지배 통한 범죄실행","k":"1xfu144"},
+    {"i":"rvcfqs","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 乙은 현장 미행이나 금괴 절취 제의·비밀번호·금고 위치·도주로 등 제공 → 공동의사에 기한 기능적 행위지배로 범죄실행 (나) [폭처법위반(공동주거침입)죄의 공동정범]","k":"1r3kcaa"},
+    {"i":"1mt27yc","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 여러 사람 공모 후 2인 이상이 범행장소서 실행 시 범행장소 미행자도 폭처법 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제2조</strong></span></span>②의 공동범죄 공모공동정범 처벌 가능","k":"1pex39h"},
+    {"i":"oet872","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 乙 폭처법위반(공동주거침입)죄 공동정범 성립 (다) [특수절도불능미수죄의 공동정범]","k":"1xfkiwq"},
+    {"i":"g87vdd","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 합동범의 공동정범 인정 가부 — 부정설/긍정설, 판례 = 긍정설","k":"21oxg2"},
+    {"i":"19zz8f0","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 긍정설: 乙 특수절도 불능미수죄 공동정범 성립","k":"pos9ge"},
+    {"i":"xalbgz","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 乙도 빈집 인식 → 甲의 A 폭행·상해 예견 불가 → 강도상해죄 공동정범 X","k":"pz8uz6"},
+    {"i":"1n5m5v8","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(4) [결론]</strong> 甲 = 폭처법위반(공동주거침입)죄·강도상해죄 실체적 경합, 丙 = 폭처법위반(공동주거침입)죄·특수절도불능미수죄 실체적 경합, 乙 = 폭처법위반(공동주거침입)죄·특수절도불능미수죄 각 공동정범의 실체적 경합","k":"1wr7eij"}
+   ]}
+  ]}
+ ]},
+ {"i":"1vy3xwl","o":"<div class=\"cs-callout\">","b":[
+  {"i":"3uszm7","o":"<div class=\"cs-h\">","h":"Ⅰ. '합동범'","k":"3jkqnj"},
+  {"i":"b8vbia","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>합동의 의미 </strong><strong>[변사25·24·22·19 등]</strong>","k":"qcc16w"},
+  {"i":"1j58prk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[합동범 규정]</span> 형법상 ①특수절도(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제331조</strong></span></span>①) ②특수강도(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제334조</strong></span></span>②) ③특수도주(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제146조</strong></span></span>) ④성폭법 특수강간등(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제4조</strong></span></span>)","k":"n0bvuo"},
+  {"i":"xb5xjo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[4설]</span> ①합동=공모로 보는 공모공동정범설 ②공동정범이나 집단범죄 대책상 형 가중으로 보는 가중적 공동정범설 ③공동정범 중 시간적·장소적 협동한 경우로 보는 현장설 ④현장에 의해 제한된 공동정범으로 보는 현장적 공동정범설","k":"1jzt3j9"},
+  {"i":"1l592yw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[판례 현장설]</span> 합동절도 성립 = ①주관적 요건 공모 + 객관적 요건 실행행위 분담 ②실행행위는 시간적·장소적 협동관계 要 <span class=\"cs-fact-tag\">[성폭법 특수강간에 대한 동일 판례]</span> <span class=\"cs-fact-tag\">[①은 공동정범, ②는 합동범 특유요건 → 합동범 성립엔 일단 공동정범 요건 갖춰야]</span> <span class=\"cs-exam\">【변19·18·12】</span> <span class=\"cs-exam\">【변사25·24】</span>","k":"s3rlz2"},
+  {"i":"17xggqi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[현장설 검토]</span> 공동정범과 별도 '합동' 개념으로 형 가중 취지 → '협동'으로 이해하는 현장설 타당","k":"2awu19"},
+  {"i":"l5xa6a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[실행행위 분담 의미]</span> 합동범 = 주관적 공모 + 객관적 현장 실행행위 분담, 이 분담은 반드시 동시·동일장소서 특정해 분담하는 것만 뜻 X","k":"k1o586"},
+  {"i":"uvnqjr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[망보기O]</span> 甲 창고 앞 망보고 乙 침입해 가죽 절취 = 특수절도죄 인정 <span class=\"cs-fact-tag\">[망을 보는 것도 합동에 해당]</span>","k":"ww37j0"},
+  {"i":"1k0hpve","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[순차 강간]</span> 각 1명씩 강간이라도 사전 모의로 강간 목적 야산(인가서 멀어 도망 곤란) 유인 후 암묵 합의로 각자 마음에 드는 피해자 데리고 100m 내 흩어져 동시·순차 강간 → 각 실행행위 시간적·장소적 협동관계 → 피해자들 모두에 특수강간죄 등 성립 <span class=\"cs-fact-tag\">[강간은 피해자별로 실체적 경합]</span> <span class=\"cs-exam\">【변13】</span>","k":"1kr7gam"},
+  {"i":"1u3qgop","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>합동범의 공동정범</strong>","k":"15uc6s"},
+  {"i":"1wyas50","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[부정설·긍정설]</span> ①현장 실행행위 미분담자는 합동범도 그 공동정범도 인정 X 부정설(현장설 일부) ②현장 미분담자는 합동범 될 수 없으나 기능적 행위지배 인정되면 합동범 공동정범 성립 가능 긍정설(현장적 공동정범설)","k":"16or27r"},
+  {"i":"1qrq4xz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[판례 긍정설]</span> 3인 이상이 합동절도 공모 후 2인 이상이 현장서 시간적·장소적 협동관계로 절도 실행행위 분담·범행한 경우, 공모엔 참여했으나 현장 실행행위 미분담한 다른 범인도 그 2인 이상 행위를 자기 의사의 수단으로 하여 합동절도 범행했다 평가할 정범성 표지 갖추면 합동절도 공동정범 성립 부정할 이유 X <span class=\"cs-exam\">【변25·23·13·12】</span> <span class=\"cs-exam\">【변사24】</span>","k":"1vp0zol"},
+  {"i":"7yuwxm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[긍정설 검토]</span> 현장 부재 배후자 처벌 필요 + 합동범이 공동정범 성립 부정 취지 X → 기능적 행위지배 있으면 합동범 공동정범 인정하는 긍정설 타당","k":"1r8e67v"},
+  {"i":"bw09iv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[장물처분 알선]</span> 특수강도 모의 이상 실행 미가담·강취 장물 처분 알선만 해도 특수강도 공동정범 → 장물알선죄 의율 X","k":"172bjkn"},
+  {"i":"6trtzb","o":"<div class=\"cs-h\">","h":"Ⅱ. '공동범'","k":"15zyyr6"},
+  {"i":"lfa17l","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>'공동'의 의미</strong>","k":"meh14h"},
+  {"i":"exmxs5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[폭처법 공동 요건]</span> 폭처법 '공동' = ①수인 사이 공범관계 존재 + ②수인이 동일 장소·동일 기회에 상호 타인 범행 인식·이용해 폭행한 경우 要 <span class=\"cs-exam\">【변17·16】</span> [변사24, 모사25]","k":"9wd5rk"},
+  {"i":"1208qqe","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[의사 결합 필요]</span> 2인 이상 공동가공 공동정범서 공모·모의는 직접·명시 불요·순차·암묵 가능하나 어느 경우도 공동가공·공동실현 의사 결합 必","k":"1f19kvm"},
+  {"i":"17e01km","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[공모만으론 부족]</span> 폭행 실행범과 공모 인정돼도 공동가담·범행장소 부재면 '공동하여 죄를 범한 때' 해당 X <span class=\"cs-exam\">【변19】</span>","k":"1dyg47h"},
+  {"i":"75lstn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[싸움 촬영·방관]</span> 甲이 丙에 \"싸워서라도 돈 받아내라\", 丙은 A와 장소·시간 정함, 乙은 촬영 예고·丙 독려, 丙이 놀이터서 A 넘어뜨려 머리 수차 가격 폭행, 乙 촬영, 甲 방관 → 상호 공동가공 의사로 공범관계 X(공동정범X) + 甲·乙은 현장서 丙 폭행 인식·이용해 실행 가담 X·단지 지켜보거나 촬영(공동X) → 丙 단독 폭행·甲乙 폭행 교사/방조 죄책 별론, 폭처법(공동폭행)죄 X <span class=\"cs-fact-tag\">[파기환송심서 丙 폭행죄·甲 폭행교사죄·乙 폭행방조죄로 공소장 변경·모두 유죄 확정]</span> <span class=\"cs-exam\">【모기25】</span>","k":"y6cf27"},
+  {"i":"1kn73y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>공동범의 공동정범</strong>","k":"z8ggtk"},
+  {"i":"si5erb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[공모공동정범]</span> 여러 사람 공동 범행 공모 시 그중 2인 이상이 범행장소서 실제 실행에 이르러야 나머지 공모자도 공모공동정범 성립 가능 <span class=\"cs-exam\">【변23·17】</span> <span class=\"cs-exam\">【변사24】</span>","k":"1akocza"},
+  {"i":"14qu1sw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>공동범 규정</strong>","k":"pv0v90"},
+  {"i":"kywzsv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[폭처법 공동범죄]</span> 2명 이상 공동하여 - (존속)폭행·(존속)협박·(존속)상해·(존속)체포·(존속)감금·강요·공갈·주거침입·퇴거불응·재물손괴 (<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제2조</strong></span></span>②)","k":"196xhrs"},
+  {"i":"qddina","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[특가법 공동상습절도]</span> 5명 이상 공동하여 상습적으로 (<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제5조의4</strong></span></span>②)","k":"l0p1t2"}
+ ]}
+]}

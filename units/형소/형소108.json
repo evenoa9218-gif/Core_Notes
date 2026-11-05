@@ -1,0 +1,92 @@
+{"id":"형소108","t":"증거동의","cat":"pro_16","lv":1,"tg":["中","모사20·18·17"],"b":[
+ {"i":"ypnwci","o":"<details class=\"cs-case\">","b":[
+  {"i":"11fcf0h","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(1)] 불법연행 상태 자백 피신조서에 대한 증거동의</strong></span> <span class=\"cs-exam\">【모사】</span>","k":"yt7zl6"},
+  {"i":"ue93g4","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1wp5uwu","o":"<div class=\"cs-fact\">","b":[
+    {"i":"db6n2e","o":"<div class=\"cs-callout\">","b":[
+     {"i":"17zr2ze","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"경찰관 P가 절도 용의자 甲에게 임의동행을 요구하였으나 거절하자 강제로 경찰차에 태워 연행 → 甲이 진술거부권을 고지받고 자백, 이 자백이 피신조서에 기재됨 → 甲을 절도죄로 기소. 甲이 법정에서 자백하면서 P 작성 甲에 대한 피신조서에 증거동의한 경우 이 조서를 증거로 사용할 수 있는가? (10점)","k":"13ab84"}
+    ]}
+   ]},
+   {"i":"1khexsp","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1vlnk5c","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1ja9zh8","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [임의동행의 적법성]</strong> 임의동행 거절에도 강제로 연행 → 불법체포","k":"gb7o3d"},
+    {"i":"ojf1r8","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [위법수집증거배제법칙]</strong> 진술거부권 고지로 신문 당시 위법사유가 없더라도 위법하게 체포된 상태에서 작성된 피신조서는 위수증","k":"1y37e6a"},
+    {"i":"vzfm3f","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [증거동의 인정여부]</strong> §308의2·§318① — 위수증에 증거동의 인정 여부는 적극설·소극설, 판례는 소극설. 위법수사 억제 위해 소극설 타당 → 甲이 증거동의하더라도 증거능력 X","k":"swlukc"}
+   ]}
+  ]}
+ ]},
+ {"i":"1tk0kf7","o":"<details class=\"cs-case\">","b":[
+  {"i":"3p0pue","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(2)] 항소심에서의 증거동의 철회</strong></span> <span class=\"cs-exam\">【변】</span>","k":"19wt9to"},
+  {"i":"18muol","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"xjlkdb","o":"<div class=\"cs-fact\">","b":[
+    {"i":"rbjmhz","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1co9stp","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"검사가 甲을 A에 대한 상해죄로 기소 → 경찰관이 목격자 B를 조사하여 참고인 진술조서 작성, 검사가 증거로 제출 → 제1심에서 甲이 이 조서에 증거동의 → 유죄 선고되자 항소, 항소심에서 위 진술조서에 대한 증거동의를 철회. 사경 작성 B에 대한 진술조서는 항소심에서 증거능력이 있는가? (10점)","k":"1viscua"}
+    ]}
+   ]},
+   {"i":"1y1sdfc","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"x19rmp","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"17lhml0","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [증거동의 철회]</strong> 언제까지 철회 가능한지 문제 — 판례는 증거조사 완료 전까지. 절차의 확실성·소송경제상 판례 타당 → 甲은 제1심에서 한 증거동의를 항소심에서 철회할 수 없음","k":"19qpsts"},
+    {"i":"316yht","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [착오 등에 의한 취소]</strong> 증거조사 완료 이후 하자 있으면 취소 허용 여부 — 유효설·원칙적 유효설. 판례는 ① 통상인 기준 착오 없었다면 하지 않았을 중요한 점의 착오 ② 행위자·대리인이 책임질 수 없는 사유 ③ 유효로 하는 것이 현저히 정의에 반함, 세 요건 요구하는 원칙적 유효설. 형식적 확실성과 피고인 이익 조화상 타당","k":"11lf8ee"},
+    {"i":"jkb95a","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> 甲은 항소심에서 제1심 증거동의를 철회할 수 없으나, 위 세 요건 충족시 항소심에서 증거동의를 취소할 수 있음","k":"393pk8"}
+   ]}
+  ]}
+ ]},
+ {"i":"1xzqqc8","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1o0xm4c","o":"<div class=\"cs-callout\">","b":[
+   {"i":"np0d47","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제318조(당사자의 동의와 증거능력)</strong></span>","k":"1gww36r"},
+   {"i":"13ll08c","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 검사와 피고인이 증거로 할 수 있음을 동의한 서류 또는 물건은 진정한 것으로 인정한 때에는 증거로 할 수 있다.","k":"11ncjll"},
+   {"i":"155h6gu","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 피고인의 출정없이 증거조사를 할 수 있는 경우에 피고인이 출정하지 아니한 때에는 전항의 동의가 있는 것으로 간주한다. 단, 대리인 또는 변호인이 출정한 때에는 예외로 한다.","k":"k8ro2w"}
+  ]},
+  {"i":"y90hf3","o":"<div class=\"cs-h\">","h":"Ⅰ. 증거동의의 법적 성격","k":"lj4v0z"},
+  {"i":"8i9wzy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검사와 피고인이 동의한 서류·물건이라도 법원이 <span class=\"cs-red\"><strong>'진정한 것'으로 인정한 때에 증거로 할 수 있음</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§318①)</strong></span></span><span class=\"cs-exam\">【변13】</span>","k":"1thysyb"},
+  {"i":"vi4ukj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 반대신문권포기설] §318①은 전문증거금지의 원칙에 대한 예외로서 반대신문권을 포기하겠다는 피고인의 의사표시에 의하여 서류·물건의 증거능력을 부여하려는 규정</strong></span>(⇔ 처분권설)","k":"5xw3y7"},
+  {"i":"iii8un","o":"<div class=\"cs-h\">","h":"Ⅱ. 증거동의의 주체","k":"pgidee"},
+  {"i":"uoe7qg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>피고인과 검사</strong></span>","k":"1nfyvxt"},
+  {"i":"jck0jt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"증거동의의 주체는 당사자인 <span class=\"cs-red\"><strong>피고인과 검사</strong></span>","k":"1y17210"},
+  {"i":"ikmoju","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[하자 부정]</span> 피고인이 법률적 효과를 모르고 증거동의하였다고 주장하더라도 <span class=\"cs-red\"><strong>변호인이 동의시 공판정에 재정하면서 아무런 이의·취소가 없었다면 하자 없음</strong></span><span class=\"cs-exam\">【변18】</span>","k":"1km2brs"},
+  {"i":"da1g9x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>변호인의 증거동의</strong></span>","k":"ihselt"},
+  {"i":"48c8m6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"변호인은 피고인의 명시적 의사에 반하여 증거동의할 수 없으나 묵시적 의사에 반하여 할 수 있는지 문제 — <span class=\"cs-red\"><strong>독립대리권설</strong></span>(명시적 의사에 반하지 않으면 묵시적 의사에 반하여도 가능) / <span class=\"cs-green\"><strong>종속대리권설</strong></span>(묵시적 동의·추인 필요)","k":"122l51l"},
+  {"i":"1udrrd5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 독립대리권설] 변호인은 피고인의 명시한 의사에 반하지 아니하는 한 대리하여 증거동의할 수 있으므로, 피고인이 부동의한다는 명시적 의사표시를 한 경우 이외에는 변호인이 증거동의할 수 있고, 변호인의 동의에 대하여 피고인이 즉시 이의하지 아니하면 변호인의 동의로 증거능력 인정</strong></span><span class=\"cs-exam\">【변20·12】</span>","k":"3yp9z"},
+  {"i":"e1zj4k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: <span class=\"cs-u\">변호인은 법률전문가로서 피고인을 보호하므로</span> <span class=\"cs-red\"><strong>독립대리권설 타당</strong></span>","k":"1h65huj"},
+  {"i":"yd13s1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[피고인 부동의 후 불출석 기일 변호인 번복]</span> 피고인이 출석한 공판기일에서 증거부동의 의견이 진술된 경우, 그 후 피고인 불출석 기일에 변호인만 출석하여 종전 의견을 번복하여 증거동의하여도 <span class=\"cs-green\"><strong>특별한 사정이 없는 한 효력 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변25·24·23 빈출】</span>","k":"hzuwgk"},
+  {"i":"zpbsli","o":"<div class=\"cs-h\">","h":"Ⅲ. 증거동의의 방식","k":"nr0r61"},
+  {"i":"1yb3v67","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[명시적]</span> 증거동의는 원칙적으로 <span class=\"cs-red\"><strong>명시적으로 이루어져야</strong></span>","k":"27rva7"},
+  {"i":"12aunk7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[일괄동의]</span> 검사가 제시한 모든 증거에 대하여 증거동의한다는 방식이라 하여도 <span class=\"cs-red\"><strong>증거동의로서의 효력 부정 X</strong></span><span class=\"cs-exam\">【변23·20】</span>","k":"1clhvk6"},
+  {"i":"c8syfv","o":"<div class=\"cs-h\">","h":"Ⅳ. 증거의 성질에 따른 증거동의 대상","k":"3152p"},
+  {"i":"1se19k0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>서류 및 진술</strong></span>","k":"1lmep56"},
+  {"i":"eno1pu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[서류]</span> 진술증거인 서류는 증거동의 대상<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§318①)</strong></span></span>","k":"9wpt1z"},
+  {"i":"12qg4d7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-neg-tag\">[첨부문서 별개]</span> 고발장에 부동의하면서 그 고발장을 첨부문서로 포함한 수사보고서에 증거동의한 경우, <span class=\"cs-red\"><strong>고발장은 유죄 증거로 삼을 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변25·16】</span>","k":"16nldmk"},
+  {"i":"t0v21a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[사본]</span> 문서의 사본이라도 피고인이 증거동의하였고 진정으로 작성되었음이 인정되면 증거능력 O(사본의 증거능력 요건도 증거동의 대상)","k":"ql80zo"},
+  {"i":"1xi5z76","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[진술]</span> 전문진술 및 재전문증거도 <span class=\"cs-red\"><strong>증거동의 대상</strong></span>","k":"fh1jac"},
+  {"i":"10qs9td","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>물건(증거물)</strong></span>","k":"1b35hnh"},
+  {"i":"g9q3p7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"물건이 증거동의 대상인지 — <span class=\"cs-red\"><strong>적극설</strong></span>(§318① 문언) / <span class=\"cs-green\"><strong>소극설</strong></span>(반대신문·전문법칙 무관)","k":"1qrpjv8"},
+  {"i":"1p6c7rq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 물건 적극설] 증거동의가 있는 서류 또는 물건은 법원이 제반 사정을 참작하여 진정한 것으로 인정하면 증거로 할 수 있음</strong></span> → <span class=\"cs-u\">§318①이 명문으로 '물건'을 포함하고 신속·효율적 재판이 가능하므로</span> <span class=\"cs-red\"><strong>적극설 타당</strong></span>","k":"jqebbq"},
+  {"i":"7htnsl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[비진술증거]</span> 상해부위를 촬영한 사진은 비진술증거로 전문법칙 적용 X, <span class=\"cs-red\"><strong>증거동의하면 증거능력 인정</strong></span>","k":"ssrfbb"},
+  {"i":"gifhs0","o":"<div class=\"cs-h\">","h":"Ⅴ. 증거능력 없는 근거에 따른 증거동의 대상","k":"1qrmvgp"},
+  {"i":"d4yob0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>전문증거 등</strong></span>","k":"hqm22t"},
+  {"i":"1vlzqqd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[동의 대상 O]</span> 증거능력 없는 <span class=\"cs-red\"><strong>모든 전문증거 / 공소제기 후 증언번복 목적 진술조서 / 참여기회를 부여하지 않은 증언·증인신문조서</strong></span>","k":"t1gboq"},
+  {"i":"q95t9n","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>위법수집증거</strong></span><span class=\"cs-exam\">【모사18】</span>","k":"12dn6qk"},
+  {"i":"48051x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"위수증에 증거동의가 인정되는지 — <span class=\"cs-red\"><strong>긍정설</strong></span>(처분권) / <span class=\"cs-green\"><strong>부정설</strong></span>(반대신문권 포기 본질 + 위법수사 억제)","k":"163w2d4"},
+  {"i":"10ynutu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 부정설] 위법수집증거배제법칙에 의하여 증거능력이 인정되지 않는 증거는 증거동의하더라도 증거능력이 인정되지 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span> → 위법수사 억제 위해 <span class=\"cs-red\"><strong>부정설 타당</strong></span>","k":"165ok2c"},
+  {"i":"11pvlol","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>임의성 없는 자백·진술</strong></span>","k":"1k6nxvs"},
+  {"i":"1ng96q","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-neg-tag\">[동의 대상 X]</span> 임의성이 인정되지 아니하여 증거능력 없는 진술증거는 <span class=\"cs-red\"><strong>증거동의하더라도 증거로 삼을 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변15·13】</span>","k":"83uo4t"},
+  {"i":"iaz3ic","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>통비법에 의하여 증거능력 없는 증거</strong></span>","k":"8rg6j3"},
+  {"i":"1kh38un","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-neg-tag\">[동의 대상 X]</span> 통비법에 의하여 증거능력 없는 녹음파일 등은 <span class=\"cs-red\"><strong>증거동의하더라도 증거능력 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(통비법§4)</strong></span></span>","k":"hx4rki"},
+  {"i":"6hztdi","o":"<div class=\"cs-h\">","h":"Ⅵ. 증거동의의 의제","k":"1szrc2m"},
+  {"i":"7wviuw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[간이공판절차]</span> 간이공판절차 결정이 있는 사건의 증거는 §318① 동의가 있는 것으로 간주. 단 검사·피고인·변호인이 증거로 함에 이의가 있는 때는 예외<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§318의3)</strong></span></span>","k":"3eaggg"},
+  {"i":"176p6cn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[피고인 불출석]</span> 피고인 출정 없이 증거조사할 수 있는 경우 피고인이 출정하지 아니하면 동의 간주. 단 대리인·변호인이 출정한 때는 예외<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§318②)</strong></span></span><span class=\"cs-exam\">【변23·16】</span>","k":"rc09tc"},
+  {"i":"8q8voi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[정식재판 2회 연속 불출석]</span> 약식명령에 불복하여 정식재판을 청구한 피고인이 2회 연속 불출정하여 법원이 §458②·§365에 따라 출정 없이 증거조사하는 경우 <span class=\"cs-red\"><strong>증거동의 간주</strong></span><span class=\"cs-exam\">【변24·12】</span>","k":"1aht0tp"},
+  {"i":"128iph1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[제1심 소촉법 특례]</span> 공시송달에 의한 소환을 2회 이상 받고도 불출석하여 소촉법§23에 따라 출정 없이 증거조사하는 경우 <span class=\"cs-red\"><strong>증거동의 간주</strong></span><span class=\"cs-exam\">【변20】</span>","k":"1vj4m5w"},
+  {"i":"1qvihek","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[무단퇴정·퇴정명령]</span> 필요적 변호사건이라도 피고인이 재판장 허가 없이 퇴정하고 변호인마저 동조 퇴정한 것은 방어권 남용·변호권 포기 → 재정 없이도 심리·판결 가능하고 <span class=\"cs-red\"><strong>증거동의 의제</strong></span><span class=\"cs-exam\">【변26·13】</span>","k":"17t3vvg"},
+  {"i":"b3y9wm","o":"<div class=\"cs-h\">","h":"Ⅶ. 증거동의의 효과","k":"z719u5"},
+  {"i":"15z8xg3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[증거능력 부여]</span> 증거동의하더라도 법원이 <span class=\"cs-red\"><strong>진정한 것으로 인정해야</strong></span> 증거능력 인정(진정성은 자유로운 증명)","k":"7sf341"},
+  {"i":"1fxlui3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[증명력 제한] 피고인이 조서 내용을 부인하였음에도 원진술자의 법정 출석·반대신문이 이루어지지 못하였다면, 강한 증명력을 인정할 특별한 사정이 있거나 신빙성·증명력을 뒷받침할 다른 유력한 증거가 존재하는 예외적 경우가 아닌 이상, 그 조서를 주된 증거로 하여 공소사실을 인정하는 것은 원칙적으로 허용될 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span> — 이는 §314의 경우는 물론 <span class=\"cs-red\"><strong>증거동의한 경우에도 마찬가지</strong></span>","k":"piv7nz"},
+  {"i":"jyx196","o":"<div class=\"cs-h\">","h":"Ⅷ. 증거동의의 철회와 취소<span class=\"cs-exam\">【모사20·17】</span>","k":"1ruqh7q"},
+  {"i":"b1138z","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>증거동의의 철회</strong></span>","k":"3qr24d"},
+  {"i":"1v4zt18","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"철회 시기 — <span class=\"cs-red\"><strong>증거조사 완료 전까지</strong></span>(판례) / 증거조사 시행 전 / 구두변론종결시","k":"5ti0as"},
+  {"i":"1oou7lj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 증거조사 완료 전까지] 증거동의의 의사표시는 증거조사가 완료되기 전까지 취소·철회할 수 있으나, 일단 증거조사가 완료된 뒤에는 취소·철회가 인정되지 아니하므로 제1심에서 한 증거동의를 제2심에서 취소할 수 없고, 종료 후에 취소·철회하더라도 이미 취득한 증거능력이 상실되지 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변25·23·17】</span>","k":"soa0tu"},
+  {"i":"19gxjpv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[간주 동의 후 철회]</span> 정식재판청구 피고인이 제1심 2회 불출정으로 증거동의 간주 후 증거조사를 완료한 이상, 항소심에서 공소사실을 부인하며 간주된 증거동의를 철회·취소하여도 <span class=\"cs-green\"><strong>적법하게 부여된 증거능력이 상실되지 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변25·24·12】</span>","k":"klbbwo"},
+  {"i":"1nf83ng","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>증거동의의 취소</strong></span>","k":"3qrnlh"},
+  {"i":"6u8gqz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>증거조사 완료 후에는 성립의 진정을 인정한 최초의 진술에 그대로 유지하기 어려운 '중대한 하자'가 있고 진술인에게 귀책사유가 없는 경우에 한하여 예외적으로 그 진술을 취소할 수 있음</strong></span>(현재는 내용부인으로 개정되어 그대로 적용 X)<span class=\"cs-exam\">【변19·18】</span>","k":"t372gg"}
+ ]}
+]}

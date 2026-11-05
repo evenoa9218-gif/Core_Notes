@@ -1,0 +1,34 @@
+{"id":"개인031","t":"금제품의 재물성","cat":"gak_절도강도","lv":1,"tg":["B급","모사24","모사12"],"b":[
+ {"i":"9t3lg4","o":"<details class=\"cs-case\">","b":[
+  {"i":"1uvgwca","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE]</strong></span></span> <span class=\"cs-red\">(10)</span>","k":"18il6wn"},
+  {"i":"1me8676","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1lmw7l4","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1t73wcw","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1bnbogz","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲, 밀수품을 훔쳐 팔기로 마음먹고 미리 알던 비밀번호로 주간에 밀수업자 A의 집에","k":"a44yqj"},
+     {"i":"4980oi","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"몰래 들어가 밀수입 보석을 가지고 나옴. 甲의 죄책은? (10점)","k":"178cw97"}
+    ]}
+   ]},
+   {"i":"1yemdzj","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"143sk2e","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"13vmxx","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [주거침입죄]</strong></span>","k":"tqprue"},
+    {"i":"ph95ri","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 침입 = 주거의 사실상 평온상태를 해치는 행위태양으로 들어가는 것","k":"kyt793"},
+    {"i":"db3ex9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 알던 비밀번호로 몰래 들어감 → 주거침입죄(<span class=\"cs-blue\"><span class=\"cs-u\">제319조</span> 제1항</span>)<span class=\"cs-o\"><strong>(O)</strong></span>","k":"94tgan"},
+    {"i":"14sxgby","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [절도죄]</strong></span>","k":"1qljhco"},
+    {"i":"1gtgj96","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① A가 밀수한 보석 = 상대적 금제품. 금제품 절취 시 절도죄의 재물이 될 수 있는지 — 위 학설 및 판례","k":"7w8l9g"},
+    {"i":"qpcuzz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 甲 = 절도죄(<span class=\"cs-blue\"><span class=\"cs-u\">제329조</span></span>)<span class=\"cs-o\"><strong>(O)</strong></span>","k":"117oeew"},
+    {"i":"fimcao","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(3) [결론]</strong></span> 甲 = 주거침입죄 + 절도죄의 실체적 경합","k":"1l6gn79"}
+   ]}
+  ]}
+ ]},
+ {"i":"10nf9p","o":"<div class=\"cs-callout\">","b":[
+  {"i":"divvin","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\">《금제품이 절도죄 객체가 될 수 있는지》</span>","k":"cmpm2x"},
+  {"i":"1lt3f4p","o":"<div class=\"cs-theory\">","b":[
+   {"i":"1do9lve","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①부정설(금제품은 경제적 이용가능성 없음) ②긍정설(절차상 몰수 전까지 소지·점유 보호 필요) ③절충설(절대적 금제품은 객체X, 상대적 금제품은 객체O)","k":"t83j6b"},
+   {"i":"1cv4etd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-glabel\">[긍정설]</span> 리프트탑승권=유가증권 — 작성권한 없는 자가 위조한 것이라도 절차상 몰수 전까지 소지자 점유 보호해야 → 재물로서 절도죄 객체<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1qntlt4"},
+   {"i":"1oxg8c7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"발매기 전산조작으로 위조한 탑승권을 뜯어간 행위는 위조행위+위조탑승권 절취행위 결합 → 위조탑승권은 장물 <span class=\"cs-def\"><strong>[위조 유가증권은 절대적 금제품]</strong></span>","k":"1kwpe5p"},
+   {"i":"1fjfl10","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 절차상 몰수 전까지 소지·점유 보호 필요 → 긍정설 타당","k":"1nmbi4e"}
+  ]},
+  {"i":"q3xnwh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용범위: <span class=\"cs-def\"><strong>[절대적 금제품]</strong></span> <span class=\"cs-u\">소유가 금지된 물품 = 위조유가증권·위조통화·아편흡입기</span>","k":"1tnxj3x"},
+  {"i":"xfgg1x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>[상대적 금제품]</strong></span> <span class=\"cs-u\">소지가 금지된 물품 = 마약·밀수품</span><span class=\"cs-exam\">【모사24】</span>","k":"3xiwan"}
+ ]}
+]}

@@ -1,0 +1,67 @@
+{"id":"형소119","t":"경합범의 일부에 대한 상소","cat":"pro_19","lv":1,"tg":["上","변사25·24·17·12","모사23·22 등 빈출"],"b":[
+ {"i":"1i72hpe","o":"<details class=\"cs-case\">","b":[
+  {"i":"1obpxuk","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(1)] 검사만 무죄부분 상고 → 파기환송심의 심판범위</strong></span> <span class=\"cs-exam\">【변사25】</span>","k":"19vmpxz"},
+  {"i":"1fzutas","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"18oj7by","o":"<div class=\"cs-fact\">","b":[
+    {"i":"ixx6qu","o":"<div class=\"cs-callout\">","b":[
+     {"i":"fjx4g4","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲이 D에 대한 상해(제1사실)와 E에 대한 절도(제2사실)로 공소제기 → 제1심이 두 사실 모두 유죄로 인정하여 甲에게 징역 1년 선고 → 甲만 두 사실 모두 무죄 취지로 항소 → 항소심이 제1사실 무죄, 제2사실 징역 1년에 집행유예 2년 선고 → 검사만 제1사실에 대하여 상고하자 대법원이 제1사실도 유죄라는 취지로 파기환송. 환송받은 항소심의 심판 범위를 논하라. (10점)","k":"gc22ei"}
+    ]}
+   ]},
+   {"i":"1xpjcft","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1nykcf4","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1okc79b","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [일부상소의 허용여부]</strong> 경합범에 수개 주문이 선고되어 재판 내용이 가분적이므로 일부 상소 가능(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§342①</strong></span></span>) → 제1사실 무죄·제2사실 유죄로 주문이 수개이므로 검사는 일부상소 가능","k":"16ekf26"},
+    {"i":"1irwanr","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [상고심의 심판·파기범위]</strong> 검사만 무죄부분 상고시 심판·파기범위 — 일부파기설·전부파기설, 판례는 일부파기설. 일부파기설 타당 → 상고심은 제1사실에 대해서만 심판·파기","k":"1d0ao4x"},
+    {"i":"1u02do0","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [환송받은 항소심의 심판 범위]</strong> 제2사실은 이미 분리·확정되어 심판대상이 아님 → 환송받은 항소심은 제1사실에 대한 대법원 파기판결에 기속(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>법원조직법§8</strong></span></span>) → 제1사실에 대해서만 심판하여 유죄 선고 가능","k":"wfjpir"}
+   ]}
+  ]}
+ ]},
+ {"i":"1m7cvwj","o":"<details class=\"cs-case\">","b":[
+  {"i":"k2k059","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(2)] 파기환송심의 불이익변경금지 준수 여부</strong></span> <span class=\"cs-exam\">【변사25】</span>","k":"fsqvg7"},
+  {"i":"1xatxpx","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"16v9j3z","o":"<div class=\"cs-fact\">","b":[
+    {"i":"h8wklj","o":"<div class=\"cs-callout\">","b":[
+     {"i":"dhm7o","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"위 사례에서 환송받은 항소심이 甲에게 징역 1년을 선고한 경우, 그 적법성을 논하시오. (10점)","k":"1o5maez"}
+    ]}
+   ]},
+   {"i":"1rfzajc","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"qcczpd","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"17k7poo","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [불이익변경금지 원칙]</strong> §368 — 피고인만 항소한 항소심판결에 검사만 상고한 상고심 및 파기환송심에서도 제1심판결보다 무거운 형 선고 불가. 주문을 전체적·실질적으로 고찰하여 경중 판단 → 징역형 형기를 늘리면 집행유예를 붙여도 불이익변경금지 위반","k":"1v6qyrw"},
+    {"i":"bzft84","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [파기환송심의 조치]</strong> 제1심이 두 사실 유죄로 징역 1년 선고 → 甲만 항소한 항소심에서 제2사실 징역 1년·집행유예 2년 선고 확정 → 환송받은 법원은 제1사실 유죄를 인정하더라도 불이익변경금지상 형을 선고할 수 없음 → '형을 선고하지 아니한다'는 주문을 선고하거나 형법§39①에 의하여 형 면제","k":"19f2b6b"},
+    {"i":"1llbo4o","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> 환송받은 항소심이 甲에게 징역 1년을 선고한 것은 불이익변경금지원칙에 위배되어 위법","k":"1dgoaby"}
+   ]}
+  ]}
+ ]},
+ {"i":"9cu4l4","o":"<div class=\"cs-callout\">","b":[
+  {"i":"w7yd7g","o":"<div class=\"cs-callout\">","b":[
+   {"i":"1h50c3s","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제342조(일부상소)</strong></span>","k":"c7y25o"},
+   {"i":"h6cssv","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 상소는 재판의 일부에 대하여 할 수 있다.","k":"16wc6ii"},
+   {"i":"1l5sbg0","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 일부에 대한 상소는 그 일부와 불가분의 관계에 있는 부분에 대하여도 효력이 미친다.","k":"7fgyrq"}
+  ]},
+  {"i":"szvmgn","o":"<div class=\"cs-h\">","h":"Ⅰ. 전부상소원칙","k":"12byrxn"},
+  {"i":"wkche5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[전부상소 원칙]</span> 상소는 전부상소가 원칙 → 상소장에 <span class=\"cs-red\"><strong>일부상소라는 명시적 기재가 없으면 전부상소</strong></span>","k":"nc1zze"},
+  {"i":"a5qjvl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[불복범위 무기재]</span> 검사가 제출한 항소장의 불복 범위란에 일부 상소 기재가 없는 한 <span class=\"cs-red\"><strong>검사의 청구대로 되지 아니한 판결 전부에 대하여 상소한 것</strong></span>","k":"tdh4o7"},
+  {"i":"uz9tsq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[항소이유서 개진]</span> 피고인이 항소장에 형법§37 후단 경합범 2개 형 중 일죄의 형만 기재하고 나머지를 기재하지 아니하였어도 <span class=\"cs-red\"><strong>항소이유서에서 나머지 일죄에 대하여도 항소이유를 개진하면 판결 전부에 대한 항소</strong></span>","k":"1a50n7f"},
+  {"i":"eebqf7","o":"<div class=\"cs-h\">","h":"Ⅱ. 일부상소","k":"1udxn5n"},
+  {"i":"1ssi7tm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[일부상소]</span> 상소는 재판의 일부에 대하여 할 수 있음<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§342①)</strong></span></span> → 재판의 <span class=\"cs-red\"><strong>객관적 범위</strong></span>의 일부에 대한 것(주관적 범위 X)","k":"n2tiv1"},
+  {"i":"196zj74","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[요건]</span> ① 수개의 범죄가 <span class=\"cs-red\"><strong>실체적 경합관계</strong></span>에 있어야 ② 주문도 수개로 선고되어 <span class=\"cs-red\"><strong>재판을 분할할 수 있어야</strong></span>","k":"1mijghb"},
+  {"i":"1s9gdsz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[주문분리 유형]</span> ① 일부 유죄, 일부 무죄·면소·공소기각·관할위반 ② 전부 무죄·면소·공소기각·관할위반 ③ 전부 유죄이나 징역형·벌금형·형면제·선고유예 등으로 주문이 분리 ④ 확정판결 전후로 범한 죄로 형법§37 후단에 의하여 수개의 형으로 분리 선고","k":"18g340j"},
+  {"i":"1hjtv71","o":"<div class=\"cs-h\">","h":"Ⅲ. 피고인만 유죄부분에 대해 상소한 경우","k":"1ag7kt5"},
+  {"i":"3php18","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>형법§37 전단 경합범으로 일부 유죄·일부 무죄를 선고하거나, 확정판결 전후 공소사실에 따로 유죄를 선고하여 두 개의 형을 정한 제1심판결에 대하여 '피고인만'이 (확정판결 전) 유죄판결 부분에 항소한 경우, 검사가 항소하지 아니한 (무죄·확정판결 후) 부분은 항소기간 경과로 확정되어 항소심 심판범위는 피고인이 항소한 유죄판결 부분에 한정</strong></span><span class=\"cs-exam\">【변22·17】</span>","k":"1jxcb2a"},
+  {"i":"1t4yvit","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[항소심]</span> 무죄부분은 이심되지 않고 분리·확정 → 이심된 유죄부분만 심판, 항소 이유있으면 <span class=\"cs-red\"><strong>유죄부분만 파기 자판</strong></span>","k":"1lt9680"},
+  {"i":"1d9r0wn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[상고심]</span> 무죄부분은 이심되지 않고 분리·확정 → 이심된 유죄부분만 심판, 이유있으면 <span class=\"cs-red\"><strong>유죄부분만 파기 환송</strong></span> → 환송받은 법원도 유죄부분만 다시 심판","k":"s3kboh"},
+  {"i":"1mmuoqg","o":"<div class=\"cs-h\">","h":"Ⅳ. 검사만 무죄부분에 대해 상소한 경우<span class=\"cs-exam\">【변사25·24·17·12, 모사23 빈출】</span>","k":"c8ho9z"},
+  {"i":"qg2gqh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>상소심의 파기범위</strong></span>","k":"aw3z74"},
+  {"i":"9d8mpg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-red\"><strong>일부파기설</strong></span>(상소하지 않은 유죄부분은 상소기간 경과로 분리·확정) / <span class=\"cs-green\"><strong>전부파기설</strong></span>(과형상 불이익 방지 위해 유죄부분까지 파기)","k":"1ozps72"},
+  {"i":"np4723","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 일부파기설] 경합범 중 일부 무죄·일부 유죄를 선고한 항소심판결에 검사만이 무죄 부분에 상고한 경우, 상고하지 아니한 유죄판결 부분은 상고기간 경과로 확정되어 상고심에 계속된 사건은 무죄판결 부분에 대한 공소이므로, 파기할 때에는 무죄 부분만을 파기</strong></span> → <span class=\"cs-u\">이미 확정된 유죄부분을 심판·파기하는 것은 상소이론에 부합하지 않</span>으므로 <span class=\"cs-red\"><strong>일부파기설 타당</strong></span><span class=\"cs-exam\">【변24·19·16 빈출】</span>","k":"1ijuvu2"},
+  {"i":"ae5e5e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>상소심 법원 및 파기환송심 법원의 조치</strong></span><span class=\"cs-exam\">【변사25】</span>","k":"euy8bc"},
+  {"i":"86xrw4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[항소심]</span> 유죄부분은 이심되지 않고 분리·확정 → 항소한 무죄부분만 심판·파기 자판 → 이 경우 이미 확정된 범죄와 항소심이 파기하여 유죄를 선고하는 범죄는 <span class=\"cs-red\"><strong>형법§37 후단 경합범 관계이므로 형법§39①에 따라 동시 판결할 경우와 형평을 고려하여 형을 감경·면제 가능</strong></span>, 불이익변경금지원칙이 적용되면 예외적으로 <span class=\"cs-red\"><strong>'형을 선고하지 아니한다'는 주문 선고 가능</strong></span>","k":"nclmph"},
+  {"i":"1fib37v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[상고심]</span> 이심된 무죄부분만 심판·파기 환송 → 환송심법원도 무죄부분만 다시 심판(형법§39① 및 형 선고하지 않는 주문 동일하게 적용)","k":"144vxhn"},
+  {"i":"32ehyt","o":"<div class=\"cs-h\">","h":"Ⅴ. 일부상소가 가능한 경우인데 전부상소한 경우","k":"8sgkwq"},
+  {"i":"1pc0g6r","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>검사와 피고인 쌍방이 각 일부 상소한 경우</strong></span>","k":"1jj5i64"},
+  {"i":"b1v3oo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[전부 이심]</span> 검사가 무죄부분, 피고인이 유죄부분을 상소한 경우 각자는 일부상소이지만 전체적으로는 전부상소이므로 <span class=\"cs-red\"><strong>원심판결 전부가 확정되지 않고 전부 이심</strong></span>","k":"198pi1p"},
+  {"i":"49onkr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>항소심이 일부 유죄·일부 무죄를 선고하고 쌍방이 상고하였으나 유죄부분에 대한 피고인의 상고는 이유 없고 무죄부분에 대한 검사의 상고만 이유 있는 경우, 유죄로 인정한 죄와 무죄로 인정한 죄가 형법§37 전단 경합범 관계라면 항소심판결의 유죄 부분도 무죄 부분과 함께 파기</strong></span>(상고심은 전부 파기 환송)<span class=\"cs-exam\">【변13】</span>","k":"1lfar6t"},
+  {"i":"byqcmn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>검사 또는 피고인이 판결 전부 상소한 경우</strong></span>","k":"13wncg5"},
+  {"i":"1xcskyt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[전부 파기]</span> 경합범 중 일부 유죄·일부 무죄로 판결 주문이 수개일 때 검사가 판결 전부에 상소한 경우, 파기할 때에는 <span class=\"cs-red\"><strong>유죄 부분과 파기되는 무죄 부분이 형법§37 전단 경합범 관계로 하나의 형이 선고되어야 하므로 함께 파기</strong></span>","k":"1bmbryv"},
+  {"i":"qm284n","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[일부 파기]</span> 하나의 형을 선고하기 위해 파기하는 경우를 제외하고는 경합범 관계라도 <span class=\"cs-red\"><strong>개별적으로 파기되는 부분과 불가분의 관계에 있는 부분만 파기</strong></span> → 제1심 일부 무죄·일부 공소기각(공소사실 불특정)에 검사가 전부 항소하였는데 항소심이 석명 미이행 이유로 공소기각 부분을 파기환송하는 경우, 무죄 부분이 공소기각 부분과 불가분 관계가 아니므로 <span class=\"cs-red\"><strong>공소기각 부분만 파기</strong></span>","k":"1cj2vu3"}
+ ]}
+]}

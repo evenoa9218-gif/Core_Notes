@@ -1,0 +1,64 @@
+{"id":"개인007","t":"폭행의 개념","cat":"gak_생명신체","lv":1,"tg":["모사20","모사17"],"b":[
+ {"i":"15wc2gh","o":"<details class=\"cs-case\">","b":[
+  {"i":"37xr4c","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE] 자동차로 부딪칠 듯 조금씩 전진 반복 → 특수폭행</strong></span></span> <span class=\"cs-red\">(10)</span>","k":"1229v7o"},
+  {"i":"ybws3r","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"19y1o3x","o":"<div class=\"cs-fact\">","b":[
+    {"i":"agmwj9","o":"<div class=\"cs-callout\">","b":[
+     {"i":"b4ql3g","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"층간소음으로 다툼 있던 아랫층 A가 항의하러 甲 차 앞을 가로막음 → 甲이 부딪힐 듯 차를 조금씩 전진, A가 물러나면 다시 전진 반복.","k":"1s76o7l"},
+     {"i":"1z13trj","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲의 죄책은? <span class=\"cs-red\">(10점)</span>","k":"4x47pd"}
+    ]}
+   ]},
+   {"i":"1d9spyi","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"v33yr7","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1vuxv3v","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) 폭행죄: [폭행]</strong>","k":"6qvinh"},
+    {"i":"flyeja","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 폭행죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제260조 제1항</strong></span></span>) = 사람의 신체에 대한 유형력 행사, 신체 직접 접촉 不要","k":"1a8upxk"},
+    {"i":"j4pmka","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 차 가로막은 A에게 부딪칠 듯 조금씩 전진 반복 = 위법한 유형력 행사 → 폭행<span class=\"cs-o\"><strong>(O)</strong></span>","k":"17zqtds"},
+    {"i":"15dp3kk","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) 특수폭행죄: [위험한 물건을 휴대하여]</strong>","k":"1xv4bbb"},
+    {"i":"1oygb0e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(가) [위험한 물건]</strong>","k":"10hrq22"},
+    {"i":"sf0j5l","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"① 특수폭행죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제261조</strong></span></span>)의 '위험한 물건' = 흉기 아니어도 생명·신체에 해를 가하는 데 쓸 수 있는 일체의 물건 판단기준 = 사회통념상 그 물건 사용 시 상대방·제3자가 생명·신체에 위험을 느낄 수 있는지","k":"388k0k"},
+    {"i":"9ejn85","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"② 폭행에 사용한 자동차 → 위험한 물건<span class=\"cs-o\"><strong>(O)</strong></span>","k":"6b0m4c"},
+    {"i":"1j30gz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(나) [휴대하여]</strong>","k":"6c750a"},
+    {"i":"ofdx0o","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"① '휴대' = 소지뿐 아니라 널리 이용하는 것도 포함","k":"agmxim"},
+    {"i":"1dhiqlr","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"② 자동차 이용 → 휴대<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1uhjrww"},
+    {"i":"lqgxc5","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> 甲 = A에 대한 특수폭행죄","k":"1ctd9sy"}
+   ]}
+  ]}
+ ]},
+ {"i":"1ccfki0","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1y48a2f","o":"<div class=\"cs-h\">","h":"Ⅰ. 최협의 폭행","k":"1idt74q"},
+  {"i":"1c0s4zc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[강도</strong><strong>·</strong><strong>준강도]</strong></span> : <span class=\"cs-def\"><span class=\"cs-u\">사람의 반항 억압할 정도의 </span><span class=\"cs-u\">폭행·협박</span></span> (일반강도와의 균형) → <span class=\"cs-def\">일반적, 객관적으로 체포·재물탈환 의사 제압할 정도</span>라고 인정될 만한 폭행·협박","k":"1w7dcwm"},
+  {"i":"1jdvno5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\">반드시 <span class=\"cs-u\"><strong>현실적으로 반항 억압 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span></span> — 일반적·객관적으로 반항억압수단으로서 가능하다 인정될 정도면 <span class=\"cs-o\"><strong>(O)</strong></span>","k":"1hbueto"},
+  {"i":"1hkf1tm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-gbg\">[절도범이 피해자의 심한 폭력 피하려 엉겁결에 솥뚜껑 들어 막다 피해자가 그에 스쳐 상처]</span> 준강도 폭행<span class=\"cs-x\"><strong>(X)</strong></span>","k":"2m3krf"},
+  {"i":"pv7qlx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[강간</strong><strong>·유사강간</strong><strong>]</strong></span> <span class=\"cs-def\"><span class=\"cs-u\">항거 불가능 or 현저히 곤란케 할 정도</span></span>","k":"opgmoc"},
+  {"i":"1iwk05y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[간음 목적으로 새벽4시 방문 부술 기세로 두드리고, 피해자가 위험을 느끼고 가까이 오면 창문으로 뛰어내리겠다고 하는데도 베란다를 통한 창문 침입 시도]</span> 강간 수단 폭행 착수<span class=\"cs-o\"><strong>(O)</strong></span>","k":"t5h5sd"},
+  {"i":"cbd47g","o":"<div class=\"cs-h\">","h":"Ⅱ. 협의 폭행","k":"1ryttaf"},
+  {"i":"1hzf9uy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[폭행]</strong></span> : <span class=\"cs-def\"><span class=\"cs-u\">신체에 대한 유형력 행사 = 신체적 고통 주는 물리력의 작용</span></span>","k":"vcflf4"},
+  {"i":"xwwpnr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\">신체 접촉 불요</span>, 다만 폭행죄는 <span class=\"cs-def\">신체 완전성 보호 목적</span> (<span class=\"cs-gbg\">심리적 불안감</span> 보호 목적<span class=\"cs-green\"><strong> X</strong></span>)","k":"5d27jc"},
+  {"i":"9cv1q","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[강제추행]</strong></span> 폭행·협박 = <span class=\"cs-def\"><span class=\"cs-u\">신체에 대한 불법한 유형력 행사(폭행)</span></span> or <span class=\"cs-def\"><span class=\"cs-u\">일반적으로 공포심 일으킬 정도의 해악 고지(협박)</span></span>","k":"1cde6i0"},
+  {"i":"z9vrvz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<strong>전합 변경</strong>: [<span class=\"cs-red\"><strong>폭행·협박선행형 강제추행</strong></span>도 폭행죄·협박죄와 동일하게 변경, <span class=\"cs-red\"><strong>성폭법</strong></span>도 적용]","k":"8esbc0"},
+  {"i":"hyyuhz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"1apywd9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-o\"><strong>(O)</strong></span> : <span class=\"cs-fact-tag\">[어린애 업은 사람 넘어뜨림]</span> 어린애에 대해서도 폭행<span class=\"cs-o\"><strong>(O)</strong></span> → <span class=\"cs-red\"><strong>폭행치사죄</strong></span><span class=\"cs-exam\">【변16】</span>","k":"9hu7vg"},
+  {"i":"19yqls1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[공간적으로 신체에 근접, 고성 폭언·욕설하며 손발·물건 휘두르거나 던지는 행위]</span> 폭행<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변18】【모사17】</span>","k":"1i3vtn"},
+  {"i":"vrbsv2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[자동차로 부딪칠 듯 조금씩 전진 반복]</span> 위법 유형력 행사<span class=\"cs-o\"><strong>(O)</strong></span> <span class=\"cs-red\"><strong>[특수폭행죄]</strong></span><span class=\"cs-exam\">【변26·23】【모사20】</span>","k":"it7nni"},
+  {"i":"vv2650","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[운행중인 자동차 운전자 폭행하여 상해]</span> <span class=\"cs-blue\">특가법 §5의10②</span> 충족<span class=\"cs-o\"><strong>(O)</strong></span> — 교통사고 없이 직접 운전자 상해만 발생시켜도 <span class=\"cs-red\"><strong>특가법위반(운전자폭행등)죄</strong></span> 성립<span class=\"cs-exam\">【변16】</span>","k":"tqebfu"},
+  {"i":"1u7qpin","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-x\"><strong>(X)</strong></span> : <span class=\"cs-gbg\">[욕설만/대문 발로 참]</span> 신체 유형력 행사<span class=\"cs-x\"><strong>(X)</strong></span>","k":"o8jc8a"},
+  {"i":"gr180j","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-gbg\">[죽여버린다 폭언하며 시정된 방문 수회 발로 참]</span> 신체 유형력 행사<span class=\"cs-x\"><strong>(X)</strong></span> → <span class=\"cs-green\"><strong>폭행죄<span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"1ji4j1g"},
+  {"i":"1vnnqek","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[음향]</span>","k":"yv7416"},
+  {"i":"1rj2ri0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-o\"><strong>(O)</strong></span> : [<span class=\"cs-fact-tag\">청각기관 직접 자극 음향</span>] → 유형력 포함 가능","k":"cvsw6w"},
+  {"i":"rt9wn8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-x\"><strong>(X)</strong></span> : [<span class=\"cs-gbg\">멀리 떨어진 자에게 전화로 고성· 그 전화대화 녹음 후 청취</span>하게 한 경우] → <span class=\"cs-red\">특별한 사정</span> 없는 한 <span class=\"cs-green\">유형력 <strong>X</strong></span>","k":"qd23o3"},
+  {"i":"r5bhy2","o":"<div class=\"cs-h\">","h":"Ⅲ. 광의 폭행","k":"818bok"},
+  {"i":"13vq5my","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":": <span class=\"cs-def\"><span class=\"cs-u\">사람에 대한 </span><span class=\"cs-u\"><strong>직·</strong></span><span class=\"cs-u\"><strong>간접</strong></span><span class=\"cs-u\"><strong>적</strong></span><span class=\"cs-u\"> 유형력 행사</span></span><strong> [</strong><span class=\"cs-def\"><strong>특수도주죄</strong></span><strong> 등]</strong>","k":"udjb8u"},
+  {"i":"1v5gm9k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[강요죄]</strong></span> 폭행 = <span class=\"cs-red\">직접</span>뿐 아니라 <span class=\"cs-red\">간접적 </span>유형력 행사 포함, <span class=\"cs-green\">신체에 한정 <strong>X</strong></span>","k":"1j2lasz"},
+  {"i":"em7loe","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[공무집행방해죄]</strong></span> 폭행 = 공무집행 공무원에 <span class=\"cs-red\">직·간접적</span> 유형력 행사","k":"154ti0l"},
+  {"i":"1yptj80","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[파출소 바닥에 인분 던진 경우]</span> 폭행 <span class=\"cs-o\"><strong>(O)</strong></span>","k":"24ee2h"},
+  {"i":"1jai4hs","o":"<div class=\"cs-h\">","h":"Ⅳ. 최광의 폭행","k":"11jv2qh"},
+  {"i":"ikedbm","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":": <span class=\"cs-def\"><span class=\"cs-u\"><strong>일체의 유형력</strong></span></span><span class=\"cs-u\"> 행사</span> <span class=\"cs-def\"><strong>[내란죄·소요죄]</strong></span>","k":"18gu293"},
+  {"i":"11oydpc","o":"<div class=\"cs-h\">","h":"Ⅴ. 특수폭행치상죄","k":"71f65z"},
+  {"i":"13nogo5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"[<span class=\"cs-statute\"><strong>‘다중’</strong></span>] : <span class=\"cs-def\"><span class=\"cs-u\">단체 못 이룬 다수인의 집합</span></span> = <span class=\"cs-def\"><span class=\"cs-u\">집단적 위력 보일 정도</span></span><span class=\"cs-u\"> or </span><span class=\"cs-def\"><span class=\"cs-u\">압력을 느끼게 해 불안을 줄 정도의 다수</span></span> 의미 → [3인] 다중 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"1vver8w"},
+  {"i":"16ltss","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"[<span class=\"cs-statute\"><strong>'위력'</strong></span>] : <span class=\"cs-def\"><span class=\"cs-u\">사람의 의사 제압하기에 족한 세력</span></span><span class=\"cs-u\"> → </span><span class=\"cs-green\"><span class=\"cs-u\">현실적 제압은 불요</span></span>, <span class=\"cs-def\">의사제압할 세력 인식시킬 정도</span>는 되어야","k":"1ihl7wf"},
+  {"i":"j3ru0x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-stat\">폭행의 고의와 상해의 고의 구별 : </span>","k":"eyk0cm"},
+  {"i":"1jddn76","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<strong>[특수폭행치상=상해의 예]</strong> <span class=\"cs-statute\">특수폭행치상</span> = <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§258의2(특수상해)</strong></span></span> 신설에도 불구, 종전대로 <span class=\"cs-statute\"><span class=\"cs-u\">§257①(상해죄)</span>의 예로 처벌</span> <span class=\"cs-fact-tag\">[자동차로 충격하여 상해]</span><span class=\"cs-exam\">【변26·22】</span>","k":"1jd4whf"},
+  {"i":"1809xl8","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"&gt;","k":"yhg1fv"},
+  {"i":"1epi7jr","o":"<div class=\"cs-li\" style=\"margin-left:32px\">","h":"<span class=\"cs-stat\"><strong>['특수폭행치상'≠'특수상해’] </strong><span class=\"cs-u\">폭행의 고의만 O + 상해 발생 : 특수폭행치상(§257의 예)</span> ↔ <span class=\"cs-u\">상해의 고의 O : 특수상해</span></span>","k":"lwyd0t"}
+ ]}
+]}

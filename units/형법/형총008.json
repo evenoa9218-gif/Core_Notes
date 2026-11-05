@@ -1,0 +1,20 @@
+{"id":"형총008","t":"인과관계 판례","cat":"chong_02","lv":1,"tg":[],"b":[
+ {"i":"1tzfuvs","o":"<div class=\"cs-h\">","h":"Ⅰ. 의료사고","k":"1trcg5v"},
+ {"i":"q11kyb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>인과관계 증명</strong>","k":"mh88u5"},
+ {"i":"8jrtkf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[엄격증명]</span> 의사 업무상과실치사상 인정 = ① 의료행위 중 업무상과실 존재 + ② 그 과실로 환자 상해·사망 '결과' 발생도 엄격한 증거로 합리적 의심 없을 정도 증명 要 <span class=\"cs-fact-tag\">[검사 증명책임]</span>","k":"1izhzi2"},
+ {"i":"zng9fm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[과실증명만으론 X]</span> 업무상과실 증명된 사정만으로 인과관계 추정·증명정도 경감 X","k":"145crvc"},
+ {"i":"1it73u0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[민사와 상이 가능]</span> 형사재판 = 인과관계 '합리적 의심 없을 정도' 증명 要 → 동일 사안 민사재판과 판단 달라질 수 O","k":"htzjit"},
+ {"i":"1gb8prj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>의사의 설명의무 위반 (주의의무위반 관련)</strong>","k":"1uabcmd"},
+ {"i":"1j82j9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[상당인과관계 要]</span> 설명의무 위반한 채 의료행위로 상해 발생해도, 업무상과실 형사책임 = 피해자 상해 ↔ 설명의무 위반·승낙취득 과정 잘못 사이 상당인과관계 存 要","k":"fhpki2"},
+ {"i":"ry6fh9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[거부 증명 要]</span> 설명의무 위반 형사책임 = 위험성 설명했더라면 환자가 시술 거부했을 것이 합리적 의심 없이 증명되어야<span class=\"cs-exam\">【변23】</span>","k":"1oh7ec3"},
+ {"i":"30pg1k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[봉침시술]</span> 문진상 과거 봉침 이상반응 X 답변에 충분한 사전설명 없이 봉침시술 → 쇼크 상해, 설명의무 다했어도 반드시 거부했을 것 볼 수 X → 설명의무 위반 ↔ 상해 상당인과관계 인정 곤란<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1x3tx4z"},
+ {"i":"1y1204j","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[간경변 수술]</span> 고령 간경변 환자에 출혈·신부전 생명위험 미설명 후 수술 중 출혈로 사망, 위험성 충분 인식해 설명의무 다했어도 수술 거부 안했을 것 인정되면 설명의무위반 ↔ 사망 인과관계 부정<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변17】</span>","k":"1qa02i1"},
+ {"i":"1kppnd","o":"<div class=\"cs-h\">","h":"Ⅱ. 교통사고","k":"9sxvib"},
+ {"i":"mwqnz7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[급정차 끼어들기]</span> 2차로 주행 중 1차로 甲 차 앞 급하게 끼어든 후 곧바로 정차 → 甲 및 뒤차 2대 연이어 급제동, 그 뒤 乙 차가 연쇄추돌로 乙 사망: 다른 운전자들이 제한속도·안전거리 완전히 안 지킬 수도 있음 알았거나 알 수 있었음 → 정차행위 ↔ 사상 상당인과관계 O + 예견가능성 O <span class=\"cs-fact-tag\">[일반교통방해치사죄]</span><span class=\"cs-exam\">【변16】</span>","k":"v0j6gz"},
+ {"i":"blf3vr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[정차 후 추돌]</span> 이미 정차했는데 뒤차 충돌로 앞차 충격 사고: 안전거리 미준수 위법 있어도 결과와 인과관계 단정 X","k":"12vaqey"},
+ {"i":"16fq59c","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[급정거 넘어짐]</span> 운전자 주의의무 위반이 사고의 직접 원인 → 직접 충격 아니고 급정거에 놀란 보행자가 도로에 넘어져 상해라도 주의의무 위반 ↔ 사고 상당인과관계 O<span class=\"cs-exam\">【변25】</span>","k":"1xdts8c"},
+ {"i":"yhc3ag","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[시동열쇠 방치]</span> 시동 끄고 1단 기어·시동열쇠 끼운 채 11세 어린이 조수석에 두고 하차한 동안 어린이가 열쇠 돌리고 액셀 밟아 사고: 손브레이크 채우고 열쇠 빼는 등 조치할 주의의무 게을리한 과실 ↔ 사고결과 인과관계 O","k":"rp6q43"},
+ {"i":"1igrj5x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[좌회전금지구역 좌회전]</span> 좌회전금지구역 좌회전 잘못이나 50m 후방 후행차량이 중앙선 넘어 좌측 돌진하는 극히 비정상적 진행까지 예상해 방지조치할 주의의무 X → 좌회전 ↔ 사고 상당인과관계 X","k":"tvfkwv"},
+ {"i":"oj1h1h","o":"<div class=\"cs-h\">","h":"Ⅲ. 기타","k":"thmjy1"},
+ {"i":"1t3qen2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[가스폭발]</span> ① <span class=\"cs-fact-tag\">[임차인]</span> 과실 ↔ 가스폭발 상당인과관계 O ② <span class=\"cs-neg-tag\">[임대인]</span> 임차인이 아무 조치 없이 임의로 휴즈콕크 제거해 갔으리라 상상 곤란 → 임대 시 휴즈콕크 제거 사실 미발견으로 하자 있는 주택 임대했어도 가스폭발 과실책임 인정 곤란<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1z0xd8"}
+]}

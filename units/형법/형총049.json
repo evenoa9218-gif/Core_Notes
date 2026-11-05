@@ -1,0 +1,123 @@
+{"id":"형총049","t":"제33조 공범과 신분","cat":"chong_06","lv":1,"tg":[],"b":[
+ {"i":"1atm8l3","o":"<details class=\"cs-case\">","b":[
+  {"i":"tfcwtl","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] (1) 비신분자 존속살해 교사 (15점)</strong></span>","k":"oceqh3"},
+  {"i":"z23eip","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"19dz3rf","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1aok10z","o":"<div class=\"cs-callout\">","b":[
+     {"i":"z4khwt","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"X회사 자금담당 甲女, 공무원·타짜 유부남 乙男 사랑. 甲의 父 A가 만남 방해. 乙이 甲에게 \"차라리 A를 죽이라\". 甲이 A 살해. 甲·乙 죄책?","k":"9ksxdi"}
+    ]}
+   ]},
+   {"i":"1msayjw","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"jd6nxx","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"t3wb0g","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [甲의 죄책]</strong> 자신의 父 A 살해 → 존속살해죄 성립(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§250</strong></span></span>②)","k":"14bhrsk"},
+    {"i":"a5c6yr","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [乙의 죄책]</strong>","k":"b55tjk"},
+    {"i":"blesb4","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 존속살해죄 = 신분 때문에 형의 경중 달라지는 경우","k":"66dcdp"},
+    {"i":"1icg9j7","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 비신분자가 부진정신분범 가담 시 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33</strong></span></span> 본문·단서 관계: 진정·부진정신분범 구별설(비신분자에 통상범죄 성립·그 법정형 처벌) vs 성립·과형 구별설(비신분자에도 부진정신분범 성립, 단서 적용되어 통상범죄 법정형 처벌). 판례 = 성립·과형 구별설. <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33</strong></span></span>은 본문·단서 형식 → 단서는 본문 적용 전제 = 문언 충실 → 성립·과형 구별설 타당","k":"nt7a0p"},
+    {"i":"1d9s7rp","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 판례에 의하면 乙 = <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33</strong></span></span> 본문에 의해 존속살해교사죄 성립, <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33</strong></span></span> 단서 적용되어 보통살인교사죄 형으로 처벌","k":"18x53ta"},
+    {"i":"1oubf1d","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> 甲 = 존속살해죄, 乙 = 존속살해죄 죄책이나 단순살인죄 형으로 처벌","k":"1g922za"}
+   ]}
+  ]}
+ ]},
+ {"i":"fz9kie","o":"<details class=\"cs-case\">","b":[
+  {"i":"ybdwju","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] (2) 상습도박자의 단순도박 방조 (10점)</strong></span>","k":"xqeokl"},
+  {"i":"1s7pna8","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"9ifcbu","o":"<div class=\"cs-fact\">","b":[
+    {"i":"wo71le","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1bswrbv","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲, A 살해 후 우울증. 상습도박자 乙에게 도박 방법 알려달라 함. 乙이 포커 방법·도박장 위치 알려줌. 甲 혼자 도박장 가서 처음 도박·돈 다 잃음. 甲·乙 죄책?","k":"f3w5r5"}
+    ]}
+   ]},
+   {"i":"197xix9","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"uq361g","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"mx6qx","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [甲의 죄책]</strong> 포커 도박 → 도박죄 성립(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§246</strong></span></span>①)","k":"1fmxndo"},
+    {"i":"186tjb6","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [乙의 죄책]</strong>","k":"b55tjk"},
+    {"i":"djbte0","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 乙은 이미 도박 결의한 甲에게 방법·위치 알려줌 → 방조범(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§32</strong></span></span>①)","k":"jzhs6o"},
+    {"i":"22kc8f","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 신분 있는 자가 신분 없는 자를 교사해 죄 범하게 한 때 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33</strong></span></span> 단서가 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§31</strong></span></span>①에 우선 적용 → 신분 있는 교사범이 신분 없는 정범보다 중하게 처벌","k":"1fqwzjo"},
+    {"i":"9rsf31","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 상습도박죄·상습도박방조죄의 상습성 = 행위 속성 아닌 '행위자 속성'으로 도박 반복하는 습벽. 습벽 있는 자가 타인 도박 방조하면 상습도박방조죄","k":"1hfl8ef"},
+    {"i":"1fa6n60","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"④ 상습성 있는 乙(→답안상 甲/乙)이 도박 방조 → 상습도박방조죄 성립(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§246</strong></span></span>②·<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§32</strong></span></span>①·<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33</strong></span></span>단서)","k":"zpzyj9"},
+    {"i":"1a3aj7g","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> 甲 = 도박죄, 乙 = 상습도박방조죄","k":"1o480ob"}
+   ]}
+  ]}
+ ]},
+ {"i":"ygjoad","o":"<details class=\"cs-case\">","b":[
+  {"i":"vpt9bw","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] (3) 비신분자 업무상횡령 공모 (10점)</strong></span>","k":"14m5cr4"},
+  {"i":"1cmazgj","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"jzdjt5","o":"<div class=\"cs-fact\">","b":[
+    {"i":"8eyn3l","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1gy26d9","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲·乙이 X회사 계좌 자금 빼돌리기로 공모. 乙 대포계좌 확보, 甲 회사 출근해 회사 계좌에서 대포계좌로 1억 이체. 甲·乙 죄책?","k":"h2sihw"}
+    ]}
+   ]},
+   {"i":"1l02fce","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"18bip2v","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"14oajrv","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [甲의 죄책]</strong> 甲 = X회사 자금담당·업무상 회사 계좌 돈 보관 지위. 乙과 공모해 1억 대포계좌 이체 → 업무상횡령죄 공동정범(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§356</strong></span></span>·<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§355</strong></span></span>①)","k":"12d0lop"},
+    {"i":"1wli0g1","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [乙의 죄책]</strong>","k":"b55tjk"},
+    {"i":"jv5ud4","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 업무상 보관자 신분 없는 乙이 신분 있는 甲과 공모: 진정·부진정신분범 구별설(비신분자에 단순횡령죄 공동정범 성립·그 형 처벌) vs 성립·과형 구별설(비신분자에도 업무상횡령죄 공동정범 성립하나 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33</strong></span></span> 단서로 단순횡령죄 형 처벌)","k":"27bgj"},
+    {"i":"1j160en","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 판례 = 성립·과형 구별설","k":"1i2spj"},
+    {"i":"137etip","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33</strong></span></span> 본문·단서 형식 → 단서는 본문 적용 전제 = 문언 충실 → 성립·과형 구별설 타당","k":"1elnlnw"},
+    {"i":"d2cq64","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"④ 乙 = 업무상횡령죄 공동정범 성립하나 단순횡령죄 형으로 처벌","k":"5umko6"},
+    {"i":"lpwf6v","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> 甲 = 업무상횡령죄 공동정범, 乙 = 업무상횡령죄 공동정범 죄책이나 단순횡령죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§355</strong></span></span>①) 형으로 처벌","k":"1hjq75j"}
+   ]}
+  ]}
+ ]},
+ {"i":"n0co2c","o":"<details class=\"cs-case\">","b":[
+  {"i":"1176nhw","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] (4) 고의 없는 공무원 처의 뇌물 (10점)</strong></span>","k":"3f2x15"},
+  {"i":"74ikf6","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1j5vk6g","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1nc25u8","o":"<div class=\"cs-callout\">","b":[
+     {"i":"s79f7o","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"공무원 乙의 처 丙, B로부터 남편 乙에게 농지전용허가 신청 잘 처리해달라 부탁받음. 丙은 乙이 돈 안 받을 것으로 생각, 乙에게는 자신이 B에 빌려준 돈 돌려받는 것이라 속여 乙 계좌로 100만원 받게 함. 乙·丙 죄책?","k":"16rzwv0"}
+    ]}
+   ]},
+   {"i":"5r4cen","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"f1a8ly","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"156wa6e","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [乙의 죄책]</strong> 공무원 乙은 뇌물수수 고의 없어 뇌물수수죄 X(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§129</strong></span></span>)","k":"ax9wq9"},
+    {"i":"10q907n","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [丙의 죄책]</strong> (가) [교사·방조범 성립여부] 신분자 乙에 뇌물수수 고의 없어 구성요건 해당 X → 공범종속성·제한적 종속형식상 丙 교사·방조범 성립 X (나) [간접정범 성립여부]","k":"tmjisj"},
+    {"i":"tz07i7","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§34</strong></span></span>①","k":"z8pg85"},
+    {"i":"nd02j1","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 간접정범도 정범 → 신분범의 신분·목적 등 정범 요건 충족해야","k":"ilagdw"},
+    {"i":"1hjppyw","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 비신분자 丙 = 공무원 신분 없어 뇌물수수죄 간접정범 성립 X","k":"rw76ow"},
+    {"i":"dev5je","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> 乙·丙 모두 무죄","k":"1wkpdq6"}
+   ]}
+  ]}
+ ]},
+ {"i":"lo6m8b","o":"<div class=\"cs-callout\">","b":[
+  {"i":"k17y3l","o":"<div class=\"cs-h\">","h":"Ⅰ. 신분","k":"th5ezz"},
+  {"i":"axtj54","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"개념: <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33</strong></span></span> 신분관계 = 남녀 성별·내외국인 구별·친족관계·공무원 자격 같은 관계뿐 아니라 널리 일정 범죄행위에 관련된 범인의 인적관계인 <span class=\"cs-fact-tag\">[특수한 지위·상태]</span>","k":"1cf0i2u"},
+  {"i":"w8ec9i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[행위자 관련 표지]</span> 신분 = '행위자 관련 표지', 행위 관련 표지는 신분 X (고의·동기·불법영득의사 X) <span class=\"cs-fact-tag\">[단, 판례상 모해위증교사죄의 모해할 목적 = 가중적 신분]</span>","k":"du7lap"},
+  {"i":"yd73z3","o":"<div class=\"cs-h\">","h":"Ⅱ. 진정신분범 (구성적 신분)","k":"ktwaoi"},
+  {"i":"109be7i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\"><strong>[①유형]</strong></span><strong> 비신분자가 신분자에 가담 (공동정범 포함) – </strong><span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33</strong></span></span><strong> 본문</strong>","k":"wp868a"},
+  {"i":"u6dncl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[비신분자 성립]</span> 비신분자에게 진정신분범의 공동정범·교사범·방조범 성립 인정 可(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33</strong></span></span> 본문)<span class=\"cs-exam\">【변25·12】</span>","k":"jsznq0"},
+  {"i":"9bs2k3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[뇌물수수 공동정범]</span> 비공무원이 공무원과 공동가공 의사·기능적 행위지배로 공무원 직무 관련 뇌물 수수 실행 → 공무원·비공무원 뇌물수수죄 공동정범 성립<span class=\"cs-exam\">【변23·20·12】</span>","k":"1dmp6qh"},
+  {"i":"1tbujue","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[허위공문서작성 공동정범]</span> 비공무원이 공무원과 공동 허위공문서작성죄 범한 때 비공무원도 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33</strong></span></span>에 의해 공동정범","k":"1o1g6mh"},
+  {"i":"1ls9ize","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[허위공문서작성 교사범]</span> 담당 공무원 교사해 무허가 건물 허가받은 건축물처럼 가옥대장 등재·허위공문서 작성케 함 → 허위공문서작성죄 교사범 성립<span class=\"cs-exam\">【변25·12】</span>","k":"13g3ti6"},
+  {"i":"fwd4va","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[아동학대치사 공동정범]</span> 아동학대처벌법위반(아동학대치사)죄 = <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33</strong></span></span> 본문의 '신분관계로 성립될 범죄' → 보호자 신분 없는 남자친구도 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33</strong></span></span> '본문'에 따라 공동정범 성립·아동학대처벌법 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§4</strong></span></span> 형으로 과형 <span class=\"cs-fact-tag\">[상해치사죄 형으로 처벌X]</span>","k":"ymr73t"},
+  {"i":"1qc2cwr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\"><strong>[②유형]</strong></span><strong> 신분자가 비신분자에 가담 – 간접정범 문제 (</strong><span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33</strong></span></span><strong> X)</strong>","k":"vrzcy2"},
+  {"i":"1d90h87","o":"<div class=\"cs-li cs-issue\" style=\"margin-left:16px\">","h":"가. <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33</strong></span></span><strong> 본문 적용 X</strong>","k":"1cspi58"},
+  {"i":"1dwwy73","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[본문 부적용]</span> <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33</strong></span></span> 본문은 문언상 비신분자가 신분자에 가담한 경우에만 적용 → 반대로 신분자가 비신분자에 가담 시 적용 X","k":"13amzg2"},
+  {"i":"mvrqcm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[교사·방조범 X]</span> 비신분자는 신분 없어 정범 될 수 X → 신분자는 교사·방조범 성립 X (제한적 종속형식)","k":"1f48ez2"},
+  {"i":"1x4ki31","o":"<div class=\"cs-li cs-issue\" style=\"margin-left:16px\">","h":"나. <strong>간접정범 – 고의 '없는' 신분 없는 도구</strong><span class=\"cs-exam\"><strong>【모기23】</strong></span>","k":"bbtie0"},
+  {"i":"1qe3cv6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[사실적 의사지배]</span> 신분자가 고의 없는 신분 없는 도구 이용 → <span class=\"cs-fact-tag\">[사실적 의사지배 인정]</span> → 간접정범 성립 可","k":"frzmde"},
+  {"i":"hb1vin","o":"<div class=\"cs-li cs-issue\" style=\"margin-left:16px\">","h":"다. <strong>간접정범 – 고의 '있는' 신분 없는 도구</strong><span class=\"cs-exam\"><strong>【변사25】</strong></span>","k":"bgqfvc"},
+  {"i":"iuz8r0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-hl\">《고의 있는 신분 없는 도구 이용 시 간접정범 성립 여부》</span>","k":"77mk4r"},
+  {"i":"1yesrr","o":"<div class=\"cs-theory\">","b":[
+   {"i":"1fus2nq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: 신분자에 사실적 의사지배 인정 X이나 규범적·사회적 의사지배 인정 가능 → 간접정범 성립(규범적·사회적 의사지배설, 다수설)","k":"b6kx5t"},
+   {"i":"1i406zh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-fact-tag\">[간접정범 긍정]</span> 목적범·신분범에서 목적·신분 없는 자를 도구·손발처럼 이용해 간접으로 구성요소 실행한 자 = 간접정범 처벌","k":"mh0lad"}
+  ]},
+  {"i":"170z86x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[도구의 죄책]</span> 이 경우 도구인 비신분자에게는 방조범 성립 (다수설)","k":"1ri0z4r"},
+  {"i":"uxqs4g","o":"<div class=\"cs-h\">","h":"Ⅲ. 부진정신분범 (가감적 신분)","k":"1yclgc"},
+  {"i":"3jjzhg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\"><strong>[③유형]</strong></span><strong> 비신분자가 신분자에 가담 (공동정범) – </strong><span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33</strong></span></span><strong> 본문 및 단서</strong>","k":"1iqqzcn"},
+  {"i":"1nyjyjf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-hl\">《§33 본문·단서의 관계》</span>","k":"6h93h8"},
+  {"i":"vrh5b","o":"<div class=\"cs-theory\">","b":[
+   {"i":"1xjbmtm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①진정·부진정신분범 구별설(본문=진정신분범 성립·과형, 단서=부진정신분범 성립·과형 → 비신분자에 통상범죄 성립·그 법정형 처벌) ②성립·과형 구별설(본문=진정·부진정신분범 성립, 단서=부진정신분범 과형만 → 비신분자에도 부진정신분범 성립, 단서 적용으로 통상범죄 법정형 처벌)<span class=\"cs-exam\">【변25】</span>","k":"1an2jwl"},
+   {"i":"55do8t","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-fact-tag\">[성립·과형 구별설]</span> 처와 자가 남편 살해 시 처에게도 존속살해죄 공동정범 성립<span class=\"cs-exam\">【변25·12】</span>","k":"8biv8d"},
+   {"i":"ngnw05","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33</strong></span></span> 본문·단서 형식 → <span class=\"cs-fact-tag\">[단서는 본문 적용 전제]</span> = 문언 충실 → 성립·과형 구별설 타당","k":"4zgpzm"}
+  ]},
+  {"i":"1fsw1pf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[TIP]</span> ① 본 학설·판례 입장은 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33</strong></span></span> 해석 전체 논의이나, 사례형에서는 <span class=\"cs-fact-tag\">[③유형(이중의 신분범 포함)]</span>의 경우에만 답안 기재 ② 결국 처벌은 통상범죄 법정형에 의하므로 차이 X, 단 일반사면은 죄 종류 정해 행하고 공소시효도 범죄별 법정형 기준 → 성립·과형 구별설이 행위자에게 불리","k":"14kug83"},
+  {"i":"e9akij","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\"><strong>[④유형]</strong></span><strong> 신분자가 비신분자에 가담 – </strong><span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33</strong></span></span><strong> 단서 (본문 X)</strong>","k":"34nfik"},
+  {"i":"6wikqj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[단서 우선 적용]</span> <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§31</strong></span></span>①은 교사범이 성립·처벌상 정범에 종속한다는 원칙 선언에 불과, 신분관계로 형의 경중 있는 경우 신분 있는 자가 신분 없는 자를 교사해 죄 범하게 한 때 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33</strong></span></span> 단서가 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§31</strong></span></span>①에 우선 적용 → 신분 있는 교사범이 신분 없는 정범보다 중하게 처벌<span class=\"cs-exam\">【변17·16·14】【변사25】</span>","k":"1yma2g7"},
+  {"i":"17hoxkp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[모해할 목적]</span> ① <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§152</strong></span></span>①·② = '범인의 특수한 상태' 차이로 형의 경중 구별 → 모해위증죄 '모해할 목적' = <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33</strong></span></span> 단서 \"신분관계로 형의 경중 있는 경우\" 해당 ② 모해목적 있는 자가 모해목적 없는 정범에 위증 교사 → <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33</strong></span></span> 단서로 모해위증교사죄로 처단 <span class=\"cs-fact-tag\">[이중의 신분범]</span><span class=\"cs-exam\">【변24·23·19·16】</span>","k":"8xx0tm"},
+  {"i":"16ul4wx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[도박의 상습성]</span> ① 상습도박죄·상습도박방조죄의 상습성 = 행위 속성 아닌 '행위자의 속성'으로 도박 반복하는 습벽 ② 습벽 있는 자가 타인 도박 방조 → 상습도박방조죄 ③ 습벽 있는 자가 도박하고 또 도박방조한 경우 상습도박방조죄는 무거운 상습도박죄에 포괄시켜 <span class=\"cs-fact-tag\">[1죄로 처단]</span><span class=\"cs-exam\">【변25·20·16】</span>","k":"1ifyeah"},
+  {"i":"pnkfte","o":"<div class=\"cs-h\">","h":"Ⅳ. 이중의 신분범 (①유형과 ③유형의 결합형) [변사26·18·17, 모사25·24·23]","k":"9dk2w7"},
+  {"i":"1gava4b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[비신분자 가담]</span> 비신분자가 신분자(이중의 신분범)에 가담 시 ① 진정·부진정신분범 구별설: 비신분자는 <span class=\"cs-fact-tag\">[통상범죄(배임죄) 성립]</span>·통상범죄(배임죄) 형 처벌 ② 성립·과형 구별설: 비신분자는 <span class=\"cs-fact-tag\">[이중적 신분범(업무상배임죄) 성립]</span>·통상범죄(배임죄) 형 처벌","k":"1cnkcoz"},
+  {"i":"1jhhi6m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[업무상배임 판례 성립·과형 구별설]</span> 업무상배임죄 = 타인 사무처리 지위 점에서 신분관계로 성립될 범죄 + 업무상 지위 점에서 단순배임죄 가중규정으로 형의 경중 있는 경우 → 신분관계 없는 자가 있는 자와 공모해 업무상배임 저지르면 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33</strong></span></span> 본문에 따라 일단 업무상배임죄 성립, 과형에서만 단순배임죄 법정형 적용<span class=\"cs-exam\">【변25·24·23·21·19·16】</span>","k":"1no3ucj"},
+  {"i":"1mow5ln","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[문언 충실]</span> <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33</strong></span></span> 본문·단서 형식 → 단서는 본문 적용 전제 = 문언 충실 → 성립·과형 구별설 타당","k":"8e2yo5"},
+  {"i":"1yi6zuz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[업무상횡령]</span> 업무상횡령죄 = 타인 재물 업무상 보관자 주체 신분범 → 신분관계 없는 자가 있는 자와 공모해 업무상횡령 저지르면 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33</strong></span></span> 단서에 의해 <span class=\"cs-fact-tag\">[단순횡령죄 정한 형으로 처단]</span> <span class=\"cs-fact-tag\">[본문에 의하여 업무상횡령죄 성립]</span>","k":"28jz1w"}
+ ]}
+]}

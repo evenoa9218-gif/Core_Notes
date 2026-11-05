@@ -1,0 +1,118 @@
+{"id":"개인018","t":"촬영물이용범죄","cat":"gak_성범죄","lv":1,"tg":["변사22","변사21","모기25","변21","변26","변25","변24"],"b":[
+ {"i":"18zdr1b","o":"<details class=\"cs-case\">","b":[
+  {"i":"1y9gjec","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE] 합의촬영 성관계 동영상 캡처로 채무변제 협박</strong></span></span> <span class=\"cs-exam\">【변사22】 </span><span class=\"cs-red\">(15)</span>","k":"xz3hgi"},
+  {"i":"e5xyzt","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"2xo483","o":"<div class=\"cs-fact\">","b":[
+    {"i":"14gy1uj","o":"<div class=\"cs-callout\">","b":[
+     {"i":"wk1w5j","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"丙, 유흥비 마련 위해 메신저로 옛 여자친구 B에게 \"내일까지 빌려간 100만 원 갚아라. 안 그러면 네 가족·친구들이 이 동영상을 보게 될 것\" + 과거 합의하에 촬영한 성관계 동영상 캡처 사진 첨부 → B는 겁먹고 경찰 신고.","k":"1fmdnqs"},
+     {"i":"1iqg3bj","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"丙의 죄책은? <span class=\"cs-red\">(15점)</span>","k":"ksd0kv"}
+    ]}
+   ]},
+   {"i":"8ajmo4","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"nh06e5","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"fovvhe","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [성폭법위반(카메라등이용촬영)]</strong></span>","k":"gv503e"},
+    {"i":"1z0o9zn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① <span class=\"cs-statute\">성폭법 </span><span class=\"cs-blue\"><span class=\"cs-u\">제14조</span> 제1항</span>의 '사람의 신체' = 신체 그 자체를 직접 촬영하는 것만 의미, 신체 이미지가 담긴 영상 촬영은 해당<span class=\"cs-x\"><strong>(X)</strong></span>","k":"13v2d0r"},
+    {"i":"1qmf4fy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 성관계 동영상 캡처 → 본죄 구성<span class=\"cs-x\"><strong>(X)</strong></span>","k":"475bjv"},
+    {"i":"cqz18d","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [성폭법위반(카메라등이용촬영물반포등)]</strong></span>","k":"eqqum8"},
+    {"i":"cdat3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 합의 촬영이라 촬영 당시엔 B 의사에 반하지 않았으나, 캡처 사진은 '촬영물 또는 복제물'<span class=\"cs-o\"><strong>(O)</strong></span> → B 의사에 반해 제공하면 본죄 성립","k":"1cwlbj7"},
+    {"i":"1iwizce","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 본죄는 유포 방지로 피해자를 보호하는 규정 → 피해자 본인은 <span class=\"cs-blue\"><span class=\"cs-u\">제14조</span> 제2항</span>의 제공 상대방인 '특정한 1인 또는 소수의 사람'에 포함<span class=\"cs-x\"><strong>(X)</strong></span>","k":"fw01r9"},
+    {"i":"1x9d2nu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ B 본인에게 전송 → '제공'으로 인한 본죄 구성<span class=\"cs-x\"><strong>(X)</strong></span>","k":"4qipjv"},
+    {"i":"yc3xqx","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(3) [공갈죄]</strong></span>","k":"1mmovrc"},
+    {"i":"oojupi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 권리행사 수단으로 해악 고지 시 공갈죄 성부 :","k":"aj9d73"},
+    {"i":"n677rh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"긍정설(갈취의 불법)/ 부정설(영득의 불법)","k":"eaviyj"},
+    {"i":"mjx9io","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판례 = \"정당한 권리 실현 수단이어도 수단·방법이 사회통념상 허용 범위를 넘으면 공갈죄 실행의 착수\" → 긍정설.","k":"1rrnbs7"},
+    {"i":"1w8jgdu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"사회통념상 용인 곤란한 협박이면 불법영득의사 인정 가능 → 긍정설 타당","k":"flyeau"},
+    {"i":"pmdyxd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 협박했으나 돈 못 받음 → 공갈미수죄(<span class=\"cs-blue\"><span class=\"cs-u\">제352조</span>, <span class=\"cs-u\">제350조</span> 제1항</span>)","k":"uxw93g"},
+    {"i":"1sek4xf","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(4) [성폭법위반(촬영물등이용협박)죄]</strong></span>","k":"14uy9hb"},
+    {"i":"zw357d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 촬영물·복제물(동영상 및 캡처 사진)로 협박 → 성폭법위반(촬영물등이용협박)죄(<span class=\"cs-blue\">성폭법 <span class=\"cs-u\">제14조의3</span> 제1항</span>)<span class=\"cs-o\"><strong>(O)</strong></span>","k":"wc2h7b"},
+    {"i":"1pqaipf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② <span class=\"cs-blue\"><span class=\"cs-u\">제14조의3</span> 제2항</span>의 '의무 없는 일' = 법률상 의무 없는 일 → 빌려준 돈 변제 요구는 법률상 의무 있는 일 → 성폭법위반(촬영물등이용강요)죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"2vbsmh"},
+    {"i":"ofrirz","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(5) [결론]</strong></span> 丙 = 공갈미수죄 + 성폭법위반(촬영물등이용협박)죄, 양죄는 상상적 경합","k":"e0s8v4"}
+   ]}
+  ]}
+ ]},
+ {"i":"8tl9gm","o":"<div class=\"cs-callout\">","b":[
+  {"i":"18pw682","o":"<div class=\"cs-callout\">","b":[
+   {"i":"1ewdnpa","o":"<details class=\"cs-case\">","b":[
+    {"i":"1cogn6r","o":"<summary>","h":"<strong>(성폭법)</strong> <span class=\"cs-blue\"><strong>제14조(카메라 등을 이용한 촬영)</strong></span>","k":"h3uq0w"},
+    {"i":"1kpc3wo","o":"<div class=\"cs-case-in\">","b":[
+     {"i":"1fzjf8y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 카메라나 그 밖에 이와 유사한 기능을 갖춘 기계장치를 이용하여 <span class=\"cs-statute\"><span class=\"cs-u\">성적 욕망 또는 수치심을 유발할 수 있는</span></span> <span class=\"cs-statute\"><span class=\"cs-u\">사람의 신체</span></span>를 촬영대상자의 <span class=\"cs-statute\"><span class=\"cs-u\">의사에 반하여</span></span> <span class=\"cs-statute\"><strong>촬영</strong></span>한 자는 <span class=\"cs-red\">7년 이하의 <strong>징역</strong></span> 또는 <span class=\"cs-red\">5천만원 이하의 <strong>벌금</strong></span>에 처한다.","k":"blt799"},
+     {"i":"wl504i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 제1항에 따른 <span class=\"cs-u\">촬영물 또는 복제물</span>(복제물의 복제물을 포함한다. 이하 이 조에서 같다)을 <span class=\"cs-blue\"><strong>반포</strong></span>·판매·임대·제공 또는 공공연하게 전시·상영(이하 \"반포등\"이라 한다)한 자 또는 제1항의 촬영이 촬영 당시에는 촬영대상자의 의사에 반하지 아니한 경우(자신의 신체를 직접 촬영한 경우를 포함한다)에도 사후에 그 촬영물 또는 복제물을 촬영대상자의 의사에 반하여 반포등을 한 자는 <span class=\"cs-red\">7년 이하의 <strong>징역</strong></span> 또는 <span class=\"cs-red\">5천만원 이하의 <strong>벌금</strong></span>에 처한다.","k":"1lm9s8j"}
+    ]}
+   ]},
+   {"i":"1iwo1wf","o":"<details class=\"cs-case\">","b":[
+    {"i":"1czbqcy","o":"<summary>","h":"<strong>(성폭법)</strong> <span class=\"cs-blue\"><strong>제14조의3(촬영물과 편집물 등을 이용한 협박·강요)</strong></span>","k":"1gwmh1s"},
+    {"i":"2z76cp","o":"<div class=\"cs-case-in\">","b":[
+     {"i":"122nwr8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 성적 욕망 또는 수치심을 유발할 수 있는 <span class=\"cs-u\">촬영물 또는 복제물</span>(복제물의 복제물을 포함한다), <span class=\"cs-blue\"><span class=\"cs-u\">제14조의2</span> 제2항</span>에 따른 편집물등 또는 복제물(복제물의 복제물을 포함한다)을 이용하여 사람을 <span class=\"cs-blue\"><strong>협박</strong></span>한 자는 <span class=\"cs-red\">1년 이상의 <strong>유기징역</strong></span>에 처한다.","k":"1lkfxkj"},
+     {"i":"uyxwr4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 제1항에 따른 <span class=\"cs-blue\"><strong>협박</strong></span>으로 사람의 <span class=\"cs-u\"><strong>권리행사를 방해하거나 의무 없는 일을 하게</strong></span> 한 자는 <span class=\"cs-red\">3년 이상의 <strong>유기징역</strong></span>에 처한다.","k":"6b5mtu"},
+     {"i":"kivzit","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 상습으로 제1항 및 제2항의 죄를 범한 경우에는 그 죄에 정한 형의 2분의 1까지 가중한다.","k":"1o343wi"}
+    ]}
+   ]}
+  ]},
+  {"i":"l1xf63","o":"<div class=\"cs-h\">","h":"Ⅰ. 성폭법위반(카메라등이용촬영) – <span class=\"cs-blue\"><span class=\"cs-u\">제14조</span> 제1항</span> <span class=\"cs-statute\">'촬영'</span>","k":"1qt5311"},
+  {"i":"80tukg","o":"<div class=\"cs-callout\">","b":[
+   {"i":"1rnmvr","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(성폭법)</strong> <span class=\"cs-blue\"><strong>제14조(카메라 등을 이용한 촬영)</strong></span>","k":"h3uq0w"},
+   {"i":"1xq43xd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 카메라나 그 밖에 이와 유사한 기능을 갖춘 기계장치를 이용하여 <span class=\"cs-statute\"><span class=\"cs-u\">성적 욕망 또는 수치심을 유발할 수 있는</span></span> <span class=\"cs-statute\"><span class=\"cs-u\">사람의 신체</span></span>를 촬영대상자의 <span class=\"cs-statute\"><span class=\"cs-u\">의사에 반하여</span></span> <span class=\"cs-blue\"><strong>촬영</strong></span>한 자는 <span class=\"cs-red\">7년 이하의 <strong>징역</strong></span> 또는 <span class=\"cs-red\">5천만원 이하의 <strong>벌금</strong></span>에 처한다.","k":"blt799"}
+  ]},
+  {"i":"zf5k14","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>성적 욕망 또는 수치심을 유발할 수 있는</strong></span>","k":"ibz761"},
+  {"i":"8mzmrp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例) : <span class=\"cs-u\">촬영 부위 해당 여부는 피해자와 같은 성별·연령대 일반인 입장에서</span> 촬영장소·각도·거리, 원판 이미지, 특정 신체부위 부각 여부 등 종합 고려해 <strong>구체적·개별적·상대적</strong>으로 결정 <span class=\"cs-gbg\">[피해자가<strong> 실제 성적 수치심</strong>을 느껴야 하는 것 <strong>X</strong>]</span>","k":"1glq7qe"},
+  {"i":"197qr5z","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용범위: <span class=\"cs-u\">성적 욕망·수치심 유발 신체 해당 여부는 </span><span class=\"cs-def\"><span class=\"cs-u\">촬영 대상 신체부분만으로 결정되는 것 X</span></span>","k":"1bjs3a3"},
+  {"i":"1nofnrt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"노출 부분에 한정 X, 밀착 의복으로 엉덩이·허벅지 굴곡이 드러나도 해당 가능 <span class=\"cs-fact-tag\">[버스 레깅스]</span>","k":"novv8o"},
+  {"i":"1nihkaj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">공개장소서 자의로 드러낸 신체</span>라도 촬영시 수치심 유발 가능 → 대상 안 된다고 단정 X","k":"5vx5ij"},
+  {"i":"18uyl0m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"1todepn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[청바지 여성 계단 오르는 모습 엉덩이 부각 촬영]</span> <span class=\"cs-o\"><strong>(O)</strong></span>","k":"f8ouys"},
+  {"i":"122ywfz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-gbg\">[부각 없이 뒷모습 전신을 원거리 촬영]</span> <span class=\"cs-x\"><strong>(X)</strong></span>","k":"1m36oma"},
+  {"i":"1dprqsb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>사람의 신체</strong></span>","k":"1hbbhop"},
+  {"i":"72vi6a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>'사람의 신체'</strong></span> = <span class=\"cs-u\">신체 </span><span class=\"cs-def\"><span class=\"cs-u\"><strong>그 자체 직접 촬영만</strong></span></span><span class=\"cs-u\"> 해당</span>, <span class=\"cs-green\"><strong>신체 이미지가 담긴 영상 촬영은 X</strong></span><span class=\"cs-exam\">【모기25】</span>","k":"xm7r7j"},
+  {"i":"1obp1qt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"1quv6nr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-gbg\">[모니터 화면(화상카메라 수신 영상)을 휴대전화로 촬영]</span> <span class=\"cs-x\"><strong>(X)</strong></span> — 촬영대상 = 피해자의 신체이미지가 담긴 영상일 뿐 신체 그 자체 아님","k":"18wjjzi"},
+  {"i":"iwilb5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-gbg\">[영상통화 수신 신체 이미지를 휴대전화 녹화기능 이용해 녹화·저장]</span> <span class=\"cs-x\"><strong>(X)</strong></span> — 신체 자체 아님<span class=\"cs-exam\">【변21】【모기25】</span>","k":"jisajt"},
+  {"i":"1n2ei0o","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>의사에 반하여</strong></span>","k":"7aexql"},
+  {"i":"bjqnkz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<strong>‘</strong><span class=\"cs-def\"><strong>자유로운 의사</strong></span><strong>’</strong> — 보호법익: 성적 자유 및 함부로 촬영당하지 않을 자유","k":"2ubdqb"},
+  {"i":"9c5x1e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[매니저·사진작가 1인2역 거짓말에 속아 나체촬영·성관계 응함]</span> 의사에 반함<span class=\"cs-o\"><strong>(O)</strong></span> — 자유의사에 기초한 승낙X →  <span class=\"cs-red\">하자 있는 동의에 기해 촬영해도 본죄 성립</span>","k":"7j0kov"},
+  {"i":"16gv40w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>촬영죄의 착수·기수</strong></span>","k":"1darnmi"},
+  {"i":"lb3hf8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>촬영</strong></span> = 카메라나 그 밖의 유사한 기계장치 속에 든 <span class=\"cs-u\">필름·저장장치에 피사체 영상정보를 입력하는 행위</span>","k":"1ytpnxg"},
+  {"i":"17rbg8p","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-def\"><strong>[착수]</strong></span> 촬영대상을 <strong>특정</strong>, 카메라 렌즈 초점을 맞추는 등 <span class=\"cs-def\">촬영범행에 <strong>밀접한 행위</strong>를 개시</span>한 경우","k":"1vu9xek"},
+  {"i":"13imu7v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:48px\">","h":"<span class=\"cs-fact-tag\">[휴대폰을 치마 밑/화장실칸 밑으로 들이밀어 대상을 피해자로 특정하고 초점 맞추는 등 밀접행위 개시]</span> <span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변26】</span>","k":"5plqgw"},
+  {"i":"zpycvx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:48px\">","h":"<span class=\"cs-gbg\">[육안·줌 기능으로 피해자 있는지 탐색하다 미발견해 촬영 포기]</span> <span class=\"cs-x\"><strong>(X)</strong></span> — 준비행위에 불과, 착수 X","k":"tl4a5"},
+  {"i":"6bod5t","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-def\"><strong>[기수]</strong></span> <span class=\"cs-u\">필름/저장장치에 피사체에 대한 </span><span class=\"cs-def\"><span class=\"cs-u\">영상정보가 입력</span></span>되면 기수","k":"1dptdq9"},
+  {"i":"196bxu1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:48px\">","h":"<span class=\"cs-fact-tag\">[촬영시작하면 곧바로 RAM 등 주기억장치 저장 → 사용자가 저장하면 보조기억장치에 저장되는 방식인 경우]</span> 영상정보가 주기억장치 등에 입력되면 기수","k":"qh930k"},
+  {"i":"pg9gwa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:48px\">","h":"<span class=\"cs-fact-tag\">[동영상 촬영 중 경찰관에 발각되어 저장버튼 안 눌러 강제종료]</span> <strong>기수</strong><span class=\"cs-o\"><strong>(O)</strong></span> —  촬영 시작 후 일정시간 경과했다면 영상정보가 전자파일 등 형태로 영구저장되지 않았다 해도 미수 X<span class=\"cs-exam\">【변26·24】</span>","k":"1st0zju"},
+  {"i":"zhfg7g","o":"<div class=\"cs-h\">","h":"Ⅱ. 성폭법위반(카메라등이용촬영물반포등) – <span class=\"cs-blue\"><span class=\"cs-u\">제14조</span> 제2항</span> '<span class=\"cs-statute\">반포 등</span>'","k":"pm7u6e"},
+  {"i":"76e2k8","o":"<div class=\"cs-callout\">","b":[
+   {"i":"1jtove7","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(성폭법)</strong> <span class=\"cs-blue\"><strong>제14조(카메라 등을 이용한 촬영)</strong></span>","k":"h3uq0w"},
+   {"i":"ovz674","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 제1항에 따른 <span class=\"cs-u\">촬영물 또는 복제물</span>(복제물의 복제물을 포함한다. 이하 이 조에서 같다)을 <span class=\"cs-blue\"><strong>반포</strong></span>·판매·임대·제공 또는 공공연하게 전시·상영(이하 \"반포등\"이라 한다)한 자 또는 제1항의 촬영이 촬영 당시에는 촬영대상자의 의사에 반하지 아니한 경우(자신의 신체를 직접 촬영한 경우를 포함한다)에도 사후에 그 촬영물 또는 복제물을 촬영대상자의 의사에 반하여 반포등을 한 자는 <span class=\"cs-red\">7년 이하의 <strong>징역</strong></span> 또는 <span class=\"cs-red\">5천만원 이하의 <strong>벌금</strong></span>에 처한다.","k":"1lm9s8j"}
+  ]},
+  {"i":"161i3ts","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"성립요건:","k":"1mcj0k3"},
+  {"i":"bivakn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-statute\"><strong>[제2항 전단]</strong></span> ①사람의 신체 자체를 ②촬영대상자의 <span class=\"cs-u\">의사에 </span><span class=\"cs-u\"><strong>반하여</strong></span><span class=\"cs-u\"> 촬영</span>한 ③촬영물·복제물을 ④<span class=\"cs-statute\">의사에 반하여 반포</span>등","k":"zzjhkv"},
+  {"i":"11ahtni","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-statute\"><strong>[제2항 후단]</strong></span> ①타인 또는 <span class=\"cs-u\">'</span><span class=\"cs-u\"><strong>자신</strong></span><span class=\"cs-u\">'의 신체</span>를 ②촬영대상자의 <span class=\"cs-u\">의사에 </span><span class=\"cs-u\"><strong>반하지 않고</strong></span><span class=\"cs-u\"> 촬영</span>한 경우 ③촬영물·복제물을 ④<span class=\"cs-statute\">의사에 반하여 반포</span>등","k":"yztwrg"},
+  {"i":"1ao8weg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용범위: <span class=\"cs-u\">반포자 ≠ 촬영자여도 무방, 촬영물을 누가 촬영했는지 불문</span><span class=\"cs-exam\">【변21】</span>","k":"l4pmwl"},
+  {"i":"172tz81","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>[반포등 기준]</strong></span> 반포등 <span class=\"cs-u\"><strong>행위 시 기준</strong></span>으로 <span class=\"cs-def\">촬영대상자의 의사에 반</span>하면 성립","k":"22ivt6"},
+  {"i":"udd3vz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-green\">촬영이 의사에 반하지 않았어도</span> 성립<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변25·21】</span>","k":"t5cvje"},
+  {"i":"4quecz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:48px\">","h":"<span class=\"cs-fact-tag\">[영상통화서 자기 신체 직접 촬영·전송한 영상]</span> 전단 촬영물 X, 후단 '자신 신체 직접 촬영' 촬영물 O → 상대방이 녹화·저장한 동영상은 후단 촬영물의 '복제물'","k":"nebaqn"},
+  {"i":"opu6wz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"행위개념:","k":"7sovz2"},
+  {"i":"z0vk79","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>[반포]</strong></span> = <span class=\"cs-u\"><strong>불특정·다수인</strong></span><span class=\"cs-u\">에 무상 교부</span>","k":"xmxruw"},
+  {"i":"17dzf0v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-red\"><span class=\"cs-u\">반복 전달</span></span>로 불특정·다수인 <span class=\"cs-red\">반포 의사</span> 있으면 <span class=\"cs-red\"><strong>1인·소수 교부</strong>도 반포 가능</span>","k":"5hwybo"},
+  {"i":"hrego4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>[제공]</strong></span> = 반포에 이르지 않는 무상교부 : <span class=\"cs-u\">반포 의사 없이 </span><span class=\"cs-u\"><strong>특정 1인·소수</strong></span><span class=\"cs-u\">에 무상 교부</span>","k":"15hyh5f"},
+  {"i":"174cdjy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-def\">'제공의 상대방(특정 1인·소수)</span>'<strong>= </strong><span class=\"cs-green\"><strong>피해자 본인</strong>은 포함</span><span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변24·21】【변사22·21】</span>","k":"1cd9lft"},
+  {"i":"896w0a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>[전시]</strong></span> '<span class=\"cs-def\">공공연한 전시</span>'= <span class=\"cs-u\"><strong>불특정·다수인</strong></span><span class=\"cs-u\">의 </span><span class=\"cs-u\"><strong>인식가능상태</strong></span><span class=\"cs-u\">에 두는 것</span>, <span class=\"cs-green\"><strong>실제 인식여부 불문</strong></span>","k":"q38lqy"},
+  {"i":"1dm6qko","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>[상영]</strong></span> ‘<span class=\"cs-def\">공공연한 상영</span>’","k":"jf7h66"},
+  {"i":"18kek37","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-gbg\">[지인 2명에게 성관계 동영상을 휴대폰으로 시청하게 함]</span><span class=\"cs-x\"><strong>(X)</strong></span>","k":"5s845k"},
+  {"i":"1hbwk6g","o":"<div class=\"cs-h\">","h":"Ⅲ. <span class=\"cs-blue\"><span class=\"cs-u\">제14조의3</span></span> 성폭법위반(촬영물등이용협박·강요)","k":"1w0v0r4"},
+  {"i":"1a3wynn","o":"<div class=\"cs-callout\">","b":[
+   {"i":"buf7ck","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(성폭법)</strong> <span class=\"cs-blue\"><strong>제14조의3(촬영물과 편집물 등을 이용한 협박·강요)</strong></span>","k":"1gwmh1s"},
+   {"i":"tb4w1p","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 성적 욕망 또는 수치심을 유발할 수 있는 <span class=\"cs-u\">촬영물 또는 복제물</span>(복제물의 복제물을 포함한다), <span class=\"cs-blue\"><span class=\"cs-u\">제14조의2</span> 제2항</span>에 따른 편집물등 또는 복제물(복제물의 복제물을 포함한다)을 이용하여 사람을 <span class=\"cs-blue\"><strong>협박</strong></span>한 자는 <span class=\"cs-red\">1년 이상의 <strong>유기징역</strong></span>에 처한다.","k":"1lkfxkj"},
+   {"i":"1r7gg9n","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 제1항에 따른 <span class=\"cs-blue\"><strong>협박</strong></span>으로 사람의 <span class=\"cs-u\"><strong>권리행사를 방해하거나 의무 없는 일을 하게</strong></span> 한 자는 <span class=\"cs-red\">3년 이상의 <strong>유기징역</strong></span>에 처한다.","k":"6b5mtu"},
+   {"i":"lq1okc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 상습으로 제1항 및 제2항의 죄를 범한 경우에는 그 죄에 정한 형의 2분의 1까지 가중한다.","k":"1o343wi"}
+  ]},
+  {"i":"oyaq9h","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>촬영물 또는 복제물</strong></span>","k":"10sth1h"},
+  {"i":"16lkqzm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 및 적용범위 (判例) :","k":"1s3nwpa"},
+  {"i":"b5cvpq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-def\"><strong>[만들어진 바 있는 촬영물]</strong></span> <span class=\"cs-u\">실제 만들어진 촬영물 등을 방편으로</span> 유포가능성 등 공포심 일으킬 해악 고지하면 성립","k":"1d9oc5y"},
+  {"i":"kt472i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:48px\">","h":"촬영물의 <span class=\"cs-gbg\"><strong>직접 제시·소지·유포 가능 상태, 유포의사</strong></span><span class=\"cs-green\"><strong> 불요</strong></span><span class=\"cs-exam\">【변25】</span>","k":"1guehnu"},
+  {"i":"1408nmh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-def\"><strong>[피해자를 대상으로 한 촬영물]</strong></span> <span class=\"cs-u\">피해자 신체를 촬영</span>했거나 <span class=\"cs-u\">피해자로 오인가능한 형태로 </span><span class=\"cs-u\">편집·가공</span><span class=\"cs-u\">한 편집물</span>로 제한","k":"qbg70"},
+  {"i":"10lmhoj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:48px\">","h":"<span class=\"cs-gbg\">[무관한 타인 사진을 마치 피해자처럼 오인시켜 협박]</span> <span class=\"cs-x\"><strong>(X)</strong></span> —  ‘촬영물 등’ 이용 <span class=\"cs-green\"><strong>X</strong></span> → <span class=\"cs-green\"><strong>성폭법위반(촬영물등이용협박)죄<span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"1srm8jk"},
+  {"i":"is3wmg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>죄수관계</strong></span>","k":"qv0vfh"},
+  {"i":"aakb43","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[촬영물 협박으로 '돈' 요구 but 못받은 경우]</span> <span class=\"cs-blue\"><span class=\"cs-u\">공갈미수죄</span></span><span class=\"cs-u\"> + </span><span class=\"cs-red\"><span class=\"cs-u\">성폭법위반(촬영물등이용강요)죄 미수범</span></span> <span class=\"cs-hl\"><strong>상상적 경합</strong></span>","k":"1rakg3b"},
+  {"i":"4ddu8n","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[촬영물 협박으로 '변제' 받은 경우]</span> <span class=\"cs-blue\"><span class=\"cs-u\">공갈죄</span></span><span class=\"cs-u\"> + </span><span class=\"cs-red\"><span class=\"cs-u\">촬영물등이용'협박'죄</span></span> <span class=\"cs-hl\"><strong>상상적 경합</strong></span> — 변제는 피해자의 의무 → 촬영물이용<span class=\"cs-green\">강요 <strong>X</strong></span>","k":"3mcd3l"},
+  {"i":"nszirq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[촬영물로 피해자 스스로 자기 신체 추행 강요]</span> <span class=\"cs-red\"><span class=\"cs-u\">촬영물등이용강요죄</span></span><span class=\"cs-u\"> + 간접정범에 의한 </span><span class=\"cs-blue\"><span class=\"cs-u\">강제추행죄</span></span> <span class=\"cs-hl\"><strong>상상적 경합</strong></span>","k":"viqdlg"}
+ ]}
+]}

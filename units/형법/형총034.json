@@ -1,0 +1,59 @@
+{"id":"형총034","t":"중지미수","cat":"chong_05","lv":1,"tg":["A급"],"b":[
+ {"i":"xjurx9","o":"<details class=\"cs-case\">","b":[
+  {"i":"62aihx","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 교통사고 위장 살해·구조요청</strong></span> <span class=\"cs-exam\">【변사24】 </span><span class=\"cs-red\">(15)</span>","k":"if4n7"},
+  {"i":"914g17","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"4zpvkx","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1kjnajd","o":"<div class=\"cs-callout\">","b":[
+     {"i":"xr10xl","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"丁·戊, 사이 나쁜 직장동료 B를 교통사고로 위장해 살해키로 모의. 丁이 1t 트럭 렌트, 戊가 운전·丁은 옆자리 착석해 B 퇴근 대기. 자정경 B가 나오자 戊가 속도 올려 도로 건너는 B 강하게 충격 후 도주. 사고장소 3km 지점 이동·주차, 丁은 후회·B에 대한 연민 들어 구호하자 했으나 戊 부동의·이탈. 丁은 119에 B 구조 요청, 신고 받고 출동한 구조대가 병원 이송해 B 가까스로 생존. 丁·戊 죄책? (15점)","k":"10g50mg"}
+    ]}
+   ]},
+   {"i":"x6kv2e","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1vjknxb","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1ms16p7","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-exam\">【변사24】</span>","k":"1rqns1a"},
+    {"i":"2f3nhv","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [丁·戊의 가담형태]</strong>","k":"t5mvze"},
+    {"i":"fl3435","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"①공동정범(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제30조</strong></span></span>) = 공동가공의사 + 그 공동의사에 기한 기능적 행위지배 통한 범죄실행이라는 주관적·객관적 요건 충족으로 성립","k":"tuxc76"},
+    {"i":"tnrb3q","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"②丁·戊 = B 살해 공모, 戊 운전·丁 트럭 렌트+범행시 옆자리 → 공동의사에 기한 기능적 행위지배 통한 범죄실행 → 살인미수죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제254조</strong></span></span>, <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제250조</strong></span></span>①)의 공동정범","k":"5g0tgm"},
+    {"i":"tjyil5","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [丁의 살인죄 중지미수 성립여부]</strong> (가) [중지미수의 자의성]","k":"1mv7ebr"},
+    {"i":"ufjcvv","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"①<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제26조</strong></span></span>","k":"4ro14d"},
+    {"i":"7t6qyj","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"②판단기준 = 객관설·주관설·프랑크공식·절충설, 판례 = \"중지가 일반 사회통념상 범죄완수 장애사정에 의한 것 아니면 중지미수\" 절충설","k":"8avvbc"},
+    {"i":"ofrtvc","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③범행 당시 객관적·내부적 사정 종합하는 절충설 타당","k":"1tv8y3o"},
+    {"i":"1fw4lrt","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"④丁은 후회·B에 대한 연민 들어 중지 → 자의성 O (나) [결과발생 방지]","k":"1h2bylg"},
+    {"i":"1jdoget","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"①실행미수 → 결과발생을 자의로 방지해야: ⓐ결과발생 방지행위 ⓑ결과 불발생 ⓒ방지행위·결과불발생 간 인과관계 要","k":"27hs34"},
+    {"i":"kwsxu6","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"②丁이 119 신고→구조대 이송→B 생존 → 결과발생 방지 (다) [소결] 丁 = 살인죄 중지미수 성립","k":"tnug3u"},
+    {"i":"dc4bnu","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [戊의 죄책]</strong>","k":"e27ciq"},
+    {"i":"1lu4pxl","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"①중지미수 = 인적 처벌감경·조각사유 → 효과 '일신전속적' → 자의 중지자엔 중지미수, 다른 공범엔 장애미수","k":"kgaeun"},
+    {"i":"1ifcfsh","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"②戊 = 살인죄 장애미수(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제25조</strong></span></span>)","k":"l5b1w"},
+    {"i":"5ug8ux","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(4) [결론]</strong> 丁 = 살인죄 중지미수(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제26조</strong></span></span>), 戊 = 살인죄 장애미수(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제25조</strong></span></span>)","k":"7fgp06"}
+   ]}
+  ]}
+ ]},
+ {"i":"g3t5lw","o":"<div class=\"cs-callout\">","b":[
+  {"i":"18kthvk","o":"<div class=\"cs-callout\">","b":[
+   {"i":"m410y9","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제26조(중지범)</strong></span>","k":"976ysp"},
+   {"i":"1meqezq","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"범인이 실행에 착수한 행위를 자의로 중지하거나 그 행위로 인한 결과의 발생을 자의로 방지한 경우에는 형을 감경하거나 면제한다.","k":"xt4qun"}
+  ]},
+  {"i":"1p5vkbf","o":"<div class=\"cs-h\">","h":"Ⅰ. 중지미수의 자의성","k":"a88m7v"},
+  {"i":"1g49rgz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설과 판례</strong>","k":"1t461h0"},
+  {"i":"er9jan","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[문제제기]</span> 중지미수 특유의 주관적 요건인 자의성을 어떤 기준으로 판단할지 문제","k":"46l5wf"},
+  {"i":"1wjwmul","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[자의성 학설]</span> ①외부적 사유 아닌 내부적 동기로 중지 시 자의성 인정하는 객관설 ②윤리적 동기로 중지 시 인정하는 주관설 ③자의성을 가능성으로 보는 프랑크공식 ④일반사회통념상 범죄수행 장애사유 없는데도 자율적 결의로 중지 시 인정하는 절충설<span class=\"cs-exam\">【변16】</span>","k":"6079pm"},
+  {"i":"uyji6x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[판례 절충설]</span> 자유로운 의사로 실행행위 중지, 그 중지가 일반 사회통념상 범죄완수 장애사정에 의한 것 아니면 중지미수<span class=\"cs-exam\">【변20】</span>","k":"1kybewv"},
+  {"i":"1k7fjkh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[검토 절충설]</span> 범행 당시 객관적 사정+내부적 사정 종합 고려하는 절충설 타당","k":"1vhuvl0"},
+  {"i":"cdpqiu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>자의성 관련 판례</strong>","k":"oln2as"},
+  {"i":"c75omn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[장애미수 유형]</span> ①치솟는 불길에 놀라거나 신체안전 위해·범행발각시 처벌 등 두려움<span class=\"cs-exam\">【변23】【변사25】</span> ②많은 피가 흘러나오는 것에 놀람·두려움 ③강간하려다 어린 딸이 깨어 울고 남편 온다며 임신중이라 하자 도주 ④피해자가 수술 직후 배 아프다며 애원해 강간 못한 경우","k":"14hq79g"},
+  {"i":"1hpnwy1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[장애미수 사기]</span> 위조 주식인수계약서·통장사본 보여주며 50억 투자받았다 거짓말·대여 요청 후 입금 확인차 은행 가던 중 발각 두려워 은행 입구서 포기·귀가 = 사기죄 중지미수 X<span class=\"cs-exam\">【변16】</span>","k":"m7w00z"},
+  {"i":"se8jwz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[장애미수 세관]</span> 제보받은 세관직원 잠복근무해 왔다갔다 하는 것 본 피고인이 발각 두려워 분담 실행행위 못 이른 경우 = 중지미수 X","k":"rwnccx"},
+  {"i":"arg4z2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[중지미수O]</span> 피해자의 다음에 만나 친해지면 응해주겠다는 취지 간곡한 부탁 = 사회통념상 범죄실행 장애 X","k":"11gr4a5"},
+  {"i":"dmjqys","o":"<div class=\"cs-h\">","h":"Ⅱ. 착수미수와 실행미수","k":"7tekae"},
+  {"i":"ihuvj7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[착수미수]</span> 추가행위로 범죄완성 가능한 경우 → 중지 = '실행 착수한 행위를 자의로 중지'해 실행 포기하면 족(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제26조</strong></span></span> 전단)","k":"19op94h"},
+  {"i":"1kpd2hu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[실행미수]</span> 추가행위 불요하다 판단한 경우 → 단순 계속 포기로 부족·자의로 결과발생 방지 要(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제26조</strong></span></span> 후단): ①결과발생 방지행위 ②결과 불발생 ③방지행위·결과불발생 간 인과관계 要 <span class=\"cs-fact-tag\">[범인 자신의 결과방지행위와 동일시할 수 있을 정도라면 119신고 등 제3자의 도움을 받아서 방지해도 무방하다.]</span><span class=\"cs-exam\">【변18】</span>","k":"1j9xavd"},
+  {"i":"1224qpp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[방지행위 인정례]</span> A와 사무실 금품 절취 공모, 피고인은 포장마차·A는 사무실서 물색 중, 피고인이 범행전력 생각·가책 느껴 결의 바꿔 피해자에 A 침입 알리고 함께 A 체포해 범행 중지·결과발생 방지 = 중지미수 요건 구비","k":"1rt4kst"},
+  {"i":"15a57cy","o":"<div class=\"cs-h\">","h":"Ⅲ. 결과의 불발생","k":"jiej10"},
+  {"i":"1okeehs","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[공범 미중지 효과]</span> ①다른 공범 범행 중지 안 시킨 이상 자기만 범의 철회·포기해도 중지미수 X ②甲과 합동해 순차 간음키로 하고 피고인은 밖서 망보고 甲은 텐트서 반항 억압·1회 간음, 이어 피고인 들어가 강간하려다 피해자 애원으로 강간 안 함 → 甲이 공모하에 강간 나아간 이상 피고인이 강간 안 나아가도 중지미수 X <span class=\"cs-fact-tag\">[성폭법위반(특수강간) 기수]</span><span class=\"cs-exam\">【변21·16·15·14】</span>","k":"puerkc"},
+  {"i":"186ho7x","o":"<div class=\"cs-h\">","h":"Ⅳ. 중지미수의 일신전속성","k":"1rrnqcl"},
+  {"i":"75eojq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[일신전속성]</span> 중지미수 = 인적 처벌감경·조각사유 → 효과 '일신전속적' → 자의 중지자엔 중지미수, 다른 공범엔 장애미수(또는 불능미수) 성립<span class=\"cs-exam\">【변16】</span> <span class=\"cs-fact-tag\">[사례형 빈출]</span>","k":"g6svk4"},
+  {"i":"1sqyn1c","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[공동정범 전체 중지]</span> <span class=\"cs-neg-tag\">[X]</span> 공동정범 중 1인의 자의 실행중지만으론 그의 중지미수 인정 X, 공동정범 전원 실행행위 중지시키거나 모든 결과발생 완전 방지 시 공동정범 전체 중지미수 인정 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변21】</span>","k":"tg1ndu"},
+  {"i":"1gd8dxq","o":"<div class=\"cs-h\">","h":"Ⅴ. 비교 – 인질강요죄의 해방감경 규정","k":"199ti70"},
+  {"i":"mzu9bn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[해방감경 규정]</span> 인질강요죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제324조의2</strong></span></span>)·인질상해치상죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제324조의3</strong></span></span>) 및 그 미수범이 인질을 안전한 장소로 풀어준 때 = 형 감경 可(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제324조의6</strong></span></span>)","k":"1l87iir"},
+  {"i":"109qd1i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[자의성 불요]</span> 인질강요죄 해방감경규정 = 중지미수와 달리 자의성 不要","k":"u532s3"}
+ ]}
+]}

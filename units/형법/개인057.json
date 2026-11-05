@@ -1,0 +1,20 @@
+{"id":"개인057","t":"보이스피싱 관련 범죄","cat":"gak_횡령배임","lv":1,"tg":["모사25","모사24","모사22","모사20"],"b":[
+ {"i":"1ic93vy","o":"<div class=\"cs-h\">","h":"Ⅰ. '전기통신사기범인'(정범)의 죄책","k":"1jmdihv"},
+ {"i":"j7lpbz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+ {"i":"oyb17c","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[기수시기]</span> 보이스피싱범이 피해자 기망해 사기이용계좌로 송금·이체받으면 사기죄 기수 <span class=\"cs-fact-tag\">[특별법위반의 점 논외]</span><span class=\"cs-exam\">【변21】</span>","k":"1au0lkr"},
+ {"i":"rbbsah","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[피해자 횡령X]</span> 범인이 피해자 자금 점유해도 위탁·신임관계 없고, 사기이용계좌 인출은 기존 사기범행 예정행위로 새 법익침해 아님 → 사기 '피해자'에 대한 <span class=\"cs-green\"><strong>횡령죄<span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【모사25】</span>","k":"1fg1ll6"},
+ {"i":"1um4bzr","o":"<div class=\"cs-h\">","h":"Ⅱ. '계좌명의인'의 죄책","k":"1scngke"},
+ {"i":"1j5c9no","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>'피해자'에 대한 횡령죄</strong></span>","k":"n90ua5"},
+ {"i":"r06fdy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"해당여부 判例:","k":"q5qfip"},
+ {"i":"bop638","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[비공범-횡령O]</span> 계좌명의인은 피해자와 법률관계 없이 사기피해금 반환의무 → 피해자 위한 보관지위, 영득의사로 인출하면 피해자에 대한 <span class=\"cs-red\"><strong>횡령죄<span class=\"cs-o\"><strong>(O)</strong></span></strong></span><span class=\"cs-exam\">【변25·23·22, 모사25】</span>","k":"kznkkm"},
+ {"i":"vmoyx1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-gbg\">[사기 공범-횡령X]</span> 접근매체 양도해 사기범행 방조한 종범이 사기이용계좌 송금 피해자 자금 임의인출해도 同 (횡령 X)<span class=\"cs-exam\">【변24·21·19, 모사24】</span>","k":"8dz895"},
+ {"i":"1f8z1j8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>'전기통신금융사기범'에 대한 횡령죄</strong></span>","k":"4sh335"},
+ {"i":"1h5o5vc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+ {"i":"qmgx43","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-gbg\">[공범 불문-횡령X]</span> 명의인 인출은 사기범에 대한 관계에선 <span class=\"cs-green\"><strong>횡령죄<span class=\"cs-x\"><strong>(X)</strong></span></strong></span> 접근매체 양도해도 사기범이 송금·이체액 취득했다 볼 수 없고, 제3자 명의 계좌 송금 유도 자체가 범죄 명의인-사기범 관계는 보호가치 위탁관계 아님<span class=\"cs-exam\">【변24, 모사25·24】</span>","k":"1r2ye5w"},
+ {"i":"1az0p17","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\">계좌명의인의 장물취득죄</span><span class=\"cs-exam\">【모사24】</span>","k":"q50swr"},
+ {"i":"1t7pz17","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+ {"i":"72uw7b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[재물성O]</span> 피해자가 본범 기망에 속아 '현금'을 피고인 계좌로 '송금'했다면, 재물인 현금 교부가 예금계좌 송금 형식으로 된 것에 불과 → 피해자의 은행에 대한 예금채권은 당초 미발생<span class=\"cs-exam\">【변12】</span>","k":"6eqg7v"},
+ {"i":"1954vqg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-gbg\">[취득X]</span> 장물취득의 '취득'은 점유 이전받아 사실상 처분권 획득 본범에 편취금 귀속 과정 없이 피해자→피고인 계좌 송금으로 종료, 이후 인출은 예금반환청구 결과일 뿐 본범 점유이전 아님 → <span class=\"cs-green\"><strong>장물취득죄<span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변21·19·15·14】</span>","k":"nw0bzv"},
+ {"i":"98c386","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>계좌명의인의 은행에 대한 사기죄</strong></span>","k":"q8iq19"},
+ {"i":"1g8cmz4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例) : <span class=\"cs-def\">통장 재발급 후 제3자에 편취당한 송금의뢰인 돈 출금 시</span>, 은행 예금지급은 예금계약에 따른 것으로 은행이 착오로 처분한 것 아님 → 은행 상대 <span class=\"cs-green\"><strong>사기죄<span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【모사25·24】</span>","k":"mw2o0y"}
+]}

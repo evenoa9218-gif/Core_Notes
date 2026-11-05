@@ -1,0 +1,14 @@
+{"id":"형소107","t":"전자정보의 동일성 및 무결성","cat":"pro_15","lv":1,"tg":["下"],"b":[
+ {"i":"1jt1xlv","o":"<div class=\"cs-h\">","h":"Ⅰ. 원본 동일성","k":"uad3fb"},
+ {"i":"10hxpkb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[동일성] 전자문서를 수록한 파일 등의 경우 원본임이 증명되거나, 원본으로부터 복사한 사본일 경우에는 복사 과정에서 편집되는 등 인위적 개작 없이 원본의 내용 그대로 복사된 사본임이 증명되어야</strong></span>","k":"nhcvz0"},
+ {"i":"1a9gnd5","o":"<div class=\"cs-h\">","h":"Ⅱ. 무결성","k":"1doikyn"},
+ {"i":"o5klv1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[무결성] 정보저장매체에 입력·기억된 문자정보 또는 그 출력물을 증거로 사용하기 위해서는 정보저장매체 원본에 저장된 내용과 출력 문건의 동일성이 인정되어야 하고, 이를 위해서는 정보저장매체 원본이 '압수 시부터 문건 출력 시까지 변경되지 않았다는 사정', 즉 무결성이 담보되어야</strong></span><span class=\"cs-exam\">【변12】</span>","k":"1igv8p4"},
+ {"i":"a0o8mh","o":"<div class=\"cs-h\">","h":"Ⅲ. 자료의 동일성","k":"hlraxl"},
+ {"i":"1100kwn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[자료의 동일성] 정보저장매체 원본을 대신하여 저장매체에 저장된 자료를 하드카피 또는 이미징한 매체로부터 출력한 문건의 경우에는 정보저장매체 원본과 하드카피 또는 이미징한 매체 사이에 '자료의 동일성'도 인정되어야</strong></span><span class=\"cs-exam\">【변12】</span>","k":"17wgbjo"},
+ {"i":"1bhd9w1","o":"<div class=\"cs-h\">","h":"Ⅳ. 녹음파일 또는 전자문서 파일 사본의 증거능력<span class=\"cs-exam\">【변사26·22·21·18, 모사25】</span>","k":"1btb0z7"},
+ {"i":"j5jqda","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>대화 내용을 녹음한 파일은 대화 내용을 직접 녹음한 원본이거나, 원본으로부터 복사한 사본일 경우에는 복사 과정에서 편집되는 등 인위적 개작 없이 원본 내용 그대로 복사된 사본임이 증명되어야 하고, 그러한 증명이 없으면 쉽게 증거능력을 인정할 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"1lgy4s9"},
+ {"i":"1jzbdme","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[증명방법 — 해쉬값이 원칙]</span> ① 사인이 복사한 녹음파일 사본을 증거로 제출한 경우 인위적 개작 없이 그대로 복사한 사본이라는 점은 <span class=\"cs-red\"><strong>해쉬(Hash)값 비교 등 원본과 사본의 직접 비교를 통해 증명하는 것이 원칙</strong></span> ② 다만 <span class=\"cs-u\">원본 제출이 불가능하거나 곳란하여 직접 비교할 수 없는 때</span>에는 <span class=\"cs-red\"><strong>녹음파일 생성·전달·보관 등의 절차에 관여한 사람의 증언·진술, 녹음파일에 대한 검증·감정 결과, 수사 및 공판 심리의 경과 등 제반 사정을 종합</strong></span>하여 사본의 원본 동일성 증명 여부를 판단 가능","k":"qisbff"},
+ {"i":"rix6zo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[확장]</span> 위 법리는 <span class=\"cs-red\"><strong>전자문서 파일의 사본·출력물이 증거로 제출된 경우</strong></span>에도, <span class=\"cs-red\"><strong>CCTV 영상의 사본이 제출된 경우</strong></span>에도 동일하게 적용<span class=\"cs-exam\">【모사25】</span>","k":"1r3ge24"},
+ {"i":"1pigk1f","o":"<div class=\"cs-h\">","h":"Ⅴ. 입증책임","k":"1rfjj9y"},
+ {"i":"1a3259v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[검사 입증책임]</span> <span class=\"cs-u\">원본 동일성·무결성은 증거능력의 요건이므로</span> <span class=\"cs-red\"><strong>검사가 그 존재에 대하여 구체적으로 주장·증명</strong></span>해야(자유로운 증명)","k":"fdmkaj"}
+]}

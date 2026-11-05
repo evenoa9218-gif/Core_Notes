@@ -1,0 +1,76 @@
+{"id":"형소022","t":"친족상도례","cat":"pro_03","lv":1,"tg":["上","변사26·22","변기25·23","모기26·22·19 등 빈출"],"b":[
+ {"i":"1soxw7f","o":"<details class=\"cs-case\">","b":[
+  {"i":"8cpzof","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 사촌형 집 골드바 절취 교사·고소취소</strong></span> <span class=\"cs-exam\">【변사22】</span>","k":"r1r8gt"},
+  {"i":"t099h9","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1pealrr","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1aahnv3","o":"<div class=\"cs-callout\">","b":[
+     {"i":"kui0j1","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲 → 乙에게 A의 집 야간주거침입절도 교사(A = 따로 사는 甲의 사촌형, 乙과는 친족관계 X). A가 수사단계에서 甲·乙 적법 고소.","k":"g4izhm"},
+     {"i":"1isv7iw","o":"<div class=\"cs-li cs-issue\" style=\"margin-left:0px\">","h":"(1) 1심 공판 중 A가 甲에 대해서만 처벌불원 취지 고소취소장 제출 → 甲·乙에 대한 법원의 판단? (10점)","k":"1hnfhui"},
+     {"i":"1flfn4l","o":"<div class=\"cs-li cs-issue\" style=\"margin-left:0px\">","h":"(2) 골드바가 실은 A가 보관 중인 친구 B 소유물이고 A·B가 함께 고소하였다가 1심 공판 중 甲에 대한 고소취소장 제출 → 甲·乙에 대한 법원의 판단? (5점) (10점 + 5점)","k":"1qg4b8"}
+    ]}
+   ]},
+   {"i":"14rs574","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1987fgp","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"12fmrmh","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1)</strong>","k":"37462d"},
+    {"i":"5d8wes","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 甲·A = 4촌 혈족 → 야간주거침입절도교사죄는 상대적 친고죄(현행법 동거 불문, 구법도 비동거친족) + 공소제기 후 고소취소 → 공소기각판결(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§327제5호</strong></span></span>)","k":"1y1ihzq"},
+    {"i":"hhfall","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 乙·A 친족관계 X → 야간주거침입절도죄 유·무죄 실체판결","k":"yy1ham"},
+    {"i":"x6g0hr","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2)</strong>","k":"37463a"},
+    {"i":"pmtgyc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 甲·보관자 A = 4촌 혈족이나 甲·소유자 B 친족관계 X → 친족상도례 적용 X","k":"19kbs5x"},
+    {"i":"xsac7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 乙·A·B 모두 친족관계 X → 적용 X","k":"11bl5th"},
+    {"i":"1cosf9e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ ∴甲(야간주거침입절도교사죄)·乙(야간주거침입절도) 각 유·무죄 실체판결","k":"g3f2pt"}
+   ]}
+  ]}
+ ]},
+ {"i":"1kqbmnm","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1cau4lc","o":"<div class=\"cs-h\">","h":"Ⅰ. 친족상도례가 적용되는 '범죄'","k":"n62i0n"},
+  {"i":"1fbdzml","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[특수절도·특수공갈 등 특수범이나 상습범]</span> 적용 <span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(형법§331, §350의2)</strong></span></span>","k":"1lqjpzf"},
+  {"i":"11i8pso","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[특경법위반(사기)죄]</span> 적용 <span class=\"cs-o\"><strong>(O)</strong></span> — 사기죄의 성질은 특경법으로 가중처벌되어도 그대로 유지 + 친족상도례 적용을 배제하는 명시적 규정 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변24·20·18】</span>","k":"1l93x9r"},
+  {"i":"1ki11v2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[폭처법위반죄(공동공갈)]</span> 적용 <span class=\"cs-o\"><strong>(O)</strong></span> — 공갈죄의 성질 그대로 유지 + 배제 명시규정 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(형법§354)</strong></span></span><span class=\"cs-exam\">【변13】</span>","k":"1cbwkqk"},
+  {"i":"16vvsvc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[권리행사방해죄]</span> 적용 <span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(형법§323)</strong></span></span><span class=\"cs-exam\">【변25】</span>","k":"4je0sr"},
+  {"i":"1fq62ex","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[(준)강도·손괴·강요·점유강취·중권리행사방해·강제집행면탈]</span> 적용 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변20·19】</span>","k":"12jiqed"},
+  {"i":"21b0r6","o":"<div class=\"cs-h\">","h":"Ⅱ. 친족관계","k":"1t9gmdf"},
+  {"i":"1mpuqnh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"개념 : <span class=\"cs-red\"><strong>8촌 이내의 혈족 · 4촌 이내의 인척 · 배우자</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(민법§777)</strong></span></span>","k":"1aag227"},
+  {"i":"whdj2r","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>법률상의 친족관계만 해당하고, 사실상의 친족관계(사실혼)는 해당 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"f8pug"},
+  {"i":"18rt29a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[사돈지간]</span> 친족상도례 적용 <span class=\"cs-x\"><strong>(X)</strong></span> — 민법§767은 '혈족의 배우자의 혈족'을 인척에 포함 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변20·18, 변기25】</span>","k":"tir8q0"},
+  {"i":"1s2vifk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[부부의 일방 사망 후 생존 배우자가 재혼한 때]</span> 인척관계 <span class=\"cs-green\"><strong>종료</strong></span> ↔ <span class=\"cs-fact-tag\">[재혼하지 않은 때]</span> 인척관계 <span class=\"cs-red\"><strong>유지</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(민법§775)</strong></span></span><span class=\"cs-exam\">【모기25·19】</span>","k":"humugc"},
+  {"i":"1ufni0p","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>친족관계는 '범죄시'에 존재해야 함</strong></span>","k":"1gdn5gc"},
+  {"i":"5r20or","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[범행 당시 별거하며 이혼소송 중이었고 범죄 후 이혼한 경우]</span> 범행 당시 법률상 배우자였다면 <span class=\"cs-red\"><strong>형면제 판결</strong></span><span class=\"cs-exam\">【변19, 변기16, 모기22·13】</span>","k":"1opdhi8"},
+  {"i":"qu3jbl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[부(父)가 혼인 외의 출생자를 인지 — 인지가 범행 후에 이루어진 경우]</span> 인지의 소급효가 친족상도례 규정의 적용에도 미쳐 적용 <span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(민법§860)</strong></span></span><span class=\"cs-exam\">【변16·12】</span>","k":"1rlwx0"},
+  {"i":"18gnuvn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[금원을 편취하기 위한 수단으로 혼인신고를 하여 참다운 부부관계 설정의 효과의사가 없어 혼인이 무효인 경우]</span> 적용 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변20】</span>","k":"1lbjyan"},
+  {"i":"4xc19p","o":"<div class=\"cs-h\">","h":"Ⅲ. 친족관계의 판단의 대상자<span class=\"cs-exam\">【변사22, 변기23·20, 모기17】</span>","k":"1jetoe6"},
+  {"i":"njtnf6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[절도] 친족상도례는 (절도)범인과 피해물건의 '소유자 및 점유자 모두' 사이에 친족관계가 있는 경우에만 적용</strong></span><span class=\"cs-exam\">【변24·18】</span>","k":"1cntcio"},
+  {"i":"dr7ebj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[횡령] 위탁자가 소유자를 위해 보관하는 물건을 위탁자로부터 보관받아 횡령한 경우, 범인과 피해물건의 '소유자 및 위탁자 쌍방' 사이에 같은 조문에 정한 친족관계가 있는 경우에만 적용</strong></span><span class=\"cs-exam\">【변20·12】</span>","k":"1y7egi4"},
+  {"i":"z2xbg4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-neg-tag\">[사기 — 법원을 기망하여 제3자로부터 재물을 편취한 경우]</span> 피기망자인 법원은 피해자 <span class=\"cs-x\"><strong>(X)</strong></span>, 편취당한 <span class=\"cs-red\"><strong>제3자가 피해자</strong></span> → 제3자와 직계혈족의 관계이면 <span class=\"cs-red\"><strong>형면제</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(형법§354, §328①)</strong></span></span><span class=\"cs-exam\">【변23·19·18】</span>","k":"1a2gosh"},
+  {"i":"17nkpld","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[피해자가 '법인' — 친척 소유 예금통장을 절취하여 현금자동지급기로 자기 계좌에 이체(컴사)]</span> 피해자는 이중지급 위험에 처하는 <span class=\"cs-red\"><strong>그 친척의 거래 금융기관</strong></span> → 적용 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변24·20·18·16】</span>","k":"793565"},
+  {"i":"jy8trh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[합유물 — 사기의 일부 피해자와만 친족관계이고 편취한 부동산이 피해자들의 합유로 등기된 경우]</span> 적용 <span class=\"cs-x\"><strong>(X)</strong></span> — (친족인 피해자와의 관계에서도 적용 X)<span class=\"cs-exam\">【변18】</span>","k":"11iiyjq"},
+  {"i":"fmgyy6","o":"<div class=\"cs-h\">","h":"Ⅳ. 효과 및 적용범위(형법)","k":"155pj2i"},
+  {"i":"ypefxa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>상대적 친고죄</strong></span> [2024년 6월 27일 이후 범죄부터 적용]","k":"1mqniqg"},
+  {"i":"1jqanzt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[상대적 친고죄] 범인이 피해자의 '친족'인 경우에는 고소가 있어야 공소제기 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(형법§328① 본문)</strong></span></span> — (구 §328②은 폐지)<span class=\"cs-exam\">【변사26】</span>","k":"vpv0zs"},
+  {"i":"1u6hdyu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-red\"><strong>'모든 친족'에 대하여 '동거여부를 불문'하고 '상대적 친고죄'로 개정</strong></span><span class=\"cs-exam\">【변사26】</span>","k":"1dfv7rl"},
+  {"i":"jb4q1u","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"친족상도례가 적용되는 경우 §224·군사법원법§266에도 불구하고 자기 또는 배우자의 직계존속을 고소 <span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(형법§328① 단서)</strong></span></span>","k":"1nh0ujw"},
+  {"i":"xavw8g","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[고소기간 특례]</span> 2024. 6. 27.부터 이 법 시행 전까지 지은 죄로서 종전 §328①에 해당하는 범죄(준용되는 경우 포함) → §230① 본문에도 불구하고 <span class=\"cs-red\"><strong>2025. 12. 31.부터 6개월</strong></span>까지 고소 가능<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(형소법 부칙§3)</strong></span></span> — (구법상 비동거친족은 기존과 동일하게 '안 날부터' 6개월)","k":"7vzcb3"},
+  {"i":"1k1if36","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>구법이 적용되는 경우</strong></span> [2024년 6월 26일 범죄까지]","k":"vsj0ld"},
+  {"i":"1khzhe2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"가. 구법 규정","k":"xok47v"},
+  {"i":"1tvpwjj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[필요적 형면제]</span> 직계혈족·배우자·동거친족·동거가족 또는 그 배우자간의 §323의 죄는 <span class=\"cs-red\"><strong>형을 면제</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(구법§328①)</strong></span></span> — 법원은 <span class=\"cs-red\"><strong>형면제 판결</strong></span>(유죄판결의 일종)","k":"hy85de"},
+  {"i":"18ftgac","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[상대적 친고죄]</span> 제1항 이외의 친족간(비동거 친족)에 §323의 죄를 범한 때에는 고소가 있어야 공소제기<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(구법§328②)</strong></span></span>","k":"2brem4"},
+  {"i":"1vqbmlr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"나. 헌법불합치 결정","k":"c2mbrq"},
+  {"i":"1ftppgh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"헌법재판소는 ① §328①이 <span class=\"cs-red\"><strong>형사피해자의 재판절차진술권을 침해</strong></span>한다는 이유로 ② 2025. 12. 31.을 개정시한으로 <span class=\"cs-red\"><strong>적용 중지를 명하는 헌법불합치 결정</strong></span>","k":"klq2b0"},
+  {"i":"17zynwd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"다. 구법의 적용","k":"boesiu"},
+  {"i":"1j0ycuj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[경과규정]</span> §328·§365①의 개정규정은 <span class=\"cs-red\"><strong>2024년 6월 27일 이후에 최초로 지은 범죄부터</strong></span> 적용<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(형소법 부칙§2)</strong></span></span>","k":"1o4iniv"},
+  {"i":"ww54hc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[비소급효] §328①은 형벌조각사유로서 형의 면제를 규정한 것이어서 소급효를 인정하면 오히려 형면제를 받았던 사람에게 형사상 불이익이 미침 → 위 조항은 헌법불합치결정이 있는 날부터 효력 상실</strong></span> — (2024. 6. 26.까지 범행에 대해서는 형면제 적용)","k":"ll3cab"},
+  {"i":"1nosfqq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>공범의 경우</strong></span>","k":"qgnoq9"},
+  {"i":"11hrelx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"피해자의 친족이 아닌 공범에 대해서는 §328① 적용 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(형법§328③)</strong></span></span><span class=\"cs-exam\">【변22·21·20·12】</span>","k":"cwxoxr"},
+  {"i":"1u25d72","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>상대적 친고죄의 경우 비신분자에 대한 고소는 신분자에 대하여 효력 <span class=\"cs-x\"><strong>(X)</strong></span>, 신분자에 대한 고소취소는 비신분자에 대하여 효력 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"cqvmjk"},
+  {"i":"w69358","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>장물죄의 특칙</strong></span>","k":"1h90rfk"},
+  {"i":"b2ze1h","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"가. 장물범과 피해자 사이의 친족상도례","k":"1ycvh62"},
+  {"i":"1xyfyi0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"장물에 관한 죄를 지은 사람이 피해자의 '친족'인 경우에는 §328를 준용<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(형법§362~§364, §365①)</strong></span></span><span class=\"cs-exam\">【변25·23, 변사26, 변기25, 모기25】</span>","k":"xfqi39"},
+  {"i":"1jd50l2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-red\"><strong>'모든 친족'에 대하여 '동거여부를 불문'하고 '상대적 친고죄'로 개정</strong></span><span class=\"cs-exam\">【변사26】</span>","k":"1dfv7rl"},
+  {"i":"8x865y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"다만 2024. 6. 26.까지 범행에 대해서는 그대로 <span class=\"cs-green\"><strong>구 형법 적용</strong></span>","k":"1gj4prc"},
+  {"i":"1nqjxnh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"나. 장물범과 본범 사이의 친족상도례","k":"yn1y86"},
+  {"i":"10y7un7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[동거친족 등]</span> 장물죄를 지은 사람이 본범과 배우자·직계혈족·동거친족 또는 그 배우자의 관계인 경우 <span class=\"cs-red\"><strong>형을 감경·면제 가능</strong></span> — 신분관계 없는 공범은 예외<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(형법§365①)</strong></span></span>","k":"1eo28k9"},
+  {"i":"slfou5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[비동거친족]</span> 장물범과 본범이 비동거친족인 경우 친족상도례 적용 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"bcvrxi"},
+  {"i":"1udu4cv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[임의적 감면]</span> <span class=\"cs-red\"><strong>'임의적 감면'으로 개정</strong></span> — (구법 필요적 감면)","k":"1gw6usz"},
+  {"i":"1slibkh","o":"<div class=\"cs-h\">","h":"Ⅴ. 수인의 피해자에 대한 상상적 경합관계와 친족상도례","k":"ql4j3u"},
+  {"i":"mcvuuc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>① §328①에 따른 형면제 요건에 해당하는지는 '각 죄마다' 살펴보아야 함 ② 여러 사람의 권리의 목적이 된 자기의 물건을 취거·은닉·손괴하여 그 여러 사람의 권리행사를 방해하였다면 '권리자별'로 각각 권리행사방해죄가 성립하고 각 죄는 서로 '상상적 경합범' 관계</strong></span><span class=\"cs-exam\">【변25】</span>","k":"z8gj6k"}
+ ]}
+]}

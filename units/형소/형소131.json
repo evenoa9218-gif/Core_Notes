@@ -1,0 +1,25 @@
+{"id":"형소131","t":"경합범 일부에 대해 재심사유가 있는 경우 재심대상","cat":"pro_20","lv":1,"tg":["下"],"b":[
+ {"i":"xgc67c","o":"<details class=\"cs-case\">","b":[
+  {"i":"h4eo2o","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 경합범 일부에만 재심사유가 있는 경우 재심개시·심판범위</strong></span>","k":"hx57yp"},
+  {"i":"1l2p732","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"ku9p1w","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1k779d8","o":"<div class=\"cs-callout\">","b":[
+     {"i":"8xbcvv","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"피고인 甲이 사문서위조죄와 업무방해죄의 경합범으로 기소되어 징역 2년을 선고받고 확정 → 법원이 사문서위조죄에 대해서는 재심이유가 있고 업무방해죄에 대해서는 재심이유가 없다고 판단한다면 법원의 재심개시결정과 재심심판범위는 어떻게 되는가? (10점)","k":"1tkc76n"}
+    ]}
+   ]},
+   {"i":"y3cyr7","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"nwh8h6","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"11za4v3","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [학설·판례]</strong> 전부재심설·일부재심설·절충설, 판례는 절충설. 경합범 전부에 1개의 형이 선고되어 재심절차에서 형을 다시 정해야 하므로 전부에 재심개시결정을 할 수밖에 없으나, 재심이유가 없는 부분은 양형을 위하여 필요한 범위에서만 심리할 수 있다는 절충설 타당","k":"1ozvknk"},
+    {"i":"swb83","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [결론]</strong> 사문서위조죄와 업무방해죄 모두에 대해 재심개시결정을 할 수밖에 없으나, 재심사유가 없는 업무방해죄에 대하여는 재심개시결정의 효력이 그 부분을 형식적으로 심판대상에 포함시키는 데 그치므로 재심법원은 양형을 위하여 필요한 범위에 한하여만 심리 가능","k":"47esv3"}
+   ]}
+  ]}
+ ]},
+ {"i":"fis701","o":"<div class=\"cs-callout\">","b":[
+  {"i":"7dpzkx","o":"<div class=\"cs-h\">","h":"Ⅰ. 재심개시결정 및 심판의 범위","k":"wb6mut"},
+  {"i":"fw9ibh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"경합범으로 한 개의 형을 선고한 확정판결에 대해 <span class=\"cs-red\"><strong>일부 범죄사실에 대해서만 재심사유가 인정되는 경우</strong></span> 재심개시결정 및 심판의 범위 문제","k":"7v0w4e"},
+  {"i":"4fgy2a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-green\"><strong>전부재심설</strong></span>(양형 불가분) / <span class=\"cs-green\"><strong>일부재심설</strong></span>(재심이유 있는 범죄사실만) / <span class=\"cs-red\"><strong>절충설</strong></span>(전부에 재심개시결정, 재심이유 없는 부분은 양형 범위 내에서만 심리)","k":"ml87hu"},
+  {"i":"1ks0ip","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 절충설] 형식적으로는 1개의 형이 선고된 판결이어서 판결 전부에 대하여 재심개시결정을 할 수밖에 없지만, 비상구제수단인 재심제도의 본질상 재심사유가 없는 범죄사실에 대하여는 재심개시결정의 효력이 그 부분을 형식적으로 심판의 대상에 포함시키는 데 그치므로, 재심법원은 그 부분에 대하여는 다시 심리하여 유죄인정을 파기할 수 없고, 다만 새로이 양형을 하여야 하므로 양형을 위하여 필요한 범위에 한하여만 심리 가능</strong></span>","k":"1ub6kk4"},
+  {"i":"lpwymc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"경합범 전부에 1개의 형이 선고되어 재심절차에서 형을 다시 정해야 하므로 전부에 재심개시결정을 할 수밖에 없으나, 재심이유가 없는 부분은 양형을 위하여 필요한 범위에서만 심리할 수 있다는 <span class=\"cs-red\"><strong>절충설 타당</strong></span>","k":"yfzpgi"},
+  {"i":"hkr3lr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[새로운 양형]</span> 재심사유가 없는 범죄에 대한 재심법원의 새로운 양형은 <span class=\"cs-red\"><strong>이중처벌금지 위반이 아니며, 불이익변경금지 원칙에 따라 원판결의 형보다 중한 형을 선고하지 못할 뿐</strong></span>","k":"9lg852"}
+ ]}
+]}

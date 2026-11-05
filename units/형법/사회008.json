@@ -1,0 +1,21 @@
+{"id":"사회008","t":"사서명위조 및 동행사","cat":"gak_사회","lv":1,"tg":["변사19","모사23"],"b":[
+ {"i":"m0gkma","o":"<div class=\"cs-callout\">","b":[
+  {"i":"wbqrmn","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제239조(사인등의 위조, 부정사용)</strong></span>","k":"19jttph"},
+  {"i":"10ie584","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 행사할 목적으로 타인의 인장, <span class=\"cs-blue\"><strong>서명</strong></span>, 기명 또는 기호를 <span class=\"cs-blue\"><strong>위조</strong></span> 또는 <span class=\"cs-blue\"><strong>부정사용</strong></span>한 자는 <span class=\"cs-red\">3년 이하의 <strong>징역</strong></span>에 처한다.","k":"1kwp4r8"},
+  {"i":"1hf3b4t","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 위조 또는 부정사용한 타인의 인장, <span class=\"cs-blue\"><strong>서명</strong></span>, 기명 또는 기호를 <span class=\"cs-blue\"><strong>행사</strong></span>한 때에도 전항의 형과 같다.","k":"19fn6xf"}
+ ]},
+ {"i":"elxk4n","o":"<div class=\"cs-h\">","h":"Ⅰ. 사서명위조 및 동행사<span class=\"cs-exam\">【변사19, 모사23】</span>","k":"1pg8wad"},
+ {"i":"j0l94p","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[경찰관 주어]</strong></span> \"조서를 진술자에게 읽어 준바 ~ 하므로, 간인한 후 서명 무인케 하다.\" <span class=\"cs-fact-tag\">[피의자신문조서, 진술조서]</span>","k":"1xk861g"},
+ {"i":"1wmva05","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"성립요건: <span class=\"cs-def\"><strong>사서명위조죄 성립</strong></span> = <span class=\"cs-u\">서명이 일반인으로 하여금 특정인의 진정한 서명으로 오신하게 할 정도에 이르러야</span>","k":"1akx70z"},
+ {"i":"1wc42xg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+ {"i":"19awvpa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[국가유공자증 제시+심문조서 서명]</span> 조세범처벌법위반 조사 시 타인 행세로 타인 국가유공자증 조사관 제시(공문서부정사용죄 X), 범칙혐의자 심문조서 진술인란에 타인 명의 서명 → 사서명위조·동행사 실체적 경합 성립<span class=\"cs-o\"><strong>(O)</strong></span>","k":"18g6hqj"},
+ {"i":"1r1xqbd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[PDA 부호 기재]</span> 음주운전 단속되자 동생 이름 대며 조사받으며 PDA 표시 음주운전단속결과통보 중 운전자 A 서명란에 A 이름 대신 의미 알 수 없는 부호 기재 → A의 서명 위조<span class=\"cs-o\"><strong>(O)</strong></span>","k":"17jmnhr"},
+ {"i":"uoib7e","o":"<div class=\"cs-h\">","h":"Ⅱ. 문서의 완성과 사서명위조","k":"1b9iggu"},
+ {"i":"1z970v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-u\">권한 없는 자가 타인 서명 기재</span> → 문서 완성 전이라도 일반인이 명의인의 진정한 서명으로 오신 가능 → 서명 완성된 이상 문서 미완성이어도 서명위조죄 성립<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변16】</span>","k":"6ggg0a"},
+ {"i":"4xoa55","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+ {"i":"16jnqtf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[수사서류]</span> 진술자가 타인 양 행세하며 타인 서명 기재 → 수사기관 열람 전 즉시 파기 등 특별사정 없는 한 사서명위조죄·위조사서명행사죄 성립<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1qp3oua"},
+ {"i":"1a3e6r9","o":"<div class=\"cs-h\">","h":"Ⅲ. 사문서위조 및 동행사","k":"zdq352"},
+ {"i":"1i5u7xm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[피조사자 주어]</strong></span> \"본인은 ~ 기재된 내용이 틀림없음을 확인합니다.\"","k":"6257eg"},
+ {"i":"6ed24i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+ {"i":"oo4pv7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[주취운전자적발보고서·정황진술보고서]</span> 운전자란에 타인 서명 후 경찰관 제출 → 사문서위조죄·동행사죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"mqs8s6"}
+]}

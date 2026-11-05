@@ -1,0 +1,81 @@
+{"id":"국가013","t":"위계공무집행방해죄","cat":"gak_국가공무방해","lv":1,"tg":["모사23","모사21"],"b":[
+ {"i":"183h0bh","o":"<details class=\"cs-case\">","b":[
+  {"i":"s895ij","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE] 변호인의 접견 빙자 금지물품 반입·외부통화</strong></span></span> <span class=\"cs-exam\">【변사26】 </span><span class=\"cs-red\">(12)</span>","k":"1erje8v"},
+  {"i":"1d9ij3f","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1rsep0h","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1y44w0p","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1cstsc7","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"구속된 甲의 변호인 戊, 변론 활동 의사가 없음에도 甲의 부탁에 따라 휴대전화 2대와 반입금지 물품인 진통제가 든 주사기 1개를 준비해 '사건 변론을 위해 접견하러 왔다'며 구치소에 접견 신청 → 교도관 Y가 반입금지 물품 소지 여부를 묻자 '없다'고 답했고 Y는 몸수색을 소홀히 한 채 출입 허락 → 戊는 휴대전화 2대 중 1대만 제출하며 모두 제출한 것처럼 행세한 뒤 접견실에서 甲에게 주사기를 건네고, 상담하는 척하며 甲이 휴대전화로 외부와 통화하게 함.","k":"1dvqjfq"},
+     {"i":"1aq52ki","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"戊의 죄책을 논하시오. (12점)","k":"1ndq93m"}
+    ]}
+   ]},
+   {"i":"1s6tqva","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1hawb33","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1yplc54","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [건조물침입죄]</strong></span>","k":"1xahrr6"},
+    {"i":"17kb73w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 출입이 통제되는 건조물에 관리자의 승낙을 받아 통상적 출입방법으로 들어갔다면 승낙의 의사표시에 하자가 있어도 건조물침입죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1ckpye2"},
+    {"i":"1qqsq9l","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 출입 당시 객관적·외형적 행위태양상 사실상 평온상태를 해치는 모습으로 들어갔다고 평가할 수도<span class=\"cs-x\"><strong>(X)</strong></span>","k":"4t5cym"},
+    {"i":"h0905z","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 戊는 교도관 Y의 승낙을 받아 통상적 방법으로 입장 → 실제 목적을 알았다면 승낙하지 않았을 사정이 있어도 평온을 해치는 모습으로 들어갔다고 평가<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1nyjcxj"},
+    {"i":"4sgksv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"④ 戊에게 건조물침입죄(<span class=\"cs-blue\"><span class=\"cs-u\">§319</span>①</span>)<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1tuu91"},
+    {"i":"1akhbd9","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [위계공무집행방해죄]</strong></span>","k":"d2vbow"},
+    {"i":"o2chzb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(가) [실제 변호를 할 의사 없이 접견신청을 한 행위]</strong>","k":"skjjx9"},
+    {"i":"1b5bvtw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 접견변호사가 미결수용자의 개인적 업무·심부름을 위해 접견신청을 해도 위계공무집행방해죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"17bob27"},
+    {"i":"1pjn67o","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 변론 의사 없이 접견을 신청했다는 사정만으로는 위계공무집행방해죄(<span class=\"cs-blue\"><span class=\"cs-u\">§137</span></span>)<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1tmdr6t"},
+    {"i":"ye3358","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(나) [감시·단속을 피하여 금지규정을 위반한 행위]</strong>","k":"12cra0w"},
+    {"i":"1rg2eac","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<strong>(A) [금지물품(주사기) 반입행위]</strong>","k":"trv69a"},
+    {"i":"1rso02a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"① 위계로 감시·단속 업무 공무원의 업무집행을 구체적·현실적으로 방해하면 성립하나, 단순히 감시·단속을 피해 금지규정을 위반한 데 지나지 않으면<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1fwogic"},
+    {"i":"18vt0jf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"② 휴대전화 1대와 주사기를 반입했어도 이는 몸수색을 소홀히 한 Y의 불충분한 심사에 기인한 것일 뿐 戊의 위계가 원인이라 볼 수<span class=\"cs-x\"><strong>(X)</strong></span> → 위계공무집행방해죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"7gvz4a"},
+    {"i":"1nce217","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<strong>(B) [외부통화행위]</strong>","k":"tnr9w"},
+    {"i":"dxjobc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"① 변호사가 접견을 핑계로 수용자를 위해 휴대전화·증권거래용 단말기를 구치소 내로 몰래 반입해 이용하게 한 행위 → 위계공무집행방해죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"f3rwpa"},
+    {"i":"fhpv8n","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"② 상담하는 척하며 휴대전화로 외부와 통화하게 함 = 교도관들에 대해 사실상 적발이 어려운 위계를 구체적·현실적으로 사용해 직무집행에 지장을 주거나 곤란하게 함 → 위계공무집행방해죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"14pts9e"},
+    {"i":"l9cmcz","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(3) [결론]</strong></span> 戊 = 외부통화하게 한 행위에 대해서만 위계공무집행방해죄","k":"nhtjz2"}
+   ]}
+  ]}
+ ]},
+ {"i":"1lnxbj8","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1j4fq9s","o":"<div class=\"cs-callout\">","b":[
+   {"i":"5cklp2","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제137조(위계에 의한 공무집행방해)</strong></span> <span class=\"cs-blue\"><strong>위계</strong></span>로써 <span class=\"cs-u\">공무원의 직무집행</span>을 <span class=\"cs-blue\"><strong>방해</strong></span>한 자는 <span class=\"cs-red\">5년 이하의 <strong>징역</strong></span> 또는 <span class=\"cs-red\">1천만원 이하의 <strong>벌금</strong></span>에 처한다.","k":"1lzsroa"}
+  ]},
+  {"i":"1a0k1gm","o":"<div class=\"cs-h\">","h":"Ⅰ. 위계로써 공무원의 직무집행 방해","k":"10na6fa"},
+  {"i":"1y9d0ef","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>위계</strong></span>","k":"34ydh"},
+  {"i":"qkczh1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-u\">위계란 행위자의 행위목적을 이루기 위하여 상대방에게 오인·착각·부지를 일으키게 하여 그 오인·착각·부지를 이용하는 것</span>","k":"1mgkwf3"},
+  {"i":"o75cxt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"g9z7h5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-neg-tag\">[담당 공무원 모두의 공모·양해 아래 부정한 행위]</span> 오인 등 일으킨 상대방 있다 할 수 X → 위계에 해당한다 볼 수<span class=\"cs-x\"><strong>(X)</strong></span>","k":"rif1fn"},
+  {"i":"q95y87","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>공무원의 직무집행</strong></span>","k":"7jj6pt"},
+  {"i":"1r3nteb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용범위: <span class=\"cs-u\">위계에 의한 공무집행방해죄의 공무원 직무집행</span> = 법령 위임에 따른 적법한 직무집행인 이상 권력적 작용뿐 아니라 '사경제주체'로서의 활동 비롯한 비권력적 작용도 포함","k":"kmdaql"},
+  {"i":"1qn3ebx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"mvp0ir","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[몰수물 압수되어 있는 경우]</span> 검사의 집행지휘만으로 집행 종료 → 검사의 몰수판결 집행업무는 위계에 의해 방해당할 수 없는 성질의 업무","k":"11wy3cv"},
+  {"i":"w20cp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>방해</strong></span>","k":"2nf5k"},
+  {"i":"4j9240","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"성립요건: ①상대방이 위계에 따라 그릇된 행위·처분을 하여야만 이 죄 성립 ②범죄행위가 구체적 공무집행을 저지하거나 '현실적으로' 곤란하게 하는 데까지 이르지 아니하고 미수에 그친 경우 처벌 X <span class=\"cs-fact-tag\">[위계공무집행방해죄는 미수범 처벌규정 없음]</span>","k":"c1a2r7"},
+  {"i":"91014j","o":"<div class=\"cs-h\">","h":"Ⅱ. 신청·출원에 대한 심사 업무","k":"1ysauch"},
+  {"i":"1xwr8i6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>행정청에 대한 일방적 통고로 완성되는 신고</strong></span>","k":"h673zw"},
+  {"i":"121j6l6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例): <span class=\"cs-u\">'일방적 통고로 효과가 완성되는 신고'는</span> 신고인이 허위사실 기재·허위 소명자료 제출하더라도 그것만으로는 담당 공무원의 구체적·현실적 직무집행 방해받았다 볼 수 X → 특별한 사정 없는 한 위계공무집행방해죄 구성<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1wcxhrk"},
+  {"i":"1c55t9w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>출원심사 또는 신청에 따른 수용여부 결정</strong></span>","k":"1inqb6o"},
+  {"i":"d1h5a0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例): <span class=\"cs-u\">행정관청이 출원·신청에 따라 자격요건 심사·수용 여부 결정하는 업무</span> = 신청서 기재 사유가 사실과 부합하지 않을 수 있음 전제로 심사·판단 → 업무담당자가 사실 충분히 확인 않고 허위 신청사유·소명자료 가볍게 믿고 수용 시, 업무담당자의 불충분한 심사에 기인 → 위계공무집행방해죄 구성<span class=\"cs-x\"><strong>(X)</strong></span> 그러나 '신고'와 달리, 출원자·신청인 제출 허위 소명자료에 대해 담당 공무원이 나름대로 충분히 심사했으나 발견 못해 인허가처분·수리하게 되면, 위계행위가 '원인이 되어' 그릇된 처분에 이른 것 → 위계공무집행방해죄 성립<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1pfy04x"},
+  {"i":"1crr9v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"z3dqnj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[등기신청]</span> 단순한 '신고'가 아니라 등기관의 심사·처분 예정 → 등기관이 나름대로 충분히 심사했음에도 발견 못해 등기 마쳐지면 위계공무집행방해죄 성립할 수<span class=\"cs-o\"><strong>(O)</strong></span>","k":"zh3hqa"},
+  {"i":"gz3r55","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[개인택시 운송사업 양도·양수 위해 허위 출원사유 주장, 의사로부터 허위 진단서 발급받아 소명자료로 제출하여 양도·양수 인가처분 받음]</span> 위계공무집행방해죄 성립<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변14】</span>","k":"1s010z9"},
+  {"i":"xu5bvi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>담당공무원의 경우</strong></span>","k":"gttymk"},
+  {"i":"5qtjy4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例): <span class=\"cs-u\">출원 심사업무 담당 공무원이 출원인의 출원사유가 허위임을 알면서도</span> 결재권자로 하여금 오인·착각·부지 일으키게 하고 이를 이용하여 인·허가처분 결재 받아낸 경우 → 허위 자료 제출한 경우와 달리 적정한 심사업무 기대할 수 없게 됨 → 위계공무집행방해죄 성립<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변13】</span>","k":"vzw32v"},
+  {"i":"1luewk0","o":"<div class=\"cs-h\">","h":"Ⅲ. 수사기관에 대한 위계","k":"1cj9foh"},
+  {"i":"113h3hu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\">수사기관에서의 허위진술 또는 허위증거 제출</span><span class=\"cs-exam\">【모사23】</span>","k":"k8zdks"},
+  {"i":"7r55ey","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例): <span class=\"cs-u\">①피의자 등이 수사기관에 '허위사실 진술'하거나</span> '증거 감추고 허위 증거 제출'하더라도, 수사기관이 충분한 수사 않은 채 허위 진술·증거만으로 증거 수집·조사 마쳤다면 수사기관의 불충분한 수사에 의한 것 → 위계공무집행방해죄 성립 X ②그러나 '적극적으로 허위의 증거를 조작하여 제출'하고 수사기관이 '나름대로 충실한 수사'를 하더라도 허위임을 발견 못할 정도에 이르면 위계공무집행방해죄 성립","k":"105qvg5"},
+  {"i":"wiwv7f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"iid7z1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[O]</span> 음주운전 중 교통사고 야기 후 타인의 혈액을 자신의 혈액인 것처럼 교통사고 조사 경찰관에게 제출·감정하도록 한 행위 = 적극적으로 피의사실에 관한 증거를 '조작'한 것 → 위계공무집행방해죄 성립","k":"bqgx8c"},
+  {"i":"152hehd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[X]</span> 수사기관에 대하여 피의자가 허위자백·참고인이 허위진술 한 사실만으로는 위계공무집행방해죄 성립 X","k":"1bzqxxt"},
+  {"i":"qanmpi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[X]</span> 피의자·참고인 아닌 자가 자발적·계획적으로 피의자 가장하여 수사기관에 허위사실 진술하였다 하여 바로 위계공무집행방해죄 성립 X<span class=\"cs-exam\">【변22·19】</span>","k":"13pc7c9"},
+  {"i":"gwwcrw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[X]</span> 자가용차 운전 중 교통사고 낸 사람이 가해차량이 자가용일 경우 피해자와 합의에 불리하다 생각하여 영업용택시 운전하다 사고 냈다고 허위신고하더라도 위계공무집행방해죄 성립 X","k":"q8ys82"},
+  {"i":"14ccf2k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[X]</span> 피의자·참고인 등이 적극적으로 피의자 무고함 입증 등 목적으로 허위 증거 조작 제출한 것이 아니라 단순히 증거를 감추거나 없애 버린 것만으로는 위계공무집행방해죄 성립 X","k":"7afppm"},
+  {"i":"1nyh2n0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>거짓신고로 인한 공무원의 대응조치</strong></span>","k":"1bx5xe6"},
+  {"i":"10givzh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例): 경범죄처벌법 <span class=\"cs-blue\"><span class=\"cs-u\">§3</span>③2호</span> 거짓신고로 경찰관이 진위 확인·검토 여유 없이 국민의 생명·신체 보호 위해 우선하여 긴급 출동하는 등 즉각적 대응조치 취해야 하는 상황에서 실제로 그 조치가 이루어졌다면, 특별한 사정 없는 한 위계공무집행방해죄 성립","k":"1wnhtka"},
+  {"i":"fl2nrr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"判例(죄수관계): <span class=\"cs-fact-tag\">[법조경합]</span> 경범죄처벌법 <span class=\"cs-blue\"><span class=\"cs-u\">§3</span>③2호</span> 거짓신고가 '위계'의 수단·방법·태양의 하나가 된 경우 → 거짓신고로 인한 경범죄처벌법위반죄는 위계공무집행방해죄에 흡수 → 위계공무집행방해죄만 성립, 별도로 경범죄처벌법위반죄 성립 X","k":"f0h273"},
+  {"i":"491ul3","o":"<div class=\"cs-h\">","h":"Ⅳ. 법원에 대한 위계","k":"nlqt0h"},
+  {"i":"eef8z5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例): <span class=\"cs-u\">민사소송 제기 시 피고의 주소를 허위로 기재하여</span> 법원공무원으로 하여금 변론기일소환장 등 허위주소로 송달케 한 사실만으로는 법원공무원의 구체적·현실적 직무집행 방해되었다 할 수 없어 위계공무집행방해죄 성립<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【모사21】</span>","k":"1ell2vz"},
+  {"i":"1am3ryj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"법원은 당사자의 허위 주장·증거 제출에도 불구하고 진실 밝혀야 하는 것이 직무 → 가처분신청 시 당사자가 허위 주장·증거 제출하더라도 그것만으로 법원의 구체적·현실적 직무집행 방해되었다 볼 수 없어 위계공무집행방해죄 성립<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변14】</span>","k":"fcjinm"},
+  {"i":"10rydt0","o":"<div class=\"cs-h\">","h":"Ⅴ. 감시·단속","k":"6yxfg1"},
+  {"i":"1mzq9a0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例): <span class=\"cs-u\">법령에서 일정 행위 금지하며 위반행위에 벌칙 정하고</span> 공무원으로 하여금 금지규정 위반 여부 감시·단속하도록 한 경우, 공무원에게 감시·확인·단속 권한과 의무 있으므로 구체적·현실적으로 감시·단속 업무 수행하는 공무원에 대해 위계 사용하여 업무집행 못하게 하면 위계공무집행방해죄 성립<span class=\"cs-exam\">【변사26】</span>","k":"x39x7x"},
+  {"i":"1iauzpt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"단순히 공무원의 감시·단속을 피하여 금지규정을 위반한 것에 지나지 않으면 위계공무집행방해죄 해당 X → 피고인이 금지규정 위반하여 감시·단속 피한 것을 공무원이 적발 못하였다면 공무원이 감시·단속이라는 '직무를 소홀히 한 결과'일 뿐 위계로 공무집행 방해한 것 볼 수 X<span class=\"cs-exam\">【변사26】</span>","k":"kf9dqe"},
+  {"i":"152ymjw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[교도소에 안경·명함지갑 모양 녹음·녹화장비 반입]</span> ①미결수용자 형사사건에 관하여 변호인이 구체적으로 어떤 변호 활동을 하는지, 실제 변호 의사 있는지 여부 등은 교도관 심사대상 X → 접견변호사가 미결수용자의 개인적 업무·심부름 위해 접견신청행위 하였다는 이유만으로 위계 해당·직무집행 방해 볼 수 X ②접견변호사가 피고인과 소송서류 이외 서류 주고받은 것이 위계 해당·직무집행 방해 볼 수 X<span class=\"cs-exam\">【변사26】</span>","k":"l0v6yj"},
+  {"i":"uhb57y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"p7nl30","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[O]</span> 변호사가 접견을 핑계로 수용자 위해 휴대전화와 증권거래용 단말기를 구치소 내로 몰래 반입하여 이용하게 한 행위 = 위계공무집행방해죄 해당<span class=\"cs-exam\">【변사26】</span>","k":"172wkg9"},
+  {"i":"evkkce","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"과속단속카메라에 촬영되더라도 불빛 반사시켜 차량 번호판 식별 안 되게 하는 기능 제품을 번호판에 뿌린 상태로 운행한 행위만으로는 위계공무집행방해죄 성립<span class=\"cs-x\"><strong>(X)</strong></span>","k":"15dy742"}
+ ]}
+]}

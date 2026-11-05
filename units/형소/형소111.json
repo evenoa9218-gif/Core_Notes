@@ -1,0 +1,110 @@
+{"id":"형소111","t":"자백보강법칙","cat":"pro_17","lv":1,"tg":["A급","上","모사25·24·17·14·12","변기23"],"b":[
+ {"i":"ns7qi","o":"<details class=\"cs-case\">","b":[
+  {"i":"5dlrx9","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(1)] 공범 자백만으로 부인 공범의 유죄 선고 가부</strong></span> <span class=\"cs-exam\">【모사25·24·17·14】</span>","k":"1b9r1ni"},
+  {"i":"1ftxot8","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"brubbq","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1o5rofi","o":"<div class=\"cs-callout\">","b":[
+     {"i":"16j81bq","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲과 乙이 경찰·검찰에서 A에 대한 살인으로 조사받고 검사가 공동정범으로 기소 → 법정에서 甲은 자백, 乙은 甲·A를 모르는 사람이라며 일체 부인. 다른 증거가 없다고 가정할 경우 법원은 甲·乙에 대해 유죄를 선고할 수 있는가? (10점)","k":"jgcrio"}
+    ]}
+   ]},
+   {"i":"1a3fycx","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"bhu67c","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"qrkwwx","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [자백보강법칙]</strong> 피고인의 자백이 불이익한 유일의 증거인 때에는 유죄의 증거로 하지 못함(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§310</strong></span></span>)","k":"1mizx9k"},
+    {"i":"mgwjvd","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [甲에 대하여]</strong> 甲은 자백하나 보강증거가 전혀 없으므로 유죄 선고 불가","k":"3l7mmv"},
+    {"i":"19qiiy7","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [乙에 대하여]</strong> 공범 甲의 자백이 피고인의 자백에 해당하여 보강증거가 필요한지 — 필요설·불요설, 판례는 불요설. 불요설 타당 → 공범 甲의 자백은 피고인의 자백에 해당하지 않아 보강증거 불요 → 乙은 공범 甲의 자백만으로도 유죄 선고 가능","k":"c8cbsw"}
+   ]}
+  ]}
+ ]},
+ {"i":"4o2lxn","o":"<details class=\"cs-case\">","b":[
+  {"i":"197508b","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(2)] 수사기관 자백이 법정자백의 보강증거가 되는지</strong></span> <span class=\"cs-exam\">【모사】</span>","k":"ahscrt"},
+  {"i":"1x4wt8d","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"9ykn3r","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1mgr2a7","o":"<div class=\"cs-callout\">","b":[
+     {"i":"q3qics","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"만약 甲이 경찰·검찰에서 모두 자백하여 각 피신조서가 작성되고, 甲이 법정에서 자백하면서 각 내용을 인정하였다면 甲에 대해 유죄를 선고할 수 있는가? (5점)","k":"vz1rnv"}
+    ]}
+   ]},
+   {"i":"13tvwgg","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"lyms3t","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1qdvv3v","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [쟁점]</strong> 수사기관 조사과정 자백이 법정자백의 보강증거가 될 수 있는지","k":"a1lhnb"},
+    {"i":"1r41wqf","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [판례]</strong> 법정 및 수사기관에서의 자백은 모두 §310의 자백 개념에 포함되어 그 자백만으로는 유죄의 증거로 삼을 수 없음","k":"zni95k"},
+    {"i":"v1upva","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> 경찰·검찰 각 자백은 법정자백의 보강증거가 될 수 없어 유죄 선고 불가","k":"qubd94"}
+   ]}
+  ]}
+ ]},
+ {"i":"1h02c4o","o":"<details class=\"cs-case\">","b":[
+  {"i":"12hmdlv","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(3)] 자백을 내용으로 하는 전문진술의 보강증거 자격</strong></span> <span class=\"cs-exam\">【변23·22·19 빈출, 모사24·12】</span>","k":"kalxfm"},
+  {"i":"1840plq","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"12wzst0","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1ku6ffw","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1wyich6","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"만약 甲이 절친한 B와 술을 마시면서 \"내가 A를 살해하였는데 후회스럽다\"고 말하였고 B가 증인으로 출석하여 이러한 내용으로 증언하였다면 법원은 甲에 대해 유죄를 선고할 수 있는가? (10점)","k":"d0t7ji"}
+    ]}
+   ]},
+   {"i":"16ytapf","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1kfkz3e","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"g1qszn","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [증인 B의 법정진술의 증거능력]</strong> §316① — B의 법정진술은 피고인 아닌 자의 피고인 진술을 내용으로 하는 전문진술이므로 특신상태 증명시 증거능력 O. 절친과 술 마시며 후회하며 한 진술이므로 특신상태 인정 → 증거능력 O","k":"mxaw3w"},
+    {"i":"7cue9g","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [자백의 보강증거 인정여부]</strong> §310 — 판례는 피고인이 범행을 자인하는 것을 들었다는 피고인 아닌 자의 진술내용은 피고인의 자백에는 포함되지 아니하나 피고인의 자백의 보강증거로 될 수 없다는 입장","k":"2d3ri0"},
+    {"i":"cknoto","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> B의 법정진술은 보강증거가 될 수 없으므로 유죄 선고 불가","k":"f3ekqp"}
+   ]}
+  ]}
+ ]},
+ {"i":"1lmhur5","o":"<div class=\"cs-callout\">","b":[
+  {"i":"tko2ut","o":"<div class=\"cs-callout\">","b":[
+   {"i":"1ulkb7a","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제310조(불이익한 자백의 증거능력)</strong></span>","k":"1j2cybf"},
+   {"i":"bfe8t0","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"피고인의 자백이 피고인에게 불이익한 유일의 증거인 때에는 이를 유죄의 증거로 하지 못한다.","k":"8gj3vs"}
+  ]},
+  {"i":"5xj8ya","o":"<div class=\"cs-h\">","h":"Ⅰ. 자백보강법칙의 적용범위","k":"r6j6yv"},
+  {"i":"dasgtj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"§310은 자백은 증거능력이 있지만 그 증명력을 인정할 수 없다는 의미로 <span class=\"cs-red\"><strong>증거능력 제한이 아닌 증명력에 관한 자유심증주의 예외</strong></span>","k":"ljzw7b"},
+  {"i":"1g7ixan","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[적용 O]</span> 간이공판절차·약식명령절차<span class=\"cs-exam\">【변13·12】</span>","k":"ijqjv1"},
+  {"i":"r3lgg6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[적용 X]</span> 즉결심판절차<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(즉심법§10)</strong></span></span><span class=\"cs-exam\">【변13】</span>·소년보호사건 → 소년보호사건은 비행사실 일부에 자백 이외의 다른 증거가 없어도 법령적용 착오·소송절차 법령위반 X","k":"z7yiav"},
+  {"i":"1s5jpdy","o":"<div class=\"cs-h\">","h":"Ⅱ. 피고인의 자백","k":"pfe8jb"},
+  {"i":"5j6tab","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>자백의 증거능력과 증명력</strong></span>","k":"h92dbk"},
+  {"i":"bcaa4x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"자백보강법칙의 전제가 되는 자백은 <span class=\"cs-red\"><strong>① 증거능력이 있고 ② 신빙성이 있는 자백</strong></span> → 위수증배제법칙·자백배제법칙·전문법칙 등으로 증거능력이 인정되지 않으면 자백보강법칙 적용 X","k":"shovhw"},
+  {"i":"lyen4d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>자백의 시기·형식·상대방</strong></span>","k":"syb1v4"},
+  {"i":"jv6986","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[보강 필요 O]</span> 공판정 자백 / 수사기관 자백 / 다른 사건 증인·참고인으로 출석한 자백 / 형사절차와 무관하게 사인의 지위에서 한 자백(일기장·수첩·비망록) / 타인의 진술이 피고인 자백을 내용으로 하는 경우 <span class=\"cs-red\"><strong>모두 자백보강법칙 적용 → 보강증거 없으면 유죄판결 불가</strong></span>","k":"16yljyr"},
+  {"i":"ato75m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[자백 부정]</span> 항소이유서에 \"죄를 지었습니다\", \"뉘우치고 있습니다\"라고 기재되어 있어도 <span class=\"cs-green\"><strong>이어진 신문에서 범죄사실을 일관되게 부인하면 자백한 것으로 볼 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변19】</span>","k":"fzs7ms"},
+  {"i":"18sxkns","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>공범의 자백 또는 진술</strong></span><span class=\"cs-exam\">【모사25·24·17·14】</span>","k":"ibnazx"},
+  {"i":"1kx7oi5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"가. 공범의 자백이 피고인의 자백에 해당하는지 (피고인 부인)","k":"1bzv09i"},
+  {"i":"9d8bhm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"(공범의 법정진술(병합)·증언(변론분리)의 증거능력이 인정된 이후의 논의)","k":"1rn7f1j"},
+  {"i":"1tf2z5v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-green\"><strong>보강증거필요설</strong></span>(허위진술 위험으로 포함) / <span class=\"cs-red\"><strong>보강증거불요설</strong></span>(피고인에 대한 관계에서는 제3자의 진술)","k":"9sbfgh"},
+  {"i":"12tjbfd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 보강증거불요설] §310의 피고인의 자백에는 공범인 공동피고인의 진술은 포함되지 아니하며, 공범인 공동피고인의 법정진술에 대하여는 피고인의 반대신문권이 보장되어 있어 독립한 증거능력이 있음</strong></span> → §310이 '피고인의 자백'이라 규정하여 공범의 자백과 동일시할 수 없으므로 <span class=\"cs-red\"><strong>보강증거불요설 타당</strong></span><span class=\"cs-exam\">【변20·12】</span>","k":"19psec6"},
+  {"i":"bkmq5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"나. 공범의 자백이 보강증거가 될 수 있는지 (피고인 자백)<span class=\"cs-exam\">【모사17·14】</span>","k":"pbgdhe"},
+  {"i":"hdid90","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 긍정설] 피고인의 자백에 공범인 공동피고인의 진술은 포함되지 아니하므로, 공범인 공동피고인의 진술은 다른 공동피고인에 대한 범죄사실을 인정하는 증거로 할 수 있고 공범인 공동피고인들의 각 진술은 상호간에 서로 보강증거가 될 수 있음</strong></span><span class=\"cs-exam\">【변26·24·16 빈출】</span>","k":"iqi58k"},
+  {"i":"1ekiqhc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"공동피고인 한 사람이 자백하였고 피고인도 자백했다면 다른 공동피고인이 부인하여도 <span class=\"cs-red\"><strong>그 자백은 피고인의 자백에 대한 보강증거</strong></span><span class=\"cs-exam\">【변17·13】</span>","k":"aus6kb"},
+  {"i":"g5z99q","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[불요설 귀결]</span> 공범 甲(자백·신빙성 O)·乙(부인·다른 증거 없음)인 경우, <span class=\"cs-red\"><strong>甲은 자백보강법칙에 따라 무죄, 乙은 유죄 선고 가능</strong></span><span class=\"cs-exam\">【변25】</span>","k":"1kzk5d6"},
+  {"i":"xdjdez","o":"<div class=\"cs-h\">","h":"Ⅲ. 보강증거의 범위","k":"1tvw80d"},
+  {"i":"6todnn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>보강의 범위 (보강의 양)</strong></span>","k":"3cbbnp"},
+  {"i":"wtohqa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-green\"><strong>죄체설</strong></span>(죄체의 전부·중요 부분) / <span class=\"cs-red\"><strong>진실성담보설</strong></span>(자백의 진실성 담보 정도면 족함)","k":"13ogll1"},
+  {"i":"f4pbur","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 진실성담보설] 보강증거는 범죄사실의 전부 또는 중요 부분을 인정할 수 있는 정도가 되지 않더라도 자백이 가공적인 것이 아닌 진실한 것임을 인정할 수 있는 정도만 되면 충분</strong></span> → 오판가능성 배제 목적상 <span class=\"cs-red\"><strong>진실성담보설 타당</strong></span><span class=\"cs-exam\">【변19·13】</span>","k":"8z87yh"},
+  {"i":"2ovd4g","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"직접증거가 아닌 <span class=\"cs-red\"><strong>간접증거·정황증거도 보강증거가 될 수 있고, 자백과 어울려 전체로서 범죄사실을 인정할 수 있으면 충분</strong></span><span class=\"cs-exam\">【변26·19·13】</span>","k":"aqt7lg"},
+  {"i":"1v1u6jm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[범행동기 정황증거]</span> 주거침입과 관련 없는 <span class=\"cs-green\"><strong>침입의 '범행동기'에 관한 정황증거에 지나지 않는 증거는 보강증거가 될 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변26】</span>","k":"16dhf96"},
+  {"i":"1xvf7yc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>보강증거의 요부</strong></span>","k":"3v4i6d"},
+  {"i":"gqdcfa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[고의]</span> 피고인의 자백만으로 인정 가능","k":"16volgi"},
+  {"i":"p60wrf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[전과]</span> 전과에 관한 사실은 누범가중 사유가 되는 경우에도 <span class=\"cs-red\"><strong>피고인의 자백만으로 인정 가능</strong></span><span class=\"cs-exam\">【변26·18】</span>","k":"1it4khp"},
+  {"i":"1pz7dha","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>죄수론에 따른 보강범위</strong></span>","k":"17fs87k"},
+  {"i":"1y0p56l","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[실체적 경합범]</span> 실질적으로 수죄이므로 <span class=\"cs-red\"><strong>각 범죄사실에 관하여 보강증거 필요</strong></span> → 필로폰 매수 대금 송금 사실 증거는 실체적 경합 관계인 투약행위의 보강증거가 될 수 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변18】</span>","k":"1pv8lz8"},
+  {"i":"137kvpw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[상상적 경합범]</span> 각죄마다 보강증거를 요하나 일반적으로 <span class=\"cs-red\"><strong>어느 죄에 대한 보강증거는 다른 죄에 대한 보강증거도 됨</strong></span>","k":"43as22"},
+  {"i":"1smw6hw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[상습범]</span> 습벽을 구성요건으로 하는 포괄일죄인 상습범도 <span class=\"cs-red\"><strong>각 행위에 관하여 개별적으로 보강증거를 요함</strong></span><span class=\"cs-exam\">【변26·18, 변기23】</span>","k":"i1lotl"},
+  {"i":"o0rue9","o":"<div class=\"cs-h\">","h":"Ⅳ. 보강증거의 자격","k":"13we6hx"},
+  {"i":"1ao1kq2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>증거능력</strong></span>","k":"qjop7s"},
+  {"i":"sc9xrt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"보강증거는 <span class=\"cs-red\"><strong>① 증거능력이 인정되어야 하고 ② 자백과는 독립된 증거</strong></span>여야 → 위수증배제법칙·자백배제법칙·전문법칙·통비법위반 등으로 증거능력 없는 증거는 보강증거 X<span class=\"cs-exam\">【변13】</span>","k":"1ulchy5"},
+  {"i":"o6l1bg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>독립된 증거</strong></span>","k":"tbe67g"},
+  {"i":"5ofoj3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-neg-tag\">[법정+검찰 자백]</span> 피고인의 법정진술과 검찰 피신조서 진술기재는 모두 §310의 자백 개념에 포함되어 <span class=\"cs-red\"><strong>그 자백만으로는 유죄의 증거로 삼을 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변16·13, 모사24·12】</span>","k":"1dkon7x"},
+  {"i":"8viefk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-neg-tag\">[자백 전문진술]</span> 피고인이 범행을 자인하는 것을 들었다는 진술내용은 <span class=\"cs-red\"><strong>피고인의 자백에는 포함되지 아니하나 피고인의 자백의 보강증거로 될 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변23·22·19 빈출, 모사24·12, 모기16】</span>","k":"emykxp"},
+  {"i":"1mkmizb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>업무상 통상문서의 보강증거 가능여부</strong></span>","k":"19jgek8"},
+  {"i":"1f63uw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"§315제2호에 의하여 당연히 증거능력이 인정되는 업무상 통상문서가 자백과 독립된 보강증거가 될 수 있는지(단순한 일기장·수첩·메모는 자백에 포함되어 보강증거 X)","k":"1padt8j"},
+  {"i":"xnsmvz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-green\"><strong>보강증거긍정설</strong></span>(업무상 계속적·기계적 기재는 자백과 독립) / <span class=\"cs-green\"><strong>보강증거부정설</strong></span>(피고인의 진술에 해당)","k":"dk5jo5"},
+  {"i":"19b0l4e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 보강증거긍정설] 뇌물자금·기타자금을 구별하지 아니하고 지출 일시·금액·상대방 등 내역을 그때그때 계속적·기계적으로 기입한 수첩의 기재 내용은 자백이라고 볼 수 없으므로, 증거능력이 있는 한 금전출납을 증명할 별개의 증거로 자백의 보강증거가 될 수 있음</strong></span>(§315제2호에 의해 증거능력 인정) → 진실성이 담보되고 자백의 강요와 무관하므로 <span class=\"cs-red\"><strong>긍정설 타당</strong></span><span class=\"cs-exam\">【변26·19·14】</span>","k":"w4ryzn"},
+  {"i":"h2y912","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>구체적인 판례</strong></span>","k":"pb7gpg"},
+  {"i":"t5n7yq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[소변검사결과]</span> 10.19. 채취 소변에서 메스암페타민이 검출된 경우, 이는 <span class=\"cs-red\"><strong>10.17. 투약 자백은 물론 10.13. 투약 자백의 보강증거도 됨</strong></span><span class=\"cs-exam\">【변22】</span>","k":"adp5em"},
+  {"i":"1xfjqar","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[대마 잎]</span> 기소된 대마 흡연일자로부터 한 달 후 주거지에서 압수된 대마 잎이 <span class=\"cs-red\"><strong>보강증거가 됨</strong></span><span class=\"cs-exam\">【변22】</span>","k":"1q5q7e6"},
+  {"i":"16b4msk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[호수 미특정 절도]</span> 자백과 보강증거 사이에 어느 정도의 차이가 있어도 중요부분이 일치하고 진실성이 담보되면 자격 O → 구체적 호수가 특정되지 않은 절도에서 <span class=\"cs-red\"><strong>피고인 집에서 압수한 피해품 압수조서·압수물 사진은 보강증거가 됨</strong></span><span class=\"cs-exam\">【변22】</span>","k":"14ot7e2"},
+  {"i":"xcm84m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[현장사진 수사보고서]</span> 야간손괴침입절도의 노루발못뽑이·손괴된 쇠창살이 촬영된 현장사진 첨부 수사보고서는 <span class=\"cs-red\"><strong>보강증거가 됨</strong></span><span class=\"cs-exam\">【변16】</span>","k":"m17x8p"},
+  {"i":"650go0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[뇌물 만난 사실 시인]</span> 뇌물수수 상대 공무원이 수수를 부인하면서도 그 일시경 뇌물공여자를 만났고 청탁을 받은 사실 자체는 시인하였다면 <span class=\"cs-red\"><strong>'뇌물공여자'의 자백에 대한 보강증거가 됨</strong></span><span class=\"cs-exam\">【변14】</span>","k":"hzmdc"},
+  {"i":"qi02r8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[명함의 현존]</span> 국보법상 회합죄 자백시 회합 당시 상대방으로부터 받았다는 <span class=\"cs-red\"><strong>명함의 현존은 보강증거가 됨</strong></span><span class=\"cs-exam\">【변18】</span>","k":"gifoph"},
+  {"i":"10512i6","o":"<div class=\"cs-h\">","h":"Ⅴ. 자백보강법칙의 효과","k":"1pw5xn3"},
+  {"i":"39yq2a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[§325 후단무죄]</span> 자백하였으나 보강증거가 없는 경우 범죄사실의 증명이 없는 때에 해당하여 <span class=\"cs-red\"><strong>§325 후단에 의하여 무죄 판결</strong></span>","k":"1u0fuiy"},
+  {"i":"10jdq1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[상대적 항소·상고이유]</span> 자백보강법칙을 위반하여 자백만으로 유죄를 선고한 경우 <span class=\"cs-red\"><strong>상대적 항소이유(§361의5제1호)·상대적 상고이유(§383제1호) 법령위반</strong></span>","k":"1mgtd9e"},
+  {"i":"13qjdzh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[재심사유 X]</span> 유죄판결이 확정되어도 무죄의 증거가 새로 발견된 경우가 아니므로 <span class=\"cs-red\"><strong>재심사유에는 해당 X</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§420제5호)</strong></span></span>","k":"rbsz83"},
+  {"i":"1k7pkbp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[비상상고 O]</span> 유죄판결이 확정되면 심판이 법령에 위반한 것이므로 <span class=\"cs-red\"><strong>검찰총장의 비상상고 이유</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§441)</strong></span></span>","k":"1bw6u8s"}
+ ]}
+]}

@@ -1,0 +1,51 @@
+{"id":"형총051","t":"법조경합, 포괄일죄, 상상적경합","cat":"chong_07","lv":1,"tg":[],"b":[
+ {"i":"bpivxa","o":"<details class=\"cs-case\">","b":[
+  {"i":"9t2x1s","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 예비군 출석부 허위기재·수뢰후부정처사</strong></span> <span class=\"cs-red\">(15)</span>","k":"160v62t"},
+  {"i":"1cnyq08","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1lmzk0y","o":"<div class=\"cs-fact\">","b":[
+    {"i":"pmjumy","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1go2neu","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"예비군 중대장 甲, A로부터 '예비군 훈련 참석한 것처럼 해달라' 부탁받고 100만 원 수수. 실제 A 불참했는데도 甲 명의 예비군 중대학급편성부(출석부)에 \"참석\" 도장 찍은 후 예비군중대 사무실에 비치. 甲의 죄책? (15점)","k":"183xuic"}
+    ]}
+   ]},
+   {"i":"1c4b0ud","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1p07cyk","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1m99hpo","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [허위공문서작성죄 및 동행사죄]</strong> 편성부 작성권한 있는 甲이 허위로 '참석' 도장 찍어 사무실 비치 → 허위공문서작성죄 및 동행사죄 성립(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제227조</strong></span></span>·<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제229조</strong></span></span>).","k":"xje45"},
+    {"i":"teyc0b","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [직무유기죄]</strong>","k":"wyx5ox"},
+    {"i":"g08osv","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 공무원이 위법사실 발견하고도 직무상 의무에 따른 적절한 조치 X + 적극적으로 은폐할 목적으로 허위공문서 작성·행사 → 작위범인 허위공문서작성·행사죄만 성립, 부작위범인 직무유기죄 별도 성립 X.","k":"dmh1cr"},
+    {"i":"eg9ase","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 甲은 대대장 보고 등 조치 X + 고의로 은폐 목적 허위 출석부 작성 → 직무유기죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제122조</strong></span></span>) 별도 성립 X.","k":"w3a809"},
+    {"i":"1xttr2","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [수뢰후부정처사죄]</strong> 甲 부탁받고 100만 원 수수 후 허위로 출석부에 도장 찍어 비치 = 부정한 행위 → 수뢰후부정처사죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제131조</strong></span></span> 제1항·<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제129조</strong></span></span> 제1항) 성립.","k":"dtnpwj"},
+    {"i":"11tstml","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(4) [연결효과에 의한 상상적 경합]</strong>","k":"leojpf"},
+    {"i":"c0duxv","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 허위공문서작성죄 및 동행사죄 성립, 양죄 실체적 경합 + 이들은 수뢰후부정처사죄와 각 상상적 경합.","k":"1qvc9bn"},
+    {"i":"13ms697","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 연결효과로 전체범죄 상상적 경합관계 인정 가부에 학설·판례.","k":"1wi39o4"},
+    {"i":"1jj3ahy","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(5) [결론]</strong> 판례·비교단위확장설·긍정설·제한적 긍정설 → 甲은 가장 중한 형인 수뢰후부정처사죄에 정한 형으로 처벌.","k":"56cl13"}
+   ]}
+  ]}
+ ]},
+ {"i":"14jcxdz","o":"<div class=\"cs-callout\">","b":[
+  {"i":"8ocm5t","o":"<div class=\"cs-h\">","h":"Ⅰ. 일죄","k":"th5ysz"},
+  {"i":"10284dv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>법조경합</strong>","k":"93luyc"},
+  {"i":"vgw74m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[실질적 1죄]</span> 법조경합 = 1개 행위가 외관상 수개 죄 구성요건 해당하는 것처럼 보이나 실질적으로 1죄만 구성","k":"1xynbdw"},
+  {"i":"2o9do0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[특별관계]</span> 어느 구성요건이 다른 구성요건의 모든 요소 포함 + 다른 요소 구비해야 성립 → 특별법 충족행위 = 일반법도 충족 ↔ 일반법 충족행위 = 특별법 충족 X","k":"16qyp0j"},
+  {"i":"1ocjqdz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>포괄일죄</strong>","k":"msfl91"},
+  {"i":"w3yzr8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[포괄일죄·방조범]</span> 동일 죄명 수개 행위를 '단일하고 계속된 범의' 아래 일정기간 계속 + '피해법익도 동일' → 포괄일죄, 방조범도 동일<span class=\"cs-exam\">【변14】</span>","k":"x9u1fl"},
+  {"i":"1pooyfm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[범죄단체 활동]</span> 폭처법 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제4조</strong></span></span>① 범죄단체 구성·가입한 자가 나아가 구성원으로 활동 = 포괄일죄 관계","k":"1a1zuw0"},
+  {"i":"1t2gmex","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[범죄단체 공소시효]</span> 포괄일죄 공소시효 = 최종 범죄행위 종료시부터 진행","k":"abb6fi"},
+  {"i":"1wczsg3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[명예훼손죄]</span> 가처분결정으로 선행 현수막 철거 후 새 현수막 게시 → 선행·이 사건 공소사실 사이 범의 갱신 O → 포괄일죄 X","k":"1u21ae3"},
+  {"i":"1et025k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[범의 갱신·실체적 경합]</span> 음란 동영상 제공 제1행위로 서버컴퓨터 압수 후 다시 장비 갖춰 동종 제2행위 → 범의 갱신 O → 제1행위는 약식명령 확정된 제2행위와 실체적 경합","k":"kb9df5"},
+  {"i":"lpj1s2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[무면허운전]</span> ① 무면허운전죄 = 어느 날 시작해 다음 날까지 동일 기회 일련 과정 계속 운전 등 특별한 경우 제외하고 사회통념상 운전한 날 기준 운전한 날마다 1개 운전행위 → 운전한 날마다 1죄 ② 같은 날 여러 차례 반복이라도 범의 단일성·계속성 X or 범행방법 다름 → 각 실체적 경합 ③ 특별한 사정 없으면 동일 죄명 수개 동종행위가 동일 의사로 반복·접속·연속 + 피해법익 동일 → 통틀어 포괄일죄 ④ 계속적 무면허운전 의사로 여러 날 반복해도 포괄일죄 X <span class=\"cs-fact-tag\">[한개의 운전으로 인한 무면허운전은 계속범, 같은 날 여러번 운전한 행위는 포괄일죄]</span>","k":"1r6vuj1"},
+  {"i":"1e474od","o":"<div class=\"cs-h\">","h":"Ⅱ. 상상적 경합","k":"1wp49mn"},
+  {"i":"1sixm0x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>실질적 수죄</strong>","k":"1gt6v4k"},
+  {"i":"iqzz0s","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[실질적 수죄]</span> 상상적 경합범 = 1개 행위가 실질적으로 수개 구성요건 충족 = 실질적 수죄","k":"20pv0u"},
+  {"i":"1nl97g5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[1개의 행위]</span> 1개 행위 = 법적 평가 떠나 사회관념상 행위가 사물자연 상태로서 1개로 평가되는 것<span class=\"cs-exam\">【변26】</span>","k":"1763fsw"},
+  {"i":"cigzzz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[실질적 판단]</span> 실질적 1죄냐 수죄냐 = 구성요건적 평가 + 보호법익 측면에서 고찰·판단","k":"5jdt5n"},
+  {"i":"1q7jz7d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[처단형 범위]</span> <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제40조</strong></span></span> = 수개 죄명 중 가장 중한 형 규정 법조로 처단 + 다른 법조 최하한보다 가볍게 처단 X = 각 법조 상한·하한 모두 중한 형 범위 내 처단","k":"1yf26re"},
+  {"i":"1ayv6lm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[필요적 추징]</span> 상상적 경합인 사기죄·변호사법위반죄를 형 더 무거운 사기죄 형으로 처벌하면서 변호사법 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제116조</strong></span></span>·<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제111조</strong></span></span> 필요적 몰수·추징으로 청탁 명목 금품 상당액 추징 = 위법 X<span class=\"cs-exam\">【변21】</span>","k":"1in7j0c"},
+  {"i":"143v6w1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>연결효과에 의한 상상적 경합</strong><span class=\"cs-exam\"><strong>【모사22·21】</strong></span>","k":"1w2o141"},
+  {"i":"c7zl5f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-hl\">《연결효과로 전체범죄 상상적 경합관계 인정 가부》</span>","k":"hdksy8"},
+  {"i":"ttuckg","o":"<div class=\"cs-theory\">","b":[
+   {"i":"1amljsh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①부정설(연결되는 2개 행위가 연결하는 제3행위로 1개 될 수 없음) ②긍정설(연결범죄 이중평가 방지 위해 전체 상상적 경합 인정) ③제한적 긍정설(연결범죄 형이 연결되는 다른 범죄 형과 같거나 중한 경우 한하여 인정) ④비교단위확장설(연결효과 상상적 경합 부정, 먼저 실체적 경합 후 이를 연결범죄와 상상적 경합 처리)","k":"1kt3fdt"},
+   {"i":"114uoeg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-fact-tag\">[판례 입장은 불명확]</span> 공도화변조죄·동행사죄(또는 허위공문서작성죄·동행사죄)가 수뢰후부정처사죄와 각 상상적 경합일 때, 공도화변조죄·동행사죄 상호간 실체적 경합이라도 상상적 경합인 수뢰후부정처사죄와 대비해 가장 중한 죄 정한 형으로 처단하면 족하고 따로 경합범 가중 불요","k":"qa8dnb"},
+   {"i":"nhwf5w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: <span class=\"cs-fact-tag\">[비교단위확장설 타당]</span> 이중처벌 양형 불이익 피하면서 지나친 특혜 X 합리적 처단형 결정하는 비교단위확장설 타당","k":"199tfrs"}
+  ]}
+ ]}
+]}

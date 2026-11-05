@@ -1,0 +1,111 @@
+{"id":"국가014","t":"범인도피죄","cat":"gak_국가공무방해","lv":1,"tg":["변사24","변사21","변사15","변사14","모사23","모사22","모사20","모사18","변기25","변기16"],"b":[
+ {"i":"zd8yfu","o":"<details class=\"cs-case\">","b":[
+  {"i":"m6w9x9","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE] 강도범에 대한 도피자금 제공·친족 특례</strong></span></span> <span class=\"cs-exam\">【변사21】 </span><span class=\"cs-red\">(5)</span>","k":"1grmmni"},
+  {"i":"1o8bqb0","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1b7xug6","o":"<div class=\"cs-fact\">","b":[
+    {"i":"15mknj2","o":"<div class=\"cs-callout\">","b":[
+     {"i":"564rk5","o":"<div class=\"cs-li cs-issue\" style=\"margin-left:0px\">","h":"(1) [기출] 乙이 특수강도미수죄(또는 강도예비죄)를 범함. 경찰의 검거지시가 내려지자 乙이 친구 丙에게 사정을 이야기하며 도피 자금을 구해달라 부탁 → 승낙한 丙이 자기 고가 골프채를 E에게 양도해 마련한 1,000만 원을 도피 자금으로 건넴. 乙과 丙의 죄책은? (10점)","k":"19jhr3r"},
+     {"i":"ry010h","o":"<div class=\"cs-li cs-issue\" style=\"margin-left:0px\">","h":"(2) [추가] 만약 丙이 乙의 사촌동생이라면 어떠한가? (5점)","k":"uzd85u"}
+    ]}
+   ]},
+   {"i":"94khj5","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"losqhk","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"8fkpaa","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [설문(1)]</strong></span>","k":"10cydlr"},
+    {"i":"a806az","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(가) [丙의 범인도피죄]</strong>","k":"1i3m783"},
+    {"i":"ywekpe","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① '도피하게 하는 행위' = 은닉 이외의 방법으로 형사사법 작용을 곤란·불가능하게 하는 일체의 행위","k":"ccrufn"},
+    {"i":"119941v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 乙이 특수강도미수의 죄를 범한 자임을 알면서 도피자금 1,000만 원을 건넴 → 범인도피죄(<span class=\"cs-blue\"><span class=\"cs-u\">§151</span>①</span>)<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1u01vfz"},
+    {"i":"1t312zs","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(나) [乙의 범인도피교사죄]</strong>","k":"1x8sdyv"},
+    {"i":"xgpwbn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 도피 범행의 결의가 없는 丙에게 부탁해 결의하게 함 → 일응 교사행위(<span class=\"cs-blue\"><span class=\"cs-u\">§31</span>①</span>)","k":"x8z698"},
+    {"i":"131xzgn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 자기 도피 교사 — 부정설/긍정설, 판례 = \"범인이 도피를 위해 타인에게 도움을 요청하는 행위도 도피행위의 범주에 속하는 한 불벌이나, 방어권의 남용으로 볼 수 있을 때에는 범인도피교사죄에 해당할 수 있다\"","k":"13t8qiq"},
+    {"i":"3ieail","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"④ 도피자금 마련을 교사함은 형사사법에 중대한 장애를 초래할 위험이 있는 방어권 남용 → 범인도피교사죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"187eye"},
+    {"i":"15vl6yh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(다) [소결]</strong> 乙 = 범인도피교사죄, 丙 = 범인도피죄","k":"suit6y"},
+    {"i":"1si41ea","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [설문(2)]</strong></span>","k":"3rkqlb"},
+    {"i":"10j4cqw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(가) [丙의 죄책]</strong>","k":"18r85ya"},
+    {"i":"17flnp0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 범인도피죄의 친족간 특례(<span class=\"cs-blue\"><span class=\"cs-u\">§151</span>②</span>) = 책임조각사유","k":"1l11zbi"},
+    {"i":"7ubajr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 丙은 乙의 사촌동생 → 책임 조각 → 범인도피죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"ugx22p"},
+    {"i":"mjczmd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(나) [乙의 죄책]</strong>","k":"qxx7ne"},
+    {"i":"pvpjs","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 범인이 자신을 위해 처벌받지 않는 친족으로 하여금 범인도피죄를 범하게 함 → 방어권 남용 → 범인도피교사죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1xhc5u7"},
+    {"i":"pwssfe","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 丙은 친족으로서 책임이 조각되어 죄책<span class=\"cs-x\"><strong>(X)</strong></span>이나, 제한적 종속형식에 의해 乙 = 범인도피교사죄","k":"selm3t"}
+   ]}
+  ]}
+ ]},
+ {"i":"1726r0j","o":"<div class=\"cs-callout\">","b":[
+  {"i":"101wlzb","o":"<div class=\"cs-callout\">","b":[
+   {"i":"1nabj77","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제151조(범인은닉과 친족간의 특례)</strong></span>","k":"uie8r0"},
+   {"i":"jbq1nq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① <span class=\"cs-u\"><strong>벌금 이상의 형에 해당하는 죄를 범한 자</strong></span>를 <span class=\"cs-blue\"><strong>은닉</strong></span> 또는 <span class=\"cs-blue\"><strong>도피</strong></span>하게 한 자는 <span class=\"cs-red\">3년 이하의 <strong>징역</strong></span> 또는 <span class=\"cs-red\">500만원 이하의 <strong>벌금</strong></span>에 처한다.","k":"sels8l"},
+   {"i":"s0bvyl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② <span class=\"cs-u\">친족 또는 동거의 가족</span>이 본인을 위하여 전항의 죄를 범한 때에는 처벌하지 아니한다.","k":"1bcsrxu"}
+  ]},
+  {"i":"lut9z5","o":"<div class=\"cs-h\">","h":"Ⅰ. 벌금 이상의 형에 해당하는 죄를 범한 자","k":"ryrc2u"},
+  {"i":"11rxahs","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>죄를 범한 자</strong></span>","k":"itduh1"},
+  {"i":"1c297w6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용범위: <span class=\"cs-u\">범인도피죄는 타인을 도피하게 하는 경우 성립 가능,</span> 여기서 타인에는 공범도 포함되나 범인 스스로 도피하는 행위는 처벌 X","k":"179tliz"},
+  {"i":"n1m1vi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-def\"><strong>[벌금 이상의 형에 대한 인식]</strong></span> 범인도피죄에서 '벌금 이상의 형에 해당하는 자'에 대한 인식은 실제로 '벌금 이상의 형에 해당하는 범죄'를 범한 자라는 것 인식으로 족, 그 법정형이 벌금 이상이라는 것까지 알 필요 X","k":"c1conj"},
+  {"i":"k9tbse","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"d6ovvy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[수사 개시 전O]</span> '죄를 범한 자' = 범죄 혐의 받아 수사대상 된 자 포함, 나아가 당시에는 아직 수사대상 아니었더라도 범인도피죄 성립<span class=\"cs-exam\">【변26】</span> <span class=\"cs-fact-tag\">[입건 전 내사단계도 성립]</span>","k":"1w2vyxw"},
+  {"i":"vtwwbn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[교특법위반 한정·자동차종합보험 가입]</span> 범인에게 적용될 수 있는 죄가 교특법위반죄에 한정되더라도 자동차종합보험 가입사실만으로 형사소추·처벌 받을 가능성 없는 경우에 해당한다 단정 X → 수사기관은 교특법 <span class=\"cs-blue\"><span class=\"cs-u\">§3</span>②</span> 단서 적용 여부 가리기 위해 수사할 수 있으므로 범인도피죄 성립<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변24】</span>","k":"yjuua4"},
+  {"i":"o48fpg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-neg-tag\">[부정수표단속법 피의자 甲이 A에 노임채무 인수 지불각서 작성·교부, A가 甲의 수사당국 인계 포기 합의]</span> 甲이 인계되지 않은 경우 피고인들에 범인도피죄 성립 인정<span class=\"cs-x\"><strong>(X)</strong></span>","k":"m65ufo"},
+  {"i":"122jxmu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\">'진범' 요부</span><span class=\"cs-exam\">【변기16】</span>","k":"1h2fbtj"},
+  {"i":"1lgl79n","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-hl\">《범인도피죄의 객체가 '진범'이어야 하는지》</span>","k":"k7iat"},
+  {"i":"1x40zie","o":"<div class=\"cs-theory\">","b":[
+   {"i":"ddc53i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①적극설(<span class=\"cs-blue\"><span class=\"cs-u\">§151</span>①</span> '죄를 범한 자'로 규정하므로 진범임을 요함) ②소극설(진범임 요하지 않고 수사대상 되어 있으면 족함)","k":"1i1ck5v"},
+   {"i":"108gulw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-glabel\">[소극설]</span> <span class=\"cs-blue\"><span class=\"cs-u\">§151</span>①</span>의 죄를 범한 자는 범죄 혐의 받아 수사대상 된 사람이면 진범 여부 묻지 않고 해당","k":"1yx9i2w"},
+   {"i":"18mtyn8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 범인도피죄는 '위험범'으로서 현실적으로 형사사법 작용 방해 결과 초래 必 X → 소극설 타당","k":"1lcat3k"}
+  ]},
+  {"i":"1dtnzsh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"1i8glkm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[구속수사 대상 된 소송외인이 그 후 무혐의 석방]</span> 범인도피죄 성립에 영향 X","k":"30ie5y"},
+  {"i":"1qsddr3","o":"<div class=\"cs-h\">","h":"Ⅱ. 은닉·도피","k":"1np39u4"},
+  {"i":"paby0e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[위험범]</strong></span> 범인도피죄는 위험범으로서 현실적으로 형사사법 작용 방해 결과 초래 必 X","k":"1xd6cpq"},
+  {"i":"1hb8jiq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"'도피하게 하는 행위' = 은닉 이외의 방법으로 범인에 대한 수사·재판·형의 집행 등 형사사법 작용을 곤란·불가능하게 하는 일체의 행위","k":"1gef53z"},
+  {"i":"1fpmgjc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例): <span class=\"cs-u\">①'도피하게 하는 행위'는 은닉 이외 방법으로</span> 형사사법 작용 곤란·불가능하게 하는 일체 행위로 수단·방법 제한 없으나, ②같은 조 은닉행위에 비견될 정도로 수사기관 발견·체포 곤란하게 하는 행위 즉 직접 범인 도피시키거나 도피를 직접적으로 용이하게 하는 행위에 한정 ③그러나 그 자체로는 도피시키는 것 직접 목적으로 하였다 보기 어려운 행위의 결과 간접적으로 범인이 안심하고 도피할 수 있게 한 경우까지 포함 X<span class=\"cs-exam\">【변20】</span>","k":"dlleg7"},
+  {"i":"jax78v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"①범인은닉죄는 죄를 범한 자임을 인식하면서 장소 제공하여 체포 면하게 함만으로 성립 ②장소 제공 후 동인에게 일정 기간 경찰 출두 말라 권유하는 언동 하여야만 성립하는 것 아니며 ③권유에 따르지 않을 경우 강제력 행사하여야만 하거나 죄를 범한 자가 은닉자 말에 복종 관계 있어야만 성립하는 것 더욱 아님","k":"1n94ia4"},
+  {"i":"19w03wi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"①수사기관은 진술 여하에 불구하고 피의자 확정·피의사실 인정할 객관적 증거 수집·조사할 권리·의무 있으므로, '참고인'이 수사기관에서 알고 있는 사실 묵비·허위 진술하였더라도 그것이 적극적으로 수사기관 기만하여 착오 빠지게 함으로써 범인 발견·체포 곤란·불가능하게 할 정도 아닌 한 범인도피죄 구성 X ②'피의자'가 수사기관에서 '공범에 관하여 묵비·허위 진술'한 경우에도 그대로 적용","k":"gkzork"},
+  {"i":"1fd1x07","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"①참고인이 범인 아닌 '다른 자를 진범이라 내세우는 경우' 등 적극적으로 허위사실 진술하여 수사관 기만·착오 빠지게 하는 경우와 달리, ②참고인이 진술 함에 있어 단순히 범인으로 체포된 사람과 목격한 범인이 동일함에도 '동일한 사람이 아니라고 허위진술'한 정도만으로는 그 허위진술로 증거 불충분하게 되어 범인 석방하게 되었더라도 범인도피죄 성립 X","k":"6l573z"},
+  {"i":"1rmf9r","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"13asgu8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[기소중지자임을 알고 범인 부탁으로 다른 사람 명의 대신 임대차계약 체결해 준 경우]</span> 범인도피죄 해당<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1ecy5fp"},
+  {"i":"1eutraf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[범인 아닌 자가 수사기관에 범인임을 자처하고 허위사실 진술하여 진범 체포·발견에 지장 초래한 행위]</span> 범인도피죄 해당<span class=\"cs-o\"><strong>(O)</strong></span>","k":"b89jb7"},
+  {"i":"1js10hi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[사회적 상당성]</span> 어떤 행위가 범인도피죄 해당하는 것처럼 보이더라도 사회적으로 상당성 있는 행위일 때는 처벌 X <span class=\"cs-fact-tag\">[구성요건해당성 제한]</span>","k":"17m0mxm"},
+  {"i":"6gm2go","o":"<div class=\"cs-h\">","h":"Ⅲ. 친족간 책임조각 특례","k":"hl0dt5"},
+  {"i":"urpwtf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>친족간 책임조각사유</strong></span>","k":"1abr0vk"},
+  {"i":"twyyvs","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용범위: 범인은닉(<span class=\"cs-blue\"><span class=\"cs-u\">§151</span>②</span>), 증거인멸 및 증인은닉(<span class=\"cs-blue\"><span class=\"cs-u\">§155</span>④</span>)<span class=\"cs-exam\">【변22】</span>","k":"4lcppj"},
+  {"i":"19hxkw5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-hl\">《친족간 특례의 법적 성격》</span>","k":"18lzigw"},
+  {"i":"d1gft9","o":"<div class=\"cs-theory\">","b":[
+   {"i":"7ysm6q","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①인적처벌조각사유설 ②책임조각사유설","k":"ch8ya7"},
+   {"i":"1qg455w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: <span class=\"cs-fact-tag\">[책임조각사유]</span> 특례는 친족관계로 인한 기대불가능성 이유로 책임 조각하는 취지 → 책임조각사유설 타당<span class=\"cs-exam\">【모사25·20, 변기25·16】</span>","k":"dm80va"}
+  ]},
+  {"i":"5iuxnc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"1g86aiz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[법률상 친족 한정]</span> 친족은 민법이 정한 법률상의 친족","k":"m8tgqz"},
+  {"i":"ty0eyb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[사실혼X]</span> 사실혼관계에 있는 자는 민법 소정의 친족이라 할 수 없어","k":"1jq4nww"},
+  {"i":"ejmf3m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:48px\">","h":"<span class=\"cs-blue\"><span class=\"cs-u\">§151</span>②</span>·<span class=\"cs-blue\"><span class=\"cs-u\">§155</span>④</span>에서 말하는 친족에 해당<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변24·19】</span>","k":"1p2xq8l"},
+  {"i":"a7tu3z","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[혼외자의 생부 도피X]</span> ①<span class=\"cs-fact-tag\">[직접적용X]</span> 혼인외 출생자가 벌금 이상의 형에 해당하는 죄를 범한","k":"zaqfl0"},
+  {"i":"1yga4mt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:48px\">","h":"자신의 생부(生父)를 도피하게 하더라도 생부가 혼인외 출생자를 인지하지 않은 경우에는 생부와 혼인외 출생자 사이에 법률상 친자관계 발생하지 않으므로 <span class=\"cs-blue\"><span class=\"cs-u\">§151</span>②</span> 적용 X ②<span class=\"cs-fact-tag\">[유추적용X]</span> 유추적용은 법적 규율 없는 사안에 유사 사안 법규범 적용하는 것인데, <span class=\"cs-blue\"><span class=\"cs-u\">§151</span>②</span> 적용범위에 법률의 흠결 있다 볼 수 없음 → 본인과 행위자 사이 구체적·개별적 관계·상황 따져 적법행위 기대불가능성 유무 따라 <span class=\"cs-blue\"><span class=\"cs-u\">§151</span>②</span> 유추적용하는 것 허용 X","k":"kr4zcn"},
+  {"i":"1m3nx8r","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\">범인의 친족이 친족 아닌 자에게 범인도피를 교사한 경우</span><span class=\"cs-exam\">【모사25】</span>","k":"1dan8ue"},
+  {"i":"vbbkkd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例): <span class=\"cs-glabel\">[책임조각부정설]</span> 범인의 친족이 친족 아닌 자를 교사하여 범인을 도피하게 한 경우 범인의 친족은 범인도피교사범으로서의 죄책 면할 수 X","k":"8c324z"},
+  {"i":"14e6oen","o":"<div class=\"cs-h\">","h":"Ⅳ. 자기 도피 교사의 성립여부<span class=\"cs-exam\">【변사21·15·14, 모사25·18·16·15, 변기25·16】</span>","k":"5vuqf6"},
+  {"i":"fgg0xs","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>범인의 범인도피교사죄 성립 여부</strong></span>","k":"9gs3j1"},
+  {"i":"cper0z","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-hl\">《범인이 타인을 교사하여 자신에 대한 범인도피행위를 하게 한 경우 범인도피교사죄 성립하는지》</span>","k":"1pgr9aw"},
+  {"i":"23iq6b","o":"<div class=\"cs-theory\">","b":[
+   {"i":"1k00vkb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①부정설(자기 방어권 연장에 불과하고 정범 될 수 없는 자는 교사범도 될 수 없음) ②긍정설(새로운 범인을 창출한 것은 방어권 남용으로 허용 X)","k":"u0w00o"},
+   {"i":"1gv589r","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: ①범인 스스로 도피하는 행위는 처벌되지 않으므로 범인이 도피를 위하여 '타인에게 도움 요청하는 행위 역시 (자기) 도피행위의 범주'에 속하는 한 처벌 X, 범인 요청에 응하여 범인 도운 타인의 행위가 범인도피죄 해당하더라도 마찬가지 ②다만 범인이 타인으로 하여금 허위 자백 하게 하는 등으로 범인도피죄 범하게 하는 경우와 같이 그것이 '방어권 남용'으로 볼 수 있을 때에는 범인도피교사죄 해당할 수 O<span class=\"cs-exam\">【변26·23·22·20】</span> <span class=\"cs-fact-tag\">[책임조각 친족 교사]</span> 범인이 자신을 위하여 타인으로 하여금 허위 자백 하게 하여 범인도피죄 범하게 하는 행위는 방어권 남용으로 범인도피교사죄 해당, 그 타인이 <span class=\"cs-blue\"><span class=\"cs-u\">§151</span>②</span>에 의하여 처벌 받지 아니하는 친족 등에 해당한다 하여 달리 볼 것 X<span class=\"cs-exam\">【변26·23·22·20 등 빈출】</span> <span class=\"cs-fact-tag\">[책임조각사유, 제한적 종속형식]</span>","k":"1m0r52e"},
+   {"i":"cridfq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 자기 도피는 처벌되지 않으므로 자기도피행위 범주 속하면 처벌 X, 방어권 남용 볼 수 있는 경우에는 공범종속성 원칙상(제한적 종속형식) 교사범 성립 인정할 수 있으므로 判例 타당","k":"jmszx3"}
+  ]},
+  {"i":"dios71","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>구체적 판례</strong></span>","k":"qlhpkc"},
+  {"i":"86ac3g","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"z4clc6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[범인도피교사O]</span> 甲이 음주운전 혐의로 적발되자 A에게 전화 걸어 음주단속 현장으로 나오게 하고 '어떻게 좀 해 보라'고 계속 재촉하여, A로 하여금 단속경찰관이 甲에 대한 주취운전자 적발보고서 작성·재차 음주측정 못하도록 제지하게 하였다면, 甲의 행위는 범인도피교사죄 해당","k":"1bw1j8"},
+  {"i":"jqq5tg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-gbg\">[범인도피교사X]</span> 후배 A(범인도피 정범 성립)에게 요청하여 대포폰 개설받고, A에게 전화 걸어 자신 있는 곳으로 오도록 한 다음 A 운전 자동차 타고 청주시 일대 이동한 행위 = 형사사법에 중대한 장애 초래한다 보기 어려운 '통상적 도피의 한 유형' 볼 여지 충분","k":"1ow8mre"},
+  {"i":"1ktdsea","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-gbg\">[범인도피교사X]</span> ①甲은 피고인과 10년 이상 친분관계로 부탁에 응하여 도와준 것으로 보이고 도피 위한 인적·물적 시설 미리 구비하거나 조직적 범죄단체 구성한 것 아님, 요청 핵심은 은신처와 차명 휴대전화 제공으로 통상적 도피의 한 유형 볼 여지 충분 ②암묵적으로 '검거 위험 있으면 소재 허위 진술하여 도피시켜 달라'는 취지 의사 있었고 도피생활 계속할 수 있었더라도 형사피의자로서의 방어권 남용이라 보기 어려움<span class=\"cs-exam\">【변기25, 모사25】</span>","k":"10uqbrz"},
+  {"i":"2pl73n","o":"<div class=\"cs-h\">","h":"Ⅴ. 공범의 범인도피죄","k":"1c7tmrq"},
+  {"i":"mngbw7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>공범을 위한 범인도피</strong></span>","k":"17ctu4s"},
+  {"i":"1tii0vf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例): <span class=\"cs-u\">공동정범 중 1인이 다른 공동정범을 도피시키면 범인도피죄의 죄책 면치 못함</span><span class=\"cs-exam\">【모사25】</span> ①참고인이 수사기관에서 알고 있는 사실 묵비·허위 진술하였더라도 적극적으로 수사기관 기만하여 착오 빠지게 함으로써 범인 발견·체포 곤란·불가능하게 할 정도 아닌 한 범인도피죄 구성 X ②이 법리는 피의자가 수사기관에서 공범에 관하여 묵비·허위 진술한 경우에도 그대로 적용","k":"jbyprc"},
+  {"i":"11d3szp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\">공범이 '자신'의 범행에 관해 허위진술·허위자료 제출</span><span class=\"cs-exam\">【변사24, 모사25·23·21】</span>","k":"1jckdgo"},
+  {"i":"16z3z7s","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例): <span class=\"cs-u\">①범인도피죄는 타인 도피하게 하는 경우 성립,</span> 타인에 공범 포함되나 범인 스스로 도피 처벌 X ②공범 중 1인이 그 범행에 관한 수사절차에서 참고인·피의자로 조사받으면서 '자기의 범행을 구성하는 사실관계'에 관하여 허위 진술·허위 자료 제출하는 것은 자신의 범행에 대한 방어권 행사 범위 벗어난 것 볼 수 X ③이러한 행위가 다른 공범 도피하게 하는 결과 되더라도 범인도피죄로 처벌 X <span class=\"cs-fact-tag\">[교사]</span> 공범이 이러한 행위 교사하였더라도 범죄 될 수 없는 행위 교사한 것에 불과 → 범인도피교사죄 성립 X<span class=\"cs-exam\">【변20】</span>","k":"1lnsnvw"},
+  {"i":"1fj5nn9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"9u1yiw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"①A가 강제집행 피하기 위해 콜라텍을 B에게 허위 양도하여 강제집행 면탈, B가 허위양수인으로서 관여 정도 비추어 강제집행면탈죄 공동정범인 경우, B가 조사받으며 콜라텍 실제 양수 운영한다 허위 진술·허위 자료 제출하여 A 도피하게 하는 결과 되더라도 범인도피죄 성립 X ②A가 B에게 이 행위 교사하였더라도 범죄 될 수 없는 행위 교사한 것에 불과 → 범인도피교사죄도 성립 X","k":"13zw39e"},
+  {"i":"1hv0csh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\">게임장 관련</span><span class=\"cs-exam\">【변사14】</span>","k":"kx4oi0"},
+  {"i":"jqmu52","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例): <span class=\"cs-u\">게임산업진흥법 위반·도박개장 등 혐의로 조사받는 피의자가</span> 사실은 게임장·오락실·피씨방 등의 실제 업주 아니라 그 종업원임에도 자신이 실제 업주라 허위 진술하였더라도 그 자체만으로 범인도피죄 구성 X<span class=\"cs-exam\">【변12】</span> 다만 그 피의자가 실제 업주로부터 금전적 이익 등 제공받기로 하고 단속되면 실제 업주 숨기고 자신이 대신 처벌받기로 하는 역할(이른바 바지사장) 맡기로 하는 등 수사기관을 착오에 빠뜨리기로 하고, 단순히 실제 업주라 진술하는 것에서 나아가 게임장 운영 경위·자금 출처·게임기 구입 경위·점포 임대차계약 체결 경위 등에 관해서까지 적극적으로 허위 진술·허위 자료 제시하여 수사기관이 실제 업주 발견·체포 곤란·불가능하게 될 정도에까지 이른 것으로 평가되는 경우 등에는 범인도피죄 구성할 수 O<span class=\"cs-exam\">【변26】</span>","k":"dxzjxk"},
+  {"i":"1coizdj","o":"<div class=\"cs-h\">","h":"Ⅵ. 도주죄와 범인도피죄","k":"yi5gzm"},
+  {"i":"1gxnx34","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例): <span class=\"cs-u\">도주죄는 즉시범으로서 범인이 간수자의 실력적 지배를 이탈한 상태에 이르렀을 때</span> 기수 되어 도주행위 종료, 도주원조죄는 도주죄에 있어서의 범인의 도주행위 야기·용이하게 하는 등 공범관계 행위를 독립한 구성요건으로 하는 범죄 → 도주죄의 범인이 도주행위하여 기수 이른 이후에 범인 도피 도와주는 행위는 범인도피죄에 해당할 수 있을 뿐 도주원조죄에는 해당<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변20·19】</span>","k":"1xxgwml"},
+  {"i":"1uzj8v5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"yyq7xm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"법원이 선고기일에 피고인에 실형 선고하면서 구속영장 발부하는 경우, 검사가 법정에 재정하여 법원으로부터 구속영장 전달받아 집행 지휘하고 그에 따라 피고인 대기실로 인치된 피고인은 도주죄의 주체인 '법률에 의하여 체포 또는 구금된 자'에 해당<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1htyrjh"},
+  {"i":"zn2j2l","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[구속 피고인 대기실 출입문 열고 법정으로 뛰어 들어가 도주하려다 교도관에 검거 → 도주미수죄]</span>","k":"saork9"},
+  {"i":"1q01t5r","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"불법체포된 피고인은 <span class=\"cs-blue\"><span class=\"cs-u\">§145</span>①</span> 소정의 '법률에 의하여 체포 또는 구금된 자'가 아니어서 도주죄의 주체 될 수<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변15】</span>","k":"1rzp7hb"}
+ ]}
+]}

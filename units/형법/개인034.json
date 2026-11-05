@@ -1,0 +1,13 @@
+{"id":"개인034","t":"유실물의 점유관계","cat":"gak_절도강도","lv":1,"tg":["모사20","모사18"],"b":[
+ {"i":"7llhgq","o":"<div class=\"cs-h\">","h":"Ⅰ. 원래 점유자가 소재를 알고 있는 경우","k":"1l1aybm"},
+ {"i":"1s04ekd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-u\">원래 점유자가 소재를 알고 다시 찾아올 수 있으면 점유 인정 → 유류물·분실물 아님</span>","k":"10e2kvf"},
+ {"i":"9l46ff","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"이 경우에도 타인이 현실적으로 점유 취득했으면 그 타인의 점유에 속함","k":"f9xdlp"},
+ {"i":"46i8sw","o":"<div class=\"cs-h\">","h":"Ⅱ. 원래 점유자가 소재를 모르는 경우","k":"1m2pt6j"},
+ {"i":"1vts0fm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-u\">소재 모르면 점유이탈물</span>","k":"79m2ox"},
+ {"i":"ru70bt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[타인이 현실적으로 점유취득하면 당연히 그 타인 점유]</span>","k":"1b2tlfa"},
+ {"i":"k9y32k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"타인의 배타적 지배범위에 두고 온 물건은 장소 관리자가 현실 점유취득 못했어도 관리자 점유에 속함","k":"1muk71a"},
+ {"i":"t9wrvg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+ {"i":"19o5gg4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[당구장·PC방]</span> 물건 잃은 장소가 당구장처럼 타인 관리하에 있으면 일응 관리자 점유 → 관리자 아닌 제3자가 취거 = 유실물횡령<span class=\"cs-x\"><strong>(X)</strong></span>, 절도죄<span class=\"cs-o\"><strong>(O)</strong></span> <span class=\"cs-fact-tag\">['PC방'도 동일]</span><span class=\"cs-exam\">【변14】</span>","k":"1jo8fsz"},
+ {"i":"7sm0i8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[고속버스]</span> 운전사는 관수자로 승객 물건 점유X, 유실물 교부받을 권능뿐 → 현실 발견 전엔 점유개시X → 다른 승객이 발견해 가져가면 절도<span class=\"cs-x\"><strong>(X)</strong></span>, 점유이탈물횡령","k":"1opsnwp"},
+ {"i":"17zdfo9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[지하철 승무원]</span> 현실 발견 전엔 점유개시X → 점유이탈물횡령죄 별론, 절도죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1heqfih"}
+]}

@@ -1,0 +1,45 @@
+{"id":"형소118","t":"상소이익","cat":"pro_19","lv":1,"tg":["中","변사21","모사25·21"],"b":[
+ {"i":"1lge0tf","o":"<details class=\"cs-case\">","b":[
+  {"i":"1pwkqlz","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 공소기각판결에 대해 무죄 주장 항소</strong></span> <span class=\"cs-exam\">【변사21】</span>","k":"8r9fz1"},
+  {"i":"1hj0o0l","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1wsanj3","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1qgmf3b","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1sx5ggo","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲이 乙과 시비가 붙어 乙을 협박한 혐의로 기소되었으나, 제1심 공판절차에서 乙이 처벌불원의사를 표시하여 공소기각판결이 선고됨. 甲이 乙에게 협박하지 않았다는 이유로 무죄를 주장하며 항소를 제기하였다면 항소심 법원은 어떤 조치를 취해야 하는가? (10점)","k":"140c4rb"}
+    ]}
+   ]},
+   {"i":"2lk0c8","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"17lbvmp","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"b5uyfu","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [甲의 상소이익]</strong> 피고인의 항소는 불이익한 원재판을 시정하여 이익된 재판을 청구함을 본질로 하므로 재판이 불이익하지 않으면 항소권 없음 → 공소기각판결에 무죄 주장 상소 가부는 긍정설·실체판결청구권결여설·상소이익결여설, 판례는 상소이익결여설. 형식재판이 있으면 유죄판결 위험에서 벗어나 법익박탈이 없고 무죄사유 현저시 형사보상 사유가 되므로 상소이익결여설 타당 → 甲은 공소기각판결에 무죄를 주장하며 항소할 수 없음","k":"kwvuse"},
+    {"i":"k03hat","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [항소심 법원의 조치]</strong> 甲의 항소는 항소제기가 법률상 방식에 위반한 것이 명백하여 원칙적으로 원심법원이 항소기각 '결정'을 했어야(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§360①</strong></span></span>) → 원심법원이 결정하지 않았으므로 항소심 법원이 항소기각 결정(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§362①</strong></span></span>)","k":"dym05u"}
+   ]}
+  ]}
+ ]},
+ {"i":"azyql6","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1pnou8k","o":"<div class=\"cs-h\">","h":"Ⅰ. 의의","k":"th62h7"},
+  {"i":"nva2va","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"상소이익은 일반적인 적법요건이고, 상소이익이 없는 상소제기는 부적법","k":"1woj8z"},
+  {"i":"1ax8sn8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[검사·피고인 공통]</span> 불복은 재판의 '주문'에 관한 것이어야 하고 <span class=\"cs-red\"><strong>재판의 이유만을 다투기 위하여 상소하는 것은 허용 X</strong></span>","k":"fnvc2p"},
+  {"i":"y3cwe","o":"<div class=\"cs-h\">","h":"Ⅱ. 검사의 상소이익","k":"u77xgy"},
+  {"i":"108oxdc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검사는 공익의 대표자로서 법령의 정당한 적용을 청구할 임무를 가지므로 <span class=\"cs-red\"><strong>반대당사자에게 불이익한 재판이 위법일 때에는 시정을 위하여 상소로 불복 가능</strong></span>(피고인의 이익을 위해 상소 가능)","k":"1h01tb1"},
+  {"i":"eq7x7n","o":"<div class=\"cs-h\">","h":"Ⅲ. 피고인의 상소이익","k":"1cap789"},
+  {"i":"qa1jvd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>유죄판결에 대한 상소이익</strong></span>","k":"77hj9d"},
+  {"i":"1u66nc9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-neg-tag\">[이익상소 한정]</span> 피고인은 자신에게 이익이 되는 상소만 제기 가능 → 재판이 <span class=\"cs-red\"><strong>불리하지 않으면 상소권 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"1evkkkj"},
+  {"i":"6hy32b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[형면제 O]</span> 형면제 판결도 유죄판결의 일종이므로 <span class=\"cs-red\"><strong>무죄를 주장하여 상소 가능</strong></span>","k":"1txubjg"},
+  {"i":"7oast0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[누범가중 누락]</span> 누범 전과가 있음에도 누범가중을 하지 아니하였다고 <span class=\"cs-green\"><strong>불이익을 주장하는 것은 적법한 상고이유가 될 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"1o7yo89"},
+  {"i":"jd58d6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>무죄판결에 대한 상소이익</strong></span>","k":"fnskph"},
+  {"i":"1djr8nz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"심신상실을 이유로 무죄를 선고한 판결에 대해 구성요건해당성이 없다고 상소하는 경우처럼 <span class=\"cs-red\"><strong>무죄판결의 이유에 불복하는 상소</strong></span>가 허용되는지 — <span class=\"cs-green\"><strong>긍정설</strong></span>(판결이유가 기본권침해) / <span class=\"cs-red\"><strong>부정설</strong></span>(주문에만 허용, 법익박탈 없음)","k":"q0f4r2"},
+  {"i":"12gstmu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 부정설] 피고인은 재판이 자기에게 불이익하지 않으면 상고권을 가질 수 없으므로, 가장 유리한 판결인 무죄판결에 대한 피고인의 상고는 부적법</strong></span> → <span class=\"cs-u\">상소는 주문에 관한 것</span>이므로 <span class=\"cs-red\"><strong>부정설 타당</strong></span>","k":"14469s1"},
+  {"i":"1bz3qec","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>공소기각판결에 대한 상소이익</strong></span><span class=\"cs-exam\">【변사21, 모사25·21】</span>","k":"fo69g8"},
+  {"i":"1twt5hc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"공소기각판결에 피고인이 무죄를 주장하며 상소할 수 있는지 — <span class=\"cs-green\"><strong>긍정설</strong></span>(무죄판결이 객관적으로 유리·기판력·형사보상) / <span class=\"cs-green\"><strong>실체판결청구권결여설</strong></span> / <span class=\"cs-red\"><strong>상소이익결여설</strong></span>","k":"1375wjg"},
+  {"i":"1x8gsyk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 상소이익결여설] 공소기각의 재판이 있으면 피고인은 유죄판결의 위험으로부터 벗어나는 것이므로 피고인에게 불이익한 재판이라고 할 수 없어 상소권 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span> → 법익박탈이 없고 무죄사유 현저시 형사보상 사유가 되므로 <span class=\"cs-red\"><strong>상소이익결여설 타당</strong></span><span class=\"cs-exam\">【변26】</span>","k":"1r66gge"},
+  {"i":"mua0ic","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>면소판결에 대한 상소이익</strong></span>","k":"1bqlzod"},
+  {"i":"tw3duu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-green\"><strong>긍정설</strong></span> / <span class=\"cs-red\"><strong>실체판결청구권결여설</strong></span> / <span class=\"cs-green\"><strong>상소이익결여설</strong></span>(공소기각판결과 동일하나 면소판결에는 기판력이 있으므로 주의)","k":"2zacvt"},
+  {"i":"ky2shf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 실체판결청구권결여설] 피고인에게는 실체판결청구권이 없으므로 면소판결에 대하여 실체판결을 구하여 상소할 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변17】</span>","k":"1g654r5"},
+  {"i":"19d06nj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[예외 — 위헌 무효 법령]</span> 형벌 법령이 위헌결정으로 소급 효력을 상실하였거나 위헌·무효로 선언되었고, 재심판결 당시 폐지되었어도 그 폐지가 당초부터 헌법에 위배되어 효력이 없는 법령에 대한 것이었다면 <span class=\"cs-red\"><strong>§325 전단무죄사유이지 §326제4호 면소사유 X</strong></span> → 이 경우 <span class=\"cs-u\">면소를 할 수 없고 무죄를 선고해야 하</span>므로 <span class=\"cs-red\"><strong>면소를 선고한 판결에 대하여 상고 가능</strong></span><span class=\"cs-exam\">【변26·20·15】</span>","k":"k6qpjd"},
+  {"i":"6alcx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>검사만 항소한 사건에서 항소가 기각된 경우</strong></span>","k":"syu4rx"},
+  {"i":"15pxoqc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[원칙]</span> 피고인은 항소하지 않고 검사만 항소하여 그 항소가 기각된 것이므로 항소심판결은 피고인에게 불이익하지 않아 <span class=\"cs-red\"><strong>피고인의 상고는 부적법</strong></span>","k":"cz78m8"},
+  {"i":"1yzqs32","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[예외 — 공격방어권 배제]</span> 위 법리는 제1심이 통상 절차로 진행되어 피고인이 공격방어권을 제대로 행사할 수 있었던 경우에만 적용되고, <span class=\"cs-green\"><strong>피고인이 부당하게 배제되어 공격방어권을 전혀 행사할 수 없었던 경우에는 적용 X</strong></span> → 위법한 공시송달로 피고인 출석 없이 이루어진 판결에 검사만 양형부당으로 항소하였다가 기각된 후 상고권회복결정이 확정되어 상고한 경우 <span class=\"cs-red\"><strong>피고인의 상고는 적법</strong></span>","k":"1mkzuf5"},
+  {"i":"1js8083","o":"<div class=\"cs-h\">","h":"Ⅳ. 상소이익이 결여된 경우 법원의 조치<span class=\"cs-exam\">【변사21, 모사25·21】</span>","k":"gbgcnx"},
+  {"i":"rv0qtp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[상소기각 '결정']</span> 상소제기가 법률상 방식에 위반한 것이 명백한 때에 해당하므로 <span class=\"cs-red\"><strong>원심법원은 결정으로 상소를 기각</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§360①·§362① 등)</strong></span></span>","k":"1ai4zo8"},
+  {"i":"suanhh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[상소기각 '판결']</span> 상소이익이 없다는 것이 상소이유에 대한 판단에서 비로소 나타나는 경우에는 <span class=\"cs-red\"><strong>상소이유가 없다는 이유로 상소기각 판결</strong></span>","k":"1nvonqt"}
+ ]}
+]}

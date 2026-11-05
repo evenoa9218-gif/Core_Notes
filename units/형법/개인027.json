@@ -1,0 +1,16 @@
+{"id":"개인027","t":"경매·입찰방해죄","cat":"gak_명예주거","lv":1,"tg":[],"b":[
+ {"i":"1ai2mdn","o":"<div class=\"cs-callout\">","b":[
+  {"i":"egiyqx","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제315조(경매, 입찰의 방해)</strong></span>","k":"1jgf1p6"},
+  {"i":"kmv1sp","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>위계</strong></span> 또는 <span class=\"cs-blue\"><strong>위력</strong></span> 기타 방법으로 <span class=\"cs-u\">경매 또는 입찰의 공정</span>을 해한 자는 <span class=\"cs-red\">2년 이하의 <strong>징역</strong></span> 또는 <span class=\"cs-red\">700만원 이하의 <strong>벌금</strong></span>에 처한다.","k":"1inmh9r"}
+ ]},
+ {"i":"1me8cbk","o":"<div class=\"cs-h\">","h":"Ⅰ. 경매방해죄","k":"dwymaz"},
+ {"i":"usy3fa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[추상적 위험범]</strong></span> <span class=\"cs-u\">경매의 공정을 해하면 성립하는 추상적 위험범</span> → 결과의 불공정이 현실화될 것 <span class=\"cs-green\">불요</span> <span class=\"cs-def\"><strong>[거동범][입찰방해죄 동일]</strong></span>","k":"1buw7ob"},
+ {"i":"1tx86fe","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-def\"><strong>'경매 공정을 해하는 행위'</strong></span> = <span class=\"cs-u\">공정한 자유경쟁을 방해할 염려 있는 상태 발생</span> → 가격 결정뿐 아니라 적법·공정한 경쟁방법 자체를 해하는 행위 포함","k":"1tjejv9"},
+ {"i":"1ivmo0f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"법률적으로 경매결과에 영향 미칠 행위뿐 아니라 경매 참가하려는 자의 '의사결정에 사실상 영향' 미칠 행위도 포함","k":"15mo5b1"},
+ {"i":"1ay0tx8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+ {"i":"1fld1jq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[허위 임차권 권리신고·배당요구]</span> 참가자 의사결정에 사실상 영향 줄 사정에 해당<span class=\"cs-o\"><strong>(O)</strong></span> <span class=\"cs-fact-tag\">[선순위 근저당권 있어 허위 임차권으로 대항 못 해도 동일]</span>","k":"rj3tyf"},
+ {"i":"jvelbf","o":"<div class=\"cs-h\">","h":"Ⅱ. 입찰방해죄","k":"193x1c6"},
+ {"i":"1mcnniw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>'입찰'</strong></span> = <span class=\"cs-u\">공정 자유경쟁 통한 적정 가격형성 목적의 '입찰절차'</span> → '임의 선택'에 따라 진행하는 계약체결 과정은 <span class=\"cs-green\">X</span>","k":"78a4t2"},
+ {"i":"mmw2rr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-def\"><strong>'입찰 공정을 해하는 행위'</strong></span> = <span class=\"cs-u\">공정 자유경쟁 방해 염려 상태 발생</span> → 적정 가격형성에 부당한 영향뿐 아니라 적법·공정 경쟁방법·경쟁구도 형성 저해 행위도 포함","k":"10aa3zm"},
+ {"i":"1dv1ce6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"전원 담합 <span class=\"cs-green\">불요</span> → 일부 참가자 사이 담합이라도 공정을 해하면 입찰방해죄 성립","k":"4b4hab"}
+]}

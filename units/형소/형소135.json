@@ -1,0 +1,72 @@
+{"id":"형소135","t":"약식명령과 이에 대한 정식재판청구절차","cat":"pro_21","lv":1,"tg":["下"],"b":[
+ {"i":"o3ttnw","o":"<details class=\"cs-case\">","b":[
+  {"i":"1un2ggf","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(1)] 정식재판절차에서 벌금 증액 선고의 적법성</strong></span>","k":"k3qr6i"},
+  {"i":"x8o3ru","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"wm915c","o":"<div class=\"cs-fact\">","b":[
+    {"i":"i0vx9k","o":"<div class=\"cs-callout\">","b":[
+     {"i":"vtujpa","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"제1심이 甲에 대한 특수절도죄에 징역 1년 2월 선고(제1사건). 甲은 상해죄로 벌금 200만 원의 약식명령을 받은 후 피고인만 정식재판을 청구하였고, 정식재판절차에서 벌금 300만 원이 선고됨(제2사건). 제2사건에 대해 정식재판절차에서 벌금 300만원을 선고한 것은 적법한가? (5점)","k":"c3exry"}
+    ]}
+   ]},
+   {"i":"1cbpbr","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"nbbne6","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"8u4joc","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [형종상향금지]</strong> 피고인이 정식재판을 청구한 사건에 대하여는 약식명령의 형보다 중한 '종류'의 형을 선고하지 못함(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§457의2①</strong></span></span>)","k":"axg39v"},
+    {"i":"8x9ysi","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [결론]</strong> 甲만 정식재판을 청구한 사건에서 약식명령의 벌금 200만 원보다 중한 벌금 300만 원(상해죄 법정형 1,000만 원 이하로 적법)을 선고하였으나 형종을 상향하지 않았으므로 형종상향금지원칙에 위반되지 않음","k":"1nger7u"}
+   ]}
+  ]}
+ ]},
+ {"i":"s447v1","o":"<details class=\"cs-case\">","b":[
+  {"i":"1pohj24","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(2)] 병합 후 경합범 징역형 선고의 적법성</strong></span>","k":"ja48g8"},
+  {"i":"1ejn86z","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"uszcxd","o":"<div class=\"cs-fact\">","b":[
+    {"i":"gbvb49","o":"<div class=\"cs-callout\">","b":[
+     {"i":"f5lbxy","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"이에 검사는 항소하지 않고 피고인 甲만 두 사건 모두에 대해 항소하였고, 항소심 법원은 두 사건에 대해 각 징역형을 선택한 후 경합범으로 징역 1년 2월을 선고. 항소심이 징역 1년 2월을 선고한 것은 적법한가? (10점)","k":"1j828mv"}
+    ]}
+   ]},
+   {"i":"1u3vpee","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"3xgwzz","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"eqrdn3","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [형종상향금지 적용범위]</strong> 정식재판을 청구한 사건과 다른 사건이 병합·심리된 후 경합범으로 처단되는 경우에도 정식재판을 청구한 사건에 형종상향금지원칙 적용, 벌금형이 선고된 제1심에 대한 항소사건에서도 적용","k":"qjtnt1"},
+    {"i":"19yh4k4","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [불이익변경금지]</strong> 항소심이 제1·제2사건 각 1심 선고형을 합산한 형을 초과하지 않았으므로 불이익변경금지 위반 아님(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§368</strong></span></span>)","k":"5jub89"},
+    {"i":"1uap9mh","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> 그러나 항소심은 甲만 정식재판을 청구한 제2사건에 대해 벌금형보다 무거운 징역형을 선택하였으므로, 비록 각 1심 선고형을 초과하지 않았더라도 형종상향금지원칙에 위반(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§457의2①</strong></span></span>)","k":"14n2y1h"}
+   ]}
+  ]}
+ ]},
+ {"i":"17penue","o":"<div class=\"cs-callout\">","b":[
+  {"i":"vpkfhg","o":"<div class=\"cs-h\">","h":"Ⅰ. 약식명령","k":"1t1vtnb"},
+  {"i":"15vrhjn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>약식명령의 대상</strong></span>","k":"1bx9v1c"},
+  {"i":"17pjcwa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"지방법원은 관할 사건에 대하여 검사의 청구가 있는 때에는 <span class=\"cs-red\"><strong>공판절차 없이 약식명령으로 벌금·과료·몰수에 처할 수 있음</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§448①)</strong></span></span>","k":"13gy93d"},
+  {"i":"1ezt8dq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-red\"><strong>무죄·면소·공소기각판결·관할위반 판결을 할 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변15】</span>","k":"18maioe"},
+  {"i":"5232rr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"벌금이 선택적으로 규정되어 있으면 족하고, 사물관할 제한을 받지 않아 <span class=\"cs-red\"><strong>단독·합의부 관할 사건 모두 가능</strong></span>","k":"qk936u"},
+  {"i":"1f5n5i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>약식명령의 절차</strong></span>","k":"1bx0bcx"},
+  {"i":"cv13vq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"약식절차는 서면심리이므로 <span class=\"cs-red\"><strong>공소장일본주의의 예외</strong></span>","k":"1yzjlb9"},
+  {"i":"9b88nb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"정식재판청구서 제출에도 <span class=\"cs-red\"><strong>재소자특칙 적용</strong></span>(교도소장 등에게 제출시 청구기간 내 청구 간주, 도달주의 예외)","k":"19g582t"},
+  {"i":"10kbiss","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"약식명령은 <span class=\"cs-red\"><strong>재판서를 피고인에게 송달함으로써 효력 발생</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§452)</strong></span></span>, 반드시 변호인에게 등본을 송달해야 하는 것은 아니므로 <span class=\"cs-red\"><strong>정식재판 청구기간은 피고인에 대한 약식명령 고지일 기준</strong></span><span class=\"cs-exam\">【변24】</span>","k":"1url5wo"},
+  {"i":"1i7wfud","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[적용법칙]</span> 서면심리이므로 <span class=\"cs-red\"><strong>전문법칙은 적용되지 않으나, 자백배제법칙·자백보강법칙은 적용</strong></span>","k":"16rdmzb"},
+  {"i":"zep3oa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"약식명령은 정식재판의 청구에 의한 <span class=\"cs-red\"><strong>판결이 있는 때(판결 확정시)에는 효력을 잃음</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§456)</strong></span></span>","k":"fyyxu2"},
+  {"i":"yppimo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>[비교] 즉결심판 절차</strong></span>","k":"1zz1pu"},
+  {"i":"k2m9j1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[자백보강법칙 X]</span> 즉결심판절차에서는 <span class=\"cs-green\"><strong>자백보강법칙이 적용되지 않음</strong></span><span class=\"cs-exam\">【변24·15】</span>","k":"12h0s8g"},
+  {"i":"vtoaj4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[§312③·§313 X]</span> 즉결심판절차에서는 §312③·§313의 규정을 적용하지 아니함 → <span class=\"cs-green\"><strong>피고인이 내용부인한 피신조서도 증거능력 인정</strong></span><span class=\"cs-exam\">【변24·15】</span>","k":"b374t8"},
+  {"i":"3t23eh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[위수증·자백배제 O]</span> 위법수집증거배제법칙·자백배제법칙은 즉결심판 절차에도 적용<span class=\"cs-exam\">【변24】</span>","k":"1tsjckq"},
+  {"i":"welpew","o":"<div class=\"cs-h\">","h":"Ⅱ. 법원의 정식재판회부","k":"rms2b3"},
+  {"i":"1x98vnv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"약식명령 청구가 있는 경우 <span class=\"cs-red\"><strong>약식명령으로 할 수 없거나 적당하지 아니하다고 인정한 때에는 공판절차에 의해 심판</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§450)</strong></span></span> → 공판절차 진행하면 되고 특별한 형식상의 결정을 할 필요 없음","k":"kb6tzx"},
+  {"i":"n2bzdk","o":"<div class=\"cs-h\">","h":"Ⅲ. 정식재판절차","k":"1tbdzul"},
+  {"i":"1cj786z","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>정식재판청구절차</strong></span>","k":"1pl2u8g"},
+  {"i":"1289i4x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검사·피고인은 <span class=\"cs-red\"><strong>약식명령 고지를 받은 날로부터 7일 이내에 정식재판 청구</strong></span>, 단 피고인은 정식재판의 청구를 포기할 수 없음<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§453①)</strong></span></span>","k":"10b94h4"},
+  {"i":"12pwvb1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[기명날인·서명 흠결]</span> 정식재판청구서에 청구인의 기명날인·서명이 없으면 법령상 방식 위반으로 <span class=\"cs-red\"><strong>결정으로 기각</strong></span><span class=\"cs-exam\">【변24】</span> → 다만 법원공무원의 잘못으로 적법한 청구로 신뢰한 피고인이 청구기간을 넘겼다면 <span class=\"cs-red\"><strong>'책임질 수 없는 사유'로 정식재판청구권 회복 청구 가능</strong></span>","k":"gnkatl"},
+  {"i":"tzkx2c","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>정식재판청구권 회복</strong></span>","k":"17xymyt"},
+  {"i":"1uc1tk6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"자기·대리인이 책임질 수 없는 사유로 제기기간 내에 청구하지 못한 경우 <span class=\"cs-red\"><strong>정식재판청구권 회복 청구 가능</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§458①·§345)</strong></span></span>","k":"c3e5kn"},
+  {"i":"fusoik","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"정식재판청구권회복결정에 대하여는 <span class=\"cs-red\"><strong>즉시항고로만 불복 가능</strong></span>하고, 불복 없이 확정된 회복결정은 부당하더라도 다툴 수 없으므로 <span class=\"cs-red\"><strong>법원은 본안에 관하여 심판</strong></span>","k":"yoknzp"},
+  {"i":"1ujkris","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"피고인이 벌과금 납부명령서·납부독촉서를 송달받은 것만으로는 약식명령을 고지받았다고 단정하기 어려우므로, <span class=\"cs-green\"><strong>그날부터 회복 청구기간이 진행한다고 볼 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"11839eh"},
+  {"i":"hfw8z9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>정식재판절차에서의 불출석 재판</strong></span>","k":"1ez5e1c"},
+  {"i":"a522k7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"§365(항소심 2회 불출석 규정)는 정식재판절차의 공판기일에 정식재판을 청구한 피고인이 출석하지 아니한 경우에 준용<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§458②)</strong></span></span>","k":"xe6cnz"},
+  {"i":"13acgw1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"약식명령에 대한 정식재판청구절차에서는 <span class=\"cs-red\"><strong>소촉법상 제1심 불출석 재판 특례와 항소심 2회 불출석 특례가 모두 적용</strong></span> → 소촉법상 '6개월' 요건에 이르지 아니하더라도 공시송달의 방법으로 피고인의 진술 없이 재판 가능","k":"1ig1qr5"},
+  {"i":"cd0t5p","o":"<div class=\"cs-h\">","h":"Ⅳ. 형종상향금지 원칙<span class=\"cs-exam\">【모사20·18】</span>","k":"94tyjo"},
+  {"i":"1kazdmh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>약식명령과 형종상향금지 원칙</strong></span>","k":"1am5bu8"},
+  {"i":"lrgxc8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"피고인이 정식재판을 청구한 사건에 대하여는 <span class=\"cs-red\"><strong>약식명령의 형보다 중한 '종류'의 형을 선고하지 못함</strong></span>(중한 형을 선고하지 못한다 X)<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§457의2①)</strong></span></span> → 중한 형을 선고하는 경우 판결서에 양형의 이유를 적어야<span class=\"cs-exam\">【변17·12】</span>","k":"1bwd9gq"},
+  {"i":"18ro1sx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[검사 정식재판 X]</span> 피고인뿐만 아니라 <span class=\"cs-green\"><strong>검사가 정식재판을 청구한 사건에서는 형종상향금지 원칙이 적용되지 않음</strong></span>","k":"nmlugt"},
+  {"i":"11sx0de","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[항소사건 O]</span> 형종상향금지 원칙은 <span class=\"cs-red\"><strong>피고인이 정식재판을 청구해 벌금형이 선고된 제1심판결에 대한 항소사건에서도 적용</strong></span>","k":"101vqd4"},
+  {"i":"k5bp1z","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[병합 경합범 O]</span> 정식재판을 청구한 사건과 다른 사건이 병합·경합범으로 처단되는 경우에도 <span class=\"cs-red\"><strong>정식재판을 청구한 사건에 그대로 적용</strong></span><span class=\"cs-exam\">【변24·13】</span>","k":"16vvb3w"},
+  {"i":"jr00fo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[즉결심판 O]</span> 즉결심판에 대하여 피고인만 정식재판을 청구한 사건에도 형종상향금지 원칙 적용<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(즉심법§19)</strong></span></span><span class=\"cs-exam\">【변13】</span>","k":"46djpd"},
+  {"i":"jf2688","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>구체적 판례</strong></span>","k":"qlhpkc"},
+  {"i":"2v58wt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"피고인만 벌금 300만 원 약식명령에 정식재판을 청구하였는데 다른 사건과 병합 후 모두 징역형을 선택하여 경합범으로 징역 1년 2월을 선고한 경우 <span class=\"cs-red\"><strong>정식재판청구 사건 부분은 벌금형보다 중한 종류의 형인 징역형을 선택하였으므로 형종상향금지 원칙 위반</strong></span>","k":"1fpis19"}
+ ]}
+]}

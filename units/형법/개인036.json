@@ -1,0 +1,62 @@
+{"id":"개인036","t":"야간주거침입절도죄와 특수절도죄","cat":"gak_절도강도","lv":1,"tg":["변사19","변사17","모사24","모기25"],"b":[
+ {"i":"uzs5oz","o":"<details class=\"cs-case\">","b":[
+  {"i":"15zc546","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE]</strong></span></span> <span class=\"cs-exam\">【변사17】 </span><span class=\"cs-red\">(10)</span>","k":"12852ik"},
+  {"i":"1qqyahx","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"fm7prj","o":"<div class=\"cs-fact\">","b":[
+    {"i":"12ym9av","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1phkav0","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"乙, 丙이 '장물' 300만 원을 보관 중임을 알고 훔치려 늦은 밤 丙의 집에 몰래 들어감 → 丙이 해 뜰 때까지 잠들지 않아 기다리다 오전 9시경 장롱 속 종이봉투의 현금 300만 원을","k":"hyn18j"},
+     {"i":"qcpxaq","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"들고 나옴. 乙의 죄책은? (10점)","k":"1xs2ix8"}
+    ]}
+   ]},
+   {"i":"1kegix4","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1ko6hzl","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"16b2udy","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [야간주거침입절도죄]</strong></span>","k":"1u4np36"},
+    {"i":"1sjl6t5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(가) [주거침입죄]</strong> 늦은 밤 몰래 들어감 → 주거침입죄(<span class=\"cs-blue\"><span class=\"cs-u\">제319조</span> 제1항</span>)<span class=\"cs-o\"><strong>(O)</strong></span>","k":"o13hwi"},
+    {"i":"1nkio6z","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(나) [야간주거침입절도죄]</strong>","k":"11et4b"},
+    {"i":"1mpgyj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 야간의 의미 — 위 학설 및 판례. 주거침입만 야간이면 족하다는 견해가 타당","k":"1koo044"},
+    {"i":"t7bap3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 늦은 밤 침입 → 절취가 주간(오전 9시)이어도 야간주거침입절도죄(<span class=\"cs-blue\"><span class=\"cs-u\">제330조</span></span>)<span class=\"cs-o\"><strong>(O)</strong></span>","k":"32f9yb"},
+    {"i":"trsjl7","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [장물취득죄]</strong></span>","k":"ko25js"},
+    {"i":"lzdpsd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(가) [장물죄의 본질]</strong> 추구권설/유지설/결합설, 판례 = 결합설로 평가. 양자 모두에서 본질을 파악하는 결합설 타당","k":"11iuuvt"},
+    {"i":"qgrtpp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(나) [장물을 절취한 경우]</strong>","k":"18yhfzq"},
+    {"i":"43jwf2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 추구권설 → 장물취득죄<span class=\"cs-o\"><strong>(O)</strong></span>, 유지설·결합설 → 본범과의 합의가 없어 장물취득죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"i1ym97"},
+    {"i":"14hxzbq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 판례 = 타인이 갈취한 재물을 그 의사에 반해 절취 → 절도죄만 성립, 장물취득죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"6p66be"},
+    {"i":"gcvlm7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"③ 乙에게 장물취득죄(<span class=\"cs-blue\"><span class=\"cs-u\">제362조</span> 제1항</span>)<span class=\"cs-x\"><strong>(X)</strong></span>","k":"jufmx"},
+    {"i":"e9wac2","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(3) [결론]</strong></span> 乙 = 야간주거침입절도죄","k":"4sggd0"}
+   ]}
+  ]}
+ ]},
+ {"i":"1wumokq","o":"<div class=\"cs-callout\">","b":[
+  {"i":"t7xj66","o":"<div class=\"cs-callout\">","b":[
+   {"i":"1qmub2z","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제330조(야간주거침입절도)</strong></span>","k":"197rs4t"},
+   {"i":"jazp5p","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>야간</strong></span>에 <span class=\"cs-u\">사람의 주거, 관리하는 건조물, 선박, 항공기 또는 점유하는 방실</span>에 <span class=\"cs-blue\"><strong>침입</strong></span>하여 <span class=\"cs-u\">타인의 재물</span>을 <span class=\"cs-blue\"><strong>절취</strong></span>한 자는 <span class=\"cs-red\">10년 이하의 <strong>징역</strong></span>에 처한다.","k":"2zwkfr"},
+   {"i":"1nredeo","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제331조(특수절도)</strong></span>","k":"1fxqqdw"},
+   {"i":"1mtv79p","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① <span class=\"cs-blue\"><strong>야간</strong></span>에 문이나 담 그 밖의 건조물의 일부를 <span class=\"cs-blue\"><strong>손괴</strong></span>하고 <span class=\"cs-blue\"><span class=\"cs-u\">제330조</span></span>의 장소에 침입하여 타인의 재물을 절취한 자는 <span class=\"cs-red\">1년 이상 10년 이하의 <strong>징역</strong></span>에 처한다.","k":"1qa6cwo"},
+   {"i":"x8hov0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② <span class=\"cs-u\">흉기를 휴대</span>하거나 <span class=\"cs-u\">2명 이상이 합동</span>하여 타인의 재물을 절취한 자도 제1항의 형에 처한다.","k":"1py24xk"}
+  ]},
+  {"i":"j9gvwt","o":"<div class=\"cs-h\">","h":"Ⅰ. 야간주거침입절도 (<span class=\"cs-blue\"><span class=\"cs-u\">§330</span></span>)","k":"1b76uaw"},
+  {"i":"nqbroh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>실행의 착수시기</strong></span>","k":"feekr1"},
+  {"i":"1soic4p","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-u\">야간에 절취 목적으로 주거침입한 경우</span> 주거침입 단계에서 이미 야간주거침입절도죄 착수<span class=\"cs-exam\">【변26】</span>","k":"169atq5"},
+  {"i":"1anvs6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"1ai7yms","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[베란다 난간]</span> 야간에 물건 훔칠 의도로 아파트 베란다 철제난간까지 올라가 유리창문 열려 시도 → 착수<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1ukkg4r"},
+  {"i":"1fckor6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[가스배관]</span> 야간에 절취 위해 가스배관 오르다 1층 방범창 딛고 배관 잡은 상태서 발각·뛰어내림 → 주거 사실상 평온 침해할 현실적 위험성 개시로 보기 어려움 (착수X)<span class=\"cs-exam\">【변19·13】【모사24】</span>","k":"7kykjj"},
+  {"i":"1m5a518","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>절취의 목적</strong></span>","k":"zdafth"},
+  {"i":"m7a135","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용범위: <span class=\"cs-def\"><strong>야간주거침입절도죄</strong></span> = <span class=\"cs-u\">주거침입죄+절도죄 결합범, 주거침입 선행</span> → 주거침입 시 절도고의 있어야 ↔ 침입 후 비로소 절도고의 생기면 주거침입죄+절도죄 경합범일지언정 야간주거침입절도죄<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변26】</span>","k":"frpye9"},
+  {"i":"1q5o2d4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"절취 아닌 살인 목적으로 주거침입 → 야간주거침입절도죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"kju1gy"},
+  {"i":"1knj738","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\">야간의 의미 </span>[변사17, 모사24, 모기25]","k":"130a7lg"},
+  {"i":"2c3cpo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-hl\">《§330 야간주거침입절도죄의 '야간'의 의미》</span>","k":"15fjoii"},
+  {"i":"1ak964","o":"<div class=\"cs-theory\">","b":[
+   {"i":"o2xgiq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①주거침입·절취 중 어느 하나만 야간이면 족 ②주거침입만 야간이면 족 ③절취행위만 야간이면 족 ④주거침입·절취 모두 야간","k":"15c7pq6"},
+   {"i":"1f8zcfg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: 야간 주거침입행위의 위험성에 주목해 중처벌 → 주거침입이 주간이면 야간주거침입절도죄<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변22·21·19·16】</span>","k":"1emd8d3"},
+   {"i":"it7n5p","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 형법이 '야간절도죄' 별도 처벌규정 없음 → 주거침입만 야간이면 족하다는 견해 타당 <span class=\"cs-fact-tag\">[위 판례 논거]</span>","k":"eetzrh"}
+  ]},
+  {"i":"15m5w1y","o":"<div class=\"cs-h\">","h":"Ⅱ. 특수절도 (<span class=\"cs-blue\"><span class=\"cs-u\">§331</span></span>)","k":"y6w8hc"},
+  {"i":"1s85zbn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><span class=\"cs-u\">제331조</span></span><span class=\"cs-sub\"> 제1항 (야간손괴후주거침입절도)</span>","k":"btacss"},
+  {"i":"14bwf0j","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-blue\"><span class=\"cs-u\">§331</span></span>① <span class=\"cs-def\"><strong>'손괴'</strong></span> = <span class=\"cs-u\">물리적으로 문호·장벽 등 건조물 일부 훼손해 효용 상실시키는 것</span>","k":"885q6q"},
+  {"i":"1jo8no5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"8z8m6c","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[착수O]</span> 야간에 절도 목적으로 출입문 자물통 고리 절단·손괴 후 침입하려다 발각 → 특수절도죄 착수<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변20·16·13】</span>","k":"h1l35k"},
+  {"i":"10qh2yc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"창문·방충망을 창틀에서 분리만 하고 물리적 훼손·효용상실 안시킨 경우 특수절도죄<span class=\"cs-x\"><strong>(X)</strong></span> <span class=\"cs-fact-tag\">['야간주거침입절도죄' 성립]</span><span class=\"cs-exam\">【변17】</span>","k":"1vb4xww"},
+  {"i":"cdwphx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><span class=\"cs-u\">제331조</span></span><span class=\"cs-sub\"> 제2항 (흉기휴대, 합동절도)</span>","k":"1rem32f"},
+  {"i":"19mefwo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例) : 2인 이상 합동해 야간 아닌 주간에 절도 목적 주거침입해도 물색행위 시작 전이면 특수절도죄 착수<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1uknfpb"},
+  {"i":"1qhkmxh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-gbg\">[주간에 합동해 시정장치 손괴하다 발각·도주 → 특수절도죄 착수X]</span><span class=\"cs-exam\">【변13】</span>","k":"hmsg2o"}
+ ]}
+]}

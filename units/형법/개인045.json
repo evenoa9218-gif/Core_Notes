@@ -1,0 +1,18 @@
+{"id":"개인045","t":"보험사기","cat":"gak_사기공갈","lv":1,"tg":["변기22"],"b":[
+ {"i":"ipy7ko","o":"<div class=\"cs-h\">","h":"Ⅰ. 착수 시기","k":"1un9epi"},
+ {"i":"1jhnmhp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>원칙 – 보험금 '청구한 때'(계약체결만으로 착수 X)</strong></span>","k":"cxcfrn"},
+ {"i":"70oq2l","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>[청구시]</strong></span> <span class=\"cs-u\">기존 보험 이용·보험사고 야기·보험금 청구 → '청구한 때' 착수</span><span class=\"cs-exam\">【변15·13】</span>","k":"1k7znts"},
+ {"i":"1356so4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例) : <span class=\"cs-u\">상법상 고지의무 위반 계약체결 사정만으로 편취 기망행위 단정 X</span>","k":"1v173mp"},
+ {"i":"kr2pa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+ {"i":"19w4dpa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-gbg\">[유효요건 흠결 계약(제3자가 피보험자 가장)]</span> 계약체결만으로는 편취 기망 착수<span class=\"cs-x\"><strong>(X)</strong></span> — 예비행위 불과, 후에 정범 실행 나아가면 방조범 성립 가능<span class=\"cs-exam\">【변16, 변기22】</span>","k":"5vejpm"},
+ {"i":"zsrmgw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>예외 – 계약'체결만'으로 착수 O</strong></span>","k":"e9awfd"},
+ {"i":"hnz6s","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"해당여부 判例:","k":"q5qfip"},
+ {"i":"1ngeme","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[보험사고 기발생 묵비/개연성 농후 인식/사고 조작의도 계약]</span> 기망행위<span class=\"cs-o\"><strong>(O)</strong></span> — '보험사고 우연성' 등 본질 해할 정도","k":"19cvq45"},
+ {"i":"9t277o","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[과거병력·치료이력 묵비, 향후 치료 개연성 농후]</span> 기망<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1ipxxh2"},
+ {"i":"ms3y33","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[약관상 고지의무 질병 미고지·계약 후 바로 그 질병으로 청구]</span> 사기죄<span class=\"cs-o\"><strong>(O)</strong></span> — 보험사 과실·해제가능해도 무방<span class=\"cs-exam\">【변18】</span>","k":"lssyfp"},
+ {"i":"1wfupy5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[당뇨·고혈압 발병 숨기고 계약]</span> 계약체결시 기망<span class=\"cs-o\"><strong>(O)</strong></span>","k":"z1bm6u"},
+ {"i":"m3l7v7","o":"<div class=\"cs-h\">","h":"Ⅱ. 기수 시기","k":"9y5cxa"},
+ {"i":"1ttyaid","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[수령시]</strong></span> <span class=\"cs-u\">보험금 지급받은 때 기수</span><span class=\"cs-exam\">【변13】</span>","k":"1fll5vz"},
+ {"i":"1pv2nrc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+ {"i":"1csajpc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[경미한 상해 과장·장기입원·과다 보험금 수령]</span> '보험금 전체' 사기죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"9udrs9"}
+]}

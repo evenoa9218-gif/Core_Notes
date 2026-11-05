@@ -1,0 +1,41 @@
+{"id":"형총024","t":"자구행위","cat":"chong_03","lv":1,"tg":[],"b":[
+ {"i":"rm4pbw","o":"<details class=\"cs-case\">","b":[
+  {"i":"pekdm","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 자구행위</strong></span> <span class=\"cs-exam\">【변사17】 </span><span class=\"cs-red\">(10)</span>","k":"xbqbjh"},
+  {"i":"7lxiru","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"16h99kw","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1fp3ugo","o":"<div class=\"cs-callout\">","b":[
+     {"i":"8di0e7","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲, 만취해 의식 잃은 채 술집 소파서 잠듦. 술집 사장 丁이 甲 주머니서 현금 200만원 발견하고 술값 100만원 꺼내 가짐. 丁 죄책? (10점)","k":"1nbftyn"}
+    ]}
+   ]},
+   {"i":"1wuht0n","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"6n04u6","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"19pvs44","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"☞<span class=\"cs-exam\">【변사17】</span>","k":"1qn0rjk"},
+    {"i":"1jmok8e","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [절도죄의 불법영득의사]</strong>","k":"sr8zee"},
+    {"i":"1c2syvx","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 불법영득의사 = 권리자 배제하고 타인 물건을 자기 소유물처럼 경제적 용법에 따라 이용·처분할 의사","k":"1gpwf8r"},
+    {"i":"1lmhj0v","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 불법의 의미 = 영득의 불법설·절취의 불법설, 판례는 절취의 불법설","k":"f91cri"},
+    {"i":"13v12i0","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 판례상 丁이 甲에 술값 100만원 채권 있어도 甲 의사에 반해 임의로 꺼냈으므로 불법영득의사 인정","k":"tgsro8"},
+    {"i":"nk04dy","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"④ ∴ 丁이 술값 100만원 임의로 꺼내 충당한 행위 = 절도죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제329조</strong></span></span>) 구성요건 해당","k":"143ahlt"},
+    {"i":"x53wxk","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [위법성조각사유의 존재여부]</strong> (가) [자구행위 인정여부] 甲 깨어나면 얼마든지 술값 받을 수 있으므로 법정절차로 청구권 보전 불능 경우 해당 X, 임의로 꺼내 충당 = 사회통념상 허용범위 넘어 자구행위(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제23조</strong></span></span>①) X (나) [정당행위 인정여부] 丁이 술값 100만원 채권 있어도 만취·의식 잃은 甲 주머니서 임의로 꺼내 충당 = 사회통념상 허용범위 넘어 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제20조</strong></span></span> 정당행위 X","k":"1ifoun9"},
+    {"i":"4004wj","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> ∴ 丁 = 절도죄","k":"t1fntt"}
+   ]}
+  ]}
+ ]},
+ {"i":"md09b9","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1elj4ip","o":"<div class=\"cs-callout\">","b":[
+   {"i":"s1yo5d","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제23조(자구행위)</strong></span>","k":"1m4hho8"},
+   {"i":"5l0n4d","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 법률에서 정한 절차에 따라서는 청구권을 보전할 수 없는 경우에 그 청구권의 실행이 불가능해지거나 현저히 곤란해지는 상황을 피하기 위하여 한 행위는 상당한 이유가 있는 때에는 벌하지 아니한다.","k":"1ov5ekl"},
+   {"i":"pfraeg","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 제1항의 행위가 그 정도를 초과한 경우에는 정황에 따라 그 형을 감경하거나 면제할 수 있다.","k":"49yaub"}
+  ]},
+  {"i":"weopp7","o":"<div class=\"cs-h\">","h":"Ⅰ. 자구행위","k":"1tetgd6"},
+  {"i":"1gkk5tc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[자구행위 개념]</span> 법정절차로 청구권 보전 불능한 경우에 그 청구권의 실행불능 or 현저한 실행곤란 피하기 위한 상당한 행위","k":"131r1nb"},
+  {"i":"xohq61","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[청구권 보전 목적]</span> 청구권 보전 위한 것 ∴ 재물 임의처분 or 강제이행(추심)받아 스스로 변제충당 = 자구행위 X","k":"12wkba7"},
+  {"i":"vflap4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[상당한 이유]</span> ① 청구권보전 위한 적합한 수단(수단의 적합성) ② 최후수단으로 최소침해 행위수단(최후수단성·보충성·최소침해성) ③ 일응 상대방 불법한 침해에 대응하므로 엄격한 법익균형성 불요(정당방위보다는 엄격)(법익균형성)","k":"iu7wfd"},
+  {"i":"1czly2y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[과잉자구행위 규정 X]</span> ① 과잉방위·과잉피난·과잉자구행위 규정 有 ② 야간 등 책임조각적 과잉방위·과잉피난만 有, 자구행위는 규정 無<span class=\"cs-exam\">【변12】</span>","k":"bq80re"},
+  {"i":"13a24th","o":"<div class=\"cs-h\">","h":"Ⅱ. 구체적 판례","k":"16prjhf"},
+  {"i":"1crwq77","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[가구점 취거]</span> 채무자 피해자 부도 後 도피, 타 채권자들이 채권확보 위해 물건 취거해갈 수 있다는 사정만으론 법정절차로 청구권 보전 불능 경우 X, 관리종업원 있는데도 가구점 시정장치 쇠톱 절단하고 들어가 가구 무단 취거 = 실행불능·현저한 실행곤란 피하기 위한 상당한 이유 있는 행위 X","k":"twk83l"},
+  {"i":"jywe2w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[화랑 물건 취거]</span> 석고 납품대금 못받던中 피해자 화랑 폐쇄·도주하자 야간에 폐쇄 화랑 베니어판 문 뜯고 물건 몰래 가져옴 = 강제적 채권추심 내지 목적한 물품 취거 → 자구행위 X","k":"mpz3wl"},
+  {"i":"104xi5e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[진입로 폐쇄]</span> 토지소유권자가 피해자 회사에 토지 인도 등 구할 권리 있다는 이유만으로 회사 진입로 폐쇄 = 자구행위 X","k":"1ml7x72"},
+  {"i":"46fz8u","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[통행로 철주·철망]</span> 인근 상가 통행로로 이용되는 토지의 사실상 지배권자가 철주·철망 설치하고 아스팔트 걷어내 통행로 이용 못하게 함 = 일반교통방해죄 구성, 자구행위 X<span class=\"cs-exam\">【변14】</span>","k":"vgtaiy"},
+  {"i":"1j1i80b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[전차인 열쇠 교체]</span> ① 건물 전차인이 임대인 승낙없이 전차해도 전차인 업무를 업무방해죄로 보호받지 못하는 권리라 단정 X ② 피고인은 정당한 소송절차로 점유 회복해야 하고 위력으로 권리행사 불가 ∴ 지하층 열쇠 새로 만들어 잠그고 피해자 소유 의자·탁자 등 들어낸 행위 = 사회상규 위배 안되는 정당행위 or 자구행위 X<span class=\"cs-exam\">【변23】</span>","k":"f5a5bi"}
+ ]}
+]}

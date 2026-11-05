@@ -1,0 +1,50 @@
+{"id":"형소071","t":"법원의 공소장변경 없는 직권인정","cat":"pro_09","lv":1,"tg":["B급","上","변사18","모사24·20·15","모기24·23"],"b":[
+ {"i":"lsy4h9","o":"<details class=\"cs-case\">","b":[
+  {"i":"1lm3zx2","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 폭행치상 항소심의 폭행죄 직권 유죄 가부</strong></span> <span class=\"cs-exam\">【변사18】</span>","k":"19bxis2"},
+  {"i":"127vh5n","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1ip3yfl","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1u3p9t5","o":"<div class=\"cs-callout\">","b":[
+     {"i":"7gg6yd","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲이 A에 대한 폭행치상으로 제1심 유죄선고 후 항소 → 항소심이 상해의 점은 인정되지 않는다고 판단. 항소심은 직권으로 甲에게 폭행죄로만 유죄를 선고할 수 있는가? (15점)","k":"17t6x5g"}
+    ]}
+   ]},
+   {"i":"1umxjna","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"g1fpbj","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"ds04fw","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [공소사실 동일성]</strong>","k":"1qa2swm"},
+    {"i":"gaeqgo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 판례는 피고인의 행위와 그 사회적 사실관계를 기본으로 하되 규범적 요소도 고려(배점에 따라 학설도 기재)","k":"f5anh4"},
+    {"i":"1npsoop","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 폭행치상과 폭행은 동일성 인정","k":"n3bkqg"},
+    {"i":"79rrdz","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [공소장변경의 필요성]</strong>","k":"1yr1gg8"},
+    {"i":"1q3ebuo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"동일벌조설·법률구성설·사실기재설 및 판례 입장 기재","k":"1vrvutj"},
+    {"i":"wf0ldx","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [축소사실인 반의사불벌죄로 직권 인정 가부]</strong>","k":"kvkyyw"},
+    {"i":"13k1tnx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 적극설·소극설, 판례는 적극설. 피고인은 미리 일부 공소사실이 인정되지 않는 경우에 대비하여 친고죄 고소취소 또는 반의사불벌죄 처벌불원의사 존재도 주장할 수 있으므로, 직권으로 인정하더라도 방어권 행사에 실질적 불이익 X → 적극설 타당","k":"6pb5c8"},
+    {"i":"3us27l","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 항소심은 직권으로 甲에게 폭행죄로만 유죄 선고 가능","k":"1k01pi3"}
+   ]}
+  ]}
+ ]},
+ {"i":"1lf4xuc","o":"<div class=\"cs-callout\">","b":[
+  {"i":"fqtx4n","o":"<div class=\"cs-h\">","h":"Ⅰ. 공소장변경의 필요성 = 법원의 직권인정 '가능' 기준","k":"geb4iu"},
+  {"i":"1eumrbj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>직권인정 ‘가능’ 기준</strong></span><span class=\"cs-exam\">【변사18, 모사24·20】</span>","k":"11r7h0u"},
+  {"i":"1au7x2n","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《법원이 어느 범위에서 공소장변경 없이 직권으로 공소사실과 다른 사실을 인정할 수 있는지》</strong></span> — (공소사실 동일성이 인정되는 것을 전제)","k":"fe0qe5"},
+  {"i":"1q4b7pe","o":"<div class=\"cs-theory\">","b":[
+   {"i":"1jb6dax","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 동일벌조설 ② 법률구성설 ③ 공소장에 기재된 사실과 <span class=\"cs-red\"><strong>실질적으로 다른 사실을 인정할 때 공소장변경이 필요</strong></span>하다는 사실기재설(통설)","k":"ye789l"},
+   {"i":"1qody1p","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例] 법원은 공소사실의 동일성이 인정되는 범위 내에서 심리의 경과에 비추어 피고인의 방어권 행사에 실질적인 불이익을 초래할 염려가 없다고 인정되는 때에는 직권으로 공소사실과 다른 범죄사실을 인정할 수 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span><span class=\"cs-exam\">【변15】</span>","k":"1h3o3ll"}
+  ]},
+  {"i":"148k58s","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>공소장변경과 직권인정</strong></span>","k":"11ylss8"},
+  {"i":"5qr8n4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[공소장변경절차를 거쳐야 하는 경우임에도 이를 거치지 않은 채 직권으로 당초 공소사실과 다른 공소사실에 유죄를 인정하는 것]</span> 피고인의 방어권 침해 또는 불고불리 원칙 위반으로 <span class=\"cs-green\"><strong>허용 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"inslr3"},
+  {"i":"edc6nb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-neg-tag\">[공소장변경절차를 거치지 않고서도 직권으로 유죄 인정할 수 있는 예외적 경우임에도 공소장변경절차를 거쳐 변경된 공소사실을 유죄로 인정한 것]</span> 심판대상을 명확히 특정하여 방어권 보장을 강화하는 것이므로 특별한 사정이 없는 한 <span class=\"cs-red\"><strong>위법하다고 볼 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"nyek1u"},
+  {"i":"17rkcqr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[공소장변경 절차 없이도 심리·판단할 수 있는 죄가 여러 개인 경우]</span> 법원은 그 중 어느 하나를 임의로 선택할 수 있는 것이 아니라 <span class=\"cs-red\"><strong>검사에게 공소사실 및 적용법조에 관한 석명을 구하여 공소장을 보완하게 한 다음 심리·판단하여야</strong></span><span class=\"cs-exam\">【변22】</span>","k":"1c7lwv1"},
+  {"i":"1y9zuta","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>축소사실인 친고죄·반의사불벌죄 직권인정 가능여부</strong></span>","k":"vxxns6"},
+  {"i":"epkqbk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《법원이 친고죄·반의사불벌죄가 아닌 공소사실을 직권으로 축소사실인 친고죄·반의사불벌죄로 인정할 수 있는지》</strong></span>","k":"12jt0op"},
+  {"i":"kt6owg","o":"<div class=\"cs-theory\">","b":[
+   {"i":"1hibpng","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 비친고죄 등의 방어방법에 친고죄의 방어방법이 포함되어 있으므로 직권으로 인정할 수 있다는 <span class=\"cs-red\"><strong>적극설</strong></span> ② 비친고죄와 친고죄는 방어방법이 다르므로 공소장변경이 필요하다는 <span class=\"cs-green\"><strong>소극설</strong></span>","k":"ocy13v"},
+   {"i":"5knavy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 적극설] 공소장변경 없이 직권으로 공소제기된 비친고죄를 친고죄로 인정할 수 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span>","k":"xy7cpk"},
+   {"i":"1ep9agz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: 피고인은 미리 일부 공소사실이 인정되지 않는 경우에 대비하여 <span class=\"cs-red\"><strong>친고죄의 고소취소도 주장할 수 있으므로</strong></span> 직권으로 인정하더라도 방어권 행사에 실질적 불이익 X → <span class=\"cs-red\"><strong>적극설 타당</strong></span>","k":"1q6uesu"}
+  ]},
+  {"i":"ytutr","o":"<div class=\"cs-h\">","h":"Ⅱ. 법원의 직권인정 '의무'<span class=\"cs-exam\">【모사15, 모기24·23】</span>","k":"lnerz2"},
+  {"i":"f1ia49","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《법원이 공소장변경이 없더라도 직권으로 공소사실과 다른 사실을 인정할 ‘의무’가 있는지, 있다면 그 기준》</strong></span>","k":"1pdgowq"},
+  {"i":"dv66sz","o":"<div class=\"cs-theory\">","b":[
+   {"i":"18kkikm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 축소사실은 공소사실에 포함되어 현실적 심판대상이므로 직권으로 인정할 의무가 있다는 <span class=\"cs-green\"><strong>의무설</strong></span> ② 사실인정에 대해 법원의 재량을 인정할 필요가 있으므로 예외적으로만 의무가 인정된다는 <span class=\"cs-red\"><strong>원칙적 재량설</strong></span>","k":"182pcsi"},
+   {"i":"1dmgpj3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 원칙적 재량설] 직권으로 인정할 수 있는 경우, 공소가 제기된 범죄사실과 대비하여 실제 인정되는 범죄사실의 사안이 가볍지 아니하여 공소장이 변경되지 않았다는 이유로 처벌하지 않는다면 신속한 실체적 진실발견에 비추어 현저히 정의와 형평에 반하는 것으로 인정되는 경우라면 법원으로서는 '직권으로 인정해야'</strong></span>","k":"1mrvzmj"},
+   {"i":"1o35mig","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: 구체적 타당성을 고려하는 <span class=\"cs-red\"><strong>판례 타당</strong></span>","k":"sbscjv"}
+  ]}
+ ]}
+]}

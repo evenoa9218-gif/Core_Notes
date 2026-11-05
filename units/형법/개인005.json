@@ -1,0 +1,45 @@
+{"id":"개인005","t":"상해의 개념","cat":"gak_생명신체","lv":1,"tg":[],"b":[
+ {"i":"d9231v","o":"<details class=\"cs-case\">","b":[
+  {"i":"nc5i00","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 졸피뎀 수면제·간음 사례</strong></span> [법무사21] <span class=\"cs-red\">(10)</span>","k":"gs3p88"},
+  {"i":"15jvcxx","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"185lh3j","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1wl9wdz","o":"<div class=\"cs-callout\">","b":[
+     {"i":"xsqoz6","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲, 과거 연인 乙(女)에게 권장용량의 2배에 해당하는 졸피뎀 성분 수면제를 섞은 커피를 마시게 해 잠들자 간음. 乙은 마신 직후 정신을 잃고 깊이 잠들었다가 약 4시간 뒤 깨어났는데, 잠든 이후 상황을 제대로 기억 못했고 정신이 희미하게 든 때도 자기 의지대로 생각·행동하지 못한 채 곧바로 기절하다시피 다시 깊은 잠에 빠짐. 이후 자연적으로 의식 회복, 특별한 치료는 받지 않음.","k":"mqz3n1"},
+     {"i":"sqrghr","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲의 죄책은? (10점)","k":"4x47pd"}
+    ]}
+   ]},
+   {"i":"1vipnjc","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1f4bdm9","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1lmh626","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [강간죄의 폭행]</strong>","k":"1o7vh22"},
+    {"i":"1xzt3gg","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① [<span class=\"cs-u\">강간죄(</span><span class=\"cs-u\"><strong>제297조</strong></span><span class=\"cs-u\">)의 폭행 = 피해자의 항거를 불가능하게 하거나 현저히 곤란하게 할 정도]</span>","k":"1cls45f"},
+    {"i":"sav95t","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 졸피뎀 성분 수면제 섞은 커피를 마시게 해 정신을 잃고 깊이 잠들게 함 → 항거불가능 정도→ 강간죄의 폭행 <span class=\"cs-o\"><strong>(O)</strong></span>","k":"10qf0nt"},
+    {"i":"o9h8dc","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [강간치상죄의 상해]</strong>","k":"kvwpbl"},
+    {"i":"c5alc1","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① [<span class=\"cs-u\">강간치상죄(</span><span class=\"cs-u\"><strong>제301조</strong></span><span class=\"cs-u\">)의 상해 = 신체의 완전성 훼손 또는 생리적 기능장애 초래]</span>","k":"1mxeged"},
+    {"i":"ss3i7","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② [수면제 등 약물로 일시적 수면·의식불명 상태에 이르게 한 경우 자연적 의식회복·외상 없어도 상해] <span class=\"cs-o\"><strong>(O)</strong></span>","k":"1j09qki"},
+    {"i":"1govscy","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 乙이 4시간 후 깨어났고 그 사이 상황 기억 못한 채 곧바로 다시 깊이 잠든 점, 졸피뎀이 중추신경계 작용 향정신성의약품인 점 → 생리적 기능훼손 인정","k":"1scjo8f"},
+    {"i":"1dsm1gf","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> 甲 = 강간치상죄","k":"ci706a"}
+   ]}
+  ]}
+ ]},
+ {"i":"1ggtd56","o":"<div class=\"cs-callout\">","b":[
+  {"i":"122xyzp","o":"<div class=\"cs-h\">","h":"Ⅰ. 상해의 개념","k":"dvjl3e"},
+  {"i":"v4bjwp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"개념 (判例) : <span class=\"cs-def\"><strong>[생리적 기능훼손설]</strong></span> <span class=\"cs-def\"><span class=\"cs-u\">상해 = 신체의 완전성 훼손 또는 생리적 기능에 장애 초래 (건강상태 불량화+생활기능장애), 육체적+정신적 기능 모두 포함</span></span>","k":"q2b2hj"},
+  {"i":"170jlxv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"↔ <span class=\"cs-green\">경미하여 치료 불요·일상생활 지장 없고 자연치유되는 정도</span>는 <span class=\"cs-x\"><strong>(X)</strong></span> [<span class=\"cs-blue\">강간치상죄·강제추행치상죄·강도상해죄·체포치상죄</span> 등에도 동일 적용]","k":"gcddn5"},
+  {"i":"10fztx6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당 <span class=\"cs-o\"><strong>(O)</strong></span>:","k":"170ye58"},
+  {"i":"1ds3jo6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[8세 미성년자의제강제추행, <strong>외음부에 경도의 염증</strong>이 발생한 경우]</span> <span class=\"cs-o\"><strong>(O)</strong></span> — 증상이 약간의 발적과 경도의 염증이 수반된 정도에 불과하더라도 그로 인해 피해자 신체 건강상태 불량&amp;생활기능 장애초래시 상해에 해당<span class=\"cs-exam\">【변15】</span>","k":"1m5r6om"},
+  {"i":"oit2di","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[폭행으로 <strong>보행불능·수면장애·식욕감퇴 등 기능장해</strong>를 일으킨 경우]</span> <span class=\"cs-o\"><strong>(O)</strong></span>","k":"is5n9s"},
+  {"i":"1u13lmn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당 <span class=\"cs-x\"><strong>(X)</strong></span>:","k":"170yk3v"},
+  {"i":"1nbhldk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[<strong>동전크기 멍</strong>]</span> <span class=\"cs-x\"><strong>(X)</strong></span>","k":"1586u52"},
+  {"i":"1jvp6lm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[<strong>음모를 자른 경우</strong>]</span> 외모변화만으로는 생리적 기능 장애 X → <span class=\"cs-x\"><strong>(X)</strong></span>, <span class=\"cs-red\"><strong>폭행<span class=\"cs-o\"><strong>(O)</strong></span></strong></span>","k":"15hnsfr"},
+  {"i":"b4sc7k","o":"<div class=\"cs-h\">","h":"Ⅱ. 일시적 수면 또는 의식불명 상태","k":"cf0q8m"},
+  {"i":"8gio3x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"vnpaky","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[오랜 협박·폭행으로 <strong>실신</strong>, 구급차 안에서 정신 차린 경우]</span> <span class=\"cs-o\"><strong>(O)</strong></span> — 외상 없어도 생리적 기능훼손","k":"8fhik1"},
+  {"i":"omdz1t","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[<strong>수면제 등 향정신성의약품인 약물</strong>로 일시적 수면·의식불명 상태에 이르게 한 경우]</span> <span class=\"cs-o\"><strong>(O)</strong></span> — 자연회복·외상 없어도 <span class=\"cs-blue\">강간치상·강제추행치상</span>의 상해<span class=\"cs-exam\">【변18】(향정신성의약품인 졸피뎀•트리아졸람: 중추신경계 억제해 깊은 수면 유도하는 약물로 생리적 기능훼손 인정)</span>","k":"zqpxq6"},
+  {"i":"1sb1rlk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[<strong>약물(약품명 미상)</strong> 탄 음료로 정신혼미·기억상실된 경우]</span> <span class=\"cs-x\"><strong>(X)</strong></span> — <span class=\"cs-blue\">강도죄</span> 항거불능 사유는 될 수 있으나 상해 인정자료로는 부족","k":"1s3ptcs"},
+  {"i":"k22gif","o":"<div class=\"cs-h\">","h":"Ⅲ. 중상해","k":"1ddnhf1"},
+  {"i":"9firns","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"개념: 중상해죄 = <span class=\"cs-red\">부진정결과적 가중범, 미수범 처벌규정 X</span>","k":"xz7xze"},
+  {"i":"1i85k3v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"171dyby","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[실명 / 코 절단 / 혀 절단]</span> 모두 불구 <span class=\"cs-o\"><strong>(O)</strong></span>","k":"7yf610"},
+  {"i":"2awffv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[3주간 치료 요하는 우측흉부자상]</span> <span class=\"cs-x\"><strong>(X)</strong></span>","k":"ptdpxw"}
+ ]}
+]}

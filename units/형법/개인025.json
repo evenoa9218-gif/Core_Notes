@@ -1,0 +1,15 @@
+{"id":"개인025","t":"컴퓨터등장애업무방해죄","cat":"gak_명예주거","lv":1,"tg":[],"b":[
+ {"i":"qeh9qh","o":"<div class=\"cs-callout\">","b":[
+  {"i":"d1ekyr","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제314조(업무방해)</strong></span>","k":"bdnua"},
+  {"i":"1fp1qur","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② <span class=\"cs-u\">컴퓨터등 정보처리장치 또는 전자기록등 특수매체기록</span>을 <span class=\"cs-blue\"><strong>손괴</strong></span>하거나 정보처리장치에 <span class=\"cs-u\">허위의 정보 또는 부정한 명령</span>을 <span class=\"cs-blue\"><strong>입력</strong></span>하거나 기타 방법으로 <span class=\"cs-u\"><strong>정보처리에 장애를 발생</strong></span>하게 하여 <span class=\"cs-u\">사람의 업무</span>를 <span class=\"cs-blue\"><strong>방해</strong></span>한 자도 제1항의 형과 같다.","k":"785qkq"}
+ ]},
+ {"i":"5m7h8w","o":"<div class=\"cs-h\">","h":"Ⅰ. 행위 – 손괴, 허위의 정보 또는 부정한 명령 입력, 기타 방법","k":"1methh5"},
+ {"i":"13zh6ts","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+ {"i":"4shtd1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[관리자 ID·PW 무단 변경 O]</span> 컴퓨터등장애업무방해죄<span class=\"cs-o\"><strong>(O)</strong></span> — 권한 없는 자가 관리자 아이디·비밀번호를 무단 변경 → '부정한 명령 입력'으로 정당한 접속 불가케 함 → 정보처리 장애 현실 발생·업무방해 위험","k":"s09gu5"},
+ {"i":"13mx7dc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[비밀번호 설정+하드 분리 O]</span> <span class=\"cs-blue\"><span class=\"cs-u\">§314</span>②</span> 성립 — 방해 의도로 함부로 비밀번호 '설정'은 '허위정보·부정명령 입력', 하드디스크 분리·보관은 '손괴'<span class=\"cs-exam\">【변23·22】</span>","k":"1oj0tg5"},
+ {"i":"1idvavn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[비밀번호 미인계 X]</span> <span class=\"cs-blue\"><span class=\"cs-u\">§314</span>②</span> '기타방법' 업무방해죄<span class=\"cs-x\"><strong>(X)</strong></span> — 시스템관리자가 퇴직하며 후임자에게 비밀번호를 알려주지 않은 것만으로는 정보처리장치 작동에 직접 영향·기능 저해 X","k":"plj62k"},
+ {"i":"1nnd981","o":"<div class=\"cs-h\">","h":"Ⅱ. 정보처리에 장애를 발생하게 하여 사람의 업무를 방해","k":"a9rcrj"},
+ {"i":"1jyb6n","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"성립요건: <span class=\"cs-u\">①정보처리장치가 사용목적 부합 기능 못 하거나 다른 기능을 하는 등</span> '정보처리 장애'가 '현실적으로 발생'해야 ②장애로 '업무방해 위험' 발생한 이상 결과 실제 미발생해도 성립<span class=\"cs-exam\">【변24】</span>","k":"vuph3z"},
+ {"i":"1961xyr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+ {"i":"1i6p8ar","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[허위 클릭정보 통계 반영 O]</span> 컴퓨터등장애업무방해죄<span class=\"cs-o\"><strong>(O)</strong></span> — 통계집계시스템 서버에 허위 클릭정보 전송·통계 반영으로 정보처리 장애 현실 발생 → 검색순위 변동 실제 초래 안 해도<span class=\"cs-exam\">【변16】</span>","k":"18h05r5"}
+]}

@@ -1,0 +1,57 @@
+{"id":"형소025","t":"불심검문과 소지품 검사","cat":"pro_03","lv":1,"tg":["B급","中","변사24","모사15"],"b":[
+ {"i":"17i9byk","o":"<details class=\"cs-case\">","b":[
+  {"i":"1qdv749","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 귀금속점 앞 가방 소지품 검사와 현행범 체포</strong></span>","k":"klokws"},
+  {"i":"onj56i","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"wdv1m8","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1hv8y0","o":"<div class=\"cs-callout\">","b":[
+     {"i":"16c6gv1","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"절도사건 수사 중 P가 귀금속점을 들락거리며 가방 속 목걸이를 팔려는 甲을 정지시켜 신분증 제시·소속 고지 후 가방 내용물 질문 → 甲 무응답 → 겉에서 만져 딱딱한 귀금속 감지 → 개방 요구 거부 → P가 가방을 열고 귀금속을 꺼내 피해품 확인 → 현행범 체포·압수 → 곧 사후 압수수색영장 발부.","k":"17rawxp"},
+     {"i":"ofv3po","o":"<div class=\"cs-li cs-issue\" style=\"margin-left:0px\">","h":"(1) 불심검문과 소지품 검사는 적법한가? (15점) (2) 압수한 귀금속은 증거능력이 있는가? (5점) (15점 + 5점)","k":"18awy6h"}
+    ]}
+   ]},
+   {"i":"1iry09j","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1g121vy","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"ve61q6","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1)</strong>","k":"37462d"},
+    {"i":"ecc0oq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 객관적·합리적으로 甲의 거동수상 + 절도·장물처분 의심할 상당한 이유 → 불심검문 적법","k":"12zuonv"},
+    {"i":"1k2xs05","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 흉기 이외 소지품에 대해 외표검사를 넘어 실력행사로 꺼내는 것 → 허용 X","k":"1m04t2d"},
+    {"i":"1dofbq0","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2)</strong>","k":"37463a"},
+    {"i":"1ram1z9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 소지품 검사 위법 → 이를 기초로 한 현행범 체포·체포현장 영장 없는 압수 모두 위법","k":"ocvhpf"},
+    {"i":"l2kjf2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 사후 압수수색영장 발부받았어도 귀금속 증거능력 X","k":"1knddyj"}
+   ]}
+  ]}
+ ]},
+ {"i":"1nxgfbp","o":"<div class=\"cs-callout\">","b":[
+  {"i":"fupiae","o":"<div class=\"cs-h\">","h":"Ⅰ. 불심검문 대상자","k":"1y62fa"},
+  {"i":"c7bvdf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"경찰관은 <span class=\"cs-red\"><strong>거동수상자나 범죄행위에 관한 사실을 안다고 인정되는 사람</strong></span>을 정지시켜 질문 가능<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(경직법§3① 참조)</strong></span></span>","k":"1olpks0"},
+  {"i":"1lpb2vl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>판단기준 (判例) : 불심검문 대상자인지 여부는 '객관적·합리적인 기준'에 따라 판단하여야 하나, 반드시 형소법상 체포나 구속에 이를 정도의 혐의가 있을 것을 요하는 것 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"2s8szb"},
+  {"i":"14n838r","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"정지시킨 장소에서의 질문이 그 사람에게 불리하거나 교통에 방해가 된다고 인정될 때 <span class=\"cs-red\"><strong>가까운 경찰서로 동행 요구 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span> — 동행을 요구받은 사람은 <span class=\"cs-green\"><strong>요구 거절 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(경직법§3②)</strong></span></span>","k":"1kwcbdr"},
+  {"i":"bhv788","o":"<div class=\"cs-h\">","h":"Ⅱ. 신분증표 제시 및 소속과 성명을 밝힐 의무","k":"1fsycq4"},
+  {"i":"1e0hryg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"질문·동행요구시 <span class=\"cs-red\"><strong>신분을 표시하는 증표를 제시</strong></span>하면서 소속과 성명을 밝히고 질문·동행의 목적과 이유를 설명하여야 하며, 동행 요구시에는 <span class=\"cs-red\"><strong>동행 장소</strong></span>를 밝혀야 함<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(경직법§3④)</strong></span></span>","k":"uwpub6"},
+  {"i":"baeu3m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-neg-tag\">[검문자가 경찰관이고 검문 이유가 범죄행위에 관한 것임을 피고인이 충분히 알고 있었던 경우]</span> 신분증을 제시하지 않았더라도 <span class=\"cs-green\"><strong>위법한 공무집행 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span> — (정복차림)<span class=\"cs-exam\">【변19】</span>","k":"1d7pxa"},
+  {"i":"13hmxp0","o":"<div class=\"cs-h\">","h":"Ⅲ. 불심검문의 방법 (실력행사)<span class=\"cs-exam\">【변사24, 모사15】</span>","k":"1g47n83"},
+  {"i":"pleqrl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"개념 : <span class=\"cs-red\"><strong>정지 = 질문을 위한 수단으로 대상자를 불러 세우는 것</strong></span> — 대상자가 자발적으로 협조하지 않는 경우 어느 정도의 유형력을 행사할 수 있는지 문제","k":"1ks0wfj"},
+  {"i":"13aegmt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《불심검문에서 실력행사가 허용되는 범위》</strong></span>","k":"eaq2zx"},
+  {"i":"1a7zp4h","o":"<div class=\"cs-theory\">","b":[
+   {"i":"uznfc1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 제한적 허용설(강제에 이르지 않는 정도의 유형력행사 허용) ② 예외적 허용설(중범죄에 한해 예외적 허용) ③ 설득행위설(상대방의 번의를 구하는 것과 같이 의사를 제압할 정도의 강제에 이르지 않는 물리력 행사만 허용)","k":"xr8r4f"},
+   {"i":"o6enkx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例] 경찰관은 범행의 경중, 범행과의 관련성, 상황의 긴박성, 혐의의 정도, 질문의 필요성 등에 비추어 그 '목적 달성에 필요한 최소한의 범위'에서 사회통념상 용인될 수 있는 상당한 방법으로 정지시킬 수 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span>","k":"1x4f53a"},
+   {"i":"10zrn5l","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: 불심검문은 임의처분이므로 원칙적으로 실력행사 <span class=\"cs-green\"><strong>불허</strong></span>이나, <span class=\"cs-red\"><strong>판례와 같은 요건을 갖추면 허용</strong></span>","k":"77rxj1"}
+  ]},
+  {"i":"in6oj0","o":"<div class=\"cs-h\">","h":"Ⅳ. 소지품검사의 적법성<span class=\"cs-exam\">【모사15】</span>","k":"nvlk3g"},
+  {"i":"nxv1wm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"경찰관은 거동수상자 등에게 질문할 때 그 사람이 <span class=\"cs-red\"><strong>흉기를 가지고 있는지</strong></span>를 조사 가능<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(경직법§3③)</strong></span></span>","k":"3rezvb"},
+  {"i":"1xo8ccd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[흉기 이외의 소지품에 대한 ① 외표검사 ② 내용개시 요구]</span> 불심검문에 수반된 행위로 보아 <span class=\"cs-red\"><strong>허용</strong></span>된다고 보는 것이 일반적(Stop and Frisk)","k":"u6d2uf"},
+  {"i":"1dtn3u","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《소지품 내용개시 요구에 응하지 않는 경우 흉기 이외의 소지품 검사 과정에서 실력행사가 가능한지 여부》</strong></span>","k":"1rdby"},
+  {"i":"1s2d978","o":"<div class=\"cs-theory\">","b":[
+   {"i":"1f7nsj4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 긍정설(불심검문의 안전 확보·질문의 실효성 유지를 위해 허용) ② <span class=\"cs-green\"><strong>부정설</strong></span>(명문규정이 없으므로 불허)","k":"1rd3p8u"},
+   {"i":"1xg5wac","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: 경직법이 <span class=\"cs-red\"><strong>흉기 조사만</strong></span> 규정하는 점, 일반적 소지품 검사에 대한 실력행사를 허용하면 <span class=\"cs-green\"><strong>영장주의 잠탈 우려</strong></span>가 있는 점 → <span class=\"cs-green\"><strong>부정설 타당</strong></span>. 다만 중대범죄로 긴급체포도 가능하지만 신중을 기하기 위한 경우에는 <span class=\"cs-red\"><strong>가능</strong></span>","k":"4ygjz2"}
+  ]},
+  {"i":"zd8as5","o":"<div class=\"cs-h\">","h":"Ⅴ. 위법한 소지품 검사에 이은 체포 및 압수·수색","k":"mi36fm"},
+  {"i":"3ebhzm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>선행하는 소지품 검사에 중대한 위법이 있고 이를 기초로 연속하여 이루어진 현행범 체포는 그 요건을 갖춘 경우에도 위법 → 위법한 현행범 체포에 기한 체포현장 압수수색도 위법 → 압수품 및 파생증거는 원칙적으로 증거능력 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"ot57s0"},
+  {"i":"1iyqc6r","o":"<div class=\"cs-h\">","h":"Ⅵ. [관련] 경직법 제6조 범죄의 예방과 제지","k":"1fo40ai"},
+  {"i":"17zvya8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"경찰관은 범죄행위가 <span class=\"cs-red\"><strong>목전에 행하여지려고 하고 있다고 인정될 때</strong></span> 예방을 위해 관계인에게 필요한 경고를 하고, 사람의 생명·신체에 위해를 끼치거나 재산에 중대한 손해를 끼칠 우려가 있는 <span class=\"cs-red\"><strong>긴급한 경우</strong></span>에는 그 행위를 제지 가능<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(경직법§6)</strong></span></span>","k":"1gyt29j"},
+  {"i":"iuaa7h","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[제지 = 즉시강제] 위 조항 중 제지에 관한 부분은 범죄 예방을 위한 '경찰 행정상 즉시강제', 즉 의무불이행을 전제로 하지 않고 경찰이 직접 실력을 행사하여 경찰상 필요한 상태를 실현하는 권력적 사실행위에 관한 근거조항</strong></span>","k":"c7bu99"},
+  {"i":"1u6pj38","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[한밤중 음악을 크게 켜거나 소리를 질러 인근소란행위를 하는 자가 문조차 열어주지 않고 소란을 멈추지 않자 집으로 통하는 전기를 일시적으로 차단]</span> 피고인을 집 밖으로 나오도록 유도한 것으로서 범죄행위 진압·예방·수사를 위해 필요하고도 적절한 조치 → <span class=\"cs-red\"><strong>즉시강제의 요건을 충족한 적법한 직무집행</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(경범죄처벌법§3①제21호)</strong></span></span>","k":"11c088r"},
+  {"i":"hyeel4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[술에 취해 항의하다 경찰관 A(女)에게 고성을 지르며 몸을 들이밀자 경찰관 B(男)가 甲을 급하게 밀쳐 A와 분리하였고, 甲이 이를 위법하다고 오인하여 B를 밀친 경우]</span> 공무집행방해죄 <span class=\"cs-o\"><strong>(O)</strong></span>","k":"1vcay9o"},
+  {"i":"1s3yd71","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 밀쳐내는 방법으로 분리한 조치는 경직법§6의 <span class=\"cs-red\"><strong>'범죄의 예방과 제지'에 관한 적법한 공무</strong></span>","k":"b8olhp"},
+  {"i":"1uw7iea","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 甲에게는 위법성 조각사유의 전제사실에 대한 착오가 존재 <span class=\"cs-x\"><strong>(X)</strong></span>, 단지 직무집행 적법성에 대한 <span class=\"cs-red\"><strong>주관적인 법적 평가를 잘못한 것</strong></span>이므로 형법§16 적용","k":"pou2fn"},
+  {"i":"18k6wtc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"③ 甲에게 오인할 만한 <span class=\"cs-green\"><strong>정당한 이유 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"1mkytp4"}
+ ]}
+]}

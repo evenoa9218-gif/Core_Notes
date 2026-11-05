@@ -1,0 +1,37 @@
+{"id":"형총022","t":"우연방위, 우연피난 등의 효과","cat":"chong_03","lv":1,"tg":["A급"],"b":[
+ {"i":"8bd2gq","o":"<details class=\"cs-case\">","b":[
+  {"i":"1d8pbp","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 우연방위</strong></span> <span class=\"cs-exam\">【변사21】 </span><span class=\"cs-red\">(10)</span>","k":"7yop2s"},
+  {"i":"12nx6x8","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"swtqh2","o":"<div class=\"cs-fact\">","b":[
+    {"i":"5xu2gu","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1g15pd0","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲, 乙 상해 결심코 乙 사무실 문밖 대기 → 늦은밤 사무실 문 열고 나오는 사람 얼굴 가격, 3주 치료 요하는 상해. 곧 확인하니 乙 아닌 乙 사무실서 강도하고 나오던 강도범 C. 甲 죄책? (10점)","k":"1jngc6q"}
+    ]}
+   ]},
+   {"i":"1ctby1t","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1mwjczc","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"41j77b","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"☞<span class=\"cs-exam\">【변사21】</span>","k":"1qn0sfp"},
+    {"i":"hfalo6","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [구성요건해당성]</strong> 구체적 사실 착오 中 객체의 착오 → 어떤 견해에 의해도 甲은 발생사실 강도범 C에 대한 상해죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제257조</strong></span></span>①) 구성요건해당성 인정","k":"p68bgs"},
+    {"i":"ao6teh","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [우연방위의 법적효과]</strong> (가) [주관적 정당화요소의 필요성]","k":"1pki8cm"},
+    {"i":"ice0af","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제21조</strong></span></span>①.","k":"7ofk90"},
+    {"i":"1jjfqz2","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 주관적 정당화요소 요하는지 학설·판례. (나) [주관적 정당화요소가 결여된 행위의 효과] 무죄설·기수범설·불능미수범설 有 → 불능미수범설 타당","k":"r2m61k"},
+    {"i":"1k92l50","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> 甲 = 상해불능미수죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제27조</strong></span></span>)","k":"1evdhmi"}
+   ]}
+  ]}
+ ]},
+ {"i":"1g399er","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1bkfdvt","o":"<div class=\"cs-h\">","h":"Ⅰ. 주관적 정당화요소의 필요성","k":"9ws6pb"},
+  {"i":"189o87k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\">《주관적 정당화요소 필요한지 여부》</span>","k":"mptyvt"},
+  {"i":"16k6kt0","o":"<div class=\"cs-theory\">","b":[
+   {"i":"mmfeue","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①<span class=\"cs-fact-tag\">[불요설(결과반가치일원론)]</span> ②<span class=\"cs-fact-tag\">[필요설(행위·결과반가치 이원론)]</span> → 필요설 타당","k":"1dhzhxe"},
+   {"i":"xzodqs","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-fact-tag\">[판례 필요설]</span> 정당방위·과잉방위/긴급피난·과잉피난 성립하려면 방위의사 or 피난의사 有해야 <span class=\"cs-fact-tag\">[판례는 정당방위상황 인식만 있으면 충분·정당방위에 대한 의사까지 필요한 건 아니라 본다<span class=\"cs-x\"><strong>(X)</strong></span>]</span><span class=\"cs-exam\">【변26·12】</span>","k":"8a9qzb"}
+  ]},
+  {"i":"1q3t3eb","o":"<div class=\"cs-h\">","h":"Ⅱ. 주관적 정당화요소가 결여된 경우 (우연방위)","k":"17va1py"},
+  {"i":"o2nb5t","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\">《주관적 정당화요소 결여 시 효과》</span>","k":"oeu3cd"},
+  {"i":"8vbhdf","o":"<div class=\"cs-theory\">","b":[
+   {"i":"o7acbm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①<span class=\"cs-fact-tag\">[무죄설(불요설)]</span> 위법성 조각 ②<span class=\"cs-fact-tag\">[기수범설(필요설)]</span> 위법성 조각 X ③<span class=\"cs-fact-tag\">[불능미수범설]</span> 행위반가치○·결과반가치 결여 → 불능미수 불법구조 유사, <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제27조</strong></span></span> 유추(미수처벌규정 無면 무죄)<span class=\"cs-exam\">【변26·21·15】</span>","k":"620agr"},
+   {"i":"9i1bkc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 주관적 정당화요소+객관적 정당화상황 종합평가하는 불능미수범설 타당 <span class=\"cs-fact-tag\">[판례의 입장은 명확하지 않다]</span>","k":"1c2kgw0"}
+  ]},
+  {"i":"17d8eca","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[우연긴급피난]</span> 층간소음 다툼 위층에 보복목적 돌 던져 유리창 깸, 위층 A 자살위해 연탄불 피워 연탄가스 질식중인 경우","k":"6givj3"},
+  {"i":"15pdbv4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[우연승낙]</span> 피해자 승낙 객관적 존재하나 행위자가 부지한 채 행위한 경우<span class=\"cs-exam\">【변21】</span>","k":"15pepc4"}
+ ]}
+]}

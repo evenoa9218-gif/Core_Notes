@@ -1,0 +1,46 @@
+{"id":"국가020","t":"승낙무고와 자기무고","cat":"gak_국가공무방해","lv":1,"tg":["A급","변사26","모사20"],"b":[
+ {"i":"qu8531","o":"<details class=\"cs-case\">","b":[
+  {"i":"flaqen","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE]</strong></span></span> <span class=\"cs-exam\">【변사26】 </span><span class=\"cs-red\">(15)</span>","k":"15nstq3"},
+  {"i":"2wi7ez","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"vbvgjl","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1ubzr7d","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1azonp8","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"유명 아이돌 丁의 팬클럽 회장 丙, A(10세)가 절취한 丁의 신인가수상 트로피를 정을 알고 취득한 뒤 SNS에 자랑 → 이를 확인한 丁이 경찰에 丙을 고소 → 丙이 '팬클럽 회장을 어떻게 고소할 수가 있냐'고 하자 丁이 '그렇다면 사실 내가 너에게 트로피를 선물한 것이라면서 나에 대한 고소장을 경찰에 내라'고 함 → 丙이 경찰에 '丁이 트로피를 선물해 놓고 나를 고소한 것이니 처벌해 달라'는 취지의 허위 고소장 제출. 이와 관련하여 1) 丙의 죄책을 논하고, 2) 丁의 죄책에 대하여는 유죄와 무죄의 논거를 각각 제시하시오. (15점)","k":"1usc40d"}
+    ]}
+   ]},
+   {"i":"1we98o6","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"hgyutb","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"o4qhhl","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [丙의 죄책]</strong></span>","k":"1j2ph2r"},
+    {"i":"1vogrf7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 무고죄의 주된 보호법익 = 국가의 형사사법권·징계권의 적정한 행사 → 피무고자의 승낙이 있어도 무고죄 성립에 영향<span class=\"cs-x\"><strong>(X)</strong></span>","k":"4mtm45"},
+    {"i":"yx44rd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 피무고자 丁의 승낙을 받아 허위 고소장을 제출했어도 丙 = 무고죄(<span class=\"cs-blue\"><span class=\"cs-u\">제156조</span></span>)<span class=\"cs-o\"><strong>(O)</strong></span>","k":"15f83du"},
+    {"i":"1uoxu9j","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [丁의 죄책]</strong></span>","k":"clbnk8"},
+    {"i":"1kmfv3b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(가) [유죄의 논거-무고교사죄 성립]</strong>","k":"d6vsxr"},
+    {"i":"rs4cwm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 타인에게 자신에 대한 무고를 교사·방조한 경우 — 공범종속성의 원칙상 성립한다는 긍정설 / 정범 형태의 자기무고가 구성요건해당성이 없어 교사범도 성립하지 않는다는 부정설. 판례 = \"피무고자가 제3자에게 피무고자에 대한 무고행위를 교사·방조한 경우 피무고자에게도 교사·방조범이 성립\" 긍정설","k":"35ncyd"},
+    {"i":"qw2hk1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"③ 긍정설·판례에 의하면 丁은 무고의 결의가 없는 丙에게 무고를 결의하게 함 → 무고교사죄(<span class=\"cs-blue\"><span class=\"cs-u\">제31조</span> 제1항</span>)<span class=\"cs-o\"><strong>(O)</strong></span>","k":"vzzvbd"},
+    {"i":"1t0iuaz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(나) [무죄의 논거]</strong>","k":"1nagb6m"},
+    {"i":"1d72kvy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<strong>(A) [무고교사죄의 불성립]</strong> 위 부정설에 의하면 丁의 자기무고는 구성요건해당성<span class=\"cs-x\"><strong>(X)</strong></span> → 丁에게 무고교사죄도<span class=\"cs-x\"><strong>(X)</strong></span>","k":"83uqgt"},
+    {"i":"17ssf7e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<strong>(B) [무고죄의 공동정범 불성립]</strong>","k":"evkg69"},
+    {"i":"1o0xakj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"① 자기 자신을 무고하기로 제3자와 공모하고 무고행위에 가담했어도 무고죄의 공동정범으로 처벌<span class=\"cs-x\"><strong>(X)</strong></span>","k":"de2yo6"},
+    {"i":"4hwddj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"② 丁이 丙의 무고행위를 공모하고 수사기관의 예상 질문에 대한 대답을 준비해 조사에 응하는 등 실행행위를 분담해 기능적 행위지배가 인정되더라도 丁에게 무고죄의 공동정범<span class=\"cs-x\"><strong>(X)</strong></span>","k":"sm021d"}
+   ]}
+  ]}
+ ]},
+ {"i":"r347us","o":"<div class=\"cs-callout\">","b":[
+  {"i":"7qmk8u","o":"<div class=\"cs-h\">","h":"Ⅰ. 승낙무고 (정범)","k":"1mzz867"},
+  {"i":"1wks5au","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-def\"><span class=\"cs-u\">무고죄는 국가 형사사법권·징계권 적정 행사가 주된 보호법익,</span></span> 개인의 부당한 처벌·징계 안 받을 이익은 부수적 보호 → 피무고자 승낙 있어도 무고죄 성립에 영향<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변25】【변사26, 모사20】</span>","k":"1uq9ig9"},
+  {"i":"170kh74","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"y1k68k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[피해자 행세 허위고소]</span> 피고인들이 합의 주선 위해 자신들도 피해자인 것처럼 행세하려 공소외인 승낙받고 공소외인으로부터 차용금 피해 당한 것처럼 허위사실 기재 고소장 제출 → 공소외인 형사처분 결과발생 의욕은 아니라도 최소한 미필적 인식 있었음<span class=\"cs-exam\">【변14·13】【모사20】</span>","k":"y2a3qs"},
+  {"i":"16yx6kb","o":"<div class=\"cs-h\">","h":"Ⅱ. 자기무고","k":"1ud04ny"},
+  {"i":"1ri64a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\">교사·방조범</span><span class=\"cs-exam\">【변사26, 모사20】</span>","k":"1q5oz5s"},
+  {"i":"1u7tvh6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-hl\">《타인에게 자신에 대한 무고 교사 시 무고교사죄 성립 여부》</span>","k":"33oujo"},
+  {"i":"1uls5w6","o":"<div class=\"cs-theory\">","b":[
+   {"i":"fio9e2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①부정설(정범 형태 자기무고가 구성요건해당성 없어 교사범도 성립X) ②긍정설(타인에게 무고 교사한 이상 공범종속성 원칙상 무고교사죄 성립)","k":"1nc2ojw"},
+   {"i":"1yjc4z5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-glabel\">[긍정설]</span> ①스스로 본인 무고하는 자기무고는 <span class=\"cs-blue\"><span class=\"cs-u\">§156</span></span> 무고죄 구성요건 해당X → 무고죄 구성X ②그러나 피무고자 교사·방조 하에 제3자가 피무고자에 대한 허위사실 신고 시 제3자 행위는 무고죄 구성요건 해당 → 무고죄 구성, 제3자 교사·방조한 피무고자도 교사·방조범 죄책 부담<span class=\"cs-exam\">【변20·17·15】</span>","k":"1femfv1"},
+   {"i":"1prwffs","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 자기무고는 구성요건해당성 없으나 정범에게 무고죄 성립하는 이상 공범종속성 원칙상 교사·방조범 성립 가능 → 긍정설 타당","k":"1otx5v0"}
+  ]},
+  {"i":"yhm170","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>자기무고의 공동정범</strong></span>","k":"6x0v50"},
+  {"i":"8440iq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例) : <span class=\"cs-def\"><span class=\"cs-u\">공동의사 따라 다른 공범자 이용 실현하려는 행위가</span></span> 자신에게 범죄 구성 안 하면 특별한 사정 없는 한 <span class=\"cs-green\"><strong>공동정범 죄책<span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변사26】</span>","k":"l51l87"},
+  {"i":"1krs9w1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"자기 자신 무고는 무고죄 구성요건 해당X → 자기 무고하기로 제3자와 공모하고 무고행위 가담해도 자신에게는 구성요건 해당X, 범죄성립 불가 행위 실현에 지나지 않아 <span class=\"cs-green\"><strong>무고죄 공동정범으로 처벌<span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변20】</span>","k":"nf8zns"},
+  {"i":"10jvqid","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"7sfsuz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[공모·조사 대응 분담]</span> 피고인이 A와 '공모'하여 A가 피고인을 사문서위조 등으로 허위 고소하고, 피고인은 수사기관 예상질문 대답 준비 방식으로 자신을 무고하기로 하여 A가 피고인 처벌 달라는 허위 고소장 작성·제출한 경우, 피고인은 <span class=\"cs-green\"><strong>무고죄 공동정범 성립<span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"2nhqym"}
+ ]}
+]}

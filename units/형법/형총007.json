@@ -1,0 +1,44 @@
+{"id":"형총007","t":"규범의 보호목적 이론과 합법적 대체행위 이론","cat":"chong_02","lv":1,"tg":[],"b":[
+ {"i":"5tkkcd","o":"<details class=\"cs-case\">","b":[
+  {"i":"1iig75f","o":"<summary>","h":"<span class=\"cs-u\">[CASE] 측면간격 미확보 추월·자전거 사망</span><span class=\"cs-exam\">【변사21】</span> <span class=\"cs-red\">(10)</span>","k":"gk7516"},
+  {"i":"1yzhl1n","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"hsyhtt","o":"<div class=\"cs-fact\">","b":[
+    {"i":"xjfpvd","o":"<div class=\"cs-callout\">","b":[
+     {"i":"4uqnzb","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"乙 도피 위해 트럭 운전 중 H가 운전하던 자전거와 충분한 측면 간격 유지하지 아니한 채 H 추월하다가 H가 乙의 차바퀴에 치어 사망. H가 만취상태였기에 乙이 충분한 측면 간격 유지하며 추월했더라도 동일한 사망 결과 발생했을 것이 확실한 경우, 乙에게 교특법위반(치사)죄 성립하는지 논하라. (10점)","k":"wp4cl2"}
+    ]}
+   ]},
+   {"i":"tssag6","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"mn796n","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1cqytla","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-exam\">【변사21】</span>","k":"1rqnrwr"},
+    {"i":"1aqcnuq","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [업무상 과실]</strong>","k":"c3g9dn"},
+    {"i":"1t9nqtp","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 교특법 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제3조</strong></span></span> 제1항, 형법 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제268조</strong></span></span>","k":"1j0w196"},
+    {"i":"m1a7js","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 자동차 운전자는 같은 방향 자전거등 운전자에 주의하고 그 옆 지날 때 충돌 피할 필요한 거리 확보 의무(도교법 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제19조</strong></span></span> 제2항)","k":"2mfkfg"},
+    {"i":"1fzhagz","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 乙 = 충분한 측면 간격 미확보 채 추월 → 도교법 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제19조</strong></span></span> 제2항 의무 위반 업무상 과실 인정","k":"1grnsie"},
+    {"i":"1cwhxrw","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [인과관계와 객관적 귀속]</strong>","k":"1mdt3lt"},
+    {"i":"zn2xzs","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제17조</strong></span></span>","k":"4rnx1r"},
+    {"i":"1mxvru1","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 사안 = 충분한 측면 간격 유지 추월했어도 동일 사망 결과 발생 확실한 경우","k":"rhtlp1"},
+    {"i":"po7r2c","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 합법적 대체행위이론: 주의의무 위반으로 결과 발생해도(합법칙적 조건설상 일단 인과관계 인정) 적법행위였어도 같은 결과 발생 시 결과 귀속 X → 결과발생 확실한 경우 무죄추정설·위험증대설 모두 귀속 '부정'","k":"1rhqhdl"},
+    {"i":"hopagm","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"④ 판례 = 상당인과관계설 입장, 주의의무 게을리하지 않았다면 결과 발생 안 했을 것이 입증되어야(무죄추정설에 가까움)","k":"9ikcgj"},
+    {"i":"lhmo1k","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"⑤ 乙 주의의무위반 ↔ H 사망 = 상당인과관계 X 또는 객관적 귀속 부정","k":"jsnh98"},
+    {"i":"1d9s0th","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> 乙 = 교특법위반(치사)죄 죄책 X","k":"7mngfh"}
+   ]}
+  ]}
+ ]},
+ {"i":"w4f7gk","o":"<div class=\"cs-callout\">","b":[
+  {"i":"120e0yv","o":"<div class=\"cs-h\">","h":"Ⅰ. 규범의 보호목적 이론 <span class=\"cs-fact-tag\">[객관적 귀속이론]</span>","k":"1dqrxwo"},
+  {"i":"12hocuj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[규범의 보호목적 이론]</span> 규범 위반해 위험 창출·증대해도 발생 결과가 규범의 보호목적 범위 내 발생한 것만 객관적 귀속 인정, 보호목적 벗어난 경우 = 행위자에 귀속 X <span class=\"cs-fact-tag\">[보호목적 범위 內 限 귀속]</span>","k":"myad6o"},
+  {"i":"1qvasax","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[판례는 상당인과관계설의 입장에서 사실상 수용]</span> 신호등 교통정리 ㅏ자형 삼거리 녹색등화 직진 차량 운전자 = 다른 차량도 교통법규 준수·충돌 회피 조치할 것 믿고 운전하면 족함, 대향차선 차량이 신호위반 좌회전할 경우까지 예상해 방지할 업무상 주의의무 X(신뢰의 원칙) + 직진차량이 제한속도 위반 과속했어도 그 잘못과 사고 발생 사이 상당인과관계 X(규범의 보호목적 이론)","k":"1hut2bz"},
+  {"i":"1x07u3x","o":"<div class=\"cs-h\">","h":"Ⅱ. 과실범의 합법적 대체행위 이론 (주의의무위반 관련성) <span class=\"cs-fact-tag\">[객관적 귀속이론]</span>","k":"k4oech"},
+  {"i":"1rq4p35","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>객관적 귀속이론</strong>","k":"dj87q8"},
+  {"i":"1rcw2o8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[객관적 귀속 이론을 전제]</span> 주의의무 위반해 결과 발생했으나(합법칙적 조건설상 일단 인과관계 인정) 적법행위였어도 같은 결과 발생 시 결과 귀속 X","k":"1n49qpq"},
+  {"i":"1h8sudl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[결과발생 확실→귀속 부정]</span> ①주의의무 다해도 '결과 발생 확실'한 경우 객관적 귀속 '부정' <span class=\"cs-fact-tag\">[발생 안 했을 것 확실→귀속 인정]</span> ②'발생하지 않았을 것 확실'한 경우 객관적 귀속 '인정'","k":"2erfua"},
+  {"i":"13gvmum","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>결과 발생 여부가 불확실한 경우</strong>","k":"18qlejw"},
+  {"i":"6uegxl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[문제]</span> 주의의무 다해도 결과 발생 여부 불확실한 경우 객관적 귀속 인정 여부","k":"1mhg0le"},
+  {"i":"1rqsbfd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[학설]</span> ①주의의무 다했다면 결과 발생 안 했을 확실성에 가까운 개연성 인정될 때만 귀속 인정하는 무죄추정설 ②결과 발생 안 했을 가능성만 있어도 귀속 인정하는 위험증대설","k":"10jkboj"},
+  {"i":"1vb08e0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[판례는 상당인과관계설의 입장에서 무죄추정설 유사]</span> 과실범에서 주의의무 게을리하지 않았다면 결과 발생 안 했을 것이라는 점 입증돼야, 입증책임 = 검사","k":"e96dp6"},
+  {"i":"fodnt9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[검토]</span> 의심스러울 땐 피고인 이익(in dubio pro reo) → 무죄추정설 타당 <span class=\"cs-fact-tag\">[무죄추정설 타당]</span>","k":"ilveo0"},
+  {"i":"c1yzs2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>주의의무위반 관련성에 관한 판례</strong>","k":"9jb7w4"},
+  {"i":"1w68uux","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[선·후 교통사고]</span> 선행·후행 교통사고 중 어느 쪽이 원인인지 불명 시, 후행 사고자 과실 ↔ 피해자 사망 인과관계 인정되려면 후행 사고자가 주의의무 게을리하지 않았다면 사망에 이르지 않았을 것이 입증돼야, 입증책임 = 검사","k":"1ptlhg8"},
+  {"i":"166ca1u","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[간기능검사]</span> 혈청 간기능검사 미시행 과실 ↔ 피해자 사망 인과관계 있으려면 수술 전 간기능검사 했더라면 피해자 사망하지 않았을 것 입증돼야 <span class=\"cs-fact-tag\">[수술 전 간기능검사 했더라면 간기능에 이상 있었다는 검사결과 나왔으리라는 점이 증명돼야 한다.]</span>","k":"r3t2ve"}
+ ]}
+]}

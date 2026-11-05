@@ -1,0 +1,65 @@
+{"id":"형소095","t":"참고인 진술조서 (제312조 제4항)","cat":"pro_14","lv":1,"tg":["中","변사25","모사23"],"b":[
+ {"i":"1gbygdj","o":"<details class=\"cs-case\">","b":[
+  {"i":"pdemo7","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 원진술자가 진정성립을 부인한 진술조서를 영상녹화물로 증명하는 요건</strong></span> <span class=\"cs-exam\">【변사25】</span>","k":"3ph495"},
+  {"i":"13kqpch","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1kisd3v","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1o0r543","o":"<div class=\"cs-callout\">","b":[
+     {"i":"olg8s4","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"丙이 택시 안에서 甲을 강제추행 → 경찰관 P가 甲을 참고인으로 불러 피해진술을 영상녹화하며 진술조서 작성 → 甲이 P 작성 진술조서에 대해 성립의 진정을 부인. 甲의 진술을 녹화한 영상녹화물에 의하여 甲에 대한 진술조서의 증거능력을 인정할 수 있는 요건은? (10점)","k":"1eh0u73"}
+    ]}
+   ]},
+   {"i":"h043cs","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"cdoyed","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1333ddv","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [진술조서의 증거능력 인정요건]</strong>","k":"tt5tnn"},
+    {"i":"1eb7vpw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§310의2</strong></span></span>","k":"lv54je"},
+    {"i":"1dwtpzb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 사경 작성 피해자 진술조서의 요건(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§312④</strong></span></span>)","k":"1fyeih4"},
+    {"i":"19jlrd8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 원진술자가 진정성립을 부인하면 영상녹화물 등 객관적 방법으로 실질적 진정성립이 증명된 때 증거능력 O","k":"1y4urz4"},
+    {"i":"gebuy1","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [실질적 진정성립을 증명할 영상녹화물]</strong>","k":"uowl2l"},
+    {"i":"7a26uu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§312④</strong></span></span>의 영상녹화물이란 형소법·규칙에 규정된 방식·절차에 따라 제작·조사 신청된 것","k":"1gw4q8s"},
+    {"i":"1gjhco5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 영상녹화 동의서 첨부 + 조사 개시부터 참고인이 조서에 기명날인·서명 마치는 시점까지 조사 전 과정 녹화 + 봉인절차 준수","k":"or6xca"},
+    {"i":"18gaw3u","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> 경찰관이 녹화 시작 전 甲의 동의를 받고 동의서가 조서에 첨부되며 조사 전 과정이 녹화되고 봉인절차를 준수한 경우에 한하여, 검사는 영상녹화물로 실질적 진정성립을 증명하여 유죄 증거로 사용 O","k":"19bur1f"}
+   ]}
+  ]}
+ ]},
+ {"i":"1on16n2","o":"<div class=\"cs-callout\">","b":[
+  {"i":"kkbx16","o":"<div class=\"cs-callout\">","b":[
+   {"i":"1d9x2ir","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제312조(검사 또는 사법경찰관의 조서 등)</strong></span>","k":"caz9sx"},
+   {"i":"t9py56","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"④ 검사 또는 사법경찰관이 피고인이 아닌 자의 진술을 기재한 조서는 <span class=\"cs-statute\"><span class=\"cs-u\"><strong>적법한 절차와 방식</strong></span></span>에 따라 작성된 것으로서 그 조서가 검사 또는 사법경찰관 앞에서 진술한 내용과 동일하게 기재되어 있음이 <span class=\"cs-statute\"><span class=\"cs-u\"><strong>원진술자의 공판준비 또는 공판기일에서의 진술이나 영상녹화물 또는 그 밖의 객관적인 방법에 의하여 증명</strong></span></span>되고, <span class=\"cs-statute\"><span class=\"cs-u\"><strong>피고인 또는 변호인이 원진술자를 신문할 수 있었던 때</strong></span></span>에는 증거로 할 수 있다. 다만, 그 조서에 기재된 진술이 <span class=\"cs-statute\"><span class=\"cs-u\"><strong>특히 신빙할 수 있는 상태</strong></span></span>하에서 행하여졌음이 증명된 때에 한한다.","k":"2ftfe1"}
+  ]},
+  {"i":"1ic6nu1","o":"<div class=\"cs-h\">","h":"Ⅰ. 형식과 실질","k":"vgfqs3"},
+  {"i":"mouegu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"수사기관이 작성한 <span class=\"cs-red\"><strong>공범 이외의 자에 대한 피의자신문조서는 당해 피고인에 대해서는 실질에 따라 §312④ 적용</strong></span><span class=\"cs-exam\">【변25·21, 모사24】</span>","k":"1pb5fhd"},
+  {"i":"l83fbs","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[본범과 장물범]</span> 공동피고인인 절도범과 그 장물범은 서로 다른 공동피고인의 범죄사실에 관하여는 증인의 지위 → 증거동의한 바 없는 공동피고인에 대한 피신조서는 <span class=\"cs-red\"><strong>공동피고인의 증언에 의하여 성립의 진정이 인정되지 아니하는 한 유죄의 증거로 할 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변26】</span>","k":"1xxcb1a"},
+  {"i":"1x6i8zo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[요건]</span> ① <span class=\"cs-red\"><strong>적법한 절차와 방식</strong></span> ② <span class=\"cs-red\"><strong>실질적 진정성립 증명</strong></span> ③ <span class=\"cs-red\"><strong>반대신문 기회보장</strong></span> ④ <span class=\"cs-red\"><strong>특신상태</strong></span>","k":"10jorb2"},
+  {"i":"1qcrn9y","o":"<div class=\"cs-h\">","h":"Ⅱ. [요건①] 적법한 절차와 방식에 따른 작성","k":"11fge5k"},
+  {"i":"1u6dsiq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[기명날인 또는 서명이 없는 경우]</span> <span class=\"cs-x\"><strong>(X)</strong></span>","k":"u6rgyp"},
+  {"i":"y8cwna","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[진술자가 화상으로 서명불능이어서 동생이 대신 서명·날인한 경우]</span> <span class=\"cs-x\"><strong>(X)</strong></span>","k":"147a3o"},
+  {"i":"1uu9v8g","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-neg-tag\">[가명]</span> 수사기관이 진술자의 성명을 가명으로 기재하여 조서를 작성하였다고 해서 그 이유만으로 <span class=\"cs-red\"><strong>'적법한 절차와 방식'에 따라 작성되지 않았다고 할 것은 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변16】</span>","k":"o01clt"},
+  {"i":"zoao3w","o":"<div class=\"cs-h\">","h":"Ⅲ. [요건②] 실질적 진정성립","k":"122puvy"},
+  {"i":"1skh112","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>원진술자의 진술</strong></span>","k":"1b7j4zh"},
+  {"i":"1hquor4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[진정성립] ① 간인·서명·날인 등 조서의 '형식적' 진정과 ② 그 조서의 내용이 원진술자가 진술한 대로 기재된 것이라는 '실질적' 진정을 모두 의미</strong></span>","k":"yqaiop"},
+  {"i":"n5yuz3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-neg-tag\">[진술대로 기재]</span> 조서 작성 당시 원진술자의 진술대로 기재되었는지의 여부만을 의미하고, <span class=\"cs-red\"><strong>그와 같이 진술하게 된 연유나 진술의 신빙성 여부는 고려할 것이 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변18】</span>","k":"1xwyj45"},
+  {"i":"1trta3l","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[피해자 진술조서의 원진술자가 증인으로 나와 진술기재 내용을 열람·고지받지 못한 채 단지 사실대로 진술하였다는 취지의 증언만 한 경우]</span> 진술조서는 <span class=\"cs-green\"><strong>증거능력 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변17】</span>","k":"1dsy50z"},
+  {"i":"llknit","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[일부 진정성립]</span> 조서 중 일부에 관하여만 원진술자가 실질적 진정성립을 인정하는 경우 <span class=\"cs-red\"><strong>진술한 대로 기재되어 있다고 하는 부분에 한하여 증거능력 인정</strong></span>, 부정되는 부분은 증거능력 부정<span class=\"cs-exam\">【변15】</span>","k":"ibaxtf"},
+  {"i":"kno89o","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[동석자 대신진술]</span> §244의5에 따라 피의자신문에 동석한 사람이 피의자를 대신하여 진술한 부분이 조서에 기재되어 있다면 그 부분은 <span class=\"cs-red\"><strong>동석한 사람에 대한 진술조서로서의 요건을 충족하여야</strong></span>","k":"1qczlij"},
+  {"i":"x03vo7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>영상녹화물 또는 그 밖의 객관적인 방법 (원진술자의 진정성립 부인시)</strong></span>","k":"18nh0l6"},
+  {"i":"68dqtp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《조사관·통역인 등의 증언이 '그 밖의 객관적인 방법'에 포함되는지》</strong></span>","k":"11kf49t"},
+  {"i":"11g7f4i","o":"<div class=\"cs-theory\">","b":[
+   {"i":"wuvypv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 객관적인 제3자의 증언도 포함된다는 <span class=\"cs-green\"><strong>포함설</strong></span> ② 과학적·기계적 특성을 가지는 객관적 증거방법에 제한된다는 <span class=\"cs-red\"><strong>제외설</strong></span>","k":"1wlb1vq"},
+   {"i":"1p96m1t","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 제외설] '영상녹화물이나 그 밖의 객관적인 방법'이란 영상녹화물 또는 그에 준할 정도로 피고인의 진술을 과학적·기계적·객관적으로 재현해 낼 수 있는 방법만을 의미하고, 조사관 또는 통역인 등의 증언은 이에 해당 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변18】</span>","k":"i32y6a"},
+   {"i":"z6e6v7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: <span class=\"cs-u\">조사자·통역인 등의 증언은 오로지 증언자의 주관적 기억 능력에 의존하여 객관성이 보장되어 있다고 보기 어려우므로</span> <span class=\"cs-red\"><strong>제외설 타당</strong></span>","k":"wzx9vp"},
+   {"i":"oybjnu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"형소법 등에 규정된 방식과 절차에 따라 제작된 영상녹화물<span class=\"cs-exam\">【변사25】</span>","k":"1s8gj8j"}
+  ]},
+  {"i":"1w7for9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>§312④의 '영상녹화물'이란 형소법 및 형사소송규칙에 규정된 방식과 절차에 따라 제작되어 조사 신청된 영상녹화물을 의미</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§221①, 규칙§134의92~§134의94)</strong></span></span>","k":"go6ysw"},
+  {"i":"itunfu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[동의·동의서·전과정 녹화]</span> ① 영상녹화 시작 전에 피고인 아닌 자의 <span class=\"cs-red\"><strong>동의를 받고</strong></span> ② 기명날인·서명한 <span class=\"cs-red\"><strong>영상녹화 동의서를 첨부</strong></span> ③ 조사 개시부터 참고인이 조서에 기명날인·서명을 마치는 시점까지 <span class=\"cs-red\"><strong>조사 전 과정이 영상녹화</strong></span>되어야 → 위반한 영상녹화물로는 실질적 진정성립을 증명할 수 없음","k":"oseavv"},
+  {"i":"1ajkb02","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[전과정의 범위]</span> '조사 개시~기명날인·서명 마치는 시점'은 조서가 작성된 <span class=\"cs-red\"><strong>개별 조사에서의 시점</strong></span>을 의미 → 수회 조사시 최초 조사부터 모든 과정을 빠짐없이 녹화해야 하는 것은 아니고, 같은 날 수회 조사라도 조사 과정 전부를 녹화해야 하는 것도 아님","k":"b15sf6"},
+  {"i":"1fpl6h6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-neg-tag\">[봉인절차]</span> ① 특별한 사정이 없는 한 <span class=\"cs-red\"><strong>봉인절차를 위반한 영상녹화물로는 실질적 진정성립 증명 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span> ② 다만 봉인절차를 지키지 못했더라도 <span class=\"cs-red\"><strong>원본으로서 동일성·무결성을 담보할 수단·장치가 있어 조작가능성에 대한 합리적 의심을 배제할 수 있는 경우</strong></span>에는 실질적 진정성립 인정 여부를 판단할 수 있음 — (대검 서버 자동저장)","k":"37yxse"},
+  {"i":"13b1myf","o":"<div class=\"cs-h\">","h":"Ⅳ. [요건③] 반대신문권의 보장<span class=\"cs-exam\">【모사23】</span>","k":"13071vx"},
+  {"i":"phproz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"반대신문권의 보장은 형식적·절차적인 것이 아니라 <span class=\"cs-red\"><strong>실질적·효과적인 것</strong></span>이어야","k":"dkh9ag"},
+  {"i":"7wpxd8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[피고인에게 불리한 증인이 반대신문에 답변을 하지 아니하는 등 진술 내용의 모순·불합리를 탄핵하는 것이 사실상 곤란하였고 피고인·변호인에게 책임 있는 사유에 기인한 것이 아닌 경우]</span> 실질적으로 신문할 기회가 주어졌다고 볼 수 없으므로 진술조서는 <span class=\"cs-green\"><strong>§312④의 '피해자를 신문할 수 있었던 때'의 요건을 갖추지 못하여 전문법칙의 예외 인정 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span> → 피해자가 증인신문을 의도적으로 회피한 경우 검사가 <span class=\"cs-green\"><strong>§314의 특신상태를 증명한 것으로 볼 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>(§312④ X, §314 X)","k":"ct95vs"},
+  {"i":"1u3lwqh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"위 판례와 달리 (증거능력은 인정하고 신빙성을 부정한 판례도 있음)","k":"wlfpml"},
+  {"i":"19xvaqo","o":"<div class=\"cs-h\">","h":"Ⅴ. [요건④] 특신상태","k":"f1b2ry"},
+  {"i":"qiwym2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[특신상태] 진술 내용이나 조서의 작성에 허위개입의 여지가 거의 없고, 진술 내용의 신빙성이나 임의성을 담보할 구체적이고 외부적인 정황이 있는 경우</strong></span><span class=\"cs-exam\">【변15】</span>","k":"119cm6h"},
+  {"i":"vhq4zx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[검사 증명책임]</span> 검사가 구체적으로 주장·증명하여야<span class=\"cs-exam\">【변15】</span>","k":"1azkt20"},
+  {"i":"1yaf10y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[자유로운 증명]</span> 자유로운 증명으로 족함(소송법적 사실)<span class=\"cs-exam\">【변15】</span>","k":"m4ro6n"},
+  {"i":"sdicu6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[고도의 증명]</span> 이에 대한 증명은 단지 그러할 개연성이 있다는 정도로는 부족하며 <span class=\"cs-red\"><strong>합리적 의심의 여지를 배제할 정도</strong></span>에 이르러야","k":"1gc8atr"}
+ ]}
+]}

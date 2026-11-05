@@ -1,0 +1,26 @@
+{"id":"형소121","t":"상소심에서 죄수판단이 변경된 경우","cat":"pro_19","lv":1,"tg":["下","변사23"],"b":[
+ {"i":"j4qw21","o":"<details class=\"cs-case\">","b":[
+  {"i":"1csq22v","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 실체적 경합 판단이 상상적 경합으로 변경된 경우 심판범위</strong></span> <span class=\"cs-exam\">【변사23】</span>","k":"1p2vlnr"},
+  {"i":"ibbv3z","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1en39dh","o":"<div class=\"cs-fact\">","b":[
+    {"i":"ancbnx","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1wa66d5","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"검사가 甲을 공무집행방해죄와 상해죄의 경합범으로 기소 → 제1심이 공무집행방해죄 유죄, 상해죄 무죄를 각 선고 → 위 제1심판결에 검사만 상해죄 부분에 대하여 항소 → 항소심 심리 결과 甲의 두 죄가 상상적 경합 관계라는 결론에 도달한 경우 항소심의 심판 범위를 설명하시오. (15점)","k":"1ggsgak"}
+    ]}
+   ]},
+   {"i":"523qdu","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1d81l3f","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"l2fhps","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [검사만 상소한 경우 심판범위]</strong> 원심이 실체적 경합으로 보고 일부 유죄·일부 무죄를 선고하였으나 상소심이 상상적 경합(포괄일죄)으로 판단하는 경우 심판범위 문제 — 일부이심설·전부이심설·이원설·면소판결설, 판례는 전부이심설(검사만 상소). 죄수관계는 상소심 판단을 따르는 것이 타당하므로 상소불가분 원칙상 전부 이심되어 심판대상이라는 전부이심설 타당","k":"10la2wu"},
+    {"i":"ibjnmj","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [결론]</strong> 항소심은 검사가 항소한 상해죄 부분뿐만 아니라 항소하지 않은 공무집행방해죄 부분도 심판할 수 있음","k":"17vgtxy"}
+   ]}
+  ]}
+ ]},
+ {"i":"1l2s6y8","o":"<div class=\"cs-callout\">","b":[
+  {"i":"16bnapq","o":"<div class=\"cs-h\">","h":"Ⅰ. 검사만 상소한 경우<span class=\"cs-exam\">【변사23】</span>","k":"ejt2vv"},
+  {"i":"wgqatk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"원심이 <span class=\"cs-u\">실체적 경합범으로 보고 일부 유죄·일부 무죄를 선고</span>하였으나 상소심이 <span class=\"cs-red\"><strong>상상적 경합범(또는 포괄일죄)로 판단하는 경우</strong></span> 상소심의 심판범위 문제","k":"n2xnry"},
+  {"i":"1hlj98u","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-green\"><strong>일부이심설</strong></span>(항소하지 않은 부분은 분리·확정) / <span class=\"cs-red\"><strong>전부이심설</strong></span>(상소불가분 원칙) / <span class=\"cs-green\"><strong>이원설</strong></span>(피고인 유죄부분 상소는 일부이심, 검사 무죄부분 상소는 전부이심) / <span class=\"cs-green\"><strong>면소판결설</strong></span>(전부 면소)","k":"1rqgica"},
+  {"i":"ovsq3i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 전부이심설(검사만 상소)] 원심이 두 개의 죄를 경합범으로 보고 한 죄는 유죄, 다른 한 죄는 무죄를 각 선고하자 검사가 무죄부분만에 대하여 불복상고 하였다고 하더라도 위 두 죄가 상상적 경합관계에 있다면 유죄부분도 상고심의 심판대상</strong></span> → <span class=\"cs-u\">죄수관계는 상소심의 판단을 따르는 것이 타당</span>하므로 상소불가분 원칙상 전부 이심되어 심판대상이라는 <span class=\"cs-red\"><strong>전부이심설 타당</strong></span><span class=\"cs-exam\">【변16·13】</span>","k":"fvarf7"},
+  {"i":"15kv5gv","o":"<div class=\"cs-h\">","h":"Ⅱ. 피고인만 상소한 경우","k":"1mp1d8e"},
+  {"i":"153v04j","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-green\"><strong>일부이심설</strong></span> / <span class=\"cs-green\"><strong>전부이심설</strong></span> 등 (판례 없음)","k":"hcav3s"},
+  {"i":"gb60bb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[사견]</span> 피고인이 상소하지 않은 무죄 부분도 이심되지만 그 부분은 이미 <span class=\"cs-red\"><strong>당사자 간의 공격방어의 대상으로부터 벗어나 사실상 심판대상에서 이탈하므로 상소심도 무죄 부분에까지 나아가 판단할 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>(공방대상이탈론 적용)","k":"1ggudm2"}
+ ]}
+]}

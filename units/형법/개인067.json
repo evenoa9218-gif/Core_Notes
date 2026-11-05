@@ -1,0 +1,16 @@
+{"id":"개인067","t":"동산양도담보의 법률관계","cat":"gak_횡령배임","lv":1,"tg":[],"b":[
+ {"i":"1m8ls4t","o":"<div class=\"cs-h\">","h":"Ⅰ. 소유관계","k":"1syrk83"},
+ {"i":"1hx97k1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[점유개정 동산양도담보]</strong></span> <span class=\"cs-u\">금전채무 담보 위해 채무자가 동산을 채권자에 양도하되 점유개정으로 계속 점유 → 소유권 신탁적 이전</span>","k":"1kwibfc"},
+ {"i":"1wq4zre","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"①대내적 관계: 채무자가 의연히 소유권 보유","k":"1kqjw9m"},
+ {"i":"1ud7i8i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"②대외적 관계: 채무자는 무권리자(이미 채권자에 양도)","k":"bi3mf7"},
+ {"i":"hdy1l4","o":"<div class=\"cs-h\">","h":"Ⅱ. 채무자 (대내적 소유자)","k":"nbu79e"},
+ {"i":"l1sn0x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+ {"i":"1ypg00m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[횡령죄]</span> 매매형식 취해 동산 담보제공·계속 사용하다 채권자 승낙받아 매각 → 매각대금은 채무자 소유 → 소비해도 <span class=\"cs-green\"><strong>횡령죄<span class=\"cs-x\"><strong>(X)</strong></span></strong></span> <span class=\"cs-fact-tag\">[위 동산·매각대금은 채무자 소유]</span><span class=\"cs-exam\">【변12】</span>","k":"1xkvwod"},
+ {"i":"o7rpd4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[배임죄]</span> 동산양도담보 계약 체결 또는 점유개정 양도 후 채무자 계속 점유 → 타인의 사무처리자 X → <span class=\"cs-green\"><strong>배임죄<span class=\"cs-x\"><strong>(X)</strong></span></strong></span> <span class=\"cs-fact-tag\">[이중매매에서 상술]</span><span class=\"cs-exam\">【변24·17】</span>","k":"4lk2uq"},
+ {"i":"lk7eif","o":"<div class=\"cs-h\">","h":"Ⅲ. 채권자","k":"1dcgka9"},
+ {"i":"1j0lpjx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+ {"i":"aptpbz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[횡령죄]</span> 점유개정 양도담보로 채무자가 여전히 점유 → 소유권은 채무자에 잔존, 채권자는 양도담보물권만 취득 → 다른 사유로 보관하게 된 채권자는 타인 물건 보관자 = <span class=\"cs-red\"><strong>횡령죄 주체<span class=\"cs-o\"><strong>(O)</strong></span></strong></span><span class=\"cs-exam\">【변12】</span>","k":"q4f1dq"},
+ {"i":"o0r2kc","o":"<div class=\"cs-h\">","h":"Ⅳ. 제3취득자","k":"1xtpof6"},
+ {"i":"gtds7i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+ {"i":"1w1aska","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[제3취득자]</span> 양도담보권자(채권자)가 설정자 점유 담보목적물을 목적물반환청구권 양도 방법으로 제3자에 처분→소유권 취득케 한 뒤 제3자로 하여금 취거케 함 → 제3자는 자기 소유물 취거 → <span class=\"cs-blue\">권리행사방해죄</span> 구성 여지는 별론, <span class=\"cs-green\"><strong>절도죄는 성립 여지<span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변14】</span>","k":"10is4rc"}
+]}

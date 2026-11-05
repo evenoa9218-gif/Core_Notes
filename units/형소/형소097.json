@@ -1,0 +1,31 @@
+{"id":"형소097","t":"감정서 (제313조)","cat":"pro_14","lv":1,"tg":["下","변사23"],"b":[
+ {"i":"9y4dt1","o":"<details class=\"cs-case\">","b":[
+  {"i":"5byi5l","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 국과수 DNA 감정의뢰회보서의 증거능력 요건</strong></span> <span class=\"cs-exam\">【변사23】</span>","k":"c1ia85"},
+  {"i":"wcs4ib","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1mb8k49","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1w459d","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1vjw5vt","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"공판에서 검사 P가 범행현장에서 乙의 DNA가 확인되었다는 국립과학수사연구원의 감정의뢰회보서를 유죄의 증거로 제출하였는데 乙이 증거부동의하는 경우, 감정의뢰회보서를 증거로 사용하기 위한 요건을 설명하라. (5점)","k":"d3hjvk"}
+    ]}
+   ]},
+   {"i":"1xsb7r2","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"sz67mv","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"7e5weo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 감정 경과와 결과를 기재한 서류는 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§313③</strong></span></span>이 적용되어 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§313①②</strong></span></span> 준용","k":"cw11jv"},
+    {"i":"1h94grz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 위 규정은 법원의 감정명령(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§169</strong></span></span>)에 의한 감정서뿐만 아니라 수사기관의 감정위촉(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§221②</strong></span></span>)에 의한 감정서에도 적용","k":"12in45j"},
+    {"i":"3rfc13","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 판례도 국과수 작성 감정서는 당연히 증거능력 있는 서류라고 할 수 없고 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§313</strong></span></span>에 따라 작성자인 감정인의 진술에 의하여 성립의 진정함이 증명되는 때에 한하여 증거능력","k":"1s4tqkq"},
+    {"i":"fqg8vh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"④ 乙이 부동의하므로 작성자인 국과수(감정인)가 증인으로 출석하여 진정성립을 인정하면 증거능력 O. 진정성립을 부인하는 경우 객관적 방법에 의하여 진정성립 인정될 수도 있음","k":"17ic6g3"}
+   ]}
+  ]}
+ ]},
+ {"i":"1kindzw","o":"<div class=\"cs-callout\">","b":[
+  {"i":"mtlqt4","o":"<div class=\"cs-callout\">","b":[
+   {"i":"1io539s","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제313조(진술서등)</strong></span>","k":"meb9qo"},
+   {"i":"rnxd3p","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ <span class=\"cs-statute\"><span class=\"cs-u\"><strong>감정의 경과와 결과를 기재한 서류</strong></span></span>도 제1항 및 제2항과 같다.","k":"1eo6dzc"}
+  ]},
+  {"i":"1kr6jai","o":"<div class=\"cs-h\">","h":"Ⅰ. 법원의 감정명령 또는 수사기관의 감정위촉에 의한 감정서","k":"17nakky"},
+  {"i":"16petkq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-red\"><strong>법원의 감정명령에 의한 감정서와 수사기관의 감정위촉에 의한 감정서를 구별하지 않고 §313③이 적용</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§169, §221②)</strong></span></span>되고, 결국 §313①②이 준용 — (감정서는 주로 진술서 형식)","k":"yjx6oj"},
+  {"i":"zz5uvh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[진술서 요건]</span> ① 감정인의 자필이거나 그 서명 또는 날인 ② 감정인 진정성립 — (§313②에 의하여 감정인이 부인하는 경우 객관적 방법·반대신문을 요건으로 가능)","k":"1ozjv1u"},
+  {"i":"1h39zil","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 §313③ 적용] 국립과학수사연구소장 작성의 필적감정의뢰 회보는 당연히 증거능력이 있는 서류라고 할 수 <span class=\"cs-x\"><strong>(X)</strong></span>, 증거동의하지 않는 한 §313에 따라 공판기일에서 작성자인 감정인의 진술에 의하여 성립의 진정함이 증명되는 때에 한하여 증거능력</strong></span><span class=\"cs-exam\">【변14, 변사23】</span>","k":"1eyapg4"},
+  {"i":"6hxqsf","o":"<div class=\"cs-h\">","h":"Ⅱ. 사인의 의뢰에 의한 감정서","k":"17j37ab"},
+  {"i":"t5i6i5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"사인이 의뢰하여 작성된 감정서는 §313③이 아닌 <span class=\"cs-red\"><strong>§313①②이 적용</strong></span>되지만 결과적으로 차이가 없음","k":"dmp950"}
+ ]}
+]}

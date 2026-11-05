@@ -1,0 +1,38 @@
+{"id":"개인055","t":"위탁매매와 횡령죄","cat":"gak_횡령배임","lv":1,"tg":["변사21","모사18","모사16","모사15"],"b":[
+ {"i":"67pa52","o":"<details class=\"cs-case\">","b":[
+  {"i":"qjzqtf","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE]</strong></span></span> <span class=\"cs-exam\">【변사21】 </span><span class=\"cs-red\">(15)</span>","k":"1165gpo"},
+  {"i":"3rsjhc","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"xle6ju","o":"<div class=\"cs-fact\">","b":[
+    {"i":"16xw576","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1z0haww","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲, 선배 A에게서 A 소유 중고차 처분을 부탁받고 B에게 5,000만 원에 매도했음에도 4,000만 원에 팔았다고 기망하고 4,000만 원만 A에게 줌. B에게서 수표로 받은 잔액 1,000만 원은 정을 아는 乙에게 보관을 부탁했으나 乙이 유흥비로 탕진.","k":"1ha6wu2"},
+     {"i":"7jqk56","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲과 乙의 죄책은? (15점)","k":"imz38h"}
+    ]}
+   ]},
+   {"i":"1ol9i19","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1fny6s","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"466pux","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [甲의 죄책]</strong></span>","k":"kv2f88"},
+    {"i":"ny6apb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(가) [위탁매매와 횡령죄]</strong>","k":"1hogcnv"},
+    {"i":"1r7y0zw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 위탁품 처분 후 매매대금을 임의 소비한 위탁매매인의 죄책 — 횡령죄설/배임죄설, 판례 = 횡령죄설. 상법 <span class=\"cs-blue\"><span class=\"cs-u\">제103조</span></span>의 취지상 횡령죄설 타당","k":"1eg3cwa"},
+    {"i":"c9y8ak","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 甲 = A에 대해 1,000만 원 횡령죄(<span class=\"cs-blue\"><span class=\"cs-u\">제355조</span> 제1항</span>)","k":"1s292l9"},
+    {"i":"pnpwr5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(나) [사기죄]</strong>","k":"c0qpya"},
+    {"i":"u3fmrp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 자기가 점유하는 타인의 재물을 횡령하려 기망수단을 쓴 경우 피기망자의 재산처분행위가 없어 일반적으로 횡령죄만 성립, 사기죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1dhsz6j"},
+    {"i":"lhmyiq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 甲에게 사기죄(<span class=\"cs-blue\"><span class=\"cs-u\">제347조</span> 제1항</span>)<span class=\"cs-x\"><strong>(X)</strong></span>","k":"14r6o8m"},
+    {"i":"1t88sg8","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [乙의 죄책]</strong></span>","k":"b55tjk"},
+    {"i":"10gq6s1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(가) [장물보관죄]</strong> 수표 1,000만 원 = 甲이 횡령해 영득한 장물 → 정을 알고 보관 → 장물보관죄(<span class=\"cs-blue\"><span class=\"cs-u\">제362조</span> 제1항</span>)<span class=\"cs-o\"><strong>(O)</strong></span>","k":"16dg7s4"},
+    {"i":"1i4qwe9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(나) [횡령죄]</strong>","k":"b2o9dy"},
+    {"i":"1yl5u2t","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 장물보관죄가 성립하면 이미 소유자의 소유물추구권을 침해 → 이후 횡령행위는 불가벌적 사후행위","k":"cqwsbf"},
+    {"i":"rfxne","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 乙에게 횡령죄(<span class=\"cs-blue\"><span class=\"cs-u\">제355조</span> 제1항</span>)<span class=\"cs-x\"><strong>(X)</strong></span>","k":"icvzfe"},
+    {"i":"5wrqfl","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(3) [결론]</strong></span> 甲 = 횡령죄, 乙 = 장물보관죄","k":"1ggrrg3"}
+   ]}
+  ]}
+ ]},
+ {"i":"1lg8oen","o":"<div class=\"cs-callout\">","b":[
+  {"i":"sw7leg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\">《위탁매매인이 위탁품 또는 위탁판매대금을 임의소비한 경우 어떤 범죄가 성립하는지》</span>","k":"pqmezg"},
+  {"i":"9ahknv","o":"<div class=\"cs-theory\">","b":[
+   {"i":"12oopec","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①횡령죄설(판매대금은 수령과 동시에 위탁자에게 소유권) ②배임죄설(금전 가치성, 판매대금 수탁자에게 소유권 귀속)","k":"nhvm8v"},
+   {"i":"yp1rst","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-glabel\">[횡령죄설]</span> 위탁품 소유권은 위임자, 판매대금은 수령과 동시에 위탁자 귀속 → 위탁매매인 임의사용·소비 시 <span class=\"cs-red\"><strong>횡령죄<span class=\"cs-o\"><strong>(O)</strong></span></strong></span>","k":"kd56ln"},
+   {"i":"1fq926p","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"단 이익분배 등 판매대금 처분 특약 있으면 정산관계 미해명 시 곧바로 횡령죄 X<span class=\"cs-exam\">【변12】</span>","k":"zjab4"},
+   {"i":"p4xucw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 위탁물·취득물은 위탁자 소유라는 상법 <span class=\"cs-blue\"><span class=\"cs-u\">§103</span></span> 취지 → 횡령죄설 타당","k":"1wwmyfn"}
+  ]}
+ ]}
+]}

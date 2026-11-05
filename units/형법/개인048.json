@@ -1,0 +1,67 @@
+{"id":"개인048","t":"소송사기","cat":"gak_사기공갈","lv":1,"tg":["B급","모사22","모사21","모사17","변기16"],"b":[
+ {"i":"8g8vu","o":"<details class=\"cs-case\">","b":[
+  {"i":"2mhk3b","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE]</strong></span></span> <span class=\"cs-red\">(20)</span>","k":"18il7p0"},
+  {"i":"10y3ifg","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1u7wk92","o":"<div class=\"cs-fact\">","b":[
+    {"i":"bhtum6","o":"<div class=\"cs-callout\">","b":[
+     {"i":"r12i7l","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲, A에게서 X토지를 매수한 사실이 없는데 A가 사망하자 A와의 매매계약서를 만들어 A를 상대로 소유권이전등기청구의 소를 제기하며 이를 증거로 첨부. 소장에 A의 주소를 허위","k":"jpofdz"},
+     {"i":"1i40dnz","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"기재해 소장 등을 자신이 수령하는 방법으로 승소판결. 甲의 죄책은? (20점)","k":"lmauoo"}
+    ]}
+   ]},
+   {"i":"1hjnu1t","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"e89q9k","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"89pe9t","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [사문서위조죄 및 동행사죄]</strong></span>","k":"1r2k64"},
+    {"i":"ry83ee","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 허무인·사망자 명의 문서를 위조해도 사문서위조죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"n07a4g"},
+    {"i":"1d2vx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 사망한 A 명의 매매계약서를 만들어 소장에 첨부 → 사문서위조죄 및 동행사죄(<span class=\"cs-blue\"><span class=\"cs-u\">제231조</span>, <span class=\"cs-u\">제234조</span></span>)","k":"13df110"},
+    {"i":"o4jr80","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [사기죄]</strong></span>","k":"1rrt7d4"},
+    {"i":"2jdaux","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 사망자를 상대로 한 소송사기 — 위 학설과 판례","k":"1ajtq15"},
+    {"i":"1rxuwew","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 甲에게 사기죄(<span class=\"cs-blue\"><span class=\"cs-u\">제347조</span> 제1항</span>)<span class=\"cs-x\"><strong>(X)</strong></span>","k":"14r6o8m"},
+    {"i":"1js4ne","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(3) [위계공무집행방해죄]</strong></span>","k":"14dijw1"},
+    {"i":"13iqay8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 피고의 주소를 허위 기재해 법원공무원이 소환장을 허위주소로 송달케 한 사실만으로는 <span class=\"cs-blue\">위계공무집행방해죄</span><span class=\"cs-x\"><strong>(X)</strong></span>","k":"1f28mjo"},
+    {"i":"ta9gve","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 甲에게 위계공무집행방해죄(<span class=\"cs-blue\"><span class=\"cs-u\">제137조</span></span>)<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1usl8rv"},
+    {"i":"ijkxuf","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(4) [결론]</strong></span> 甲 = 사문서위조죄 + 위조사문서행사죄의 실체적 경합","k":"15h44ca"}
+   ]}
+  ]}
+ ]},
+ {"i":"1y9mkrn","o":"<div class=\"cs-callout\">","b":[
+  {"i":"6sa8kc","o":"<div class=\"cs-h\">","h":"Ⅰ. 소송사기","k":"1syyrlm"},
+  {"i":"15y0yvg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-u\">허위 내용 소송제기·법원 기망 고의 시</span> → 허위증거 없어도 당사자 주장이 법원 기망에 충분하면 기망수단<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1g210et"},
+  {"i":"yinwtm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"소송사기 성립: 채권 부존재만으로 부족 + 부존재 잘 알면서 허위 주장·증명으로 법원 기망 인식 必","k":"1d0zphu"},
+  {"i":"1021685","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"단순 사실오인·법률평가 오류로 존재 믿은 경우 X","k":"10utu1o"},
+  {"i":"174sibc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"1ogqimg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[소송·조정절차 주장]</span> 범행 인정 외에는, 주장이 객관적으로 명백히 허위 + 거짓 인식/증거조작 인정 등 범죄성립 명백한 경우 아니면 유죄 인정 X — 조정절차상 다소간 허위·과장 언행이 신의칙상 허용범위 내면 기망 X","k":"10d1i7t"},
+  {"i":"dm0l2u","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[회생계획인가결정]</span> 허위로 법원 기망해 유리한 인가결정 → 사기죄 성립 가능 단 주장이 인가요건과 밀접·인가 여부·내용 달라질 정도여야","k":"zyk49w"},
+  {"i":"mxdqu6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[소송비용액확정결정]</span> 허위로 유리한 결정 받으면 사기죄 성립 가능 단 '당사자비용'은 소명자료 조작 없이 실제와 다른 비용액 주장만으로는 기망 단정 곤란<span class=\"cs-exam\">【변25】</span>","k":"blzeu5"},
+  {"i":"1ecdz0o","o":"<div class=\"cs-h\">","h":"Ⅱ. 법원의 처분행위","k":"1c48ssm"},
+  {"i":"au617s","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\">사자를 상대로 한 소송사기</span><span class=\"cs-exam\">【모사21·17, 변기16】</span>","k":"j4fcbd"},
+  {"i":"1amlfea","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-hl\">《사자 상대 소송제기 시 사기죄 성립여부》</span>","k":"1knquvw"},
+  {"i":"1kld1ly","o":"<div class=\"cs-theory\">","b":[
+   {"i":"la7u46","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①불능범설(결과발생 불가·위험성 없음) ②불능미수설(위험성 있음) ③무죄설(기망행위로 평가 불가, 위험성 불문 무죄)","k":"19f4eio"},
+   {"i":"10euj0b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-glabel\">[무죄설]</span> 사망자 상대 판결은 효력 없어 상속인에게 미치지 않음 → 법원 재판이 피해자 처분행위에 갈음하는 내용·효력 없음 → 사기죄<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변26·15】</span>","k":"1hlvtey"},
+   {"i":"xpsymf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 사자 상대 소송은 법원 재판이 처분행위에 갈음하는 효력 없음 → 무죄설 타당","k":"11g7vcj"}
+  ]},
+  {"i":"3ki2xk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>구체적 판례</strong></span>","k":"qlhpkc"},
+  {"i":"1oqzj74","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"cm6ytq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[소유권보존등기 명의자 상대 말소소송·허위 주장]</span> 승소확정 시 단독으로 말소 후 보존등기 가능 → '방해제거·소유명의 취득 지위'라는 재산상 이익 취득, 기수시기=판결 확정시<span class=\"cs-exam\">【변23】</span>","k":"18ciwgp"},
+  {"i":"19dtdjc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[소유권이전등기 명의인 상대 말소소송·허위 주장]</span> 승소 시 자기 등기명의 회복 → 말소등기청구 소제기가 실행착수<span class=\"cs-exam\">【변15】</span>","k":"gjvljy"},
+  {"i":"1fj07ir","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-neg-tag\">[미등기건물, 건축허가명의자 甲 상대 채권자 乙이 강제경매 신청·보존등기]</span> 사기죄<span class=\"cs-x\"><strong>(X)</strong></span> — 재판·보존등기 효력이 진정한 원시취득 소유자에 미치지 않음 → 법원 재판이 처분행위에 갈음하는 효력 X<span class=\"cs-exam\">【변23】</span>","k":"1bq03e4"},
+  {"i":"wg8py1","o":"<div class=\"cs-h\">","h":"Ⅲ. 원고의 소송사기 착수와 기수","k":"1mbxwo9"},
+  {"i":"1pt1zbe","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>착수</strong></span>","k":"36cr8"},
+  {"i":"hmpx03","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"1s5lffh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[소제기시]</span> 권리 부존재 알면서 법원 기망 인식으로 '소를 제기하면' 착수, 소장 유효송달 불요 — 상대방 주소 허위기재로 타인이 서류 받아 소송 진행된 경우도 同","k":"gqwr25"},
+  {"i":"1jws12d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[집행 O]</span> 강제집행 소송사기는 집행절차 개시신청 또는 진행중 배당신청 시 착수","k":"14lm9no"},
+  {"i":"1nbl91f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[압류 O]</span> 허위채권 공정증서 집행권원으로 소유권이전등기청구권 압류신청 시 착수<span class=\"cs-exam\">【변23】</span>","k":"5zi969"},
+  {"i":"1w2kw9s","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[경매 O]</span> 유치권 경매신청자는 피담보채권액 기초 배당 → 허위로 부풀린 유치권 경매신청은 착수<span class=\"cs-exam\">【변15】</span>","k":"669eab"},
+  {"i":"13gt79w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[임차권등기명령]</span> 임대차 통정허위표시 무효라도 외형상 우선변제권 취득 = 재산상 이익 → 허위 임대차계약서로 임차권등기명령 신청 시 착수<span class=\"cs-exam\">【변17·15】</span>","k":"1yjwfkw"},
+  {"i":"hyeaz8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-gbg\">[가압류 X]</span> 가압류는 보전방법 불과 → 허위채권 피보전권리 가압류만으로는 현실적 청구 의사표시 X → 본안 미제기 시 착수 X<span class=\"cs-exam\">【변19·14】</span>","k":"1h333ws"},
+  {"i":"4cx75x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[소송사기미수 종료시기]</span> 패소 종국판결 확정 등 소송 종료된 때 (공소시효는 범죄행위 종료 때부터 진행)","k":"1pqdk77"},
+  {"i":"lkzggv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>기수</strong></span>","k":"2pc8d"},
+  {"i":"1x9n90j","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>[판결확정시]</strong></span> <span class=\"cs-u\">소유권이전등기 이행청구소송 승소판결 '확정된 날' 기수</span>","k":"q6yy2m"},
+  {"i":"xxpivd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"判例(죄수관계): 법원 기망·승소확정판결로 소유권이전등기 경료 시 → 사기죄와 별도로 <span class=\"cs-blue\">공정증서원본불실기재죄 및 동행사죄</span> 성립(실체적 경합)","k":"122zgk7"},
+  {"i":"kezlwo","o":"<div class=\"cs-h\">","h":"Ⅳ. 피고의 소송사기","k":"19pes2l"},
+  {"i":"xpq648","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[착수]</strong></span> 적극적으로 법원 기망 의사로 허위서류 증거제출·주장 답변서·준비서면 '제출' 시","k":"7on14e"},
+  {"i":"18499v7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>[기수]</strong></span> 허위서류 작성·증거제출·위증 등 적극적 방법으로 법원 기망·착오케 하여 '승소확정판결'로 재산상 의무이행 면한 경우 사기죄 성립","k":"furrwx"},
+  {"i":"1x8n9m9","o":"<div class=\"cs-h\">","h":"Ⅴ. 친족상도례","k":"16j5k7"},
+  {"i":"dunrqa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용범위: <span class=\"cs-def\"><strong>[법원 아닌 제3자가 피해자]</strong></span> <span class=\"cs-u\">사기죄 보호법익은 재산권</span> → 피기망자인 법원은 피해자 될 수 없고 재물 편취당한 제3자가 피해자 → 제3자와 범인이 직계혈족이면 <span class=\"cs-blue\"><span class=\"cs-u\">제354조</span></span>·<span class=\"cs-blue\"><span class=\"cs-u\">제328조</span> 제1항</span>으로 형 면제 (형면제는 헌법불합치)","k":"1rm2jc5"}
+ ]}
+]}

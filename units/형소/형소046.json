@@ -1,0 +1,51 @@
+{"id":"형소046","t":"체포현장·구속현장 압수·수색·검증","cat":"pro_05","lv":1,"tg":["A급","上","변사23·14","모사25 등 빈출"],"b":[
+ {"i":"jp0wi1","o":"<details class=\"cs-case\">","b":[
+  {"i":"cuefl5","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 도피 은신 호텔방 예금통장·필로폰 압수 후 귀환자 긴급체포</strong></span> <span class=\"cs-exam\">【변사14】</span>","k":"7mbfop"},
+  {"i":"1pljkhr","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"tctib9","o":"<div class=\"cs-fact\">","b":[
+    {"i":"tu132l","o":"<div class=\"cs-callout\">","b":[
+     {"i":"7lcryq","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲은 乙의 보이스피싱 사기 방조범이자 살인 미수의 피해자 → P가 甲의 진술로 乙의 보이스피싱 사기 및 살인미수 인지 → P가 乙이 도피·은신 중인 호텔에 가서 종업원 협조로 乙의 방에서 타인 명의 예금통장 십여 개·필로폰을 압수 → 호텔에 잠복하다가 외출 후 돌아오는 乙을 긴급체포. P의 긴급체포와 예금통장·필로폰 압수는 적법한가? (15점)","k":"9e6z87"}
+    ]}
+   ]},
+   {"i":"1321i1e","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"10ltsnf","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"ieqyer","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [긴급체포의 적법성]</strong> ① 범죄의 중대성(3년 이상) + 혐의 상당성(甲의 진술) + 필요성(도피하며 호텔 은신) + 긴급성(도피·은신 중이라 체포영장 받을 시간적 여유 없음) 모두 충족 → 긴급체포 적법","k":"ux80fx"},
+    {"i":"146aw0","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [예금통장 압수]</strong>","k":"1loubm5"},
+    {"i":"olrvd0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 긴급체포 후 압수·수색은 긴급체포'된' 자를 상대로 하므로 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§217①</strong></span></span>으로 압수 X","k":"e79i11"},
+    {"i":"unw2jd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 체포현장 압수·수색(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§216①제2호</strong></span></span>)도 체포착수설상 체포 착수 전에는 압수·수색 X → 예금통장 압수 위법","k":"1ko20n3"},
+    {"i":"k1b6n2","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [필로폰 압수]</strong>","k":"16y922c"},
+    {"i":"1cu75it","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 긴급체포 후·체포현장 압수·수색 각 해당 X","k":"1ndao2d"},
+    {"i":"avkm2x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 긴급체포 사유인 범죄사실과 객관적 관련성도 X","k":"1v8v7oo"},
+    {"i":"rmwj9f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 다만 필로폰은 소지 자체가 범죄 → 범죄장소 압수·수색 해당, 사후 압수·수색영장 발부받았다면 적법(수색은 피의자 체포를 위한 것으로 적법)","k":"1w9g3jh"}
+   ]}
+  ]}
+ ]},
+ {"i":"1a8vs6o","o":"<div class=\"cs-callout\">","b":[
+  {"i":"k0hxhf","o":"<div class=\"cs-h\">","h":"Ⅰ. 체포 또는 구속","k":"170bfp2"},
+  {"i":"9shrml","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[피의자]</span> ① 체포영장 ② 긴급체포 ③ 현행범체포 ④ 구속을 하는 경우 <span class=\"cs-red\"><strong>체포·구속 현장에서 영장없이 압수·수색·검증 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§216①제2호)</strong></span></span>","k":"19icilw"},
+  {"i":"1agpbv8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[피고인]</span> 검사 또는 사법경찰관이 피고인에 대한 <span class=\"cs-red\"><strong>'구속'영장의 집행</strong></span>의 경우에 준용<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§216②)</strong></span></span> — (법원으로부터 사후 영장을 발부받을 필요 X)","k":"92nmfz"},
+  {"i":"1ha4j7b","o":"<div class=\"cs-h\">","h":"Ⅱ. 시간적 접착성 – 체포현장의 시간적 범위","k":"ilbytd"},
+  {"i":"1gny1cz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《체포현장에서의 압수·수색의 시간적 범위》</strong></span>","k":"1rtbreb"},
+  {"i":"16fs140","o":"<div class=\"cs-theory\">","b":[
+   {"i":"1e76mxs","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① <span class=\"cs-red\"><strong>체포접착설</strong></span>(체포행위와 압수수색이 시간적으로 접착되어 있으면 체포 전후 불문) ② 체포현장설(피의자가 압수수색 당시 현장에 있으면 가능) ③ <span class=\"cs-red\"><strong>체포착수설</strong></span>(압수수색 당시 피의자가 현장에 있고 체포에 착수할 것을 요함) ④ 체포실현설(피의자가 현실적으로 체포되었을 것을 요함)","k":"1qp09hb"},
+   {"i":"6e3sk7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 체포착수설로 평가] 현행범 체포에 착수하지 아니한 상태여서 체포현장에서의 압수·수색 요건을 갖추지 못하였다</strong></span><span class=\"cs-exam\">【변16】</span>","k":"17ff4c0"},
+   {"i":"y9bqej","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: §216①제2호가 '체포 또는 구속하는 경우'라고 규정하고 있으므로 체포에 착수할 것을 요하지만, <span class=\"cs-red\"><strong>체포의 성공여부라는 우연한 사정에 의해 압수의 적법성이 좌우되는 것은 부당</strong></span> → <span class=\"cs-red\"><strong>체포착수설 타당</strong></span> — (피의자가 현장에 없는 경우 X)","k":"ajnvkm"}
+  ]},
+  {"i":"721mxn","o":"<div class=\"cs-h\">","h":"Ⅲ. 장소적 접착성","k":"7bn214"},
+  {"i":"qm0erc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>피의자의 신체와 그의 직접적인 지배하에 있는 장소로 제한</strong></span> — (차량을 주차하고 있는 피의자를 체포(영장)하면서 차량 수색 O)<span class=\"cs-exam\">【변24】</span>","k":"y7hcag"},
+  {"i":"13o59wh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[경찰이 집에서 20m 떨어진 곳에서 체포하여 수갑을 채운 후 피고인의 집으로 가서 압수한 경우]</span> 체포현장에 <span class=\"cs-green\"><strong>해당 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변22·16, 변사23, 모기18】</span>","k":"1fk0oav"},
+  {"i":"1kohhat","o":"<div class=\"cs-h\">","h":"Ⅳ. 요급처분","k":"1v3904p"},
+  {"i":"1pfa3x8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"체포현장·범죄장소 압수수색을 하는 경우 <span class=\"cs-red\"><strong>급속을 요하는 때</strong></span>에는 §123②(주거주 등 참여)·§125(야간집행 제한)의 규정이 적용 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§220)</strong></span></span>","k":"opcloc"},
+  {"i":"vewjaj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"따라서 급속을 요하는 때에는 <span class=\"cs-red\"><strong>주거주 참여 없이 야간집행도 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span>","k":"1osza9l"},
+  {"i":"j5o2eu","o":"<div class=\"cs-h\">","h":"Ⅴ. 압수 계속과 사후 압수·수색영장","k":"rj8y4w"},
+  {"i":"28u34r","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>→ ‘</strong><span class=\"cs-red\"><strong>압수한</strong></span><strong>’ 경우</strong>","k":"5zb9l6"},
+  {"i":"pv5twy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검사·사법경찰관은 압수한 물건을 계속 압수할 필요가 있는 경우에는 <span class=\"cs-red\"><strong>'지체 없이' 압수·수색영장을 청구</strong></span>하여야 함. 청구는 체포한 때부터 <span class=\"cs-red\"><strong>'48시간 이내'</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§217②)</strong></span></span> — <span class=\"cs-gbg\">[압수한 때]</span> <span class=\"cs-x\"><strong>(X)</strong></span>","k":"95zyiw"},
+  {"i":"11rxdc6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"압수·수색영장을 발부받지 못한 때에는 <span class=\"cs-red\"><strong>압수한 물건을 즉시 반환</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§217③)</strong></span></span> — (사후 수색영장 X, 검증영장 X)<span class=\"cs-exam\">【변25·22·20·17·15】</span>","k":"imtt6t"},
+  {"i":"stgrdy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[사후 압수·수색영장을 발부받지 아니하고도 즉시 반환하지 아니한 압수물]</span> 증거능력 <span class=\"cs-x\"><strong>(X)</strong></span>, 피고인이 증거동의하더라도 마찬가지<span class=\"cs-exam\">【변26】</span>","k":"1cewhnu"},
+  {"i":"8pf3c","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[정통망법상 음란물 유포 혐의로 영장을 발부받아 주거지 수색 중 대마를 발견하여 피고인을 마약류관리법위반 현행범으로 체포하며 대마를 압수하였으나 그 다음날 석방하였음에도 사후 압수·수색영장 미발부]</span> 압수물·압수조서는 영장주의 위반 수집 증거로서 증거능력 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변14】</span>","k":"1ewtp1h"},
+  {"i":"9lczt6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>→ ‘</strong><span class=\"cs-green\"><strong>압수를 하지 않은</strong></span><strong>’ 경우</strong>","k":"1hzlauw"},
+  {"i":"983l25","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[검증]</span> ① 체포현장 '검증'·긴급체포 후 '검증'의 경우에는 <span class=\"cs-green\"><strong>사후 '검증'영장 불요</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§217② 참조)</strong></span></span> ② 이와 달리 <span class=\"cs-red\"><strong>'범죄장소 검증'의 경우에는 사후 검증영장도 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§216③)</strong></span></span>","k":"1qgsx4s"},
+  {"i":"l8nllv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[수색]</span> 압수 없이 수색만 한 경우에도 <span class=\"cs-green\"><strong>사후 수색영장 불요</strong></span>","k":"1voayfo"},
+  {"i":"1isq4yx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-neg-tag\">[성매매알선 혐의로 현행범 체포 후 성매매업소를 수색하여 '사진 촬영'을 한 경우]</span> ① §216①제2호에 의한 것으로 그 '수색'이나 '촬영'이 영장 없이 이루어졌더라도 <span class=\"cs-red\"><strong>위법 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span> ② <span class=\"cs-u\">'압수'는 물건의 점유를 취득하는 강제처분</span>인데, 범행현장에서 발견된 콘돔을 촬영하였다는 사정만으로는 단속 경찰관들이 강제로 그 점유를 취득하여 압수하였다고 할 수 없으므로 <span class=\"cs-red\"><strong>사후에 압수영장을 받을 필요 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span> ③ 사진 증거능력 <span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변25, 모기25】</span>","k":"5hx8k3"}
+ ]}
+]}

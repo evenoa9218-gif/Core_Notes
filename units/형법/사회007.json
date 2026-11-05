@@ -1,0 +1,52 @@
+{"id":"사회007","t":"공문서·사문서부정행사","cat":"gak_사회","lv":1,"tg":["변사19","변사17","모사20","모사19","모사18","모사16","모기23","모기22"],"b":[
+ {"i":"1inomb9","o":"<details class=\"cs-case\">","b":[
+  {"i":"1vkxnqz","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE] 오인 상해·타인 운전면허증 제시·조서 타인명의 서명</strong></span></span> <span class=\"cs-exam\">【변사19】 </span><span class=\"cs-red\">(15)</span>","k":"1mzf7xj"},
+  {"i":"90fmbn","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"3nfirt","o":"<div class=\"cs-fact\">","b":[
+    {"i":"ljzve9","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1akgszd","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲이 丁에게 乙 살해를 부탁, 승낙한 丁이 C를 乙로 오인해 자동차로 들이받았으나 6주 상해에 그침. 사법경찰관 P2가 丁을 적법하게 체포해 인적사항을 확인하자 丁은 친형 D의 운전면허증을 제시, 피의자신문 후 P2가 작성한 피의자신문조서를 교부받아 열람하고 말미에","k":"dd5xpc"},
+     {"i":"4jhvrj","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"D 명의로 서명날인해 P2에게 건넴. 丁의 죄책은? (15점)","k":"b2huqf"}
+    ]}
+   ]},
+   {"i":"gl8mi6","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"u2mjhz","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"a0xzm1","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [살인미수죄]</strong></span>","k":"kbmw57"},
+    {"i":"wtov53","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① C를 乙로 오인 = 구체적 사실의 착오 중 객체의 착오 → 구체적 부합설· 법정적 부합설·추상적 부합설 모두 발생한 사실인 C에 대한 살인의 고의 인정","k":"2040f3"},
+    {"i":"1u6974g","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 丁 = C에 대한 살인미수죄(<span class=\"cs-blue\"><span class=\"cs-u\">제254조</span>, <span class=\"cs-u\">제250조</span> 제1항</span>)","k":"1vw7iie"},
+    {"i":"1mnzxcy","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [공문서부정행사죄]</strong></span>","k":"c3h0tx"},
+    {"i":"q9wf4u","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 사용권한자와 용도가 특정되어 작성된 공문서를 사용권한 없는 자가 권한이 있는 것처럼 가장해 부정한 목적으로 행사하면 성립","k":"1okpcpt"},
+    {"i":"12o9tdo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 다만 사용권한 없는 자가 사용해도 그 공문서의 본래 용도에 따른 사용이 아니면 성립<span class=\"cs-x\"><strong>(X)</strong></span>","k":"h7c0za"},
+    {"i":"8lfyvb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 운전면허증 = 자격증명 + 동일인증명 기능 동시 보유 → 신분확인을 위한 신분증명서 제시 요구에 타인의 운전면허증을 제시함은 사용목적에 따른 행사 → 공문서부정행사죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"gfnam3"},
+    {"i":"kpuasa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"④ 丁 = 공문서부정행사죄(<span class=\"cs-blue\"><span class=\"cs-u\">제230조</span></span>)","k":"160necj"},
+    {"i":"nstehl","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(3) [사서명위조죄 및 동행사죄]</strong></span>","k":"qn11xf"},
+    {"i":"1otgsc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 사서명위조죄는 그 서명이 일반인으로 하여금 특정인의 진정한 서명으로 오신하게 할 정도에 이를 것 요","k":"1etiv87"},
+    {"i":"hlvn8e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 피의자신문조서 말미에 D 명의로 서명·날인해 P2에게 건넴 → 사서명위조죄 및 동행사죄(<span class=\"cs-blue\"><span class=\"cs-u\">제239조</span> 제1항, 제2항</span>)","k":"70wzzz"},
+    {"i":"criyqs","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(4) [결론]</strong></span> 丁 = 살인미수죄 + 공문서부정행사죄 + 사서명위조죄 + 위조사서명행사죄의 실체적 경합","k":"16t0pac"}
+   ]}
+  ]}
+ ]},
+ {"i":"dg6z64","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1qus443","o":"<div class=\"cs-h\">","h":"Ⅰ. 공무원 또는 공무소의 문서 또는 도화 (공문서 등)","k":"1o45tx6"},
+  {"i":"10veckz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용범위: <span class=\"cs-def\"><strong>[진정한 공문서]</strong></span> <span class=\"cs-u\">공문서부정행사죄는 진정한 공무소 문서를 권한없는 자가 행사</span> → 위조·변조·허위작성 공문서는 객체 X","k":"1xs0f9p"},
+  {"i":"ut0r5p","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>[사용권한자·용도 특정 문서]</strong></span> 사용권한자와 용도가 특정되어 작성된 공문서·공도화 부정사용 시 성립","k":"1xp0vsz"},
+  {"i":"1jpz4vk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"ua8ygf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[절취 전화카드 공중전화기 사용]</span> 권리의무에 관한 타인의 사문서 부정행사에 해당<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1ydpa1d"},
+  {"i":"1cmd0a2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[사용권한자 불특정]</span> 주민등록표등본<span class=\"cs-exam\">【변14】</span>, 실질적 채권채무관계 없이 당사자 합의로 작성한 차용증·이행각서<span class=\"cs-exam\">【변20】</span>, 금치산·한정치산 선고 후 취소 안 된 사실 증명 신원증명서, 인감증명서·등기필증 → 모두 사용권한자 특정 X·용도 다양 → 부정행사죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"mgz4iq"},
+  {"i":"tnb2c5","o":"<div class=\"cs-h\">","h":"Ⅱ. 부정행사","k":"7au5a2"},
+  {"i":"1ozjjri","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[추상적 위험범]</strong></span> ① <span class=\"cs-u\">공문서부정행사죄는 공문서 사용에 대한 공공의 신용 보호법익</span> → '추상적 위험범' ② 주체·객체·태양 엄격해석하여 처벌범위 합리적 범위 내로 제한 <span class=\"cs-fact-tag\">[구체적 위험범 X]</span><span class=\"cs-exam\">【변24】</span>","k":"g13jxk"},
+  {"i":"1b0szc7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-u\">사용권한자·용도 특정 작성 공문서·공도화를</span> ①사용권한 없는 자가 있는 것처럼 가장하여 부정목적 행사 ②권한 있는 자라도 정당한 용법 반하여 부정행사 시 성립 <span class=\"cs-fact-tag\">[사문서부정행사죄도 동일 법리]</span>","k":"1igcmvr"},
+  {"i":"18l8xz5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"사용권한자·용도 특정 공문서를 사용권한 없는 자가 사용해도 본래 용도에 따른 사용 아니면 부정행사죄 X","k":"12gu30d"},
+  {"i":"1v76os8","o":"<div class=\"cs-h\">","h":"Ⅲ. 구체적 판례","k":"1fpgp0g"},
+  {"i":"6a365f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"runnbj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[운전면허증 제시]</span> 자격증명+동일인증명 기능 동시 → 제3자로부터 신분확인 위해 신분증명서 제시 요구받고 타인 운전면허증 제시 → 사용목적에 따른 행사로 부정행사죄<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변24·16·14, 변사19, 모사19】</span>","k":"hqkj1y"},
+  {"i":"b1n5k1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[허위신고 발급 주민등록증 제시]</span> 자신이 A인 양 허위신고로 사진 부착·지문 찍힌 A 명의 주민등록증 발급받아 검문경찰관 제시 → 허위사실 증명 용도 사용권한 없음 인식 → 부정행사죄<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변21】</span>","k":"1nch6wp"},
+  {"i":"1syukhf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[운전면허증 이미지파일]</span> 도교법<span class=\"cs-blue\"><span class=\"cs-u\">§92</span>②</span> 제시 객체는 운전면허증 자체이지 이미지파일 X → 타인 운전면허증 촬영 이미지파일을 휴대전화 화면 등으로 보여주는 행위는 특정 용법에 따른 행사 X·그릇된 신용 형성 위험 X → 부정행사죄<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변22, 모사20, 모기25·22】</span>","k":"1xlullc"},
+  {"i":"sdfrt9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[국가유공자증 제시]</span> 본래 용도는 국가유공자 자격 증명(신분 동일성 증명 X) → 조세범처벌법위반 조사 시 타인 행세로 타인 명의 국가유공자증 조사관 제시해도 부정행사죄<span class=\"cs-x\"><strong>(X)</strong></span> <span class=\"cs-gbg\">[심문조서 진술인란에 타인 명의 서명·제시는 사서명위조·동행사 성립]</span>","k":"gjyyej"},
+  {"i":"4z8d5o","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[장애인사용자동차표지]</span> 사용권한 없는 자가 지원 기대 상황 아니면 단순 자동차에 '비치'해도 본래 용도 사용 X → 부정행사죄<span class=\"cs-x\"><strong>(X)</strong></span> <span class=\"cs-fact-tag\">[실효된 표지 부착·비주차구역 주차]</span><span class=\"cs-exam\">【변24, 모기23】</span>","k":"17mlxvo"},
+  {"i":"1ttag49","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[주민등록증 이동전화 가입신청]</span> 습득한 타인 주민등록증을 '피고인 가족' 것이라 제시하며 타인 명의·가명으로 이동전화 가입신청 → 본래 사용용도인 '신분확인용' 사용 X → 부정행사죄<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변14】</span>","k":"1b5cujy"},
+  {"i":"1rsokp2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[선박국적증서·선박검사증서]</span> 선박 사고 허위신고하며 함께 제출 → 국적·항행자격 증명 용도로 사용된 것일 뿐 본래 용도 벗어난 행사 X → 부정행사죄<span class=\"cs-x\"><strong>(X)</strong></span> <span class=\"cs-fact-tag\">[권한 있는 자의 본래 용법에 따른 사용]</span><span class=\"cs-exam\">【변20·14】</span>","k":"fer3v4"},
+  {"i":"1ylf6q8","o":"<div class=\"cs-h\">","h":"Ⅳ. 미수범 처벌규정","k":"x7hoxt"},
+  {"i":"oqmect","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용범위: <span class=\"cs-def\"><strong>공문서부정행사죄</strong></span> = <span class=\"cs-u\">미수범 처벌규정 O</span> (<span class=\"cs-blue\"><span class=\"cs-u\">§235</span></span>)","k":"13rwmnf"},
+  {"i":"1kgqrg3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"사문서부정행사죄 = 미수범 처벌규정 X","k":"az9f6d"}
+ ]}
+]}

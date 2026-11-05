@@ -1,0 +1,30 @@
+{"id":"개인047","t":"사기의 도구로 이용된 자에 대한 사기죄","cat":"gak_사기공갈","lv":1,"tg":["변사19"],"b":[
+ {"i":"gfsc8l","o":"<details class=\"cs-case\">","b":[
+  {"i":"1fyilcb","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE]</strong></span></span> <span class=\"cs-exam\">【변사19】 </span><span class=\"cs-red\">(15)</span>","k":"vrhbkn"},
+  {"i":"1ht5kn7","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1p9939l","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1b33tf5","o":"<div class=\"cs-callout\">","b":[
+     {"i":"jgt45v","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲·乙 보이스피싱 공모. 甲은 A에게 \"검찰청 수사관이다. 네 명의 계좌가 범죄에 이용돼 곧 돈이 들어온다. 그 돈 포함 전액을 인출해 검찰청 앞으로 와라\". 乙은 B에게 \"서초경찰서 경찰이다. 개인정보가 유출됐으니 안전한 계좌로 옮겨야 한다\"며 A 명의 계좌번호를 알려줌. B가 A 계좌로 1,000만 원 이체 → A가 그 돈 포함 전액 1,500만 원을 인출해 甲에게 교부.","k":"n38bvu"},
+     {"i":"1y7jc1z","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲과 乙의 죄책은? (15점) [(저자)전기통신금융사기 특별법(약칭)은 논외로 함]","k":"221rjz"}
+    ]}
+   ]},
+   {"i":"te9432","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"16q72uv","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"yu9k9d","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [공동정범]</strong></span> 공모 + 각 실행행위 분담 → 사기죄의 공동정범(<span class=\"cs-blue\"><span class=\"cs-u\">제30조</span></span>)","k":"1ixipvs"},
+    {"i":"1uui253","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [B에 대한 사기죄]</strong></span>","k":"4swpvq"},
+    {"i":"1puujox","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 피기망자의 행위가 직접 재산상 손해를 초래하는 재산적 처분행위로 평가되고 이를 인식하고 한 것이라면 처분의사<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1d2tvjd"},
+    {"i":"1soff2c","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② B는 안전한 계좌로 옮긴다고 믿고 이체 — 실제 결과를 인식 못했어도 이체로 손해가 초래되었고 이체 행위의 인식은 있었음 → 처분행위·처분의사<span class=\"cs-o\"><strong>(O)</strong></span>","k":"nyasb"},
+    {"i":"c2xoql","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 甲·乙 = B에 대한 1,000만 원 사기죄(<span class=\"cs-blue\"><span class=\"cs-u\">제347조</span> 제1항</span>)의 공동정범","k":"se0fih"},
+    {"i":"1mvurwx","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(3) [A에 대한 사기죄]</strong></span>","k":"1ndddd0"},
+    {"i":"1blp2s7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(가) [500만 원 부분]</strong> 검찰청 수사관을 사칭해 A의 돈 500만 원을 교부받음 → A에 대한 사기죄의 공동정범(위 처분행위·처분의사 판례)","k":"1gmvu1x"},
+    {"i":"da039d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(나) [B가 A의 계좌로 이체한 1,000만원 부분]</strong>","k":"17kvjbw"},
+    {"i":"148je3y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 피해자에 대한 사기범행의 실현 수단으로 편취물을 전달하는 도구로만 이용된 타인에게는 사기죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"7axwqk"},
+    {"i":"y71ui1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② A는 B에게서 편취한 1,000만 원의 전달 도구일 뿐 → B에 대한 사기죄만 성립, 도구로 이용된 A에 대해 별도 사기죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"vxjxer"},
+    {"i":"ak5ujp","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(4) [결론]</strong></span> 甲·乙 = A에 대한 500만 원 사기죄 + B에 대한 1,000만 원 사기죄 각 공동정범의 실체적 경합","k":"1ax3h46"}
+   ]}
+  ]}
+ ]},
+ {"i":"ddmrw","o":"<div class=\"cs-callout\">","b":[
+  {"i":"10l2el8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-def\"><strong>[도구 이용자에 사기죄 X]</strong></span> 피해자에 대한 사기범행 실현수단으로 <span class=\"cs-u\">타인을 기망해 편취 재물·이익 전달 도구로서만 이용</span> → 피해자에 대한 사기죄 성립할 뿐, 도구로 이용된 타인에 대한 사기죄 별도 성립<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변22·20·18】</span>","k":"1eo0mud"}
+ ]}
+]}

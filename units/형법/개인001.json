@@ -1,0 +1,19 @@
+{"id":"개인001","t":"사람의 시기와 종기","cat":"gak_생명신체","lv":1,"tg":["변18"],"b":[
+ {"i":"t2kaep","o":"<div class=\"cs-h\">","h":"Ⅰ. 사람의 시기","k":"j5jubj"},
+ {"i":"1p2dgin","o":"<div class=\"cs-theory\">","b":[
+  {"i":"1ga0dgu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①<span class=\"cs-u\"><strong>진통설(통설)</strong></span> ②일부노출설 ③전부노출설 ④독립호흡설","k":"1yn3ybe"},
+  {"i":"4vbit2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>판례</strong>: [①<span class=\"cs-u\"><strong>진통설</strong></span>]</span> 규칙적 진통 동반 분만개시 시(=분만개시설) = 사람의 시기","k":"7iwx7p"},
+  {"i":"1i856cr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 모체 노출 전 생명도 보호 필요 → <span class=\"cs-u\"><strong>진통설 타당</strong></span>","k":"1vkdv5p"}
+ ]},
+ {"i":"tufiv3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+ {"i":"thhr7g","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[의료과실로 태아 사망]</span> 임산부에 대한 상해<span class=\"cs-x\"><strong>(X)</strong></span> — 신체 일부 훼손·생리기능 침해 X","k":"8kgmnd"},
+ {"i":"1jfdrhq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[조산원이 <strong>분만 중 태아</strong>를 질식사에 이르게 한 경우]</span> 업무상과실치사죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"azm9g8"},
+ {"i":"6k9btt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[제왕절개 수술]</span> 분만개시시점 기준<span class=\"cs-x\"><strong>(X)</strong></span> —  수술 가능·필요 시기가 판단주체·상황마다 다름<span class=\"cs-exam\">【변18】</span>","k":"z8t3tu"},
+ {"i":"rr0dfz","o":"<div class=\"cs-h\">","h":"Ⅱ. 사람의 종기","k":"8c6qtj"},
+ {"i":"1vy9oyh","o":"<div class=\"cs-theory\">","b":[
+  {"i":"v4ocxx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①호흡종지설 ②심장사설(맥박종지설) ③뇌사설","k":"1s8hgng"}
+ ]},
+ {"i":"10yg1gu","o":"<div class=\"cs-h\">","h":"Ⅲ. 낙태죄","k":"1drxlm0"},
+ {"i":"a1rtd0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"성립요건: <span class=\"cs-def\">자연분만기 전 <span class=\"cs-u\">인위적으로 모체 밖 배출 or 모체 안 살해</span> → 태아 사망여부 불문</span>","k":"j4zdne"},
+ {"i":"1cg3r45","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"判例: <span class=\"cs-fact-tag\">[산부인과 의사가 유도분만으로 낙태 시도, 미숙아로 생존출생하자 염화칼륨 주입 살해]</span> 살인죄<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변18】</span>","k":"1r0z3mh"}
+]}

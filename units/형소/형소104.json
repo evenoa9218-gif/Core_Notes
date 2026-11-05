@@ -1,0 +1,75 @@
+{"id":"형소104","t":"녹음파일 등의 증거능력","cat":"pro_14","lv":1,"tg":["A급","上","변사26·21·13·12","모사18·16","모기25"],"b":[
+ {"i":"16uzbta","o":"<details class=\"cs-case\">","b":[
+  {"i":"ms4vwu","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(1)] 영상통화 몰래 녹음물 중 피고인 진술 부분의 증거능력</strong></span> <span class=\"cs-exam\">【변사21】</span>","k":"1yieind"},
+  {"i":"6eavnc","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1bkgb02","o":"<div class=\"cs-fact\">","b":[
+    {"i":"gcpsne","o":"<div class=\"cs-callout\">","b":[
+     {"i":"56md7x","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲이 A와 영상 통화하며 \"시키는 대로 하지 않으면 기존에 전송받은 신체 사진을 유포하겠다\"고 협박하며 겁먹은 A로 하여금 가슴과 음부를 스스로 만지게 함 → 피해자 A가 영상 통화 당시 몰래 휴대폰으로 음성 녹음 후 USB에 담아 제출 → 甲이 성폭법위반(촬영물이용강요)·강제추행을 부인하자 검사가 녹음물을 제출, 甲의 변호인이 부동의. 위 녹음물 중 甲이 말한 부분은 증거능력이 있는가? (10점)","k":"1vfgp67"}
+    ]}
+   ]},
+   {"i":"4aaad","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"6wbd8s","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1vxs9r9","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [통비법위반]</strong> 전화통화 당사자 일방이 상대방 몰래 녹음하는 것은 통비법<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§3①</strong></span></span>의 전기통신 감청 X","k":"y71yeg"},
+    {"i":"wn3w0c","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [사인의 위수증]</strong> 사인이 대화 상대방 몰래 녹음하였더라도 그것만으로는 위법수집증거 X","k":"190jw5i"},
+    {"i":"ezkmpu","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [현장녹음과 전문법칙]</strong>","k":"lv89qh"},
+    {"i":"ztndg8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 비진술증거설·진술증거설·검증조서유추적용설. 현장녹음이라고 일률적으로 정할 것이 아니라 녹음 내용의 진실성이 요증사실인지에 따라 판단","k":"srvavx"},
+    {"i":"1b6r4z0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 사안은 녹음 내용의 진실성이 아닌 甲의 진술의 존재 자체가 증거 → 전문법칙 적용 X","k":"gbsa4o"},
+    {"i":"1fg3abd","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(4) [사본의 증거능력]</strong> USB 녹음파일은 사본 → 최량증거법칙에 따라 원본의 존재·필요성·정확성 요건 충족시 증거능력 O. 원본 그대로 복사한 사본이라는 점은 해쉬값 비교가 원칙이나 절차 관여자의 증언·검증·감정 등으로 판단 가능","k":"179m9w7"}
+   ]}
+  ]}
+ ]},
+ {"i":"2o7xwv","o":"<details class=\"cs-case\">","b":[
+  {"i":"14gowe9","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(2)] 3인 대화 몰래 녹음 사본(원본 삭제) 중 피고인 진술의 증거능력</strong></span> <span class=\"cs-exam\">【변사26】</span>","k":"2k602v"},
+  {"i":"1c9soux","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"cew0gj","o":"<div class=\"cs-fact\">","b":[
+    {"i":"ud2s2z","o":"<div class=\"cs-callout\">","b":[
+     {"i":"jc4upv","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲이 상속세 납부를 위해 丁으로부터 40억 원 차용, 丁이 담보 명목으로 甲이 대표이사인 A회사 소유 S건물에 가등기를 요구, 甲이 승낙 후 A회사 이사 X·乙에게 알림 → X가 乙과 함께 甲으로부터 가등기 사정을 듣는 현장에서 甲·乙의 대화를 몰래 휴대전화로 녹음 → X가 녹음파일을 USB에 저장 후 휴대전화 원본은 삭제하고 USB 사본을 제출. 위 녹음파일 사본의 증거능력을 논하라. [甲에 대해 甲의 진술 부분을 증거로 사용하는 경우 전제] (10점)","k":"14rtl8g"}
+    ]}
+   ]},
+   {"i":"donpx0","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1rv259p","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"a2txcr","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [통비법위반]</strong> ① 통비법<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§14②①·§4</strong></span></span> ② 3인 간 대화에서 한 사람이 녹음하는 경우 다른 두 사람의 발언은 통비법<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§3①</strong></span></span>의 타인 간의 대화 X → X가 녹음한 甲·乙의 대화는 X에 대한 관계에서 타인 간의 대화 X → 통비법 위반 X","k":"2ezq5v"},
+    {"i":"s473iq","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [사인의 위수증]</strong> 사인이 몰래 녹음하였더라도 위법수집증거 X","k":"xawlix"},
+    {"i":"1xrdgx3","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [전문법칙 예외]</strong> (가) [증거동의] 甲이 동의하면 진정한 것으로 인정시 증거능력 O(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§318①</strong></span></span>) (나) [<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§313①</strong></span></span>] ① X의 녹음파일은 甲의 진술내용의 진실성이 증명 대상 ② 판례는 녹음상대방 진술은 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§313①</strong></span></span> 진술기재서로 취급 ③ <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§313① 단서</strong></span></span> 완화요건설 → 甲이 본문으로 진정성립을 인정하거나, 단서로 녹음자 X가 甲이 진술한 대로 녹음되었음을 인정하고 특신상태가 증명되면 증거능력 O","k":"yhe7fx"},
+    {"i":"1ylgscy","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(4) [사본의 증거능력]</strong> USB 녹음파일은 사본 → 원본의 존재·필요성·정확성 충족시 O. 원본을 삭제하여 해쉬값 비교 불가 → 사본파일을 만든 X의 증언·검증·감정으로 원본동일성을 입증하면 증거능력 O","k":"1y379y7"},
+    {"i":"npxdgy","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(5) [결론]</strong> 甲이 동의하거나 부동의하여도 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§313① 본문·단서</strong></span></span>의 예외요건이 충족되고 원본 동일성이 증명되면 사본의 증거능력 O","k":"148dk3e"}
+   ]}
+  ]}
+ ]},
+ {"i":"177uwk4","o":"<div class=\"cs-callout\">","b":[
+  {"i":"xwcfiq","o":"<div class=\"cs-h\">","h":"Ⅰ. 통신비밀보호법","k":"xy0stf"},
+  {"i":"orc17v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"녹음파일 등이 증거로 제출된 경우에는 <span class=\"cs-red\"><strong>통신비밀보호법을 검토</strong></span>","k":"6elwjx"},
+  {"i":"1sc70w9","o":"<div class=\"cs-h\">","h":"Ⅱ. 현장녹음의 적법여부 (위수증 문제)","k":"ehlwpm"},
+  {"i":"1ap0zja","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>'수사기관'의 영장없는 현장녹음</strong></span><span class=\"cs-exam\">【모기25】</span>","k":"1i5s7t1"},
+  {"i":"1s8shhc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>수사기관이 ① 현재 범행이 행하여지고 있거나 행하여진 직후이고 ② 증거보전의 필요성 및 긴급성이 있으며 ③ 일반적으로 허용되는 상당한 방법으로 범행현장에서 현행범인 등 관련자들과 수사기관의 대화를 녹음한 경우(녹음방법의 상당성)라면 영장 없이 이루어졌다 하여 위법하다고 단정할 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변25】</span>","k":"1qg1wvl"},
+  {"i":"9rchvw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"이는 <span class=\"cs-red\"><strong>녹음 사실을 대화상대방(현행범인 등)이 인식하지 못하고 있었더라도, 통비법§3①이 금지하는 공개되지 아니한 타인 간의 대화를 녹음한 경우에 해당하지 않는 이상 마찬가지</strong></span><span class=\"cs-exam\">【변25】</span>","k":"qde2xq"},
+  {"i":"4q392i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[녹음방법의 상당성]</span> 통상적인 방법으로 출입하였는지, 녹음 내용이 대화·사생활의 비밀과 자유 등에 대한 보호가 합리적으로 기대되는 영역에 속하는지 등을 종합 고려","k":"1ohlriw"},
+  {"i":"12t3fk8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[대화 당사자인 사법경찰관이 제보를 받고 성매매업소에 통상적 방법으로 들어가 피고인·종업원과의 대화 내용을 녹음한 경우]</span> ① 통비법§3①의 타인 간의 대화 녹음에 해당 X ② 성매매알선 범행 시점에 증거보전을 위해 녹음, 대화·사생활 비밀 보호가 합리적으로 기대되는 영역이라 보기 어려움 → <span class=\"cs-red\"><strong>영장 없이 이루어졌더라도 위법 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변25, 모기25】</span>","k":"f4m3s0"},
+  {"i":"105xprq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>'사인'의 동의 없는 현장녹음</strong></span>","k":"1hg02dq"},
+  {"i":"14slgqg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[사인의 위수증]</span> 통비법에 위반되지 않는 경우에도 <span class=\"cs-red\"><strong>'사인의 위수증' 논점 검토</strong></span>","k":"fhfmg"},
+  {"i":"ft1vmd","o":"<div class=\"cs-h\">","h":"Ⅲ. 녹음내용의 전문법칙의 적용여부","k":"eqj1yt"},
+  {"i":"bj6yhb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>현장녹음</strong></span><span class=\"cs-exam\">【변사21·13·12, 모사18】</span>","k":"yrdtj3"},
+  {"i":"dnflaa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① <span class=\"cs-red\"><strong>비진술증거설</strong></span>(전문법칙 적용 X, 요증사실 관련성만 인정되면 증거능력) ② <span class=\"cs-green\"><strong>진술증거설</strong></span>(전문법칙 적용, 수사기관 §312⑥·사인 §313① 각 적용) ③ <span class=\"cs-green\"><strong>검증조서유추적용설</strong></span>(수사기관·사인 모두 §312⑥ 유추적용)","k":"k5br86"},
+  {"i":"kjvxh4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: <span class=\"cs-u\">현장녹음이라고 하여 일률적으로 인정·부정할 것이 아니라</span> <span class=\"cs-red\"><strong>녹음 내용의 진실성이 요증사실인 경우 전문법칙을 적용하고, 진술의 존재 자체가 증거로 되는 경우에는 전문법칙이 적용되지 않음</strong></span>(대부분의 현장녹음이 이에 해당)","k":"c0bpa1"},
+  {"i":"1yalh24","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>진술자의 상태확인</strong></span>","k":"it6l7d"},
+  {"i":"1ays5fc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[녹음테이프에 대한 검증의 내용이 그 진술 당시 진술자의 상태 등을 확인하기 위한 것인 경우]</span> 그 검증조서는 <span class=\"cs-red\"><strong>§311에 의하여 당연히 증거로 할 수 있음</strong></span>(술에 취하여 횡설수설, 진술 부분은 전문법칙 적용 X)<span class=\"cs-exam\">【변18】</span>","k":"1pq4cl1"},
+  {"i":"1mjfgx6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>진술의 존재가 증명대상인 경우</strong></span>","k":"1laglvx"},
+  {"i":"1xb8iov","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>진술을 녹음한 녹음파일은 실질에 있어서 진술서와 크게 다를 바 없어, 진술 내용의 진실성이 증명 대상이 되는 때에는 전문법칙 적용, 진술이 존재하는 것 자체가 증명 대상인 경우에는 전문법칙 적용 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"n4adxo"},
+  {"i":"yu60cf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>사인의 진술녹음 – 진술 내용의 '진실성'이 증명 대상</strong></span>","k":"1wcg646"},
+  {"i":"1yv6zm7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"가. 진술녹음","k":"134bowq"},
+  {"i":"z7l99d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"진술녹음은 녹음된 사람의 <span class=\"cs-red\"><strong>진술 내용의 '진실성'이 증명 대상</strong></span>이 되는 경우 → 판례는 녹음파일을 <span class=\"cs-red\"><strong>'진술서'나 '진술기재서'로 취급하여 §313① 적용</strong></span>","k":"x1ebt"},
+  {"i":"15852v7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[피고인이 피해자의 병실에서 피해자의 모 甲과 대화하던 중 이웃 乙이 있는 자리에서 허위사실을 적시하여 명예를 훼손한 사안에서, 甲이 乙과 나눈 대화를 녹음한 녹음테이프]</span> 원진술자인 甲·乙의 진술에 의하여 자신들이 진술한 대로 기재된 것이라는 점이 인정되지 아니하여 <span class=\"cs-green\"><strong>§313① 진정성립 요건이 갖추어지지 않아 증거능력 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span> — (녹음자 甲의 진술부분은 진술서, 乙의 진술부분은 진술기재서로 취급)<span class=\"cs-exam\">【변15】</span>","k":"hrdamy"},
+  {"i":"ozvkuj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[서명·날인 불요]</span> 녹음파일은 성질상 서명·날인이 적합하지 않으므로 <span class=\"cs-red\"><strong>녹음자·진술자의 진술에 의해 '음성임'이 인정되고 녹음의 정확성이 증명되면 서명·날인이 없어도 됨</strong></span>","k":"1yj3ac2"},
+  {"i":"16e0782","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"나. '녹음자' 진술부분 (진술서 취급)","k":"dcyaa6"},
+  {"i":"1wc08o1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[실질적 진정성립]</span> ① 녹음된 음성이 원진술자의 것임(형식적 진정성립) ② 진술한 그대로 녹음된 것임(실질적 진정성립, 녹음의 정확성)이 원진술자의 진술에 의하여 증명되면 됨","k":"1qptl6r"},
+  {"i":"10d7s5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[피고인 아닌 자가 녹음자]</span> ① 작성자(녹음자)가 진정성립을 인정하거나<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§313① 본문)</strong></span></span> ② 부인하는 경우에도 객관적 방법에 의하여 진정성립이 증명되고 반대신문의 기회가 보장되면 증거능력<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§313②)</strong></span></span>","k":"zh0pnq"},
+  {"i":"ihpbdi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[피고인이 녹음자]</span> ① 피고인이 진정성립을 인정하거나<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§313① 본문)</strong></span></span> 부인하는 경우에도 객관적 방법으로 진정성립이 증명되면 증거능력<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§313② 본문)</strong></span></span> ② 판례는 <span class=\"cs-red\"><strong>특신상태를 요건</strong></span>으로 함","k":"bl3423"},
+  {"i":"1fmpfwu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"다. '녹음상대방' 진술부분 (진술기재서 취급)","k":"iwe2om"},
+  {"i":"14kcsnz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[피고인 아닌 자]</span> 녹음 상대방이 피고인이 아닌 경우 진술기재서로 취급 → §313① 본문에 따라 <span class=\"cs-red\"><strong>원진술자인 상대방의 진술에 의하여 자신이 진술한 대로 녹음된 것이라는 점이 인정</strong></span>되어야<span class=\"cs-exam\">【변15】</span>","k":"jah1fg"},
+  {"i":"1t99h7r","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[피고인(완화요건설)]</span> 상대방이 피고인인 경우 피고인의 진술을 기재한 서류 → ① 피고인이 진정성립을 인정하거나<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§313① 본문)</strong></span></span> 부인하는 경우에도 <span class=\"cs-red\"><strong>작성자(녹음자)가 진정성립을 인정하고 피고인 진술의 특신상태가 인정되면 증거능력</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§313① 단서)</strong></span></span><span class=\"cs-exam\">【변17, 변사26, 모사16 기록 빈출】</span>","k":"rwalj9"},
+  {"i":"16gdvop","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"라. 진술녹음에 대한 검증","k":"1cn8div"},
+  {"i":"9rk11n","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[녹취서만 증거로 제출 — 원본 녹음테이프 등을 제출하지 않아 §313①의 진정성립 요건이 갖추어지지 않은 경우]</span> 그 녹취록의 기재는 <span class=\"cs-green\"><strong>증거능력 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"t22ns3"},
+  {"i":"1e521z6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[녹취서 기재내용과 녹음내용의 동일성에 관하여 법원이 검증을 실시한 경우]</span> 증거자료가 되는 것은 <span class=\"cs-red\"><strong>녹음테이프에 녹음된 대화내용 그 자체</strong></span>이고, 그 중 피고인의 진술내용은 실질적으로 §313① 단서(완화요건설)에 따라 <span class=\"cs-red\"><strong>'작성자'인 피해자의 진술에 의하여 피고인이 진술한 대로 녹음된 것임이 증명되고 특신상태가 인정</strong></span>되어야<span class=\"cs-exam\">【변19·16·14】</span>","k":"1uzbzrr"},
+  {"i":"1ql249a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"녹음파일과 녹취서가 함께 제출된 경우 <span class=\"cs-red\"><strong>녹취서는 녹음파일의 증거능력에 의함</strong></span>","k":"1udfuyh"}
+ ]}
+]}

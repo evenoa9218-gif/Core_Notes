@@ -1,0 +1,15 @@
+{"id":"민소012","t":"모든 소에 공통적인 권리보호이익","cat":"mp_3","lv":1,"tg":["★"],"b":[
+ {"i":"qbf98u","o":"<div class=\"cs-h\">","h":"Ⅰ. 청구가 소구할 수 있는 구체적인 권리·법률관계일 것","k":"1t3246u"},
+ {"i":"co3lr8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"소로써 구할 수 없는 청구는 권리보호자격<span class=\"cs-x\"><strong>(X)</strong></span>, 단순한 사실관계의 존부 다툼도 권리보호자격<span class=\"cs-x\"><strong>(X)</strong></span>","k":"13a73sm"},
+ {"i":"j82f1f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-neg-tag\"><strong>[토지대장에 진실한 소유권자 아닌 자 명의가 등재된 경우]</strong></span> 대장상 명의말소청구는 소의 이익 없음<span class=\"cs-x\"><strong>(X)</strong></span> → 토지대장은 사실관계를 공시하는 장부에 불과, 부동산등기부와 달리 권리관계를 공시하지 않으므로 사실 존부의 다툼에 불과","k":"mblk9l"},
+ {"i":"rrtdd7","o":"<div class=\"cs-h\">","h":"Ⅱ. 법률상·계약상 소제기 금지사유가 없을 것(★)","k":"12cuak0"},
+ {"i":"3ms7ti","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"(법률상 금지사유) 중복소제기금지(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§259</strong></span></span>), 재소금지(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§267②</strong></span></span>) 등","k":"19yalz5"},
+ {"i":"16yppfv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"(계약상 금지사유) 부제소특약 위반 제소, 소취하합의 위반 제소, 부제소합의 있는 채권을 피보전권리로 한 사해행위취소청구 등","k":"qobcpp"},
+ {"i":"zpcq7e","o":"<div class=\"cs-h\">","h":"Ⅲ. 제소장애사유가 없을 것(★) - 특별구제절차가 없을 것","k":"1ee6yb8"},
+ {"i":"wctnx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"법률이 소가 아닌 간이·경제적인 특별구제절차를 마련해 둔 경우에 소를 제기하면 권리보호자격<span class=\"cs-x\"><strong>(X)</strong></span>","k":"14e2cq7"},
+ {"i":"5hbiir","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"예: <span class=\"cs-fact-tag\"><strong>[비송사건절차법에 의할 것을 통상의 소로 제기한 임시이사선임취소의 소]</strong></span>, <span class=\"cs-fact-tag\"><strong>[등기관 직권말소사항인 부기등기의 말소등기의 소]</strong></span>, <span class=\"cs-fact-tag\"><strong>[상소로 다투지 않고 확정시켜 놓고 별도 소제기하는 것]</strong></span> 등","k":"1bqnd95"},
+ {"i":"eto481","o":"<div class=\"cs-h\">","h":"Ⅳ. 원고가 동일청구에 대해 승소확정의 판결을 받은 경우가 아닐 것","k":"13wdocw"},
+ {"i":"mnmoll","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"모순금지설 입장: ① 승소확정판결을 받은 자가 동일한 소를 제기하면 권리보호이익 없어 소송요건으로 소각하<span class=\"cs-o\"><strong>(O)</strong></span> ↔ ② 패소확정판결을 받은 자가 동일한 소를 제기하면 전소와 모순된 판단을 할 수 없다고 보아 소송요건이 아니라 청구기각판결<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1w5accr"},
+ {"i":"y5n4at","o":"<div class=\"cs-h\">","h":"Ⅴ. 신의칙 위반의 제소가 아닐 것","k":"b6f40d"},
+ {"i":"rahjhj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"신의성실의 원칙에 위반한 소제기는 권리보호자격<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1yq4ilt"}
+]}

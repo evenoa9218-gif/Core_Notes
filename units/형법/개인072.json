@@ -1,0 +1,17 @@
+{"id":"개인072","t":"장물의 처분","cat":"gak_기타재산","lv":1,"tg":["변사25","변사19","변사18","변사13","모사25","모사16","모기21","모기19","모기18"],"b":[
+ {"i":"i45ulg","o":"<div class=\"cs-h\">","h":"Ⅰ. 본범이 처분하는 경우","k":"179q8r2"},
+ {"i":"1w42sli","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"判例(죄수관계): 영득죄로 취득한 장물 '처분'은 재산죄 수반 '불가벌적 사후행위' → 다른 죄 불구성","k":"118ab52"},
+ {"i":"5jw1y","o":"<div class=\"cs-h\">","h":"Ⅱ. 장물범이 처분하는 경우","k":"1101xe6"},
+ {"i":"pdkuaz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"判例(죄수관계):","k":"1qecrhl"},
+ {"i":"1uxkpwx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[장물보관 후 처분]</span> 절도범으로부터 장물보관 의뢰받아 정 알면서 보관하다 임의 처분해도, 장물보관죄 성립하는 때엔 이미 소유물 추구권 침해 → 이후 횡령은 불가벌적 사후행위 → 횡령죄<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변24】[변사25·18·13, 모사25·16]</span>","k":"osqh6f"},
+ {"i":"kqx0h7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[업무상과실보관 후 처분]</span> '업무상과실'로 보관하다 처분 → <span class=\"cs-blue\">업무상과실장물보관죄</span> 가벌적 평가에 포함 → 별도 횡령죄<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변23】</span>","k":"1gzohf7"},
+ {"i":"1afhv0k","o":"<div class=\"cs-h\">","h":"Ⅲ. '제3자'에 대한 사기 (매도·담보제공 등)","k":"ofw78o"},
+ {"i":"1ivxcz3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"判例(죄수관계):","k":"1qecrhl"},
+ {"i":"72kmp0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"절도범이 절취 장물을 자기 것인양 제3자 기망해 금원 편취 → 소비·손괴와 달리 제3자 관계에서 새 법익침해 → 절도죄 외 사기죄<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변사19】</span>","k":"gainjf"},
+ {"i":"15hfkg1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"절도·강도·공갈로 취득한 예금통장으로 은행원 기망·명의인이 찾는 것으로 오신케 해 예금 편취 → 사기죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"3xa89r"},
+ {"i":"dvbot4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"절취한 전당표를 전당포 교부하며 전당물 편취 → 새 법익침해 → 사기죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"10frw1q"},
+ {"i":"1r2pzd2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"횡령자가 유효 권리 있는 것처럼 기망해 횡령물 처분 → 제3자에 대한 사기죄<span class=\"cs-x\"><strong>(X)</strong></span> (반대견해 有) <span class=\"cs-gbg\">[도품유실물특칙 적용X]</span>","k":"1xpzr4l"},
+ {"i":"g5twbv","o":"<div class=\"cs-h\">","h":"Ⅳ. 금융기관 발행의 자기앞수표","k":"17yy3ki"},
+ {"i":"13gfa8s","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"判例(죄수관계): ①금융기관 발행 자기앞수표는 즉시 지급받아 현금 대신 기능 → 절취 자기앞수표를 현금 대신 교부는 절도 가벌적 평가에 포함 → 절취 자기앞수표를 음식대금 교부·거스름돈 환불받아도 절도의 불가벌적 사후처분행위, 사기죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1vdh4qh"},
+ {"i":"1k5hh5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"②'장물인 자기앞수표 취득' 후 현금 대신 교부도 장물취득 가벌적 평가에 포함되는 불가벌적 사후행위 → 별도 사기죄<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변21·16】【모기21·19·18】</span>","k":"1t4w2k"}
+]}

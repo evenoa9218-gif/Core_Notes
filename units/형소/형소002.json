@@ -1,0 +1,69 @@
+{"id":"형소002","t":"'관련사건' 병합심리","cat":"pro_01","lv":1,"tg":["C급","下"],"b":[
+ {"i":"3kzitl","o":"<details class=\"cs-case\">","b":[
+  {"i":"1m2qqkv","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(1)] 관할의 적법 여부와 병합심리 절차</strong></span>","k":"18tdyin"},
+  {"i":"xvpedb","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"ww1ldh","o":"<div class=\"cs-fact\">","b":[
+    {"i":"xlpa31","o":"<div class=\"cs-callout\">","b":[
+     {"i":"18vrjyk","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲이 대전에서 주먹으로 A의 눈을 때려 A가 실명하였다(①사건). 甲은 다시 대전에서 야간에 乙의 집 도어락을 부수고 들어가 귀금속을 훔쳤다(②사건). ①사건은 대전지방법원 합의부에서 재판 중이고, ②사건은 같은 법원 단독판사가 재판 중이다. (1) ①·② 각 사건은 관할이 적법한가? (2) ①·② 사건을 병합심리하기 위한 절차는? (10점)","k":"tdmmcp"}
+    ]}
+   ]},
+   {"i":"1fxj5le","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1lxdtcb","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"6xiqcd","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [관할의 적법 여부]</strong>","k":"1jeogkz"},
+    {"i":"18wa820","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 중상해는 합의부 관할, 특수절도는 단독판사 관할이므로 사물관할 적법","k":"4f5bg"},
+    {"i":"o6m7fv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 토지관할도 범죄지로 적법<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§4①)</strong></span></span>","k":"15s9ey"},
+    {"i":"1l2x283","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [병합심리 절차]</strong>","k":"179xtqg"},
+    {"i":"10663sb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 사물관할이 다르므로 합의부가 결정으로 단독판사 사건을 병합하여 심리 가능<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§10)</strong></span></span> → 결정등본을 단독판사에게 송부","k":"pe9n0s"},
+    {"i":"1xr6q4b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 단독판사는 5일 이내 소송기록·증거물을 합의부에 송부, 별도 이송결정 불요<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(규칙§4③)</strong></span></span>","k":"4bt5jz"}
+   ]}
+  ]}
+ ]},
+ {"i":"1fvs14","o":"<details class=\"cs-case\">","b":[
+  {"i":"1mab7c5","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(2)] 토지관할이 다른 관련사건의 병합심리 신청법원</strong></span>","k":"tcud3o"},
+  {"i":"9k32e6","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1k0k85w","o":"<div class=\"cs-fact\">","b":[
+    {"i":"11lo6ss","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1su409o","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲은 ① 서울중앙지방법원(단독), ② 인천지방법원 부천지원(단독)에서 각 특수절도죄로 재판을 받고 있고, 乙은 ① 서울중앙지방법원(단독), ② 수원지방법원 성남지원(단독)에서 각 특수절도죄로 재판을 받고 있다. 甲과 乙은 병합심리를 받기 위해 각 어느 법원에 신청해야 하는가? (10점) [甲과 乙은 서로 관련이 없음]","k":"9699tk"}
+    ]}
+   ]},
+   {"i":"gw5kmr","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1rz8ezu","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"8exih7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"관할구역기준설(판례)에 따라 공통되는 바로 위 상급법원에 신청","k":"qoisjx"},
+    {"i":"9w9z1q","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>[甲]</strong> 서울중앙지법·인천지법 부천지원은 소속 고등법원이 모두 서울고등법원으로 같음 → <span class=\"cs-red\"><strong>서울고등법원</strong></span>에 병합심리 신청","k":"x3n47t"},
+    {"i":"q3zk4u","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>[乙]</strong> 서울중앙지법·수원지법 성남지원은 소속 고등법원이 서울고등법원·수원고등법원으로 달라 → <span class=\"cs-red\"><strong>대법원</strong></span>에 병합심리 신청","k":"235ezc"}
+   ]}
+  ]}
+ ]},
+ {"i":"ranzqr","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1vj8eb3","o":"<div class=\"cs-h\">","h":"Ⅰ. 사물관할이 다른 경우(토지관할 무관)<span class=\"cs-exam\">【모사16】</span>","k":"ji4gkp"},
+  {"i":"15bc4xm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>합의부 병합관할</strong></span>","k":"1s30bu4"},
+  {"i":"eqirs0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>사물관할 달리하는 수개 사건 관련 → 합의부가 병합관할</strong></span>","k":"1osxsnq"},
+  {"i":"1ntepkl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"단, 결정으로 관할권 있는 단독판사에 <span class=\"cs-green\"><strong>이송 가능</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§9)</strong></span></span>","k":"5tfhlm"},
+  {"i":"b9unqm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>병합심리 절차</strong></span>","k":"1na0m2l"},
+  {"i":"kk7gz4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"가. 합의부 결정","k":"rt3r6n"},
+  {"i":"1q1egz5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"사물관할 달리하는 수개 관련사건이 합의부·단독판사에 계속 → 합의부가 <span class=\"cs-red\"><strong>결정으로 단독판사 사건 병합심리</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§10)</strong></span></span><span class=\"cs-exam\">【변14】</span>","k":"qla8v7"},
+  {"i":"l8whhz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"토지관할 달리해도 적용<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(규칙§4①)</strong></span></span><span class=\"cs-exam\">【변22·14】</span>","k":"kfrr6h"},
+  {"i":"6dwws","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"합의부는 결정 즉시 결정등본을 단독판사에 송부<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(규칙§4③)</strong></span></span>","k":"8tlhrh"},
+  {"i":"7dvve9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"나. 단독판사의 조치","k":"12ert5e"},
+  {"i":"c2jskj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"단독판사는 결정등본 송부받은 날부터 <span class=\"cs-red\"><strong>5일 이내</strong></span> 소송기록·증거물을 합의부에 송부<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(규칙§4③)</strong></span></span> — <span class=\"cs-gbg\">[별도 이송결정]</span> <span class=\"cs-x\"><strong>(X)</strong></span>","k":"3ye05f"},
+  {"i":"1jyj81p","o":"<div class=\"cs-h\">","h":"Ⅱ. 사물관할이 동일한 경우(토지관할 다름)","k":"p7yyxn"},
+  {"i":"gszbp5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>병합관할</strong></span>","k":"93xz99"},
+  {"i":"3y76rm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>토지관할 달리하는 수개 관련사건 → 1개 사건 관할권 있는 법원이 다른 사건까지 관할</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§5)</strong></span></span>","k":"7ggyww"},
+  {"i":"1hw7sxo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[고유관할사건 및 관련사건이 반드시 병합기소·병합심리될 것]</span> 전제요건 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"1ag7oox"},
+  {"i":"tkvqfy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>병합심리 절차</strong></span>","k":"1na0m2l"},
+  {"i":"2p7dn7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"가. 검사나 피고인의 신청","k":"j6kcpa"},
+  {"i":"1hvlmoq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"토지관할 다른 수개 관련사건이 <span class=\"cs-fact-tag\">['각각 다른 법원'에 계속된 때]</span> → 공통되는 바로 위 상급법원이 <span class=\"cs-red\"><strong>검사·피고인의 신청</strong></span>에 의해 결정으로 병합심리하게 할 수 있음<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§6)</strong></span></span><span class=\"cs-exam\">【변22】</span>","k":"2zjad2"},
+  {"i":"jj45pn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-def\"><strong>'각각 다른 법원' = 사물관할은 같으나 토지관할을 달리하는 동종·동등의 법원</strong></span>","k":"oqd27a"},
+  {"i":"eazmb7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[심급은 같으나 사물관할이 다른 경우]</span> 해당 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변19】</span>","k":"1724i0j"},
+  {"i":"1pwvnry","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"나. 공통되는 바로 위의 상급법원","k":"goo7ra"},
+  {"i":"1okadt1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《'공통되는 바로 위의 상급법원'의 판단기준》</strong></span>","k":"g3vv9d"},
+  {"i":"ri1vti","o":"<div class=\"cs-theory\">","b":[
+   {"i":"19wt7wz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 심급관할기준설 ② <span class=\"cs-red\"><strong>관할구역기준설</strong></span>","k":"1dmoqsn"},
+   {"i":"srcqt0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 관할구역기준설] 종래 심급관할 기준 → 판례변경으로 현재는 각급법원 설치·관할구역에 관한 법률에 기한 관할구역 구분을 기준으로 판단</strong></span>","k":"ohtdit"},
+   {"i":"sncu8o","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: <span class=\"cs-u\">대법원의 과중한 업무·신속한 결정 필요성</span> 고려 → <span class=\"cs-red\"><strong>관할구역기준설 타당</strong></span>","k":"2yom4a"},
+   {"i":"v0xg42","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+   {"i":"j0hctn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[제1심 법원들의 소속 고등법원이 같은 경우]</span> <span class=\"cs-red\"><strong>그 고등법원</strong></span>","k":"1em0a2q"},
+   {"i":"6stwh4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[소속 고등법원이 다른 경우]</span> <span class=\"cs-green\"><strong>대법원</strong></span><span class=\"cs-exam\">【변20】</span>","k":"e2cu9h"}
+  ]}
+ ]}
+]}

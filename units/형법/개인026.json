@@ -1,0 +1,14 @@
+{"id":"개인026","t":"신용훼손죄","cat":"gak_명예주거","lv":1,"tg":["모기24"],"b":[
+ {"i":"1sau4h6","o":"<div class=\"cs-callout\">","b":[
+  {"i":"649pbi","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제313조(신용훼손)</strong></span>","k":"1lgoi2k"},
+  {"i":"nvtolg","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-u\">허위의 사실</span>을 <span class=\"cs-blue\"><strong>유포</strong></span>하거나 기타 <span class=\"cs-blue\"><strong>위계</strong></span>로써 <span class=\"cs-u\">사람의 신용</span>을 <span class=\"cs-blue\"><strong>훼손</strong></span>한 자는 <span class=\"cs-red\">5년 이하의 <strong>징역</strong></span> 또는 <span class=\"cs-red\">1천500만원 이하의 <strong>벌금</strong></span>에 처한다.","k":"189v9yv"}
+ ]},
+ {"i":"10e9d9r","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[허위사실 유포]</strong></span> <span class=\"cs-def\"><strong>'허위사실 유포'</strong></span> = <span class=\"cs-u\">진실과 부합하지 않는 과거·현재 사실 유포</span>","k":"hg0lga"},
+ {"i":"1ieaw7d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"미래 사실도 입증 가능하면 포함","k":"memflo"},
+ {"i":"1ttfw80","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[위계]</strong></span> <span class=\"cs-def\"><strong>'위계'</strong></span> = <span class=\"cs-u\">행위목적 달성 위해 상대방에게 오인·착각·부지 일으켜 이용</span>","k":"1hiswgn"},
+ {"i":"16fh514","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[신용]</strong></span> <span class=\"cs-def\"><strong>신용</strong></span> = <span class=\"cs-u\">경제적 신용(지급능력·지급의사에 대한 사회적 신뢰)</span>","k":"xia9ig"},
+ {"i":"badd9m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[추상적 위험범]</strong></span> <span class=\"cs-u\">신용을 저하시킬 '염려 있는 상태' 발생 시 성립</span>","k":"1tpyacy"},
+ {"i":"5ru6gl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[고의]</strong></span> <span class=\"cs-u\">확정적 고의</span> <span class=\"cs-green\">불요</span> → 허위사실 유포·위계 사용 및 신용 저하 염려 발생에 대한 미필적 인식으로 족","k":"3whd6c"},
+ {"i":"1azi90f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+ {"i":"kg01c1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[甲이 자기 A퀵서비스 배달내역을 B퀵서비스 명의 영수증에 기입해 불만을 B에게 떠넘김]</span> <span class=\"cs-green\"><strong>신용훼손죄<span class=\"cs-x\"><strong>(X)</strong></span></strong></span> — 불친절·지연은 지급능력·지급의사 신뢰 저해 아님 <span class=\"cs-fact-tag\">[주위적 신용훼손죄 무죄, 예비적 허위사실 유포 업무방해죄 유죄]</span><span class=\"cs-exam\">【모기24】</span>","k":"hv8ehd"}
+]}

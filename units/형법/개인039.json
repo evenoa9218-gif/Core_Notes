@@ -1,0 +1,66 @@
+{"id":"개인039","t":"강도상해·치상죄, 강도살인·치사죄","cat":"gak_절도강도","lv":1,"tg":["B급","모사24","모사23","모사16"],"b":[
+ {"i":"raxdgc","o":"<details class=\"cs-case\">","b":[
+  {"i":"13sm75e","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE]</strong></span></span> <span class=\"cs-red\">(10)</span>","k":"18il6wn"},
+  {"i":"1m8b1pm","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"oq7bkw","o":"<div class=\"cs-fact\">","b":[
+    {"i":"zduc2g","o":"<div class=\"cs-callout\">","b":[
+     {"i":"p3596h","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲, A에게 진 많은 빚을 갚을 수 없자 A를 죽여 채무를 면하기로 하고 A를 살해. 그런데 A의 처는 A가 甲에게 거액을 빌려준 사실을 잘 알아 경찰서에 관련 서류 제출.","k":"wpa3wp"},
+     {"i":"10gibxs","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲의 죄책은? (10점)","k":"4x47pd"}
+    ]}
+   ]},
+   {"i":"1asizwn","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1707kwu","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"9ewyyz","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 상속인이 채무의 존재를 아는 경우 강도살인죄(<span class=\"cs-blue\"><span class=\"cs-u\">제338조</span></span>) 성부 — 위 판례 ② A의 처가 사실을 알고 서류 제출 → 채무 면탈 의사로 채권자를 살해해도 일시적으로 채권자측 추급을 면한 것에 불과 → 재산상 이익의 지배가 채권자측에서 甲에게 이전<span class=\"cs-x\"><strong>(X)</strong></span> ③ 甲 = 강도살인죄<span class=\"cs-x\"><strong>(X)</strong></span>, <span class=\"cs-blue\"><span class=\"cs-u\">제250조</span> 제1항</span> 단순살인죄만","k":"113p8v3"}
+   ]}
+  ]}
+ ]},
+ {"i":"1yvqux1","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1nde8wx","o":"<div class=\"cs-h\">","h":"Ⅰ. 주체 – 강도","k":"1dff96p"},
+  {"i":"4kk8w9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용범위: 강도상해의 강도 = '특수강도' 포함","k":"1dg3xz7"},
+  {"i":"avhp17","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"강도상해·치상죄: 재물강취 기수·미수 불문<span class=\"cs-exam\">【변15】【모사24】</span>","k":"16wrgk5"},
+  {"i":"18cgh5m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"강도상해·살인의 강도 = '준강도죄'의 강도범인 포함<span class=\"cs-exam\">【변26】【변사25】</span>","k":"92tlf9"},
+  {"i":"zt6zd1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-blue\"><span class=\"cs-u\">§334</span>①</span> 특수강도(야간주거침입강도) 성립 시 '주거침입죄' 별도 처벌 X","k":"bpi99y"},
+  {"i":"u2dyw9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-blue\"><span class=\"cs-u\">§334</span>①</span> 특수강도에 의한 강도상해 성립 시에도 주거침입죄 별도 처벌 X","k":"1yiqrgb"},
+  {"i":"6wdo6x","o":"<div class=\"cs-h\">","h":"Ⅱ. 강도의 기회","k":"1g2sdpb"},
+  {"i":"1a0krd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"강도가 '강도의 기회'(강도 실행 중·실행 직후·범의포기 직후로서 사회통념상 범죄행위 미완료 단계)에 살인 → 강도살인<span class=\"cs-exam\">【모사24】</span>","k":"ew3ubp"},
+  {"i":"1yauw7j","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : 상해행위가 <span class=\"cs-gbg\">강도 기수 前이어야</span> 하는 것 <span class=\"cs-green\">X</span> → 강도 후에도 피해자 계속 끌고다니거나 차량에 태워 이동하는 등 심리적 저항불능 상태 미해소 상태에서 상해 시, 강취·상해 간 다소 시간·공간 간격 있어도 강도상해 성립<span class=\"cs-exam\">【변18·16】</span>","k":"lnzrad"},
+  {"i":"frfa2i","o":"<div class=\"cs-h\">","h":"Ⅲ. 강도상해·치상죄의 성립","k":"c2aes3"},
+  {"i":"sn1wgm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용범위: 강도치상죄 = 강도 피해자 아닌 제3자에게 상해 입혀도 성립","k":"kbzoto"},
+  {"i":"r96gcj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"mfcn4x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[절도미수범이 범죄흔적 인멸 목적 상해]</span> 강도상해 미수<span class=\"cs-x\"><strong>(X)</strong></span> → 강도상해죄 기수<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변26】</span>","k":"aq2qgr"},
+  {"i":"5sgpyo","o":"<div class=\"cs-h\">","h":"Ⅳ. 강도상해·살인의 공동정범","k":"vrpjc2"},
+  {"i":"1d3dqp6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>강도상해 – 강도의 공범자 중 1인이 상해를 가한 경우</strong></span>","k":"15avbem"},
+  {"i":"l0vm6o","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"lwfmno","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[합동강도 중 1인이 그 기회에 피해자 상해]</span> 나머지도 예기 못한 것으로 볼 수 없으면 강도'상해' 죄책 면할 수 X<span class=\"cs-exam\">【변17·12】</span>","k":"qubn7r"},
+  {"i":"mhthrp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[합동강도 1인이 공모대로 과도 들고 강도 착수하여 피해자 찔러 상해]</span> 대문 밖 망본 공범이 구체적 상해까지 공모 안 했어도 강도상해죄 책임 면할 수 X<span class=\"cs-exam\">【변12】</span>","k":"1fhlpvr"},
+  {"i":"19wc34q","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>강도살인 – 강도의 공범자 중 1인이 살인한 경우</strong></span>","k":"1sol4te"},
+  {"i":"1j0jq19","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용범위: 강도살인은 고의범 → 공동정범 성립엔 강도뿐 아니라 '살인'에 관한 고의의 공동 必","k":"1jxp0dl"},
+  {"i":"17guj06","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"di2y73","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[공범 1인이 강도 기회에 피해자 살해]</span> 다른 공모자가 살인 공모 안 했어도, 살해·치사 결과 '예견' 불가한 경우 아니면 강도'치사' 죄책 면할 수 X<span class=\"cs-exam\">【변16·14】</span>","k":"drw3oo"},
+  {"i":"11xbz2h","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[합동강도 중 1인이 살해]</span> ①그 범인=강도살인 기수·미수 ②다른 공범자도 살해 고의의 공동 있었으면 강도살인 기수·미수 ③고의 공동 없으면: 사망 시 강도치사 / 강도살인 미수·상해만이면 강도상해·치상 / 무상해면 강도죄만 (단 예견가능성은 있어야)","k":"z1q6y5"},
+  {"i":"fofsv3","o":"<div class=\"cs-h\">","h":"Ⅴ. 채무면탈 목적 강도살인죄의 성립여부<span class=\"cs-exam\">【모사23·16】</span>","k":"1fwqbjy"},
+  {"i":"e11iqi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>상속인에게 채권의 존재를 확인할 방법이 '있는' 경우</strong></span>","k":"12m92fh"},
+  {"i":"14tr4vk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例) : 강도살인 성립엔 강도죄 성립(불법영득·이득의사) 요","k":"17dcqnv"},
+  {"i":"mfjrxo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"'재산상 이익 취득'은 재산상 이익이 사실상 피해자에 불이익하게 범인·제3자 앞으로 이전되었다 볼 상태 必","k":"relxfm"},
+  {"i":"v8kf4h","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"i31o5k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-gbg\">[채무 명백+상속인 존재+상속인이 채권 확인방법 확보]</span> 강도살인<span class=\"cs-x\"><strong>(X)</strong></span> — 채무면탈 목적 채권자 살해해도 일시적 추급 면함에 불과 → 재산상 이익 지배 이전 X","k":"18zjggt"},
+  {"i":"19z9xma","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-neg-tag\">[재물]</span> 불법영득의사가 살해 후 상당시간 지나 생김(살인 완료 후) → 별도 범의의 재물취거를 앞선 살인과 합쳐 강도살인으로 처단<span class=\"cs-x\"><strong>(X)</strong></span>","k":"xc4tdj"},
+  {"i":"gll3c8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:48px\">","h":"<span class=\"cs-fact-tag\">[처가 대여금 채권 알아 채무면탈 강도살인 불성립 → 이후 범의로 '재물' 가져간 것도 강도살인 X (사자 점유 계속되면 절도죄)]</span><span class=\"cs-exam\">【모사23】</span>","k":"db3dw2"},
+  {"i":"8gkmsw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>상속인에게 채권의 존재를 확인할 방법이 '없는' 경우</strong></span>","k":"1sgyj43"},
+  {"i":"cfk25x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"1t918ac","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[술값 채권 알려지지 않아 상속인이 채권 행사 가능성 X 상황에서 채무면탈 목적 살해]</span> 재산상 이익 취득 목적 살해 = 강도살인<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1eezo0h"},
+  {"i":"ahu4ib","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[채무면탈 목적 채권자 살해 후 반항능력 상실 이용 '즉석에서' 소지 재물까지 탈취]</span> 살인 이용 재물탈취 → 강도살인","k":"gtognk"},
+  {"i":"ipy06q","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:48px\">","h":"<span class=\"cs-fact-tag\">[술값·택시비 면탈 살해는 상속인이 통상 채권 몰라 채무면탈 강도살인 성립 → 직후 재물취거도 포괄 강도살인(별도 절도 X)]</span>","k":"1l0wbct"},
+  {"i":"1mcwdp","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"◎ 성폭법위반<span class=\"cs-fact-tag\">[특수강도(강간·유사강간·강제추행·준강간·준유사강간·준강제추행)]</span> 정리표","k":"wwrgzf"},
+  {"i":"tmz5da","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"강도강간 (형법 <span class=\"cs-blue\"><span class=\"cs-u\">§339</span></span>)","k":"qu6igq"},
+  {"i":"y9wm9c","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"신분('결합범'): 강도강간","k":"zggaif"},
+  {"i":"1novdad","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"행위: 강도","k":"8i9mqr"},
+  {"i":"z5atgn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"착수/미수·기수: 강간","k":"gh41bj"},
+  {"i":"atvube","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"형량: 무기 또는 10년 이상의 징역","k":"unvgb7"},
+  {"i":"16fwu61","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"특수강도강간 '등' (성폭법 <span class=\"cs-blue\"><span class=\"cs-u\">§4</span>②</span>)","k":"14jht73"},
+  {"i":"1cy58sg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"신분('결합범'): 특수강도O(미수O), 특수강도의 준강도X","k":"nivrl7"},
+  {"i":"1dlt17y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"행위: 특수강도","k":"timyhu"},
+  {"i":"1ti282a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"착수/미수·기수: 강간(준강간)·유사강간(준유사강간)·강제추행(준강제추행)","k":"1nquwrj"},
+  {"i":"1s0nfow","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"형량: 사형, 무기징역 또는 10년 이상의 징역","k":"155dk4e"}
+ ]}
+]}

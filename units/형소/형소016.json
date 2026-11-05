@@ -1,0 +1,37 @@
+{"id":"형소016","t":"변호인선임서의 보정적 추완","cat":"pro_02","lv":1,"tg":["中","변사21","모사23·15"],"b":[
+ {"i":"119qw6k","o":"<details class=\"cs-case\">","b":[
+  {"i":"15sfgz1","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 변호인선임서 없이 항소이유서만 제출·기간 경과 후 선임서 제출</strong></span> <span class=\"cs-exam\">【변사21】</span>","k":"ohqj3c"},
+  {"i":"olawpm","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1ow1pn4","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1c69hd4","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1i765nc","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"제1심이 甲의 특수강도미수죄 유죄선고 → 항소심 변호인 R이 변호인선임서 없이 항소이유서만 제출 → 항소이유서 제출기간 경과 후 변호인선임서 제출. R의 항소이유서는 효력이 있는가? (15점)","k":"eat2hk"}
+    ]}
+   ]},
+   {"i":"xb4vsn","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"x8fuwe","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1oixh53","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [변호인선임서 없는 소송행위의 효력]</strong>","k":"jmkor0"},
+    {"i":"1rvr38o","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§32</strong></span></span>.","k":"z8pn8t"},
+    {"i":"66faq7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 항소심 선임 R은 변호인선임서 제출해야","k":"1gtholr"},
+    {"i":"yos329","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 선임서 없이 항소이유서만 제출 → 항소이유서 효력 X","k":"1g3j77q"},
+    {"i":"12h5ozi","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [변호인선임의 보정적 추완 허용여부]</strong>","k":"1hiuvo1"},
+    {"i":"ytbfs8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 긍정설, 부정설, 절충설","k":"1q960wd"},
+    {"i":"mbg32i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 판례: 제출기간 경과 후 선임서 제출시 효력 X","k":"1suidny"},
+    {"i":"ckp2ht","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 형식적 확실성 + 피고인 이익 고려 → 절충설 타당","k":"ndf4fe"},
+    {"i":"yvkb2u","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"④ ∴긍정설 제외(부정설·절충설·판례) → R이 기간 경과 후 선임서 제출 → 항소이유서 효력 X","k":"t4iol8"}
+   ]}
+  ]}
+ ]},
+ {"i":"o2rbat","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1naairc","o":"<div class=\"cs-h\">","h":"Ⅰ. 변호인선임서 제출 없이 한 소송행위의 효력","k":"124o"},
+  {"i":"xs0aqo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"변호인 선임은 <span class=\"cs-u\">심급마다 변호인과 연명날인한 서면</span>으로 제출<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§32)</strong></span></span>","k":"16zzai2"},
+  {"i":"1hjgu8u","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>변호인선임신고서를 제출하지 않은 변호인이 상고이유서·재항고장·정식재판청구서를 제출한 경우 → 법률상의 방식에 위배되어 효력 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"exvpvc"},
+  {"i":"4uhww7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"선임신고서는 <span class=\"cs-red\"><strong>원본</strong></span>을 의미 — <span class=\"cs-gbg\">[사본]</span> 해당 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"un6rpz"},
+  {"i":"u7l5g2","o":"<div class=\"cs-h\">","h":"Ⅱ. 변호인선임의 보정적 추완","k":"h9ujk6"},
+  {"i":"1s761ga","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《변호인이 선임신고서 없이 상고이유서 등을 제출한 후 비로소 선임신고서를 제출한 경우 보정적 추완을 인정할 수 있는지 여부》</strong></span>","k":"1oajwha"},
+  {"i":"1oo85hi","o":"<div class=\"cs-theory\">","b":[
+   {"i":"cfa3og","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 긍정설(피고인 이익 보호) ② 부정설(선임의 소송법적 중요성) ③ <span class=\"cs-red\"><strong>절충설</strong></span>(상소이유서 등 제출기한 내 선임서가 제출된 경우에만 인정)","k":"pcrxg"},
+   {"i":"ddwq1q","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 부정설 또는 절충설] 제출기간 경과 후 선임서를 제출한 경우 효력 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변15】</span>","k":"3i8yfd"},
+   {"i":"1iu2n3i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: 절차의 형식적 확실성을 강조하면서도 피고인의 이익을 고려 → <span class=\"cs-red\"><strong>절충설 타당</strong></span>","k":"1r99kx4"}
+  ]}
+ ]}
+]}

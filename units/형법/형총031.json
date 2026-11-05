@@ -1,0 +1,86 @@
+{"id":"형총031","t":"위법성조각사유의 전제사실 착오 (오상방위 등)","cat":"chong_04","lv":1,"tg":[],"b":[
+ {"i":"1rggue0","o":"<details class=\"cs-case\">","b":[
+  {"i":"1dlmj9e","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 약혼녀 수표 취거 — 양해/승낙 오인</strong></span> <span class=\"cs-exam\">【변사23】 </span><span class=\"cs-red\">(15)</span>","k":"1tnmyn5"},
+  {"i":"nn1ta","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"5xud44","o":"<div class=\"cs-fact\">","b":[
+    {"i":"mkb9y4","o":"<div class=\"cs-callout\">","b":[
+     {"i":"lh3hzy","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"창업자금 필요하던 甲, 약혼녀 C의 지갑서 액면 3천만원 수표 꺼내 감. C는 그 자리서 甲 행위 봤으나 딴생각하느라 별 행동 X. 甲은 C가 동의한 것으로 오인. 동의를 ①'양해'로 보는 견해 ②'승낙'으로 보는 견해로 나눠 甲 죄책 각각 논하라. (15점)","k":"wd5dd6"}
+    ]}
+   ]},
+   {"i":"19ekfcz","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"p2rh22","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"19r4xyh","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-exam\">【변사23】</span>","k":"1rqnrux"},
+    {"i":"1vypq5q","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [양해로 보는 견해]</strong>","k":"xd44xe"},
+    {"i":"1j872qb","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"①판례도 절도죄 피해자 동의를 구성요건 조각하는 양해로 봄","k":"1iehmzl"},
+    {"i":"1tob4u7","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"②절도죄는 피해자 의사에 반하는 경우만 구성요건 충족 → 甲이 C 동의 있다 오인한 행위 = 객관적 구성요건 불인식 → 절도죄 고의 조각(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제13조</strong></span></span>)","k":"1ber8dq"},
+    {"i":"1jdzhft","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③甲 = 절도죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제329조</strong></span></span>) 불성립 (과실범 처벌규정 X)","k":"6ytzdl"},
+    {"i":"1qwl6ch","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [피해자의 승낙으로 보는 견해]</strong> (가) [<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제24조</strong></span></span>의 법적 효과]","k":"cmxxb1"},
+    {"i":"itgizb","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"①통설·판례 = <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제24조</strong></span></span> 피해자의 승낙을 위법성조각사유로 봄","k":"1anwpad"},
+    {"i":"1wgdcuo","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"②실제로 승낙 부존재 → 승낙으로 위법성 조각 X (나) [위전착의 법적 효과] (A) [학설 및 판례]","k":"25gadl"},
+    {"i":"12569c9","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"①甲은 C 승낙 없었음에도 있다고 오인 → 위전착 존재","k":"1qys0q9"},
+    {"i":"umk8ay","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"②소극적 구성요건요소이론·유추적용제한책임설·법효과제한책임설·엄격책임설, 판례 = 착오에 정당한 이유 있으면 위법성 조각","k":"1li2e4q"},
+    {"i":"5u0wk","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③고의로 불법 실현했으나 책임비난 실질은 부주의 → 법효과제한책임설 타당 (B) [사안의 검토]","k":"1i57m8l"},
+    {"i":"1fs6nq7","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"①소극적 구성요건요소이론·유추적용제한책임설 → 甲 불법고의 조각·무죄","k":"1onbksd"},
+    {"i":"icha56","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"②법효과제한책임설 → 고의책임 조각·무죄(절도 과실범 처벌규정 X)","k":"1t9mibd"},
+    {"i":"9ccv2f","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③甲은 약혼녀에 불과한 C 지갑서 3천만원 '거액' 수표 꺼내며 딴생각하던 C 의사 미확인·'성급'히 오인 → 정당한 이유 X (C가 별 행동 안 해 정당한 사유 있다는 해설도 有) → 엄격책임설 → 책임 조각 X·절도죄 성립","k":"lsh7qb"},
+    {"i":"13jv6fp","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"④판례 → 정당한 이유 X → 위법성 조각 X·절도죄 성립","k":"m0blm8"}
+   ]}
+  ]}
+ ]},
+ {"i":"3vjsmx","o":"<details class=\"cs-case\">","b":[
+  {"i":"118xao3","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 버스 휴대폰·성폭행 오해 폭행</strong></span> <span class=\"cs-exam\">【변사18】 </span><span class=\"cs-red\">(10)</span>","k":"1innfl"},
+  {"i":"165fgun","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"15sgepx","o":"<div class=\"cs-fact\">","b":[
+    {"i":"16obt6l","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1ue48mc","o":"<div class=\"cs-li cs-issue\" style=\"margin-left:0px\">","h":"(1) A(여26), 버스서 졸다 휴대폰 좌석에 둔 채 하차. 옆좌석 甲(남30)이 발견해 전해주려 A 따라 하차·부르나 대답 없자 뒤에서 A 어깨 잡음. A 기다리던 남친 乙이 그 장면 보고 甲을 성폭행범으로 오해, A 구하려 甲 밀어 넘어뜨림. 乙 죄책? (10점) (2) 乙과 함께 있던 친구 丙이, 甲의 접근 목적·사정 알면서도 평소 못마땅해 甲 혼내주려 乙에게 \"甲이 A 성폭행하려 한다\" 말하며 폭행 부추김, 이에 乙이 甲 행동 오해해 甲 밀어 넘어뜨린 경우 丙 죄책? (10점)","k":"v1nur9"}
+    ]}
+   ]},
+   {"i":"pmegbm","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"10wtfnf","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1n5f6zk","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-exam\">【변사18】</span>","k":"1rqnx5t"},
+    {"i":"ts7xeq","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [설문 (1)]</strong>","k":"10cydlr"},
+    {"i":"jbh2m4","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"①폭행죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제260조</strong></span></span>①) 객관적 구성요건 해당하나 '위전착'이라 법적효과 문제. 소극적 구성요건요소이론·유추적용제한책임설 → 불법고의 조각, 법효과제한책임설 → 고의불법 인정·책임고의 조각, 각각 폭행죄 불성립·폭행 과실범 처벌규정 X → 무죄","k":"1f7q3e3"},
+    {"i":"1rteymv","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"②甲이 A 어깨 잡은 상황이라 오인에 정당한 이유 有 → 엄격책임설 → '책임' 조각·폭행죄 불성립, 판례도 정당한 이유 有 '위법성' 조각·폭행죄 불성립","k":"kkvjur"},
+    {"i":"140pk12","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③乙 = 어느 견해에 의하더라도 무죄","k":"euuipf"},
+    {"i":"iju7qe","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [설문 (2)]</strong>","k":"3rkqlb"},
+    {"i":"4wcd9v","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"①위전착 도구 이용자의 죄책 문제. 丙이 \"甲이 A 성폭행하려 한다\" 부추겨 乙 오인에 정당한 이유 더욱 인정","k":"1a8imtg"},
+    {"i":"1lg5et","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"②소극적 구성요건요소이론·유추적용제한책임설·법효과제한책임설·엄격책임설·판례 모두 丙의 우월적 의사지배 인정 → 丙 = 폭행죄 간접정범(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제34조</strong></span></span>①)","k":"y6q6gp"}
+   ]}
+  ]}
+ ]},
+ {"i":"jyzwsi","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1a6gtho","o":"<div class=\"cs-h\">","h":"Ⅰ. 위법성조각사유의 전제사실의 착오","k":"at0zzf"},
+  {"i":"1yi7t9j","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[오상방위 등]</span> 정당방위·긴급피난·자구행위·정당행위 상황 부존재인데도 그 객관적 정당화상황 존재한다 오인한 경우","k":"1r6sax0"},
+  {"i":"j8whiz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[오상승낙 유형]</span> 피해자의 승낙(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제24조</strong></span></span>) 없는데도 있다고 오인한 경우","k":"1skw65b"},
+  {"i":"1d27p11","o":"<div class=\"cs-h\">","h":"Ⅱ. 위전착에 빠진 자의 죄책 [변사23·18·16, 모사25 등 빈출]","k":"4lmscx"},
+  {"i":"e00qxi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[문제소재]</span> 객관적 정당화상황 부존재인데도 존재한다 오인·행위한 위전착의 법적 효과 문제","k":"cwya4w"},
+  {"i":"w19c82","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[소극적 구성요건요소이론]</span> ①위법성조각사유 = 소극적 구성요건요소 → 위전착 = 불법고의 조각","k":"1g3ojgl"},
+  {"i":"1cdq6u","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[유추적용제한책임설]</span> ②구성요건적 착오(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제13조</strong></span></span>) 유추적용 → 불법고의 조각(구성요건착오유추적용설)","k":"1wbr1jq"},
+  {"i":"ve680e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[법효과제한책임설]</span> ③구성요건적 고의는 있으나 법배반적 심정반가치인 책임고의 탈락 → 고의범 처벌 X·책임단계서 법효과만 제한해 과실범 처벌(처벌규정 없으면 불가벌)","k":"1qba2yz"},
+  {"i":"uaniiw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[엄격책임설]</span> ④법률의 착오로 보아 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제16조</strong></span></span> 적용<span class=\"cs-exam\">【변25·17·14·12】</span>","k":"xezqk6"},
+  {"i":"13qmezo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[판례 독자적 입장]</span> 착오에 '정당한 이유' 있으면 '위법성' 조각","k":"1a9hghb"},
+  {"i":"xf8l9a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[검토 법효과설]</span> 고의로 불법 실현했으나 책임비난 실질은 부주의 → 법효과제한책임설 타당","k":"1mwych9"},
+  {"i":"o5rn49","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[오상정당행위]</span> 중대장 지시로 관사 지키던 중 중대장 처가 1.5km 지점까지 우산 들고 마중 나오라 연락, 당번병으로 당연히 할 일로 생각해 나가 마중·귀가 = 임무범위 내 속하는 일로 오인·정당한 이유 有 → 위법성 없음","k":"nrzsfv"},
+  {"i":"5jcyw4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[오상정당방위 사실관계]</span> [피고인은 복싱클럽 코치로 관장·회원 피해자(17세) 몸싸움 지켜보던 중 피해자가 왼손 주머니서 휴대용 녹음기 꺼내 움켜쥐자 호신용 작은 칼 꺼내는 것으로 오인, 확인 위해 피해자 왼손 주먹 강제로 펴게 해 약 4주 치료 요하는 제4수지 중위지골 골절 상해 가함.]","k":"4hw32t"},
+  {"i":"5tozqr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[오상정당방위 판단]</span> ①관장·피해자 외형상 신체차 크지 않고 피해자 제압됐어도 상당한 물리력 행사 능력 有·직전까지 몸싸움 등 급박상황 계속·피해자가 관장에 항의·보복 감정으로 계획적·의도적 재방문해 몸싸움 발생 ②'휴대용 녹음기'와 '호신용 작은 칼'은 크기·길이 등 외형상 큰 차이 X → 쥔 주먹·손 모양만으론 구별·물건 파악 어려움 ③몸싸움으로 뒤엉킨 상황서 피해자가 실제 위험한 물건 움켜쥐었다면 관장 생명·신체에 급박한 침해·위험 초래 우려 매우 높음 → 죄 안 되는 것으로 오인함에 '정당한 이유' 有","k":"1t0kwmb"},
+  {"i":"13uge6f","o":"<div class=\"cs-h\">","h":"Ⅲ. 악의가담자의 죄책 [변사18·16, 모사25]","k":"r597rp"},
+  {"i":"cj2ljg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[소극적 구성요건요소이론]</span> 위전착자 불법고의 조각 → 악의가담자 의사지배 有면 간접정범 성립 가능, 제한적 종속형식상 교사·방조범 성립 X","k":"kao9oa"},
+  {"i":"15cdxbg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[유추적용제한책임설]</span> 위전착자 불법고의 조각(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제13조</strong></span></span> 유추) → 악의가담자 의사지배 有면 간접정범 성립 가능, 교사·방조범 성립 X","k":"17aah0d"},
+  {"i":"1fiixfu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[법효과제한책임설]</span> 위전착자 고의책임 조각·과실범만 성립 가능 → 악의가담자 의사지배 있으면 간접정범, 없으면 교사·방조범 성립 가능","k":"1dg7vi"},
+  {"i":"1l2dxb3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[엄격책임설]</span> ①정당한 이유 있으면 고의책임 조각 → 악의가담자 의사지배 있으면 간접정범·없으면 교사·방조범 ②정당한 이유 없으면 고의범 처벌 → 간접정범 X·교사방조범만","k":"1qih2g4"},
+  {"i":"1uk344b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[판례 입장]</span> ①정당한 이유 있으면 위법성 조각 → 악의가담자 의사지배 있으면 간접정범 가능하나 교사·방조범 X ②정당한 이유 없으면 고의범 처벌 → 간접정범 X·교사방조범만","k":"19gp0w1"},
+  {"i":"13djpt9","o":"<div class=\"cs-h\">","h":"Ⅳ. 위전착에 빠진 자에 대항한 정당방위 가능여부<span class=\"cs-exam\">【변사18】</span>","k":"1rvgdhk"},
+  {"i":"mk4up7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[소극적 구성요건요소이론]</span> 위전착자 불법고의 조각 → 과실 있는 경우에만, 과실범 처벌규정 존부와 관계없이 대항 정당방위 가능","k":"1lj13p6"},
+  {"i":"l70i6g","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[유추적용제한책임설]</span> 위전착자 불법고의 조각(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제13조</strong></span></span> 유추) → 과실 있는 경우 대항 정당방위 가능","k":"1unxn4u"},
+  {"i":"29o7mb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[법효과제한책임설]</span> 위전착자 고의불법 인정·단지 고의책임 조각 → 과실 유무 관계없이 대항 정당방위 가능","k":"ezgedc"},
+  {"i":"1m8uz5f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[엄격책임설]</span> ①정당한 이유 있으면 고의불법 인정·단지 고의책임만 부정 → 대항 정당방위 가능 ②정당한 이유 없으면 고의범 처벌 → 대항 정당방위 가능 ③결국 정당한 이유 有無 관계없이 대항 정당방위 가능","k":"td166f"},
+  {"i":"165blmg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[판례 입장]</span> ①정당한 이유 있으면 위법성 조각(과실도 인정 X) → 대항 정당방위 인정 X ②정당한 이유 없으면 고의범 처벌 → 대항 정당방위 가능","k":"lhphxp"},
+  {"i":"1rzqc1v","o":"<div class=\"cs-h\">","h":"Ⅴ. <span class=\"cs-blue\"><span class=\"cs-u\">제310조</span></span> 진실성에 대한 착오의 법적 취급 [변사16, 모사25·20]","k":"1oecqsb"},
+  {"i":"k0dgxm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[</span><span class=\"cs-blue\"><span class=\"cs-u\">제310조</span></span><span class=\"cs-fact-tag\"> 위법성조각]</span> <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제307조</strong></span></span>① 행위가 진실한 사실·오로지 공공의 이익 관한 때 불처벌(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제310조</strong></span></span>)","k":"1awp8vc"},
+  {"i":"83kc5f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[문제소재]</span> 적시사실 허위임에도 진실로 오인한 경우 법적 효과 문제","k":"1mze463"},
+  {"i":"i45r38","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[위전착설]</span> ①위전착으로 보는 견해(소극적 구성요건표지이론·유추적용제한책임설·법효과제한책임설·엄격책임설)","k":"1bh6mfx"},
+  {"i":"lbh922","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[허용된 위험설]</span> ②허용된 위험 법리상 성실한 검토의무 이행 시 위법성 조각","k":"csm8kr"},
+  {"i":"x160y4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[판례 위법성 조각]</span> 적시사실 공공의 이익 관한 것이면 진실 증명 없어도 행위자가 진실로 믿었고 그리 믿을 '상당한 이유' 있는 경우 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제310조</strong></span></span>로 '위법성' 없음<span class=\"cs-exam\">【변24】</span>","k":"1k7xonc"},
+  {"i":"ewlm3z","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[검토 법효과설]</span> 진실성 착오 = 고의로 사실적시 명예훼손죄 불법 실현했으나 책임비난 실질은 부주의 → 법효과제한책임설 타당","k":"psxjdo"}
+ ]}
+]}

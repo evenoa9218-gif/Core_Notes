@@ -1,0 +1,158 @@
+{"id":"형소019","t":"고소 일반","cat":"pro_03","lv":1,"tg":["B급","中","변사18","모사22·19","모기25·24"],"b":[
+ {"i":"tge1k3","o":"<details class=\"cs-case\">","b":[
+  {"i":"egzw72","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(1)] 미성년자 모욕·법정대리인 아버지의 합의금 수령</strong></span>","k":"1hqi5wk"},
+  {"i":"7z3get","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1ft974v","o":"<div class=\"cs-fact\">","b":[
+    {"i":"ypat9j","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1fw9u8l","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲이 미성년자(17세) A를 공연히 모욕 → 고소능력 있는 A가 고소 → 검사가 모욕죄 기소 → A의 법정대리인 아버지 B가 A와 상의 없이 甲에게서 합의금 받고 합의서·탄원서 제출 → A는 증인으로 출석하여 여전히 처벌 희망 진술. 모욕죄 입증시 법원의 판결은? (10점)","k":"11heh96"}
+    ]}
+   ]},
+   {"i":"4h0lx4","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"xm62ox","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"u4mpyf","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [A의 고소 적법성]</strong>","k":"b5oeoz"},
+    {"i":"f2587a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 고소능력 = 사회생활상 이해관계를 알아차릴 사실상 의사능력으로 충분","k":"mr4izs"},
+    {"i":"qdc8cu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② ∴A는 민법상 행위능력 X이나 고소능력 O → 고소 유효","k":"7hda9t"},
+    {"i":"1hltqxr","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [아버지 B의 고소취소의 유효 여부]</strong>","k":"faujmm"},
+    {"i":"198o68n","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 고소대리 = 위임장·대리표시 불요하나 정당한 고소권자의 대리권 수여 증명 필요","k":"v0dyla"},
+    {"i":"1786j9s","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② A가 여전히 처벌 희망 → B에게 취소 대리권 수여 X, 설령 수여해도 B가 의사결정 X","k":"z4d5ne"},
+    {"i":"meudr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ ∴B의 합의서·탄원서는 고소취소 효력 X → 유죄판결","k":"1eaimuc"}
+   ]}
+  ]}
+ ]},
+ {"i":"1xn5fgi","o":"<details class=\"cs-case\">","b":[
+  {"i":"1t8bj7g","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(2)] 고소취소 후 법정대리인의 고소·고소기간</strong></span>","k":"1atqlon"},
+  {"i":"114pp6c","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"fxpfpa","o":"<div class=\"cs-fact\">","b":[
+    {"i":"koxtty","o":"<div class=\"cs-callout\">","b":[
+     {"i":"zpmft0","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲이 2023. 1. 1. 미성년자(17세) A를 모욕 → A가 적법 고소 후 곧 취소 → 법정대리인 아버지 B가 2023. 4. 1. 전해 듣고 2023. 8. 1. 고소장 제출 → 검사가 2023. 9. 1. 모욕죄 기소. (1) 모욕죄 입증시 법원의 판결은? (15점) (2) A가 B와 상의 없이 제1심 판결선고 전 고소취소장 제출시 법원의 판결은? (5점) (15점 + 5점)","k":"1ucvvqi"}
+    ]}
+   ]},
+   {"i":"1pxr89l","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"krgxxc","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"ydyv1s","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1)</strong>","k":"37462d"},
+    {"i":"2454tr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 고유권설, 독립대리권설. 판례: 고유권설. 무능력자 보호 특별규정 → 고유권설 타당","k":"e22yu8"},
+    {"i":"l0jy1v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 고유권설 → B의 고소권은 A의 고소권 소멸 여부 무관 + 고소기간도 B가 범인을 안 날(2023. 4. 1.)부터 → B의 고소 적법","k":"18g217x"},
+    {"i":"4dn3b2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ ∴유죄판결","k":"4faoev"},
+    {"i":"1qihtoy","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2)</strong> 고유권설 → A는 B의 고소 취소 X → A의 고소취소 효력 X → 유죄판결","k":"9rbs6r"}
+   ]}
+  ]}
+ ]},
+ {"i":"h3bh9d","o":"<details class=\"cs-case\">","b":[
+  {"i":"f349q","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(3)] 폭행치상 → 항소심 폭행죄 변경 후 처벌불원</strong></span> <span class=\"cs-exam\">【변사18】</span>","k":"kig00m"},
+  {"i":"ljb1cn","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"qenn6l","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1vgthb9","o":"<div class=\"cs-callout\">","b":[
+     {"i":"u6gktu","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲이 A에 대한 폭행치상으로 제1심 유죄선고 후 항소 → 항소심이 상해 불인정 판단 → 폭행죄로 공소장변경 허가 후 A가 처벌불원 합의서 제출. 항소심의 판단은? (10점)","k":"qa2vxb"}
+    ]}
+   ]},
+   {"i":"2os2pm","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"gig1k3","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"d6wigg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 처벌희망 의사표시 철회 = 제1심판결 선고 전까지(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§232③①</strong></span></span>)","k":"1yejt4r"},
+    {"i":"1s23fw8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 항소심에서 반의사불벌죄로 변경 후 비로소 처벌불원 → 효력 긍정설, 부정설. 판례: 부정설. 항소심 ≠ 제1심 + 일반범죄 공소사실에 반의사불벌죄 공소사실 포함 → 효력 X(부정설 타당)","k":"56q5xw"},
+    {"i":"1vhajue","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ ∴처벌불원의사 효력 X → 유·무죄 실체판결","k":"1rm0sfv"}
+   ]}
+  ]}
+ ]},
+ {"i":"5n4h1c","o":"<details class=\"cs-case\">","b":[
+  {"i":"s2p465","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(4)] 미성년자 교사 절취·고소 보충조사 중 처벌희망 진술</strong></span> <span class=\"cs-exam\">【변사26(변형)】</span>","k":"qp0850"},
+  {"i":"1f2moae","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1pl5njw","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1bcsy2s","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1hf84ml","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲(17세)이 이종사촌인 유명 아이돌 丁의 무대의상을 탐내 초등학생 A(10세)에게 절취 교사 → A가 丁 소유 무대의상 절취하여 甲에게 전달 → 丁이 A를 고소, 사경 戊의 고소 보충조사에서 '甲도 함께 조사하여 엄중 처벌해 달라' 진술 → 戊가 진술조서에 기재 → 제1심 제2회 공판기일에 丁이 \"甲이 피해를 변제하면 처벌 불원\" 합의서 제출. 법원은 甲에 대한 실체 재판을 할 수 있는가? [제한적 종속형식 전제] (10점)","k":"1g7c9t"}
+    ]}
+   ]},
+   {"i":"mgy1qz","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1o14y2q","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"38dt7k","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [문제점]</strong>","k":"j5m3qf"},
+    {"i":"k31x63","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 제한적 종속형식 → 甲은 변별능력 없는 A를 이용한 간접정범 X, 교사범","k":"11umzk6"},
+    {"i":"i0p22k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 甲·丁 = 비동거 친족(이종사촌) → 상대적 친고죄 → 丁의 고소 필요","k":"13co55c"},
+    {"i":"12o980q","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [고소의 적법성]</strong> 구술고소 조서는 독립조서 불요, 고소권자 신문 진술에 처벌희망 의사표시 포함되어 조서 기재시 적법 → 丁의 진술조서 기재 = 甲에 대한 적법한 고소","k":"1r325iw"},
+    {"i":"15ajqy4","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [조건부 고소취소]</strong> 판례는 조건부 의사표시 불허 → '피해 변제시 처벌 불원'은 고소취소 X","k":"ksxzfz"},
+    {"i":"159po2o","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(4) [결론]</strong> ∴적법한 고소 O + 고소취소 효력 X → 甲에 대한 실체 재판 O","k":"16y27ds"}
+   ]}
+  ]}
+ ]},
+ {"i":"1710c2n","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1jt4p7x","o":"<div class=\"cs-h\">","h":"Ⅰ. 친고죄 일반","k":"1w5tanr"},
+  {"i":"1lokxjc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[고소] = ① 범죄의 피해자 기타 고소권자가 ② 수사기관에 ③ 범죄사실을 신고하여 ④ 범인의 소추·처벌을 요구하는 ⑤ 의사표시</strong></span>","k":"lu1841"},
+  {"i":"1h3zqu6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"고소는 일반적으로 <span class=\"cs-red\"><strong>수사의 단서</strong></span>이지만, 친고죄의 경우 <span class=\"cs-red\"><strong>소추조건</strong></span>이기도 함","k":"1rg1oct"},
+  {"i":"nfm24c","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"[절대적 친고죄] 사자명예훼손죄, 모욕죄, 비밀침해죄·전자기록등내용침해죄, 업무상비밀누설죄<span class=\"cs-exam\">【변기25】</span>","k":"oaxzdq"},
+  {"i":"1ct799v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[인터넷 홈페이지에 '철저히 조사해달라'는 취지의 민원을 접수하는 형태로 조사를 촉구하는 의사표시]</span> 적법한 고소 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변17】</span>","k":"13c6wtf"},
+  {"i":"buz1fy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[고소권자가 비친고죄로 고소한 사건이라도 검사가 친고죄로 공소를 제기한 경우]</span> 법원은 고소 유효 여부를 <span class=\"cs-red\"><strong>직권으로 조사·심리 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span><span class=\"cs-exam\">【변25】</span>","k":"1h5c2d4"},
+  {"i":"408m3y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"친고죄에서 적법한 고소 여부는 <span class=\"cs-red\"><strong>자유로운 증명</strong></span>의 대상<span class=\"cs-exam\">【변23】</span>","k":"1gqp36c"},
+  {"i":"wx369d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[공소제기 전]</span> 고소가 없는 경우(고소추완 포함), 고소가 부적법한 경우(고소기간 도과), 공소제기 전 고소취소(재고소 포함) → <span class=\"cs-red\"><strong>공소기각판결</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§327제2호)</strong></span></span>","k":"1ydj7g0"},
+  {"i":"14c77my","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[공소제기 후 제1심 판결선고 전에 고소가 취소된 경우]</span> <span class=\"cs-green\"><strong>공소기각판결</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§327제5호)</strong></span></span><span class=\"cs-exam\">【변25】</span>","k":"ypn0tt"},
+  {"i":"1ccd4tx","o":"<div class=\"cs-h\">","h":"Ⅱ. 고소능력","k":"a68cti"},
+  {"i":"18fbu60","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[고소능력] = 피해를 받은 사실을 이해하고 고소에 따른 사회생활상의 이해관계를 알아차릴 수 있는 사실상의 의사능력으로 족함</strong></span>","k":"7vpcnl"},
+  {"i":"1kb7ul1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[민법상 행위능력 없는 자]</span> 고소능력 인정 <span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변23】</span>","k":"9dhl8r"},
+  {"i":"1hwo0ph","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[범행 당시 고소능력이 없던 피해자가 그 후 비로소 고소능력이 생긴 경우]</span> 고소기간은 <span class=\"cs-red\"><strong>고소능력이 생긴 때부터 기산</strong></span>","k":"1kkb9b8"},
+  {"i":"1qbzcsx","o":"<div class=\"cs-h\">","h":"Ⅲ. 고소권자","k":"8eetvd"},
+  {"i":"103ppgb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>고소권자</strong></span>","k":"azkchh"},
+  {"i":"1wgz56e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"범죄로 인한 피해자는 고소 <span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§223)</strong></span></span>","k":"mnekra"},
+  {"i":"pcxpqe","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"자기 또는 배우자의 직계존속은 고소 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§224)</strong></span></span>","k":"la69xu"},
+  {"i":"nwtm7c","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"예외 : <span class=\"cs-fact-tag\">[친족상도례에 의해 상대적 친고죄에 해당하는 경우]</span> 자기 또는 배우자의 직계존속도 고소 <span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(형법§328①단서)</strong></span></span>","k":"1as1wro"},
+  {"i":"i5luzd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"사자의 명예를 훼손한 범죄 → 그 친족 또는 자손이 고소 <span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§227)</strong></span></span>","k":"1vaff78"},
+  {"i":"18pkiei","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>법정대리인의 고소권</strong></span>","k":"82ivmx"},
+  {"i":"16awfu2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"피해자의 법정대리인은 독립하여 고소 <span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§225①)</strong></span></span>","k":"50odcc"},
+  {"i":"vmf7v9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《법정대리인의 고소권의 법적 성질》</strong></span>","k":"j2myl9"},
+  {"i":"1dmozqy","o":"<div class=\"cs-theory\">","b":[
+   {"i":"182zh97","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① <span class=\"cs-red\"><strong>고유권설</strong></span>(피해자 고소권 소멸해도 법정대리인은 고소 가능, 피해자가 법정대리인의 고소를 취소 불가) ② 독립대리권설(피해자 고소권 소멸하면 법정대리인 고소권도 소멸, 피해자가 취소 가능)","k":"13ropxf"},
+   {"i":"141o8aw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 고유권] 법정대리인의 고소권은 무능력자의 보호를 위하여 주어진 고유권이므로 ① 피해자의 고소권 소멸 여부와 관계없이 고소 가능 ② 피해자의 명시한 의사에 반하여도 고소 가능 ③ 고소기간은 법정대리인 자신이 범인을 알게 된 날로부터 진행</strong></span><span class=\"cs-exam\">【변23·21】</span>","k":"1rpi5rp"},
+   {"i":"1q8yw4k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: §225①은 무능력자를 보호하기 위한 특별규정 → <span class=\"cs-red\"><strong>고유권설 타당</strong></span>","k":"1dfx5z2"}
+  ]},
+  {"i":"6azmdq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[법원이 선임한 부재자 재산관리인이 관리대상 부재자의 재산에 대한 범죄행위에 관하여 법원으로부터 고소권 행사에 관한 허가를 얻은 경우]</span> §225①의 법정대리인으로서 적법한 고소권자 <span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변24·23】</span>","k":"6lae8h"},
+  {"i":"ukhky0","o":"<div class=\"cs-h\">","h":"Ⅳ. 고소절차","k":"43tq78"},
+  {"i":"naarlt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>고소의 방법</strong></span>","k":"7li2q5"},
+  {"i":"5yhblp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"고소·고발은 서면 또는 구술로 검사 또는 사법경찰관에게 함<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§237①)</strong></span></span>, 구술에 의한 고소·고발은 조서 작성 필요<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§237②)</strong></span></span>","k":"11hah6g"},
+  {"i":"mn03oh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>독립된 조서일 필요는 없고, 수사기관이 고소권자를 신문한 경우 피의자의 처벌을 요구하는 의사표시가 진술에 포함되어 조서에 기재되면 고소는 적법</strong></span><span class=\"cs-exam\">【모기25 등 기록빈출】</span>","k":"1spj9wc"},
+  {"i":"alwkg8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>범죄사실의 특정</strong></span>","k":"u9wp61"},
+  {"i":"5dn6do","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"고소는 '범죄사실'을 신고하여 범인의 처벌을 구하는 의사표시로서 <span class=\"cs-red\"><strong>[범죄사실]이 특정</strong></span>되어야 함","k":"1m92sxn"},
+  {"i":"db1x5w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[범인의 성명이 불명하거나 범행의 일시·장소·방법 등이 명확하지 않은 경우]</span> 고소의 효력에 영향 <span class=\"cs-green\"><strong>불문</strong></span><span class=\"cs-exam\">【변23】</span>","k":"j8bt4d"},
+  {"i":"7wioxn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"고소인은 범죄사실을 특정하여 신고하면 족하고 '범인'이 누구인지, 처벌을 구하는 자가 누구인지까지 적시할 필요 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변12】</span>","k":"ydv5by"},
+  {"i":"alky0s","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[공범 중 일부에 대해서만 처벌을 구하고 나머지에 대해서는 처벌을 원하지 않는 내용의 고소]</span> 적법한 고소 <span class=\"cs-x\"><strong>(X)</strong></span> (고소불가분원칙)","k":"1qz5v7t"},
+  {"i":"foeyty","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>고소기간</strong></span>","k":"azjdnh"},
+  {"i":"1ws8w1y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"원칙 : 범인을 알게 된 날로부터 <span class=\"cs-red\"><strong>6월</strong></span>을 경과하면 고소 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§230①)</strong></span></span> — <span class=\"cs-fact-tag\">[불가항력 사유]</span>는 그 사유 소멸일부터 기산","k":"155m9hd"},
+  {"i":"auiv2w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"고소권자가 수인이면 1인의 기간 해태는 타인에게 <span class=\"cs-green\"><strong>불문</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§231)</strong></span></span>","k":"1fl1bla"},
+  {"i":"11opxyd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>판단기준 (判例) : '범인을 알게 된 날' = 범죄행위가 '종료된 후' 범인을 알게 된 날</strong></span>","k":"126lv7s"},
+  {"i":"axurz4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[범죄가 계속 중인 도중 범인을 안 경우]</span> 고소기간은 <span class=\"cs-red\"><strong>범죄행위 종료시부터 계산</strong></span> — <span class=\"cs-gbg\">['안 날']</span> <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변21】</span>","k":"14z2xj2"},
+  {"i":"2mq9h5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"범인의 동일성을 식별할 수 있을 정도로 인식하면 족하고 성명·주소·연령까지 알 필요 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"1m6s3t1"},
+  {"i":"1ie3h9q","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[고유권]</span> 법정대리인은 피해자의 고소권 소멸 여부와 무관하게 <span class=\"cs-red\"><strong>법정대리인이 범인을 알게 된 날로부터 진행</strong></span>","k":"fibmye"},
+  {"i":"nvkhid","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[고소대리]</span> 고소대리인의 고소기간은 대리고소인이 아니라 <span class=\"cs-red\"><strong>정당한 고소권자를 기준</strong></span>으로 고소권자가 범인을 알게 된 날부터 기산<span class=\"cs-exam\">【변21·18】</span>","k":"gu5so3"},
+  {"i":"bmvxv9","o":"<div class=\"cs-h\">","h":"Ⅴ. 고소대리<span class=\"cs-exam\">【모사22】</span>","k":"16s5ebu"},
+  {"i":"1483ikk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>고소대리의 방식</strong></span>","k":"inaxgp"},
+  {"i":"lnuju","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"고소 또는 그 취소는 대리인으로 하게 할 수 있음<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§236)</strong></span></span>","k":"1q49he0"},
+  {"i":"iv1ttv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>대리권이 정당한 고소권자에 의해 수여되었음이 실질적으로 증명되면 족하고 방식에 특별한 제한 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"1mdgwbh"},
+  {"i":"1h26zvm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">['위임장' 제출이나 '대리' 표시]</span> 반드시 필요 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"1nwnn93"},
+  {"i":"1wll0w5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>고소대리의 허용 범위</strong></span>","k":"1jmbu4s"},
+  {"i":"ldkgqh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《대리인이 고소 여부 자체를 결정할 수 있는지 여부》</strong></span>","k":"1spezyp"},
+  {"i":"311quu","o":"<div class=\"cs-theory\">","b":[
+   {"i":"n2n48z","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 의사대리설 ② <span class=\"cs-red\"><strong>표시대리설</strong></span>","k":"3i1m9j"},
+   {"i":"1v0ukdq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 표시대리설] 소송능력이 있는 미성년의 피해자를 대리하여 법정대리인인 모가 처벌불원의 의사결정 자체를 할 수는 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span> (반의사불벌죄 판례)","k":"cmnbqx"}
+  ]},
+  {"i":"1bg5ejk","o":"<div class=\"cs-h\">","h":"Ⅵ. 고소취소<span class=\"cs-exam\">【변사18, 모사19, 기록 빈출】</span>","k":"r4sj5j"},
+  {"i":"17mltxj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>고소취소의 방법</strong></span>","k":"d1hpk9"},
+  {"i":"1wjvyrv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">['원만히 합의되었으므로 어떤 민·형사상의 책임도 묻지 않겠다'는 취지의 합의서 제출]</span> 고소취소 <span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변13】</span>","k":"178wivl"},
+  {"i":"rjposl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">['법대로 처벌해주기 바랍니다' 후 '정상을 참작해 주시면 감사하겠습니다'로 기재된 진술]</span> 법대로 처벌하되 관대한 처분을 바란다는 취지 → 처벌의사 철회 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【모기24】</span>","k":"g8wjgm"},
+  {"i":"hlcoz7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[민사사건에서 상호 고소를 모두 취하하는 조정이 성립되었으나 수사기관·제1심 법정에 제출하지 않은 경우]</span> 고소취소·처벌불원의사 표시 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변21·15】</span>","k":"1prj30x"},
+  {"i":"xczpmf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《조건부 고소취소의 허용 여부》</strong></span>","k":"8skqwt"},
+  {"i":"hosk2i","o":"<div class=\"cs-theory\">","b":[
+   {"i":"q9g7ui","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 불허설] 개인의 내심적 조건부 의사표시는 허용되지 않음</strong></span>","k":"1ycoqae"},
+   {"i":"hl6wx0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: <span class=\"cs-red\"><strong>소송절차의 형식적 확실성</strong></span> 고려 → <span class=\"cs-green\"><strong>불허설 타당</strong></span>","k":"1klwulk"}
+  ]},
+  {"i":"ldl960","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">['향후 피해금을 변제하면 고소를 취소하겠다'는 취지]</span> 고소취소 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변사26, 모기23】</span>","k":"14ww34f"},
+  {"i":"m30dv6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[고소취소의 상대방]</span> 공소제기 전에는 고소사건을 담당하는 <span class=\"cs-red\"><strong>수사기관</strong></span>, 공소제기 후에는 <span class=\"cs-red\"><strong>고소사건의 수소법원</strong></span>","k":"w4wrwf"},
+  {"i":"4e6jhj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>고소취소 기한</strong></span>","k":"10yyuld"},
+  {"i":"sbzqaj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"고소는 <span class=\"cs-red\"><strong>제1심 판결선고 전까지 취소 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§232①)</strong></span></span> — <span class=\"cs-gbg\">[항소심]</span> <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변16】</span>","k":"mkkyob"},
+  {"i":"jmfqdp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[항소심에서 제1심판결을 '파기·환송'한 후 진행된 제1심판결 선고 전의 고소취소]</span> <span class=\"cs-red\"><strong>적법</strong></span> → 공소기각판결<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§327제5호)</strong></span></span><span class=\"cs-exam\">【변25·18·15】</span>","k":"q187jh"},
+  {"i":"cdf6b9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[친고죄의 공범 중 일부에 대하여 제1심판결이 선고된 후]</span> 다른 공범자에 대해서도 고소취소 <span class=\"cs-x\"><strong>(X)</strong></span> (고소불가분원칙)<span class=\"cs-exam\">【변22·18·14·13】</span>","k":"19oo8mu"},
+  {"i":"1ri083u","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>재고소 제한</strong></span>","k":"1vfnr6t"},
+  {"i":"ma2o4q","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"고소를 취소한 자는 다시 고소 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§232②)</strong></span></span><span class=\"cs-exam\">【변18·12】</span>","k":"ggab70"},
+  {"i":"xtl54a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>항소심에서 친고죄·반의사불벌죄로 변경된 경우</strong></span><span class=\"cs-exam\">【변사18, 모사19】</span>","k":"a7rplf"},
+  {"i":"13fo66k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《항소심에서 공소장변경·직권으로 일반범죄가 친고죄·반의사불벌죄로 인정될 때 고소취소(처벌불원)의 효력》</strong></span>","k":"188ujvo"},
+  {"i":"rzl3lm","o":"<div class=\"cs-theory\">","b":[
+   {"i":"aqvh5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① <span class=\"cs-green\"><strong>부정설</strong></span>(항소심은 제1심이 아니므로 효력 없음) ② 긍정설(제1심에서 현실적 심판대상이 아니었으므로 효력 있음)","k":"p3phu1"},
+   {"i":"fn40a5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 부정설] §232①을 현실적 심판대상이 된 공소사실이 친고죄로 된 당해 심급의 판결 선고시까지 고소를 취소할 수 있다는 의미로 볼 수 없고, 항소심을 제1심이라 할 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변21·14·13】</span>","k":"obkicm"}
+  ]},
+  {"i":"30k00x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[반의사불벌죄의 항소심에서의 처벌불원의사]</span> 효력 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변25】</span>","k":"1gzc3z8"}
+ ]}
+]}

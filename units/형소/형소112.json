@@ -1,0 +1,72 @@
+{"id":"형소112","t":"공판조서의 배타적 증명력","cat":"pro_17","lv":1,"tg":["下","모사14"],"b":[
+ {"i":"hzjei1","o":"<details class=\"cs-case\">","b":[
+  {"i":"dzsrqq","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(1)] 진술거부권 고지가 기재된 공판조서에 대한 증인신청</strong></span> <span class=\"cs-exam\">【모사14】</span>","k":"82c2ky"},
+  {"i":"1yp9rj3","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"enbxud","o":"<div class=\"cs-fact\">","b":[
+    {"i":"33izu5","o":"<div class=\"cs-callout\">","b":[
+     {"i":"suup12","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲이 절도로 기소되어 제1심에서 모두 자백하였으나 징역 1년이 선고되자 항소 → 항소심에서 甲은 제1심 공판절차에서 진술거부권을 고지받지 못하였으므로 법정자백은 효력이 없다고 주장하며 제1심 공판에 참여한 법원사무관 A를 증인으로 신청. 제1심 공판조서에 甲에게 진술거부권이 고지된 것으로 기재되어 있는 경우 항소심법원은 甲의 증인신문신청에 대해 어떠한 조치를 취해야 하는가? (8점)","k":"1u00s1f"}
+    ]}
+   ]},
+   {"i":"1vf5mlu","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"oepv57","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"162apab","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [배타적 증명력]</strong> §56 — 공판조서의 기재가 명백한 오기인 경우를 제외하고는 공판기일의 소송절차로서 공판조서에 기재된 것은 조서만으로써 증명하여야 하고 그 증명력은 공판조서 이외의 자료에 의한 반증이 허용되지 않는 절대적인 것","k":"110pikt"},
+    {"i":"1phxztm","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [결론]</strong> 법원은 甲의 법원사무관 A에 대한 증인신청을 기각하는 결정(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§295</strong></span></span>)","k":"1gt6dg3"}
+   ]}
+  ]}
+ ]},
+ {"i":"6jcea0","o":"<details class=\"cs-case\">","b":[
+  {"i":"1pplpge","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(2)] 진술거부권 고지 기재가 없는 공판조서에 대한 증인신청</strong></span> <span class=\"cs-exam\">【모사14】</span>","k":"1fwoufz"},
+  {"i":"t7hchq","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1dtty7o","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1i0miks","o":"<div class=\"cs-callout\">","b":[
+     {"i":"186c13v","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"만약 위 사례에서 제1심 공판조서에 甲에게 진술거부권이 고지되었는지에 대한 기재가 되어 있지 않다면 항소심법원은 甲의 증인신문신청에 대해 어떠한 조치를 취해야 하는가? (7점)","k":"17yg6n3"}
+    ]}
+   ]},
+   {"i":"g67jo3","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"112v822","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1hn5lcw","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [미기재 소송절차]</strong> 어떤 소송절차가 진행된 내용이 공판조서에 기재되지 않았다고 하여 당연히 그 소송절차가 당해 공판기일에 행하여지지 않은 것으로 추정되는 것은 아니고 자유로운 증명의 대상","k":"1qyzxvz"},
+    {"i":"1u8i3c","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [증거신청 재량]</strong> 증거신청의 채택 여부는 법원의 재량","k":"m71w5w"},
+    {"i":"1k9xdc4","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> 항소심법원은 법원사무관 A에 대한 증인신문이 필요한지에 따라 증거신청에 대한 결정","k":"14ka9bd"}
+   ]}
+  ]}
+ ]},
+ {"i":"136kxzn","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1r7deaf","o":"<div class=\"cs-callout\">","b":[
+   {"i":"16x845k","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제56조(공판조서의 증명력)</strong></span>","k":"1kbl6br"},
+   {"i":"dk4iyr","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"공판기일의 소송절차로서 공판조서에 기재된 것은 그 조서만으로써 증명한다.","k":"1rbwri5"}
+  ]},
+  {"i":"ezpj28","o":"<div class=\"cs-h\">","h":"Ⅰ. 공판조서의 증거능력","k":"ch86tz"},
+  {"i":"1131t1w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>당연 증거능력</strong></span>","k":"17wr51d"},
+  {"i":"12rrurc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"공판기일의 소송절차에 관하여는 <span class=\"cs-red\"><strong>법원사무관등이 공판조서를 작성</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§51①)</strong></span></span>(재판장 X)<span class=\"cs-exam\">【변19】</span>","k":"1bsl9e7"},
+  {"i":"3mz1p1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[당해 사건]</span> 전문법칙의 예외로 당연히 증거능력 인정<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§311)</strong></span></span>","k":"16h5cw6"},
+  {"i":"1ghxx6e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[다른 사건]</span> 전문법칙의 예외로 당연히 증거능력 인정<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§315제3호)</strong></span></span>","k":"12xtb8k"},
+  {"i":"1fmlog1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>열람·등사 청구권을 보장하지 않은 경우</strong></span>","k":"14r6yz4"},
+  {"i":"ejnsn1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"피고인은 공판조서의 열람·등사를 청구할 수 있고<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§55①)</strong></span></span> 읽지 못하는 때에는 낭독을 청구<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§55②)</strong></span></span>, 청구에 응하지 아니한 때에는 <span class=\"cs-red\"><strong>그 공판조서를 유죄의 증거로 할 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§55③)</strong></span></span>","k":"183drgo"},
+  {"i":"lzbmcl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>열람·등사청구에 법원이 불응하여 청구권이 침해된 경우에는 그 공판조서를 유죄의 증거로 할 수 없을 뿐만 아니라 공판조서에 기재된 당해 피고인·증인의 진술도 증거로 할 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변19】</span>","k":"18krp5r"},
+  {"i":"1gmtzcj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[침해 부정]</span> 차회 공판기일 전 원하는 시기에 열람·등사하지 못하였어도 <span class=\"cs-green\"><strong>변론종결 이전에 열람·등사하였고 방어권 행사에 지장이 있었다는 특별한 사정이 없으면 청구권 침해 X → 유죄의 증거로 할 수 있음</strong></span><span class=\"cs-exam\">【변19】</span>","k":"omi5r5"},
+  {"i":"1c788x","o":"<div class=\"cs-h\">","h":"Ⅱ. 공판조서의 증명력","k":"49gh1i"},
+  {"i":"1iqh32n","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>공판조서의 배타적 증명력</strong></span><span class=\"cs-exam\">【모사14】</span>","k":"39jsag"},
+  {"i":"2n2bmp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"공판기일의 소송절차로서 공판조서에 기재된 것은 <span class=\"cs-red\"><strong>조서만으로써 증명</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§56)</strong></span></span>(공판준비절차·공판기일 외 증인신문·검증 등의 절차 X)","k":"1epjpjq"},
+  {"i":"1r1fw5z","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[절대적 배타적 증명력] 공판조서의 기재가 명백한 오기인 경우를 제외하고는 공판기일의 소송절차로서 공판조서에 기재된 것은 조서만으로써 증명하여야 하고, 그 증명력은 공판조서 이외의 자료에 의한 반증이 허용되지 않는 절대적인 것</strong></span><span class=\"cs-exam\">【변19】</span>","k":"1t1cdgh"},
+  {"i":"ws5rxu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[자유심증주의 예외]</span> 법관은 심증형성과 관계없이 공판조서에 기재된 대로 인정","k":"1xpmflg"},
+  {"i":"17xrr0b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[당해사건 한정]</span> 배타적 증명력은 당해사건의 공판조서에 한정 → 다른 사건의 공판조서는 본 규정 적용 X","k":"1xeol7g"},
+  {"i":"rjkcvg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-neg-tag\">[소송절차 한정]</span> 공판조서 중 피고인진술의 내용, 증인신문조서 중 증인의 진술내용 등 <span class=\"cs-red\"><strong>실체관련사항에는 배타적 증명력이 미치지 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"gohlrz"},
+  {"i":"ywp6jz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[증거목록 기재]</span> 검사 제출 증거에 관한 동의·진정성립 여부 등에 관한 피고인의 의견이 증거목록에 기재된 경우 <span class=\"cs-red\"><strong>증거목록의 기재는 공판조서의 일부로서 명백한 오기가 아닌 이상 절대적인 증명력</strong></span><span class=\"cs-exam\">【변17】</span>","k":"15d06lj"},
+  {"i":"13kgw4u","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[진술거부권 고지]</span> 재판장이 진술거부권이 있음을 고지한 것으로 공판조서에 기재되어 있다면 <span class=\"cs-red\"><strong>명백한 오기가 아닌 이상 절대적인 증명력</strong></span>","k":"19k5yqh"},
+  {"i":"19hfjyf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[무효 공판조서]</span> 공판기일에 열석하지 아니한 판사가 재판장으로서 서명날인한 공판조서는 <span class=\"cs-green\"><strong>무효이므로 공판조서로서의 증명력이 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"1iomveq"},
+  {"i":"1lrm5e8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[모순 조서 병존]</span> 동일 사항에 두 개의 서로 다른 내용이 기재된 공판조서가 병존하는 경우 <span class=\"cs-red\"><strong>증명력에 우열이 없어 어느 쪽이 진실한지는 법관의 자유로운 심증에 따름</strong></span>","k":"1xo8n9o"},
+  {"i":"46relx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>공판조서에 기재되지 않은 것</strong></span>","k":"lifqgh"},
+  {"i":"1789be7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"배타적 증명력은 공판조서에 <span class=\"cs-red\"><strong>'기재된 것'에만 미침</strong></span>","k":"1u7shjz"},
+  {"i":"ic5byi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>소송절차의 진행 내용이 공판조서에 기재되지 않았다고 하여 당연히 그 소송절차가 당해 공판기일에 행하여지지 않은 것으로 추정되는 것은 <span class=\"cs-x\"><strong>(X)</strong></span>. 미기재 소송절차의 존재는 다른 내용이나 공판조서 이외의 자료로 증명될 수 있고, 소송법적 사실이므로 '자유로운 증명'의 대상</strong></span><span class=\"cs-exam\">【변25】</span>","k":"9wlqmh"},
+  {"i":"n8a6aq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[공소장변경허가]</span> 검사가 공소장변경허가신청서를 제출하였으나 원심이 공판정 외에서 결정하지 않았고 공판조서에 그 소송절차 진행 내용이 없다면 <span class=\"cs-red\"><strong>자유로운 증명의 대상</strong></span>","k":"5fm6yi"},
+  {"i":"d9y6l8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>배타적 증명력의 예외 — 명백한 오기 또는 착오 기재</strong></span>","k":"1d9ae7w"},
+  {"i":"awwhwp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"가. 명백한 오기","k":"9fta3b"},
+  {"i":"h2kfyl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"공판조서의 기재가 소송기록상 명백한 오기인 경우에는 <span class=\"cs-red\"><strong>'올바른 내용'에 따라 증명력</strong></span>","k":"lob0ig"},
+  {"i":"1a34gv6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"명백한 오기 여부는 원칙적으로 공판조서만으로 판단하나, <span class=\"cs-red\"><strong>공판기록에 편철되거나 법원이 직무상 용이하게 확인할 수 있는 신빙성 있는 객관적 자료에 의하여 판단 가능</strong></span>","k":"56fkag"},
+  {"i":"1urqj5f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"나. 착오 기재","k":"1by1ev6"},
+  {"i":"2t1zsu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[동의 착오기재]</span> 피고인이 공소사실을 부인하는 경우 검사 작성 피신조서 중 인정 취지 진술 부분은 내용을 인정하지 않았다고 보아야 하므로, <span class=\"cs-red\"><strong>증거목록에 '동의'로 기재된 것은 착오 기재이거나 잘못 정리한 것으로 이해될 뿐 이로써 피신조서가 증거능력을 가지게 되는 것은 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"o7pqgl"},
+  {"i":"ovamcc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[압수조서 내 자백]</span> 피고인이 공판과정에서 일관되게 공소사실을 부인하면서 사경 작성 피신조서의 내용을 부인하였다면, <span class=\"cs-red\"><strong>압수조서에 기재된 '피의자였던 피고인의 자백 진술 부분'도 진술의 내용을 인정하지 않았다고 보아야</strong></span>","k":"dr4hi8"},
+  {"i":"1cdzkl6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[공범 피신조서]</span> 피고인이 일관하여 공소사실을 부인하였으므로, <span class=\"cs-red\"><strong>공범관계에 있는 다른 피고인·피의자에 대한 각 경찰 피신조서 중 공소사실에 부합하는 취지의 진술 내용도 이를 인정하지 않는 것으로 보아야</strong></span>","k":"1nm6jt1"},
+  {"i":"udpvs5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[비교 — 부인 진술에 증거동의한 경우]</span> ① 피고인이 수사과정에서 <span class=\"cs-u\">공소사실을 부인</span>하였고 그 내용이 기재된 피신조서 등에 <span class=\"cs-u\">증거동의</span>를 한 경우에는 <span class=\"cs-green\"><strong>증거능력 자체가 부인되는 것은 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>. 다만 전체적 내용이나 진술의 맥락·취지를 고려하지 않은 채 <span class=\"cs-green\"><strong>그 중 일부만을 발췌하여 유죄의 증거로 사용하는 것은 함부로 허용 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span> ② 특히 <span class=\"cs-red\"><strong>지적능력·판단능력 등 본질적으로 수사기관 작성 진술조서에 나타나기 어려운 피고인의 상태</strong></span>에 대해서는 공판중심주의·실질적 직접심리주의 원칙에 따라 검사가 제출한 객관적인 증거에 대하여 적법한 증거조사를 거친 후 인정하여야 하고, <span class=\"cs-green\"><strong>부인 취지 진술이 기재된 피신조서 중 일부를 근거로 이를 인정 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"1j5cuyd"}
+ ]}
+]}

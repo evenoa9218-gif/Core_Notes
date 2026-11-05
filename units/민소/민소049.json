@@ -1,0 +1,15 @@
+{"id":"민소049","t":"공동소송","cat":"mp_6","lv":1,"tg":["★★★"],"b":[
+ {"i":"43185b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"□ 원문 도표전용·PDF 대조 필요: 원본 교재(제211~212면)는 본문 서술 없이 '공동소송의 요건 도해 + 통상공동소송·필수적 공동소송의 형태·심판방법 비교표'로만 구성되어 OCR로 복원되지 않음. 아래는 표준법리로 최소 보정한 요건 골격이며, 통상공동소송의 심판방법은 논점 050, 필수적 공동소송은 논점 051에 상세 서술됨.","k":"qticua"},
+ {"i":"yqusak","o":"<div class=\"cs-h\">","h":"Ⅰ. 의의","k":"th62h7"},
+ {"i":"fdpy4v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"공동소송이란 '1개의 소송절차에 여러 명의 원고 또는 피고가 관여하는 소송'(소의 주관적 병합)","k":"f98jm8"},
+ {"i":"p6z9k","o":"<div class=\"cs-h\">","h":"Ⅱ. 공동소송의 요건(<span class=\"cs-blue\"><span class=\"cs-u\">§65</span></span>)","k":"7y7wly"},
+ {"i":"1g2dsg0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>주관적 요건(</strong><span class=\"cs-blue\"><span class=\"cs-u\"><strong>§65</strong></span></span><strong>)</strong>","k":"xa5mvx"},
+ {"i":"gjl614","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"ⅰ) (권리·의무의 공통) 소송목적이 되는 권리·의무가 여러 사람에게 공통되는 경우 ⅱ) (동일한 사실상·법률상 원인) 소송목적이 되는 권리·의무가 같은 사실상·법률상 원인으로 생긴 경우(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§65</strong></span></span> 전문) ⅲ) (같은 종류의 원인) 소송목적이 되는 권리·의무가 같은 종류의 것이고 사실상·법률상 같은 종류의 원인으로 생긴 경우(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§65</strong></span></span> 후문)","k":"1vp6y6f"},
+ {"i":"bfkgd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>객관적 요건</strong>","k":"qrbhy1"},
+ {"i":"mz8yvv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 같은 종류의 소송절차에 의할 것 ② 공통의 관할권이 있을 것 ③ 병합이 법률상 금지되지 않을 것","k":"pm6ro6"},
+ {"i":"1w7sf53","o":"<div class=\"cs-h\">","h":"Ⅲ. 공동소송의 형태","k":"1nigvq1"},
+ {"i":"50qjdf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>통상의 공동소송</strong>","k":"17e3dag"},
+ {"i":"1kbczoj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"공동소송인 사이에 합일확정이 필수적이 아닌 공동소송 — 심판방법은 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§66</strong></span></span> 공동소송인 독립의 원칙(→ 논점 050)","k":"145ojbw"},
+ {"i":"10dlmmz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>필수적 공동소송</strong>","k":"1p5mlnd"},
+ {"i":"tdlk6v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"공동소송인 사이에 합일확정을 필수적으로 요하는 공동소송(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§67</strong></span></span>) — 고유필수적·유사필수적으로 구분(→ 논점 051)","k":"urnwfe"}
+]}

@@ -1,0 +1,55 @@
+{"id":"형소115","t":"기판력의 범위","cat":"pro_18","lv":1,"tg":["中","변사18","모사16"],"b":[
+ {"i":"1qcdx66","o":"<details class=\"cs-case\">","b":[
+  {"i":"126ut7c","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 단순도박 확정판결 이후 상습도박 기소</strong></span> <span class=\"cs-exam\">【변사18】</span>","k":"14vbkan"},
+  {"i":"rzwli0","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"njtnf6-2","o":"<div class=\"cs-fact\">","b":[
+    {"i":"lzgcbu","o":"<div class=\"cs-callout\">","b":[
+     {"i":"ufpcd7","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲의 도박죄에 대하여 유죄판결이 확정 → 검사가 위 도박죄 범행 '이전'의 내기골프 도박 10회 + 도박죄 확정판결 '이후'의 내기골프 도박 3회를 추가 수사한 후 상습도박죄로 기소, 공판심리 결과 甲에게 상습성이 인정된 경우 법원이 취할 조치는? (10점)","k":"b8dqrd"}
+    ]}
+   ]},
+   {"i":"dceoxh","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"rfult8","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"ggej1i","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [기판력의 기준시점]</strong> 상습성 인정시 동일한 도박 습벽의 상습도박죄는 포괄일죄 → 포괄일죄 일부 판결확정시 '사실심판결선고시' 기준으로 그 이전 범행에 기판력. 단순도박죄 확정판결의 기판력은 확정판결 '이후'의 내기골프 도박 3회에는 미치지 않음","k":"1haw55b"},
+    {"i":"17kzpfu","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [기본구성요건 판결 확정]</strong> 상습범 일부가 상습범 아닌 기본 구성요건 범죄로 기소·확정된 경우 기판력이 사실심판결 선고 전 나머지 범죄에 미치는지 — 실체판결설(다수)·면소판결설(반대). 확정된 사건 자체의 범죄사실·죄명 기준이 원칙이므로 실체판결설 타당 → 단순도박죄 확정판결의 기판력은 사실심 선고 전 내기골프 도박 10회에도 미치지 않음","k":"ch1868"},
+    {"i":"17oee4i","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> 법원은 공소제기된 13회 내기골프 도박 상습도박죄 전체에 대해 유·무죄의 실체판결(하나의 포괄일죄)","k":"6g20i1"}
+   ]}
+  ]}
+ ]},
+ {"i":"1s7om47","o":"<div class=\"cs-callout\">","b":[
+  {"i":"13mquia","o":"<div class=\"cs-h\">","h":"Ⅰ. [전소] 확정판결 (일사부재리효력이 있는 판결 등)","k":"okqlwg"},
+  {"i":"1n3igjk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"확정판결이 있은 때에는 판결로써 <span class=\"cs-red\"><strong>면소의 선고</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§326제1호)</strong></span></span>","k":"w0e7tt"},
+  {"i":"9cflp9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[처벌 의미]</span> 헌법§13①의 일사부재리 원칙에서 '처벌'이란 원칙적으로 <span class=\"cs-red\"><strong>국가의 형벌권 실행으로서의 과벌을 의미하고, 국가가 행하는 일체의 제재·불이익처분이 모두 포함되는 것은 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변23】</span>","k":"16ydtsj"},
+  {"i":"11wgi2a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[효력 O]</span> 유·무죄 실체판결 / 면소판결 / 약식명령<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§457)</strong></span></span> / 즉결심판<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(즉심법§16)</strong></span></span> / <span class=\"cs-red\"><strong>당연무효의 판결</strong></span>","k":"v5k657"},
+  {"i":"10qb07u","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[효력 X]</span> 공소기각결정·판결 / 관할위반 판결 / 과태료부과처분 / 외국 확정판결 / 검사의 무혐의 결정","k":"z927ic"},
+  {"i":"1vrzhr7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[보호처분·불처분결정]</span> ① 소년·가정폭력행위자에 대한 '보호처분'은 면소사유가 아니라 <span class=\"cs-green\"><strong>공소기각 판결(제2호) 사유</strong></span> ② 불처분결정은 그 자체로는 면소·공소기각 사유가 아니므로 <span class=\"cs-green\"><strong>검사는 다시 기소 가능</strong></span>(다만 공소권남용시 공소기각판결(제2호) 가능)<span class=\"cs-exam\">【변25·22·20 빈출】</span>","k":"18ysivg"},
+  {"i":"1nbogrh","o":"<div class=\"cs-h\">","h":"Ⅱ. [후소] 기판력의 범위","k":"uuw6p5"},
+  {"i":"vokpy9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>기판력의 주관적 범위</strong></span>","k":"ilynit"},
+  {"i":"vrbxbz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[피고인]</span> 기판력은 <span class=\"cs-red\"><strong>확정판결을 받은 피고인에게만</strong></span> 미침(다른 공범 X)","k":"16m5ti5"},
+  {"i":"187ufhj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>기판력의 객관적 범위 — 범죄사실 동일성 판단기준</strong></span> (공소장변경과 동일)","k":"mwpq1p"},
+  {"i":"3tfya6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-green\"><strong>죄질동일설</strong></span> / <span class=\"cs-green\"><strong>구성요건공통설</strong></span> / <span class=\"cs-green\"><strong>소인공통설</strong></span> / <span class=\"cs-red\"><strong>기본적 사실동일설</strong></span>","k":"1jq852m"},
+  {"i":"bm8uyz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 기본적 사실동일설 + 규범적 요소 고려] 범죄사실의 동일성 여부는 사실의 동일성이 갖는 법률적 기능을 염두에 두고 피고인의 행위와 사회적인 사실관계를 기본으로 하되 규범적 요소도 고려하여 판단</strong></span> → <span class=\"cs-u\">방어권 보장과 형벌권의 적정한 실현을 조화롭게 고려</span>하는 <span class=\"cs-red\"><strong>판례 타당</strong></span><span class=\"cs-exam\">【변14·13】</span>","k":"1wbr11u"},
+  {"i":"8vl1oc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[기판력 미침]</span> ① 범죄사실이 동일한 경우(흡수·특별·양립불가관계) ② 포괄일죄(단순포괄일죄·상습범·영업범) ③ <span class=\"cs-red\"><strong>상상적 경합관계</strong></span> → <span class=\"cs-green\"><strong>실체적 경합관계에는 미치지 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변23·20·17】</span>","k":"kb59jq"},
+  {"i":"o6hyuo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[포괄일죄 + 상상적 경합]</span> 포괄일죄 일부에 판결·약식명령이 확정되었는데 사실심판결선고시·약식명령 발령시 이전 범행이 포괄일죄 일부일 뿐만 아니라 상상적 경합관계의 다른 죄에도 해당하는 경우 <span class=\"cs-red\"><strong>기판력은 상상적 경합관계의 다른 죄에도 미침</strong></span><span class=\"cs-exam\">【변26·24】</span>","k":"121e9o8"},
+  {"i":"1vpwz87","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[횡령 vs 배임증재]</span> 회사자금 횡령 후 그 일부를 청탁과 함께 배임증재에 공여한 경우 범의·행위태양·보호법익을 달리하는 별개의 행위이므로 <span class=\"cs-green\"><strong>횡령죄 확정 약식명령의 기판력이 배임증재의 점에는 미치지 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변26】</span>","k":"1evpt2j"},
+  {"i":"wmuyra","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>기판력의 시간적 범위</strong></span>","k":"vct7ox"},
+  {"i":"60ro8z","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[기준시점]</span> ① 제1심판결 확정 → 제1심판결 선고시 ② 항소심판결 확정 → 항소심판결 선고시 ③ 항소이유서 미제출 항소기각결정 확정 → 항소기각결정시<span class=\"cs-exam\">【변23·16】</span>","k":"1hvpzpv"},
+  {"i":"1q9xhqs","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[정식재판청구]</span> 약식명령에 정식재판청구하여 제1심판결이 선고·확정된 경우 <span class=\"cs-red\"><strong>'제1심판결선고시'</strong></span>가 기준(약식명령의 효력 상실)","k":"iakqp4"},
+  {"i":"udt02b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[포괄일죄]</span> 판결확정은 <span class=\"cs-red\"><strong>사실심판결선고시</strong></span>, 약식명령 확정은 <span class=\"cs-red\"><strong>'발령시'(송달시 X)</strong></span> 기준으로 그 이전 범행에 기판력 → 발령시 전 범행은 면소, 그 이후 범행만 일개 범죄로 처벌<span class=\"cs-exam\">【변25·22·20 빈출】</span>","k":"16u92i5"},
+  {"i":"1yk5eoe","o":"<div class=\"cs-h\">","h":"Ⅲ. 포괄일죄의 기판력","k":"1i37wn8"},
+  {"i":"14vf260","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>영업범·접속범 등 포괄일죄 + '별종'의 확정판결</strong></span>","k":"1y4hcxl"},
+  {"i":"9md3le","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[별종 확정판결 개재]</span> 포괄일죄는 그 중간에 '별종'의 범죄에 대한 확정판결이 끼어 있어도 <span class=\"cs-red\"><strong>포괄적 범죄가 둘로 나뉘지 아니하고 그 확정판결 후의 범죄로서 다룸</strong></span>","k":"16crt57"},
+  {"i":"327au1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>포괄일죄 + '동종'의 확정판결</strong></span>","k":"1r5hrdm"},
+  {"i":"6rug23","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[동종 확정판결 개재]</span> 실체법상 포괄일죄 중간에 '동종'의 죄에 관한 확정판결이 있으면 <span class=\"cs-red\"><strong>확정판결로 전후 범죄사실이 나뉘어 일련의 범행이 확정판결 전후로 분리</strong></span> → ① 선고일(발령일)까지 면소(이유) ② 그 다음날부터 실체판결 선고(주문)","k":"8cyh0w"},
+  {"i":"1rq5rqq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>상습범 + '별종'의 확정판결</strong></span>","k":"1fexw9j"},
+  {"i":"1b7junm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"별종 확정판결이 있어도 동일한 습벽의 상습범죄가 둘로 나뉘지 아니하고 <span class=\"cs-red\"><strong>전부가 확정판결 후의 범죄로서 다룸</strong></span>","k":"eqr99d"},
+  {"i":"19kp2x6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>동종의 '상습범'으로 처단된 판결확정</strong></span>","k":"10t7xsd"},
+  {"i":"172nsxp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"동종의 '상습범'으로 처단된 판결이 확정된 경우 후소가 상습범·기본범죄 어느 것으로 공소제기되어도 <span class=\"cs-red\"><strong>확정판결 전의 범죄에 기판력</strong></span>","k":"1kymeuk"},
+  {"i":"158gong","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>공소제기된 범죄사실과 추가발견 범죄사실 사이에 동일한 습벽의 또다른 범죄사실에 대한 유죄 확정판결이 있는 경우 전후 범죄사실의 일죄성은 분단되어, 공소제기된 범죄사실과 판결이 확정된 범죄사실만이 포괄하여 하나의 상습범을 구성하고, 추가발견 확정판결 후의 범죄사실은 경합범 관계의 별개 상습범</strong></span><span class=\"cs-exam\">【변22·16·14 빈출】</span>","k":"stcd6e"},
+  {"i":"5faymq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>동종의 '비상습범(기본범죄)'으로 처단된 확정판결</strong></span><span class=\"cs-exam\">【변사18, 모사24·16】</span>","k":"yotfii"},
+  {"i":"coxqkp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"상습범 일부가 상습범 아닌 '기본 구성요건' 범죄사실로 기소·확정된 경우 기판력이 사실심판결 선고 전 나머지 범죄에 미치는지 — <span class=\"cs-red\"><strong>실체판결설</strong></span>(확정된 사건 자체의 범죄사실·죄명 기준) / <span class=\"cs-green\"><strong>면소판결설</strong></span>","k":"iwotor"},
+  {"i":"t32l7h","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 실체판결설] 상습범 포괄일죄 일부에 유죄판결이 확정되어 그 사실심판결 선고 전 나머지 범죄에 새로 공소제기되면 면소판결하나, 이 법리는 전의 확정판결에서 '상습범'으로 기소·처단되었을 것을 필요로 하고, 상습범이 아닌 '기본 구성요건' 범죄로 처단되는 데 그친 경우에는 모두가 상습범 포괄일죄에 해당한다고 판단되더라도 그 기판력이 사실심판결 선고 전 나머지 범죄에 미친다고 보아서는 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span> → <span class=\"cs-red\"><strong>실체판결설 타당</strong></span><span class=\"cs-exam\">【변26·24·23 빈출】</span>","k":"306iv8"},
+  {"i":"ypyzwa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>상습범 재심판결의 기판력</strong></span>","k":"1bn8eqg"},
+  {"i":"syncp6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[후행범죄 판결 기판력 X]</span> 선행범죄 재심판결 선고 전에 후행범죄에 대한 판결이 먼저 선고·확정된 경우에도 <span class=\"cs-green\"><strong>후행범죄 판결의 기판력은 선행범죄에 미치지 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>(동시에 심판할 수 없으므로)","k":"10eljab"},
+  {"i":"9yl30s","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[재심판결 기판력 X]</span> 상습범 유죄 확정판결(재심대상 선행범죄)을 받은 사람이 그 후 동일 습벽으로 후행범죄를 저질렀고 선행범죄 확정판결에 재심이 개시된 경우, 후행범죄가 재심판결 선고 전에 저질러졌더라도 <span class=\"cs-green\"><strong>재심판결의 기판력은 후행범죄에 미치지 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>(동시에 심판할 수 없으므로)","k":"6l3cqq"}
+ ]}
+]}

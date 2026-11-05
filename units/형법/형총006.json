@@ -1,0 +1,81 @@
+{"id":"형총006","t":"인과관계와 객관적 귀속","cat":"chong_02","lv":1,"tg":["A급"],"b":[
+ {"i":"1bvg22k","o":"<details class=\"cs-case\">","b":[
+  {"i":"k5560e","o":"<summary>","h":"<span class=\"cs-u\">[CASE] 음주운전·구급차 전복 사망</span><span class=\"cs-exam\">【변사14】</span> <span class=\"cs-red\">(20)</span>","k":"j8d012"},
+  {"i":"1bshs0a","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1a80d8g","o":"<div class=\"cs-fact\">","b":[
+    {"i":"v2e69k","o":"<div class=\"cs-callout\">","b":[
+     {"i":"eu8pfq","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲 혈중알코올 0.25% 만취 운전 → 보행신호 횡단보도 걷던 B를 승용차로 침 → B 중상 도로에 쓰러짐. 甲 사고신고받고 긴급출동한 경찰관 P에 현장 체포. B 사고 직후 구급차 후송 중 구급차가 교차로서 신호무시 트럭과 충돌 전복, 그 충격으로 사망. 甲의 죄책? (20점)","k":"hr7z6e"}
+    ]}
+   ]},
+   {"i":"1q7u3fr","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1pnmyim","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1p0qx49","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-exam\">【변사14】</span>","k":"1rqnxgt"},
+    {"i":"1nrfc9j","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [도교법위반(음주운전)]</strong>","k":"m44q1b"},
+    {"i":"1leveyn","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제148조의2</strong></span></span> 제3항 제1호, <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제44조</strong></span></span> 제1항","k":"60ddxl"},
+    {"i":"onwlpe","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 甲 = 도교법위반(음주운전)죄","k":"1jcy9qr"},
+    {"i":"1s455oc","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [특가법위반(위험운전치'사상')]</strong> (가) [특가법위반(위험운전치상)죄의 적용여부]","k":"5519xf"},
+    {"i":"12am8pf","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제5조의11</strong></span></span> 제1항","k":"uj6ghw"},
+    {"i":"t82yv5","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 혈중알코올 0.25% 만취·보행신호 횡단보도 B 충격 → 음주 영향으로 정상운전 곤란 상태 운전","k":"11c2nw3"},
+    {"i":"wzvslt","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 횡단보도 B 승용차로 침 → 업무상 과실 인정 (나) [사망과의 인과관계 인정여부]","k":"7fimwc"},
+    {"i":"1jtepos","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 인과관계(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제17조</strong></span></span>) 학설·판례","k":"11h83kk"},
+    {"i":"vayh7d","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 구급차가 신호무시 트럭과 충돌 전복 충격 사망 → 일반 생활경험칙상 제3자의 중대한 과실 개입 = 통상 예견 곤란","k":"1io798d"},
+    {"i":"saqqu5","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 甲 업무상 과실 ↔ B '사망' = 상당인과관계 X (다) [소결]","k":"1ezg0e0"},
+    {"i":"5ejq3w","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 甲 업무상 과실로 B '중상' → 특가법위반(위험운전치'상')죄 성립, 교특법위반(치상)죄는 흡수되어 별도성립 X","k":"mzpbpm"},
+    {"i":"eun2og","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> 甲 = 도교법위반(음주운전)죄 + 특가법위반(위험운전치상)죄 실체적 경합","k":"1k8ajiw"}
+   ]}
+  ]}
+ ]},
+ {"i":"1fvqg9p","o":"<details class=\"cs-case\">","b":[
+  {"i":"101tadg","o":"<summary>","h":"<span class=\"cs-u\">[CASE] 등산용 칼·도주·수술지연 사망</span><span class=\"cs-exam\">【변사25】</span> <span class=\"cs-red\">(15)</span>","k":"1ia40z1"},
+  {"i":"1t3gwff","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"18eqp0h","o":"<div class=\"cs-fact\">","b":[
+    {"i":"tddk49","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1trqken","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"乙이 A에게 현금가방 뺏는 과정에서 등산용 칼 들이댐 → A 황급히 도망가다 옆 도로 건너던 중 갑자기 뛰어든 A를 못 본 T 운전 차량에 들이받힘. A 병원 후송, 장파열 치료하던 의사가 수술 지연하여 복막염으로 사망. 乙의 죄책을 인과관계·객관적 귀속 관점에서 논하라. (15점)","k":"9ucroe"}
+    ]}
+   ]},
+   {"i":"1jya1ja","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1d8xxr3","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1uyegh6","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-exam\">【변사25】</span>","k":"1rqns0f"},
+    {"i":"1m9m5rh","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [특수강도미수죄의 성립여부]</strong> 乙 = 흉기(등산용 칼) 들이대고 가방 뺏으려 함 → 특수강도죄 실행 착수, A 도망가 재물 강취 X → 특수강도미수죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제342조</strong></span></span>, <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제334조</strong></span></span> 제2항·제1항)","k":"eb3oes"},
+    {"i":"4f66mx","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [인과관계와 객관적 귀속]</strong>","k":"1mdt3lt"},
+    {"i":"1o4xo8k","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 인과관계(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제17조</strong></span></span>): 조건설·원인설·상당인과관계설·합법칙적 조건설 및 객관적 귀속이론, 판례 = 상당인과관계설","k":"1auc480"},
+    {"i":"ko0rh5","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 상당인과관계설 = 기준 불명확 → 합법칙적 조건설 및 객관적 귀속이론 타당","k":"egv7oo"},
+    {"i":"ue5kgo","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [강도치상죄의 성립여부]</strong>","k":"1orq1t1"},
+    {"i":"nsm5am","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 강도치상죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제337조</strong></span></span>) 주체 = 강도, 재물강취 기수·미수 불문","k":"1hrosqh"},
+    {"i":"805464","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 합법칙적 조건설·객관적 귀속: 칼 들이대자 A 도망가다 사고 → 합법칙적 조건관계 + 예견·지배가능, 특수강도로 허용 X 위험 창출·A 상해로 실현 → 객관적 귀속 인정 → 강도치상죄","k":"r0es8w"},
+    {"i":"1jt92p","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 판례 상당인과관계설: 강도 피해자가 도망가다 차로 건너던 중 차량 충돌 장파열 = 통상 예견가능 → 상당인과관계 인정 → 강도치상죄","k":"guwxcc"},
+    {"i":"1icqs18","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"④ 조건설: 乙 특수강도 없었으면 A 교통사고 상해 X → 인과관계 인정","k":"1hlhsjt"},
+    {"i":"l3j7no","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(4) [강도치사죄의 성립여부]</strong>","k":"1x7yqj3"},
+    {"i":"1p8qlqt","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 강도치사죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제338조</strong></span></span>) 주체 = 강도, 기수·미수 불문","k":"1qdtbg6"},
+    {"i":"1lyie45","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 합법칙적 조건설·객관적 귀속: 도망→장파열→치료 중 사망 = 합법칙적 조건관계 + 예견·지배가능, 위험 창출·A 사망으로 실현 → 객관적 귀속 인정 → 강도치사죄","k":"x6r95f"},
+    {"i":"8qfzll","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 판례 상당인과관계설: 장파열 치료 중 의사 수술지연 사망 = 통상 예견가능 → 상당인과관계 인정 → 강도치사죄","k":"goq5lk"},
+    {"i":"30tnww","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"④ 조건설: 특수강도 없었으면 도망·상해·사망 X → 인과관계 인정","k":"p8u9yo"},
+    {"i":"rpdcof","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(5) [결론]</strong> 어느 견해에 의하더라도 乙 = 강도치사죄. 강도치사죄 성립하는 이상 특수강도미수죄·강도치상죄 별도 성립 X","k":"6aqm8z"}
+   ]}
+  ]}
+ ]},
+ {"i":"scatye","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1d987nc","o":"<div class=\"cs-h\">","h":"Ⅰ. 인과관계 학설 (결과적 가중범 동일) [변사25·20·16·14, 모사23·21·14·12]","k":"1por8ij"},
+  {"i":"1v63i9p","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[학설]</span> ①조건설 ②원인설 ③상당인과관계설(경험칙상 결과발생에 상당하다 인정될 때 인과관계 인정) ④합법칙적 조건설 및 객관적 귀속이론(인과관계는 합법칙적 조건관계로 결정 + 행위자 행위에 귀속 가부는 규범적 검토)","k":"12wopne"},
+  {"i":"ysy4ze","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[판례 상당인과관계설]</span> 판례 = 상당인과관계설","k":"e6vdby"},
+  {"i":"1m8xztk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[검토]</span> 상당인과관계설 = 기준 불명확 → 인과관계와 결과의 귀속을 구별하는 객관적 귀속이론 타당","k":"r5bdp"},
+  {"i":"t4y6vc","o":"<div class=\"cs-h\">","h":"Ⅱ. 객관적 귀속이론","k":"1knozan"},
+  {"i":"n6cbw2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[객관적 귀속이론]</span> 합법칙적 조건설로 사실적 인과관계 인정돼도 규범적 판단으로 결과귀속 부정하려는 이론 <span class=\"cs-fact-tag\">[결과가 행위자의 책임('탓')인가]</span>","k":"1158l7j"},
+  {"i":"1drzl3k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[요건]</span> ①결과가 객관적으로 예견·지배가능 <span class=\"cs-fact-tag\">[예견·지배가능성]</span> ②허용되지 않는 위험 창출·증대 → 위험이 결과로 실현 <span class=\"cs-fact-tag\">[위험창출·실현]</span> ③결과가 규범의 보호목적 범위 내 발생 <span class=\"cs-fact-tag\">[규범의 보호목적]</span>","k":"1xuyku6"},
+  {"i":"1sw09b4","o":"<div class=\"cs-h\">","h":"Ⅲ. 구체적 인과관계 이론","k":"1yqsfms"},
+  {"i":"1aq9w02","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[조건설]</span> ①행위 없었으면 결과 발생 안 했을 모든 조건에 인과관계 인정(절대적 제약공식) ②모든 조건 동일 원인(등가설) ③가설적 제거절차 판단 → 이중적(택일적) 인과관계 부정한다는 비판","k":"2aof8s"},
+  {"i":"zc02hy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[상당인과관계설]</span> ①경험칙상 상당한 조건만 원인·인과관계 인정 ②사실적·규범적 측면 모두 고려, 높은 가능성=개연성 관계 판단 ③인과관계·결과귀속 혼동, 판단척도 모호 비판","k":"1cg4tux"},
+  {"i":"1mkep6h","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[합법칙적 조건설 및 객관적 귀속이론]</span> ①행위가 외계 변화와 합법칙적 결합 → 구성요건적 결과 실현 시 인과관계 인정 ②전개과정이 확립된 자연과학적 인과법칙 부합하는가 심사 ③합법칙적 관계 내용 불명확·인정범위 너무 넓다 비판 ④객관적 귀속이론과 결합","k":"e6x1e6"},
+  {"i":"1as6xem","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[조건설과의 차이]</span> ①상당인과관계설 ②합법칙적 조건설 및 객관적 귀속이론 = 가설적으로 발생 가능한 결과는 인과관계 판단서 고려 X","k":"e4zeh4"},
+  {"i":"1eku6sp","o":"<div class=\"cs-h\">","h":"Ⅳ. 비유형적 인과관계 [변사25·20·16·14, 모사23·21·14·12]","k":"1tt6f4p"},
+  {"i":"srtmnu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[판례 상당인과관계설]</span> 실행행위가 결과발생의 유일·직접 원인이어야 하는 것 X → 실행행위와 결과 사이 다른 사실 개재되어 그것이 직접원인이 돼도, 그 사실이 통상 예견가능한 정도면 상당인과관계 인정<span class=\"cs-exam\">【변23·22·18·17】</span>","k":"11dr0ym"},
+  {"i":"h6e40h","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[표: 피해자 또는 제3자의 행위가 개입된 경우 (비유형적 인과관계)]</span> — <span class=\"cs-fact-tag\">[행키]</span> 인과관계 긍정 — 인과관계 부정","k":"jlz030"},
+  {"i":"ffyaws","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[기왕증]</span> 긍정 <span class=\"cs-fact-tag\">[일반적인 질환]</span> 피해자 지병이 사망결과에 영향 줘도 인과관계·예견가능성 인정(간경화·고혈압·선천성혈관기형·심장질환 등), 뺨 1회 때리고 목을 쳐 넘어뜨려 두부손상 → 입원치료 중 합병증 사망<span class=\"cs-exam\">【변25】</span> — 부정 <span class=\"cs-fact-tag\">[특이질환]</span> 비정상적 얇은 두개골 + 뇌수종 → 좌측 뺨 때리자 급성뇌성압 상승 넘어져 사망","k":"1b3l0kp"},
+  {"i":"tn6jds","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[제3자의 과실 개입]</span> 긍정 <span class=\"cs-fact-tag\">[경미한 과실 개입]</span> <span class=\"cs-fact-tag\">[의사 수술지연]</span> 의사 수술지연 등 과실<span class=\"cs-exam\">【변사25】</span>, <span class=\"cs-fact-tag\">[트럭 역과]</span> 야간 오토바이 무단횡단 피해자 충격 전도 후 40~60초 후 타인 트럭이 역과 사망, <span class=\"cs-fact-tag\">[전원지체]</span> 전원받은 병원 조치 미흡해 도착 후 약 1시간20분 후 수혈 시작(전원지체 과실로 수혈 지연) — 부정 <span class=\"cs-fact-tag\">[중대한 과실 개입]</span> 사고 직후 구급차 후송 중 구급차가 교차로서 신호무시 트럭과 충돌 전복 충격 사망<span class=\"cs-exam\">【변사14】</span>","k":"rssh0o"},
+  {"i":"65420p","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[제3자의 고의 행위]</span> 긍정 <span class=\"cs-fact-tag\">[제3자의 부작위]</span> 타인 범행 중·후 피해자 남편을 처가 방치 — 부정 <span class=\"cs-fact-tag\">[제3자의 작위]</span> 고의 살인","k":"3bgsfy"},
+  {"i":"6i52zm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[피해자의 과실]</span> 긍정 <span class=\"cs-fact-tag\">[급성신부전증]</span> 살인 자상으로 급성신부전증 등 발생 사망, <span class=\"cs-fact-tag\">[김밥·콜라 섭취]</span> 음식·수분 섭취 억제해야 하는데 피해자가 김밥·콜라 함부로 먹은 과실 개입 — 부정 (없음)","k":"1uhr8mi"},
+  {"i":"16i0mox","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[피해자의 도망·탈출]</span> 긍정 <span class=\"cs-fact-tag\">[창문 탈출]</span> 강간 모면 위해 창문으로 '탈출'하다 추락 사망, <span class=\"cs-fact-tag\">[공포심 회피]</span> 폭행·협박 강취행위와 공포심에 피하려다 상해 <span class=\"cs-fact-tag\">[강도치상죄]</span><span class=\"cs-exam\">【변25】</span>, <span class=\"cs-fact-tag\">[도로 도주]</span> 상해행위 피하려 도로 건너 도주하다 차량에 치여 사망<span class=\"cs-exam\">【변사25】</span> — 부정 (없음)","k":"1bpddk8"},
+  {"i":"1buncyw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[피해자의 고의행위]</span> 긍정 <span class=\"cs-fact-tag\">[자살 예견가능]</span> 피고인들이 피해자 소심한 성격 인지하고 강도 모의·범행, 사망 추정시간 직전까지 협박 계속, 투신자살 직후 반응·대화에 비추어 극심한 압박당한 피해자 자살 예견가능 → 인과관계 인정 — 부정 <span class=\"cs-fact-tag\">[수치심 음독자살]</span> 강간 당한 후 수치심·절망감으로 음독자살, <span class=\"cs-fact-tag\">[진화작업 화상]</span> 방화 후 피해자가 진화작업하다 화상 입은 경우","k":"1ngi0lh"},
+  {"i":"1fw1kjo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[천재지변·우연]</span> 긍정 (없음) — 부정 일반적으로 인과관계 부정","k":"122sg06"}
+ ]}
+]}

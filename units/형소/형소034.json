@@ -1,0 +1,28 @@
+{"id":"형소034","t":"구속영장에 의한 수사기관 조사실 구인","cat":"pro_04","lv":1,"tg":["C급","中","변사20·16","모사14"],"b":[
+ {"i":"h0fjfw","o":"<details class=\"cs-case\">","b":[
+  {"i":"rep1h1","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 출석요구 불응 구속피의자의 조사실 강제구인</strong></span> <span class=\"cs-exam\">【변사20】</span>","k":"19n173k"},
+  {"i":"1jfupga","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1l5alzk","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1wsz5k8","o":"<div class=\"cs-callout\">","b":[
+     {"i":"15pw1ui","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"구속된 丙이 피의자신문 출석요구에 불응 → 경찰이 유치장의 丙을 조사실로 강제구인 후 진술거부권 고지하고 신문. 피의자신문은 적법한가? (10점)","k":"5fqxlm"}
+    ]}
+   ]},
+   {"i":"13xsldj","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"3mef72","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"8bvxvl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 구속영장으로 출석 거부 피의자를 조사실로 강제구인 가부 — 긍정설, 부정설. 판례는 긍정설","k":"1aujio3"},
+    {"i":"5wijc7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 구속영장은 구속기간 내 조사도 예정 → 조사실까지 강제구인 O → 긍정설 타당","k":"ixfo3q"},
+    {"i":"1krlieb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 강제구인 O + 진술거부권 고지 O → 피의자신문 적법","k":"xjb39f"}
+   ]}
+  ]}
+ ]},
+ {"i":"uucz9","o":"<div class=\"cs-callout\">","b":[
+  {"i":"8jym1u","o":"<div class=\"cs-h\">","h":"Ⅰ. 구속영장에 의한 수사기관 조사실 구인","k":"1qomcuq"},
+  {"i":"9m9xg7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검사 또는 사법경찰관은 수사에 필요한 때에는 <span class=\"cs-red\"><strong>피의자의 출석을 요구하여 진술</strong></span>을 들을 수 있음<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§200)</strong></span></span>","k":"vqcfpw"},
+  {"i":"1imizbp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《구속영장의 효력으로 구속된 피의자를 수사기관 조사실로 구인할 수 있는지 여부》</strong></span> — (별도의 구인영장 제도는 없음)","k":"mh0akm"},
+  {"i":"r0rg9v","o":"<div class=\"cs-theory\">","b":[
+   {"i":"1yq3s1t","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① <span class=\"cs-red\"><strong>긍정설</strong></span>(구속은 강제적인 출석과 체류가 예정되어 있고 이를 강제하더라도 진술의 강제로 볼 수 없으므로 구인 가능) ② 부정설(구속은 절차확보를 위한 것으로 피의자신문을 위한 것이 아니고, 실질적으로 진술을 강요하는 결과를 초래한다는 이유로 구인 불가)","k":"h5wu80"},
+   {"i":"bvrpwu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 긍정설] ① 구속영장은 기본적으로 장차 공판정에의 출석이나 형의 집행을 담보하기 위한 것이지만, 이와 함께 피의자신문의 방식으로 구속된 피의자를 조사하는 등 적정한 방법으로 범죄를 수사하는 것도 예정 ② 따라서 구금된 피의자가 수사기관 조사실에 출석을 거부한다면 수사기관은 그 구속영장의 효력에 의하여 피의자를 조사실로 구인 <span class=\"cs-o\"><strong>(O)</strong></span> ③ 다만 이러한 경우에도 그 피의자신문 절차는 어디까지나 '임의수사'의 한 방법으로 진행되어야 하므로, 피의자는 진술을 거부할 수 있고 수사기관은 신문 전에 진술거부권을 고지하여야 함</strong></span><span class=\"cs-exam\">【변19·15·13】</span>","k":"3tcfgr"},
+   {"i":"1q01zzc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: <span class=\"cs-u\">구속영장은 구속기간 내에 피의자를 조사하는 것도 예정하고 있으므로</span> <span class=\"cs-red\"><strong>긍정설 타당</strong></span>. 다만 이 경우에도 조사 전 <span class=\"cs-red\"><strong>진술거부권 등을 고지</strong></span>하여야 함","k":"1v4ybia"}
+  ]}
+ ]}
+]}

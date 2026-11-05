@@ -1,0 +1,83 @@
+{"id":"형소102","t":"진술불능과 특신상태","cat":"pro_14","lv":1,"tg":["A급","上","변사16","모사25·15","변기26·25","모기25·22·20·19"],"b":[
+ {"i":"1kad72g","o":"<details class=\"cs-case\">","b":[
+  {"i":"9bz3wc","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 변호사가 증언거부한 검토의견서의 증거능력</strong></span> <span class=\"cs-exam\">【변사16】</span>","k":"1yudwkd"},
+  {"i":"1nou7jy","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1xv6244","o":"<div class=\"cs-fact\">","b":[
+    {"i":"17dg40c","o":"<div class=\"cs-callout\">","b":[
+     {"i":"bod1f6","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"검사가 甲·乙의 출판물에 의한 명예훼손 등을 수사하자 甲·乙이 L을 변호인으로 선임하여 자문받았고, L이 검토의견서를 작성하여 甲·乙에게 송부, 검사가 이를 적법하게 압수. 이후 검사가 공소제기하고 검토의견서를 증거로 제출하였으나 甲·乙이 부동의하고, 증인으로 출석한 L이 그에 관한 증언을 거부한 경우, 검토의견서의 증거능력을 논하라. (10점)","k":"ecs22e"}
+    ]}
+   ]},
+   {"i":"zrusur","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"32891m","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"m6enrs","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [</strong><span class=\"cs-blue\"><span class=\"cs-u\"><strong>§313</strong></span></span><strong>에 의한 증거능력]</strong>","k":"1e5lsik"},
+    {"i":"1sqqc2a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§313①</strong></span></span>","k":"qhph3n"},
+    {"i":"mgc5yj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② L의 검토의견서는 피고인 아닌 자가 작성한 진술서 → L의 자필이거나 서명·날인이 있고 L의 진술에 의하여 성립의 진정함이 증명된 때 증거능력 O","k":"6n0yjz"},
+    {"i":"1488cvt","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [</strong><span class=\"cs-blue\"><span class=\"cs-u\"><strong>§314</strong></span></span><strong>에 의한 증거능력]</strong>","k":"r0rm8o"},
+    {"i":"fd0oow","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① L이 증언을 거부하여 진정성립이 인정되지 않음","k":"1ljc3qa"},
+    {"i":"15v7om6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② L은 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§149</strong></span></span>에 의하여 증언거부권 인정","k":"2hf38b"},
+    {"i":"vpd22r","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 증언거부가 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§314</strong></span></span>의 '그 밖에 이에 준하는 사유'에 해당하는지 — 제한적 긍정설·부정설, 판례는 정당한 증언거부에 대해 부정설","k":"2gbcfb"},
+    {"i":"1p2bit9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"④ L이 정당하게 증언거부권을 행사 → 어느 견해에 의하더라도 진술불능 요건에 해당하지 않아 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§314</strong></span></span>로 증거능력 X","k":"1aq9qja"},
+    {"i":"d8msof","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> 검토의견서는 증거능력 X","k":"14bx2aw"}
+   ]}
+  ]}
+ ]},
+ {"i":"1njo91t","o":"<div class=\"cs-callout\">","b":[
+  {"i":"ul21h","o":"<div class=\"cs-callout\">","b":[
+   {"i":"5z002q","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제314조(증거능력에 대한 예외)</strong></span>","k":"s3990v"},
+   {"i":"i18i82","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"제312조 또는 제313조의 경우에 공판준비 또는 공판기일에 진술을 요하는 자가 <span class=\"cs-statute\"><span class=\"cs-u\"><strong>사망·질병·외국거주·소재불명 그 밖에 이에 준하는 사유로 인하여 진술할 수 없는 때</strong></span></span>에는 그 조서 및 그 밖의 서류를 증거로 할 수 있다. 다만, 그 진술 또는 작성이 <span class=\"cs-statute\"><span class=\"cs-u\"><strong>특히 신빙할 수 있는 상태</strong></span></span>하에서 행하여졌음이 증명된 때에 한한다.","k":"1lfp3ku"}
+  ]},
+  {"i":"1rzwk86","o":"<div class=\"cs-h\">","h":"Ⅰ. 적용범위","k":"1u4erkj"},
+  {"i":"1lr58ow","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[§312④·⑤ O]</span> ① §312④(진술조서) ② §312⑤·④(수사과정 참고인 등 진술서)이 적용되는 경우 <span class=\"cs-red\"><strong>§314 적용 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span>","k":"q9qaun"},
+  {"i":"zsiajg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[§312①·③ 공범 피신조서]</span> 검사 이외의 수사기관이 작성한 공범에 대한 피신조서는 해당 피고인이 내용을 부인한 이상 증거능력이 없고, 그 당연한 결과로 <span class=\"cs-green\"><strong>§314 적용 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변23·22·21 등 빈출】</span>","k":"x1ge6o"},
+  {"i":"10oiqsv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[§313 전문서류]</span> §313가 적용되는 전문서류에는 §314 적용","k":"crlska"},
+  {"i":"jg0rvz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"전문진술에 관한 §316과 전문서류에 관한 §314의 진술불능 및 특신상태의 의미는 <span class=\"cs-red\"><strong>동일</strong></span>","k":"1sxgh7s"},
+  {"i":"84fp65","o":"<div class=\"cs-h\">","h":"Ⅱ. 원진술자의 진술불능 (필요성)","k":"13tboxr"},
+  {"i":"xpzq06","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>사망</strong></span>","k":"36qr8"},
+  {"i":"17hofv4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"원진술자가 사망한 경우 진술불능 요건 <span class=\"cs-o\"><strong>(O)</strong></span>","k":"b8lsli"},
+  {"i":"x481xc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>질병</strong></span>","k":"386os"},
+  {"i":"1ta42ly","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>질병은 진술을 요할 자가 공판이 계속되는 동안 임상신문이나 출장신문도 불가능할 정도의 중병임을 요함</strong></span>","k":"1a972gh"},
+  {"i":"ho23zh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[O]</span> 노인성 치매로 인한 기억력 장애·분별력 상실 / 정상적 진술이 불가능한 정도의 심각한 정신병","k":"1v86g8c"},
+  {"i":"10cqt9u","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[X]</span> 10세 성추행 피해자가 5세에 당한 성추행으로 외상 후 스트레스 증후군을 앓고 있다는 이유","k":"dlpb99"},
+  {"i":"1inxhef","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[X]</span> 출산을 앞두고 있다는 이유<span class=\"cs-exam\">【변24, 변기25, 모기25·22】</span>","k":"17h3hwp"},
+  {"i":"1rzer98","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>외국거주</strong></span>","k":"nopi8s"},
+  {"i":"1jepcyg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>'외국거주'는 단순히 외국에 있다는 것만으로는 부족하고, 가능하고 상당한 수단을 다하더라도 그 사람을 법정에 출석하게 할 수 없는 사정이 있어야</strong></span><span class=\"cs-exam\">【모기25】</span>","k":"ydumq2"},
+  {"i":"13118p0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"소재 확인·소환장 발송 절차를 항상 거쳐야 하는 것은 아니고, 거치지 않았더라도 <span class=\"cs-fact-tag\">[법정에서 신문하는 것을 기대하기 어려운 사정]</span>이 인정되면 요건 충족 — (공동정범이기 때문에 출석을 기대하기 어려움)","k":"1fp540y"},
+  {"i":"1krd4lg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[외국에 거주하며 공판정 출석을 거부하나 증언 자체를 거부하는 의사가 분명하지 않은 경우]</span> 주소·연락처가 파악되고 국제형사사법공조조약이 체결된 상태라면 <span class=\"cs-red\"><strong>사법공조로 증인 소환 가능 여부를 검토하고, 소환이 안 되면 사법공조로 증인신문을 요청하는 등의 절차를 거쳐야</strong></span>","k":"jr24m6"},
+  {"i":"guzmpw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>소재불명</strong></span>","k":"npbt48"},
+  {"i":"jlqr12","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[기본 법리] 증인의 법정 출석을 위한 가능하고도 충분한 노력을 다하였음에도 부득이 법정 출석이 불가능하게 되었다는 사정을 검사가 증명한 경우여야</strong></span><span class=\"cs-exam\">【변21】</span>","k":"fwhhk"},
+  {"i":"1byl1a5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"소재불명에 해당하려면 ① <span class=\"cs-red\"><strong>소환장 송달불능</strong></span> ② <span class=\"cs-red\"><strong>소재탐지불능</strong></span> ③ 가능·충분한 노력을 다하였다는 사실이 입증되어야","k":"1dyv0w"},
+  {"i":"fj0f75","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[O]</span> 소환장이 주소불명 등으로 송달불능이 되어 소재탐지촉탁까지 하여 소재수사를 하였으나 소재를 확인할 수 없는 경우(가능하고도 충분한 노력 전제)","k":"6tfsr7"},
+  {"i":"1odnvn1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[X]</span> 증인의 주소지가 아닌 곳으로 소환장을 보내 송달불능이 되자 그곳을 중심으로 소재탐지를 하여 소재탐지불능 회보를 받은 경우","k":"1u9g6g1"},
+  {"i":"1fwy3ee","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[X]</span> 소환장이 송달불능이 되자 소재탐지촉탁 등의 조치 없이 검사가 증인신청을 철회한 경우<span class=\"cs-exam\">【변22·18】</span>","k":"15973jf"},
+  {"i":"ke6zci","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[X]</span> 소재탐지불능보고서가 제출되었지만 검사가 기록에 나타난 전화번호로 연락하였다는 사정이 없는 경우<span class=\"cs-exam\">【변14】</span>","k":"d7n2tk"},
+  {"i":"1k10ql9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>그 밖에 이에 준하는 사유</strong></span>","k":"1rn48in"},
+  {"i":"1c8412m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"가. 구인 불능","k":"xqmx02"},
+  {"i":"1u2i72b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[일정한 주거가 있더라도 법원의 소환에 계속 불응하고 구인하여도 구인장이 집행되지 아니하는 등 신문이 불가능한 상태]</span> §314 요건 충족<span class=\"cs-exam\">【변22】</span>","k":"t5ik47"},
+  {"i":"hzcgag","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"형식적으로 구인장 집행 불가능 서면이 제출된 것만으로는 부족하고, <span class=\"cs-red\"><strong>구인장의 강제력에 기하여 법정 출석을 위한 가능·충분한 노력을 다하였음에도 부득이 출석이 불가능하게 되었다는 사정을 검사가 입증</strong></span>해야","k":"1q4yqw0"},
+  {"i":"t7m5x0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"나. 기타 이에 준하는 사유","k":"7tugsn"},
+  {"i":"sauedr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[진술거부권 행사]</span> 피고인이 진술거부권을 행사하여 진술을 거부한 경우는 <span class=\"cs-green\"><strong>'그 밖에 이에 준하는 사유'에 해당 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변19·14】</span>","k":"aea90z"},
+  {"i":"1sok5td","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[유아의 기억상실]</span> 원진술자가 증인신문 당시 일정한 사항에 관하여 기억이 나지 않는다는 취지로 진술하여 진술의 일부가 재현 불가능하게 된 경우 <span class=\"cs-red\"><strong>'진술할 수 없는 때'에 해당</strong></span> — (수사기관에서 진술한 유아(만 3세 7개월))<span class=\"cs-exam\">【변14, 모사15】</span>","k":"a9ibhb"},
+  {"i":"1m3az37","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"다. 증언거부","k":"1lzik6y"},
+  {"i":"1kbtsv0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《증인이 증언거부권을 행사한 경우가 이에 해당하는지》</strong></span>","k":"3daymx"},
+  {"i":"1qk8u2b","o":"<div class=\"cs-theory\">","b":[
+   {"i":"1qeepnk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 정당하게 행사한 경우에는 해당하지 않지만 사실상 증언을 회피한 경우에는 해당한다는 <span class=\"cs-red\"><strong>제한적 긍정설</strong></span> ② 정당하게 행사하였는지와 관계 없이 해당하지 않는다는 <span class=\"cs-green\"><strong>부정설</strong></span>","k":"1nhyvhg"},
+   {"i":"17tv7v6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[정당한 증언거부 — 준하는 사유 부정] 법정에 출석한 증인이 §148·§149 등에 따라 정당하게 증언거부권을 행사하여 증언을 거부한 경우는 §314의 '그 밖에 이에 준하는 사유'에 해당하지 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변19·16·14, 변사16, 모사25, 모기19】</span>","k":"1a7zils"},
+   {"i":"rf59m8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[정당한 이유 없는 증언거부 — 원칙 부정·예외 인정] ① 참고인이 법정에서 증언을 거부하여 피고인이 반대신문을 하지 못한 경우에는 정당하게 행사한 것이 아니라도, 피고인이 증언거부 상황을 초래하였다는 등의 특별한 사정이 없는 한 §314의 사유에 해당하지 <span class=\"cs-x\"><strong>(X)</strong></span> ② 다만 피고인이 증언거부 상황을 초래한 특별한 사정이 있는 경우에는 §314의 적용을 배제할 이유가 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변26·24·23 등 빈출, 변기26, 모사25, 모기20】</span>","k":"13qucjr"},
+   {"i":"1une3js","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: 증언거부가 정당한지와 상관 없이 반대신문권이 보장되지 않았고 §314가 이중의 예외라는 점에서 <span class=\"cs-red\"><strong>부정설 타당</strong></span>","k":"19idjqi"}
+  ]},
+  {"i":"18ne272","o":"<div class=\"cs-h\">","h":"Ⅲ. 특신상태 요건 (제314조·제316조 동일)","k":"tykggs"},
+  {"i":"1sg6pt1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>의의</strong></span>","k":"34hqd"},
+  {"i":"opyl48","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>특신상태 = 진술 내용이나 조서·서류의 작성에 허위개입의 여지가 거의 없고, 진술 내용의 신빙성이나 임의성을 담보할 구체적이고 외부적인 정황이 있는 것</strong></span>","k":"1mjtn4a"},
+  {"i":"14f2ixm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>증명의 정도</strong></span>","k":"ow5u2c"},
+  {"i":"1xnhwb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[검사 증명책임]</span> 특신상태는 증거능력의 요건이므로 <span class=\"cs-red\"><strong>검사가 그 존재를 구체적으로 주장·증명</strong></span>하여야(자유로운 증명)","k":"j7chhp"},
+  {"i":"7pfr7j","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[고도의 증명]</span> 특신상태에 대한 증명은 단지 그러할 개연성이 있다는 정도로는 부족하고 <span class=\"cs-red\"><strong>합리적인 의심의 여지를 배제할 정도</strong></span>에 이르러야<span class=\"cs-exam\">【변23】</span>","k":"kx8rp3"},
+  {"i":"a81dtk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>구체적 사안</strong></span>","k":"qlf448"},
+  {"i":"1gcvhz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[O]</span> 친한 사람과의 술자리 등 자연스럽게 이루어진 경우<span class=\"cs-exam\">【변기22】</span>","k":"1ts48rk"},
+  {"i":"19o64qk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[X]</span> 대가를 받은 경우·거절하기 어려운 지위나 상황인 경우<span class=\"cs-exam\">【변기14】</span>","k":"1r1zppj"},
+  {"i":"rke4qx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[X]</span> 추궁이나 심리적 압박에 의한 경우<span class=\"cs-exam\">【변기13, 모기19】</span>","k":"1hd6vud"},
+  {"i":"7qn49u","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[X]</span> 긴급체포 후 피고인 동의 없이 밤샘 조사로 추궁하여 받은 피고인 자백<span class=\"cs-exam\">【변기22】</span>","k":"f58uf3"},
+  {"i":"80uizs","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[유서 — 자살 직전 망인이 사건 발생일로부터 14년 이상 경과 후 작성, 참회할 의도로 작성하였다고 단정하기 어렵고 구체적·세부적 기재가 없는 유서]</span> 반대신문이 가능하였다면 기억의 오류·과장·왜곡·거짓 진술 등이 드러났을 가능성을 배제하기 어려워 반대신문 검증을 굳이 거치지 않아도 될 정도로 신빙성이 담보된다고 볼 수 없어 <span class=\"cs-green\"><strong>증거능력 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span> — (유서는 망인의 자필 진술서로 피고인들이 부동의하여 §313① 적용)<span class=\"cs-exam\">【모사25】</span>","k":"8rnat"},
+  {"i":"ork2am","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[해외 조사 — 검찰관이 형사사법공조를 거치지 아니한 채 과테말라 호텔에서 뇌물공여자를 상대로 참고인 진술조서를 작성한 경우]</span> 위법수집증거는 아니나 수사의 정형적 형태를 벗어난 것이어서 <span class=\"cs-green\"><strong>특신상태 증명이 있다고 보기 어려워 증거능력 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변23】</span>","k":"9oeyte"},
+  {"i":"3udds7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[X]</span> 피고인이 진술 경위·과정을 치열하게 다투고, 경찰 진술이 체포된 상태에서 변호인 동석 없이 이루어진 경우(조사자 증언)","k":"uzbzc7"}
+ ]}
+]}

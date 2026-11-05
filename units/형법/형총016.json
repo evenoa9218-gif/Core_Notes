@@ -1,0 +1,60 @@
+{"id":"형총016","t":"부진정결과적 가중범","cat":"chong_02","lv":1,"tg":[],"b":[
+ {"i":"4u6c65","o":"<details class=\"cs-case\">","b":[
+  {"i":"tdly15","o":"<summary>","h":"<span class=\"cs-u\">[CASE] 방화 사주·존속살해미수교사</span><span class=\"cs-exam\">【변사25】</span> <span class=\"cs-red\">(30)</span>","k":"nrrsgw"},
+  {"i":"x8v6cr","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"tzzl29","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1dcmoux","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1fdec9j","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲은 평소 사이가 매우 좋지 않은 아버지 A를 죽이려 마음먹고, 후배 乙에게 A의 집에 불을 질러 A를 살해해 달라 사주. 승낙한 乙은 A가 자는 집에 휘발유 뿌리고 방화했으나 천장까지 불길이 붙자 놀라 도망, A는 소방대 구조로 무상. 甲·乙 죄책? (30점)","k":"g8oue"}
+    ]}
+   ]},
+   {"i":"1c373t2","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"v6quhr","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1nk3vvu","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-exam\">【변사25】</span>","k":"1rqns0f"},
+    {"i":"eg5awk","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [乙의 죄책]</strong> (가) [현주건조물방화죄]","k":"1lmf04t"},
+    {"i":"c9bl8u","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"①기수시기 = 독립연소설·중요부분연소개시설·효용상실설, 판례 독립연소설","k":"135ndzt"},
+    {"i":"dw2r4a","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"②천장까지 불길 → A 집 독립 연소 상태","k":"1p2t2ze"},
+    {"i":"wuxnzf","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③乙 = 현주건조물방화기수죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제164조</strong></span></span> 제1항) (나) [살인장애미수죄]","k":"10lusla"},
+    {"i":"pinuu9","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"①중지미수(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제26조</strong></span></span>) 자의성 = 객관설·주관설·프랑크공식·절충설, 판례 절충설. 객관적·내부적 사정 종합하는 절충설 타당","k":"gb0alz"},
+    {"i":"jrgyjt","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"②乙이 천장까지 불길 붙자 놀라 도망 = 사회통념상 범죄완수 장애사정 → 자의성 X","k":"y0whx6"},
+    {"i":"2thltc","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③乙 = 살인장애미수죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제254조</strong></span></span>, <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제250조</strong></span></span> 제1항, <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제25조</strong></span></span>) (다) [현주건조물방화치사죄의 미수범] 현주건조물방화치사죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제164조</strong></span></span> 제2항) = 부진정결과적 가중범이나 미수범 처벌규정 X → 乙에게 미수범 불성립","k":"1edk10s"},
+    {"i":"e8tmnf","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [甲의 죄책]</strong> (가) [현주건조물방화교사죄]","k":"1jy3cd5"},
+    {"i":"1hbnewy","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"①교사 = 범죄 미결의 피교사자에 '특정범죄 결의'하게 함(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제31조</strong></span></span> 제1항)","k":"1w43pur"},
+    {"i":"1kutvqt","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"②甲 = 방화 결의 없는 乙에 현주건조물방화 결의케 함 → 현주건조물방화교사죄 (나) [존속살해미수교사죄]","k":"m2w0fl"},
+    {"i":"w9y3ac","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"①신분관계로 형 경중 있는 경우 신분자가 비신분자 교사시 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제33조</strong></span></span> 단서가 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제31조</strong></span></span> 제1항에 우선","k":"177zwgz"},
+    {"i":"qef6we","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"②甲 = 乙에 존속 A 살해 교사 → 존속살해미수교사죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제250조</strong></span></span> 제2항)","k":"bjoga4"},
+    {"i":"19t2w6n","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong>","k":"1az60e9"},
+    {"i":"1h1h6hg","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"①甲 = 현주건조물방화교사죄 및 존속살해미수교사죄 상상적 경합","k":"47r0gk"},
+    {"i":"ox9554","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"②乙 = 현주건조물방화죄 및 살인미수죄 상상적 경합","k":"deccvf"}
+   ]}
+  ]}
+ ]},
+ {"i":"jrzqsk","o":"<div class=\"cs-callout\">","b":[
+  {"i":"17rlnwz","o":"<div class=\"cs-h\">","h":"Ⅰ. 부진정결과적 가중범","k":"1fpunxu"},
+  {"i":"1c67m09","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[부진정결과적 가중범 개념]</span> '고의 기본범죄'를 범하고 '과실 또는 고의에 의한 중한 결과'가 발생하는 것을 가중처벌하는 규정<span class=\"cs-exam\">【변21·17·14】</span>","k":"1ti0m2k"},
+  {"i":"qw1ld8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[중한결과 고의·과실 존재시점]</span> ①중한 결과에 대한 고의/과실 = 기본범죄 실행행위 시점에 존재해야","k":"zvirpm"},
+  {"i":"1qyroyz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[기본범죄 이후 별개범죄]</span> ②기본범죄 이후 비로소 중한 결과 고의/과실 존재 시 = 별개 범죄 구성할 뿐","k":"1qdmo4s"},
+  {"i":"1e8clwq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[현주건조물방화치'사상'죄O]</span> 중한결과 과실 있는 경우뿐 아니라 고의 있는 경우에도 성립<span class=\"cs-exam\">【변20】</span>","k":"148a2ka"},
+  {"i":"c030o6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[특수공무집행방해치'상'죄O]</span> 예견가능성 있었음에도 예견 못한 경우뿐 아니라 고의 있는 경우까지 포함하는 부진정결과적 가중범<span class=\"cs-exam\">【변24·23】</span>","k":"t5gjp3"},
+  {"i":"9wuqg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[중상해죄O]</span> 가해행위시 중상해 고의는 물론, 상해 고의만 있어도 중상해 예견가능성 인정되는 한 중상해죄 죄책 <span class=\"cs-fact-tag\">[상해 고의+중상해 예견가능성]</span>","k":"s35k6s"},
+  {"i":"1xuoycx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[중체포·중감금죄X]</span> 부진정결과적 가중범 X <span class=\"cs-gbg\">[체포·감금 및 가혹한 행위의 결합범]</span><span class=\"cs-exam\">【변16】</span>","k":"po8mng"},
+  {"i":"1wxvzwa","o":"<div class=\"cs-h\">","h":"Ⅱ. 부진정결과적 가중범의 죄수관계","k":"1rfeqab"},
+  {"i":"s83u9k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>기본 법리</strong>","k":"amrp78"},
+  {"i":"17vkoe9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[상상적 경합]</span> ①고의로 중한 결과 발생 행위가 별도 구성요건 해당 + 그 고의범을 결과적 가중범 정한 형보다 더 무겁게 처벌 규정 有 → 고의범 ↔ 결과적 가중범 = 상상적 경합","k":"oydgar"},
+  {"i":"1jum49d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[특별관계]</span> ②고의범에 더 무겁게 처벌 규정 X → 결과적 가중범이 고의범에 '특별관계' → 결과적 가중범만 성립·고의범 별도 성립 X <span class=\"cs-fact-tag\">[두 죄 형 같은 경우엔 부진정결과적 가중범만 성립]</span><span class=\"cs-exam\">【변23·16·15】</span>","k":"276kss"},
+  {"i":"mn0dup","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>중한 고의범이 '없는' 경우 (특별관계)</strong>","k":"1a11llj"},
+  {"i":"1r6uuy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[특수공무집행방해치상+특수상해]</span> 직무집행 공무원에 위험한 물건 휴대해 고의로 상해 → 특수공무집행방해치상죄만 성립·특수상해죄 구성 X <span class=\"cs-fact-tag\">[자동차로 경찰관 상해]</span><span class=\"cs-exam\">【변24·22·20·13】【변사24】</span>","k":"1velltx"},
+  {"i":"14scbkg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[현주건조물방화치사+보통살인]</span> 살해목적 현주건조물 방화해 사망 → 현주건조물방화치사죄로 의율, 살인죄 상상적 경합 X<span class=\"cs-exam\">【변20】【모사24】</span>","k":"5erjra"},
+  {"i":"53xnes","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>중한 고의범이 '있는' 경우 (상상적 경합)</strong>","k":"2q3y9h"},
+  {"i":"o34sf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[특수공무집행방해치상+강도상해]</span> 상상적 경합<span class=\"cs-exam\">【변사12】</span>","k":"1xlav63"},
+  {"i":"1j4d102","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[현주건조물방화치사+강도살인]</span> 재물 강취 후 살해목적 현주건조물 방화해 사망 → 강도살인죄 ↔ 현주건조물방화치사죄 상상적 경합<span class=\"cs-exam\">【변26·22·20·19·18·17·14】</span>","k":"xf4y9z"},
+  {"i":"12481rn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[현주건조물방화치사+존속살해]</span> 존속살해죄 ↔ 현주건조물방화치사죄 상상적 경합 [현재 존속살해죄 '주형' 법정형이 현주건조물방화치사죄와 동일 개정(사형·무기·7년 이상 징역) → ①상상적 경합설 ②특별관계설, 존속살해죄는 '자격정지 병과' 가능(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제256조</strong></span></span>) → 상상적 경합설 타당]<span class=\"cs-exam\">【모사23】</span>","k":"9rqust"},
+  {"i":"1xih0aa","o":"<div class=\"cs-h\">","h":"Ⅲ. 부진정결과적 가중범에서 중한 결과가 발생하지 않은 경우<span class=\"cs-exam\">【변사25·14】</span>","k":"1vmfa3"},
+  {"i":"15fqhn3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[현주건조물방화치사상죄]</span> 미수범 처벌규정 X → '현주건조물방화죄(미수·기수)' ↔ '상해·살인죄의 미수범' 상상적 경합 <span class=\"cs-fact-tag\">[甲이 A 살해하려 A 주거 건조물 소훼(방화기수)했으나 후회·진지한 노력으로 A 구조해 A 미사망 시 현주건조물방화치사죄 중지미수범 성립 <span class=\"cs-x\"><strong>(X)</strong></span>]</span><span class=\"cs-exam\">【변24·20·19】【변사25】</span>","k":"77xhwx"},
+  {"i":"1o6ho69","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[중상해죄]</span> 부진정결과적 가중범 중상해죄 = 미수범 처벌규정 X","k":"x5pbue"},
+  {"i":"1va9vl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[중상해 고의·상해 그침]</span> ①중상해 고의로 상해했으나 단순 상해 그침 = 단순 상해기수죄","k":"xpd2t"},
+  {"i":"bp5w9r","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[상해 미발생시 상해미수죄]</span> ②상해조차 미발생 = 단순 상해미수죄 <span class=\"cs-fact-tag\">[중상해미수죄X]</span><span class=\"cs-exam\">【변26】</span>","k":"1mjz0r8"},
+  {"i":"1k36jnw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[결과적 가중범 미수범 처벌규정 표]</span>","k":"1c9plni"},
+  {"i":"1dpx72a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[미수범 처벌규정 존재]</span> 진정결과적 가중범=<span class=\"cs-fact-tag\">[외관상]</span> 강도치사상·성폭법위반(강간등치사상)(성폭법 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제15조</strong></span></span>·<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제8조</strong></span></span>·<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제9조</strong></span></span>) — 부진정결과적 가중범=현주건조물일수'치사'상","k":"pp603f"},
+  {"i":"1oz4zpk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[미수범 처벌규정 부존재]</span> 진정결과적 가중범=특수공무집행방해치'사'·교통방해치'사'·형법상 강간등치사상·특가법위반(운전자폭행등)치'사'(특가법 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제5조의10</strong></span></span> 제2항) — 부진정결과적 가중범=현주건조물방화치'사상'·특수공무집행방해치'상'·교통방해치'상'·(존속)중상해·중유기죄·중손괴죄·중권리행사방해죄·특가법위반(운전자폭행등)치'상'","k":"19w0tb0"}
+ ]}
+]}

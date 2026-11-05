@@ -1,0 +1,23 @@
+{"id":"형총004","t":"법인의 형사책임","cat":"chong_01","lv":1,"tg":[],"b":[
+ {"i":"gd7f20","o":"<div class=\"cs-h\">","h":"Ⅰ. 양벌규정","k":"1tlz54v"},
+ {"i":"1ebdemn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>대표자 부분</strong>","k":"f07k6l"},
+ {"i":"hrj7an","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[대표자 부분 합헌]</span> 양벌규정 중 법인 '대표자' 관련 부분 = 대표자 책임을 요건으로 법인 처벌 → 책임주의 위반 X","k":"ui297c"},
+ {"i":"lzwp2y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[직접책임]</span> 대표자 법규위반에 대한 법인 책임 = 법인 자신의 위반으로 평가되는 직접책임 → 대표자 고의위반=법인 고의책임·대표자 과실위반=법인 과실책임<span class=\"cs-exam\">【변21】</span>","k":"6ob18"},
+ {"i":"1we8ghx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[사실상 대표자O]</span> 양벌규정 '법인의 대표자' = 명칭 불문, 실질적 경영·사실상 대표하는 자 포함<span class=\"cs-exam\">【변21】</span>","k":"1f4ouzo"},
+ {"i":"1uotfxz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>종업원 부분</strong>","k":"w3d0gh"},
+ {"i":"79tcbv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[종업원 부분 위헌]</span> '종업원' 관련 부분 = 종업원이 업무 관해 범죄했다는 이유만으로 법인 처벌 → 타인 범죄에 책임 유무 不問 형벌부과 = 책임주의 위반<span class=\"cs-exam\">【변21】</span>","k":"ymu36w"},
+ {"i":"o2rp7j","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[관리감독 게을리한 때 限]</span> 대리인·사용인·종업원 위반 시 법인 처벌 양벌조항 = 자기책임원칙상 법인이 상당한 주의·관리감독의무 '게을리한 때'에 限 적용","k":"eistgt"},
+ {"i":"yaja79","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[과실책임설]</span> 관리감독의무 위배 요구하는 과실책임설 = 이를 不問하는 무과실책임설에 비해 결과불법보다 행위불법 측면 중시<span class=\"cs-exam\">【변26】</span>","k":"1hx16iw"},
+ {"i":"1at6ivq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[직접·간접]</span> 구 방문판매법 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제63조</strong></span></span> '법인의 사용인' = 정식 고용계약자 + 법인 업무 직접·간접 수행하며 통제·감독 하에 있는 자 포함","k":"1iaqtou"},
+ {"i":"q0m80e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">['법인의 업무에 관하여']</span> 신용정보법 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제34조</strong></span></span> = 객관적으로 법인 업무 위한 행위 有 + 주관적으로 피용자가 법인 업무 위한다는 의사 有","k":"1a8827i"},
+ {"i":"1o4d0i8","o":"<div class=\"cs-h\">","h":"Ⅱ. 법인","k":"thlyzr"},
+ {"i":"387yup","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[자치사무O, 기관위임사무X]</span> 지자체가 고유 '자치사무' 처리 시 = 국가기관과 별도 독립 공법인 → 양벌규정 처벌대상 법인 해당<span class=\"cs-o\"><strong>(O)</strong></span> <span class=\"cs-fact-tag\">[기관위임사무의 경우 지자체는 양벌규정 처벌대상 X]</span>","k":"p7skv"},
+ {"i":"1g8mpwu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[법인격 없는 공공기관X]</span> 죄형법정주의상 '법인격 없는 공공기관' = 개인정보보호법 양벌규정으로 처벌 X, 행위자도 처벌 X <span class=\"cs-gbg\">['법인 또는 개인'만 규정(</span><span class=\"cs-blue\"><span class=\"cs-u\">제74조</span></span><span class=\"cs-gbg\"> 제2항), 경찰청X]</span>","k":"horzko"},
+ {"i":"jr2tj3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[설립전X]</span> 법인 설립 이전 자연인 행위 = 선임감독상 과실 인정 불가 → 양벌규정 적용 처벌 X","k":"64fn5x"},
+ {"i":"scn9tw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[승계X]</span> 합병으로 소멸한 법인이 종업원 위반에 양벌규정상 부담하던 형사책임 = 성질상 이전 불허 → 존속법인에 승계 X<span class=\"cs-exam\">【변13】</span>","k":"3kxm8f"},
+ {"i":"16oiqi0","o":"<div class=\"cs-h\">","h":"Ⅲ. 대표자 또는 행위자 처벌과 영업주 처벌","k":"1jji988"},
+ {"i":"139urit","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[대표자 처벌 不要]</span> '대표자' 관련 부분 = 대표자 책임을 요건으로 법인 처벌, 대표자 처벌까지 전제조건 X <span class=\"cs-fact-tag\">[대표이사 면소판결받아도 법인 양벌규정 처벌 가능]</span>","k":"1dcgivj"},
+ {"i":"11fwvve","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[종업원 처벌 종속 X]</span> 영업주 처벌 = 종업원 처벌에 종속 X, 독립하여 자신의 선임감독상 과실로 처벌 → 종업원에 구성요건상 자격 없어도 영업주 범죄성립 지장 X<span class=\"cs-exam\">【변13】</span>","k":"1dntp0x"},
+ {"i":"1ouxoy3","o":"<div class=\"cs-h\">","h":"Ⅳ. 수범자 확대기능","k":"fmkyvo"},
+ {"i":"1iaxr5g","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[수범자 확대]</span> 건축법 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제57조</strong></span></span> 양벌규정 = 적용대상을 업무주 아니면서 당해 업무 실제 집행하는 자까지 확장 → 행위자 처벌규정 + 이익귀속주체인 업무주 처벌규정<span class=\"cs-exam\">【변21】</span> <span class=\"cs-fact-tag\">[\"행위자를 벌하는 외에 그 법인 또는 자연인에 대하여도 각 본조의 벌금형을 과한다.\"]</span>","k":"ubu98e"}
+]}

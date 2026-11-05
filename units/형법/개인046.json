@@ -1,0 +1,68 @@
+{"id":"개인046","t":"사기와 책략절도","cat":"gak_사기공갈","lv":1,"tg":["변사24","모사25","모사24","모사23","모사21","모사18","변기24"],"b":[
+ {"i":"1mhntys","o":"<details class=\"cs-case\">","b":[
+  {"i":"1f6kri4","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE]</strong></span></span> <span class=\"cs-red\">(25)</span>","k":"18il7ip"},
+  {"i":"um5rlu","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"in6wp4","o":"<div class=\"cs-fact\">","b":[
+    {"i":"18m29tc","o":"<div class=\"cs-callout\">","b":[
+     {"i":"nbcuy1","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲, 02:20경 거리·편의점 안에 사람이 없자 물건을 훔치려 편의점 입장. 사는 척하며 기회를 엿보던 중 주인 A가 바닥에 떨어진 B의 지갑을 발견, \"선생님 지갑이 맞느냐\" 묻자 \"내 것이 맞다\"고 답해 교부받음. 이어 대금 지불 의사 없이 담배 1보루를 받아 신용카드를 찾는 척하다, 다른 손님이 A에게 물건 위치를 묻는 틈에 담배·지갑을 갖고 도주.","k":"78k3g1"},
+     {"i":"58xubi","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲의 죄책은? (25점)","k":"4x27dz"}
+    ]}
+   ]},
+   {"i":"1ptax2n","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1gggd2u","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"186bcll","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [건조물침입죄의 성립여부]</strong></span>","k":"11sojwa"},
+    {"i":"1amc3mi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 일반인 출입이 허용된 음식점에 영업주 승낙을 받아 통상적 출입방법으로 들어갔다면, 범죄 목적이었거나 알았다면 승낙하지 않았을 사정이 있어도 출입 당시 객관적·외형적 행위태양상 사실상 평온을 해쳤다고 평가할 수 없어 침입<span class=\"cs-x\"><strong>(X)</strong></span>","k":"133da6t"},
+    {"i":"k6rt2e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 야간건조물침입절도죄(<span class=\"cs-blue\"><span class=\"cs-u\">제330조</span></span>)의 건조물침입 판단에도 같은 법리 적용","k":"7dl00l"},
+    {"i":"ybwftr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 절도 목적이어도 평온상태 침해 사정<span class=\"cs-x\"><strong>(X)</strong></span> → 건조물침입죄(<span class=\"cs-blue\"><span class=\"cs-u\">제319조</span> 제1항</span>)<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1ghl023"},
+    {"i":"1trm59r","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [사기죄와 절도죄의 성립여부]</strong></span>","k":"hislmg"},
+    {"i":"1dkrmsw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(가) [사기와 절도의 구별]</strong>","k":"pe92zm"},
+    {"i":"uw8hfx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 절취 = 점유자의 의사에 반해 점유를 배제하고 자기·제3자의 점유로 옮김 ↔ 기망으로 처분행위를 하게 해 취득 = 사기죄","k":"1ev1lly"},
+    {"i":"1cblt37","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 외관상 교부가 있어도 재물이 범인의 사실상 지배 아래 들어가 자유로운 처분이 가능한 상태에 놓이지 않고 여전히 피해자 지배 아래면 처분행위<span class=\"cs-x\"><strong>(X)</strong></span>","k":"c6sbap"},
+    {"i":"e9ji1v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(나) [지갑의 경우]</strong>","k":"1g0316m"},
+    {"i":"js9i7y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 삼각사기에서 피기망자와 피해자의 관계 — 권한설/지위설, 판례 = 지위설","k":"14dtwgz"},
+    {"i":"ls1cvx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② A는 습득한 지갑을 소유자 B에게 돌려줄 지위 → 처분 권능·지위<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1uox1mo"},
+    {"i":"opvi0x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"③ 甲이 자기 것이라 기망 → A가 그 권능·지위에 기초해 교부 → 甲이 자유로운 처분 가능 상태 → 처분행위<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1dttb6n"},
+    {"i":"15o3hqw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"④ 甲 = 지갑의 진정한 주인 B에 대한 사기죄(<span class=\"cs-blue\"><span class=\"cs-u\">제347조</span> 제1항</span>)<span class=\"cs-o\"><strong>(O)</strong></span>","k":"jyf5n0"},
+    {"i":"ooylkm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(다) [담배의 경우]</strong>","k":"13p1253"},
+    {"i":"1k8berc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 외관상 교부는 있었으나 결제 전까지는 여전히 A의 지배 아래 → 처분행위<span class=\"cs-x\"><strong>(X)</strong></span> (담배는 소유자와 피기망자가 모두 A)","k":"130vs8m"},
+    {"i":"3u28my","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 甲 = A에 대한 절도죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"7xyyio"},
+    {"i":"jewvn5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"③ 건조물 '침입'<span class=\"cs-x\"><strong>(X)</strong></span>이므로 야간주거침입절도죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1ipvkq3"},
+    {"i":"qddpcl","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(3) [결론]</strong></span> 甲 = 지갑 소유자 B에 대한 사기죄 + 담배 소유자 A에 대한 절도죄의 실체적 경합","k":"1vzn2f2"}
+   ]}
+  ]}
+ ]},
+ {"i":"dtvmy5","o":"<div class=\"cs-callout\">","b":[
+  {"i":"787imb","o":"<div class=\"cs-h\">","h":"Ⅰ. 사기와 책략절도","k":"7rbmy3"},
+  {"i":"xgzceo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>절취</strong></span> = <span class=\"cs-u\">타인 점유 타인 소유물을 '점유자 의사에 반하여' 점유배제·이전</span>","k":"1hviu9b"},
+  {"i":"1b4bn4u","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"기망으로 '처분행위'케 하여 재물·이익 취득 시 → 절도 아닌 사기","k":"1vbo32g"},
+  {"i":"t17h9s","o":"<div class=\"cs-h\">","h":"Ⅱ. 사기죄의 처분행위","k":"1y3jvdn"},
+  {"i":"1spo7rm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-u\">피기망자 의사에 기초한 행위로 재물·이익 취득 평가 시 → 처분행위 인정</span>","k":"30bt9d"},
+  {"i":"a7tqta","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"처분행위 = 기망에 따라 착오로 사실상 지배를 범인에게 이전 → 외관상 교부 있어도 여전히 피해자 지배 하로 평가되면 처분행위 X","k":"1tunpwv"},
+  {"i":"1rrg1wd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"cu8kmo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[금괴 운반책, 피해자가 감시자 고용해 이동 감시·관리]</span> 사실상 지배 취득<span class=\"cs-x\"><strong>(X)</strong></span> → 처분행위·편취<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1yweqa9"},
+  {"i":"pbkx8p","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[지문인식 조회 빙자, 현금 비닐봉지 현관문 손잡이에 걸어둠]</span> 사실상 지배 이전<span class=\"cs-x\"><strong>(X)</strong></span> → 사기 무죄, 절도 성립","k":"1qcrvip"},
+  {"i":"13airy4","o":"<div class=\"cs-h\">","h":"Ⅲ. 피기망자의 처분 권능 또는 지위 (피해자≠피기망자)","k":"1aaqf25"},
+  {"i":"10ybdya","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\">《삼각사기에서 피기망자가 피해자와 어떤 관계여야 피해자 재산 처분 가능한지》</span>","k":"1xaaz9x"},
+  {"i":"suvkko","o":"<div class=\"cs-theory\">","b":[
+   {"i":"1s2f6yf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①권한설(피해자 재산 처분할 법적 권한 필요) ②지위설(사실상 처분 지위면 족)","k":"6vhya7"},
+   {"i":"8uto8z","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-glabel\">[지위설]</span> 피기망자가 피해자 위해 재산 처분할 '권능'·'지위' 있어야","k":"zwfinu"},
+   {"i":"1tfo98c","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 처분행위는 유효 법률행위 한정 X, 하자 있는 법률행위·사실행위 포함 → 지위설 타당","k":"dmkvwm"}
+  ]},
+  {"i":"100wz3","o":"<div class=\"cs-h\">","h":"Ⅳ. 절도 판례","k":"1x7jsc4"},
+  {"i":"yljc9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"r4tf65","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[금방서 귀금속 구입 가장·건네받아 화장실 핑계 도주]</span> 절도죄<span class=\"cs-o\"><strong>(O)</strong></span> — 도주 전까지 피해자 점유<span class=\"cs-exam\">【변24·13, 변사24, 모사24·21】</span>","k":"xgkocz"},
+  {"i":"15xosrt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[예식장 신부측 축의금 접수인 행세·교부받음]</span> 접수처 점유 침탈 절도죄<span class=\"cs-o\"><strong>(O)</strong></span> — 교부취지는 '신부측' 전달, '피고인'에 처분권 준 것 아님","k":"1d50urq"},
+  {"i":"10mrcv5","o":"<div class=\"cs-h\">","h":"Ⅴ. 사기 판례 (주위적 절도 무죄, 예비적 사기 유죄)","k":"qa95ha"},
+  {"i":"1mb3dpp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"aq4vbi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[매장주인이 습득한 손님 지갑, \"선생님 지갑 맞냐\"에 \"내 것\" 답하고 교부받음]</span> 사기죄<span class=\"cs-o\"><strong>(O)</strong></span> — 매장주인은 소유자에 돌려줄 지위 → 소유자 위해 처분할 권능·지위 O → 처분행위 O, 절취로 평가 X<span class=\"cs-exam\">【변26, 모사25·24, 변기24】</span>","k":"1zdq4"},
+  {"i":"1ad7okz","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"◎ 사기와 책략절도 정리표","k":"1s90q1a"},
+  {"i":"1w1bgyz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"구분: 유형 / 처분권능·지위(피해자≠피기망자) / 처분행위(사실상 지배 이전) / 결론","k":"w49qbe"},
+  {"i":"1jfqjdd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[편의점 점원서 담배 교부받고 대금 미지급 도주]</span> 권능·지위 O / 처분행위 X(여전히 피해자 지배) / 절도","k":"dgipco"},
+  {"i":"ba8mwu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[금방서 목걸이 건네받아 화장실 핑계 도주]</span> 권능 문제안됨(피해자=피기망자) / 처분행위 X / 절도<span class=\"cs-exam\">【변사24, 모사24】</span>","k":"1nm97no"},
+  {"i":"199yfnp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[피해자 책 잠깐 본다며 보는 척하다 가져감]</span> 피해자=피기망자 / 처분행위 X / 절도","k":"766aa6"},
+  {"i":"w1w8f2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[금괴 운반책에 외관상 교부하나 감시자 둠]</span> 피해자=피기망자 / 처분행위 X / 절도","k":"1gmn59u"},
+  {"i":"1r7okzy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[지문인식 조회 빙자, 현금 현관문 손잡이에 걸어둠 후 가져감]</span> 피해자=피기망자 / 처분행위 X / 절도","k":"yrsjer"},
+  {"i":"gjkg5p","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[상점서 '다른 손님'에게 타 손님 놓아둔 돈 집어달라 함]</span> 권능 X(권능·지위 없음) / 처분행위 O / 절도(간접정범)<span class=\"cs-exam\">【모사18】</span>","k":"1du6xjn"},
+  {"i":"cs5vv1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"↔ <span class=\"cs-fact-tag\">[지갑 습득 상점주인에게 자기 것이라 속여 받아감]</span> 권능 O / 처분행위 O / 사기(절도 무죄)<span class=\"cs-exam\">【모사25·24, 변기24】</span>","k":"cn5xxu"}
+ ]}
+]}

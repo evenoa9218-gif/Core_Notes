@@ -1,0 +1,64 @@
+{"id":"국가015","t":"증거인멸 및 증인도피","cat":"gak_국가공무방해","lv":1,"tg":["A급","모사22","모사21","모사19","모사17","모사13"],"b":[
+ {"i":"et58ij","o":"<details class=\"cs-case\">","b":[
+  {"i":"1shdwej","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE] 공통증거(휴대폰) 인멸</strong></span></span> [모사 등] <span class=\"cs-red\">(15)</span>","k":"tdl98p"},
+  {"i":"leq5v1","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"yhu0tj","o":"<div class=\"cs-fact\">","b":[
+    {"i":"16r3y8v","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1quox1d","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲과 乙이 합동해 A회사 금고의 상품권을 절취. 이후 甲은 수사가 진행되면 서로 주고받은 문자메시지로 범행이 발각될 것을 우려해 乙에게 휴대폰을 한강에 버리라고 종용, 乙도 처벌이","k":"1emh9zq"},
+     {"i":"bsazsn","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"두려워 자기 휴대폰을 한강에 몰래 버림. 휴대폰을 버린 것과 관련된 甲과 乙의 죄책은? (15점)","k":"1t2mzcx"}
+    ]}
+   ]},
+   {"i":"tnm6o0","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"109onx5","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"114c93","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [乙의 증거인멸죄]</strong></span>","k":"1d8lol7"},
+    {"i":"1murlod","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① '타인의 형사사건 또는 징계사건' = 인멸행위 시 아직 수사절차 개시 전 이라도 장차 형사사건이 될 수 있는 것까지 포함","k":"kckruz"},
+    {"i":"1ce798g","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 자신과 공범자의 공통된 증거를 인멸한 경우 증거인멸죄 성부 — 위 학설 및 판례","k":"gfiuon"},
+    {"i":"cg4duk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 판례에 의하면 乙은 자기 처벌이 두려워 자신의 이익을 위해 공통증거를 몰래 버림 → 공범 甲의 형사사건 증거를 인멸한 결과가 되어도 자기의 형사사건 증거를 인멸한 것에 불과","k":"1ywvfws"},
+    {"i":"1p0l6wz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"④ 乙에게 증거인멸죄(<span class=\"cs-blue\"><span class=\"cs-u\">제155조</span> 제1항</span>)<span class=\"cs-x\"><strong>(X)</strong></span>","k":"k4v5yn"},
+    {"i":"1gg9svc","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [甲의 증거인멸죄의 교사범 또는 간접정범]</strong></span>","k":"woqcxf"},
+    {"i":"v5ztdi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 교사범은 정범의 행위가 구성요건에 해당하고 위법할 것 요(제한적 종속형식) → 乙에게 구성요건해당성<span class=\"cs-x\"><strong>(X)</strong></span> → 甲에게 교사범<span class=\"cs-x\"><strong>(X)</strong></span>","k":"foqpph"},
+    {"i":"ew27j6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 간접정범도 정범의 일종인 이상 증거인멸죄의 정범으로 처벌되지 않는 甲을 간접정범으로 처벌할 수도<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1k2gkeg"},
+    {"i":"utsz7g","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(3) [결론]</strong></span> 甲과 乙 = 아무런 죄책도 지지 않음","k":"11mgw88"}
+   ]}
+  ]}
+ ]},
+ {"i":"1crhmxu","o":"<div class=\"cs-callout\">","b":[
+  {"i":"iaou6e","o":"<div class=\"cs-callout\">","b":[
+   {"i":"1fgsu1b","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제155조(증거인멸 등과 친족간의 특례)</strong></span>","k":"1ur0gtt"},
+   {"i":"nsh7qb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① <span class=\"cs-u\"><strong>타인의 형사사건 또는 징계사건에 관한 증거</strong></span>를 <span class=\"cs-blue\"><strong>인멸</strong></span>, <span class=\"cs-blue\"><strong>은닉</strong></span>, <span class=\"cs-blue\"><strong>위조</strong></span> 또는 <span class=\"cs-blue\"><strong>변조</strong></span>하거나 위조 또는 변조한 증거를 <span class=\"cs-blue\"><strong>사용</strong></span>한 자는 <span class=\"cs-red\">5년 이하의 <strong>징역</strong></span> 또는 <span class=\"cs-red\">700만원 이하의 <strong>벌금</strong></span>에 처한다.","k":"1k494u9"},
+   {"i":"1a6tlcg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② <span class=\"cs-u\">타인의 형사사건 또는 징계사건에 관한 증인</span>을 <span class=\"cs-blue\"><strong>은닉</strong></span> 또는 <span class=\"cs-blue\"><strong>도피</strong></span>하게 한 자도 제1항의 형과 같다.","k":"l312z2"},
+   {"i":"17gv2l1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 피고인, 피의자 또는 징계혐의자를 모해할 목적으로 전2항의 죄를 범한 자는 10년 이하의 징역에 처한다.","k":"21b9ge"},
+   {"i":"1d6wcw9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"④ <span class=\"cs-u\">친족 또는 동거의 가족</span>이 본인을 위하여 본조의 죄를 범한 때에는 처벌하지 아니한다.","k":"1w84typ"}
+  ]},
+  {"i":"5bv05c","o":"<div class=\"cs-h\">","h":"Ⅰ. 타인의 형사사건 또는 징계사건에 관한 증거","k":"xc2d6u"},
+  {"i":"d1fddc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용범위: <span class=\"cs-def\"><strong>[형사사건]</strong></span> <span class=\"cs-def\"><span class=\"cs-u\">인멸행위 시 아직 수사절차 개시 전이라도 장차 형사사건 될 수 있는 것까지 포함,</span></span> 그 형사사건 불기소·무죄 선고돼도 증거인멸죄 성립에 영향 X<span class=\"cs-exam\">【변19】</span>","k":"8jogd1"},
+  {"i":"1wrxf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>[징계사건]</strong></span> <span class=\"cs-blue\"><span class=\"cs-u\">§155</span>①</span> '징계사건'은 국가의 징계사건에 한정, 사인 간 징계사건 포함 X","k":"eqlh5"},
+  {"i":"ydw9qf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>[증거]</strong></span> 수사기관·법원·징계기관이 국가 형벌권·징계권 유무 확인에 관계있는 일체 자료, 타인에게 유리·불리 불문, 증거가치 유무·정도 불문","k":"schimp"},
+  {"i":"1cjyfiy","o":"<div class=\"cs-h\">","h":"Ⅱ. 공통증거를 인멸한 경우<span class=\"cs-exam\">【모사21·17·13】</span>","k":"lheutk"},
+  {"i":"kr9lai","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\">《자신과 공범자의 공통된 증거 인멸 시 증거인멸죄 성립하는지》</span>","k":"18phspx"},
+  {"i":"17hetbk","o":"<div class=\"cs-theory\">","b":[
+   {"i":"1kmmh1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①긍정설(공통증거는 공범인 타인의 형사사건 증거→성립) ②부정설(공범자 사건은 타인 사건 X→불성립) ③절충설(자신·자신+공범 위해 인멸 시 불성립, 공범 위한 의사로 인멸 시 성립)","k":"dg5c6d"},
+   {"i":"c2jlvp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-glabel\">[절충설 유사]</span> 피고인이 자기 이익 위해 증거자료 인멸 →동시에 다른 공범자 형사·징계사건 증거 인멸 결과 돼도 증거인멸죄로 다스릴 수 X, 공범자 아닌 자의 사건 증거 인멸 결과여도 마찬가지<span class=\"cs-exam\">【변26·25·19·15】</span>","k":"z724qc"},
+   {"i":"14atzjl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 자기 이익 위해 자기 형사사건 증거 인멸 →공통증거는 타인 형사사건 증거로 볼 수 X → 절충설 타당","k":"q3n9v"}
+  ]},
+  {"i":"139emkc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"ttkocf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[양벌규정 행위자]</span> '피고인 자신이 직접 형사처분 받을 것'에는 양벌규정 따라 처벌받는 법인 업무에 관해 행위자로서 처벌받을 수 있는 경우도 포함","k":"piy2xv"},
+  {"i":"ltmlcy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[X회사 임원이 하도급법위반 증거 인멸→행위자로 직접 처벌 상황서 자기 이익 위해 인멸 시 불성립]</span>","k":"906fds"},
+  {"i":"1os2umt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[공범 교사]</span> 공범 甲이 공범 乙에게 증거인멸 교사, 乙이 자기 이익 위해 인멸 →乙 구성요건해당성 X, 제한적 종속형식상 甲도 증거인멸교사죄 불성립<span class=\"cs-exam\">【변26】</span>","k":"1ivt6bk"},
+  {"i":"cjo9hb","o":"<div class=\"cs-h\">","h":"Ⅲ. 자기 사건 증거은닉교사 및 공동정범 성립여부","k":"pkszd7"},
+  {"i":"6iixev","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\">자기 사건 증거인멸교사</span><span class=\"cs-exam\">【모사22·19·18·17·13】</span>","k":"gi11f0"},
+  {"i":"q7sknj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-hl\">《자기 사건 증거은닉 교사 시 증거은닉교사죄 성립하는지》</span>","k":"o100bo"},
+  {"i":"11htgsj","o":"<div class=\"cs-theory\">","b":[
+   {"i":"b4j7nb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①부정설(자기 방어권 연장, 정범 될 수 없는 자는 교사범도 X) ②긍정설(새 범인 창출, 방어권 남용)","k":"1nlabdw"},
+   {"i":"1ssdxt3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-glabel\">[긍정설]</span> 자기 형사사건 증거인멸은 방어권 인정 취지상 처벌 X, 타인에게 도움 요청도 원칙 불처벌이나 방어권 남용 시 증거인멸교사죄 처벌 가능<span class=\"cs-exam\">【변15】</span>","k":"bcd6x1"},
+   {"i":"aaof3b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 타인에게 증거인멸 교사까지 기대가능성 없다 볼 수 X, 공범종속성 원칙(제한적 종속형식) → 긍정설 타당","k":"fng2fq"}
+  ]},
+  {"i":"ib76xc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>타인과 공동으로 자기 증거를 인멸한 경우 (공동정범)</strong></span>","k":"1vw1rc1"},
+  {"i":"we3ja0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例) : <span class=\"cs-def\"><span class=\"cs-u\">범인 자신이 형사처분 두려워 자기 이익 위해 증거자료 은닉</span></span> →증거은닉죄 해당 X, 제3자와 공동으로 해도 마찬가지<span class=\"cs-exam\">【모기25】</span>","k":"1o2ti0n"},
+  {"i":"jqpegb","o":"<div class=\"cs-h\">","h":"Ⅳ. 증인도피","k":"1wo52tx"},
+  {"i":"d7mnmu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-def\"><span class=\"cs-u\">증인도피죄는 타인 형사·징계사건 증인 은닉·도피 시 성립,</span></span> 피고인 자신이 형사처분 두려워 '자기 이익 위해' 증인 될 사람 도피시킨 경우 동시에 다른 공범자 사건 증인 도피 결과 돼도 증인도피죄 처벌 X","k":"1l3uri8"},
+  {"i":"1dx2g4a","o":"<div class=\"cs-h\">","h":"Ⅴ. 친족간 책임조각 특례","k":"1xibhwv"},
+  {"i":"16v1fou","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"1czzjc9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[사실혼X]</span> 사실혼관계자는 민법 소정 친족 아니어서 <span class=\"cs-blue\"><span class=\"cs-u\">§151</span>②</span>·<span class=\"cs-blue\"><span class=\"cs-u\">§155</span>④</span> 친족에 해당<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1y73s56"}
+ ]}
+]}

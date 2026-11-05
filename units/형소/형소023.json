@@ -1,0 +1,11 @@
+{"id":"형소023","t":"고발","cat":"pro_03","lv":1,"tg":["下"],"b":[
+ {"i":"1edw4ek","o":"<div class=\"cs-h\">","h":"Ⅰ. 전속고발범죄에서 고발의 성질","k":"9f1s7z"},
+ {"i":"112dos8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[소송조건]</span> 전속고발범죄의 경우 고발은 <span class=\"cs-red\"><strong>소송조건</strong></span>에 해당","k":"pnz8y"},
+ {"i":"1rizyry","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[재고발 불요] 세무공무원 등의 고발이 있어야 공소제기할 수 있는 조세범처벌법위반죄에 관하여 일단 불기소처분이 있었더라도 종전에 한 고발은 여전히 유효</strong></span> — <span class=\"cs-u\">공소시효 완성 전이면 언제라도 공소제기 가능</span>하므로 새로운 고발 필요 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변14】</span>","k":"w4k3db"},
+ {"i":"42yrb3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[자유로운 증명]</span> 법원은 증거조사의 방법이나 증거능력의 제한을 받지 않고 <span class=\"cs-red\"><strong>자유로운 증명</strong></span>으로 고발 유무를 판단 — (소송법적 사실)","k":"2tz993"},
+ {"i":"kimba8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[고발추완]</span> 세무공무원의 고발 없이 기소된 후 고발을 해도 치유 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"1trt9ex"},
+ {"i":"1mrc9dx","o":"<div class=\"cs-h\">","h":"Ⅱ. 고발의 효력이 미치는 범위","k":"1e9u7df"},
+ {"i":"d4jvlg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[동일성] 고발은 범죄사실에 대한 소추를 요구하는 의사표시로서 그 효력은 고발장에 기재된 범죄사실과 '동일성이 인정되는 사실 모두'에 미침</strong></span> → 범칙사건에 대한 고발의 효과는 관련 범칙사실 전부에 미치고, <span class=\"cs-u\">한 개의 범칙사실 일부에 대한 고발은 그 전부에 효력</span> <span class=\"cs-o\"><strong>(O)</strong></span>","k":"hz66nq"},
+ {"i":"qvxq57","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[동일한 부가가치세 과세기간 내 조세포탈기간·포탈액수의 일부에 대한 고발]</span> 그 과세기간 내의 조세포탈기간 및 포탈액수 <span class=\"cs-red\"><strong>전부에 효력</strong></span> → 기본적 사실관계의 동일성이 인정되는 범위 내에서 조세포탈기간·포탈액수를 추가하는 공소장변경 <span class=\"cs-red\"><strong>적법</strong></span>","k":"slm0bu"},
+ {"i":"9owu40","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[수 개의 범칙사실 중 일부만을 범칙사건으로 하는 고발]</span> 고발장에 기재된 범칙사실과 동일성이 인정되지 않는 <span class=\"cs-green\"><strong>다른 범칙사실에까지 효력 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span> — (실체적 경합)","k":"8tv0g"}
+]}

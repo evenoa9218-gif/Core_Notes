@@ -1,0 +1,58 @@
+{"id":"개인021","t":"출판물 및 정통망법","cat":"gak_명예주거","lv":1,"tg":["변사23","모사25","모사24","모사20","변기19","모기23","모기18"],"b":[
+ {"i":"170v29h","o":"<details class=\"cs-case\">","b":[
+  {"i":"7rx4tl","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE] 인터넷 카페 게시판 허위사실 게시 + B 명의 허위 사실확인서 첨부</strong></span></span> <span class=\"cs-exam\">【변사23】 </span><span class=\"cs-red\">(10)</span>","k":"p5g6gl"},
+  {"i":"188qc1v","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"cg95hl","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1qji29d","o":"<div class=\"cs-callout\">","b":[
+     {"i":"13pjmcr","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"X회사 개발팀장 甲, 입주 상가 관리소장 A와 주차 문제로 언쟁 후 A를 비방할 목적으로 입주자 약 200명이 회원인 Y상가 번영회 인터넷 카페 게시판에 'A에게 혼외자가 있다'는 허위사실 게시 + 신빙성 높이려 직원 B에게 부탁해 받은 허위 내용의 B 명의 사실확인서 첨부.","k":"1hljxsi"},
+     {"i":"a1fsu1","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲의 죄책은? (10점)","k":"4x47pd"}
+    ]}
+   ]},
+   {"i":"o3ziy6","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1lp94af","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"13j5qxh","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [정통망법위반(명예훼손)]</strong></span>","k":"amg9vr"},
+    {"i":"9frcws","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 인터넷 카페 게시판 = 정보통신망<span class=\"cs-o\"><strong>(O)</strong></span>(<span class=\"cs-blue\">정통망법 <span class=\"cs-u\">제2조</span> 제1항 제1호</span>)","k":"13x1rzi"},
+    {"i":"1hhqy7p","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 공연성 = 불특정 또는 다수인이 인식할 수 있는 상태 → 회원 약 200명 게시판 → 공연성<span class=\"cs-o\"><strong>(O)</strong></span>","k":"131mjfx"},
+    {"i":"15gm3qi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 비방 목적 + 정보통신망에 공공연히 거짓 사실 게시 → 정통망법위반(명예훼손)죄(<span class=\"cs-blue\">정통망법 <span class=\"cs-u\">제70조</span> 제2항</span>)<span class=\"cs-o\"><strong>(O)</strong></span>","k":"17aohum"},
+    {"i":"q76grv","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [사문서위조죄와 무형위조]</strong></span>","k":"sgkpst"},
+    {"i":"1v3p20n","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 사문서는 무형위조 불벌 → B에게 사문서위조죄<span class=\"cs-x\"><strong>(X)</strong></span>, 무형위조를 교사한 甲에게도 교사죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"90bru3"},
+    {"i":"1z0mcr9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 위조가 없으니 첨부해도 위조사문서행사죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1e5epku"},
+    {"i":"lvm7qn","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(3) [결론]</strong></span> 甲 = 정통망법위반(명예훼손)죄(<span class=\"cs-blue\">정통망법 <span class=\"cs-u\">제70조</span> 제2항</span>)","k":"a015q7"}
+   ]}
+  ]}
+ ]},
+ {"i":"1b699ho","o":"<div class=\"cs-callout\">","b":[
+  {"i":"pbcbxj","o":"<div class=\"cs-h\">","h":"Ⅰ. 비방의 목적 – 출판물 및 정통망법위반","k":"1v956lq"},
+  {"i":"7ibuoq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용범위: 비방의 목적은 <span class=\"cs-blue\">출판물에의한명예훼손죄</span>·<span class=\"cs-blue\">정통망법위반(명예훼손)죄</span>의 구성요건","k":"cj32mx"},
+  {"i":"1wvxxnk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>'사람을 비방할 목적'</strong></span> = <span class=\"cs-u\">가해의 의사 내지 목적</span>","k":"16qsjgd"},
+  {"i":"1xm7s6d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-u\">'사회적 평가 저하 사실'인지와 별개 구성요건</span> → 저하 사실이라 하여 당연 인정 X. 모든 구성요건 증명책임은 검사","k":"oslbww"},
+  {"i":"1jvmi63","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"'거짓'인지와 별개 구성요건 → 거짓이라 하여 당연 인정 X","k":"zw6r7u"},
+  {"i":"vdjnzl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"공익 목적과는 주관적 의도 방향에서 상반 → 적시 사실이 공공의 이익에 관한 것이면 특별한 사정 없는 한 비방목적 부인<span class=\"cs-exam\">【모사25】</span>","k":"17ba629"},
+  {"i":"1s9txxg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"'적시 사실이 공공의 이익에 관한 경우' = 객관적으로 공익 관련 + 행위자도 주관적으로 공익 위해 적시","k":"7f81g7"},
+  {"i":"z9p9nv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"주요 동기·목적이 공익이면 부수적 사익 목적·동기 있어도 비방목적 인정 어려움","k":"1245veh"},
+  {"i":"d5exj6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"공공의 이익 = 국가·사회·일반 다수인 이익 + 특정 사회집단·구성원 전체의 관심·이익 포함","k":"j56wxr"},
+  {"i":"1slgbdf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"1efyy78","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[동창 단체채팅방 사기꾼 글]</span> 정통망법위반(명예훼손)<span class=\"cs-x\"><strong>(X)</strong></span> — 동창 사회집단 이익 관련·주된 목적 공익(주의 당부), 비방목적 증명 부족<span class=\"cs-exam\">【모기23】</span>","k":"1lomr5x"},
+  {"i":"j4pct8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[포털 지식검색 성형시술 불만 한 줄 댓글]</span> 사실적시<span class=\"cs-o\"><strong>(O)</strong></span>·비방목적<span class=\"cs-x\"><strong>(X)</strong></span> — 다수 이용자 의사결정 도움 공익<span class=\"cs-exam\">【변14】</span>","k":"1v81ocw"},
+  {"i":"6rvhkm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[배드파더스 양육비 미지급 신상공개]</span> 비방목적<span class=\"cs-o\"><strong>(O)</strong></span> — 공적 관심사 여론형성 기여하나 개별 채무자 압박·사적 제재 수단에 가까움","k":"ys2u67"},
+  {"i":"sgdzcx","o":"<div class=\"cs-h\">","h":"Ⅱ. 출판물에 의한 명예훼손죄 (정통망법도 동일 법리)","k":"22bxkq"},
+  {"i":"lsrdfs","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>출판물</strong></span>","k":"2x6clx"},
+  {"i":"1y952cb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例) : '기타 출판물'(<span class=\"cs-blue\"><span class=\"cs-u\">§309</span>①</span>) = 등록·출판 제본인쇄물 아니어도 그와 같은 정도의 효용·기능 갖고 사실상 출판물로 유통·통용될 외관 가진 인쇄물이어야","k":"809tf5"},
+  {"i":"2gbkc3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"gxe10w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-neg-tag\">[A4 7쪽 인쇄물 X]</span> <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변15】【변기19】</span>","k":"10giwdd"},
+  {"i":"5fk6nx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\">출판물에 의한 명예훼손죄의 간접정범</span><span class=\"cs-exam\">【모사25·24·20, 모기18】</span>","k":"1p6mafn"},
+  {"i":"1c10okm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용범위: <span class=\"cs-u\">출판물 명예훼손죄는 간접정범으로도 가능</span> → 비방 목적으로 허위 기사재료를 정 모르는 기자에게 제공·보도되게 한 경우 성립<span class=\"cs-exam\">【변22】</span>","k":"uv6s5r"},
+  {"i":"14tp5vz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例) : <span class=\"cs-def\"><strong>[공연성 구별]</strong></span> ①보통사람에 적시 → 즉시 외부 공표, 그때부터 전파가능성으로 공연성 판단","k":"125z075"},
+  {"i":"1solol5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"②기자 통한 적시 → 기사화·보도돼야 공표, 취재만 하고 미보도면 전파가능성 X → 공연성<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변23】</span>","k":"1fsa64f"},
+  {"i":"qhm2l4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"제보자가 기사 취재·작성과 직접 연관 없는 자에게 허위사실만 알린 경우 → 기사화 특별 부탁·기사화 고도 예상 등 특별한 사정 없으면, 피제보자가 언론공개·취재로 게재·배포되더라도 제보자에게 출판물 명예훼손죄 책임 X","k":"9q53nf"},
+  {"i":"848gl8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"1nu90g6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[사례: 기자에게 허위 제보]</span>","k":"1aud6r1"},
+  {"i":"1cj55fo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:48px\">","h":"(1) <span class=\"cs-fact-tag\">[기자]</span> ①비방목적 없어 <span class=\"cs-blue\"><span class=\"cs-u\">§309</span></span> 출판물 명예훼손죄 불성립","k":"k9cyco"},
+  {"i":"y45qbe","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:64px\">","h":"②허위 인식 없어 <span class=\"cs-blue\"><span class=\"cs-u\">§15</span>①</span>에 따라 <span class=\"cs-blue\"><span class=\"cs-u\">§307</span>②</span>이 아닌 <span class=\"cs-blue\"><span class=\"cs-u\">§307</span>①</span> 적용","k":"1ok3p9x"},
+  {"i":"58ihrv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:64px\">","h":"③<span class=\"cs-blue\"><span class=\"cs-u\">§307</span>①</span> 명예훼손죄는 <span class=\"cs-blue\"><span class=\"cs-u\">§310</span></span> 진실성 착오 학설·판례에 따라 위법성 조각 가능","k":"stlrwe"},
+  {"i":"14diiwh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:48px\">","h":"(2) <span class=\"cs-fact-tag\">[제보자]</span> ①기자에게 직접 기사재료 제공 → 공연성(전파가능성) 인정되면 <span class=\"cs-blue\"><span class=\"cs-u\">§307</span>②</span> 명예훼손죄 성립","k":"4wgehc"},
+  {"i":"19tygn5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:64px\">","h":"②판례에 따라 <span class=\"cs-blue\"><span class=\"cs-u\">§309</span>②</span> 출판물 명예훼손죄의 간접정범 성립","k":"15dluo1"},
+  {"i":"x4ogc9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:64px\">","h":"③간접정범 성립하는 이상 <span class=\"cs-blue\"><span class=\"cs-u\">§307</span>②</span> 명예훼손죄는 별도 성립 X","k":"1nkfsy9"},
+  {"i":"tufl97","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:48px\">","h":"<span class=\"cs-fact-tag\">[정통망법위반(명예훼손)죄 간접정범에도 동일 법리 적용(예: 인터넷 기사).]</span>","k":"1t38uft"}
+ ]}
+]}

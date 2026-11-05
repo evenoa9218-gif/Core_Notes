@@ -1,0 +1,60 @@
+{"id":"형소079","t":"공동피고인의 증인적격과 법정진술의 증거능력","cat":"pro_10","lv":1,"tg":["A급","上","모사25·24 등 빈출"],"b":[
+ {"i":"4b4ch1","o":"<details class=\"cs-case\">","b":[
+  {"i":"qnkd9u","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(1)] 쌍방폭행 공동피고인 甲의 증언을 乙·丙에 대한 증거로</strong></span>","k":"16qppta"},
+  {"i":"12dsln7","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"gkosgp","o":"<div class=\"cs-fact\">","b":[
+    {"i":"ovus4h","o":"<div class=\"cs-callout\">","b":[
+     {"i":"xfgrmp","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲·乙이 丙과 시비가 붙어 공동하여 丙을 폭행하였고 이에 대항하여 丙도 甲을 폭행 → 검사가 甲·乙을 丙에 대한 폭처법위반(공동폭행)으로, 丙을 甲에 대한 폭행으로 공소제기하여 제1심에서 공동피고인으로 재판 중. 乙·丙은 공소사실 부인. 법원이 甲을 증인으로 신문한 경우 甲의 증언을 乙·丙에 대한 증거로 사용할 수 있는가? (10점)","k":"1qtd0a0"}
+    ]}
+   ]},
+   {"i":"j7wvr2","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"72b17r","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"5mwxpu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 증인적격 — 긍정설·부정설·절충설, 판례는 절충설","k":"1ozxlmh"},
+    {"i":"t4uqdy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 판례상 공범인 공동피고인은 서로 증인적격 X, 공범 아닌 공동피고인은 서로 증인적격 O","k":"woz7b2"},
+    {"i":"hcusft","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 甲·乙은 폭처법위반(공동폭행) 공범인 공동피고인 → 甲은 乙의 범죄사실에 대해 변론분리하지 않는 한 증인적격 X → 甲의 증언은 乙에 대하여 증거능력 X","k":"1r5w040"},
+    {"i":"jf82lv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"④ 甲은 丙의 폭행 피해자로 서로 공범 아닌 공동피고인 → 증인적격 O → 변론분리하지 않더라도 甲의 증언은 丙의 폭행에 대한 증거로 사용 O","k":"1hhn7st"}
+   ]}
+  ]}
+ ]},
+ {"i":"1rw1e84","o":"<details class=\"cs-case\">","b":[
+  {"i":"12c8jxx","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(2)] 피고인신문에서 한 甲의 진술을 乙·丙에 대한 증거로</strong></span>","k":"s2ayaw"},
+  {"i":"1vx48ky","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1fr6su0","o":"<div class=\"cs-fact\">","b":[
+    {"i":"4ru8w0","o":"<div class=\"cs-callout\">","b":[
+     {"i":"d8ynqg","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"위 사안에서 만약 법원이 甲에 대해 피고인신문을 실시한 경우 甲의 진술을 乙·丙에 대한 증거로 사용할 수 있는가? (10점)","k":"1j0usow"}
+    ]}
+   ]},
+   {"i":"1302usf","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1hxvipy","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"78ltp2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 공범인 공동피고인의 법정진술이 다른 공범에 대해 증거능력 있는지 — 적극설·소극설·절충설, 판례는 적극설","k":"1wxfzy4"},
+    {"i":"panhik","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 판례(적극설)에 의하면 甲이 피고인신문에서 한 법정진술은 공범인 乙에 대하여 증거능력 O","k":"14b57ad"},
+    {"i":"9ffl0t","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 그러나 공범 아닌 공동피고인은 피고인에 대해 증인 지위에 불과하여 선서 없이 한 법정진술은 증거능력 X → 甲의 법정진술은 공범 아닌 丙에 대하여 증거능력 X","k":"6kcch1"}
+   ]}
+  ]}
+ ]},
+ {"i":"1cwkom7","o":"<div class=\"cs-callout\">","b":[
+  {"i":"15q0t54","o":"<div class=\"cs-h\">","h":"Ⅰ. '공범'의 의미","k":"1rhlz1u"},
+  {"i":"1u6hd62","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[공범]</span> 공동정범·교사·방조범·합동범은 물론 <span class=\"cs-red\"><strong>대향범 등 필요적 공범도 모두 포함</strong></span> — (뇌물공여와 뇌물수수, 폭처법위반(공동폭행)도 공범)","k":"10210ax"},
+  {"i":"1ukx9go","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[공범 아닌 경우]</span> ① 본범과 장물범 ② 본범과 범인도피·증거인멸 ③ 쌍방폭행 ④ 별개의 범죄사실로 기소되어 병합심리 중인 경우 → <span class=\"cs-green\"><strong>공범에 해당 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"14ua3a3"},
+  {"i":"9wdwm4","o":"<div class=\"cs-h\">","h":"Ⅱ. 공동피고인의 증인적격<span class=\"cs-exam\">【모사25】</span>","k":"1guh4vp"},
+  {"i":"1lf7738","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 공동피고인은 피고인에 대한 관계에서 제3자이므로 공범 여부와 관계없이 인정된다는 <span class=\"cs-green\"><strong>긍정설</strong></span> ② 변론을 분리하지 않는 한 공범 여부 관계없이 인정되지 않는다는 <span class=\"cs-green\"><strong>부정설</strong></span> ③ 공범인 공동피고인은 증인적격이 없지만 공범이 아닌 공동피고인은 인정된다는 <span class=\"cs-red\"><strong>절충설</strong></span>","k":"1ly2vgs"},
+  {"i":"4dk6q4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[공범] 공범인 공동피고인은 '당해 소송절차'에서는 피고인의 지위에 있어 다른 공동피고인에 대한 공소사실에 관하여 증인이 될 수 <span class=\"cs-x\"><strong>(X)</strong></span>, '소송절차가 분리'되어 피고인의 지위에서 벼어나면 증인이 될 수 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span><span class=\"cs-exam\">【변21·19·18 등 빈출】</span>","k":"17zj82e"},
+  {"i":"1bogsvn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[공범 아닌 경우] 피고인과 별개의 범죄사실로 기소되어 병합심리 중인 공동피고인은 피고인의 범죄사실에 관하여는 '증인의 지위'</strong></span><span class=\"cs-exam\">【변26·23·21 등 빈출】</span>","k":"18iwq4d"},
+  {"i":"4ea9xa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: 공범인 공동피고인은 다른 공동피고인의 범죄사실이 실질적으로 자신의 범죄사실이므로 증인적격 X, 공범이 아닌 공동피고인은 제3자의 범죄사실에 불과하므로 증인적격 O → <span class=\"cs-red\"><strong>절충설 타당</strong></span> — (판례도 절충설로 평가)","k":"1enuyt1"},
+  {"i":"eyng0n","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"위 논의는 변론을 분리하지 않고 증인신문을 할 수 있는지의 문제 → <span class=\"cs-red\"><strong>변론을 분리하면 공동피고인이 아니므로 당연히 증인적격 O</strong></span>","k":"749tlf"},
+  {"i":"6a48l6","o":"<div class=\"cs-h\">","h":"Ⅲ. 공동피고인의 법정진술의 증거능력 (피고인 지위)","k":"d6gjt"},
+  {"i":"xfur7v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-red\"><strong>공범</strong></span><span class=\"cs-exam\">【모사25】</span>","k":"q4u82u"},
+  {"i":"1a7wlge","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 피고인에게 반대신문권이 보장되어 있으므로 당연히 증거능력이 인정된다는 <span class=\"cs-red\"><strong>적극설</strong></span> ② 공범인 공동피고인이 진술거부권을 행사하면 반대신문권이 보장되지 않으므로 변론을 분리하여 증인으로 신문하지 않는 한 증거능력이 없다는 <span class=\"cs-green\"><strong>소극설</strong></span> ③ 충분히 반대신문을 하거나 반대신문의 기회가 주어진 경우에 한하여 증거능력이 인정된다는 <span class=\"cs-red\"><strong>절충설</strong></span>","k":"164h9vu"},
+  {"i":"typxpj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 적극설] 공범인 공동피고인의 자백은 이에 대한 피고인의 반대신문권이 보장되어 있어 증인으로 신문한 경우와 다를 바 없으므로 독립한 증거능력이 <span class=\"cs-o\"><strong>(O)</strong></span>, 이는 피고인들 간에 이해관계가 상반된다고 하여도 마찬가지</strong></span><span class=\"cs-exam\">【변25·24·23 등 빈출】</span>","k":"apzta5"},
+  {"i":"je08l7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: 피고인에게 <span class=\"cs-u\">반대신문권이 법적으로 보장되어 있는 것은 아니므로</span> <span class=\"cs-red\"><strong>절충설 타당</strong></span> — (공범의 법정자백에 대한 보강증거 요부 쟁점과 연결)","k":"zaiipd"},
+  {"i":"1c6hlet","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-green\"><strong>공범이 아닌 경우 (피고인 지위)</strong></span>","k":"v37i50"},
+  {"i":"12c7xdc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 피고인과 별개의 범죄사실로 기소되어 병합심리 중인 공동피고인은 피고인의 범죄사실에 관하여는 <span class=\"cs-red\"><strong>증인의 지위</strong></span> ② <span class=\"cs-gbg\">[선서 없이 한 공동피고인의 법정진술, 피고인이 증거동의한 바 없는 공동피고인에 대한 피의자신문조서]</span> 피고인의 공소범죄사실을 인정하는 <span class=\"cs-green\"><strong>증거로 할 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변26·23·21 등 빈출】</span>","k":"uie93s"},
+  {"i":"7jb8gf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"공범 아닌 공동피고인은 <span class=\"cs-red\"><strong>증인으로 출석하여 진정성립을 인정하여야</strong></span> 하고(실질에 따라 §312④ 적용), 피고인 지위에서 법정진술(피고인신문)로 진정성립을 인정하는 것은 <span class=\"cs-green\"><strong>효력 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"12hwtuf"},
+  {"i":"cqfiyl","o":"<div class=\"cs-h\">","h":"Ⅳ. [증인적격·법정진술 일괄정리]","k":"ic50oh"},
+  {"i":"1khsm0l","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-red\"><strong>공범인 공동피고인</strong></span> (대향범 포함)","k":"1r6bc0"},
+  {"i":"1mmdlq3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-neg-tag\">[병합 — 변론분리 안 한 경우]</span> 증인적격 <span class=\"cs-x\"><strong>(X)</strong></span> → 피고인 지위 법정진술은 반대신문권 보장되어 <span class=\"cs-red\"><strong>증거능력 <span class=\"cs-o\"><strong>(O)</strong></span>(적극설)</strong></span>. 진술거부권 O","k":"mgx8yy"},
+  {"i":"egyy7x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[변론분리한 경우]</span> 증인적격 <span class=\"cs-o\"><strong>(O)</strong></span> → 증인신문(선서), 증언거부권 O","k":"x82q9"},
+  {"i":"1owcuu1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-green\"><strong>공범 아닌 공동피고인</strong></span> (본범/장물 등)","k":"1ovixam"},
+  {"i":"kav6s2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"피고인 범죄사실에 대해 <span class=\"cs-red\"><strong>증인 지위</strong></span> → 반드시 증인으로 신문(선서). 선서 없는 법정진술·부동의 피신조서 증거능력 <span class=\"cs-x\"><strong>(X)</strong></span>. 증언거부권 O","k":"w4inrs"}
+ ]}
+]}

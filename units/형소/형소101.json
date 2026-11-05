@@ -1,0 +1,76 @@
+{"id":"형소101","t":"재전문증거의 증거능력","cat":"pro_14","lv":1,"tg":["上","변사25·23·21·16·15 등 사례·기록 빈출"],"b":[
+ {"i":"1ldazkb","o":"<details class=\"cs-case\">","b":[
+  {"i":"7f6i1y","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(1)] 피고인의 진술을 들은 W의 전문진술</strong></span> <span class=\"cs-exam\">【변사23】</span>","k":"1ty8v7o"},
+  {"i":"d2kcu5","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"15knvnb","o":"<div class=\"cs-fact\">","b":[
+    {"i":"elwqq7","o":"<div class=\"cs-callout\">","b":[
+     {"i":"zn2suf","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"피고인 甲이 피해자 A를 비방할 목적으로 인터넷 카페 게시판에 'A에게 혼외자가 있다'는 허위사실을 게시하며 B로부터 받은 허위 사실확인서를 첨부. 甲에 대한 재판에서 검사가 증인으로 甲의 친구 W를 신청, 출석한 W가 선서 후 \"B에게 허위 사실확인서 작성을 부탁하여 허위 내용 게시에 사용하였다는 말을 甲으로부터 들었다\"고 증언. W의 증언의 증거능력을 검토하라. (10점)","k":"4dxq9s"}
+    ]}
+   ]},
+   {"i":"h26pzk","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1499ia1","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"mr0glv","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [증거동의]</strong>","k":"wp58fz"},
+    {"i":"1jxbbhq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① W의 증언은 피고인 甲의 진술을 내용으로 하는 전문진술","k":"cbbeiw"},
+    {"i":"13yk83x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 증거동의의 대상을 서류·물건으로 규정하나(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§318①</strong></span></span>) 판례는 진술도 증거동의 대상 → 甲이 증거동의하면 W의 증언 증거능력 O","k":"t4kx1q"},
+    {"i":"4khjy1","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [</strong><span class=\"cs-blue\"><span class=\"cs-u\"><strong>§316</strong></span></span><strong> 전문진술]</strong>","k":"ikb2jf"},
+    {"i":"2jjdlf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§316①</strong></span></span>","k":"qhp65y"},
+    {"i":"1mc1dc7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 甲이 부동의하는 경우, W의 증언은 피고인 아닌 자의 피고인 진술을 내용으로 하는 전문진술 → 甲이 W에게 진술할 당시 특신상태였음을 검사가 자유로운 증명으로 증명하면 증거능력 O","k":"1aqjzt1"},
+    {"i":"3urh2i","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> 甲이 증거동의하거나 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§316①</strong></span></span>의 특신상태 요건을 갖추면 증거능력 O","k":"1hknubo"}
+   ]}
+  ]}
+ ]},
+ {"i":"1hd0ld6","o":"<details class=\"cs-case\">","b":[
+  {"i":"1vn9k0","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(2)] B의 진술을 들은 E의 진술을 기재한 진술조서</strong></span> <span class=\"cs-exam\">【변사23】</span>","k":"119bnvn"},
+  {"i":"1uspae4","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"17dxjva","o":"<div class=\"cs-fact\">","b":[
+    {"i":"gaxcvi","o":"<div class=\"cs-callout\">","b":[
+     {"i":"vbn51k","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"위 사례에서 사경 P2가 사실확인서를 작성한 B가 간암 말기로 중환자실에 입원하자, 동료 E를 조사하여 \"고향선배 甲이 부탁하여 어쩔 수 없이 A에 대한 허위 사실확인서를 작성해 주었고 이후 게시판을 보고 甲이 이를 허위 내용 게시에 사용하였음을 알게 되었다는 말을 B로부터 들었다\"는 진술을 듣고 진술조서에 기재. 검사가 E에 대한 진술조서를 제출. 이 진술조서 중 B 진술부분의 증거능력을 검토하라. (15점)","k":"gy76vi"}
+    ]}
+   ]},
+   {"i":"nbqrw1","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"tsgwdk","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"ta77g6","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [재전문증거의 증거능력]</strong>","k":"1wzq61n"},
+    {"i":"jtwaph","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 사경 작성 E에 대한 진술조서 중 B로부터 들었다는 부분은 전문진술이 기재된 조서","k":"23q2wi"},
+    {"i":"152c6yn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 재전문증거도 甲이 증거동의하면 증거능력 O","k":"1upvfd"},
+    {"i":"xsuiua","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 부동의시 — 긍정설·부정설·제한적 긍정설, 판례는 제한적 긍정설. 전문진술이 기재된 조서에 해당하므로 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§312④</strong></span></span> 및 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§316②</strong></span></span>의 요건을 모두 충족해야 증거능력 O","k":"w4ym0z"},
+    {"i":"16ihp7t","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [</strong><span class=\"cs-blue\"><span class=\"cs-u\"><strong>§312④</strong></span></span><strong>]</strong> 적법한 절차·방식 + E의 진술 또는 객관적 방법에 의한 진정성립 + 반대신문 보장 + 특신상태 요건을 갖추어야","k":"7z59jf"},
+    {"i":"1l6s0ki","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [</strong><span class=\"cs-blue\"><span class=\"cs-u\"><strong>§316②</strong></span></span><strong>]</strong>","k":"1y256v7"},
+    {"i":"qt6cqz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① B가 말기 간암으로 중환자실 입원 → 진술불능 요건 인정","k":"1oniax5"},
+    {"i":"1engcz3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② B가 E에게 진술할 당시 특신상태였음을 검사가 자유로운 증명으로 증명하면 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§316②</strong></span></span>로 증거능력 O","k":"11qp8hy"},
+    {"i":"1vy6vwf","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(4) [결론]</strong> 검사가 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§312④</strong></span></span> 및 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§316②</strong></span></span>의 요건을 모두 합리적 의심의 여지가 없을 정도로 증명하면 증거능력 O","k":"btvz5m"}
+   ]}
+  ]}
+ ]},
+ {"i":"12oh1zd","o":"<details class=\"cs-case\">","b":[
+  {"i":"1l2ubym","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(3)] E의 진술을 다시 전해 들은 F의 재전문진술</strong></span>","k":"1phrb2"},
+  {"i":"5cndmn","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1wptd4l","o":"<div class=\"cs-fact\">","b":[
+    {"i":"babhql","o":"<div class=\"cs-callout\">","b":[
+     {"i":"iym7qa","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"위 사례에서 검사가 E로부터 다시 위와 같은 진술을 들은 F를 참고인으로 조사하여 진술조서에 기재. 검사가 F를 증인으로 신청, F가 동일하게 E로부터 들었다고 증언. 증인 F 및 위 진술조서 중 B의 진술을 E로부터 전해 들었다는 부분의 증거능력을 검토하라. (5점)","k":"8xh4kn"}
+    ]}
+   ]},
+   {"i":"dxk2c2","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1242c23","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"i1dz8k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① F의 증언 및 검사 작성 F에 대한 진술조서 중 각 B의 진술을 E로부터 전해 들었다는 부분은 재전문진술 및 재전문진술이 기재된 조서","k":"hr5r43"},
+    {"i":"11eju10","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 판례에 의하면 甲이 증거동의하면 증거능력 O, 부동의하면 증거능력 X","k":"9gtokg"}
+   ]}
+  ]}
+ ]},
+ {"i":"s5dsq8","o":"<div class=\"cs-callout\">","b":[
+  {"i":"16myqra","o":"<div class=\"cs-h\">","h":"Ⅰ. 재전문증거의 증거능력","k":"1c9z7r7"},
+  {"i":"1c8f520","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"형소법이 재전문증거의 증거능력에 대한 규정을 두고 있지 않아 인정 여부가 문제","k":"gcpdev"},
+  {"i":"1dl3b5o","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 진술 각각에 전문법칙의 예외인정 요건이 충족되면 인정하는 <span class=\"cs-green\"><strong>긍정설</strong></span> ② 이중의 예외로 오류개입 가능성이 높고 명문 규정이 없어 인정하지 않는 <span class=\"cs-green\"><strong>부정설</strong></span> ③ <span class=\"cs-red\"><strong>전문진술이 기재된 서류는 각각의 예외인정 요건을 충족하면 인정하나, 재전문진술이나 재전문진술을 기재한 서류는 인정할 수 없다는 제한적 긍정설</strong></span>","k":"cjwiwt"},
+  {"i":"x9b6rq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 제한적 긍정설] ① 전문진술이 기재된 조서는 §312 또는 §314 및 §316에 해당하는 각 증거능력 인정요건을 모두 갖추면 예외적으로 증거능력 인정 ② 그러나 재전문진술이나 재전문진술을 기재한 조서에 대하여는 증거능력을 인정하는 규정이 없으므로 피고인이 증거동의하지 아니하는 한 §310의2에 의하여 증거로 할 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변25·24·22 등 빈출】</span>","k":"m5anlg"},
+  {"i":"188s9h4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: 재전문진술은 전문진술이 기재된 서류보다 오류개입 가능성이 높으므로 <span class=\"cs-red\"><strong>제한적 긍정설 타당</strong></span> — 다만 재전문진술이나 재전문진술을 기재한 조서도 <span class=\"cs-red\"><strong>피고인이 증거동의하면 증거능력 인정</strong></span>되고, 증거능력이 없더라도 <span class=\"cs-red\"><strong>탄핵증거로는 사용 가능</strong></span>","k":"14xcdgf"},
+  {"i":"1weeciz","o":"<div class=\"cs-h\">","h":"Ⅱ. [정리] 전문·재전문의 증거능력","k":"vji3ej"},
+  {"i":"l4p3l4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>전문진술</strong></span> (원본진술 → 전문진술)","k":"1fuycxm"},
+  {"i":"11jxsnp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[피고인 진술 → 전문진술]</span> <span class=\"cs-red\"><strong>§316①</strong></span>(특신상태)","k":"xyrxi7"},
+  {"i":"ob4mi1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[피고인 아닌 타인 진술 → 전문진술]</span> <span class=\"cs-red\"><strong>§316②</strong></span>(진술불능 + 특신상태)","k":"1h0eowc"},
+  {"i":"vj5xy5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>전문서류</strong></span> (원본진술이 기재된 서류)","k":"1tiabcw"},
+  {"i":"1h6whg0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"진술서·진술기재서(조서) → <span class=\"cs-red\"><strong>§311·§312·§313·§314</strong></span>","k":"uabzcy"},
+  {"i":"1kocjuu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>전문진술이 기재된 서류</strong></span> (전문진술 → 서류)","k":"11m4kjm"},
+  {"i":"ml2jrq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-red\"><strong>§316 + §311~§314</strong></span> 요건 모두 충족시 예외적 증거능력","k":"derqfa"},
+  {"i":"1le7z50","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>재전문진술·재전문진술이 기재된 서류</strong></span>","k":"1v6jt4y"},
+  {"i":"8ncxnj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"증거능력 <span class=\"cs-x\"><strong>(X)</strong></span> — (예외: 증거동의)","k":"1x03r2a"}
+ ]}
+]}

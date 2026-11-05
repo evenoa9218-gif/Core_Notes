@@ -1,0 +1,41 @@
+{"id":"개인063","t":"대표권남용과 배임죄","cat":"gak_횡령배임","lv":1,"tg":["변사18","모기21","모기18"],"b":[
+ {"i":"m6wdgz","o":"<details class=\"cs-case\">","b":[
+  {"i":"rqj85m","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE]</strong></span></span> <span class=\"cs-exam\">【변사18】 </span><span class=\"cs-red\">(20)</span>","k":"v5jqmo"},
+  {"i":"n0r18l","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"pfrq4v","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1r07ed3","o":"<div class=\"cs-callout\">","b":[
+     {"i":"wlezm","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲 = X주식회사 대표이사, 乙 = 사채업자. 甲이 수억 원대 내기 골프 자금을 빌리고 변제기에 갚지 않자 乙은 그 채무가 회사와 무관한 개인 용도임을 잘 알면서 채무담보 목적으로 약속어음 발행을 요청 → 甲 승낙. 乙이 회사 사무실에서 회사 약속어음 용지에 액면금 5억 원· 발행일 등을 기재하고 甲이 수취인을 乙로 기재한 뒤 \"X주식회사 대표이사 甲\" 명판과 법인 인감도장을 날인해 교부. 그러나 회사가 실제로 어음금을 지급하거나 손해배상책임을 부담한 바","k":"fnzmbh"},
+     {"i":"6xbvrl","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"없고 어음이 제3자에게 유통되지도 않음. 甲과 乙의 죄책은? (20점)","k":"1jir9ov"}
+    ]}
+   ]},
+   {"i":"1gbxhk8","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1sn6nht","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"t3vix8","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [甲의 죄책]</strong></span>","k":"kv2f88"},
+    {"i":"78gf9x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 대표이사가 대표권을 남용해 약속어음을 발행했고 상대방이 그 사실을 알았거나 알 수 있었다면 발행행위는 회사에 대해 효력<span class=\"cs-x\"><strong>(X)</strong></span>","k":"rwv8al"},
+    {"i":"1r3kij4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 다만 회사가 실제로 어음금을 지급했거나 민사상 손해배상책임을 부담하거나 어음이 실제로 제3자에게 유통되는 등 특별한 사정이 없는 한 재산상 실해 발생의 위험이 초래되었다고 볼 수 없어 배임미수죄","k":"p6m3zj"},
+    {"i":"uga2li","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 乙이 개인 용도임을 알면서 요청 → 발행행위 무효. 어음금 지급·손해배상 책임·제3자 유통 모두 없음 → 현실적 손해도 실해 발생의 위험도<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1hcfhu0"},
+    {"i":"eggu95","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"④ 甲 = 업무상배임미수죄(<span class=\"cs-blue\"><span class=\"cs-u\">제359조</span>, <span class=\"cs-u\">제356조</span>, <span class=\"cs-u\">제355조</span> 제2항</span>)","k":"3rw0e3"},
+    {"i":"o3nefd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"⑤ 특경법은 미수범에 적용<span class=\"cs-x\"><strong>(X)</strong></span>","k":"xdkwrp"},
+    {"i":"bh6i76","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [乙의 죄책]</strong></span>","k":"b55tjk"},
+    {"i":"16g71nw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(가) [업무상배임죄의 공동정범]</strong>","k":"14hc647"},
+    {"i":"2xqxkl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 거래상대방의 대향적 행위가 필요한 유형의 배임죄에서는 배임 의도가 전혀 없던 실행행위자에게 교사하거나 전 과정에 관여하는 등 적극 가담한 경우에 한해 배임교사죄·배임죄의 공동정범<span class=\"cs-o\"><strong>(O)</strong></span>","k":"bnb3ee"},
+    {"i":"1wssjrc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 乙은 어음 발행을 요청하고 회사 사무실에서 어음 용지에 액면금·발행일을 기재하는 등 전 과정에 관여 = '적극 가담' → 공동정범<span class=\"cs-o\"><strong>(O)</strong></span>","k":"4rye5v"},
+    {"i":"38tl4w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(나) [공범과 신분]</strong>","k":"jfpaoz"},
+    {"i":"j7v89v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 비신분자가 부진정신분범(이중 신분범)에 가담한 경우 <span class=\"cs-blue\"><span class=\"cs-u\">제33조</span></span> 본문·단서의 관계 — 진정·부진정신분범 구별설/성립·과형 구별설, 판례 = 성립·과형 구별설. 단서는 본문의 적용을 전제한다고 해석함이 문언에 충실 → 성립·과형 구별설 타당","k":"mrty8g"},
+    {"i":"3cs8fk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 乙 = <span class=\"cs-blue\"><span class=\"cs-u\">제33조</span></span> 본문에 의해 업무상배임미수죄 성립, <span class=\"cs-blue\"><span class=\"cs-u\">제33조</span></span> 단서에 의해 단순배임미수죄의 형으로 처벌","k":"1aidfex"},
+    {"i":"mtv3r","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(3) [결론]</strong></span> 甲·乙 = 업무상배임미수죄의 공동정범. 단 乙은 단순배임미수죄의 형으로 처벌","k":"1gsglx3"}
+   ]}
+  ]}
+ ]},
+ {"i":"bdq1e2","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1rswp6l","o":"<div class=\"cs-h\">","h":"Ⅰ. 일반적 대표권 남용행위","k":"y14khe"},
+  {"i":"13trq8v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-u\">대표이사가 대표권 남용 등 임무위배로 회사명의 의무부담행위</span> → 일단 회사 행위로서 유효, 상대방이 진의 알았거나 알 수 있었으면 회사에 무효","k":"1ci7sfi"},
+  {"i":"1vlw053","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"1oqcf7b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[상대방 부지 → 유효]</span> 회사 채무 발생·이행의무 부담 → 그 채무 발생 자체가 현실적 손해·실해 발생 위험 → 현실 이행 전이라도 배임 기수","k":"r23j2h"},
+  {"i":"w0w4w6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[상대방 악의·과실 → 무효]</span> ① 원칙 무효, 경제적 관점에서도 현실적 손해·실해 발생 위험 초래 X → 실제 채무이행·불법행위책임 등 사정 없으면 기수 X ② 그러나 배임 범의로 임무위배행위 실행착수 → 배임 미수<span class=\"cs-exam\">【변26·21·14】</span>","k":"1yw3zov"},
+  {"i":"d6k6cw","o":"<div class=\"cs-h\">","h":"Ⅱ. 대표권을 남용한 어음발행행위 [변사26·18, 모기21·18]","k":"320jga"},
+  {"i":"1qo4jia","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : 약속어음은 발행인이 인적 항변으로 소지인에 대항 X(어음법 <span class=\"cs-blue\"><span class=\"cs-u\">§17</span></span>·<span class=\"cs-blue\"><span class=\"cs-u\">§77</span></span>) → 발행 '무효'라도 제3자에 '유통'되면 어음채무 부담 위험 구체적·현실적 발생 → 이행 전이라도 배임 '기수'<span class=\"cs-exam\">【변25·22·17】</span>","k":"xa8d8w"},
+  {"i":"1ts4o0r","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"936ooq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[상대방 악의·과실로 무효 + 지급·손배·유통 등 특별사정 없음]</span> 현실적 손해·실해 발생 위험 초래 X → <span class=\"cs-green\"><strong>배임 기수<span class=\"cs-x\"><strong>(X)</strong></span></strong></span>, 배임미수<span class=\"cs-exam\">【변19】</span>","k":"zn0lk0"}
+ ]}
+]}

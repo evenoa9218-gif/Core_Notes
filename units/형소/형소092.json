@@ -1,0 +1,79 @@
+{"id":"형소092","t":"당연 증거능력 (제311조, 제315조)","cat":"pro_14","lv":1,"tg":["B급","中","변사26","모사24·13"],"b":[
+ {"i":"1pci82o","o":"<details class=\"cs-case\">","b":[
+  {"i":"12ddvet","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(1)] 계속·기계적으로 작성된 대표이사 출납 수첩의 증거능력</strong></span> <span class=\"cs-exam\">【변사26】</span>","k":"j4wz1o"},
+  {"i":"wztes6","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"3x71gc","o":"<div class=\"cs-fact\">","b":[
+    {"i":"11ldxr8","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1r64azf","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"丙에 대한 업무상배임·배임수재 관련 사경 P가 丙의 사무실에 압수수색영장을 발부받아 회계 관련 서류 압수 → 압수된 \"2025년도 대표이사 일일 출납 사항\" 수첩에 \"甲대표 25. 5. 10. 2,000만 원\" 등 매일 수기로 작성된 금전출납사항과 영수증이 첨부됨 → 검사가 이를 丙이 작성한 것이라며 제출하나 丙이 작성한 적 없다며 부동의 → 검사가 丙의 필적임이 확인된 감정서 제출. 수첩의 증거능력을 인정받을 법적 논거를 모두 제시하라. (12점)","k":"l2dwbb"}
+    ]}
+   ]},
+   {"i":"1rxa86z","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"c8etcy","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"13dgo18","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [당연 증거능력]</strong> ① <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§315제2호</strong></span></span> ② 범죄사실 인정 여부와 상관없이 맡겨진 사무 처리 내역을 그때그때 계속적·기계적으로 기재한 문서 → 업무상 통상문서로 당연히 증거능력 ③ 이 수첩은 금전출납 사무를 계속적·기계적으로 기재한 업무상 통상문서 → 부동의하여도 진정하게 작성된 사실이 객관적으로 확인되면 증거능력 O. 필적 감정으로 丙의 필적임이 확인 → 증거능력 O (추가로 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§315제3호</strong></span></span>도 가능)","k":"1t7vjkb"},
+    {"i":"13g4xtc","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [진술서의 증거능력]</strong> (가) [<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§313①</strong></span></span> 본문] 丙 자필 서류이나 작성 부인으로 진정성립 부인 → 이 규정으로는 증거능력 X (나) [<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§313②</strong></span></span>] 丙이 진정성립 부인하나 검사가 객관적 방법인 필적 감정서로 진정성립 증명 → <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§313②</strong></span></span>로 증거능력 O","k":"1t1pv5c"},
+    {"i":"vfdlrp","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> 수첩은 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§315제2호</strong></span></span>로 당연히 증거능력 O, <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§313②</strong></span></span>로 진술서로서도 증거능력 O","k":"1tlapbk"}
+   ]}
+  ]}
+ ]},
+ {"i":"1tcsm9t","o":"<details class=\"cs-case\">","b":[
+  {"i":"1t22hrv","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(2)] 확정된 공범 甲의 자백 공판조서를 乙에 대한 증거로</strong></span>","k":"hzld9f"},
+  {"i":"1easj7b","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"23xd8d","o":"<div class=\"cs-fact\">","b":[
+    {"i":"zwdblx","o":"<div class=\"cs-callout\">","b":[
+     {"i":"910vum","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"검사가 甲을 乙과 함께 강도를 하였다는 특수강도죄로 기소 → 법정에서 甲이 乙과 공동 범행을 자백하고 공판조서에 기재 → 제1심이 甲에게 유죄판결 선고·확정 → 이후 乙이 검거되어 특수강도죄로 기소 → 乙이 법정에서 부인하자 검사가 甲의 자백이 기재된 공판조서를 제출. 乙에 대한 증거로 사용할 수 있는가? (10점)","k":"sgft3n"}
+    ]}
+   ]},
+   {"i":"1lnq6ai","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"kw4nib","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"3o540t","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 다른 사건의 공판조서의 증거능력 — 결론(증거능력 인정)은 같으나 근거가 문제 ② <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§311</strong></span></span> 적용설, <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§315제3호</strong></span></span> 적용설, 판례는 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§315제3호</strong></span></span> 적용설 ③ <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§311</strong></span></span>의 공판조서는 당해 사건의 공판조서에만 적용되고, 법원이 진술을 청취·기재한 것이므로 특히 신용할 만한 정황에 의하여 작성 → <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§315제3호</strong></span></span> 적용설 타당 ④ 甲의 자백이 기재된 공판조서는 乙에 대한 증거로 사용 O","k":"177oci8"}
+   ]}
+  ]}
+ ]},
+ {"i":"7ba5yy","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1tglnz2","o":"<div class=\"cs-callout\">","b":[
+   {"i":"181z2ql","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제311조(법원 또는 법관의 조서)</strong></span>","k":"u13lnf"},
+   {"i":"659yjv","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"공판준비 또는 공판기일에 <span class=\"cs-statute\"><span class=\"cs-u\"><strong>피고인이나 피고인 아닌 자의 진술을 기재한 조서</strong></span></span>와 <span class=\"cs-statute\"><span class=\"cs-u\"><strong>법원 또는 법관의 검증의 결과를 기재한 조서</strong></span></span>는 증거로 할 수 있다. 제184조 및 제221조의2의 규정에 의하여 작성한 조서도 또한 같다.","k":"p7aovw"},
+   {"i":"1pg0h4r","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제315조(당연히 증거능력이 있는 서류)</strong></span>","k":"nvwsfz"},
+   {"i":"rlsy48","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"가족관계기록사항에 관한 증명서·공정증서등본 기타 <span class=\"cs-statute\"><span class=\"cs-u\"><strong>공무원 또는 외국공무원의 직무상 증명할 수 있는 사항에 관하여 작성한 문서</strong></span></span>","k":"1mhd12f"},
+   {"i":"t2oh4e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-statute\"><span class=\"cs-u\"><strong>상업장부·항해일지 기타 업무상 필요로 작성한 통상문서</strong></span></span>","k":"1fohnp2"},
+   {"i":"1yepgak","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"기타 <span class=\"cs-statute\"><span class=\"cs-u\"><strong>특히 신용할 만한 정황에 의하여 작성된 문서</strong></span></span>","k":"d2zeh1"}
+  ]},
+  {"i":"myayha","o":"<div class=\"cs-h\">","h":"Ⅰ. 제311조 당연 증거능력","k":"bd9ww"},
+  {"i":"1lq1j95","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>피고인이나 피고인 아닌 자의 진술을 기재한 조서</strong></span>","k":"1dkufdx"},
+  {"i":"ggw4bd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[진술 자체]</span> '공판기일에서의 진술'은 그 자체가 증거이므로(조서가 증거 X) 본 규정 적용 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"4nu6zf"},
+  {"i":"1w737uh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"본 규정은 당해사건에서 ① 공판준비기일조서 ② 공판기일 외 증인신문조서 ③ 공판절차 갱신 전의 공판조서(판사 경질 등) ④ 상소심에서 하급심의 공판조서 ⑤ 파기환송 전의 공판조서가 증거로 되는 경우에 적용","k":"npwu89"},
+  {"i":"l0slrf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>법원 또는 법관의 검증의 결과를 기재한 조서</strong></span>","k":"m8xzzk"},
+  {"i":"5pgkoj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[검증결과 자체]</span> 당해 사건의 재판부가 공판기일에서 검증한 경우 <span class=\"cs-red\"><strong>검증결과 자체가 원본증거이므로 전문법칙이 문제되지 않고 당연히 증거능력 인정</strong></span><span class=\"cs-exam\">【변17】</span>","k":"e8980y"},
+  {"i":"rg6v67","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"본 규정은 당해 사건에서 판사변경·공판기일 외 검증·수명법관·수탁판사의 검증·증거보전절차 검증결과를 기재한 조서가 증거로 되는 경우에 적용","k":"nvr8nw"},
+  {"i":"iz6xqv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[첨부 사진·도화]</span> 검증조서에는 도화·사진을 첨부할 수 있고<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§49②)</strong></span></span> 검증조서와 일체를 이루므로 <span class=\"cs-red\"><strong>검증조서로서 증거능력 인정</strong></span>","k":"1aubcd8"},
+  {"i":"olq26m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[검증조서에 기재된 진술 – 현장지시]</span> 검증활동의 정확성을 보조하는 것에 불과하고 검증조서와 일체를 이루어 <span class=\"cs-red\"><strong>검증조서로서 증거능력 인정</strong></span>(§311 또는 §315제3호)","k":"vo9tuo"},
+  {"i":"ejz7we","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[현장진술]</span> §311 '전단' 적용설, '후단' 적용설 → 검증에 참여권이 인정되어 실질적으로 반대신문이 보장되므로 검증조서와 일체를 이루어 증거능력을 인정하는 <span class=\"cs-red\"><strong>§311 후단 적용설 타당</strong></span>","k":"1t1gi5k"},
+  {"i":"159fy1o","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>다른 사건의 공판조서 등의 증거능력</strong></span><span class=\"cs-exam\">【모사24·13】</span>","k":"11v83uq"},
+  {"i":"rci0rv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"다른 사건의 공판조서·검증조서·§184(증거보전)·§221의2(증인신문) 증인신문조서도 당연히 증거능력이 인정되지만 근거가 문제","k":"yxlizw"},
+  {"i":"11uegdd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① §311의 피고인 아닌 자의 진술을 기재한 조서로 인정된다는 <span class=\"cs-green\"><strong>§311 적용설</strong></span> ② §315제3호의 서류로 인정된다는 <span class=\"cs-red\"><strong>§315제3호 적용설</strong></span>","k":"c3ht1r"},
+  {"i":"g7vs0a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 §315제3호 적용설] 다른 피고인에 대한 형사사건의 공판조서(그 일부인 증인신문조서 포함)는 §315제3호의 서류로서 당연히 증거능력 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span><span class=\"cs-exam\">【변21·20·16·14】</span>","k":"du58kz"},
+  {"i":"1wcx2p1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: §311의 공판조서는 당해 사건에만 적용되고, 법원이 진술을 청취·기재하여 특히 신용할 만한 정황에 의하여 작성 → <span class=\"cs-red\"><strong>§315제3호 적용설 타당</strong></span>","k":"1ylhkew"},
+  {"i":"11cdi7x","o":"<div class=\"cs-h\">","h":"Ⅱ. 제315조 당연 증거능력","k":"nq0n05"},
+  {"i":"19owilq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>[제1호] 직무상 증명할 수 있는 사항에 관한 공무원 작성문서</strong></span>","k":"ge17mu"},
+  {"i":"14edlqo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[O]</span> 가족관계증명서·공정증서등본·부동산·법인등기부·인감증명서·전과조회서","k":"f4724z"},
+  {"i":"aabr60","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[O]</span> 보건복지부장관의 마약 시가조사보고서 / 세무공무원의 범칙물자 시가감정서 / 일본 세관공무원 작성 범칙물건감정서등본(외국공무원 O)","k":"1j770dm"},
+  {"i":"139tfkx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[X]</span> 수사기관·외국수사기관이 작성한 공소장 등 수사관련서류","k":"m81q1w"},
+  {"i":"ypqwdc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[X]</span> 국립과학수사연구소장의 감정의뢰회보서 — (§313③ O)<span class=\"cs-exam\">【변14】</span>","k":"9zrims"},
+  {"i":"1hbobsb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>[제2호] 업무상 필요로 작성한 통상문서</strong></span>","k":"1ezlo5h"},
+  {"i":"18vls03","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[O]</span> 장부·전표·금전출납부","k":"1oavloo"},
+  {"i":"110jvya","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[O] 상업장부·항해일지·진료일지 또는 이와 유사한 금전출납부 등과 같이 범죄사실의 인정 여부와 상관없이 자기에게 맡겨진 사무를 처리한 내역을 그때그때 계속적·기계적으로 기재한 문서는 §315제2호에 따라 당연히 증거능력 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span> — (업무의 기계적 반복성으로 허위작성 여지가 적고 고도의 신용성이 인정되어 반대신문 필요가 없거나 작성자 소환도 서면제출 이상 의미가 없음)<span class=\"cs-exam\">【변26, 변사26】</span>","k":"i48c54"},
+  {"i":"9y90rm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[O — 뇌물공여 혐의를 받기 전에 준설공사 자금을 지출하면서 뇌물자금과 기타 자금을 구별하지 아니하고 지출 일시·금액·상대방 등을 계속적·기계적으로 기입한 수첩]</span> 피고인의 자백이라고 볼 수 없어 <span class=\"cs-red\"><strong>검찰 자백에 대한 보강증거 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span>(§315제2호)<span class=\"cs-exam\">【변사26】</span>","k":"1n3nw3n"},
+  {"i":"dotaa3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[O — 성매매여성 직원이 영업 참고를 위해 성매매 상대방 전화번호·방법 등을 메모지에 적어두었다가 메모리카드에 입력한 내용]</span> §315제2호의 <span class=\"cs-red\"><strong>'영업상 필요로 작성한 통상문서'로 당연히 증거능력 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span><span class=\"cs-exam\">【변25】</span>","k":"1bm3vhl"},
+  {"i":"nnur7z","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[O]</span> 진료기록부·진료일지 ↔ <span class=\"cs-gbg\">[X]</span> 사인인 의사가 작성한 '진단서' 또는 사체검안서(§313① 적용)","k":"147szab"},
+  {"i":"eze1g0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>[제3호] 기타 특히 신용할 만한 정황에 의하여 작성된 문서</strong></span>","k":"9t98dw"},
+  {"i":"1jxby0b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>§315제3호의 문서는 제1·2호의 공권적 증명문서·업무상 통상문서에 준하여 굳이 반대신문의 기회 부여가 문제되지 않을 정도로 고도의 신용성에 관한 정황적 보장이 있는 문서</strong></span>","k":"1g8vjrh"},
+  {"i":"1dfxmkg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[O]</span> 공무소가 기록한 공공기록·통계연감·스포츠 기록","k":"1ho5m1"},
+  {"i":"vwm7nr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[O]</span> ① 구속적부심문조서는 §311의 문서에는 해당하지 않으나 특히 신용할 만한 정황에 의하여 작성된 문서로서 부동의하더라도 <span class=\"cs-red\"><strong>§315제3호에 의하여 당연히 증거능력 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span> ② 구속전피의자심문조서도 동일<span class=\"cs-exam\">【변23·21·13】</span>","k":"p3j803"},
+  {"i":"lckrd3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[X]</span> 보험사기 사건에서 건강보험심사평가원의 입원진료 적정성 검토의뢰에 대한 회신<span class=\"cs-exam\">【변24·20】</span>","k":"1e0rms1"},
+  {"i":"1xxxp6x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[X]</span> 업무수첩(안○○)은 사무처리 편의를 위하여 자신이 경험한 사실 등을 기재한 것에 지나지 않아 해당 X(전합)","k":"19093ji"},
+  {"i":"pre8ea","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[X]</span> 국가정보원 심리전단 직원의 이메일 계정에서 압수된 전자문서","k":"1mq6zpe"},
+  {"i":"s3n2t8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[X]</span> 주중국 대사관 영사가 작성한 사실확인서 중 '공인' 부분을 제외한 나머지 부분이 공적인 증명보다 상급자에 대한 보고를 목적으로 하는 경우(§315제1·3호 해당 X)<span class=\"cs-exam\">【변21】</span>","k":"1mzytf1"},
+  {"i":"1xwgimj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[X]</span> 체포·구속인접견부는 유치장의 안전과 질서를 위태롭게 하는 것을 방지하기 위한 목적으로 작성되는 서류(§315제2·3호 X)","k":"w0c4x5"},
+  {"i":"ftyqd9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[X]</span> 주민들의 진정서 사본","k":"of7j32"}
+ ]}
+]}

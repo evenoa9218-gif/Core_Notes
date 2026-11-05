@@ -1,0 +1,9 @@
+{"id":"최판022","t":"신의성실의 원칙","cat":"민법 22·23 · 민법총칙","lv":1,"tg":[],"b":[
+ {"i":"4ymxza","o":"<div class=\"cs-callout\">","b":[
+  {"i":"l58xwa","o":"<div class=\"cs-h\">","h":"신의성실의 원칙","k":"1218st5"},
+  {"i":"vqzgp0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-star\">★★</span>【判例2022】 착오 송금된 예금채권이 이미 제3자에 의해 압류되었다는 특별한 사정 있어 수취은행의 상계 허용되더라도 피압류채권액 범위 내만 가능, 그 범위 벗어나는 상계 <span class=\"cs-x\"><strong>(X)</strong></span> ∵ 신의칙 반하거나 권리남용으로서 불허 <span class=\"cs-exam\">[2020다212958]</span>","k":"76glsu"},
+  {"i":"474cro","o":"<div class=\"cs-callout\">","h":"<strong>강의</strong> : 단계가 복잡하다. 순서대로 ① 송금의뢰인이 「착오송금」이라고 알려 와도 수취은행은 «상계 <span class=\"cs-o\"><strong>(O)</strong></span>»(조사의무가 없다) ② 그런데 수취은행이 «착오송금임을 알면서» 상계하면 «상계권 남용» <span class=\"cs-x\"><strong>(X)</strong></span> ③ 그러나 그 예금채권을 «제3자가 압류»하여 수취은행이 그에게 지급해야 할 처지가 되면 다시 «상계 <span class=\"cs-o\"><strong>(O)</strong></span>» ④ 다만 그때는 «압류된 피압류채권액의 범위 내»에서만 상계할 수 있다(예금 2천 중 1500만 압류되었으면 1500만) ∵ 원래 못 하는 상계를 «압류 때문에» 예외적으로 허용하는 것이므로 ／ 그 상계로 압류채권자에게 대항하려면 «498조» 요건(압류 송달 당시 반대채권의 존재, 변제기가 도래했거나 피압류채권보다 먼저 또는 동시에 도래)은 별도로 갖춰야 한다.","k":"dni0ag"},
+  {"i":"15t0t0f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-star\">★</span>【判例2022】 송금의뢰인이 착오송금 주장하더라도, 수취인이 인정하거나 반환 승낙한 것 아니라면, 수취은행은 수취인에 대한 대출채권 등을 자동채권으로 수취인 계좌에 입금된 금원 상당의 예금채권과 상계 <span class=\"cs-o\"><strong>(O)</strong></span> ∵ 수취은행이 일반적으로 계좌에 입금된 돈이 착오송금에 의한 것인지 조사‧확인할 의무 <span class=\"cs-x\"><strong>(X)</strong></span> <span class=\"cs-exam\">[2021다256481]</span>","k":"txdxl2"},
+  {"i":"1mgbk5a","o":"<div class=\"cs-callout\">","h":"<strong>강의</strong> : 수취은행에 «조사·확인 의무가 없다»는 것이 핵심이다 — 「계좌가 몇 개인데 잘못 들어온 돈을 다 조사해야 하느냐」. 송금의뢰인이 착오송금이라고 주장하더라도 «수취인이 인정하거나 반환을 승낙»한 것이 아니라면 상계할 수 <span class=\"cs-o\"><strong>(O)</strong></span>","k":"1qpmer"}
+ ]}
+]}

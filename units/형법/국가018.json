@@ -1,0 +1,29 @@
+{"id":"국가018","t":"공동피고인의 증인적격과 증언거부권","cat":"gak_국가공무방해","lv":1,"tg":["변사23","변사13","모사25","모사22","모사20","변기24"],"b":[
+ {"i":"m8de54","o":"<div class=\"cs-h\">","h":"Ⅰ. 공동피고인의 증인적격과 위증죄 성립여부","k":"1m6qx2v"},
+ {"i":"18bzn17","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>공범인 공동피고인</strong></span>","k":"1heg1zo"},
+ {"i":"acoc68","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"해당여부 判例:","k":"q5qfip"},
+ {"i":"1kr8h4j","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[증인적격]</span> 공범인 공동피고인은 당해 소송절차선 피고인 지위에 있어 다른 공동피고인 공소사실에 증인 될 수 X, 소송절차 분리되어 피고인 지위서 벗어나면 다른 공동피고인 공소사실에 증인 될 수 있음<span class=\"cs-exam\">【모사25】</span>","k":"1ys995n"},
+ {"i":"ul3931","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-neg-tag\">[병합심리]</span> 피고인과 공범 변론 분리 안 된 이상 피고인은 공범 공소사실에 증인 될 수 없어 위증죄 성립<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1e93dwo"},
+ {"i":"9a2t1e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[변론분리]</span> ①증언거부권이 실질 보장되는 한 공범인 공동피고인에 소송절차 분리 후 증인적격 인정하고 자신 범죄사실 관련 질문해도 피고인으로서 진술거부권·자기부죄거부특권 침해 X ②증인적격 인정되는 피고인이 증인신문절차서 증언거부권 고지받고도 자신 범죄사실 관련 증언거부권 행사 안 한 채 허위 진술 시 위증죄 성립<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변26·25·22·16】【변사23, 모사25】</span>","k":"z449cd"},
+ {"i":"1ui5yqg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>공범이 아닌 공동피고인</strong></span>","k":"ym95e8"},
+ {"i":"1qhxkat","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"해당여부 判例:","k":"q5qfip"},
+ {"i":"fxqxm1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[증인적격]</span> 피고인과 별개 범죄사실로 기소되어 병합심리중인 공동피고인은 피고인 범죄사실에 관하여는 증인 지위에 있음","k":"uf0hdm"},
+ {"i":"13funiv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[병합·분리]</span> 공범 아닌 공동피고인은 변론 병합·분리 여부 관계없이 증인적격 인정 →증인으로 허위 진술 시 위증죄 성립<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1pvmr50"},
+ {"i":"y1dsq3","o":"<div class=\"cs-h\">","h":"Ⅱ. 증언거부권을 고지하지 않은 경우 위증죄 성립여부","k":"17e6wfp"},
+ {"i":"1wnvqsb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>민사소송의 증인</strong></span>","k":"1blsndx"},
+ {"i":"1nvn69","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例) : <span class=\"cs-def\"><span class=\"cs-u\">민사소송법은 증언거부권 고지 규정 별도로 두지 않음</span></span> →재판장이 증인에게 증언거부권 고지 안 했어도 절차위반 위법 X, 특별한 사정 없는 한 위증죄 성립<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변16】</span>","k":"ll1mlu"},
+ {"i":"1iljzq4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[형사]</span><span class=\"cs-sub\"> 증언거부권을 고지받지 못하고 허위 진술한 경우</span><span class=\"cs-exam\">【모사22·14】</span>","k":"1mp8901"},
+ {"i":"v1xy99","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"증인이 <span class=\"cs-blue\"><span class=\"cs-u\">§148</span></span>·<span class=\"cs-blue\"><span class=\"cs-u\">§149</span></span> 해당 시 재판장은 신문 전 증언 거부할 수 있음 설명해야 (형소법 <span class=\"cs-blue\"><span class=\"cs-u\">제160조</span></span>)","k":"14005y8"},
+ {"i":"htj4n6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-hl\">《재판장이 증언거부권자에게 고지 안 했는데 증인이 허위 진술 시 위증죄 성립하는지》</span>","k":"1cnggao"},
+ {"i":"fzuqso","o":"<div class=\"cs-theory\">","b":[
+  {"i":"tdlzn7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①위증죄 성립설 ②위증죄 불성립설","k":"1t9fppn"},
+  {"i":"nilslf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: ①증인신문절차서 증인 보호 규정 지켜진 것 인정 안 되면 '법률에 의해 선서한 증인' 해당 X→위증죄 처벌 X 원칙 ②재판장이 증언거부권 고지 안 한 경우에도 증인이 침묵 안 하고 진술한 것이 자신의 진정한 의사에 의한 것인지 여부 기준으로 위증죄 성립 판단 ③헌법 <span class=\"cs-blue\"><span class=\"cs-u\">§12</span>②</span> 불이익진술 강요금지 구체화한 자기부죄거부특권에 관한 것이거나 기타 증언거부사유 있음에도 증언거부권 고지 못 받아 그 행사에 사실상 장애 초래됐다 볼 수 있는 경우 위증죄 성립 부정<span class=\"cs-exam\">【변16】</span>","k":"hpwkv5"},
+  {"i":"1ph1lbw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 일률적으로 성립 긍정·부정할 것 아니라 구체적 사안서 위증죄 성립여부 판단하는 판례 타당","k":"mu0t8m"}
+ ]},
+ {"i":"1blq8t9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+ {"i":"1rjt91i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-neg-tag\">[쌍방폭행 자기부죄]</span> 쌍방폭행 기소되어 자신은 폭행한 적 없다 다투다가, 상대방 폭행 피해자로 증인 채택되어 증언거부권 고지 못 받은 채 종전 주장 되풀이해 거짓 진술에 이른 경우 위증죄 죄책 물을 수<span class=\"cs-x\"><strong>(X)</strong></span> <span class=\"cs-gbg\">[자기부죄거부특권]</span>","k":"1dxh1t9"},
+ {"i":"qs9bau","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[전 남편 음주운전]</span> 전 남편 음주운전 사건에 증인 출석해 증언거부권 고지 못 받은 상태서 자신이 전남편 태우고 운전했다 적극적으로 전남편 변명에 부합하는 증언 시 위증죄 성립<span class=\"cs-o\"><strong>(O)</strong></span> <span class=\"cs-fact-tag\">[사실상 장애 초래X]</span>","k":"u50zay"},
+ {"i":"ojlbwe","o":"<div class=\"cs-h\">","h":"Ⅲ. 유죄확정 판결을 받은 자의 증언거부권","k":"k6o6cj"},
+ {"i":"1fjn14i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-def\"><span class=\"cs-u\">①이미 유죄확정판결 받은 경우 일사부재리 원칙에 의해 다시 처벌 안 됨</span></span> →피고인은 공범 형사사건서 그 범행에 증언 거부할 수 없을 뿐 아니라 사실대로 증언해야 ②피고인이 자신 형사사건(강도상해)서 시종일관 범행 부인했어도 위증죄 양형참작사유로 볼 수 있음은 별론, 이를 이유로 사실대로 진술 기대가능성 없다 볼 수 X <span class=\"cs-fact-tag\">[위증죄 성립]</span><span class=\"cs-exam\">【변26·23·20·19·18·17·12】【모사22·20·14, 변기24】</span>","k":"6tebl5"},
+ {"i":"1w9esbc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"자신에 대한 유죄판결 확정된 증인이 공범 피고사건서 증언 당시 앞으로 재심 청구할 예정이라 해도 이를 이유로 증인에게 형소법 <span class=\"cs-blue\"><span class=\"cs-u\">§148</span></span> 증언거부권 인정 X","k":"14bqfyo"}
+]}

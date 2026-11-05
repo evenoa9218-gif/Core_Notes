@@ -1,0 +1,43 @@
+{"id":"형소058","t":"공소제기 후 강제수사 (압수수색, 구속)","cat":"pro_07","lv":1,"tg":["下","변사15"],"b":[
+ {"i":"ltiu7a","o":"<details class=\"cs-case\">","b":[
+  {"i":"hk0dph","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 불구속 기소 후 지방법원판사 영장으로 압수한 영업장부</strong></span> <span class=\"cs-exam\">【변사14】</span>","k":"1882j7u"},
+  {"i":"z4vzbk","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"14goaai","o":"<div class=\"cs-fact\">","b":[
+    {"i":"wqknmq","o":"<div class=\"cs-callout\">","b":[
+     {"i":"3t219f","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲·乙이 2013. 12. 2. 도박장소개설죄 공동정범으로 서울중앙지방법원에 불구속 기소되어 형사7단독 재판부 배당, 제1회 공판기일 2014. 1. 3.로 지정 → 수사검사가 2013. 12. 26. 서울중앙지방법원 영장전담판사로부터 압수수색영장을 발부받아 甲의 집에서 영업장부 압수 → 영업장부와 압수조서를 공판기일에 증거로 제출. 영업장부와 압수조서는 증거능력이 인정되는가? (20점)","k":"11q5xrd"}
+    ]}
+   ]},
+   {"i":"qn5ny5","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"vhwe5g","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"17zmmwa","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [공소제기 후 제215조에 의한 압수·수색]</strong> 검사가 공소제기 후 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§215</strong></span></span>에 따라 수소법원 이외의 지방법원 판사에게 청구하여 발부받은 영장에 의한 압수·수색 허용 여부 — 긍정설, 부정설. 판례는 부정설. 공소제기 후 강제처분 권한은 수소법원에 있으므로 부정설 타당","k":"qhbzqn"},
+    {"i":"gz1n9i","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [영업장부의 증거능력]</strong>","k":"1touhb8"},
+    {"i":"l35hoz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 적법한 절차에 따르지 않고 수집한 증거로 원칙적 증거능력 X(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§308의2</strong></span></span>)","k":"151avbx"},
+    {"i":"176sltu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 다만 수사기관의 절차 위반행위가 적법절차의 실질적인 내용을 침해하는 경우에 해당하지 아니하고, 오히려 증거능력을 배제하는 것이 형사 사법 정의를 실현하려 한 취지에 반하는 결과를 초래하는 것으로 평가되는 예외적인 경우에는 증거능력 인정 O","k":"1rbgtgv"},
+    {"i":"12cswea","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 검사는 수소법원에 압수·수색에 관한 직권발동을 촉구하는 방법으로 영업장부를 확보할 수 있었으므로 위 예외에 해당 X → 영업장부는 위법수집증거로 증거능력 X","k":"11f8mpa"},
+    {"i":"1e4w537","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [압수조서의 증거능력]</strong>","k":"2rgyyt"},
+    {"i":"i4jrjo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 위법수집증거로부터 파생된 2차적 증거의 증거능력은 주로 인과관계 희석·단절 여부를 중심으로 전체적·종합적으로 고려하여 판단하여야 하고, 그러한 예외적인 경우에 해당한다고 볼 만한 구체적이고 특별한 사정이 존재한다는 점은 검사가 증명하여야","k":"1u9w5ga"},
+    {"i":"j3z3sy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 인과관계가 희석·단절되었다고 볼 사정 X → 압수조서도 위수증으로부터 파생된 2차적 증거로서 증거능력 X","k":"pxcbsz"},
+    {"i":"1aszmki","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(4) [결론]</strong> 영업장부와 압수조서 모두 증거능력 X","k":"lc932j"}
+   ]}
+  ]}
+ ]},
+ {"i":"8kqym7","o":"<div class=\"cs-callout\">","b":[
+  {"i":"nai02c","o":"<div class=\"cs-h\">","h":"Ⅰ. 피고인 구속","k":"vwx5ri"},
+  {"i":"2ddkk6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"공소제기 후 피고인 구속은 <span class=\"cs-red\"><strong>법원의 권한</strong></span>이므로<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§70)</strong></span></span> <span class=\"cs-green\"><strong>수사기관에 의한 구속은 허용 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"9lw02k"},
+  {"i":"19g6mh9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>공소제기 후 구속·압수·수색 등 피고인의 기본적 인권에 직접 영향을 미치는 강제처분은 원칙적으로 '수소법원의 판단'에 의하여 이루어지지 않으면 안 됨</strong></span>","k":"1ivhlxz"},
+  {"i":"138g88r","o":"<div class=\"cs-h\">","h":"Ⅱ. 공소제기 후 압수·수색·검증<span class=\"cs-exam\">【변사14】</span>","k":"2lk5v6"},
+  {"i":"qbzpko","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>제215조에 의한 압수·수색·검증 허용여부</strong></span>","k":"1mmcp1j"},
+  {"i":"1dcp4t3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《검사가 공소제기 후 §215에 따라 수소법원 이외의 지방법원 판사에게 청구하여 발부받은 영장에 의하여 압수·수색이 허용되는지 여부》</strong></span>","k":"p9ojnt"},
+  {"i":"1bgl2bw","o":"<div class=\"cs-theory\">","b":[
+   {"i":"1ns3edy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 제1회 공판기일 전에는 허용된다는 <span class=\"cs-red\"><strong>긍정설</strong></span> ② 제1회 공판기일 이전에도 <span class=\"cs-green\"><strong>증거보전절차에 의하면 되므로 허용되지 않는다는 부정설</strong></span>","k":"j5cm0d"},
+   {"i":"w0fsbe","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 부정설] §215에서 검사가 압수·수색 영장을 청구할 수 있는 시기를 공소제기 전으로 명시적으로 한정하고 있지는 아니하나, 헌법상 보장된 적법절차의 원칙과 재판받을 권리, 공판중심주의·당사자주의·직접주의를 지향하는 현행 형소법의 소송구조 등을 종합하여 보면, 일단 공소가 제기된 후에는 피고사건에 관하여 검사로서는 §215에 의하여 압수·수색을 할 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변23·22·16·14·12】</span>","k":"p0rmzr"},
+   {"i":"oqvble","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: 수사절차로서 압수수색과 공판절차의 압수수색은 구별해야 하고, 공소제기 후 <span class=\"cs-red\"><strong>강제처분 권한은 수소법원</strong></span>에 있으므로 <span class=\"cs-green\"><strong>부정설 타당</strong></span>","k":"19s49kb"}
+  ]},
+  {"i":"1ubx3x0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>증거능력</strong></span>","k":"qjop7s"},
+  {"i":"7uxr9b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[위법수집증거]</span> 검사가 공소제기 후 §215에 따라 수소법원 이외의 지방법원 판사에게 청구하여 발부받은 영장에 의하여 압수·수색을 하였다면, 그와 같이 수집된 증거는 <span class=\"cs-green\"><strong>기본적 인권 보장을 위해 마련된 적법한 절차에 따르지 않은 것으로서 원칙적으로 유죄의 증거로 삼을 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"1wyv17q"},
+  {"i":"9sdasn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>공소제기 후 압수·수색·검증이 가능한 경우</strong></span>","k":"1ifu2c5"},
+  {"i":"xct7ot","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[별건 압수수색]</span> 공소를 제기한 피고사건이 아닌 <span class=\"cs-red\"><strong>별건에 대한 §215에 의한 압수·수색·검증은 당연히 가능</strong></span>","k":"1mc9fby"},
+  {"i":"1v3o13y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[구속현장 압수수색]</span> 수사기관은 법원이 피고인에게 발부한 구속영장을 집행하는 경우 <span class=\"cs-red\"><strong>피고인 구속현장에서 영장 없이 압수·수색·검증 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§216②)</strong></span></span>","k":"1gfakll"},
+  {"i":"xq1ifg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[임의제출물 압수]</span> 임의제출물 압수는 임의로 제출하면 반환을 청구할 수 없으므로 강제수사의 일종이지만, <span class=\"cs-red\"><strong>공소제기 후에도 허용</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§218)</strong></span></span> — (일반적 견해)","k":"1jecj6h"}
+ ]}
+]}

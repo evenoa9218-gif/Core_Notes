@@ -1,0 +1,68 @@
+{"id":"국가011","t":"뇌물죄의 죄수관계","cat":"gak_국가공무원","lv":1,"tg":["모사21","모사19","모사16","모사14"],"b":[
+ {"i":"5gmvz3","o":"<details class=\"cs-case\">","b":[
+  {"i":"2mfh04","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE(1)] 위반사실 없는데 발견됐다 속여 금품 수수 (사기+뇌물)</strong></span></span> <span class=\"cs-red\">(10)</span>","k":"8ubqz6"},
+  {"i":"1wlt4ix","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1a9tcwz","o":"<div class=\"cs-fact\">","b":[
+    {"i":"4ksm57","o":"<div class=\"cs-callout\">","b":[
+     {"i":"o6xs0a","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"안남구청 건축과 공무원 甲, 빚이 많자 관할 구역 건축업자 乙에게 실제로는 위반사실이 발견되지 않았는데도 \"건축법 위반사실이 발견되어 확인 중이다. 3,000만 원을 주면 시장에게 위법이 확인되지 않았다고 보고해 아무 일 없게 해주겠다\"고 속여 3,000만 원 수령. 甲, 乙의 죄책은? (10점) [CASE(2)] 위반사실 이용 협박해 금품 수수·보고할 의사 없음 (공갈) 사채업자의 빚독촉에 시달리던 甲, 관할 구역에서 건축법을 위반한 건축업자 丙에게 \"위반사실이 발견되었는데 1,000만 원을 주지 않으면 시장에게 보고해 건축업을 못하게 하겠다\"고 겁을 주어 1,000만 원 수령. 그러나 甲은 애초에 시장에게 보고할 생각이 없었음.","k":"6h7jq1"},
+     {"i":"7ge57h","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲, 丙의 죄책은? (10점) [직무유기의 점은 논외로 함]","k":"1rmm28f"}
+    ]}
+   ]},
+   {"i":"1vxoz7o","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1u79x5p","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"17orlr4","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [甲의 죄책]</strong></span>","k":"kv2f88"},
+    {"i":"1l1p9h4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(가) [사기죄]</strong> 위반사실이 없는데 발견되었다고 속여 乙에게서 3,000만 원 수령 → 사기죄(<span class=\"cs-blue\"><span class=\"cs-u\">제347조</span> 제1항</span>)<span class=\"cs-o\"><strong>(O)</strong></span>","k":"14n1ifj"},
+    {"i":"lhbn47","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(나) [특가법위반(뇌물)]</strong>","k":"1j62wij"},
+    {"i":"1yt2plk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 공무원이 수수한 뇌물 가액이 3,000만 원 이상이면 특가법위반(뇌물)죄(<span class=\"cs-blue\">특가법 <span class=\"cs-u\">제2조</span> 제1항 제3호, 형법 <span class=\"cs-u\">제129조</span> 제1항</span>)","k":"8rz4n8"},
+    {"i":"7zyg3v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 뇌물 수수 시 공여자를 기망한 점이 있어도 뇌물수수죄·뇌물공여죄 성립에 영향<span class=\"cs-x\"><strong>(X)</strong></span>","k":"7zjozj"},
+    {"i":"18tp0g6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"③ 甲은 직무에 관해 3,000만 원의 뇌물 수수 → 특가법위반(뇌물)죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"s9c286"},
+    {"i":"1s07gi6","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [乙의 죄책]</strong></span>","k":"b55tjk"},
+    {"i":"h8uzci","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 甲의 직무에 관해 3,000만 원 공여 → 뇌물공여죄(<span class=\"cs-blue\"><span class=\"cs-u\">제133조</span> 제1항</span>)<span class=\"cs-o\"><strong>(O)</strong></span>. 甲이 기망했어도 마찬가지","k":"jnrew0"},
+    {"i":"a5x127","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 뇌물공여죄에는 특가법 적용<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1rixkls"},
+    {"i":"15xxtv6","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(3) [결론]</strong></span> 甲 = 특가법위반(뇌물)죄 + 사기죄의 상상적 경합, 乙 = 뇌물공여죄 (모범답안 - CASE(2))","k":"1p5x1ga"},
+    {"i":"vwj4kx","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [甲의 죄책]</strong></span>","k":"kv2f88"},
+    {"i":"1qsrw85","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(가) [공갈죄]</strong> 丙의 건축법 위반사실을 이용해 건축업을 못하게 하겠다고 협박, 겁먹은 丙에게서 1,000만 원 수령 → 공갈죄(<span class=\"cs-blue\"><span class=\"cs-u\">제350조</span> 제1항</span>)<span class=\"cs-o\"><strong>(O)</strong></span>","k":"cwy35v"},
+    {"i":"cpt2eb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(나) [뇌물수수죄]</strong>","k":"1vyzor2"},
+    {"i":"wgapsi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 공무원이 상대방을 공갈해 재물을 교부받은 경우 공갈죄 외에 뇌물수수죄가 성립하는지 — 직무집행의사 + 직무집행의 대가관계가 모두 있어야 한다는 견해(다수설) / 대가관계만 있으면 직무집행의사와 무관하게 성립한다는 견해. 판례 = \"공무원이 직무집행의 의사 없이 또는 직무처리와 대가적 관계없이 타인을 공갈하여 재물을 교부하게 한 경우에는 공갈죄만 성립\". 직무집행의사가 없다면 단지 상대방을 공갈한 것에 불과 → 판례 타당","k":"1bo9udc"},
+    {"i":"lngw3h","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 甲은 보고할 생각이 없어 직무집행 의사<span class=\"cs-x\"><strong>(X)</strong></span> → 뇌물수수죄(<span class=\"cs-blue\"><span class=\"cs-u\">제129조</span> 제1항</span>)<span class=\"cs-x\"><strong>(X)</strong></span>, 공갈죄만 성립","k":"1dm7n6t"},
+    {"i":"13xlmqm","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [丙의 죄책]</strong></span>","k":"cbrspc"},
+    {"i":"146s0h4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 공무원에게 공갈죄만 성립하면 재물 교부자는 공갈죄의 피해자일 뿐 뇌물공여죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"3zkus8"},
+    {"i":"1u67dk9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 甲에게 직무집행의사가 없어 공갈죄만 성립 → 丙은 공갈죄의 피해자에 불과, 뇌물공여죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"12rfd12"},
+    {"i":"1bnt06r","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(3) [결론]</strong></span> 甲 = 공갈죄, 丙 = 아무런 죄책도 지지 않음 <span class=\"cs-blue\">!-- 교정: 원문 \"乙은 아무런 죄책\" → 丙 오기 --</span>","k":"10p6dgt"}
+   ]}
+  ]}
+ ]},
+ {"i":"n5mfhi","o":"<div class=\"cs-callout\">","b":[
+  {"i":"g2y54g","o":"<div class=\"cs-h\">","h":"Ⅰ. 죄수관계","k":"1u31tqr"},
+  {"i":"1giqgf4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"判例(죄수관계):","k":"1qecrhl"},
+  {"i":"6vs9pb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[국가자금 횡령금을 공범끼리 분배 수수]</span> 공동정범 취득금 내부 분배에 지나지 않으면 그 수수에 <span class=\"cs-green\"><strong>별도 뇌물죄 성립<span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변22·23】</span>","k":"1vecpsz"},
+  {"i":"quw63d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[직무상 지득 구술시험 문제 유상 유출]</span> 공무상비밀누설인 동시에 <span class=\"cs-blue\"><span class=\"cs-u\">§131</span>①</span> 부정행위, <span class=\"cs-fact-tag\">[수뢰후부정처사죄와 공무상비밀누설죄 상상적 경합]</span><span class=\"cs-exam\">【변26·17】【모사25】</span>","k":"xib1ni"},
+  {"i":"13m5dpz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[공무원 의사가 부탁받고 허위진단서 작성·대가 수수]</span> 허위공문서작성죄와 부정처사후수뢰죄 실체적 경합","k":"1arrkn6"},
+  {"i":"1s2i6vq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[공여 거절 후 수개월 뒤 다른 명목 공여]</span> 뇌물공여의사표시가 뇌물공여에 흡수<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변24】</span>","k":"j8ibc"},
+  {"i":"1ic4e8e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[직무관련자에 제3자와 계약체결 요구]</span> 제3자뇌물수수죄와 직권남용권리행사방해죄 상상적 경합<span class=\"cs-exam\">【변20】</span>","k":"bh21e1"},
+  {"i":"cxby67","o":"<div class=\"cs-h\">","h":"Ⅱ. 뇌물범죄와 사기죄 (상상적 경합)<span class=\"cs-exam\">【모사19】</span>","k":"11ejv0r"},
+  {"i":"37lg95","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"判例(죄수관계):","k":"1qecrhl"},
+  {"i":"s0qcy6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[공여자 기망하여 수수]</span> 기망해도 뇌물수수죄·공여죄 성립 영향 X, 수수 공무원은 한 행위가 뇌물수수죄·사기죄 각 해당 → <span class=\"cs-blue\"><span class=\"cs-u\">§40</span></span> 상상적 경합<span class=\"cs-exam\">【변24·20】</span>","k":"1k6oh8t"},
+  {"i":"illl3v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[청탁·알선 의사·능력 없이 기망 금품수수]</span> 사기죄와 변호사법위반죄 상상적 경합<span class=\"cs-exam\">【변21·20】</span>","k":"1a8h9qj"},
+  {"i":"xahwl5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[알선수재]</span> 특가법위반(알선수재)죄(<span class=\"cs-blue\"><span class=\"cs-u\">§3</span></span>), 특경법위반(알선수재)도 사기죄와 각 상상적 경합","k":"nfgb9v"},
+  {"i":"1q7n9b","o":"<div class=\"cs-h\">","h":"Ⅲ. 뇌물수수죄와 공갈죄<span class=\"cs-exam\">【모사21·19·16·14】</span>","k":"1737lnj"},
+  {"i":"j7xim5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>공무원의 죄책</strong></span>","k":"158a2gd"},
+  {"i":"nuftak","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-hl\">《공무원이 상대방 공갈하여 재물 교부받은 경우 공갈죄 외 뇌물수수죄 성립 여부》</span>","k":"mds44j"},
+  {"i":"1v3druv","o":"<div class=\"cs-theory\">","b":[
+   {"i":"545zqr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①직무집행의사+직무집행 대가관계 모두 있어야 뇌물수수죄 성립(다수설) ②직무행위 대가관계만 있으면 직무집행의사 무관하게 성립","k":"194h21w"},
+   {"i":"1s5zdfq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-fact-tag\">[공갈죄만]</span> 공무원이 '직무집행 의사 없이' or '직무처리와 대가적 관계없이' 공갈하여 교부하게 한 경우 공갈죄만 성립<span class=\"cs-exam\">【변20·17】</span>","k":"d683u6"},
+   {"i":"1hpv6ym","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 직무집행의사 없으면 단지 공갈에 불과 → 공갈죄만 성립 타당","k":"5ikw2z"}
+  ]},
+  {"i":"hjfrty","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[TIP]</span> 양죄 모두 성립 시 — 형법상 뇌물수수죄가 공갈죄보다 형 낮으나 특가법 적용시 더 높고, 뇌물수수죄는 필요적 몰수·추징규정 있어 상상적 경합관계 견해 일반적","k":"13a9bog"},
+  {"i":"z1iiq9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"n4tumu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[직무집행 '빙자'하여 갈취]</span> 공갈죄만 성립<span class=\"cs-exam\">【변12】</span>","k":"1dnnci0"},
+  {"i":"1wu0pnz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>공여자의 죄책</strong></span>","k":"ha1q45"},
+  {"i":"1l5yqly","o":"<div class=\"cs-li cs-issue\" style=\"margin-left:16px\">","h":"가. <strong>공무원에게 '공갈죄만' 성립하는 경우 (뇌물공여죄 불성립)</strong>","k":"yqqvva"},
+  {"i":"9bxtk6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"판단기준 (判例): <span class=\"cs-def\"><strong>[뇌물공여죄X]</strong></span> <span class=\"cs-u\">공무원이 직무집행 의사 없이·대가적 관계없이</span> 공갈하여 교부하게 한 경우 공갈죄만 성립, 교부자가 해악 고지로 외포되어 금품 제공한 것이면 공갈죄 피해자 → <span class=\"cs-green\"><strong>뇌물공여죄 성립<span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변17】</span>","k":"ck7d1e"},
+  {"i":"v2dgas","o":"<div class=\"cs-li cs-issue\" style=\"margin-left:16px\">","h":"나. <strong>공무원에게 뇌물수수죄와 공갈죄가 '모두' 성립하는 경우</strong>","k":"u4op0m"},
+  {"i":"16favr6","o":"<div class=\"cs-theory\">","b":[
+   {"i":"1hax4bc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①공갈죄 피해자로 마지못해 공여 → 뇌물공여죄 성립 X(부정설) ②피해자라도 공여 의사 있으면 뇌물공여죄 성립(긍정설)","k":"1wmjxje"},
+   {"i":"1qs6zln","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 피해자이나 공무원 직무행위 매수 의사로 제공 → 뇌물공여죄 성립(긍정설) 타당","k":"1rsl38o"}
+  ]}
+ ]}
+]}

@@ -1,0 +1,17 @@
+{"id":"사회002","t":"법인 명의 문서작성","cat":"gak_사회","lv":1,"tg":[],"b":[
+ {"i":"yik9j1","o":"<div class=\"cs-h\">","h":"Ⅰ. 대표이사·지배인의 사문서위조","k":"10klnn8"},
+ {"i":"mfcki","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-u\">주식회사 대표이사가 대표 자격 표시 방식으로 작성한 문서 명의자 = 주식회사</span> '위조' 해당 여부는 작성자가 '주식회사 명의 문서' 적법 작성할 '권한' 있는지에 따라 판단하고 문서에 대표이사로 표시된 사람으로부터 위임·승낙 받았는지로 판단X","k":"1faoout"},
+ {"i":"ec0rr3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"①주식회사 적법 대표이사는 회사 영업 관해 재판상·재판외 모든 행위 권한 있으므로 대표이사가 직접 주식회사 명의 문서 작성은 자격모용·위조 해당X 원칙 ②문서 내용이 진실에 반하는 허위이거나 대표권 남용해 자기·제3자 이익 도모 목적 작성이라도 그러함","k":"1emz3d4"},
+ {"i":"19ewdrp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"주식회사 지배인은 회사 영업 관해 재판상·재판외 모든 행위 권한 있으므로 지배인이 직접 주식회사 명의 문서 작성은 위조·자격모용사문서작성 해당X 원칙<span class=\"cs-exam\">【변17】</span>","k":"adad4j"},
+ {"i":"14jj7it","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용범위: <span class=\"cs-u\">이 법리는 대표이사가 대표 자격 표시 방식으로</span> 약속어음 등 '유가증권' 작성 시에도 마찬가지 적용","k":"xzir8n"},
+ {"i":"1iddh8q","o":"<div class=\"cs-h\">","h":"Ⅱ. 포괄적 위임과 개별적 위임","k":"16umcme"},
+ {"i":"umv4wc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-u\">주식회사 대표이사가 권한 포괄적 위임해</span> 타인으로 하여금 대표이사 업무 처리케 하는 것 허용X → ①대표이사로부터 포괄적 위임받은 사람이 '주식회사 명의 문서' 작성은 원칙적 권한없는 사람 문서작성행위로 자격모용사문서작성·위조 해당 ②대표이사로부터 개별적·구체적으로 주식회사 명의 문서 작성 위임·승낙 받은 경우에만 예외적 적법 작성 가능","k":"8nk6po"},
+ {"i":"14cx1em","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"◎ 작성자별 성부 정리표 (원문 표 → 텍스트)","k":"ivt7wd"},
+ {"i":"niacmw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"작성자 / 문서 / 사문서위조 / 자격모용사문서작성","k":"fhwc7m"},
+ {"i":"cextrk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"대표이사 A (개별·구체적 위임 받은 사람)","k":"1mkevm4"},
+ {"i":"1fgf1qt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"· X주식회사 대표이사 A : 사문서위조<span class=\"cs-x\"><strong>(X)</strong></span> / 자격모용사문서작성<span class=\"cs-x\"><strong>(X)</strong></span>","k":"11acp5j"},
+ {"i":"1376r92","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"· X주식회사 대표이사 C : 사문서위조<span class=\"cs-x\"><strong>(X)</strong></span> / 자격모용사문서작성<span class=\"cs-x\"><strong>(X)</strong></span>","k":"13omswl"},
+ {"i":"1rckj77","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"대표이사 아닌 B (포괄 위임만 받은 사람)","k":"1u44v4l"},
+ {"i":"otnuyd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"· X주식회사 대표이사 B : 사문서위조<span class=\"cs-x\"><strong>(X)</strong></span> / 자격모용사문서작성<span class=\"cs-o\"><strong>(O)</strong></span>","k":"8tui3n"},
+ {"i":"ilqphy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"· X주식회사 대표이사 A 또는 C : 사문서위조<span class=\"cs-o\"><strong>(O)</strong></span> / 자격모용사문서작성<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1pef2mf"}
+]}

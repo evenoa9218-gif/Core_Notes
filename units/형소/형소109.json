@@ -1,0 +1,62 @@
+{"id":"형소109","t":"탄핵증거","cat":"pro_16","lv":1,"tg":["A급","中","변사24","모사24·21·18"],"b":[
+ {"i":"13vh7k3","o":"<details class=\"cs-case\">","b":[
+  {"i":"1eigyg2","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 내용부인 피신조서의 탄핵증거 사용</strong></span> <span class=\"cs-exam\">【변사24】</span>","k":"12dh8ko"},
+  {"i":"d8hhbp","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"3g8pof","o":"<div class=\"cs-fact\">","b":[
+    {"i":"18f6b0n","o":"<div class=\"cs-callout\">","b":[
+     {"i":"uq0pdo","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"경찰관 P가 절도 용의자 甲에게 임의동행을 요구하였으나 거절하자 강제로 경찰차에 태워 연행 → 甲이 진술거부권을 고지받고 자백, 이 자백이 피신조서에 기재됨 → 甲을 절도죄로 기소. 만약 甲이 법정에서 부인하면서 P 작성 甲에 대한 피신조서의 내용을 부인한 경우 위 조서를 甲의 법정진술을 탄핵하기 위한 탄핵증거로 사용할 수 있는가? (10점)","k":"19x4nf7"}
+    ]}
+   ]},
+   {"i":"14oa42g","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"18mzpvl","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1r2ixqb","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [피고인의 법정진술에 대한 탄핵]</strong> 내용부인된 피신조서로 피고인 법정진술을 탄핵할 수 있는지 — 적극설·소극설, 판례는 적극설. 甲이 내용을 부인하여 §312③으로 증거능력이 없더라도 탄핵증거로는 사용 가능","k":"16ikhhj"},
+    {"i":"1sjf75v","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [위법수집증거의 탄핵증거 사용]</strong>","k":"nbbpl0"},
+    {"i":"1jjj1sa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"(가) [임의동행] 거절에도 강제연행 → 불법체포","k":"8pk7et"},
+    {"i":"1vd8ya4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"(나) [위수증] 진술거부권 고지로 신문 당시 위법사유가 없더라도 위법체포 상태 작성 피신조서는 위수증","k":"mnfbqc"},
+    {"i":"l101az","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"(다) [사용 가능성] §318의2①은 전문법칙에 의해 증거능력 없는 증거를 대상으로 하는 점 + 탄핵증거 허용시 위수증배제법칙 회피 결과 → 부정설 타당","k":"1i08i36"},
+    {"i":"cshpij","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> 법정진술을 수사기관 진술로 탄핵할 수는 있으나, P 작성 피신조서는 위수증으로 증거능력이 없어 탄핵증거로도 사용할 수 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"18mxw8u"}
+   ]}
+  ]}
+ ]},
+ {"i":"1pigdve","o":"<div class=\"cs-callout\">","b":[
+  {"i":"lagboe","o":"<div class=\"cs-callout\">","b":[
+   {"i":"2gtx0q","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제318조의2(증명력을 다투기 위한 증거)</strong></span>","k":"19xed7w"},
+   {"i":"4dgghe","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 제312조부터 제316조까지의 규정에 따라 증거로 할 수 없는 서류나 진술이라도 공판준비 또는 공판기일에서의 피고인 또는 피고인이 아닌 자(공소제기 전에 피고인을 피의자로 조사하였거나 그 조사에 참여하였던 자를 포함한다)의 진술의 증명력을 다투기 위하여 증거로 할 수 있다.","k":"1yg4bet"}
+  ]},
+  {"i":"16a5i1h","o":"<div class=\"cs-h\">","h":"Ⅰ. 의의","k":"th62h7"},
+  {"i":"s7nedy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[탄핵증거]</span> 탄핵증거는 <span class=\"cs-red\"><strong>진술의 증명력을 다투기 위한 증거</strong></span> → 전문법칙의 예외가 아니라 <span class=\"cs-red\"><strong>전문법칙의 적용이 없는 경우</strong></span>","k":"12dn93i"},
+  {"i":"1nxatxp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"탄핵증거는 진술의 증명력을 다투기 위한 것이므로 <span class=\"cs-red\"><strong>범죄사실이나 간접사실을 인정하기 위한 증거로 사용될 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변17】</span>","k":"ms8j9d"},
+  {"i":"1x86rr5","o":"<div class=\"cs-h\">","h":"Ⅱ. 증명력을 '다툰다'는 의미 (보강·감쇄·회복)","k":"ac0b96"},
+  {"i":"1a8ma7k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[감쇄 O]</span> 탄핵증거는 진술의 증명력을 <span class=\"cs-red\"><strong>'감쇄'하기 위한 것</strong></span>","k":"82nej6"},
+  {"i":"12xpohq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-neg-tag\">[보강 X]</span> 증거능력 없는 증거는 <span class=\"cs-green\"><strong>간접사실이나 직접증거의 증명력을 '보강'하는 보조사실의 인정자료로 허용 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"1gbp3a5"},
+  {"i":"1uecr1r","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[회복 O]</span> 감쇄된 증명력의 회복 — <span class=\"cs-green\"><strong>부정설</strong></span> / <span class=\"cs-red\"><strong>긍정설</strong></span>. <span class=\"cs-u\">일방이 감쇄시킬 수 있다면 상대방도 회복할 수 있게 하는 것이 공평하므로</span> <span class=\"cs-red\"><strong>긍정설 타당</strong></span>","k":"mj245v"},
+  {"i":"s77mvf","o":"<div class=\"cs-h\">","h":"Ⅲ. 탄핵증거의 허용범위","k":"7sxibg"},
+  {"i":"goh2ok","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"탄핵증거가 탄핵대상과 어떤 관련성이 있어야 하는지 — <span class=\"cs-green\"><strong>한정설</strong></span>(자기모순 진술 한정) / <span class=\"cs-green\"><strong>비한정설</strong></span>(제한 없음) / <span class=\"cs-red\"><strong>절충설</strong></span>(자기모순 진술 + 진술자 신빙성 보조사실) / <span class=\"cs-green\"><strong>이원설</strong></span>(검사는 자기모순 한정, 피고인은 제한 없음)","k":"1fjdi81"},
+  {"i":"lpacmi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-u\">자기모순 진술에 한정할 필요가 없으므로</span> <span class=\"cs-red\"><strong>절충설 타당</strong></span>","k":"ttphqe"},
+  {"i":"1a0mh2g","o":"<div class=\"cs-h\">","h":"Ⅳ. 탄핵의 대상 — 피고인의 법정진술<span class=\"cs-exam\">【변사24, 모사24·18】</span>","k":"u3k4wn"},
+  {"i":"1i9ziu3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"내용부인되어 증거능력 없는 피고인에 대한 경찰·검사 작성 피신조서로 피고인의 법정진술을 탄핵할 수 있는지 — <span class=\"cs-red\"><strong>적극설</strong></span>(§318의2① 명문) / <span class=\"cs-green\"><strong>소극설</strong></span>(피고인 보호 위한 축소해석)","k":"13s9xlg"},
+  {"i":"14togm3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 적극설] 사경 작성 피고인에 대한 피신조서는 피고인이 내용을 부인하는 이상 증거능력이 없으나, 임의로 작성된 것이 아니라고 의심할 만한 사정이 없는 한 피고인의 법정진술을 탄핵하기 위한 반대증거로 사용할 수 있음</strong></span> → 명문규정 해석상 <span class=\"cs-red\"><strong>적극설 타당</strong></span><span class=\"cs-exam\">【변24·23·21 빈출】</span>","k":"1n95hax"},
+  {"i":"1s7543d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[공소사실 입증 목적 X]</span> 검사가 탄핵증거로 신청한 체포·구속인접견부는 피고인의 부인진술을 탄핵한다는 것이므로 결국 <span class=\"cs-green\"><strong>공소사실 자체를 입증하기 위한 것에 불과하여 탄핵증거로 볼 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"1ael27s"},
+  {"i":"1vpwc20","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[증언 탄핵 O]</span> 참고인 등 진술조서는 원진술자가 성립의 진정을 부인하더라도 <span class=\"cs-red\"><strong>그의 증언의 증명력을 다투기 위한 증거로 사용 가능</strong></span><span class=\"cs-exam\">【변20·17·16】</span>","k":"zrldrf"},
+  {"i":"zpg7bi","o":"<div class=\"cs-h\">","h":"Ⅴ. 탄핵증거로 사용 가능한 증거의 제한","k":"h6a96u"},
+  {"i":"r8qp03","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>전문법칙에 의하여 증거능력 없는 증거</strong></span>","k":"1s4n9cr"},
+  {"i":"16ue9fa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[사용 O]</span> §312~§316에 따라 증거로 할 수 없는 서류·진술이라도 <span class=\"cs-red\"><strong>증명력을 다투기 위하여 사용 가능</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§318의2①)</strong></span></span> — 전문서류에 진술자의 서명·날인이 없어도 탄핵증거로 사용 가능","k":"x6w6rw"},
+  {"i":"qu6sv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[양립불가 사실 인정자료]</span> 검사가 제출한 증거들이 진정성립·증거동의가 없더라도 유죄사실 인정 증거가 아닌 이상 <span class=\"cs-red\"><strong>공소사실과 양립할 수 없는 사실을 인정하는 자료로 사용 가능</strong></span><span class=\"cs-exam\">【변18】</span>","k":"l5fmow"},
+  {"i":"58xvsw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>공소제기 후 수사로 증거능력 없는 진술조서 등</strong></span><span class=\"cs-exam\">【모사21】</span>","k":"1i7b5ss"},
+  {"i":"9nts9y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"이미 증언을 마친 증인을 검사가 소환하여 유리한 증언 내용을 추궁·번복시켜 작성한 진술조서를 탄핵증거로 사용할 수 있는지 — <span class=\"cs-green\"><strong>긍정설</strong></span> / <span class=\"cs-red\"><strong>부정설</strong></span>(당사자주의·공판중심주의·직접주의 위반)","k":"1u844vd"},
+  {"i":"zmscfw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"전문법칙과 관계없이 <span class=\"cs-red\"><strong>당사자주의·공판중심주의·직접주의에 반하여 증거능력이 부정되므로 탄핵증거로도 사용할 수 없다는 부정설 타당</strong></span>","k":"vtp6qt"},
+  {"i":"awcur6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>위법수집증거</strong></span><span class=\"cs-exam\">【모사24·18】</span>","k":"pnlxn1"},
+  {"i":"pq4hfi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[사용 X]</span> §318의2는 전문법칙에 의해 증거능력 없는 증거를 대상으로 하는 점 + 탄핵증거 허용시 위수증배제법칙 회피 결과 → <span class=\"cs-red\"><strong>부정설 타당</strong></span>","k":"1p26hxr"},
+  {"i":"cpzds1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>임의성 없는 자백·진술</strong></span>","k":"1k6nxvs"},
+  {"i":"2pav8f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[사용 X]</span> 사경 작성 피신조서는 내용부인하면 증거능력이 없으나, <span class=\"cs-red\"><strong>임의로 작성된 것이 아니라고 의심할 만한 사정이 없는 한 법정진술을 탄핵증거로 사용 가능</strong></span>(임의성 의심 있으면 사용 X)","k":"1628bnw"},
+  {"i":"10zfkcu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>수사기관의 영상녹화물</strong></span><span class=\"cs-exam\">【모사24·18】</span>","k":"1ps2unp"},
+  {"i":"zn551o","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[본증 사용 X]</span> 형소법이 영상녹화물의 용도를 §312④·§318의2② 용도로 한정하므로 <span class=\"cs-red\"><strong>탄핵증거로 사용할 수 없다는 부정설 타당</strong></span>","k":"6dccb5"},
+  {"i":"1smng9s","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[본증 사용 O]</span> 성폭법·아청법 등 독립된 증거로 사용할 수 있는 영상녹화물은 전문법칙에 의하여 증거능력이 인정되지 않더라도 <span class=\"cs-red\"><strong>탄핵증거로 사용 가능</strong></span>","k":"1103fb0"},
+  {"i":"5swjh3","o":"<div class=\"cs-h\">","h":"Ⅵ. 탄핵증거의 증거조사","k":"ar6vq3"},
+  {"i":"pr7cul","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[입증취지]</span> 증거신청시 증거와 증명하고자 하는 사실과의 관계를 구체적으로 명시해야<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(규칙§132의2①)</strong></span></span> → 탄핵증거도 <span class=\"cs-red\"><strong>어느 부분에 의하여 진술의 어느 부분을 다투려는지 사전에 상대방에게 알려야</strong></span><span class=\"cs-exam\">【변18·17】</span>","k":"kzoqj0"},
+  {"i":"6b9e65","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[방어권 보장 흠결]</span> 규칙§132의2①에 따라 탄핵증거로 신청하였다거나 이를 전제로 의견진술권 등 방어권이 충분히 보장된 상태로 탄핵증거에 대한 증거조사를 거쳤다고 볼 수 없다면 <span class=\"cs-green\"><strong>탄핵증거로 사용할 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"bqecwo"},
+  {"i":"1ntp0bk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[상당한 방법]</span> 탄핵증거는 범죄사실 인정 증거가 아니므로 <span class=\"cs-red\"><strong>엄격한 증거조사를 거칠 필요는 없으나, 법정에서 탄핵증거로서의 증거조사는 필요</strong></span><span class=\"cs-exam\">【변17】</span>","k":"1wx3iqv"},
+  {"i":"1admfgj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[입증취지 명시 흠결 치유]</span> 당초 증거제출 당시 탄핵증거라는 입증취지를 명시하지 아니하였어도 <span class=\"cs-red\"><strong>법정진술에 대한 탄핵증거로서의 증거조사절차가 대부분 이루어졌다면 탄핵증거로 사용 가능</strong></span><span class=\"cs-exam\">【변18】</span>","k":"16oher"},
+  {"i":"w8zoql","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[증거목록 미기재 치유]</span> 증거목록에 기재되지 않았고 증거결정이 없었어도 <span class=\"cs-red\"><strong>공판과정에서 입증취지가 구체적으로 명시되고 제시까지 된 이상 탄핵증거로서의 증거조사가 이루어진 것</strong></span>","k":"1lwk0i4"}
+ ]}
+]}

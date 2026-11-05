@@ -1,0 +1,30 @@
+{"id":"개인051","t":"초과인출과 컴퓨터등사용사기죄","cat":"gak_사기공갈","lv":1,"tg":["모사25","모사22"],"b":[
+ {"i":"fk7moi","o":"<details class=\"cs-case\">","b":[
+  {"i":"1dy1ge4","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE]</strong></span></span> <span class=\"cs-red\">(10)</span>","k":"18il6wn"},
+  {"i":"rltmsk","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"lteuge","o":"<div class=\"cs-fact\">","b":[
+    {"i":"a33fbq","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1kvo6uc","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"PC방 손님 A가 아르바이트생 甲에게 현금카드를 주며 3만 원 인출을 부탁 → 甲은 A가 알려준 비밀번호로 신한은행 현금자동지급기에서 5만 원을 인출, A에게 3만 원만 주고 2만 원은","k":"1xcx0pm"},
+     {"i":"63pd36","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"말하지 않고 가짐. 甲의 죄책은? (10점)","k":"nu657h"}
+    ]}
+   ]},
+   {"i":"mb6phl","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"105mwuo","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"txekk5","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① <span class=\"cs-blue\"><span class=\"cs-u\">제347조의2</span></span> ② 위 학설 및 판례 ③ 甲 = 컴퓨터등사용사기죄와 배임죄의 상상적 경합","k":"1fewuv8"}
+   ]}
+  ]}
+ ]},
+ {"i":"c0ztvv","o":"<div class=\"cs-callout\">","b":[
+  {"i":"ndgyv8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\">《현금카드 인출 위임받은 자가 위임금액 초과 인출·취득한 경우 죄책》</span>","k":"qxbk9w"},
+  {"i":"3c4rxb","o":"<div class=\"cs-theory\">","b":[
+   {"i":"16mkixo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①절도죄설(지급기 관리자 의사에 반해 재물인 현금 취득)","k":"1g6q41f"},
+   {"i":"twxt87","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"②배임죄설(위임 사무 처리하며 임무위배 초과 인출)","k":"1umzywx"},
+   {"i":"ifbuy9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"③횡령죄설(초과 인출 현금도 위임자 소유 → 타인 재물 보관자)","k":"kpzbok"},
+   {"i":"1c0auen","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"④컴사기죄설(현금도 재산상 이익)","k":"s9jmsb"},
+   {"i":"1gf4qk9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-fact-tag\">[컴사기죄]</span> ①(컴사기 신설 이전) 배임죄 인정 판례 有","k":"1fzukt8"},
+   {"i":"msbkd3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"②(신설 이후) 위임범위 초과 인출 시 인출현금 총액 중 위임초과분 '비율'에 상당하는 '재산상 이익' 취득 → 그 차액 상당액에 관해 <span class=\"cs-blue\"><span class=\"cs-u\">§347조의2</span></span> 컴사기죄<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변19·18】</span>","k":"1ro0l0f"},
+   {"i":"1pgf33f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 위임초과분 비율 상당 재산상 이익 취득 → 컴사기죄, 동시에 타인 사무처리자로 임무위배해 이익 취득·위임자에 손해 → 배임죄도 성립 → 양죄 상상적 경합","k":"rz1lky"}
+  ]},
+  {"i":"1grpk6k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[TIP]</span> 위임범위 3만원 인출 후 다시 위임 없는 2만원을 추가 인출했다면, <span class=\"cs-green\"><strong>컴사기죄가 아니라</strong></span> 추가 인출 2만원에 대한 <span class=\"cs-red\"><strong>절도죄 성립</strong></span><span class=\"cs-exam\">【모사25】</span>","k":"1jclef1"}
+ ]}
+]}

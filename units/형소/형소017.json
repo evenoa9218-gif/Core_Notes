@@ -1,0 +1,32 @@
+{"id":"형소017","t":"착오에 의한 절차형성적 소송행위의 효력","cat":"pro_02","lv":1,"tg":["B급","中","변사20","모사16·15"],"b":[
+ {"i":"1u8zgfh","o":"<details class=\"cs-case\">","b":[
+  {"i":"1tyzlk1","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 교도관이 착오로 상소권포기서 용지를 제공한 경우</strong></span> <span class=\"cs-exam\">【변사20】</span>","k":"16o2fvp"},
+  {"i":"1bsapqz","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"wgzu8h","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1enb0yx","o":"<div class=\"cs-callout\">","b":[
+     {"i":"405z4q","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"제1심이 甲의 폭처법위반(공동상해)죄로 징역 1년 선고 → 甲이 교도관에게 항소장 용지 요청 → 교도관이 착오로 상소권포기서 용지 제공 → 甲이 확인 없이 서명·제출하여 항소포기 확정. 甲의 항소포기는 유효한가? (10점)","k":"3q1tmj"}
+    ]}
+   ]},
+   {"i":"w32t2","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"108z86n","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"16x4vuv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 절차형성적 소송행위 관련 학설 및 판례.","k":"282cdg"},
+    {"i":"477y26","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② ∴피고인의 책임 없는 사유로 발생한 것 X → 항소포기 유효","k":"tthury"}
+   ]}
+  ]}
+ ]},
+ {"i":"am9b4k","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1byvkx2","o":"<div class=\"cs-h\">","h":"Ⅰ. 착오에 의한 절차형성적 소송행위","k":"x3800n"},
+  {"i":"a0b78c","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《착오에 의한 절차형성적 소송행위의 효력》</strong></span>","k":"1wvfea5"},
+  {"i":"2ssn1f","o":"<div class=\"cs-theory\">","b":[
+   {"i":"kfamux","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 유효설(형식적 확실성상 외부적 표시대로 판단) ② <span class=\"cs-red\"><strong>원칙적 유효설</strong></span>(원칙적 유효, 예외적으로 당사자에게 책임 없는 착오이면 무효)","k":"zo8px4"},
+   {"i":"6d3alo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 원칙적 유효설] 착오에 의한 절차형성적 소송행위가 무효가 되려면 ① 통상인의 판단을 기준으로 착오가 없었다면 그러한 소송행위를 하지 않았으리라고 인정되는 중요한 점(동기 포함)에 관하여 착오가 있고 ② 착오가 행위자 또는 대리인이 책임질 수 없는 사유로 인하여 발생하였으며 ③ 그 행위를 유효로 하는 것이 현저히 정의에 반한다고 인정될 것</strong></span>","k":"mllwc8"},
+   {"i":"vi296v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: 소송절차의 형식적 확실성을 강조하면서도 피고인의 이익을 고려 → <span class=\"cs-red\"><strong>원칙적 유효설 타당</strong></span>","k":"1olt544"}
+  ]},
+  {"i":"1r3wl4h","o":"<div class=\"cs-h\">","h":"Ⅱ. 구체적 판례","k":"16prjhf"},
+  {"i":"1ir4me9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[교도관이 내어주는 상소권포기서를 항소장으로 잘못 믿고 확인하지 않고 서명·무인한 경우]</span> 과실이 없다고 보기 어려워 책임질 수 없는 사유로 인한 발생 <span class=\"cs-x\"><strong>(X)</strong></span> → 그 상소포기는 <span class=\"cs-green\"><strong>유효</strong></span><span class=\"cs-exam\">【변사20, 모사16·15】</span>","k":"9fc4rz"},
+  {"i":"ugneo8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[보호감호청구가 기각되었다는 교도관의 말과 판결선고결과보고서를 믿고 판결등본 송달을 기다리지 않고 상고취하를 하여 보호감호처분이 확정된 경우]</span> 상고취하에 피고인의 과실이 없었다고 단정할 수 없어 <span class=\"cs-green\"><strong>무효로 볼 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"8xidtj"}
+ ]},
+ {"i":"39ic90","o":"<div class=\"cs-h\">","h":"제2편 수사와 공소제기","k":"myk36a"},
+ {"i":"cta1j8","o":"<div class=\"cs-h\">","h":"제1장. 수사 일반","k":"19i6z7"},
+ {"i":"1fosx2u","o":"<div class=\"cs-h\">","h":"제1절. 수사의 조건","k":"12h0mee"}
+]}

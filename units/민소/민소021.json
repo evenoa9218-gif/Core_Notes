@@ -1,0 +1,22 @@
+{"id":"민소021","t":"부인과 항변","cat":"mp_3","lv":1,"tg":["★★"],"b":[
+ {"i":"1dlgn2a","o":"<div class=\"cs-h\">","h":"Ⅰ. 부인과 항변의 의의","k":"rxyf7e"},
+ {"i":"13i4uq3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"'원고의 청구를 배척하기 위한 피고의 사실상의 진술'인 점에서 항변과 부인은 차이가 없으나, 항변은 원고 주장사실이 '진실함(자백)을 전제'로 이와 '양립가능한 별개사실'을 주장하는 것, 부인은 원고 주장사실이 '진실이 아니라는' '양립불가능한' 사실의 주장이라는 점에서 구별","k":"1mz2ih"},
+ {"i":"pksnuk","o":"<div class=\"cs-h\">","h":"Ⅱ. 간접부인과 항변의 구별","k":"4tba"},
+ {"i":"14jxdg2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>구별</strong>","k":"2pp2l"},
+ {"i":"10buqah","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"간접부인은 원고의 주장사실과 양립불가능한 별개사실을 진술하는 것<span class=\"cs-o\"><strong>(O)</strong></span> ↔ 항변은 원고의 주장사실이 진실(자백)임을 전제로 이와 양립가능한 사실을 진술하는 것<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1y2wt7d"},
+ {"i":"5lg8z0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>부인과 항변의 구별의 실익 Ⅰ</strong>","k":"1q1qtjp"},
+ {"i":"q2dz7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\"><strong>[대여금청구소송에서 원고 X가 대여사실을 주장함에 대해 피고 Y가 '甲으로부터 무상증여 받았다'고 주장한 경우]</strong></span>(간접부인) ↔ <span class=\"cs-fact-tag\"><strong>['甲으로부터 면제받았다'고 주장한 경우]</strong></span>(항변)","k":"23w7q9"},
+ {"i":"162b8sv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"(증명책임) 무상증여 주장(부인)은 원고가 대여사실의 존재에 대해 증명책임을 지나<span class=\"cs-o\"><strong>(O)</strong></span>, 면제 주장(항변)은 이에 대해 원고가 부인하면 피고가 채무면제사실에 대해 증명책임을 짐<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1sitzsc"},
+ {"i":"1q6iuz9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"(판결이유) 무상증여 주장(부인)은 이를 배척해도 판결이유에 설시불필요<span class=\"cs-o\"><strong>(O)</strong></span> ↔ 면제 주장(항변)은 배척시 반드시 판결이유에 설시해야 함<span class=\"cs-o\"><strong>(O)</strong></span>","k":"pyhfa1"},
+ {"i":"9n4ues","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>부인과 항변의 구별의 실익 Ⅱ - 말소등기청구(★)</strong>","k":"c5ouqp"},
+ {"i":"16o0t5v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"(1) <strong>말소등기청구의 요건사실</strong>","k":"z38ho9"},
+ {"i":"16q76n0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"소유권이전등기말소청구는 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§214</strong></span></span>의 소유권에 기한 방해제거청구권 → 요건: ① 원고 소유일 것 ② 피고명의의 등기가 있을 것 ③ 위 등기가 원인무효일 것(<span class=\"cs-u\"><strong>법규기준설</strong></span>상 이 요건사실이 주요사실)","k":"1rmgu29"},
+ {"i":"hug9rb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"(2) <strong>등기명의인의 등기가 원인무효인 사실이 주요사실인 근거 - 등기의 추정력</strong>","k":"wxb9zz"},
+ {"i":"v1s3o1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"현재의 등기명의인은 등기의 추정력으로 인해 적법한 소유권자 및 유효한 대리행위로 법률상 추정 → 증명책임이 전환되어 상대방(원고)이 무권대리라는 사실을 증명해야 함","k":"1tnzhnl"},
+ {"i":"1azhn2t","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"(3) <strong>피고(등기명의인)의 유권대리 주장의 법적 성격과 근거</strong>","k":"1ljt58r"},
+ {"i":"1ltk5r5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"유권대리 주장은 말소등기청구의 요건사실인 무권대리행위로 인한 원인무효 사실과 '양립불가능'한 사실의 주장으로 부인에 해당<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1w05tti"},
+ {"i":"1iyh0kk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"(4) <strong>피고(등기명의인)의 표현대리 주장의 법적 성격과 근거</strong>","k":"umah3s"},
+ {"i":"19av5u6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"표현대리 주장은 원고가 요건사실로 주장하는 무권대리 주장을 인정(자백)하면서 무권대리사실과 '양립가능'한 표현대리사실의 주장으로 항변에 해당<span class=\"cs-o\"><strong>(O)</strong></span>","k":"vw30mz"},
+ {"i":"wf3i07","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"(5) <strong>사례의 결론</strong>","k":"1va2p9x"},
+ {"i":"jwcj6t","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"현재 등기명의인이므로 대리권 존재 및 적법한 소유권자로 법률상 추정 → 증명책임이 전환되어 원고가 등기의 원인무효를 주장·증명해야 함","k":"1tapsv3"}
+]}

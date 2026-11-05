@@ -1,0 +1,33 @@
+{"id":"형소005","t":"[제척] 증거보전, 수탁판사의 제1심, 항소심 관여","cat":"pro_01","lv":1,"tg":["下"],"b":[
+ {"i":"1k0weby","o":"<details class=\"cs-case\">","b":[
+  {"i":"1vu993j","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 증거보전 판사·수탁판사의 항소심 관여와 제척</strong></span>","k":"yu8jaw"},
+  {"i":"1ws1qk8","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"4t4xiq","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1ai3cqy","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1vtkh06","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲은 특수절도로 제1심에서 유죄를 선고받은 후 항소하였는데, 항소심에는 수사단계에서 증거보전을 담당한 판사 A와 제1심에서 수탁판사로서 증거조사를 한 판사 B가 배석판사로 참여하고 있다. 이 경우 A와 B는 제척의 대상인가? (10점)","k":"67l91w"}
+    ]}
+   ]},
+   {"i":"w33gr9","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1syyor0","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1aw2osu","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [A판사 - 증거보전(수사단계)]</strong>","k":"1tt6amf"},
+    {"i":"nxqhsa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 적극설·소극설·절충설 대립, 판례는 소극설","k":"1xto7vt"},
+    {"i":"18voqqp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 판례에 의하면 <span class=\"cs-green\"><strong>제척사유 해당 X</strong></span>, 적극설(타당)에 의하면 <span class=\"cs-red\"><strong>제척사유 해당 O</strong></span>","k":"1r3ztaj"},
+    {"i":"wcaasb","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [B판사 - 수탁판사(재판단계)]</strong>","k":"m6tvsn"},
+    {"i":"17wxbnr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"제1심 재판의 내용형성에 영향을 미쳤으므로 <span class=\"cs-red\"><strong>제척사유 해당 O</strong></span>","k":"1rkopb2"}
+   ]}
+  ]}
+ ]},
+ {"i":"1vp4crb","o":"<div class=\"cs-callout\">","b":[
+  {"i":"112k9sl","o":"<div class=\"cs-h\">","h":"Ⅰ. 증거보전 판사(수사단계), 수탁판사(재판단계)가 '제1심'에 관여한 경우","k":"xau9bb"},
+  {"i":"v2oh38","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"수사단계 증거보전 또는 재판단계 수탁판사로 관여한 법관이 그대로 제1심 판결에 관여 → §17제7호 해당 <span class=\"cs-x\"><strong>(X)</strong></span> (판례 없음)","k":"kx5wkq"},
+  {"i":"n8c24i","o":"<div class=\"cs-h\">","h":"Ⅱ. 증거보전 판사(수사단계)가 '항소심'에 관여한 경우","k":"1sw31w2"},
+  {"i":"15dwp7u","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《증거보전절차에 관여한 법관의 항소심 관여가 §17제7호에 해당하는지 여부》</strong></span>","k":"116h4ca"},
+  {"i":"ghk5k6","o":"<div class=\"cs-theory\">","b":[
+   {"i":"1bjx49m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① <span class=\"cs-red\"><strong>적극설</strong></span>(증거보전절차에서 실체심리를 하여 예단 가능) ② <span class=\"cs-green\"><strong>소극설</strong></span>(사건 전체에 대한 판단은 아님) ③ 절충설(증인신문·검증은 해당, 압수수색영장 발부는 비해당)","k":"as2jkb"},
+   {"i":"bp0vv8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 소극설] 공소제기 전 §184 증거보전절차에서 증인신문을 한 법관이 항소심 판결에 관여해도 §17제7호의 전심재판 또는 그 기초되는 조사·심리에 관여한 법관 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"28kj4j"},
+   {"i":"12bg994","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: 증거보전절차는 <span class=\"cs-u\">실체형성을 위한 심리에 관여한 것</span> → <span class=\"cs-red\"><strong>적극설 타당</strong></span>","k":"clfemi"}
+  ]},
+  {"i":"1mxca","o":"<div class=\"cs-h\">","h":"Ⅲ. 수탁판사(재판단계)가 '항소심'에 관여한 경우","k":"1bj7tnh"},
+  {"i":"7votuc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>제1심에서 수탁판사로서 증거조사를 한 판사는 제1심 재판의 내용형성에 영향을 미쳤으므로 항소심 판결에 관여한 경우 제척사유 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span>","k":"74unpf"}
+ ]}
+]}

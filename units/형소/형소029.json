@@ -1,0 +1,81 @@
+{"id":"형소029","t":"현행범인 체포","cat":"pro_04","lv":1,"tg":["中","변사24","모사17"],"b":[
+ {"i":"zcxwhs","o":"<details class=\"cs-case\">","b":[
+  {"i":"r10lup","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 2km 떨어진 지점에서 인상착의 유사자 정지·옷자락 붙잡기</strong></span> <span class=\"cs-exam\">【변사24】</span>","k":"1z0a3jc"},
+  {"i":"1cnhcza","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1hiklj0","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1xhg5c4","o":"<div class=\"cs-callout\">","b":[
+     {"i":"odzk6j","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"A가 \"집에 침입한 절도범이 때리고 도주, 맞아서 코에 피가 남. 30대 초반·빨간 뿔테안경·청바지·흰 티셔츠\"라고 112 신고 → 출동 경찰관이 A의 집에서 2km 떨어진 지점에서 인상착의 흡사한 甲 발견·정지 요구 → 甲 무시하고 도주하자 200m 추격하여 옷자락을 붙잡아 甲이 넘어짐 → 손·소매의 혈흔 발견, 甲이 다시 도주하려 하자 체포이유·변호인선임권 고지 후 체포. 옷자락을 붙잡은 행위의 적법성 및 가능한 체포의 방법은? (15점)","k":"19bu3lz"}
+    ]}
+   ]},
+   {"i":"143ylsr","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"106y8le","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"7vcjat","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [불심검문의 적법성]</strong>","k":"pcfjm"},
+    {"i":"1jhfixo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"(가) [정지를 요구한 행위의 적법성] ① 경직법 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§3①</strong></span></span>. ② 사건현장 2km 지점 + 신고 인상착의 흡사 → 강도상해 범행 의심할 상당한 이유 O → 정지 요구 적법","k":"1nqq5dh"},
+    {"i":"117mtc0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"(나) [옷자락을 잡은 행위의 적법성] ① 불심검문의 방법(실력행사)에 관한 학설 및 판례. ② 정지 요구를 무시하고 도주하는 甲을 추격하여 정지시키기 위한 것 → 목적 달성에 필요한 최소한의 범위·사회통념상 용인될 상당한 방법 → 甲이 넘어졌더라도 적법","k":"16atxos"},
+    {"i":"1s3egfr","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [가능한 체포의 방법]</strong>","k":"vcct2t"},
+    {"i":"1yc7ser","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"(가) [현행범인 체포] ① <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§211①</strong></span></span>. '실행하고 난 직후의 사람' = 실행행위 종료 직후의 범인이라는 것이 '체포하는 자' 입장에서 명백한 경우. 신고 후 탐문 중 2km 지점에서 발견 → 현행범인 해당 X ② <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§211②제3호</strong></span></span>·제4호. 코피 신고 + 甲의 손·소매 혈흔 + 도주 → 준현행범인 해당 O ③ <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§212</strong></span></span>. 현행범인 체포 요건 = 범인·범죄의 명백성 + 체포의 필요성 + 비례성. ⑤ 혈흔 → 명백성 O, 정지 요구에 도망 → 필요성 O, 강도상해 → 비례성 O. 현행범인 체포 가능","k":"hwyqkd"},
+    {"i":"b1i6mf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"(나) [긴급체포] ① <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§200의3①</strong></span></span>(긴급체포 요건). ② 강도상해 범인과 인상착의 흡사 → 중범죄 혐의 상당성 O, 도주 → 필요성 O, 112 신고 출동 → 긴급성 O. 긴급체포 가능","k":"foppqi"},
+    {"i":"1d0lx9b","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> 옷자락을 붙잡은 행위 적법","k":"13a1j0e"}
+   ]}
+  ]}
+ ]},
+ {"i":"fo874p","o":"<div class=\"cs-callout\">","b":[
+  {"i":"p9hd99","o":"<div class=\"cs-callout\">","b":[
+   {"i":"91v9z7","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제211조(현행범인과 준현행범인)</strong></span>","k":"1eophra"},
+   {"i":"1kutgq3","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① <span class=\"cs-statute\"><span class=\"cs-u\"><strong>범죄를 실행하고 있거나 실행하고 난 직후</strong></span></span>의 사람을 현행범인이라 한다.","k":"ph29oz"},
+   {"i":"fwmv1s","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 다음 각 호의 어느 하나에 해당하는 사람은 <span class=\"cs-statute\"><span class=\"cs-u\"><strong>현행범인으로 본다.</strong></span></span>","k":"1abt0h7"},
+   {"i":"13j3yks","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"범인으로 불리며 <span class=\"cs-statute\"><span class=\"cs-u\"><strong>추적되고 있을 때</strong></span></span>","k":"1mbt4eo"},
+   {"i":"1mls8fl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"장물이나 범죄에 사용되었다고 인정하기에 충분한 흉기나 그 밖의 <span class=\"cs-statute\"><span class=\"cs-u\"><strong>물건을 소지</strong></span></span>하고 있을 때","k":"zyfpd6"},
+   {"i":"9f9ufx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"신체나 의복류에 증거가 될 만한 <span class=\"cs-statute\"><span class=\"cs-u\"><strong>뚜렷한 흔적</strong></span></span>이 있을 때","k":"175fb6v"},
+   {"i":"1lyj5qe","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"누구냐고 묻자 <span class=\"cs-statute\"><span class=\"cs-u\"><strong>도망</strong></span></span>하려고 할 때","k":"5swmhr"}
+  ]},
+  {"i":"1l7w00c","o":"<div class=\"cs-h\">","h":"Ⅰ. 현행범체포의 요건 [명·필·비]","k":"yalnyp"},
+  {"i":"ca1ray","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>범인·범죄의 명백성 (현행범인·준현행범인)</strong></span>","k":"3xd1gl"},
+  {"i":"29nk4p","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"가. 현행범인","k":"11b77be"},
+  {"i":"1mwg0rk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"개념 : <span class=\"cs-red\"><strong>범죄를 실행하고 있거나 실행하고 난 직후의 사람</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§211①)</strong></span></span>","k":"1mesjhm"},
+  {"i":"oxxvd5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>판단기준 (判例) : '실행하고 난 직후의 사람' = 범죄의 실행행위를 종료한 직후의 범인이라는 것이 '체포하는 자'의 입장에서 볼 때 명백한 경우</strong></span><span class=\"cs-exam\">【변20】</span> — §211①이 '실행하고 난 직후의 사람'을 '실행하고 있는 사람'과 마찬가지로 현행범인으로 보고 ②이 준현행범인을 별도로 규정하고 있으므로, <span class=\"cs-red\"><strong>'실행행위를 종료한 직후' = 범행을 실행하여 끝마친 순간 또는 이에 아주 접착된 시간적 단계</strong></span> → 시간적·장소적으로 보아 체포를 당하는 자가 <span class=\"cs-red\"><strong>방금 범죄를 실행한 범인이라는 점에 관한 죄증이 명백히 존재</strong></span>하는 것으로 인정되는 경우에만 현행범인","k":"g439nm"},
+  {"i":"1h1d4ew","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[운전 종료 후 40분 이상 경과한 시점에서 길가에 앉아 있던 운전자를 술냄새가 난다는 점만을 근거로 음주운전의 현행범으로 체포]</span> <span class=\"cs-green\"><strong>위법</strong></span>","k":"5xijhb"},
+  {"i":"6pwzhj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[교사가 교장실에서 약 5분간 식칼을 휘두르며 협박한 후 40여분 지나 출동한 경찰관들이 교장실이 아닌 서무실에서 체포]</span> 현행범인이라고 <span class=\"cs-green\"><strong>단정 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"1gdx5h3"},
+  {"i":"1tt3t29","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"나. 준현행범인<span class=\"cs-exam\">【변사24】</span>","k":"vye5cp"},
+  {"i":"x1tq5m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[순찰 중이던 경찰관이 교통사고를 낸 차량이 도주하였다는 무전연락을 받고 수색하다가 범퍼 등의 파손상태로 보아 사고차량으로 인정되는 차량에서 내리는 사람을 발견한 경우]</span> §211②제2호의 <span class=\"cs-red\"><strong>'장물이나 범죄에 사용되었다고 인정함에 충분한 흉기 기타의 물건을 소지하고 있는 때' 해당 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span> → 준현행범으로서 영장 없이 체포 <span class=\"cs-o\"><strong>(O)</strong></span> — (10분 후 1km 떨어진 곳에서 체포)<span class=\"cs-exam\">【변22·20】</span>","k":"lcxac7"},
+  {"i":"18271il","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>체포의 필요성 (도망 또는 증거인멸 우려)</strong></span>","k":"1t48ndt"},
+  {"i":"1dcc1j","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《긴급체포와 달리 현행범 체포에 도망 또는 증거인멸의 우려(구속사유)를 요하는지 여부》</strong></span> — 명문의 규정 없음","k":"48i4uy"},
+  {"i":"1uhvirj","o":"<div class=\"cs-theory\">","b":[
+   {"i":"1s68pvn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 소극설(명문 규정이 없으므로 체포의 필요성 불요) ② <span class=\"cs-red\"><strong>적극설</strong></span>(영장주의 예외로 엄격한 해석을 요하므로 체포의 필요성 필요) ③ 절충설(도망할 우려는 요하지만 증거인멸의 염려는 불요)","k":"1s0b2im"},
+   {"i":"thabfa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 적극설] 현행범인으로 체포하기 위하여는 행위의 가벌성, 범죄의 현행성·시간적 접착성, 범인·범죄의 명백성 외에 '체포의 필요성', 즉 도망 또는 증거인멸의 염려가 있어야 함</strong></span><span class=\"cs-exam\">【변26·22】</span>","k":"4i0ywe"},
+   {"i":"12660hd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: <span class=\"cs-red\"><strong>영장주의의 예외</strong></span>이므로 체포의 필요성을 요건으로 하는 <span class=\"cs-red\"><strong>적극설 타당</strong></span>","k":"1ndqtir"}
+  ]},
+  {"i":"17dweuu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>비례성 원칙</strong></span>","k":"1ot0yjd"},
+  {"i":"11eotb0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[다액 50만 원 이하의 벌금·구류 또는 과료에 해당하는 죄의 현행범인]</span> <span class=\"cs-red\"><strong>범인의 주거가 분명하지 아니한 때에 한하여</strong></span> 현행범인 체포 규정 적용<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§214)</strong></span></span> — (비례성 요건은 §214 요건뿐만 아니라 범죄가 경미한지 따져 보아야)","k":"1ea4pjd"},
+  {"i":"lyy1jn","o":"<div class=\"cs-h\">","h":"Ⅱ. 체포요건 판단기준 (긴급체포와 동일)","k":"lcf0kb"},
+  {"i":"aqqiww","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>① 현행범인 체포의 요건을 갖추었는지는 '체포 당시 상황'을 기초로 판단 ② 검사나 사법경찰관 등 수사주체의 판단에는 상당한 재량 여지 <span class=\"cs-o\"><strong>(O)</strong></span> ③ 다만 체포 당시 상황으로 보아도 요건 충족 여부에 관한 판단이 '경험칙에 비추어 현저히 합리성을 잃은 경우'에는 그 체포는 위법</strong></span>","k":"14negso"},
+  {"i":"djyo1x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"현행범 체포의 적법성은 체포 당시의 <span class=\"cs-red\"><strong>구체적 상황을 기초로 객관적으로 판단</strong></span>하여야 하고, <span class=\"cs-green\"><strong>사후에 범인으로 인정되었는지에 의할 것 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"1lrnqai"},
+  {"i":"1p24fr9","o":"<div class=\"cs-h\">","h":"Ⅲ. 구체적 판례","k":"1fpgp0g"},
+  {"i":"nvipfn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[불심검문 중 경찰관에게 큰 소리로 욕설을 하여 모욕죄의 현행범으로 체포하겠다고 고지한 후 오른쪽 어깨를 붙잡자 반항하며 상해를 가한 사안]</span> 경찰관의 체포행위는 적법한 공무집행 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변16】</span>","k":"1adidxl"},
+  {"i":"bg021f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"(범인·범죄의 명백성 O) ① 피고인은 이미 운전면허증을 교부한 상태이고 경찰관뿐 아니라 인근 주민도 욕설을 직접 들었으므로 도망하거나 증거를 인멸할 염려가 있다고 보기 어려움(체포의 필요성 X)","k":"pc4doh"},
+  {"i":"sptzss","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 모욕 범행은 불심검문에 항의하는 과정에서 저지른 <span class=\"cs-green\"><strong>일시적·우발적 행위로서 사안 자체가 경미</strong></span>하고, 피해자인 경찰관이 범행현장에서 즉시 범인을 체포할 급박한 사정이 있다고 보기도 어려움(비례성 X)","k":"1ao1i3e"},
+  {"i":"1rz1w44","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-neg-tag\">[술에 취해 식당에서 이유 없이 피해자를 폭행하고 경찰관 출동 후에도 시비를 계속하며 범행을 부인하고 신분증 주소지가 사건 현장과 멀리 떨어진 거제시로 되어 있던 사안]</span> 현행범인으로 체포한 행위가 경험칙에 비추어 현저히 합리성을 잃은 <span class=\"cs-green\"><strong>위법한 체포 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"4hx2ua"},
+  {"i":"1x8dphu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 경찰관 출동 당시에도 욕설과 시비가 계속되어 <span class=\"cs-red\"><strong>폭행범행이 실행 중이거나 실행 직후</strong></span>(범인·범죄의 명백성)","k":"la745a"},
+  {"i":"1xo8qec","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 전혀 알지 못하는 피해자에게 시비를 걸어 폭행한 점에 비추어 사안 자체가 경미하다고 보기 어려움(비례성)","k":"1y6unzm"},
+  {"i":"1nc0unz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"③ 자신의 범행은 부인하고 오히려 피해자로부터 폭행을 당하였다고 주장 ④ 신분증 주소지가 사건 현장인 안양시와 멀리 떨어져 있어 <span class=\"cs-red\"><strong>추가적인 거소 확인이 필요</strong></span> → 도망 또는 증거인멸의 염려가 없다고 단정하기 어려움(체포의 필요성)","k":"15oxdyt"},
+  {"i":"flnjmh","o":"<div class=\"cs-h\">","h":"Ⅳ. 현행범인 체포 절차","k":"aryy9"},
+  {"i":"yui891","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>주체</strong></span>","k":"38frh"},
+  {"i":"rmvv8u","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"현행범인은 <span class=\"cs-red\"><strong>누구든지 영장없이 체포 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§212)</strong></span></span>","k":"wl0ltn"},
+  {"i":"75qyf9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[청해부대 소속 군인들이 선박을 납치한 소말리아 해적들을 현행범인으로 체포]</span> <span class=\"cs-red\"><strong>검사 등이 아닌 이에 의한 현행범인 체포</strong></span>에 해당<span class=\"cs-exam\">【변18】</span>","k":"lmg4ju"},
+  {"i":"1mpd34a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>① 현행범인은 누구든지 영장 없이 체포할 수 있으므로 사인의 현행범인 체포는 법령에 의한 행위로서 위법성이 조각 ② 적정한 한계를 벗어나는 현행범인 체포행위는 그 부분에 관한 한 법령에 의한 행위로 될 수 <span class=\"cs-x\"><strong>(X)</strong></span> ③ 소극적인 방어행위인가 적극적인 공격행위인가에 따라 결정되어야 하는 것 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변13】</span>","k":"ibnnxz"},
+  {"i":"zz5ada","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>사인의 체포</strong></span>","k":"1ojjaep"},
+  {"i":"w6stfx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"사인이 현행범인을 체포한 때에는 <span class=\"cs-red\"><strong>즉시 검사 등에게 인도</strong></span>하여야 함<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§213①)</strong></span></span>","k":"6gt5n6"},
+  {"i":"aq8k6i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>판단기준 (判例) : '즉시' = 반드시 체포시점과 시간적으로 밀착된 시점이어야 하는 것은 <span class=\"cs-x\"><strong>(X)</strong></span>, '정당한 이유 없이 인도를 지연하거나 체포를 계속하는 등으로 불필요한 지체를 함이 없이'라는 뜻</strong></span> — (청해부대 9일 소요)<span class=\"cs-exam\">【변20】</span>","k":"1efiz36"},
+  {"i":"s694i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>검사 또는 사법경찰리의 미란다원칙 고지</strong></span>","k":"mftnvc"},
+  {"i":"yvzubz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검사 또는 사법경찰리가 현행범인을 <span class=\"cs-red\"><strong>'체포'하거나 현행범인을 '인도받은 경우'</strong></span>에는 피의사실의 요지, 체포의 이유와 변호인을 선임할 수 있음을 말하고 변명할 기회를 주어야 함<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§213의2, §200의5)</strong></span></span> — <span class=\"cs-gbg\">[사인이 체포시 고지]</span> <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변25·16·15·14】</span>","k":"1m3rsk2"},
+  {"i":"1qc3prg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>① 고지는 체포를 위한 실력행사에 들어가기 전에 미리 하여야 하는 것이 원칙 ② 달아나는 피의자를 쫓아가 붙들거나 폭력으로 대항하는 피의자를 실력으로 제압하는 경우에는 붙들거나 제압하는 과정에서 하거나 그것이 여의치 않은 경우에는 일단 붙들거나 제압한 후에 지체 없이 하면 됨</strong></span>","k":"1b7qt2f"},
+  {"i":"xaj24b","o":"<div class=\"cs-h\">","h":"Ⅴ. 체포 후 절차","k":"1p3dv0z"},
+  {"i":"3myyv8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[체포통지]</span> 체포영장에 의한 체포와 동일<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§213의2, §87①②)</strong></span></span>","k":"2mcuzm"},
+  {"i":"z9oxtf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[체포적부심청구 고지]</span> 체포영장에 의한 체포와 동일<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§214의2②, ①)</strong></span></span>","k":"1je7p6c"},
+  {"i":"1fbiyee","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[현행범인체포서·현행범인인수서 작성]</span> 검사 또는 사법경찰리가 현행범인을 <span class=\"cs-red\"><strong>체포한 경우 → 현행범인체포서</strong></span>, 현행범인을 <span class=\"cs-red\"><strong>인도받은 경우 → 현행범인인수서</strong></span> 작성<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(검찰사건사무규칙§70, 경찰수사규칙§52)</strong></span></span>","k":"fs1xv3"},
+  {"i":"qvtarq","o":"<div class=\"cs-h\">","h":"Ⅵ. 현행범인 체포 후 구속영장의 청구","k":"1j2d01b"},
+  {"i":"swygj0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"현행범인으로 체포한 피의자를 구속하고자 할 때에는 <span class=\"cs-red\"><strong>체포한 때부터 48시간 이내</strong></span>에 구속영장을 <span class=\"cs-red\"><strong>청구하여야 하고</strong></span>(발부 X), 그 기간 내에 청구하지 아니하는 때에는 <span class=\"cs-green\"><strong>즉시 석방</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§213의2, §200의2⑤)</strong></span></span><span class=\"cs-exam\">【변16·13】</span>","k":"19lqito"},
+  {"i":"aybxuu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[사인에 의해 현행범인이 체포된 후 불필요한 지체 없이 검사 등에게 인도된 경우]</span> 위 48시간의 기산점은 체포시가 아니라 검사 등이 현행범인을 <span class=\"cs-red\"><strong>'인도받은 때'</strong></span> — (청해부대 사건에서 경찰이 인도받은 때부터)<span class=\"cs-exam\">【변26·19·18】</span>","k":"11z2811"},
+  {"i":"mgpj26","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"사법경찰관의 검사에 대한 보고의무 <span class=\"cs-x\"><strong>(X)</strong></span>, 검사의 법원에 대한 통지의무 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"10rdiwp"}
+ ]}
+]}

@@ -1,0 +1,43 @@
+{"id":"국가003","t":"공무상비밀누설죄","cat":"gak_국가공무원","lv":1,"tg":["A급","변사23","변사14","모사23","모사17","모사16"],"b":[
+ {"i":"1mf2ags","o":"<details class=\"cs-case\">","b":[
+  {"i":"1glcnzb","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE] 경찰관이 동창에게 체포영장 신청 예정 알려줌</strong></span></span> <span class=\"cs-exam\">【변사23】 </span><span class=\"cs-red\">(10)</span>","k":"vdr89e"},
+  {"i":"gzrt3e","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"xzl4ow","o":"<div class=\"cs-fact\">","b":[
+    {"i":"18mvrqw","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1xomim2","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"업무상배임 혐의로 경찰수사가 진행 중임을 직감한 甲이 중학교 동창인 경찰관 乙에게 수사 상황을 알려 달라 부탁 → 乙이 甲에 대한 체포영장을 곧 신청할 예정임을 알려 줌 → 실제로","k":"id1fvu"},
+     {"i":"ofracg","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"사법경찰관 P1이 다음 날 오후 체포영장을 발부받아 집행 착수. 甲과 乙의 죄책은? (10점)","k":"jbjve9"}
+    ]}
+   ]},
+   {"i":"m6yx9j","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1l0th6m","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"fhd688","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [乙의 죄책]</strong></span>","k":"1hr2lwz"},
+    {"i":"ml2mrf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① '법령에 의한 직무상 비밀' = 실질적으로 비밀로 보호할 가치가 있을 것 요","k":"m1znxm"},
+    {"i":"eqxyjt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② '체포영장을 곧 신청할 예정'이라는 수사기관 내부 정보는 누설될 경우 증거인멸·허위진술로 수사에 장애를 초래할 위험 → 수사기관 내부의 비밀로서 '법령에 의한 직무상 비밀'<span class=\"cs-o\"><strong>(O)</strong></span>","k":"ixow7s"},
+    {"i":"1727xnc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 공무원인 경찰관 乙이 동창 甲에게 알려 줌 → 공무상비밀누설죄(<span class=\"cs-blue\"><span class=\"cs-u\">제127조</span></span>)<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1alp49x"},
+    {"i":"1gaa5g","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [甲의 죄책]</strong></span>","k":"19iejaz"},
+    {"i":"1spyd81","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 누설의 결의가 없는 乙에게 부탁 → 일응 교사(<span class=\"cs-blue\"><span class=\"cs-u\">제31조</span> 제1항</span>)","k":"19i869b"},
+    {"i":"1lz7tlf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 필요적 공범 중 대향범 관계에 있는 자에게 형법 총칙이 적용되는지 — 긍정설/부정설, 판례 = 부정설. 형법 총칙은 임의적 공범을 전제한 규정 → 부정설 타당","k":"68rsrr"},
+    {"i":"18acreo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 甲 = 공무상비밀누설교사죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"56cnt9"}
+   ]}
+  ]}
+ ]},
+ {"i":"g3xbl1","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1c1t42p","o":"<div class=\"cs-callout\">","b":[
+   {"i":"pdtagz","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제127조(공무상 비밀의 누설)</strong></span> <span class=\"cs-u\"><strong>공무원 또는 공무원이었던 자</strong></span>가 <span class=\"cs-u\"><strong>법령에 의한 직무상 비밀</strong></span>을 <span class=\"cs-blue\"><strong>누설</strong></span>한 때에는 <span class=\"cs-red\">2년 이하의 <strong>징역</strong>이나 <strong>금고</strong></span> 또는 <span class=\"cs-red\">5년 이하의 <strong>자격정지</strong></span>에 처한다.","k":"9wk7dx"}
+  ]},
+  {"i":"16hkrcy","o":"<div class=\"cs-h\">","h":"Ⅰ. 법령에 의한 직무상 비밀","k":"h406g3"},
+  {"i":"1ddxpi4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"공무상비밀누설죄는 기밀 그 자체 보호 아니라 공무원 비밀엄수의무 침해로 위험받는 이익, 즉 비밀 누설로 위협받는 '국가의 기능' 보호 목적","k":"1q8zoxh"},
+  {"i":"4ea0jt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : ① <span class=\"cs-def\"><strong>'법령에 의한 직무상 비밀'</strong></span> = 반드시 법령에 의해 비밀로 규정·분류 명시된 사항 한하지 X<span class=\"cs-exam\">【변23】</span> ② 정치·군사·외교·경제·사회적 필요로 비밀로 된 사항은 물론 정부·공무소·국민이 객관적·일반적 입장에서 외부에 알려지지 않는 것에 상당한 이익 있는 사항도 포함하나 ③ <span class=\"cs-u\">실질적으로 비밀로서 보호할 가치 있다고 인정할 수 있는 것이어야 함</span>","k":"ij8bgs"},
+  {"i":"1ea19oe","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"zbk4sw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[비밀 O]</span> ① 체포영장 발부자 명단 ② 직무상 지득한 구술시험 문제 ③ 특사단 추천의원 정리 문건","k":"w64adj"},
+  {"i":"1i6kdh0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 수사기관이 특정 사건 내사·수사 진행 상태에서 확보 자료·죄책·신병처리 의견 등 정보 알 수 있는 수사지휘서 내용 외부 알려질 경우 증거 수집 등 범죄수사 기능 장애 위험 ② 따라서 검사가 수사 대상·방법 등 사법경찰관리 지휘 내용 기재한 수사지휘서 기재 내용·수사상황은 종국적 결정 전까지 외부 누설 안 될 수사기관 내부 비밀 해당 <span class=\"cs-fact-tag\">[검사가 신병처리에 관하여는 수사지휘를 하지 않았다는 사실]</span><span class=\"cs-exam\">【변26】【변사23·14, 모사25·23·17·16】</span>","k":"wkg9qo"},
+  {"i":"t080eu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[비밀 X]</span> 재산 소유 주체 정보에 불과한 자동차 소유자 정보는 실질적 비밀 보호가치 있다거나 누설로 국가 기능 위협받는다 볼 수<span class=\"cs-x\"><strong>(X)</strong></span> [구청 공무원이 차적 조회 시스템으로 경찰 잠복근무 차량 소유관계 정보 알아내 지인에게 알려줌 → 공무상비밀누설죄 해당 X]","k":"m2u02g"},
+  {"i":"1hjd54y","o":"<div class=\"cs-h\">","h":"Ⅱ. 누설","k":"thlqoa"},
+  {"i":"1h2x8nb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① <span class=\"cs-def\"><strong>'누설'</strong></span> = <span class=\"cs-u\">비밀을 아직 모르는 다른 사람에게 임의로 알려주는 행위</span>","k":"1n2t02g"},
+  {"i":"1duo64z","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 공무원이 직무상 알게 된 비밀을 그 직무 관련성·필요성에 기하여 해당 직무 집행과 관련 있는 다른 공무원에게 직무집행 일환으로 전달한 경우 → 전달받은 공무원이 직무집행과 무관하게 제3자에게 누설할 것으로 예상되는 등 국가기능 위험 발생 특별한 사정 인정 X 한, 비밀 누설 해당<span class=\"cs-x\"><strong>(X)</strong></span>","k":"4jg073"},
+  {"i":"16rrrix","o":"<div class=\"cs-h\">","h":"Ⅲ. 누설받은 자에 대한 총칙 규정의 적용 여부<span class=\"cs-exam\">【변사23·14, 모사25·23·17·16】</span>","k":"14zngs9"},
+  {"i":"1pfdbhj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : 2인 이상 서로 대향된 행위 존재 필요로 하는 대향범에 공범 형법총칙 규정 적용 X, <span class=\"cs-blue\"><span class=\"cs-u\">§127</span></span>은 공무원 등이 법령에 의한 직무상 비밀 누설하는 행위만 처벌 ·누설받은 상대방 처벌 규정 없는 점 비추어, 직무상 비밀 누설받은 자에 공범 형법총칙 규정 적용<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변26·19】</span>","k":"137awfm"},
+  {"i":"16a9btt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"t4us5g","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[변호사 사무실 직원이 법원공무원에게 부탁하여 수사 중 사건 체포영장 발부자 명단 누설받은 경우]</span> 변호사 사무실 직원 행위 공무상비밀누설교사죄로 처벌<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변15】</span>","k":"188p23d"}
+ ]}
+]}

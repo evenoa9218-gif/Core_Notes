@@ -1,0 +1,16 @@
+{"id":"형소007","t":"당사자능력과 소송능력","cat":"pro_01","lv":1,"tg":["下"],"b":[
+ {"i":"6u1257","o":"<div class=\"cs-h\">","h":"Ⅰ. 당사자능력","k":"1942nke"},
+ {"i":"1e7dc99","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[자연인] 나이 및 책임능력과 관계없이 당사자능력 인정</strong></span>","k":"zh0th7"},
+ {"i":"1wnxgh5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[형사미성년자]</span> 당사자능력 <span class=\"cs-o\"><strong>(O)</strong></span> — 단 <span class=\"cs-u\">책임조각사유에 해당하여 전단무죄</span>","k":"p2f7vd"},
+ {"i":"11mnmdc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[법인] 처벌규정(양벌규정)의 존재 여부와 관계없이 당사자능력 인정</strong></span>","k":"y76l2s"},
+ {"i":"qmndg6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[처벌규정 없는데 법인을 기소한 경우]</span> <span class=\"cs-red\"><strong>무죄판결</strong></span>","k":"1feii88"},
+ {"i":"i0khyv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>법인의 해산 또는 청산종결 등기 이전에 업무·재산에 관한 위반행위가 있는 경우 → 청산종결 등기 후 수사개시·공소제기되더라도 그 사건이 종결될 때까지 청산사무는 종료되지 않고 당사자능력도 그대로 존속</strong></span>","k":"1pqjvqd"},
+ {"i":"glgriw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 피고인·피의자가 법인인 때에는 그 대표자가 소송행위를 대표<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§27①)</strong></span></span> ② 수인이 공동하여 법인을 대표하는 경우에도 소송행위에 관하여는 <span class=\"cs-u\">각자가 대표</span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§27②)</strong></span></span> — <span class=\"cs-gbg\">[공동대표]</span> <span class=\"cs-x\"><strong>(X)</strong></span>","k":"szoie9"},
+ {"i":"2qii8d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[당사자능력 소멸] 피고인이 사망하거나 피고인인 법인이 존속하지 아니하게 된 때 → 공소기각 '결정'</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§328①제2호)</strong></span></span>","k":"10xox3t"},
+ {"i":"lzn1ze","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[양벌규정에 따라 부담하던 형사책임]</span> 성질상 이전 불허 → 합병으로 존속하는 법인에 승계 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"1nfoijt"},
+ {"i":"6cac0r","o":"<div class=\"cs-h\">","h":"Ⅱ. 소송능력","k":"1urcsfb"},
+ {"i":"1vh6wdb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[소송능력] = 소송당사자가 유효하게 소송행위를 할 수 있는 능력, 즉 피고인·피의자가 자기의 소송상 지위와 이해관계를 이해하고 이에 따라 방어행위를 할 수 있는 의사능력</strong></span>","k":"1iks0wp"},
+ {"i":"1otpfuu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>소송능력은 소송조건이 아니므로 공소제기의 효력에 영향 불문</strong></span>","k":"1o97kzl"},
+ {"i":"ly63qy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"단, 소송능력은 소송행위의 <span class=\"cs-red\"><strong>유효요건</strong></span>이므로 소송능력 없는 피고인의 소송행위는 <span class=\"cs-green\"><strong>무효</strong></span>","k":"sejazj"},
+ {"i":"gp3xnf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>피고인이 사물의 변별 또는 의사의 결정을 할 능력이 없는 상태에 있는 때 → 법원은 검사와 변호인의 의견을 들어 결정으로 그 상태가 계속하는 기간 공판절차 정지</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§306)</strong></span></span>","k":"14jf2ey"}
+]}

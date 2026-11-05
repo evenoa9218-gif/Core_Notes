@@ -1,0 +1,69 @@
+{"id":"형소070","t":"공소사실 동일성 (공소장변경 한계)","cat":"pro_09","lv":1,"tg":["A급","上","변사24·15","모사24·22·17·16"],"b":[
+ {"i":"x4gx4c","o":"<details class=\"cs-case\">","b":[
+  {"i":"1w0za8w","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(1)] 단독 상해치사 기소 후 공동정범 변경 + 별건 추가</strong></span> <span class=\"cs-exam\">【변사15】</span>","k":"15va6it"},
+  {"i":"c4ktlm","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1hm2ixc","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1t1ayjs","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1s1y04e","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲·乙이 함께 V를 구타하여 사망에 이르게 함 → 乙이 혼자 때렸다고 진술하여 乙만 상해치사죄로 기소 → 乙이 공판정에서 甲과 함께 범행했다고 진술 → 검사가 甲을 수사하여 甲·乙이 이전에 함께 V를 폭행하여 V 명의 B은행 직불카드를 빼앗은 사실을 추가로 밝혀냄 → 검사가 甲을 기소하면서 乙에 대하여도 기존 공소사실을 甲과 공동범행 취지로 변경함과 동시에 새로 밝혀진 범죄사실을 추가하는 공소장변경 신청. 법원의 조치는? (10점)","k":"157b9ge"}
+    ]}
+   ]},
+   {"i":"r2axtj","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"vpp14e","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"bi5w3h","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [공소사실 동일성]</strong>","k":"1qa2swm"},
+    {"i":"18xfd7e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§298①</strong></span></span>.","k":"lst5r3"},
+    {"i":"12qpbwa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 판단기준 — 죄질동일설·구성요건공통설·소인공통설·기본적 사실동일설 및 판례.","k":"10wem9m"},
+    {"i":"shudj9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 형벌권의 적정한 실현과 피고인의 방어권 보장을 조화롭게 고려하는 판례 타당","k":"jq91lu"},
+    {"i":"1rebcr2","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [상해치사죄의 공동정범으로 공소장변경]</strong>","k":"ad4m75"},
+    {"i":"1c2piix","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 乙의 단독범행 상해치사죄와 甲과의 공동정범 상해치사죄는 기본적 사실관계 동일 + 규범적 요소 고려해도 동일성 인정","k":"j2bdsc"},
+    {"i":"1ykcwxu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 법원은 공소장변경 허가하고 상해치사죄에 대해 심리·판결","k":"6xhpxi"},
+    {"i":"i1xjpb","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [새로운 범죄사실 추가]</strong>","k":"fgqa65"},
+    {"i":"1ozqfj1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 乙에 대한 폭처법위반(공동공갈) 범죄사실(폭행 정도에 따라 특수강도 가능)은 상해치사죄 공소사실과 실체적 경합범 관계 → 동일성 인정 X","k":"yrpbhz"},
+    {"i":"w078fr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 법원은 그 공소장변경신청에 대하여 기각 결정","k":"1q1io4l"}
+   ]}
+  ]}
+ ]},
+ {"i":"z9knwt","o":"<details class=\"cs-case\">","b":[
+  {"i":"1iid5ey","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(2)] 상습 성착취물제작 공소사실에 신설규정 시행 전 범행 추가</strong></span> <span class=\"cs-exam\">【변사24】</span>","k":"x33fe6"},
+  {"i":"10g75kr","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"uhjw4x","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1p1c1u1","o":"<div class=\"cs-callout\">","b":[
+     {"i":"158a9yt","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"검사가 甲의 아청법위반 범행에 대하여 '2020. 6. 15.부터 2023. 2. 10.까지 상습으로 아동·청소년 피해자 99명에게 신체 노출 사진을 촬영하도록 하는 등 총 999개의 성착취물 제작' 공소제기 → 甲의 2020. 5. 20. 15세 C에 대한 범행을 추가하기 위해 '2020. 5. 20.부터 2023. 2. 10.까지 상습으로 피해자 100명, 총 1,000개 제작'으로 변경하는 공소장변경허가신청. 법원의 조치는? [상습 성착취물제작 처벌조항(아청법§11⑦)은 2020. 6. 2. 신설·시행] (15점)","k":"1b2jgqc"}
+    ]}
+   ]},
+   {"i":"1q3ois6","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1ot7lcf","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"14ykc0s","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [공소사실 동일성]</strong>","k":"1qa2swm"},
+    {"i":"1m5l9ul","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"위와 동일(간단히 기재)","k":"1jvaanx"},
+    {"i":"1qwodpg","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [상습범 처벌규정이 신설된 경우]</strong>","k":"1oq6wi4"},
+    {"i":"h5bku0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 애초에 죄가 되지 않던 행위를 구성요건 신설로 포괄일죄 처벌대상으로 삼는 경우 신설 법규 시행 전 행위에 신설 법규 적용 X, 이는 상습범 처벌 구성요건도 마찬가지","k":"1k44hi6"},
+    {"i":"kvilg1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 아청법위반(상습성착취물제작등)죄는 2020. 6. 2. 신설·시행 → 시행 전인 2020. 5. 20.자 범행은 상습죄로 처벌 X, 행위시법에 기초하여 (단순)아청법위반(성착취물제작등)죄로 처벌 가능 → 추가한 2020. 5. 20.자 범행은 애초 공소제기 부분과 포괄일죄 X, 실체적 경합관계 → 동일성 인정 X","k":"jiyopi"},
+    {"i":"1ypb1ws","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong>","k":"1az60e9"},
+    {"i":"468hbb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"이 부분 추가하는 공소장변경 허가 X, 검사는 추가기소해야 → 법원은 공소장변경신청 기각","k":"1ep7vgi"}
+   ]}
+  ]}
+ ]},
+ {"i":"1a19fxy","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1s7u07o","o":"<div class=\"cs-h\">","h":"Ⅰ. 심판범위","k":"1t3evon"},
+  {"i":"egnr7g","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"범죄사실의 일부에 대한 공소의 효력은 <span class=\"cs-red\"><strong>범죄사실 전부에 미침</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§248②)</strong></span></span>","k":"1du7p4s"},
+  {"i":"1yv3yhw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[이원설] 법원은 공소사실과 동일성이 인정되는 범죄사실 전부에 대해 심판할 수 있지만 이는 '잠재적' 심판대상이며, 검사가 공소장에 기재한 공소사실에 대해서만 '현실적' 심판대상으로 삼을 수 있음</strong></span>","k":"ghikvr"},
+  {"i":"1vmlbto","o":"<div class=\"cs-h\">","h":"Ⅱ. 공소사실 동일성의 판단기준<span class=\"cs-exam\">【변사24·15, 모사25·24 등 빈출】</span>","k":"1miusho"},
+  {"i":"uafx1e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 죄질이 동일하면 인정된다는 죄질동일설 ② 구성요건이 상당부분 공통되면 죄질이 달라도 인정된다는 구성요건공통설 ③ 소인의 기본적인 부분을 공통으로 하면 인정된다는 소인공통설 ④ 공소사실의 기초가 되는 <span class=\"cs-red\"><strong>사회적 사실관계가 기본적으로 동일</strong></span>하면 인정된다는 기본적 사실동일설","k":"e2j4kj"},
+  {"i":"1s1rrdk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 – 기본적 사실동일설을 기본으로 규범적 요소도 고려] 공소사실이나 범죄사실의 동일성 여부는 사실의 동일성이 갖는 법률적 기능을 염두에 두고 피고인의 행위와 그 사회적인 사실관계를 기본으로 하되 그 규범적 요소도 고려하여 판단하여야</strong></span><span class=\"cs-exam\">【변14·13】</span>","k":"3xlzgc"},
+  {"i":"xltogp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: 피고인의 방어권 보장과 형벌권의 적정한 실현을 조화롭게 고려하는 <span class=\"cs-red\"><strong>판례 타당</strong></span>","k":"1yu9p6"},
+  {"i":"173rt7c","o":"<div class=\"cs-h\">","h":"Ⅲ. 공소장변경의 제한 – 공소사실이 동일한데 변경이 허용되지 않는 경우","k":"dvvqq4"},
+  {"i":"1supk1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>① 공소사실 동일성이 인정되는 범위 내에서 특정 공소사실을 철회하였다가 다시 추가하는 등의 공소장변경도 불가능한 것은 아님 ② 그러나 헌법§13①후문 '거듭처벌금지의 원칙'의 정신에 비추어 그러한 공소장변경이 얼마든지 허용된다고 볼 수는 없음 ③ 공소장변경이 피고인의 지위를 과도하게 불안정하게 하고 방어권을 본질적으로 침해하는 특별한 사정이 있는 경우 그러한 공소장변경은 원칙적으로 허용 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"iyu1ta"},
+  {"i":"1bpbaig","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"다만 위와 같은 특별한 사정이 있더라도 <span class=\"cs-fact-tag\">[공소장변경 없이는 신속한 실체적 진실발견에 비추어 현저히 정의와 형평에 반하는 결과를 초래하는 경우]</span>에는 예외적으로 그러한 공소장변경도 <span class=\"cs-red\"><strong>허용될 여지 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span> — (공소취소 후 재기소 제한 규정 적용 X)","k":"1t0og57"},
+  {"i":"1djoaod","o":"<div class=\"cs-h\">","h":"Ⅳ. 포괄일죄의 공소사실 추가·변경","k":"1nzn3kf"},
+  {"i":"9uzbdb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>판단기준</strong></span>","k":"mv2uj1"},
+  {"i":"dkmjun","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>포괄일죄에서 공소장변경허가 여부는 개개 공소사실별로 종전 것과의 동일성을 따지기보다는 변경된 공소사실이 전체적으로 포괄일죄의 범주 내에 있는지 여부, 즉 '단일하고 계속된 범의하에 동종의 범행을 반복하고 피해법익도 동일'한 경우인지에 초점</strong></span><span class=\"cs-exam\">【변24】</span>","k":"1a9g80d"},
+  {"i":"1uqubm1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[무면허운전 — 도교법위반(무면허운전)죄는 사회통념상 운전한 날마다 1죄(포괄일죄)]</span> 같은 날 동일 차량을 무면허로 운전하려는 단일·계속된 범의 아래 반복한 것으로 포괄일죄 + 기초 사회적 사실관계도 동일 → <span class=\"cs-red\"><strong>공소장변경 가능</strong></span> — (퇴근길 제1무면허운전, 3시간 후 음주로 잠든 상태 발견된 제2무면허운전을 철회·추가)","k":"64xp0w"},
+  {"i":"1hctqyy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>포괄일죄의 중간에 확정판결이 있는 경우</strong></span>","k":"2p0gb1"},
+  {"i":"db9fwv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[영업범 등]</span> ① 포괄일죄에서 공소제기의 효력은 동일성이 인정되는 범죄사실 전체에 미치므로 공판심리 중 동일성이 인정되는 범죄사실이 추가 발견되면 <span class=\"cs-red\"><strong>공소장변경절차로 추가 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span> ② 그러나 공소제기된 범죄사실과 추가 발견된 범죄사실 사이에 동일성이 인정되는 또 다른 범죄사실에 대한 유죄 확정판결이 있는 때에는, <span class=\"cs-red\"><strong>확정판결 후의 범죄사실은 분단되어 동일성 없는 별개의 범죄</strong></span> → 공소장변경으로 추가 X, <span class=\"cs-red\"><strong>별개의 독립된 범죄로 공소제기해야</strong></span><span class=\"cs-exam\">【변22】</span>","k":"1tw2za9"},
+  {"i":"1ifvr9q","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[상습범 – 상습범 확정판결]</span> ① 상습범 공판심리 중 동일한 습벽의 범죄사실이 추가 발견되면 <span class=\"cs-red\"><strong>공소장변경으로 추가 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span><span class=\"cs-exam\">【변26】</span> ② 그러나 동일한 습벽에 의한 또 다른 범죄사실에 대한 유죄 확정판결(상습범으로 처단)이 있는 경우에는 전후 범죄사실의 일죄성이 분단되어 공소제기된 범죄사실과 확정판결된 범죄사실만이 포괄하여 하나의 상습범을 구성하고, <span class=\"cs-red\"><strong>확정판결 후의 범죄사실은 경합범 관계의 별개 상습범</strong></span> → 공소장변경으로 추가 X, <span class=\"cs-red\"><strong>별개의 독립된 범죄로 공소제기해야</strong></span><span class=\"cs-exam\">【변22·16·14·12, 변기19】</span>","k":"19e715f"},
+  {"i":"djjm2x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[상습범 – 기본범 확정판결]</span> 위 법리는 전의 확정판결에서 피고인이 <span class=\"cs-red\"><strong>'상습범으로 기소되어 처단되었을 것'을 요함</strong></span> → <span class=\"cs-gbg\">[상습범이 아닌 '기본 구성요건'의 범죄로 처단되는 데 그친 경우]</span> 뒤에 종합하여 상습범 포괄일죄로 판단되더라도 앞서의 확정판결을 상습범 일부에 대한 확정판결로 보아 그 <span class=\"cs-green\"><strong>기판력이 사실심판결 선고 전 나머지 범죄에 미친다고 보아서는 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변25·24·23 등 빈출】</span>","k":"1uxqrlw"},
+  {"i":"1fhz194","o":"<div class=\"cs-h\">","h":"Ⅴ. 상습법 처벌규정이 신설된 경우","k":"nu8zea"},
+  {"i":"f7hzd9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>애초에 죄가 되지 않던 행위를 구성요건의 신설로 포괄일죄의 처벌대상으로 삼는 경우 신설된 포괄일죄 처벌법규 시행 이전의 행위에 신설 법규를 적용하여 처벌 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"1gzosxe"},
+  {"i":"hrom37","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 이는 <span class=\"cs-red\"><strong>신설된 처벌법규가 상습범을 처벌하는 구성요건인 경우에도 마찬가지</strong></span> ② <span class=\"cs-fact-tag\">[아청법 개정으로 상습 성착취물제작 처벌조항(§11⑦)이 신설된 경우]</span> 개정 규정 시행 전 범죄는 '상습' 성착취물제작으로 처벌 X, 행위시법에 기초하여 <span class=\"cs-red\"><strong>'단순' 성착취물제작으로 처벌 가능</strong></span> ③ 개정으로 상습 처벌되는 부분과 포괄일죄 관계에 있지 않고 <span class=\"cs-red\"><strong>실체적 경합관계</strong></span> → 종전 공소사실과 기본적 사실관계가 동일하지 않은 부분을 추가하는 <span class=\"cs-green\"><strong>공소장변경 허가 X, 추가기소로 해결</strong></span><span class=\"cs-exam\">【변23·19, 변사24】</span>","k":"t8hm0f"},
+  {"i":"fsnzeq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[신설된 상습강제추행죄]</span> 시행 이전 범행은 상습강제추행죄로 처벌 X, 행위시법에 기초하여 <span class=\"cs-red\"><strong>강제추행죄로 처벌 가능</strong></span>","k":"10vg49m"}
+ ]}
+]}

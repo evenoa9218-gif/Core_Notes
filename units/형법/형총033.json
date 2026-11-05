@@ -1,0 +1,22 @@
+{"id":"형총033","t":"미수 일반 (장애미수)","cat":"chong_05","lv":1,"tg":[],"b":[
+ {"i":"hue4ng","o":"<div class=\"cs-h\">","h":"Ⅰ. 미수 일반","k":"8tmj4f"},
+ {"i":"1937cwk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[감경·감면 유형]</span> 장애미수 = 임의적 감경사유 · 불능미수 = 임의적 감면사유 · 중지미수 = 필요적 감면사유(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제25조</strong></span></span>·<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제26조</strong></span></span>·<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제27조</strong></span></span>)","k":"inej87"},
+ {"i":"1bxqv83","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[기수의 고의]</span> 미수범 성립 = 기수의 고의 要 <span class=\"cs-fact-tag\">[미수의 고의X]</span>","k":"l6ly2h"},
+ {"i":"d9f2ey","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[초과주관적 요소]</span> 고의 외 목적·동기·불법영득의사 등 초과주관적 구성요건요소 要하는 범죄 = 미수범도 이 요소 구비해야<span class=\"cs-exam\">【변18】</span>","k":"1vdyez3"},
+ {"i":"19rnzl7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[확정적 행위의사]</span> 미수범 성립 = 확정적 행위의사 要, 행위의사 확정적이면 그 실행이 일정 조건 발생에 좌우돼도 고의 인정<span class=\"cs-exam\">【변16】</span>","k":"1i9trzt"},
+ {"i":"3rsp40","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[고의범 한정]</span> 미수 = 고의범에서만 문제, 과실범 미수 처벌규정 X<span class=\"cs-exam\">【변15】</span>","k":"18ws5w3"},
+ {"i":"1foacs3","o":"<div class=\"cs-h\">","h":"Ⅱ. 착수미수와 실행미수","k":"7tekae"},
+ {"i":"u46j0h","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[결과범 성질]</span> ①결과범 = 상태범/계속범·침해범/구체적 위험범일 수도 ②결과범 = 행위·결과 간 인과관계(및 객관적 귀속) 要, 인과관계 X면 기수 도달 X ③거동범 = 행위만 있으면 성립 → 인과관계 불문","k":"1u0q74"},
+ {"i":"1fwf0p7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[착수·실행미수 인정범위]</span> ①결과범 = 착수미수·실행미수 모두 인정 ②거동범 = 실행 착수했으나 행위 미종료한 '착수미수(미종료미수)'는 인정, 실행 착수·행위 종료했으나 결과 미발생한 '실행미수(종료미수)'는 인정 X","k":"1sal0at"},
+ {"i":"ojhhqf","o":"<div class=\"cs-h\">","h":"Ⅲ. 실행의 착수","k":"1p0e4rx"},
+ {"i":"1w8r2vl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[필로폰 매매]</span> 소지·입수 상태/가능 등 매매행위 근접·밀착 상태서 대금 지급받은 것 아니라 단순히 필로폰 구해달라는 부탁+대금 명목 금전 지급받은 것에 불과 = 필로폰 매매행위 실행의 착수 X","k":"1w24rxi"},
+ {"i":"1p4fbwd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[외국환 밀반출]</span> ①신고 X/허위신고하고 지급수단·귀금속·증권 수출 = 국외 반출 근접·밀착 행위 시 착수 ②500만¥ 기탁화물로 부치려 한 경우 = 부칠 때 착수 ③휴대용 가방 넣어 탑승하려 한 경우 = 가방을 보안검색대 올려놓거나 휴대·통과하는 때 비로소 착수, 보안검색대 안 나아간 채 탑승 대기 중 체포 시 일화 400만¥엔 착수 X<span class=\"cs-exam\">【변14】</span>","k":"1vitq9n"},
+ {"i":"1g93cby","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[살인]</span> 낫 들고 피해자에 접근 = 살인 실행행위 착수 → 살인미수","k":"174wr3v"},
+ {"i":"1s7n2z0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[간첩]</span> 간첩목적 외국/북한서 국내 침투·월남 = 기밀탐지 가능한 국내 침투·상륙으로 간첩죄 착수 <span class=\"cs-fact-tag\">[주관설]</span>","k":"1j7t0ba"},
+ {"i":"u00rna","o":"<div class=\"cs-h\">","h":"Ⅳ. 기수","k":"thf8g0"},
+ {"i":"1yr912e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[성매매알선]</span> 알선자 주선행위 하면 성매수자에 실제 성매매 의사 없어도 성매매알선죄 성립, 성매매 당사자 단속경찰관의 성매수 의사 有無 무관 기수 <span class=\"cs-fact-tag\">[불능미수X]</span>","k":"10yv5ga"},
+ {"i":"1ss2qrc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[표: 미수의 유형]</span> (유형 — 착수시 결과발생 가능여부 — 미수원인 — 법적효과)","k":"du9q6h"},
+ {"i":"c037qe","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[불능미수]</span> 불가능미수 — 원시적 불능 — 임의적 감면(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제27조</strong></span></span>)","k":"banur6"},
+ {"i":"8gfliw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[중지미수]</span> 가능미수 — 자의 — 필요적 감면(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제26조</strong></span></span>)","k":"lkjfxf"},
+ {"i":"td8edq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[장애미수]</span> — 비자의적 장애 — 임의적 감경(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제25조</strong></span></span>)","k":"1lf4q7o"}
+]}

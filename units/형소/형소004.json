@@ -1,0 +1,44 @@
+{"id":"형소004","t":"[제척] 약식명령 발령 법관의 정식재판(제1심, 항소심) 관여","cat":"pro_01","lv":1,"tg":["下","변사14"],"b":[
+ {"i":"1p6ppjj","o":"<details class=\"cs-case\">","b":[
+  {"i":"16w0arx","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(1)] 약식명령 발령 판사의 제1심 정식재판 관여</strong></span> <span class=\"cs-exam\">【변사14】</span>","k":"29680b"},
+  {"i":"1fma4ft","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"albu9f","o":"<div class=\"cs-fact\">","b":[
+    {"i":"6kyyq3","o":"<div class=\"cs-callout\">","b":[
+     {"i":"19lw1nj","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲은 도박으로 벌금 300만 원의 약식명령을 받고 정식재판을 청구하였다. 300만 원의 약식명령을 발령한 판사가 위 정식재판청구에 의한 제1심 사건의 재판을 담당한 경우, 항소이유가 되는가? (8점)","k":"i01d6k"}
+    ]}
+   ]},
+   {"i":"g9yn10","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"pwyb4d","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"190nhdv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 적극설·소극설 대립","k":"1415vr6"},
+    {"i":"1lh6nql","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 판례(소극설): 약식명령과 정식재판은 동일한 심급 내에서 절차만 달리할 뿐 → 제척사유 해당 X → <span class=\"cs-green\"><strong>절대적 항소이유 해당 X</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§361의5⑦)</strong></span></span>","k":"td06ce"},
+    {"i":"5nm30d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 단, <span class=\"cs-red\"><strong>기피의 원인은 될 수 있음</strong></span>","k":"1jfxjr7"}
+   ]}
+  ]}
+ ]},
+ {"i":"1l6fbce","o":"<details class=\"cs-case\">","b":[
+  {"i":"1qe5bsf","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(2)] 약식명령 발령 판사의 항소심 관여</strong></span>","k":"1mjni1k"},
+  {"i":"ybb00o","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"celihe","o":"<div class=\"cs-fact\">","b":[
+    {"i":"89zkve","o":"<div class=\"cs-callout\">","b":[
+     {"i":"5my3vy","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"이와 달리 甲이 항소한 후 위 약식명령을 발령한 판사가 항소심을 담당한 경우, 상고이유가 되는가? (5점)","k":"iitj0s"}
+    ]}
+   ]},
+   {"i":"mjioxh","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"dkdiwc","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1miewwm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판례: 약식명령을 발부한 법관이 그 정식재판절차의 항소심판결에 관여함은 전심재판 또는 그 기초되는 조사·심리에 관여한 때에 해당 → <span class=\"cs-red\"><strong>제척사유 해당 O</strong></span> → <span class=\"cs-red\"><strong>상대적 상고이유 O</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§383①)</strong></span></span>","k":"bxvvoy"}
+   ]}
+  ]}
+ ]},
+ {"i":"f3x7jp","o":"<div class=\"cs-callout\">","b":[
+  {"i":"r6sm2r","o":"<div class=\"cs-h\">","h":"Ⅰ. 약식명령 발령 판사가 제1심 정식재판절차를 담당하는 경우<span class=\"cs-exam\">【변사14】</span>","k":"1v7hpab"},
+  {"i":"6roask","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《약식명령 발령 판사의 제1심 정식재판절차 관여가 §17제7호 '전심재판 또는 그 기초되는 조사·심리에 관여한 때'에 해당하는지 여부》</strong></span>","k":"1s6yb78"},
+  {"i":"1uiap4y","o":"<div class=\"cs-theory\">","b":[
+   {"i":"1l1p8jr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① <span class=\"cs-red\"><strong>적극설</strong></span>(약식명령 발령시 실질적 심리를 하였으므로 예단을 가질 수 있어 해당) ② <span class=\"cs-green\"><strong>소극설</strong></span>(약식명령과 정식재판은 동일한 심급이므로 해당 X)","k":"m99i42"},
+   {"i":"1l2h8fh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 소극설] 약식절차와 제1심 정식재판 공판절차는 동일한 심급 내에서 서로 절차만 달리할 뿐 → 약식명령은 제1심 공판절차의 전심재판에 해당하지 않으므로 제척원인 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변21】</span>","k":"u7ujge"},
+   {"i":"1g75umv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: 약식명령은 제1심 공판절차와 동일 심급 → <span class=\"cs-green\"><strong>소극설 타당</strong></span>","k":"1w8m9h9"},
+   {"i":"1qtdla5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"단, 제척원인이 되지 않더라도 <span class=\"cs-red\"><strong>기피원인은 될 수 있음</strong></span>","k":"ydc9j2"}
+  ]},
+  {"i":"1p7kqpl","o":"<div class=\"cs-h\">","h":"Ⅱ. 약식명령 발령 판사가 항소심을 담당하는 경우","k":"1ie1tu2"},
+  {"i":"1fiy7cv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 적극설] 약식명령을 발부한 법관이 그 정식재판 절차의 항소심판결에 관여함은 법관이 사건에 관하여 전심재판 또는 그 기초되는 조사·심리에 관여한 때에 해당 → 제척·기피의 원인 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span><span class=\"cs-exam\">【변21·20·17·15】</span>","k":"1d4ld2w"}
+ ]}
+]}

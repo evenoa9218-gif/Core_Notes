@@ -1,0 +1,22 @@
+{"id":"민소017","t":"실체법상의 효과","cat":"mp_3","lv":1,"tg":["★★★"],"b":[
+ {"i":"1nfh7fm","o":"<div class=\"cs-h\">","h":"Ⅰ. 응소와 시효중단(★)","k":"s38v6n"},
+ {"i":"1gjjovs","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>응소의 시효중단 사유 해당여부</strong>","k":"ow3m1s"},
+ {"i":"prurc0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"判例: 시효중단의 근거는 '권리행사'에 있고, 피고의 응소행위도 권리행사이므로 응소행위는 시효중단의 사유<span class=\"cs-o\"><strong>(O)</strong></span>","k":"k4085e"},
+ {"i":"1djazqq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>시효중단요건</strong>","k":"6v1mmg"},
+ {"i":"1n79wnc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 채무자가 제기한 소에서 채권자가 응소행위를 하였을 것 ② 응소행위로서 시효가 중단되었다고 주장하였을 것 ③ 이것이 받아들여질 것","k":"17jwtn1"},
+ {"i":"s9pn2m","o":"<div class=\"cs-h\">","h":"Ⅱ. 일부청구와 시효중단의 범위(★)","k":"odtmhi"},
+ {"i":"8i8f8n","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>명시설</strong>","k":"2ej3vc"},
+ {"i":"1yxfr7t","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"判例: ① 명시적 일부청구의 경우에는 그 일부만이 소송물이므로 일부만 시효중단<span class=\"cs-o\"><strong>(O)</strong></span> ② 묵시적 일부청구의 경우에는 전부가 소송물이므로 전부에 대하여 시효중단<span class=\"cs-o\"><strong>(O)</strong></span> → 단, 명시적 일부청구라도 전부청구한 것으로 해석되면 전부중단<span class=\"cs-o\"><strong>(O)</strong></span>","k":"j30age"},
+ {"i":"1sqk88a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>명시적 일부청구하면서 청구취지 확장의 뜻을 표시한 경우(★)</strong>","k":"1lum9jv"},
+ {"i":"145y00v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"(1) <strong>실제로 청구금액 확장한 경우</strong>","k":"1tah988"},
+ {"i":"9lfibg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"소송이 종료될 때까지 실제로 확장한 경우에는 채권 전부에 관하여 판결을 구한 것으로 해석 → 채권 전부에 관하여 재판상 청구로 인한 시효중단의 효력 발생<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1g7btij"},
+ {"i":"1pfd5xn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"(2) <strong>실제로 청구금액 확장하지 않은 경우</strong>","k":"1wpz7yt"},
+ {"i":"4ald0m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"원칙 나머지 부분에는 시효중단의 효력 불발생<span class=\"cs-x\"><strong>(X)</strong></span> → 단, 확장할 뜻을 표시하여 최고에 의해 권리를 행사하고 있는 상태가 지속되고 있다고 보아, 소송이 종료된 때(판결확정시)부터 6월 내에 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>민법§174</strong></span></span>에서 정한 조치를 취함으로써 나머지 부분의 시효를 중단시킬 수 있음(최초 소제기시 시효중단됨)<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1yzv5a9"},
+ {"i":"1gzsduf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"(3) <strong>특정 부분을 청구범위에서 명시적으로 제외한 경우</strong>","k":"bvqmvf"},
+ {"i":"rkn4sy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"확장할 뜻을 표시하였다가 후에 채권의 특정부분을 청구범위에서 명시적으로 제외한 경우 그 부분은 애초부터 소제기가 없었던 것과 마찬가지로 시효중단효력 불발생<span class=\"cs-x\"><strong>(X)</strong></span> → 단, 그 채권자는 당해 소송이 계속 중인 동안에는 나머지 부분을 최고에 의해 권리를 행사하고 있는 상태가 지속되는 것으로 보아, 소송이 종료된 때부터 6월 내에 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>민법§174</strong></span></span> 조치로 나머지 부분의 소멸시효를 중단시킬 수 있음<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1w9nm5v"},
+ {"i":"1mnyqf8","o":"<div class=\"cs-h\">","h":"Ⅲ. 법률상의 기간준수 - 제척기간 준수","k":"f8dt2l"},
+ {"i":"kzzuqu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>직권조사사항과 제척기간 도과의 효과(★)</strong>","k":"161izuw"},
+ {"i":"uilihy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 제척기간 중 제소기간(채권자취소소송, 상속회복청구소송, 점유회복청구소송 등)의 도과 여부는 소송요건이자 그 준수 여부는 직권조사사항<span class=\"cs-o\"><strong>(O)</strong></span> → 기간을 도과하여 제기된 소는 부적법하여 소각하<span class=\"cs-x\"><strong>(X)</strong></span> ② 제척기간 가운데 '제소기간이 아닌 경우' 그 기간 도과로 권리가 당연히 소멸하므로 청구기각<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1p4i3lz"},
+ {"i":"widpup","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>효력발생시기(★)</strong>","k":"1gtdzdt"},
+ {"i":"avba3w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"피고가 소장부본의 송달을 지연시켜 시효완성이나 출소기간이 도과해버리는 원고의 불이익을 막기 위해 소송계속의 효과(소장부본송달시)와 달리, 시효중단·법률상 기간준수의 효력은 소장을 법원에 제출한 때에 발생(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§265</strong></span></span>전단) / 소송 중의 소는 소장에 해당하는 서면을 법원에 제출한 때 그 효력 발생(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§265</strong></span></span>후단)","k":"dxk1px"}
+]}

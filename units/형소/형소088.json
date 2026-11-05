@@ -1,0 +1,48 @@
+{"id":"형소088","t":"증명책임","cat":"pro_12","lv":1,"tg":["D급","下","모사16"],"b":[
+ {"i":"vq6rgr","o":"<details class=\"cs-case\">","b":[
+  {"i":"bbij4","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 자백 임의성의 증명책임과 증명방법</strong></span>","k":"1wggf42"},
+  {"i":"1nuvi0t","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1qs0e0n","o":"<div class=\"cs-fact\">","b":[
+    {"i":"117xwsv","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1bzy5no","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲이 검찰에서 강도범행을 자백하였으나 제1심 법정에서 부인하면서 자백의 임의성을 다투고 있다. 자백의 임의성의 증명책임과 증명방법을 설명하라. (10점) [본문 Ⅳ 그대로 기재, 답안 생략]","k":"1nfys2r"}
+    ]}
+   ]},
+   {"i":"na0lcg","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"169f361","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1lgx02b","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"본문 Ⅳ(자백의 임의성 – 직권조사·증명책임 검사부담설·증명방법 자유로운 증명설)를 그대로 기재","k":"54whkg"}
+   ]}
+  ]}
+ ]},
+ {"i":"1w7jhv6","o":"<div class=\"cs-callout\">","b":[
+  {"i":"6psxwi","o":"<div class=\"cs-h\">","h":"Ⅰ. 명예훼손죄의 제310조 위법성조각사유","k":"y17o5"},
+  {"i":"2fl31n","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>증명책임</strong></span>","k":"ql1tb0"},
+  {"i":"1h6jn7p","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① <span class=\"cs-green\"><strong>검사부담설</strong></span> ② <span class=\"cs-red\"><strong>피고인부담설</strong></span>(증명책임전환 긍정설)","k":"b40ioj"},
+  {"i":"bfs0js","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 피고인부담설] 형법§310의 '진실한 사실로서 오로지 공공의 이익에 관한 때'에 해당된다는 점은 '행위자'가 증명하여야</strong></span><span class=\"cs-exam\">【변12】</span>","k":"12hvosu"},
+  {"i":"1v55k5a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: <span class=\"cs-u\">현실적으로 진실여부를 증명하는 난이도를 고려할 때</span> <span class=\"cs-red\"><strong>피고인부담설 타당</strong></span>","k":"1fhp1nz"},
+  {"i":"1nuzpw2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>증명방법</strong></span>","k":"ql4spt"},
+  {"i":"1tchc0e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 자유로운 증명] 유죄의 인정에 요구되는 것과 같이 의심할 여지가 없을 정도의 확신을 가지게 하는 엄격한 증거에 의하여야 하는 것은 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span> → 이때에는 전문증거의 증거능력 제한을 규정한 <span class=\"cs-green\"><strong>§310의2가 적용될 여지 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변12】</span>","k":"1lcemhk"},
+  {"i":"2ehf7a","o":"<div class=\"cs-h\">","h":"Ⅱ. 알리바이 증명 (현장부재 증명)","k":"ovpssm"},
+  {"i":"5dc3ia","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>증명책임</strong></span>","k":"ql1tb0"},
+  {"i":"1vtatsm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① <span class=\"cs-red\"><strong>검사부담설</strong></span> ② <span class=\"cs-green\"><strong>피고인부담설</strong></span>","k":"axfbmz"},
+  {"i":"niny74","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 검사부담설을 전제로 평가] 유죄판결에는 사실인정에 배치되는 증거에 대한 판단을 반드시 판결이유에 기재하여야 하는 것은 아니므로 피고인이 알리바이를 내세우는 증인의 증언에 관하여 판단하지 아니하였다고 하여 위법이라고 할 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span> — (유죄판결에 명시할 이유 X)","k":"10hu6qa"},
+  {"i":"erlvqm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: <span class=\"cs-u\">구성요건 해당사실의 존재에 대해 검사에게 증명책임이 있으므로</span> 알리바이 부존재에 대하여도 <span class=\"cs-red\"><strong>검사부담설 타당</strong></span>","k":"1j5w417"},
+  {"i":"t0ywec","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>증명방법</strong></span>","k":"ql4spt"},
+  {"i":"1j7fg6m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"공소사실 부인에 해당하므로 <span class=\"cs-red\"><strong>엄격한 증명</strong></span>(검사부담설과 연결)","k":"12jdm71"},
+  {"i":"1uoerys","o":"<div class=\"cs-h\">","h":"Ⅲ. 상해의 동시범 특례 (형법 제263조)","k":"1cjxtfa"},
+  {"i":"qkzn19","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"형법§263 상해죄의 동시범 특례의 성격 — ① 공동정범의 제 규정설도 있으나 ② <span class=\"cs-red\"><strong>증명책임을 전환한 규정이라고 보는 증명책임전환설 타당</strong></span> → 동시범 특례가 적용되는 경우 <span class=\"cs-red\"><strong>피고인이 인과관계가 인정되지 않는다는 점을 증명해야</strong></span>","k":"8vs7h1"},
+  {"i":"13ki5ke","o":"<div class=\"cs-h\">","h":"Ⅳ. 자백의 임의성<span class=\"cs-exam\">【모사16】</span>","k":"qagnpa"},
+  {"i":"100psz9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>직권조사사항</strong></span>","k":"1cf0df9"},
+  {"i":"grksvo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"기록상 진술증거의 임의성에 관하여 <span class=\"cs-red\"><strong>의심할 만한 사정이 나타나 있는 경우에는 법원은 '직권'으로 임의성 여부를 조사하여야</strong></span>","k":"mrtq5o"},
+  {"i":"1181paq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>증명책임</strong></span>","k":"ql1tb0"},
+  {"i":"n3lpp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① <span class=\"cs-green\"><strong>피고인부담설</strong></span> ② <span class=\"cs-red\"><strong>검사부담설</strong></span>","k":"7wr79n"},
+  {"i":"1ndvnfs","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 검사부담설] 임의성에 다툼이 있을 때에는 임의성을 의심할 만한 합리적·구체적 사실을 피고인이 증명할 것이 아니고 '검사가 그 임의성의 의문점을 없애는 증명'을 하여야</strong></span>","k":"tbb13i"},
+  {"i":"tp5tud","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: <span class=\"cs-u\">검사가 자백을 유죄인정 자료로 사용하는 것이고 증거수집능력의 차이를 고려하면</span> <span class=\"cs-red\"><strong>검사부담설 타당</strong></span>","k":"l1jrhs"},
+  {"i":"70ygme","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>증명방법</strong></span>","k":"ql4spt"},
+  {"i":"1nyy488","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① <span class=\"cs-green\"><strong>엄격한 증명설</strong></span> ② <span class=\"cs-red\"><strong>자유로운 증명설</strong></span>","k":"pv30tm"},
+  {"i":"1ft7xgw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 자유로운 증명] 피고인이 진술의 임의성을 다투면서 허위자백이라고 다투는 경우 자유로운 심증으로 임의성을 판단할 수 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span>","k":"vpy5ir"},
+  {"i":"w5f8zy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: <span class=\"cs-u\">소송법적 사실에 관한 증명이므로</span> <span class=\"cs-red\"><strong>자유로운 증명설 타당</strong></span>","k":"85cq8f"},
+  {"i":"tkug1q","o":"<div class=\"cs-h\">","h":"Ⅴ. 거짓말탐지기 검사결과","k":"41fit8"},
+  {"i":"15428rw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[증거능력] ① 거짓말을 하면 반드시 일정한 심리상태의 변동이 일어나고 ② 그 심리상태의 변동은 반드시 일정한 생리적 반응을 일으키며 ③ 그 생리적 반응에 의하여 피검사자의 말이 거짓인지가 정확히 판정될 수 있다는 세 가지 전제요건이 충족되어야</strong></span> → 충족되지 않는 한 <span class=\"cs-green\"><strong>증거능력 부여 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"xr6nls"},
+  {"i":"8atqju","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[증명력]</span> 요건이 충족되어 증거능력이 있는 경우에도 검사결과는 <span class=\"cs-red\"><strong>진술의 신빙성을 가늠하는 정황증거로서의 기능</strong></span>을 하는 데 그침","k":"26kra6"}
+ ]}
+]}

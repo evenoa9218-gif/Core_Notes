@@ -1,0 +1,48 @@
+{"id":"사회005","t":"위조 등 문서의 행사죄","cat":"gak_사회","lv":1,"tg":["변기25","모사24","모사18","변기13"],"b":[
+ {"i":"q0emwn","o":"<details class=\"cs-case\">","b":[
+  {"i":"imn2a6","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE] 등기사항전부증명서 열람일시 삭제·스캔 이미지 전송 (15점)</strong></span></span> <span class=\"cs-red\">(15)</span>","k":"1724u8"},
+  {"i":"g8e75t","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1uzbrf","o":"<div class=\"cs-fact\">","b":[
+    {"i":"8nit9v","o":"<div class=\"cs-callout\">","b":[
+     {"i":"18u6kht","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲, 2020. 3. 10. 상속으로 시가 5억 상당(이후 변동 없음) X부동산 소유권이전등기 경료. 2021. 1. 7.경 인터넷 열람 등기사항전부증명서를 출력해 둠 → 2021. 5. 6. Y에게서 5억 원을 빌리며 근저당권설정등기 경료 → 2022. 2. 10. 선순위 담보가 없는 것처럼 조작해 추가 차용하려 출력해 둔 증명서 하단 열람 일시를 수정테이프로 지우고 스캔해 이미지파일 생성 → 2022. 2. 15. A에게서 1억 원을 추가로 빌리며 이메일로 그 파일을 전송, A는 모니터로 확인 후 담보가 충분하다고 판단해 1억 원을 빌려주고 근저당권설정등기 관련 서류를 받음.","k":"avtcnu"},
+     {"i":"xi0e4e","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲의 죄책은? (15점)","k":"4x4bwk"}
+    ]}
+   ]},
+   {"i":"yu5k30","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1jfnak5","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1mr0you","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [공문서변조죄의 성립여부]</strong></span>","k":"nvxiha"},
+    {"i":"1c0gvaq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(가) [공문서변조죄]</strong>","k":"vp2rxj"},
+    {"i":"jvtmyb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 공문서변조 = 권한 없이 이미 진정하게 성립된 공문서의 내용을 동일성을 해하지 않을 정도로 변경하는 것","k":"9vh5lr"},
+    {"i":"oicuxt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 일반인이 공무원 등의 권한 내에서 작성된 문서라고 믿을 형식·외관을 구비한 문서를 작성하면 공문서변조죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"oraaej"},
+    {"i":"30cv6p","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(나) [수정테이프로 지운 행위]</strong> 하단 열람 일시를 수정테이프로 지운 것만으로는 그러한 형식· 외관을 구비한 문서를 작성했다고 볼 수<span class=\"cs-x\"><strong>(X)</strong></span> → 공문서변조죄(<span class=\"cs-blue\"><span class=\"cs-u\">제225조</span></span>)<span class=\"cs-x\"><strong>(X)</strong></span>","k":"12tset4"},
+    {"i":"nil4bp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(다) [이미지 및 이미지파일의 문서성]</strong>","k":"1eod07o"},
+    {"i":"9tajj8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 모니터 화면의 이미지 = 화면에 계속적으로 고정된 것<span class=\"cs-x\"><strong>(X)</strong></span>, 이미지파일 = 전자기록 장치에 전자적 형태로 고정돼 계속성은 있으나 시각적 방법으로 이해할 수 있는 것<span class=\"cs-x\"><strong>(X)</strong></span> → 각 형법상 문서죄의 문서<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1g6day"},
+    {"i":"d5x7j5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 甲이 생성한 이미지·이미지파일은 문서<span class=\"cs-x\"><strong>(X)</strong></span> → 공문서변조죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"krlxly"},
+    {"i":"7lyxcp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(라) [소결]</strong> 甲 = 공문서변조죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"jvuyz5"},
+    {"i":"1l32zn4","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [변조공문서행사죄]</strong></span>","k":"1v4q1n4"},
+    {"i":"haggvh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 행사 방법에 제한<span class=\"cs-x\"><strong>(X)</strong></span> → 이미지를 전송해 컴퓨터 화면으로 보게 하는 것도 행사<span class=\"cs-o\"><strong>(O)</strong></span>","k":"wnp8r6"},
+    {"i":"1fn6jg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 그러나 변조공문서행사죄는 변조된 공문서의 존재를 전제 → 애초에 변조가 없는 이상 변조공문서행사죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1ysgdfl"},
+    {"i":"1filtib","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(3) [사기죄]</strong></span> 시가 5억 X부동산에 이미 채권최고액 5억 원 선순위 근저당권이 설정돼 담보가치가 없음에도 증명서를 변조해 선순위가 없어 담보가치가 충분한 것처럼 A를 기망, 1억 원 편취 → 사기죄(<span class=\"cs-blue\"><span class=\"cs-u\">제347조</span> 제1항</span>)<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1pjrtpm"},
+    {"i":"besfjn","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(4) [결론]</strong></span> 甲 = 사기죄 [TIP] 하단의 열람 일시를 수정 테이프로 지우고 '복사'한 사안이므로 공문서변조죄 및 동행사죄가 성립한다(판례와 사실관계 다름).","k":"1v5zrr"}
+   ]}
+  ]}
+ ]},
+ {"i":"hkkrta","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1gben5x","o":"<div class=\"cs-h\">","h":"Ⅰ. 행사","k":"th3cni"},
+  {"i":"1vv3gmi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-u\">위조문서행사죄의 행사란 위조문서를 진정한 문서인 것처럼 그 효용 방법에 따라 사용하는 것</span>, 행사 방법 제한 없음","k":"1s2hvmn"},
+  {"i":"1ee8aqi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용범위: <span class=\"cs-u\">행사는 위조된 문서의 존재를 전제로 함</span><span class=\"cs-exam\">【변기25】</span>","k":"mm4zq4"},
+  {"i":"3ppnl8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[방법]</span> 위조문서 직접 제시·기계적 복사본 제시는 물론, 모사전송·스캐너로 이미지화 후 전송하여 컴퓨터 화면상 보게 하는 경우도 행사","k":"17c3cm"},
+  {"i":"1m2f8v3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[휴대전화가입신청서 위조 후 스캔 이미지파일 이메일 전송 → 행사 해당]</span><span class=\"cs-exam\">【변19·12】【모사24】</span>","k":"1j2lpbm"},
+  {"i":"h4t68p","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[허위공문서 행사목적]</span> 허위내용 문서를 진실한 문서처럼 효용 따라 사용할 목적 → 허위공문서를 관청에 비치하는 경우도 행사로 인정","k":"1nbimxx"},
+  {"i":"1fjx28f","o":"<div class=\"cs-h\">","h":"Ⅱ. 상대방","k":"1ddpn2a"},
+  {"i":"2ctkit","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용범위: <span class=\"cs-u\">행사 상대방 제한 없음 → 위조문서 작성명의인이라도 상대방 될 수 없는 것 아님</span>","k":"oij1yu"},
+  {"i":"n33jll","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"fqueep","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[간접정범]</span> 도구로 이용된 자라도 문서 위조된 것임을 알지 못하는 자에게 행사 → 성립<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변26·22·20·16】</span>","k":"1nse4eo"},
+  {"i":"1qj21h4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[공범자]</span> 문서 위조된 것임을 이미 '알고 있는 공범자' 등에게 행사 → 성립<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변14】</span>","k":"ztmcbf"},
+  {"i":"3c58wm","o":"<div class=\"cs-h\">","h":"Ⅲ. 기수시기","k":"85p6z1"},
+  {"i":"15irhbh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-u\">위조사문서 행사는 상대방이 위조문서를 '인식할 수 있는 상태에 둠'으로써 기수</span>, 상대방이 실제 '인식'해야 하는 것 아님 → 우송 시 문서가 상대방에게 도달한 때 기수, 실제로 봐야 하는 것 아님","k":"1qpx70q"},
+  {"i":"diw3ex","o":"<div class=\"cs-h\">","h":"Ⅳ. 죄수관계","k":"1x3x4c0"},
+  {"i":"18dq63k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"判例(죄수관계): 위조사문서행사죄와 이로 인한 사기죄는 실체적 경합관계","k":"iyinv9"},
+  {"i":"6rtajv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[별개 위조문서 동시에 행사]</span> 각 명의인마다 별개 연대보증서 위조 후 사채업자로부터 돈 빌리며 2개 문서를 한꺼번에 담보로 건네주어 행사 → 각 위조죄는 실체적 경합범, 행사죄는 상상적 경합범","k":"4rvr0m"}
+ ]}
+]}

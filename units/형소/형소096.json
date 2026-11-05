@@ -1,0 +1,36 @@
+{"id":"형소096","t":"수사과정에서 작성한 진술서 등 (제312조 제5항)","cat":"pro_14","lv":1,"tg":["下","변사26"],"b":[
+ {"i":"1fzzvj8","o":"<details class=\"cs-case\">","b":[
+  {"i":"upxp7b","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 경찰관 관여 아래 편의점 점주가 작성한 자필진술서의 증거능력</strong></span> <span class=\"cs-exam\">【변사26】</span>","k":"32os2i"},
+  {"i":"95sbgy","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"fp6djs","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1yg6nmo","o":"<div class=\"cs-callout\">","b":[
+     {"i":"19ndk26","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲(17세)이 초등학생 A(10세)에게 \"유명 가수가 되면 너도 아이돌로 키워 주겠으니 丁의 무대의상을 훔쳐 와라\"라고 시켜 A가 丁 소유 무대의상 절취 → 사경 戊가 편의점 점주 C를 찾아가 甲이 A에게 그렇게 말하는 것을 들었다는 C의 자필진술서를 제출받음 → 검사가 甲이 부인하자 C 작성 진술서를 제출. 甲이 부동의하는 경우 위 진술서를 증거로 사용하기 위한 요건은? (15점)","k":"aaw7k6"}
+    ]}
+   ]},
+   {"i":"v68yrj","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1kcpfza","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"17bo3i7","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [§316①의 적용여부]</strong>","k":"p632ik"},
+    {"i":"xdge63","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§316①</strong></span></span>","k":"qhp65y"},
+    {"i":"m2lqt5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 원진술의 내용인 사실이 요증사실이면 전문증거, 원진술의 존재 자체가 요증사실이면 본래증거","k":"15s3imp"},
+    {"i":"1s1qpwo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 진술서에 기재된 甲의 진술은 甲이 그와 같은 말을 하였다는 자체가 교사행위의 증거 → C의 진술은 본래증거이지 전문진술 X → C의 진술서는 재전문증거(전문진술 기재 서류)에 해당 X → <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§316①</strong></span></span> 적용 X","k":"3nxr7n"},
+    {"i":"xjjnj5","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [§312⑤·④의 예외요건]</strong> (가) [수사과정 작성 진술서] '수사과정에서 작성한 진술서'란 수사 시작 후 수사기관의 관여·영향 아래 작성된 경우로 실질이 이에 해당하면 명칭·작성 장소 불문. C의 진술서는 사경 戊의 관여 아래 작성 → <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§312⑤·④</strong></span></span> 적용, 편의점에서 작성되었어도 마찬가지 (나) [<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§312④</strong></span></span> 예외요건] 적법한 절차·방식 + C의 진술 또는 객관적 방법에 의한 실질적 진정성립 + C에 대한 반대신문 기회보장 + 특신상태를 모두 충족하면 증거능력 O. 수사과정확인서 등을 수사기록에 편철해야(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§244의4①③</strong></span></span>) → 검사가 증명하면 부동의하여도 증거능력 O","k":"1gv464i"},
+    {"i":"12ggj8s","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [§314 예외요건]</strong> 실질적 진정성립이 증명되지 않아도 검사가 C의 진술불능 및 특신상태를 증명하면 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§314</strong></span></span>로 증거능력 O","k":"girsto"},
+    {"i":"i3nko0","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(4) [결론]</strong> <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§316①</strong></span></span> 적용 X, <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§312⑤·④</strong></span></span> 또는 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§314</strong></span></span> 요건 충족시 전문법칙 예외로 증거능력 O","k":"nqoywx"}
+   ]}
+  ]}
+ ]},
+ {"i":"1xz5e65","o":"<div class=\"cs-callout\">","b":[
+  {"i":"hzszjt","o":"<div class=\"cs-callout\">","b":[
+   {"i":"1gnj5og","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제312조(검사 또는 사법경찰관의 조서 등)</strong></span>","k":"caz9sx"},
+   {"i":"h2d93n","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"⑤ 제1항부터 제4항까지의 규정은 피고인 또는 피고인이 아닌 자가 <span class=\"cs-statute\"><span class=\"cs-u\"><strong>수사과정에서 작성한 진술서</strong></span></span>에 관하여 준용한다.","k":"1kuyhyn"}
+  ]},
+  {"i":"1yh41de","o":"<div class=\"cs-h\">","h":"Ⅰ. 의미","k":"th6j6z"},
+  {"i":"r0sa0h","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[수사과정에서 작성한 진술서] 수사가 시작된 이후에 수사기관의 관여 아래 작성된 것이거나, 개시된 수사와 관련하여 수사과정에 제출할 목적으로 작성한 것으로, 그 실질이 이에 해당하는 이상 명칭이나 작성된 장소 여부를 불문</strong></span> — (경찰관이 주거지를 방문)<span class=\"cs-exam\">【변24】</span>","k":"1eqsd7d"},
+  {"i":"19yrfdc","o":"<div class=\"cs-h\">","h":"Ⅱ. 적용규정","k":"1tib3zf"},
+  {"i":"1vwida9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"수사과정에서 작성한 진술서는 ① <span class=\"cs-red\"><strong>'검사'의 수사과정에서 피고인·공범이 작성 → §312①</strong></span> ② <span class=\"cs-red\"><strong>'경찰'의 수사과정에서 피고인·공범이 작성 → §312③</strong></span> ③ <span class=\"cs-red\"><strong>경찰·검사 수사과정에서 피고인·공범이 아닌 자(피해자·참고인)가 작성 → §312④</strong></span>가 각각 적용<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§312⑤)</strong></span></span>","k":"10bcjin"},
+  {"i":"34meqv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[압수조서 중 '압수경위'란]</span> 피고인이 범행을 저지르는 현장을 직접 목격한 사람의 진술이 담긴 것으로 <span class=\"cs-red\"><strong>§312⑤의 '피고인이 아닌 자가 수사과정에서 작성한 진술서'에 준함</strong></span>","k":"ff0e0y"},
+  {"i":"1m06jkt","o":"<div class=\"cs-h\">","h":"Ⅲ. 적법한 절차와 방식에 따른 작성 – 수사과정 확인서 등","k":"i2jueb"},
+  {"i":"2k9ceo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"피의자 또는 피의자 아닌 자를 조사한 경우 <span class=\"cs-red\"><strong>조사장소 도착 시각·조사 시작·마친 시각·진행경과를 조서에 기록하거나 별도 서면에 기록한 후 수사기록에 편철</strong></span>하여야<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§244의4①③)</strong></span></span>","k":"1d1mvx"},
+  {"i":"fs9yfg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[피고인이 아닌 자가 수사과정에서 진술서를 작성하였지만 §244의4①③의 수사과정 기록 절차를 위반한 경우]</span> 절차적 적법성의 제도적 보장이 침해되지 않았다고 볼 특별한 사정이 없는 한 <span class=\"cs-green\"><strong>'적법한 절차와 방식'에 따라 작성되었다고 할 수 없어 증거능력 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>(§312⑤·④)<span class=\"cs-exam\">【변26·18·17 등 빈출】</span>","k":"oicv5z"}
+ ]}
+]}

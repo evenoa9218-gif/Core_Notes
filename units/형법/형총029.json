@@ -1,0 +1,43 @@
+{"id":"형총029","t":"원인에 있어서 자유로운 행위","cat":"chong_04","lv":1,"tg":[],"b":[
+ {"i":"85ah81","o":"<details class=\"cs-case\">","b":[
+  {"i":"1a30qi3","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 원인에 있어서 자유로운 행위·객체의 착오</strong></span> <span class=\"cs-red\">(10)</span>","k":"1xsu39t"},
+  {"i":"1lp6e4n","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1sp08zx","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1dpz051","o":"<div class=\"cs-callout\">","b":[
+     {"i":"15eba4j","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"乙, 야간 주차장서 A 살해하려 기다리다 용기 안 나 미리 준비한 술 마시고 만취 심신상실. A의 차에서 내리는 A의 동생 X를 A로 생각하고 칼로 찔러 살해. 乙의 죄책은? (10점)","k":"16nknj2"}
+    ]}
+   ]},
+   {"i":"mq0yei","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"12lhmr7","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"y36096","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [구성요건해당성]</strong> 구체적 사실의 착오 중 객체의 착오 → 어떤 견해든 乙은 발생사실 X에 대한 살인기수죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§250</strong></span></span>①) 구성요건해당성 인정","k":"1ne1qt4"},
+    {"i":"k54y3h","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [책임능력의 인정여부]</strong>","k":"of9qg8"},
+    {"i":"1gd9z7t","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§10</strong></span></span>①·③","k":"lqdpjq"},
+    {"i":"1rirdi6","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 원자행위 가벌성 근거 = 구성요건모델·책임모델 → 원인설정행위를 구성요건의 정형적 실행행위로 볼 수 없으므로 죄형법정주의 충실한 책임모델 타당","k":"dwqi4i"},
+    {"i":"g9hsr9","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 乙 = 술에 만취, 살해 의사로 술 마심 → '고의의 원인에 있어 자유로운 행위' → 학설·판례 모두 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§10</strong></span></span>③에 따라 완전한 책임능력 인정","k":"1qos8z0"},
+    {"i":"1kk65n4","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"④ 심신상실 상태서 X 살해해도 완전한 책임능력자 취급, 책임 조각 X","k":"1wlig4u"},
+    {"i":"156awv5","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> 乙 = X에 대한 살인기수죄","k":"1h9g1qp"}
+   ]}
+  ]}
+ ]},
+ {"i":"cavvpk","o":"<div class=\"cs-callout\">","b":[
+  {"i":"18vtm60","o":"<div class=\"cs-h\">","h":"Ⅰ. 가벌성의 근거<span class=\"cs-exam\">【모사20】</span>","k":"1w9zged"},
+  {"i":"p8yv6o","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[구성요건모델(일치모델)]</span> ① 원자행위 = 자신을 책임능력 없는 도구로 이용하는 간접정범으로 이해 ② 원인설정행위 = 책임근거·실행행위 → 행위·책임 동시존재원칙 유지 ③ 실행의 착수에 구성요건적 행위정형성 결여 죄형법정주의에 반한다는 비판<span class=\"cs-exam\">【변14】</span>","k":"12i95p5"},
+  {"i":"jwjt1i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[책임모델(예외모델)]</span> ① 책임능력결함 상태 결과실현행위 = 실행행위, 책임근거는 이와 불가분적으로 관련된 원인설정행위 ② 행위·책임 동시존재원칙 예외 인정 → 책임주의 반할 우려<span class=\"cs-exam\">【변22·14】</span>","k":"1amipq4"},
+  {"i":"10dtf5a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"원인설정행위 = 구성요건의 정형적 실행행위 X → 죄형법정주의 충실한 책임모델 타당 <span class=\"cs-fact-tag\">[책임능력결함상태에서의 행위시에 실행 착수]</span>","k":"157dp51"},
+  {"i":"1h8ten7","o":"<div class=\"cs-h\">","h":"Ⅱ. 요건","k":"th6qa2"},
+  {"i":"1phrmwp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[성립요건]</span> ① 위험발생 예견 + 자의로 심신장애 야기하는 원인행위 ② 심신장애상태의 구성요건 실현행위 ③ 원인설정행위·결과실현행위 간 <span class=\"cs-fact-tag\">[인과관계]</span>","k":"14vhy3e"},
+  {"i":"1irv8f6","o":"<div class=\"cs-h\">","h":"Ⅲ. 고의 원자행위와 과실 원자행위","k":"gee92h"},
+  {"i":"1t8qtrq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>위험의 발생을 '예견'하고</strong>","k":"d2cli0"},
+  {"i":"it7a5l","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[위험의 발생]</span> ① 다수설 = '특정 구성요건' 실현행위(특정 구성요건실현설) ② 판례 = 특정 구성요건 실현 X, 원인행위에 전형적으로 수반되는 위험(전형적 위험설)","k":"1c22xry"},
+  {"i":"16an9f2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[예견하고]</span> 예견(고의)뿐 아니라 예견가능성(과실) 포함(통설·판례)","k":"1iw07x4"},
+  {"i":"1wb1i1c","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>'자의로' 심신장애를 야기</strong>","k":"xdntwo"},
+  {"i":"1e0zn3i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[자의]</span> ① 다수설 = 고의·과실로 이해 ② 판례 = '자의로'를 법문 그대로 해석","k":"4aj8bl"},
+  {"i":"1s2k2er","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[심신장애]</span> 심신상실 또는 심신미약 상태 야기 의미","k":"1po10xr"},
+  {"i":"1o4jkfi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>고의 원자행위와 과실 원자행위의 구분</strong>","k":"7u0it1"},
+  {"i":"yuxoun","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[유형론]</span> ① 고의 원인설정 + 고의 결과실현 = '고의 원자행위' → 고의범 ② '이외' = '과실 원자행위' → 과실범","k":"mhkjwl"},
+  {"i":"1coyzqg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[판례 결과실현 기준]</span> ① <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§10</strong></span></span>③ 요건 충족 시 결과실현행위가 고의범이면 고의범, 과실범이면 과실범(책임단계 완전한 책임능력자 취급) ② 유형론과 달리 위험발생 '예견'한 경우 = 고의 원자행위, '예견가능성'만 있었던 경우 = 과실 원자행위","k":"2pjzs7"},
+  {"i":"1qaqlb6","o":"<div class=\"cs-h\">","h":"Ⅳ. 판례","k":"thc06w"},
+  {"i":"1k5zamz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[음주운전 후 사고]</span> ① <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§10</strong></span></span>③ = 고의에 의한 원자행위뿐 아니라 '과실에 의한 원자행위'까지 포함 → 위험발생 '예견할 수' 있었는데도 자의로 심신장애 야기한 경우도 적용대상 ② 음주운전 의사로 음주만취 후 운전해 교통사고 = 음주시 사고 위험성 예견하고도 자의로 심신장애 야기 → <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§10</strong></span></span>③에 의해 심신장애 감경 등 X <span class=\"cs-fact-tag\">[판례에 의하면 도로교통법위반(음주운전), 교특법위반죄, 도주치사상죄 모두 성립하고, </span><span class=\"cs-blue\"><span class=\"cs-u\">제10조</span></span><span class=\"cs-fact-tag\"> 제1항, 제2항이 적용되지 않는다.]</span><span class=\"cs-exam\">【변26·25·23·21·19】</span>","k":"jddta6"},
+  {"i":"1y16s6i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[대마초 흡연 후 살인]</span> 상습 대마초 흡연자들이 살해 의사로 공모 후 대마초 흡연하고 살인 = 흡연시 이미 범행 예견하고도 자의로 심신장애 야기 → <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§10</strong></span></span>③에 의해 감경 등 X<span class=\"cs-exam\">【변21】</span>","k":"10q0w33"}
+ ]}
+]}

@@ -1,0 +1,77 @@
+{"id":"국가017","t":"위증죄 일반","cat":"gak_국가공무방해","lv":1,"tg":["변사13","모사25","모사24","모사22","모사18"],"b":[
+ {"i":"1hfzcux","o":"<details class=\"cs-case\">","b":[
+  {"i":"rneq6t","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE] 증언거부권 불고지·자기 사건 위증교사</strong></span></span> <span class=\"cs-exam\">【변사13】 </span><span class=\"cs-red\">(25)</span>","k":"1ocqa91"},
+  {"i":"22fkfj","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1g0fcx1","o":"<div class=\"cs-fact\">","b":[
+    {"i":"119c659","o":"<div class=\"cs-callout\">","b":[
+     {"i":"w1jt2t","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"경찰관 P, 특수절도 피의자인 사촌동생 丙에게 전화해 빨리 도망가도록 종용 → 검사가 P를 직무유기죄로 불구속 기소 → 공판 중 P는 유죄판결이 확정되면 파면될 것이 두려워 丙에게 자신이 도망가라고 전화한 사실이 없다고 증언하도록 시킴 → 재판장은 丙이 P의 친척임을 간과하고 증언거부권을 고지하지 않은 채 증언하게 함 → 丙은 선서 후 \"P와 단 한 번도 전화통화를 한","k":"rlulq8"},
+     {"i":"56sdb3","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"사실이 없다\"고 허위 증언. 丙의 증언과 관련한 P와 丙의 죄책은? (25점)","k":"195f80b"}
+    ]}
+   ]},
+   {"i":"pwqybm","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1hdlqmz","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"6xqgj1","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [丙의 죄책]</strong></span>","k":"1j2ph2r"},
+    {"i":"183xr9b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 丙 = P의 사촌동생 → 증언거부권<span class=\"cs-o\"><strong>(O)</strong></span>(<span class=\"cs-blue\">형소법 <span class=\"cs-u\">제148조</span> 제1호</span>)","k":"1jba5j5"},
+    {"i":"95vivl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 재판장은 신문 전에 증언을 거부할 수 있음을 설명해야 함(<span class=\"cs-blue\">형소법 <span class=\"cs-u\">제160조</span></span>)","k":"1877cr3"},
+    {"i":"18hlf0k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 재판장이 증언거부권을 고지하지 않은 경우 위증죄 성부 — 성립설/불성립설, 판례 = \"증인이 증언거부권을 고지받지 못해 그 행사에 사실상 장애가 초래되었다고 볼 수 있는 경우에는 위증죄<span class=\"cs-x\"><strong>(X)</strong></span>\". 구체적 사안에서 성립 여부를 판단하는 판례 타당","k":"1wz6ocg"},
+    {"i":"p2mtbv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"④ P가 적극적으로 위증을 교사했고 丙도 이에 따라 적극적으로 위증 → 고지받았어도 허위진술을 했을 것 → 증언거부권 행사에 사실상 장애<span class=\"cs-x\"><strong>(X)</strong></span> → 丙 = 위증죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1wu3o5b"},
+    {"i":"11r3li8","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [P의 죄책]</strong></span>","k":"rf3wrd"},
+    {"i":"gcbk6c","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 위증의 결의가 없는 丙에게 위증을 결의하게 함 → 일응 교사(<span class=\"cs-blue\"><span class=\"cs-u\">제31조</span> 제1항</span>)","k":"gtgkla"},
+    {"i":"1bqxxj2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 자기 형사사건에 관한 위증교사 — 방어권의 연장에 불과하다는 부정설 / 새로운 범인을 창출한 방어권 남용이라는 긍정설, 판례 = \"자기의 형사사건에 관하여 타인을 교사하여 위증죄를 범하게 하는 것은 방어권 남용으로 위증교사죄 성립\" 긍정설. 타인에게 위증을 교사하는 것까지 기대가능성이 없다고 볼 수 없고 공범종속성의 원칙상 교사범 성립을 인정하는 긍정설 타당","k":"ut3iow"},
+    {"i":"3ua2ij","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ P = 위증교사죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1nipl45"},
+    {"i":"1s8yw1i","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(3) [결론]</strong></span> 丙 = 위증죄, P = 위증교사죄","k":"1rshcqg"}
+   ]}
+  ]}
+ ]},
+ {"i":"c8oh0g","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1xschc4","o":"<div class=\"cs-callout\">","b":[
+   {"i":"1smjmr6","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제152조(위증, 모해위증)</strong></span>","k":"1861fu6"},
+   {"i":"nven3v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① <span class=\"cs-u\"><strong>법률에 의하여 선서한 증인</strong></span>이 <span class=\"cs-blue\"><strong>허위의 진술</strong></span>을 한 때에는 <span class=\"cs-red\">5년 이하의 <strong>징역</strong></span> 또는 <span class=\"cs-red\">1천만원 이하의 <strong>벌금</strong></span>에 처한다.","k":"1vuk4zf"},
+   {"i":"ao4pgq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 형사사건 또는 징계사건에 관하여 피고인, 피의자 또는 징계혐의자를 <span class=\"cs-u\">모해할 목적</span>으로 전항의 죄를 범한 때에는 <span class=\"cs-red\">10년 이하의 <strong>징역</strong></span>에 처한다.","k":"1fjf4yz"},
+   {"i":"lra0xx","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제153조(자백, 자수)</strong></span>","k":"7fvqpm"},
+   {"i":"122uega","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"전조의 죄를 범한 자가 그 공술한 사건의 재판 또는 징계처분이 확정되기 전에 <span class=\"cs-blue\"><strong>자백</strong></span> 또는 <span class=\"cs-blue\"><strong>자수</strong></span>한 때에는 그 형을 감경 또는 면제한다.","k":"7nn7oi"}
+  ]},
+  {"i":"qjfyhv","o":"<div class=\"cs-h\">","h":"Ⅰ. 법률에 의하여 선서한 증인","k":"46icef"},
+  {"i":"1lkf8ip","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[진정신분범·자수범]</strong></span> <span class=\"cs-def\"><span class=\"cs-u\">위증죄는 '선서한 증인'만 주체,</span></span> 선서한 증인 이외의 자는 간접정범·공동정범 될 수 X","k":"6vrowm"},
+  {"i":"dtnjz0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"l5b6rm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[선서무능력자X]</span> 선서무능력자는 위증죄 주체 될 수<span class=\"cs-x\"><strong>(X)</strong></span>","k":"fvkt8b"},
+  {"i":"7qx4ul","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[법정진술X]</span> 공범이 법정진술로 허위 진술해도 위증죄 성립<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변14】【모사24】</span>","k":"2xu0th"},
+  {"i":"1phemnf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[민사소송 당사자X]</span> 민사소송 당사자는 증인능력 없어 위증죄 주체 될 수 X, 민사소송 당사자인 법인 대표자도 위증죄 주체 될 수<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1b5sqc0"},
+  {"i":"1wo97o5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[가처분 심문절차X]</span> 제3자가 심문절차로 진행되는 가처분 신청사건서 증인으로 출석·선서·진술해 허위 공술해도 그 선서는 법률상 근거 없어 무효 →위증죄 성립<span class=\"cs-x\"><strong>(X)</strong></span> <span class=\"cs-fact-tag\">[가처분사건 변론절차 진행 시엔 선서·증언 가능]</span>","k":"mtcq81"},
+  {"i":"fdelj0","o":"<div class=\"cs-h\">","h":"Ⅱ. 허위 진술<span class=\"cs-exam\">【모사24】</span>","k":"qoumdd"},
+  {"i":"1ol7pmk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>허위의 의미</strong></span>","k":"8mgglt"},
+  {"i":"zxj4zc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-hl\">《위증죄의 '허위'의 의미》</span>","k":"p4mg6t"},
+  {"i":"tx8n5x","o":"<div class=\"cs-theory\">","b":[
+   {"i":"hl9hr4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①객관설(증언 내용이 객관적 진실에 반하는 것) ②주관설(증인 자기 기억에 반하는 진술)","k":"1hwhut1"},
+   {"i":"cipae2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-glabel\">[주관설]</span> 허위의 공술이란 증인이 '자기 기억에 반하는 사실' 진술, 내용이 객관적 사실과 부합해도 위증죄 성립에 장애 X, 진술이 객관적 사실과 부합 안 해도 증인 기억에 반하는지 가려보기 전엔 위증 단정 X<span class=\"cs-exam\">【변13】</span>","k":"ycr132"},
+   {"i":"1c97g93","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 증인에게 기억과 관계없이 객관적 진실 말할 의무 없음 → 주관설 타당","k":"188qr8w"}
+  ]},
+  {"i":"1mrn8de","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>허위의 진술</strong></span>","k":"8mde51"},
+  {"i":"m36n9s","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例) : <span class=\"cs-def\"><span class=\"cs-u\">증인 진술이 경험한 사실에 대한 법률적 평가·단순 의견에 지나지 않으면</span></span> 위증죄 허위 공술<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변13】</span>","k":"1jx7vyn"},
+  {"i":"dqqlx0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"공술 내용이 요증사실에 관한 것인지·판결에 영향 미쳤는지 여부는 위증죄 성립과 관계 X<span class=\"cs-exam\">【변13】</span>","k":"10u2b2"},
+  {"i":"1y35oyi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"기억에 반하는 허위 진술인지 가릴 때 증언 단편적 구절에 구애될 것 아니라 신문 절차서 한 증언 전체를 일체로 파악해야 자기가 지득 안 한 '사실관계'를 단순히 법률적 표현 써서 진술한 것이면 객관적 사실 토대로 한 증인 나름의 법률적 견해 진술과 달라 위증죄 성립 부인 X","k":"108bbgx"},
+  {"i":"xqtoi6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"증인이 착오에 빠져 기억에 반한다는 인식 없이 증언했음이 밝혀진 경우 위증 범의 인정<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변24】</span>","k":"q15bk0"},
+  {"i":"1dib56v","o":"<div class=\"cs-h\">","h":"Ⅲ. 모해위증죄<span class=\"cs-exam\">【모사18】</span>","k":"tu19l0"},
+  {"i":"vd8hu6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><span class=\"cs-u\">'모해할 목적'이란 피고인·피의자·징계혐의자를 불리하게 할 목적,</span></span> 허위 진술로 피고인에게 불리하게 될 것이라는 인식 있으면 충분, 결과 발생까지 희망할 필요 X","k":"1lvc8wb"},
+  {"i":"18rh8d1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-def\"><strong>[모해 목적 신분]</strong></span> <span class=\"cs-blue\"><span class=\"cs-u\">§152</span>①·②</span>은 '모해 목적' 유무라는 범인의 특수 상태 차이 따라 형 경중 구별 →<span class=\"cs-blue\"><span class=\"cs-u\">§33</span></span> 단서 '신분관계로 형 경중 있는 경우' 해당, 피고인이 모해 목적으로 위증 교사한 이상 정범에 모해 목적 없어도 <span class=\"cs-blue\"><span class=\"cs-u\">§33</span></span> 단서로 모해위증교사죄 처단 가능","k":"1jdow2p"},
+  {"i":"xq2af8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"avi6i9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[징계사건]</span> 모해위증죄 보호법익은 국가 사법작용·징계작용의 적정한 행사 →'징계'는 국가가 공법상 지위에 기초해 행하는 행정적 제재 학교법인 등과 사립학교 교원 관계는 원칙 사법상 법률관계(사법상 고용계약), 학교법인이 사립학교 교원에 징계권 행사한 사건은 <span class=\"cs-blue\"><span class=\"cs-u\">§152</span>②</span> '징계사건' 포함 X →해임된 교사 A가 학교법인 상대 해임무효확인 소송서 피고인이 한 증언은 징계사건 관한 진술 아니어서 모해위증죄 성립<span class=\"cs-x\"><strong>(X)</strong></span> <span class=\"cs-fact-tag\">[축소사실인 위증죄 유죄]</span>","k":"m2b5nq"},
+  {"i":"ln4q9x","o":"<div class=\"cs-h\">","h":"Ⅳ. 죄수관계","k":"1x3x4c0"},
+  {"i":"1ad7a2w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"判例(죄수관계): 하나의 사건에 한 번 선서한 증인이 같은 기일에 여러 사실에 관해 기억에 반하는 허위 진술한 경우 하나의 범죄의사로 계속 허위 진술한 것으로 포괄하여 1개 위증죄 구성, 각 진술마다 수 개 위증죄 구성 X<span class=\"cs-exam\">【변19·13】</span>","k":"1e7d1xj"},
+  {"i":"bopaxn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"같은 심급에서 변론기일 달리해 수차 증인으로 나가 수개 허위진술해도 최초 한 선서 효력 유지시킨 후 증언한 이상 1개 위증죄 구성","k":"1iowo8k"},
+  {"i":"1towagp","o":"<div class=\"cs-h\">","h":"Ⅴ. 기수시기","k":"7jador"},
+  {"i":"l4a4me","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-def\"><span class=\"cs-u\">증인 증언은 전부를 일체로 관찰·판단</span></span> →선서한 증인이 기억에 반하는 허위 진술해도 신문 끝나기 전 철회·시정 시 위증 안 됨","k":"q257bi"},
+  {"i":"1hjudz7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"증인이 1개 증인신문절차서 허위 진술하고 철회·시정 없이 '증인신문절차 종료'된 경우 위증죄 기수, 그 후 '별도 증인 신청·채택 절차' 거쳐 다시 신문받는 과정서 종전 진술 철회·시정해도 <span class=\"cs-blue\"><span class=\"cs-u\">§153</span></span> 형 감면사유 해당할 뿐 이미 종결된 종전 위증죄 성립에 영향 X<span class=\"cs-exam\">【변24·23·19】</span>","k":"sei4xg"},
+  {"i":"50459o","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"위 법리는 증인이 '별도 증인신문절차'서 새로 선서한 경우뿐 아니라 종전 절차서 한 선서 효력 유지됨 고지받고 진술한 경우에도 적용","k":"1x79xqn"},
+  {"i":"exn67f","o":"<div class=\"cs-h\">","h":"Ⅵ. 자기 사건 위증교사<span class=\"cs-exam\">【변사13, 모사24·22】</span>","k":"ra1oxx"},
+  {"i":"cawrjg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\">《자기 형사사건에 관해 위증 교사한 경우 위증교사죄 성립하는지》</span>","k":"i8cd84"},
+  {"i":"tdnxvr","o":"<div class=\"cs-theory\">","b":[
+   {"i":"1cfttkj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①부정설(자기 방어권 연장, 정범 될 수 없는 자는 교사범도 X) ②긍정설(새 범인 창출, 방어권 남용)","k":"1nlabdw"},
+   {"i":"1cakekg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-glabel\">[긍정설]</span> 자기 형사사건 허위진술은 방어권 인정 취지상 처벌 X이나, 선서한 증인이 타인 형사사건에 위증하면 <span class=\"cs-blue\"><span class=\"cs-u\">§152</span>①</span> 위증죄 성립하므로 자기 형사사건에 관해 타인 교사해 위증하게 하는 것은 방어권 남용 →교사범 죄책 부담<span class=\"cs-exam\">【변24·20·19·17·13】</span>","k":"v4rv9p"},
+   {"i":"yrohsi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 타인에게 위증 교사까지 기대가능성 없다 볼 수 X, 공범종속성 원칙상 교사범 성립 → 긍정설 타당","k":"1voe31j"}
+  ]},
+  {"i":"120ilos","o":"<div class=\"cs-h\">","h":"Ⅶ. 자백 또는 자수 - 필요적 감면","k":"1q9qm1k"},
+  {"i":"s1uq4w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"효과: <span class=\"cs-def\"><strong>[필요적 감면]</strong></span> 전조의 죄를 범한 자가 공술한 사건의 재판·징계처분 확정 전 자백·자수 시 형 감경·면제(<span class=\"cs-blue\"><span class=\"cs-u\">§153</span></span>)<span class=\"cs-exam\">【변24·16】</span>","k":"1c32gd8"},
+  {"i":"3o6plx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용범위: <span class=\"cs-def\"><span class=\"cs-u\">위증죄에는 친족간 책임조각 특례 적용 X</span></span>","k":"vom366"}
+ ]}
+]}

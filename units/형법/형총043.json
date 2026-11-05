@@ -1,0 +1,66 @@
+{"id":"형총043","t":"구성요건해당성 없는 도구","cat":"chong_06","lv":1,"tg":[],"b":[
+ {"i":"lxly0t","o":"<details class=\"cs-case\">","b":[
+  {"i":"13e88nk","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 도어락 비밀번호 변경·권리행사방해</strong></span> <span class=\"cs-exam\">【변사25】 </span><span class=\"cs-red\">(10)</span>","k":"s4ov4m"},
+  {"i":"ro7p6z","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"e9qerl","o":"<div class=\"cs-fact\">","b":[
+    {"i":"trriux","o":"<div class=\"cs-callout\">","b":[
+     {"i":"7ke6up","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"X시 甲, 자신 단독소유 Y시 소재 빌라에 거주 중인 임차인 C와 집수리 갈등 → C 쫓아내기로 마음먹고 乙에게 빌라 현관문 도어락(甲이 구입·설치) 비밀번호 변경 요청, 사정 아는 乙이 이행. 甲에게 권리행사방해죄 성립할 수 있는 논거 모두 서술. (10점)","k":"s2dqe8"}
+    ]}
+   ]},
+   {"i":"gxamw6","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"qqrwlb","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1x5ih1m","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-exam\">【변사25】</span>","k":"1rqns0f"},
+    {"i":"hb2zyc","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [권리행사방해죄의 교사범 성립가능성]</strong> (가) [乙의 권리행사방해죄 성립여부]","k":"y9qe65"},
+    {"i":"6ubqk0","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 은닉·손괴한 물건이 자기 물건 아니면 권리행사방해죄 성립 X","k":"t6qizr"},
+    {"i":"1bezogo","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 乙은 도어락 소유자 아님 → 권리행사방해죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제323조</strong></span></span>) X (나) [甲의 권리행사방해교사죄 성립여부]","k":"1f3vcdo"},
+    {"i":"1xzhqbq","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 정범 성립은 교사범 구성요건 일부·교사범 성립엔 정범 범죄행위 인정돼야","k":"o34ouv"},
+    {"i":"9rpbih","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 공범 종속형식 — 제한적 종속형식/극단적 종속형식 등, 판례 = 제한적 종속형식. 불법 연대성·책임 개별화에 부합하는 제한적 종속형식 타당","k":"t1uy57"},
+    {"i":"zpuxke","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 乙 권리행사방해죄 구성요건해당성 X → 극단·제한 종속형식 모두 甲에 권리행사방해교사범 X","k":"1n3u40t"},
+    {"i":"1xipmc2","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [권리행사방해죄의 공동정범 성립가능성]</strong>","k":"nibi3l"},
+    {"i":"asyg9g","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 공동정범(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제30조</strong></span></span>) = 주관적 공동가공 의사 + 객관적 공동의사에 의한 기능적 행위지배 통한 범죄실행","k":"12uqzxp"},
+    {"i":"148l8w5","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 물건 소유자 아닌 자는 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제33조</strong></span></span> 본문에 따라 소유자 권리행사방해 범행에 가담한 경우에 한해 그 공범 가능","k":"miyu1w"},
+    {"i":"v2n251","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 甲·乙에 공동의사에 의한 기능적 행위지배 통한 범죄실행 인정되면 甲 권리행사방해죄 공동정범 성립 가능","k":"a56pe9"},
+    {"i":"64qf8x","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [권리행사방해죄의 간접정범 성립가능성]</strong>","k":"1aoir5l"},
+    {"i":"1erh407","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 乙에 기능적 행위지배 X로 乙 권리행사방해죄 성립 X인 경우 甲을 권리행사방해죄 간접정범(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제34조</strong></span></span>①) 처벌 가부","k":"9hdq11"},
+    {"i":"2f50z9","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 간접정범 정범성 표지 = 우월한 의사지배, 그런데 乙이 사정 알아 甲에 乙에 대한 사실적 의사지배 인정 곤란. 단 사실적 의사지배 X이나 규범적·사회적 의사지배 인정하는 규범적·사회적 의사지배설이 다수설, 판례도 긍정설","k":"71cyhg"},
+    {"i":"1b5h9di","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 판례·규범적·사회적 의사지배설: 甲 권리행사방해죄 간접정범 성립 가능","k":"1toc56e"}
+   ]}
+  ]}
+ ]},
+ {"i":"1ihlxqc","o":"<div class=\"cs-callout\">","b":[
+  {"i":"175iryy","o":"<div class=\"cs-h\">","h":"Ⅰ. 간접정범 일반론","k":"1q6t1ej"},
+  {"i":"1edfq6r","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[정범성 표지]</span> 간접정범 정범성 표지 = 우월한 의사지배","k":"gz3uza"},
+  {"i":"uyyjo3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[부작위]</span> ①부작위에 의한 간접정범 X ②부작위범을 도구로 이용한 간접정범 O <span class=\"cs-fact-tag\">[보증인 지위에 있는 자를 협박하여 부작위하게 한 경우]</span> <span class=\"cs-exam\">【변19】</span>","k":"591j1n"},
+  {"i":"k7cx0s","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[교사·방조]</span> 교사·방조 = 사주·이용, 교사 = 조종행위·방조 = 도움행위","k":"63oqvf"},
+  {"i":"1k2r5mk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[이중 고의]</span> 이용자는 ①정범의 고의 ②의사지배의 고의 有해야(이중 고의) → 과실에 의한 간접정범 불가","k":"4q8jq4"},
+  {"i":"bkbk4i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[의사억압 불요]</span> 처벌 X 타인 행위 적극 유발·이용해 자기 범죄 실현한 자 = 간접정범, 그 과정서 타인 의사 부당 억압해야만 간접정범인 것 X <span class=\"cs-exam\">【변19】</span>","k":"ldtbv7"},
+  {"i":"15g7kxa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[</span><span class=\"cs-blue\"><span class=\"cs-u\">제34조</span></span><span class=\"cs-fact-tag\">① 피이용자 유형]</span> 처벌 X 자 = 시비판별능력 X·강제로 의사자유 억압당한 자·구성요건적 범의 X 자·목적범/신분범서 목적·신분 X 자·정당방위/정당행위/긴급피난/자구행위로 위법성 X 자 등 → 책임무능력자·범죄사실 인식 X 자·의사자유 억압당한 자·목적/신분 없는 목적범/신분범·위법성 조각자 등을 도구·손발같이 이용해 간접으로 죄의 구성요소 실행한 자를 간접정범 처벌 <span class=\"cs-exam\">【변26】</span>","k":"1ylxyl5"},
+  {"i":"1m0e1i4","o":"<div class=\"cs-h\">","h":"Ⅱ. 특수간접정범·특수교사·특수방조","k":"9qmdne"},
+  {"i":"yanyem","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[결합설]</span> <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제34조</strong></span></span>② = ①자기 지휘·감독 받는 자에 대한 특수교사·방조 ②그 자를 도구로 이용한 특수간접정범 모두에 적용","k":"4yyame"},
+  {"i":"1rdlq0q","o":"<div class=\"cs-h\">","h":"Ⅲ. 구성요건해당성 없는 도구","k":"1uhxihe"},
+  {"i":"1djlfk2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>객관적 구성요건해당성이 없는 도구</strong>","k":"er9hw6"},
+  {"i":"1m11kfi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[자살 이용 살인]</span> 자살 의미 이해 능력 X·피고인 말이면 무엇이나 복종하는 어린 자식(7세·3세)에 함께 죽자 권유해 물속 따라 들어와 익사케 함 = 살인 범의 分明","k":"1fe0699"},
+  {"i":"g9iw26","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[자상 이용 상해]</span> 피해자 협박해 자상케 한 경우 협박 정도가 피해자 의사결정 자유 상실케 함에 족하면 상해죄 구성 <span class=\"cs-fact-tag\">[코절단]</span>","k":"jcdctc"},
+  {"i":"zl5xpa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[강제추행 간접정범]</span> 강제추행죄 = 정범 자신 직접 실행해야 성립하는 '자수범' 아님 → 처벌 X 타인 도구로 강제추행하는 간접정범 형태로도 가능, 그 도구인 타인에 피해자도 포함 → 피해자 도구로 그 신체 이용해 추행해도 간접정범 해당 가능 <span class=\"cs-exam\">【변24·22·19】</span> <span class=\"cs-exam\">【변사21】</span>","k":"sdqfmn"},
+  {"i":"1g1gc7r","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>고의 '없는' 도구</strong>","k":"jdnkfb"},
+  {"i":"1vxtp0p","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[소송사기]</span> 소송상 주장이 사실과 다름 객관적 명백·증거 조작된 정 인식 못하는 제3자 이용해 소송당사자 되게 하고 법원 기망해 재물·재산상 이익 취득하려 하면 간접정범 형태 소송사기죄 성립 <span class=\"cs-exam\">【변26】</span>","k":"1iped0e"},
+  {"i":"10elmyd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[유가증권변조]</span> 유가증권변조 = 진정 성립 유가증권 내용에 권한 없는 자가 동일성 해하지 않는 한도 변경, 정 모르는 제3자 통해 간접정범 형태로도 가능 <span class=\"cs-fact-tag\">[정을 모르는 자를 속여 유가증권에 대신 금액란에 금액을 기재하게 한 경우]</span>","k":"13u3li7"},
+  {"i":"q7or42","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>진정신분범의 경우</strong>","k":"1x75us1"},
+  {"i":"hjxsnd","o":"<div class=\"cs-li cs-issue\" style=\"margin-left:16px\">","h":"가. <strong>비신분자가 '고의 없는 신분 있는 도구'를 이용하는 경우 - 간접정범X</strong>","k":"1njoz8g"},
+  {"i":"hfed53","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[정범 요건 충족]</span> 간접정범도 정범 → 신분범의 신분·목적 등 정범 요건 충족해야","k":"1qe3n4a"},
+  {"i":"btz2e4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[허위공문서작성]</span> 공무원 아닌 자는 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제228조</strong></span></span> 경우 제외 허위공문서작성죄 간접정범 처벌 X","k":"1mlzti7"},
+  {"i":"4d0ttc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[뇌물수수]</span> 비신분자는 공무원 신분 X → 진정신분범 뇌물수수죄 단독정범·간접정범 X <span class=\"cs-fact-tag\">[공무원의 처가 빌려준 돈을 돌려받는다고 남편인 공무원을 속이고 뇌물로 돈을 받게 한 경우]</span>","k":"durfp4"},
+  {"i":"mu57x7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[부정수표단속법]</span> 지급책임 부담·거래정지처분 당하는 자 = 발행인 국한 → 발행인 아닌 자는 부정수표단속법 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제4조</strong></span></span>(거짓신고자 형사책임) 위반죄 주체 X·거짓신고 고의 없는 발행인 이용 간접정범도 X <span class=\"cs-exam\">【변18】</span>","k":"1fb49u2"},
+  {"i":"4uoxt7","o":"<div class=\"cs-li cs-issue\" style=\"margin-left:16px\">","h":"나. <strong>신분자가 신분이 없는 '고의 있는' 도구를 이용하는 경우 </strong><strong>[변사25, 모사18]</strong>","k":"yh9mo5"},
+  {"i":"c08lpg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"① 신분 있는 이용자의 죄책","k":"euq6p5"},
+  {"i":"188vi3q","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[문제점]</span> 피이용자 신분 X·고의 有 시 '사실적 의사지배' 인정 X → 간접정범 성립 가부 <span class=\"cs-fact-tag\">[목적의 경우에도 동일하다.]</span>","k":"s2vu2y"},
+  {"i":"grob0n","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[학설]</span> ①사실적 의사지배 X이나 규범적·사회적 의사지배 인정→간접정범 규범적·사회적 의사지배설(다수설) ②의사지배 없어도 간접정범 공범형 간접정범설 ③지배범 신분범과 달리 의무범 신분범은 의사지배 불요 지배범·의무범적 신분범 구별설 등 긍정설 ④방조범 처벌자 이용자를 간접정범 처벌은 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제34조</strong></span></span>① 문언 반함 부정설","k":"vyiute"},
+  {"i":"8hbt4d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[판례 긍정설]</span> ①목적범/신분범서 목적·신분 없는 자를 도구·손발같이 이용해 간접 실행한 자를 간접정범 처벌 ②'국헌문란 목적' 가진 자가 그 목적 없는 자 이용해 내란죄 실행 가능","k":"1kocjgt"},
+  {"i":"1nd4rk2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[검토]</span> 피이용자 고의로 사실적 의사지배 X이나 규범적·사회적 의사지배 인정 → 규범적·사회적 의사지배설 타당","k":"w1fdyl"},
+  {"i":"1rhdo30","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"② 피이용자의 죄책","k":"1wine98"},
+  {"i":"13eia80","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[피이용자 방조범]</span> 목적·신분 없는 고의 있는 피이용자 = 방조범 성립(다수설)","k":"ogdgzq"},
+  {"i":"hkxigi","o":"<div class=\"cs-h\">","h":"Ⅳ. 자수범의 경우","k":"9sge69"},
+  {"i":"14yjl1l","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[호별방문죄]</span> 농협법 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제50조</strong></span></span>② 호별방문죄 = '임원이 되고자 하는 자' 신분자가 스스로 방문한 경우만 처벌 → 신분자가 비신분자와 통모·비신분자 시켜 방문케 해 비신분자만 방문 시 신분자·비신분자 모두 그 죄 처벌 X","k":"5demxk"},
+  {"i":"1v8rk0d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[위증죄]</span> 위증죄 = 진정신분범·자수범 → 허위진술인지 모르는 사람 교사해 선서·증언케 해도 위증죄 간접정범 X","k":"9qcr09"}
+ ]}
+]}

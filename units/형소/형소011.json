@@ -1,0 +1,62 @@
+{"id":"형소011","t":"변호인 일반","cat":"pro_01","lv":1,"tg":["A급","下"],"b":[
+ {"i":"1ay7tkb","o":"<details class=\"cs-case\">","b":[
+  {"i":"pu5mpw","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 변호인 없이 진행된 제1심 강도죄 재판·항소심의 조치</strong></span>","k":"tkiq5y"},
+  {"i":"7t6bx9","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"iwkb4n","o":"<div class=\"cs-fact\">","b":[
+    {"i":"4w18z3","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1yu1g2y","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"검사가 甲을 강도죄로 기소 → 제1심이 변호인 없이 재판 진행·유죄선고 → 甲 항소 → 항소심이 국선변호인 L 선정 → L이 \"제1심 소송행위 전부 무효 → 심급이익을 위해 원심 파기·제1심 환송해야\"라고 주장. 주장은 타당한가? (10점)","k":"q77kwd"}
+    ]}
+   ]},
+   {"i":"1fw19tc","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"hhh7vt","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"g3dcfd","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [변호인 없이 진행된 소송행위의 효력]</strong>","k":"kvrhut"},
+    {"i":"1r1f5yd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§282</strong></span></span>, <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33①제6호</strong></span></span>","k":"n72277"},
+    {"i":"1nsai9w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 강도죄 = 3년 이상 유기징역 → 필요적 국선사건(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33①</strong></span></span>) → 변호인 없이 개정 X","k":"1ix47dz"},
+    {"i":"19nq0b6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 제1심이 변호인 없이 심리·판결 → 그 위법한 공판절차의 증거조사·피고인신문 등 일체 소송행위 무효","k":"pelzde"},
+    {"i":"1ujzyo0","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [항소심 법원의 조치]</strong>","k":"1mf6jmw"},
+    {"i":"lvlbo8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 항소이유 있으면 원심 파기 후 다시 판결(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§364⑥</strong></span></span>)","k":"n5096m"},
+    {"i":"20kjb2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 제1심 소송행위 전부 무효 → 항소심이 변호인 있는 상태에서 소송행위를 새로 한 후 위법한 제1심판결 파기 + 항소심 심리 결과에 기해 '다시 판결'","k":"9p21ct"},
+    {"i":"1btua9y","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> 제1심 소송행위 전부 무효 주장 타당, 원심 파기·제1심 환송 주장은 타당 X","k":"1ytwb7n"}
+   ]}
+  ]}
+ ]},
+ {"i":"14cib82","o":"<div class=\"cs-callout\">","b":[
+  {"i":"y1ilp4","o":"<div class=\"cs-h\">","h":"Ⅰ. 변호인 선임","k":"lk3hqn"},
+  {"i":"l86rya","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"변호인의 선임은 변호인과 연명날인한 서면으로 제출<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§32①)</strong></span></span>","k":"1yeo16j"},
+  {"i":"1lcs1kg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>공소제기 전의 변호인 선임은 제1심에도 효력</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§32②)</strong></span></span><span class=\"cs-exam\">【변15】</span>","k":"1rqeihf"},
+  {"i":"1svrp5y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"원심법원에서의 변호인 선임은 환송·이송 후에도 <span class=\"cs-red\"><strong>효력 유지</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(규칙§158)</strong></span></span><span class=\"cs-exam\">【변15】</span>","k":"flv91s"},
+  {"i":"1bbenqe","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[공소사실의 동일성이 인정되어 공소장이 변경된 경우]</span> 변호인 선임의 효력은 변경된 공소사실에도 미침 <span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변15】</span>","k":"1gyd2f5"},
+  {"i":"bq9x34","o":"<div class=\"cs-h\">","h":"Ⅱ. 국선변호인 선정","k":"u2mnrm"},
+  {"i":"iy1vg4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>재판장의 고지</strong></span>","k":"14i45c4"},
+  {"i":"o9j4rz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"재판장은 변호인 없는 피고인에게 §33①·②·③ 해당 여부에 따른 절차 및 국선변호인 선정 관련 취지를 <span class=\"cs-red\"><strong>서면으로</strong></span> 고지<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(규칙§17)</strong></span></span>","k":"snsfpp"},
+  {"i":"su2bte","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>선정방법</strong></span>","k":"pj5qy4"},
+  {"i":"fhdfm1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 국선변호인은 피고인마다 1인 선정 원칙, 필요시 수인 선정 <span class=\"cs-o\"><strong>(O)</strong></span> ② 이해가 상반되지 않는 수인은 동일한 국선변호인 선정 <span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(규칙§15)</strong></span></span>","k":"1i1jvrs"},
+  {"i":"1e7qij8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[이해상반되는 피고인들 중 1인의 변호인(법무법인)의 담당변호사를 다른 피고인의 국선변호인으로 선정]</span> 국선변호인의 조력을 받을 피고인의 권리 <span class=\"cs-green\"><strong>침해</strong></span><span class=\"cs-exam\">【변26·19】</span>","k":"1111jwf"},
+  {"i":"1isj4t6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>선정사유</strong></span>","k":"pj2on0"},
+  {"i":"1ejxrek","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"가. 제33조 제1항의 사유 (직권·의무)","k":"1hbl6xw"},
+  {"i":"n985sj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"피고인이 ① 구속 ② 미성년자 ③ 70세 이상 ④ 듣거나 말하는 데 모두 장애 ⑤ 심신장애 의심 ⑥ 사형·무기 또는 단기 3년 이상 징역·금고 해당사건으로 기소된 때 → 변호인 없으면 법원 <span class=\"cs-red\"><strong>직권 선정 의무</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§33①)</strong></span></span>","k":"1tobi04"},
+  {"i":"1clhepk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"1srvwc0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[별건구속·다른 형사사건 유죄판결 확정으로 구금상태인 경우]</span> [구속] 해당 <span class=\"cs-o\"><strong>(O)</strong></span> — 해당 형사사건의 구속으로 한정 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변26·25·23】</span>","k":"1rbpspy"},
+  {"i":"9791ho","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[불구속 피고인이 판결선고 후 법정구속된 경우]</span> 구속되기 이전까지는 [구속] 해당 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변19】</span>","k":"12mt839"},
+  {"i":"qvocs0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[객관적 자료가 없어도 제반사정에 비추어 방어권을 실질적으로 행사하지 못할 우려가 인정되는 경우]</span> [심신장애 의심] 해당 <span class=\"cs-o\"><strong>(O)</strong></span>","k":"p41m76"},
+  {"i":"ygslcq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"나. 제33조 제2항의 사유 (청구)","k":"65vqvc"},
+  {"i":"1m34l0d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"빈곤 등 사유로 변호인을 선임할 수 없는 경우 피고인의 <span class=\"cs-red\"><strong>청구</strong></span>가 있을 때 선정<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§33②)</strong></span></span>","k":"1vdsvc0"},
+  {"i":"198csee","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[소명자료를 제출해 빈곤이 인정될 여지가 충분함에도 기각한 경우]</span> 판결에 영향을 미친 <span class=\"cs-green\"><strong>위법</strong></span>","k":"14ilf4j"},
+  {"i":"1vihybl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"다. 제33조 제3항의 사유 (직권)","k":"36qs3d"},
+  {"i":"18jtltu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"나이·지능·교육정도 등을 종합하여 권리보호 필요시 <span class=\"cs-fact-tag\">[피고인의 명시적 의사에 반하지 않는 범위]</span>에서 <span class=\"cs-red\"><strong>직권으로</strong></span> 선정<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§33③)</strong></span></span>","k":"1xwq2l5"},
+  {"i":"1uf0tft","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[시각·청각장애인 피고인, 수사협조로 양형요소가 있는 경우]</span> 포함 <span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변26】</span>","k":"13xq8xn"},
+  {"i":"16px9ah","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[검사만이 양형부당을 이유로 항소하고 제1심에서 필요적 국선변호인이 선정된 경우]</span> 항소심도 특별한 사정변경 없는 한 국선변호인 선정이 <span class=\"cs-red\"><strong>바람직</strong></span><span class=\"cs-exam\">【변19】</span>","k":"xvhw8w"},
+  {"i":"c0iumi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"라. 기타 필요적 변호 사건","k":"wm97sm"},
+  {"i":"17zfk7i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"국민참여재판 / 공판준비기일 지정사건 → 변호인 없으면 <span class=\"cs-red\"><strong>직권 선정 의무</strong></span>","k":"1zunsr"},
+  {"i":"182wzxr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"구속전피의자심문(영장실질심사) — 선정 효력은 <span class=\"cs-red\"><strong>제1심까지</strong></span>(구속영장 청구 기각으로 소멸한 경우 제외)<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§201의2⑧)</strong></span></span><span class=\"cs-exam\">【변21·18·17·15·12】</span>","k":"3vz8pb"},
+  {"i":"ycesib","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"체포·구속적부심사<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§214의2⑩)</strong></span></span> — 예외 없으므로 심문 없이 기각결정하는 경우에도 동일<span class=\"cs-exam\">【변25·18·13·12】</span>","k":"txxnq9"},
+  {"i":"1yrnen9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"재심사건 일부<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§438)</strong></span></span> / 치료감호사건 → 변호인 없으면 <span class=\"cs-red\"><strong>직권 선정 의무</strong></span>","k":"cfulyz"},
+  {"i":"1sj0knx","o":"<div class=\"cs-h\">","h":"Ⅲ. 필요적 변호사건에서 변호인 없는 소송행위의 효력<span class=\"cs-exam\">【모사23·18】</span>","k":"11xtq09"},
+  {"i":"rr7x1w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"필요적 변호사건은 변호인 없이 개정 <span class=\"cs-green\"><strong>불가</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§282)</strong></span></span> — 단 판결선고만은 예외<span class=\"cs-exam\">【변12】</span>","k":"1920smz"},
+  {"i":"1tt9t0p","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>제1심에서 변호인 없이 증거조사·피고인신문 등 심리가 이루어졌다면 그 소송행위는 모두 무효</strong></span> → 항소심은 변호인 있는 상태에서 소송행위를 새로 하고 제1심판결을 <span class=\"cs-red\"><strong>'파기하고 다시 판결'</strong></span> — <span class=\"cs-gbg\">[환송]</span> <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변26·12】</span>","k":"11fm5md"},
+  {"i":"1e5q975","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"어느 절차에서의 위법이 다른 절차에서 적법하게 이루어진 소송행위까지 무효로 만들지는 <span class=\"cs-green\"><strong>않음</strong></span><span class=\"cs-exam\">【변12】</span>","k":"ecjyu0"},
+  {"i":"op7d4t","o":"<div class=\"cs-h\">","h":"Ⅳ. 변호인의 역할","k":"1pvyn31"},
+  {"i":"1u20zpt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-neg-tag\">[변호인이 진술거부권이 있음을 알려주고 그 행사를 권고]</span> 진실의무 위반 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변14】</span>","k":"zeh0nj"},
+  {"i":"1nhuxc5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[변호인이 허위진술을 하거나 피의자에게 허위진술을 하도록 하는 것]</span> 허용 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"4xu2ft"}
+ ]}
+]}

@@ -1,0 +1,44 @@
+{"id":"형소134","t":"비상상고","cat":"pro_20","lv":1,"tg":["下","모사22"],"b":[
+ {"i":"1h32dwt","o":"<details class=\"cs-case\">","b":[
+  {"i":"1n22erf","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 집행유예 불가 형에 집행유예를 선고한 확정판결</strong></span> <span class=\"cs-exam\">【모사22】</span>","k":"557jnj"},
+  {"i":"1kfnwt7","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"4775qp","o":"<div class=\"cs-fact\">","b":[
+    {"i":"khxgvd","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1wmow1y","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"제1심 법원이 甲에 대하여 징역 3년 6월, 집행유예 5년을 선고하였고 이 판결이 확정되었다. 검찰총장이 할 수 있는 조치와 그 조치로 인한 판결의 효력은? (10점)","k":"1q48ppj"}
+    ]}
+   ]},
+   {"i":"13ydyba","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"16zayi7","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"pl2te5","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [법령위반]</strong> 3년 이하 징역·금고를 선고할 경우에만 집행유예 가능(형법§62①). 징역 3년 6월을 선고하여 집행유예가 불가능한데도 집행유예를 선고하였으므로 제1심판결은 위 규정 위반","k":"hsg9hj"},
+    {"i":"cnf31y","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [비상상고·파기 방식]</strong> 검찰총장은 비상상고 가능(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§441</strong></span></span>). 원판결이 법령에 위반한 때에는 위반된 부분을 '파기', 단 원판결이 피고인에게 불이익한 때에는 원판결을 파기하고 다시 판결(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§446제1호</strong></span></span>)","k":"1j41q2n"},
+    {"i":"15693u6","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> 원판결이 피고인에게 '이익'이 되는 경우이므로 대법원은 위반된 부분만 파기 → 비상상고의 효력으로 집행유예는 취소되지만 원판결의 효력은 그대로 유지되므로 甲은 수감되지 않고 5년의 집행유예는 계속됨","k":"2n5wiu"}
+   ]}
+  ]}
+ ]},
+ {"i":"1bhj1ck","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1c4mtqy","o":"<div class=\"cs-h\">","h":"Ⅰ. 의의","k":"th62h7"},
+  {"i":"ivuklm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검찰총장은 판결이 확정한 후 <span class=\"cs-red\"><strong>그 사건의 심판이 법령에 위반한 것을 발견한 때에는 대법원에 비상상고</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§441)</strong></span></span>","k":"oxjlgo"},
+  {"i":"1rz3vko","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"비상상고 제도의 주된 목적은 <span class=\"cs-red\"><strong>법령의 해석·적용의 통일을 도모</strong></span>하는 것","k":"1gztdkt"},
+  {"i":"1s9ornp","o":"<div class=\"cs-h\">","h":"Ⅱ. 비상상고의 대상","k":"1i8uv7b"},
+  {"i":"1prajq9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[모든 확정판결 O]</span> 재심과 달리 <span class=\"cs-red\"><strong>모든 확정판결이 대상</strong></span>이므로 유죄·무죄·면소·공소기각판결·관할위반 판결 모두 대상","k":"1hdgbf0"},
+  {"i":"m92c62","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[약식명령 등 O]</span> 확정판결과 동일한 효력이 있는 <span class=\"cs-red\"><strong>약식명령·즉결심판·경범죄처벌법·도로교통법에 의한 범칙금납부</strong></span>도 대상","k":"1qv2emu"},
+  {"i":"knxzox","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[항소·상고기각결정]</span> 사면된 범죄에 사면을 간과하고 상고기각의 결정을 한 때에는 법령에 위반한 것이 되어 비상상고 가능","k":"16ag1ib"},
+  {"i":"1mm27zo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[공소기각결정 O]</span> 종국적 결정인 공소기각결정도 대상 / <span class=\"cs-fact-tag\">[당연무효 판결]</span> 당연무효의 판결도 대상","k":"b3e155"},
+  {"i":"1vqolhq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[파기된 판결 X]</span> 상급심 파기판결로 <span class=\"cs-green\"><strong>효력을 상실한 재판은 대상 X</strong></span>","k":"64lkju"},
+  {"i":"1pgltpd","o":"<div class=\"cs-h\">","h":"Ⅲ. 법령위반","k":"5krtcp"},
+  {"i":"12rcftc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>심판의 법령위반</strong></span>","k":"2xhuvl"},
+  {"i":"145i0tj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>'그 사건의 심판이 법령에 위반한 때'란 확정판결에서 인정한 사실을 변경하지 아니하고 이를 전제로 한 실체법의 적용에 관한 위법 또는 그 사건에서의 절차법상의 위배가 있는 경우</strong></span>","k":"1hrrgzo"},
+  {"i":"9b6um8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[법령위반 O 예시]</span> ① 징역 3년 6월에 집행유예를 선고(원판결이 피고인에게 이익이므로 파기만) ② 즉결심판에서 벌금 30만 원 선고(즉결심판은 벌금 20만원 이하만) ③ 적법한 증거조사 없이 증거능력 없는 증거 채택 ④ 피해자에게 환부할 장물인 압수물건을 약식명령으로 몰수 ⑤ 통고처분 납부기한 내 납부 후 다시 약식명령이 발령·확정(피고인에게 불이익하므로 파기하고 §326제1호 면소판결)","k":"1usuufb"},
+  {"i":"1nqvoxn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>법령 적용의 전제가 되는 사실오인</strong></span>","k":"va2aop"},
+  {"i":"1oee2wb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"단순한 사실오인은 비상상고 이유가 아니나, 법령 적용의 전제사실을 오인함에 따라 법령위반의 결과를 초래한 경우에도 허용되는지 — <span class=\"cs-green\"><strong>긍정설</strong></span> / <span class=\"cs-red\"><strong>부정설</strong></span> / <span class=\"cs-green\"><strong>절충설</strong></span>(소송법적 사실오인은 대상, 실체법적 사실오인은 비대상)","k":"1smgmop"},
+  {"i":"1vpphwt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 부정설] 법령을 적용하는 과정에서 전제가 되는 사실을 오인함에 따라 법령위반의 결과를 초래한 경우에는 법령의 해석·적용의 통일이라는 목적에 유용하지 않으므로 '사건의 심판이 법령에 위반한 때'에 해당 X</strong></span> → 원판결 선고 전에 피고인이 이미 사망한 사실을 알지 못하여 공소기각결정을 하지 않고 실체판결에 나아가 법령위반의 결과를 초래하였더라도 <span class=\"cs-green\"><strong>심판이 법령에 위반한 것에 해당 X</strong></span><span class=\"cs-exam\">【변16】</span>","k":"qgah4f"},
+  {"i":"fugp5a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[절충설 판례]</span> 처벌불원 의사표시가 있었는데 §327제6호에 의하여 공소기각판결을 선고하지 않고 유죄판결을 선고하였다면 <span class=\"cs-red\"><strong>§441의 법령위반 사유가 있고 피고인에게 불이익하므로 파기하고 다시 판결</strong></span>","k":"zk0ln4"},
+  {"i":"1iteksv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"법령의 해석·적용의 통일이라는 목적에 비추어 <span class=\"cs-red\"><strong>부정설 타당</strong></span>","k":"mcti66"},
+  {"i":"o5szes","o":"<div class=\"cs-h\">","h":"Ⅳ. 비상상고판결","k":"2lo9cc"},
+  {"i":"1i1cxnu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[부분파기]</span> 원판결이 법령에 위반한 때에는 <span class=\"cs-red\"><strong>위반된 부분을 '파기'</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§446제1호 본문)</strong></span></span>, <span class=\"cs-red\"><strong>파기의 효력이 피고인에게 미치지 아니함</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§447)</strong></span></span>(원판결이 피고인에게 이익인 때)","k":"5z47s6"},
+  {"i":"1c6o5nv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[전부파기·자판]</span> 단 원판결이 피고인에게 불이익한 때에는 원판결을 파기하고 <span class=\"cs-red\"><strong>다시 판결</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§446제1호 단서)</strong></span></span>, 이 경우 <span class=\"cs-red\"><strong>비상상고의 판결은 그 효력이 피고인에게 미침</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§447)</strong></span></span>","k":"144bk8d"},
+  {"i":"qq459x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[절차 파기]</span> 원심소송절차가 법령에 위반한 때에는 <span class=\"cs-red\"><strong>위반된 절차를 '파기'</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§446제2호)</strong></span></span>(피고인에게 영향 없음)","k":"ca4k7f"},
+  {"i":"9oqyiq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[피모용자 약식명령]</span> 검사가 피고인의 인적사항을 잘못 기재하여 피모용자에 대한 약식명령이 그대로 발령·확정되었다면 심판이 법령에 위반된 것이고 피고인에게 불이익하므로 <span class=\"cs-red\"><strong>§446제1호 단서에 따라 원판결을 파기하고 §327제2호를 유추적용하여 공소기각</strong></span>","k":"aodue3"},
+  {"i":"vfirrz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[공소시효 완성 간과]</span> 공소시효가 완성된 사실을 간과한 채 약식명령을 발령한 원판결은 법령을 위반하였고 피고인에게 불이익하므로 <span class=\"cs-red\"><strong>§446제1호 단서에 의하여 원판결을 파기하고 면소 판결</strong></span>","k":"1x7x3bb"}
+ ]}
+]}

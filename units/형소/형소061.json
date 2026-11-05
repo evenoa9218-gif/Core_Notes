@@ -1,0 +1,45 @@
+{"id":"형소061","t":"일죄 일부에 대한 공소제기","cat":"pro_08","lv":1,"tg":["C급","中","모사15","모기14"],"b":[
+ {"i":"1nmapn0","o":"<details class=\"cs-case\">","b":[
+  {"i":"16e1ty0","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 고소기간 도과 후 야간주거침입절도·주거침입 각 기소</strong></span>","k":"lzpvm5"},
+  {"i":"1gddbay","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"sumyk0","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1wrb3wo","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1k008q7","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲이 2022. 5. 1. 야간에 동거하지 않는 4촌 형 A의 집에 몰래 침입하여 A 소유 귀금속 절취 → A가 2022. 6. 1. 甲을 추궁하여 자백을 받았으나 甲이 피해 배상을 약속하여 고소하지 않음 → 甲이 배상하지 않자 A가 2023. 1. 1. 경찰에 고소. 검사가 甲을 (1) 야간주거침입절도죄로 기소한 경우와 (2) 주거침입죄로 기소한 경우를 나누어 법원의 판단을 논하라. (15점)","k":"15ppn8v"}
+    ]}
+   ]},
+   {"i":"15wgcpj","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"10wmlqm","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"c954e4","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [야간주거침입절도로 기소한 경우]</strong>","k":"j8o1g7"},
+    {"i":"105y405","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 甲에게 야간주거침입절도죄 성립(형법<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§330</strong></span></span>)","k":"1o760tc"},
+    {"i":"8appul","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 甲·A = 비동거 4촌 혈족 → 상대적 친고죄(형법<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§344</strong></span></span>, <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§328②</strong></span></span>)","k":"p265a5"},
+    {"i":"1li9lgl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ A가 2022. 6. 1. 범인을 알게 되었는데 그로부터 6개월 경과가 역수상 명백한 2023. 1. 1.에야 고소 → 고소기간 도과로 부적법(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§230①</strong></span></span>)","k":"1xzdjae"},
+    {"i":"e99z4i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"④ 법원은 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§327제2호</strong></span></span>에 따라 공소기각판결","k":"1x1ovu8"},
+    {"i":"4zi2q8","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [주거침입으로 기소한 경우]</strong>","k":"1j2aoe4"},
+    {"i":"drezm8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 검사가 상대적 친고죄인 야간주거침입절도가 아닌 그 범행의 수단이 된 주거침입죄로 기소할 수 있는지 문제","k":"sy81v8"},
+    {"i":"e5e3ko","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 판례는 친고죄의 구성요소로 이에 흡수되는 비친고죄로 공소제기할 수 없다는 입장","k":"4cg383"},
+    {"i":"1qfq9x6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 판례에 의하면 법원은 공소제기의 절차가 법률에 위반되어 무효인 경우로서 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§327제2호</strong></span></span>에 따라 공소기각 판결","k":"y289g"}
+   ]}
+  ]}
+ ]},
+ {"i":"b9j3md","o":"<div class=\"cs-callout\">","b":[
+  {"i":"18lixom","o":"<div class=\"cs-h\">","h":"Ⅰ. 일죄 일부 공소제기의 적법성<span class=\"cs-exam\">【모사15】</span>","k":"dbmh52"},
+  {"i":"3qnnb3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"범죄사실의 일부에 대한 공소의 효력은 <span class=\"cs-red\"><strong>범죄사실 전부에 미침</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§248②)</strong></span></span>","k":"1du7p4s"},
+  {"i":"ij7txj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《검사가 객관적 혐의가 충분하고 소송조건이 갖추어졌는데도 일죄의 일부에 대해서만 기소하는 것이 가능한지 여부》</strong></span>","k":"3y5a2c"},
+  {"i":"1gx69z7","o":"<div class=\"cs-theory\">","b":[
+   {"i":"gnva3x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① <span class=\"cs-red\"><strong>적극설</strong></span>(기소편의주의<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§247)</strong></span></span>·객관적 공소불가분원칙<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§248)</strong></span></span>에 비추어 가능) ② 소극설(검사의 자의적 공소권행사를 인정하는 결과가 되어 불허) ③ 절충설(원칙적으로 허용되지 않지만 예비적·택일적으로 기소한 경우 가능)","k":"96n5yk"},
+   {"i":"1hjra6e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 적극설] 하나의 행위가 여러 범죄의 구성요건을 동시에 충족하는 경우 공소제기권자는 자의적으로 공소권을 행사하여 소추 재량을 현저히 벗어났다는 등의 특별한 사정이 없는 한 증명의 난이 등 여러 사정을 고려하여 그중 일부 범죄에 관해서만 공소를 제기할 수도 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span>","k":"klq6wj"},
+   {"i":"w67pat","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: <span class=\"cs-green\"><strong>공소권남용이라는 특별한 사정이 없는 한</strong></span> §247 기소편의주의 원칙에 비추어 <span class=\"cs-red\"><strong>적극설 타당</strong></span>","k":"vcdk0z"}
+  ]},
+  {"i":"k1awwc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[하나의 행위가 부작위범인 직무유기죄와 작위범인 범인도피죄의 구성요건을 동시에 충족하는 경우]</span> 공소제기권자는 재량에 의하여 작위범인 범인도피죄로 공소를 제기하지 않고 <span class=\"cs-red\"><strong>부작위범인 직무유기죄로만 공소제기 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span><span class=\"cs-exam\">【변12】</span>","k":"1ck6ks1"},
+  {"i":"1or4akg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[작위범인 허위공문서작성죄 및 동행사죄]</span> 검사는 이로 공소를 제기하지 않고 <span class=\"cs-red\"><strong>부작위범인 직무유기죄로만 공소제기 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span>","k":"12c4tbg"},
+  {"i":"ukeln1","o":"<div class=\"cs-h\">","h":"Ⅱ. 친고죄의 일부를 비친고죄로 기소하는 경우<span class=\"cs-exam\">【모기14】</span>","k":"xir697"},
+  {"i":"pr6ws8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"현재 성폭력범죄 중 친고죄가 없어 <span class=\"cs-green\"><strong>절대적 친고죄의 일부가 비친고죄인 범죄 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"hgaxgn"},
+  {"i":"ftvv7y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"개정된 형법§328①의 친족상도례가 적용되어 <span class=\"cs-red\"><strong>'상대적 친고죄'</strong></span>인 ① 야간주거침입절도의 일부인 <span class=\"cs-red\"><strong>주거침입죄만 따로 떼어내어 공소제기</strong></span>하거나 ② 공갈죄 또는 폭처법위반(공동공갈)죄의 수단인 <span class=\"cs-red\"><strong>폭행·협박죄만 따로 떼어내어 기소</strong></span>하는 것이 허용되는지 문제 — (구 형법§328②이 적용되는 경우에도 동일)","k":"ztc0w"},
+  {"i":"de4c3a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《검사가 친고죄의 일부를 비친고죄로 기소하는 것이 허용되는지 여부》</strong></span>","k":"v42e32"},
+  {"i":"1qc12sx","o":"<div class=\"cs-theory\">","b":[
+   {"i":"d6juzo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 공소 제기된 비친고죄에 대해 유죄판결을 해야 한다는 <span class=\"cs-red\"><strong>유죄판결설</strong></span> ② 공소 제기된 비친고죄에 대해 무죄판결을 해야 한다는 <span class=\"cs-green\"><strong>무죄판결설</strong></span> ③ 법률의 규정에 위반된 공소제기이므로 §327제2호에 의하여 공소기각판결을 해야 한다는 <span class=\"cs-green\"><strong>공소기각판결설</strong></span>","k":"hqpdlj"},
+   {"i":"1xvra4u","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 공소기각판결설(제2호)] 친고죄의 적법한 고소가 없거나 고소가 취소된 경우에는 친고죄로 공소를 제기할 수 없음은 물론, 나아가 그 범행의 수단으로 또는 그에 수반하여 저질러진 비친고죄의 점 또한 친고죄의 구성요소로서 그에 흡수되는 '법조경합'의 관계에 있는 만큼 이를 따로 떼어내어 비친고죄로 공소제기할 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span> → 그와 같은 공소는 공소제기의 절차가 법률에 위반되어 무효인 경우로서 <span class=\"cs-green\"><strong>§327제2호에 따라 공소기각의 판결</strong></span>","k":"15b4pcb"},
+   {"i":"3nwvvh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: 친고죄의 일부인 비친고죄로만 기소하는 것은 <span class=\"cs-green\"><strong>친고죄로 규정한 취지에 반하므로 공소기각판결설 타당</strong></span>","k":"17x7ulg"}
+  ]}
+ ]}
+]}

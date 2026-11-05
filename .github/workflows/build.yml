@@ -1,0 +1,73 @@
+# units/ (정본) → data-*.js (읽기용 번들) + 기출 연결.
+#
+# 노션 동기화(notion-sync.yml)를 대신한다. 이제 본문의 정본은 units/ 이고,
+# 번들은 파생물이다. 앱에서 단원을 고치면 units/{과목}/{단원}.json 만 커밋되고
+# 이 워크플로가 번들을 다시 만든다.
+#
+# ⚠ paths 를 units/ 로 좁혀 둔 것은 되먹임을 막기 위해서다 —
+#   이 워크플로가 data-*.js 를 커밋하는데 그게 또 자신을 깨우면 무한히 돈다.
+
+name: build
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+    paths:
+      - 'units/**'
+      - 'tools/build_bundle.js'
+      - 'tools/build_examlinks.js'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # 새 불변식 — 블록 id 는 사라지지 않는다 (옛 verify_fidelity.py 자리).
+      # 깨지면 번들을 만들지 않고 멈춘다.
+      - name: id 보존 검사
+        run: node tools/verify_ids.js HEAD~1
+
+      - name: 번들 생성
+        run: node tools/build_bundle.js
+
+      # 되그리기가 정본과 어긋나지 않는지 — 왕복 검증
+      - name: 왕복 검증
+        run: node tools/verify_units.js
+
+      # 본문의 기출 표시 → 사례형·기록형·선택형 문항 연결(data-examlinks.js).
+      # 책 원문(tools/examlinks_sources.json)은 저장소에 커밋돼 있다.
+      - uses: actions/checkout@v4
+        with: { repository: evenoa9218-gif/CASE_Practice, path: _ext/CASE_Practice }
+      - uses: actions/checkout@v4
+        with: { repository: evenoa9218-gif/RECORD_Practice, path: _ext/RECORD }
+      - uses: actions/checkout@v4
+        with: { repository: evenoa9218-gif/MCQ, path: _ext/MCQ }
+      - name: 기출 연결
+        env:
+          CASE_DIR: _ext/CASE_Practice
+          RECORD_DIR: _ext/RECORD
+          MCQ_DIR: _ext/MCQ
+        run: node tools/build_examlinks.js
+
+      - name: commit & push
+        run: |
+          git config user.name "build"
+          git config user.email "noreply@github.com"
+          git add data-*.js tools/examlinks_report.txt
+          git diff --cached --quiet && echo "바뀐 것 없음" && exit 0
+          git commit -m "build: units 수정분 반영 (자동)"
+          git push

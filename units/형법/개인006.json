@@ -1,0 +1,67 @@
+{"id":"개인006","t":"독립행위 경합과 상해 동시범 특례","cat":"gak_생명신체","lv":1,"tg":["변사21","모사16"],"b":[
+ {"i":"cx3i7k","o":"<details class=\"cs-case\">","b":[
+  {"i":"1wqpqz4","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE] 이시(異時)의 폭행 경합·사망 원인불명</strong></span></span> <span class=\"cs-exam\">【변사21】 </span><span class=\"cs-red\">(10)</span>","k":"169f33d"},
+  {"i":"b4wz2e","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"3bzhjg","o":"<div class=\"cs-fact\">","b":[
+    {"i":"7zlcxg","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1780yft","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲, A에 대한 <span class=\"cs-blue\">성폭법상 주거침입강간치상죄</span>를 범한 직후 현장에 도착한 A의 아버지 B에게 잡히자 B를 때려 눕히고 발로 복부를 수 회 걷어찬 뒤 도주. 약 2시간 후 甲의 친구 乙이 평소 감정이 좋지 않던 B가 쓰러진 것을 우연히 발견하고 화가 나 발로 복부를 수 회 걷어참. 며칠 후 B는 장 파열로 사망, 부검결과 甲과 乙 중 누구의 행위로 사망했는지 판명되지 않음.","k":"lqjfju"},
+     {"i":"11yxl63","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲과 乙의 죄책은?<span class=\"cs-red\"> (10점)</span>","k":"imz7fo"}
+    ]}
+   ]},
+   {"i":"anqgyz","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"t65jua","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1hu4zj7","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [문제점]</strong> <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제19조</strong></span></span>, <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제263조</strong></span></span>","k":"10pok8k"},
+    {"i":"1my2xol","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [이시의 독립행위]</strong> 이시의 독립행위에도 상해의 동시범 특례가 적용되는지 — 부정설/긍정설, 판례 = 긍정설. 이시의 독립행위를 제외할 이유<span class=\"cs-x\"><strong>(X)</strong></span> → 긍정설 타당","k":"1toy29z"},
+    {"i":"k3kz2u","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [상해·폭행치사죄 적용여부]</strong>","k":"1l1f35v"},
+    {"i":"zxmhwt","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 동시범 특례가 상해치사죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제259조</strong></span></span> 제1항)·폭행치사죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제262조</strong></span></span>)에도 적용되는지 — 부정설/긍정설, 판례 = \"상해행위나 폭행행위가 경합하여 사망의 결과가 일어난 경우에도 적용된다\" 긍정설. 모두 동시범 특례와 같은 '상해와 폭행의 죄'의 장에 규정 → 긍정설 타당","k":"1a7h6i8"},
+    {"i":"1phhh6y","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 甲과 乙의 이시의 독립행위(폭행 또는 상해)가 경합해 B 사망, 그러나 원인행위 판명<span class=\"cs-x\"><strong>(X)</strong></span> → <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제263조</strong></span></span> 상해의 동시범특례 적용","k":"1e43ms"},
+    {"i":"jymamd","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(4) [결론]</strong> 甲과 乙 = 상해치사죄(또는 폭행치사죄)의 공동정범의 예에 의해 처벌","k":"1njy579"}
+   ]}
+  ]}
+ ]},
+ {"i":"1psxko9","o":"<div class=\"cs-callout\">","b":[
+  {"i":"2lui5p","o":"<div class=\"cs-callout\">","b":[
+   {"i":"h29xaf","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제19조(독립행위의 경합)</strong></span> <span class=\"cs-u\"><strong>동시 또는 이시의 독립행위가 경합</strong></span>한 경우에 그 <span class=\"cs-u\"><strong>결과발생의 원인된 행위가 판명되지 아니한 때</strong></span>에는 <span class=\"cs-u\">각 행위를 </span><span class=\"cs-red\"><span class=\"cs-u\"><strong>미수범</strong></span></span>으로 처벌한다.","k":"rw4q0f"},
+   {"i":"81gsrz","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제263조(동시범)</strong></span> <span class=\"cs-u\"><strong>독립행위가 경합</strong></span>하여 <span class=\"cs-u\"><strong>상해의 결과</strong></span>를 발생하게 한 경우에 있어서 <span class=\"cs-u\"><strong>원인된 행위가 판명되지 아니한 때</strong></span>에는 <span class=\"cs-red\"><strong>공동정범</strong></span>의 예에 의한다.","k":"qqhplp"}
+  ]},
+  {"i":"96nvg5","o":"<div class=\"cs-h\">","h":"Ⅰ. <span class=\"cs-statute\">독립행위 경합</span> (<span class=\"cs-blue\"><span class=\"cs-u\">§19</span></span>)","k":"aedb1g"},
+  {"i":"1xgvk2j","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"요건 : <span class=\"cs-def\"><strong>2인 이상</strong></span> <span class=\"cs-def\"><span class=\"cs-u\"><strong>상호 의사연락 없이</strong></span></span> <span class=\"cs-def\"><strong>동일객체에</strong></span> 행위","k":"19v9vj7"},
+  {"i":"6ee4yg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-green\">반드시 <strong>같은 시각&amp;장소</strong> 발생행위일 필요 </span><span class=\"cs-x\"><strong>(X)</strong></span>","k":"ergdfz"},
+  {"i":"5punj4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>공동가공의 의사 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span></span>일 때만 <span class=\"cs-red\">→ 독립행위 경합(원칙 미수 / 상해는 특례)</span>","k":"qeqr95"},
+  {"i":"r4vx9h","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<strong>↔</strong> <span class=\"cs-green\"><strong>공동의사 <span class=\"cs-o\"><strong>(O)</strong></span></strong> → 애초 <span class=\"cs-u\"><strong>공동정범</strong></span><strong>(동시범 문제 X)</strong></span><span class=\"cs-exam\">【변26·25】</span>","k":"1sczgfd"},
+  {"i":"12rp7o9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"1vd50so","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[가해행위 자체가 불분명한 자]</span> 상해죄 동시범<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변25·18】</span>","k":"1up708q"},
+  {"i":"1savsq3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[A가 甲에게 폭행당한 후 함께 폭행하자는 연락받고 온 乙에게 다시 폭행당해 사망·원인행위 불명]</span> 甲·乙 <span class=\"cs-red\"><strong>폭행치사죄</strong></span> 공동정범<span class=\"cs-o\"><strong>(O)</strong></span> —<span class=\"cs-gbg\"> 동시범특례 적용 X</span>","k":"aeh4wy"},
+  {"i":"ugqq4","o":"<div class=\"cs-h\">","h":"Ⅱ. <span class=\"cs-statute\">원인행위가 판명되지 아니한 때</span>","k":"8o01y6"},
+  {"i":"1yddrks","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"↔ 독립행위 경합 but <span class=\"cs-green\"><span class=\"cs-u\"><strong>원인행위 판명<span class=\"cs-o\"><strong>(O)</strong></span> 시 → 각자 판단</strong></span></span>","k":"1yt2ju2"},
+  {"i":"lw9y2a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[실화죄: 공동과실 경합 화재 발생 → 각 과실이 화재발생에 대한 하나의 조건 충족 시(=원인행위 판명O)]</span> 공동적 원인 제공자 →<span class=\"cs-green\"><strong> 각자 실화죄<span class=\"cs-o\"><strong>(O)</strong></span></strong></span><span class=\"cs-exam\">【변26·25】</span>","k":"1tak2ol"},
+  {"i":"yz529p","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[甲이 A 폭행 후 乙이 의사연락 없이 A 폭행, A가 乙 폭행 피하려 무단횡단 중 차량에 치여 사망]</span> <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§263</strong></span></span> <span class=\"cs-green\"><strong>적용<span class=\"cs-x\"><strong>(X)</strong></span> </strong></span>— <span class=\"cs-green\">乙 폭행과 사망 간 인과관계 판명<span class=\"cs-o\"><strong>(O)</strong></span></span> → <span class=\"cs-green\"><strong>甲 폭행죄 · 乙 폭행치사죄</strong></span><span class=\"cs-exam\">【변20】</span>","k":"uue7es"},
+  {"i":"163jsmg","o":"<div class=\"cs-h\">","h":"Ⅲ. 상해의 동시범 특례 (<span class=\"cs-blue\"><span class=\"cs-u\">§263</span></span>)","k":"wtqet9"},
+  {"i":"1tzghso","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>상해의 결과 발생</strong>","k":"1askb7p"},
+  {"i":"d08d9c","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용범위: 원인행위 <span class=\"cs-def\"><strong>상해·폭행 불문</strong></span> [<span class=\"cs-red\"><strong>상해·폭행치상</strong></span>] —  <span class=\"cs-statute\">'상해와 폭행의 죄'章</span> 규정(<span class=\"cs-blue\"><span class=\"cs-u\">§263</span></span>)","k":"y95x8s"},
+  {"i":"dgo313","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-hl\"><strong>《</strong><span class=\"cs-u\"><strong>상해·폭행치</strong></span><span class=\"cs-u\"><strong>사</strong></span><span class=\"cs-u\"><strong>죄</strong></span><strong>에도 적용되는지 여부》</strong></span>","k":"1umkrqm"},
+  {"i":"1fzxsq2","o":"<div class=\"cs-theory\">","b":[
+   {"i":"1pdimr2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ① <span class=\"cs-u\"><strong>긍정설</strong></span><span class=\"cs-u\">: 상해→사망도 포함</span> ② <strong>부정설</strong>: 유추해석금지 위반 (상해의 결과 ≠ 사망의 결과)","k":"1asf4tw"},
+   {"i":"1ao5dl1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-glabel\"><strong>[긍정설]</strong></span> 시차 있는 독립 상해·폭행 경합 → 사망·원인불명 시 공동정범의 예로 처벌<span class=\"cs-exam\">【변26·20·18】</span>","k":"1k6lurl"},
+   {"i":"137mhjf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 상해치사(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§259</strong></span></span>)·폭행치사(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§262</strong></span></span>) 모두 <span class=\"cs-statute\">‘상해와 폭행의 죄’ 章</span>에 규정 → <strong>긍정설</strong> 타당","k":"tjib8r"}
+  ]},
+  {"i":"ocnf8w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>동시 또는 이시의 독립행위</strong>","k":"1detue9"},
+  {"i":"1kfpd7j","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-hl\"><strong>《'이시'의 독립행위에도 적용되는지 여부》</strong></span>","k":"1bpd6cd"},
+  {"i":"hufd72","o":"<div class=\"cs-theory\">","b":[
+   {"i":"1sxkkdr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ① <span class=\"cs-u\"><strong>긍정설</strong></span><span class=\"cs-u\">: </span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>§263</strong></span></span><span class=\"cs-u\">은 </span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>§19</strong></span></span><span class=\"cs-u\"> 특칙, 이시 제외 이유 X</span> ② <strong>부정설</strong>: 동시 한정","k":"19kbnip"},
+   {"i":"1cudktd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-glabel\"><strong>[긍정설]</strong></span> 시차 있는 독립 상해·폭행 경합 → '사망'·원인불명 시 공동정범의 예로 처벌<span class=\"cs-exam\">【변26·20·18】</span>","k":"1y3d669"},
+   {"i":"1pjoxhl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: <strong>긍정설</strong> 타당","k":"hlgovu"}
+  ]},
+  {"i":"zzl2a2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>강간상해·치상죄, 과실치상죄 등</strong><span class=\"cs-stat\"><strong>: 적용여부 </strong></span>","k":"1xybrkd"},
+  {"i":"16ph35r","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\"><strong>[강간치상]</strong></span> <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§263</strong></span></span> <span class=\"cs-green\"><strong>적용<span class=\"cs-x\"><strong>(X)</strong></span></strong></span> — '상해·폭행죄 특별규정'이므로 보호법익 다른 <span class=\"cs-blue\">강간치상죄</span>엔 적용 부정→ <span class=\"cs-fact-tag\">[각자 강간죄]</span>","k":"15zwl2d"},
+  {"i":"13473ir","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\"><strong>[과실치사]</strong></span> <span class=\"cs-x\"><strong>(X)</strong></span> 선·후 교통사고 중 사망원인 불명 — 후행 운전자 과실·사망 인과관계는 검사 증명책임<span class=\"cs-exam\">【변21·20】</span>","k":"1r91cm0"},
+  {"i":"1uouen3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>동시범 특례의 효과</strong>","k":"1eo0hs1"},
+  {"i":"1mg8g7h","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"공동정범의 예(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§263</strong></span></span>) : 경합 독립행위·결과 간 인과관계 O → <span class=\"cs-red\">[<strong>전원 기수범</strong> 처벌] </span><span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변25】</span>","k":"1mc9n0i"},
+  {"i":"1mki5n7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"독립행위 <span class=\"cs-red\"><span class=\"cs-u\"><strong>일부</strong></span></span> 동시범 특례 <span class=\"cs-u\"><strong>적용 X</strong></span> 시 → <span class=\"cs-red\"><strong>전부</strong></span> 특례 <strong>적용 X </strong>","k":"12kd3g7"},
+  {"i":"1tnxaox","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"ex) 일반상해·폭행치상·강도상해 독립행위 경합: 전부 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§19</strong></span></span>로 미수 적용 → <span class=\"cs-gbg\">[상해미수·폭행·강도상해<strong>미수죄</strong>만</span> <span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-gbg\">]</span><span class=\"cs-exam\">【모사16】</span>","k":"1vnr6l4"},
+  {"i":"16d7xhv","o":"<div class=\"cs-h\">","h":"Ⅳ. 동시범 특례와 증명책임 전환","k":"17bknj9"},
+  {"i":"1wsp6p3","o":"<div class=\"cs-theory\">","b":[
+   {"i":"f8ohz7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: <span class=\"cs-glabel\"><strong>[증명책임전환설]</strong></span> <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§263(상해죄의 동시범 특례)</strong></span></span>은 <span class=\"cs-statute\"><span class=\"cs-u\"><strong>§19(독립행위 경합)</strong></span>의 예외</span> = <span class=\"cs-statute\">증명책임 전환 규정</span><span class=\"cs-glabel\"><strong>(통설)</strong></span> → 피고인이 자기 행위·결과 간 인과관계 부존재 입증해야","k":"fs0m8b"}
+  ]}
+ ]}
+]}

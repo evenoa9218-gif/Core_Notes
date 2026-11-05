@@ -1,0 +1,22 @@
+{"id":"민소060","t":"임의적 당사자변경","cat":"mp_6","lv":1,"tg":["★"],"b":[
+ {"i":"r4tb6j","o":"<div class=\"cs-h\">","h":"Ⅰ. 의의와 법적성질","k":"masiva"},
+ {"i":"1ix7sem","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"'소송계속 중 당사자의 의사에 의하여 ⅰ) 종전의 원고나 피고에 갈음(교환적 변경)하여 제3자를 가입시키거나 ⅱ) 종전의 당사자에 추가(추가적 변경)하여 제3자를 가입시키는 것' — 判例는 임의적 당사자변경 중 피고경정에 대해 신당사자에게는 신소의 제기이고 구당사자에게는 구소의 취하라는 두 개의 복합적 소송행위로 보는 <span class=\"cs-u\"><strong>신소제기·구소취하설(복합설)</strong></span>","k":"8yv7uq"},
+ {"i":"18a3lvd","o":"<div class=\"cs-h\">","h":"Ⅱ. 민사소송법상 임의적 당사자변경","k":"1kkdrza"},
+ {"i":"lbm58z","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>피고의 경정</strong>","k":"gvd46h"},
+ {"i":"q2810f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"(1) <strong>요건</strong>","k":"1qb6hh"},
+ {"i":"107pdec","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"1) 피고경정이 인정되려면 ① 원고가 피고를 잘못 지정한 것이 분명할 것 ② 제1심 변론종결시까지일 것 ③ 피고가 본안에 대해 응소한 때는 피고의 동의가 있을 것 ④ 교체 전후에 소송물이 동일할 것(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§260</strong></span></span>)","k":"up95f6"},
+ {"i":"1cb01d7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"2) 判例(★): 피고를 잘못 지정한 것이 분명한 때란 ① 청구취지·청구원인의 기재 내용 자체로 보아 원고가 법률적 평가를 그르치는 등의 이유로 피고 지정이 잘못된 것이 명백하거나 ② 법인격 유무에 관하여 착오를 일으킨 것이 명백한 경우 등을 말하며 ③ 증거조사를 거쳐 사실을 인정하고 그 인정 사실에 터 잡아 법률판단을 하여야 인정할 수 있는 경우에는 '피고를 잘못 지정한 것이 명백한 때'에 해당한다고 볼 수 없음","k":"uzrrca"},
+ {"i":"1wx0cj1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"3) 判例: 권리능력 없는 사단인 부락의 구성원 중 일부가 제기한 소송에서 당사자인 원고의 표시를 부락으로 정정함은 당사자의 동일성을 해하는 것으로 허용되지 않음 → 원고의 변경은 불허<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1mfv86z"},
+ {"i":"ci7lfo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"(2) <strong>효과</strong>","k":"1qbw8y"},
+ {"i":"17zqm8m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"1) ① '피고경정'은 구소취하·신소제기이므로 경정된 피고에 대한 소제기의 효과(시효중단·기간준수)는 경정신청서 제출시 발생(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§265</strong></span></span>) ② 다만 피고의 '표시정정'의 경우에는 최초 소제기에 의한 시효중단·기간준수의 효과가 있음","k":"6475j0"},
+ {"i":"1mdmz2s","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"2) 구피고와 신피고는 동일성이 없으므로 구피고의 종전 소송수행의 결과는 신피고에게 원칙적으로 효력이 없음 — 다만 신피고가 구피고의 소송수행 결과를 '원용'하면 신피고에게 효력이 있음","k":"1klo6xu"},
+ {"i":"zsxw04","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>필수적 공동소송인의 추가 - </strong><span class=\"cs-blue\"><span class=\"cs-u\"><strong>§68</strong></span></span>","k":"1o2iyq1"},
+ {"i":"cderfs","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"(1) <strong>의의</strong>","k":"1qb2t1"},
+ {"i":"wa6f1m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"필수적 공동소송인의 추가란 '고유필수적 공동소송인 가운데 일부가 누락한 경우 누락된 원고 또는 피고를 추가하는 것'(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§68</strong></span></span>)","k":"1tpdixn"},
+ {"i":"166bbcd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"(2) <strong>요건</strong>","k":"1q91rq"},
+ {"i":"1qb8wj4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"추가적 신청이 허용되려면 ① 고유필수적 공동소송인 중 일부가 누락된 경우일 것 ② 제1심 변론종결시까지 신청할 것 ③ 원고 측 추가는 추가될 당사자의 동의가 있을 것 ④ 종전 당사자와 신당사자 간에 공동소송의 요건을 갖출 것","k":"1o0u3hf"},
+ {"i":"1hm4flm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"(3) <strong>효과</strong>","k":"1qf4pv"},
+ {"i":"1g01uj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"고유필수적 공동소송인의 추가가 허용된 경우 '처음의 소가 제기된 때'에 추가된 당사자와의 사이에 소가 제기된 것으로 봄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§68③</strong></span></span>) → 시효중단·기간준수의 효과는 소제기시에 소급 — 또한 필수적 공동소송인의 추가이므로 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§67①</strong></span></span>에 의해 종전 공동소송인의 소송수행 결과가 '유리한 소송행위'에 해당하는 경우 추가된 당사자에게도 효력이 미침","k":"zsj8oa"},
+ {"i":"3znpmh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§68</strong></span></span><strong>의 추가가 허용되는 범위에 대한 판례의 입장(★)</strong>","k":"y4p01p"},
+ {"i":"48ijzy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 고유필수적 공동소송의 경우 공동소송인이 될 자를 일부 누락하면 당사자적격 흠결로 소가 부적법 각하되기 때문에 이를 방지하기 위해 추가를 인정할 필요가 있으나 ② 통상의 공동소송이나 유사필수적 공동소송의 경우에는 공동소송인을 일부 누락해도 당사자적격 흠결의 문제가 생기지 않아 추가가 허용되지 않음<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1bkfmz5"}
+]}

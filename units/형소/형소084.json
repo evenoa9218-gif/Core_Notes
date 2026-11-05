@@ -1,0 +1,35 @@
+{"id":"형소084","t":"증인 보호를 위한 증인신문 방법","cat":"pro_10","lv":1,"tg":["B급","中","모사24·22"],"b":[
+ {"i":"4vumx3","o":"<details class=\"cs-case\">","b":[
+  {"i":"1ds5sjp","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 보복이 두려워 피고인 면전에서 진술 곤란한 피해자 증인신문</strong></span>","k":"fq4ol7"},
+  {"i":"106rj75","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"10fkk57","o":"<div class=\"cs-fact\">","b":[
+    {"i":"suw4zn","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1q489sd","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"제1심 법원이 피해자 A가 날치기 사건의 피고인 甲의 면전에서는 보복 등에 대한 두려움으로 증인으로서 충분히 진술할 수 없다고 판단. 법원이 A에 대한 증인신문에서 취할 수 있는 조치는? (15점) [아래 본문 요약 기재]","k":"nrvh46"}
+    ]}
+   ]},
+   {"i":"e52pzw","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1t2tcqt","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1cxogvs","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"본문(피고인 퇴정 후 증인신문·중계시설·가림시설·신뢰관계자 동석)을 요약 기재","k":"17cc113"}
+   ]}
+  ]}
+ ]},
+ {"i":"17rowqm","o":"<div class=\"cs-callout\">","b":[
+  {"i":"3ep7ak","o":"<div class=\"cs-h\">","h":"Ⅰ. 피고인 퇴정 후 증인신문","k":"gitsfr"},
+  {"i":"1a0sa2q","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>피고인 퇴정 후 증인신문</strong></span>","k":"1py2z5l"},
+  {"i":"vb68up","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 재판장은 증인·감정인이 <span class=\"cs-red\"><strong>피고인 또는 어떤 재정인의 면전에서 충분한 진술을 할 수 없다고 인정한 때</strong></span>에는 그를 퇴정하게 하고 진술하게 할 수 있음 ② 피고인이 다른 피고인의 면전에서 충분한 진술을 할 수 없다고 인정한 때에도 같음<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§297①)</strong></span></span> — (피고인에 한정되지 않으므로 변호인도 가능)<span class=\"cs-exam\">【모사24·22】</span>","k":"1bydane"},
+  {"i":"1j7a70j","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"피고인을 퇴정하게 한 경우 증인·감정인 또는 공동피고인의 진술이 종료한 때에는 <span class=\"cs-red\"><strong>퇴정한 피고인을 입정하게 한 후 법원사무관등으로 하여금 진술의 요지를 고지</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§297②)</strong></span></span>","k":"1dnjj1l"},
+  {"i":"14ziumv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>반대신문권 보장과 증거능력</strong></span>","k":"2jpcyx"},
+  {"i":"lc0b5a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>§297에 따라 피고인을 퇴정하게 하고 증인신문을 진행하여 직접적인 증인 대면을 제한할 수 있지만, 이러한 경우에도 피고인의 반대신문권을 배제하는 것은 허용되지 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변26·23·22, 모사24·22】</span>","k":"1l1vf2s"},
+  {"i":"uicet1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[변호인 없는 경우 — 변호인이 없는 피고인을 일시 퇴정하게 하고 증인신문을 한 다음 실질적인 반대신문 기회를 부여하지 아니한 채 이루어진 증인의 법정진술]</span> <span class=\"cs-green\"><strong>위법한 증거로 증거능력 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span> → 다만 그 다음 공판기일에서 재판장이 증인신문 결과를 공판조서에 의하여 고지하였는데 피고인이 '변경·이의할 점이 없다'고 진술하여 <span class=\"cs-red\"><strong>책문권 포기 의사를 명시함으로써 하자 치유</strong></span><span class=\"cs-exam\">【변21】</span>","k":"1glfmy6"},
+  {"i":"1mmscol","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-neg-tag\">[변호인 있는 경우 — 피고인 퇴정을 명하고 증인신문을 진행하면서 변호인을 참여시키고 피고인을 입정하게 하여 진술의 요지를 고지한 다음 변호인을 통하여 반대신문 기회를 부여한 경우]</span> 증인신문절차에 <span class=\"cs-red\"><strong>위법 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"c14lwb"},
+  {"i":"1x1a69k","o":"<div class=\"cs-h\">","h":"Ⅱ. 중계시설 또는 가림시설에 의한 신문","k":"kxdk0b"},
+  {"i":"18jp1tj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>피고인 등과의 대면 진술 제한</strong></span>","k":"mckyec"},
+  {"i":"li99bf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[중계장치/가림(차폐)시설]</span> 법원은 <span class=\"cs-red\"><strong>피고인 등과 대면하여 진술할 경우 심리적 부담으로 정신의 평온을 현저하게 잃을 우려</strong></span>가 있다고 인정되는 사람 등을 증인으로 신문하는 경우 상당하다고 인정할 때에는 검사와 피고인 또는 변호인의 의견을 들어 <span class=\"cs-red\"><strong>중계장치에 의한 중계시설 또는 가림시설</strong></span>을 통하여 신문 가능<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§165의2①)</strong></span></span><span class=\"cs-exam\">【모사24·22】</span>","k":"fg70ts"},
+  {"i":"w2vc12","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[변호인 등]</span> §165의2①제3호도 대상을 '피고인 등'이라 규정하므로 법원은 요건 충족시 <span class=\"cs-red\"><strong>피고인뿐만 아니라 검사·변호인·방청인 등에 대하여도 차폐시설을 설치</strong></span>하는 방식으로 증인신문 가능 — 규칙§84의9가 피고인과 증인 사이의 차폐시설만 규정한다고 하여 달리 볼 것 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변22】</span>","k":"aqksib"},
+  {"i":"1xynm3y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[변호인에 대한 차폐시설 설치]</span> 피고인·변호인 모두 증인의 태도 등을 관찰할 수 없어 반대신문권이 제한될 수 있으므로, <span class=\"cs-red\"><strong>이미 인적사항에 관하여 비밀조치가 취해진 증인(특정범죄신고자 등 보호법§7)이 변호인을 대면하여 진술함으로써 신분이 노출되는 것에 심한 심리적 부담을 느끼는 등 특별한 사정이 있는 경우에 예외적으로만 허용</strong></span><span class=\"cs-exam\">【변17】</span>","k":"bwhhsz"},
+  {"i":"vb0h0x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>법정 출석이 어려운 경우</strong></span>","k":"7tnrfd"},
+  {"i":"saxzqa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"법원은 증인이 <span class=\"cs-red\"><strong>멀리 떨어진 곳·교통이 불편한 곳에 살거나 건강상태 등으로 법정에 직접 출석하기 어렵다</strong></span>고 인정하는 때에는 검사와 피고인 또는 변호인의 의견을 들어 <span class=\"cs-red\"><strong>중계장치에 의한 중계시설을 통하여 신문 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§165의2②)</strong></span></span>","k":"9ubs0y"},
+  {"i":"6zscpu","o":"<div class=\"cs-h\">","h":"Ⅲ. 신뢰관계 있는 자의 동석","k":"1l7hdnx"},
+  {"i":"lvejdg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 법원은 피해자를 증인으로 신문하는 경우 증인이 현저하게 불안·긴장을 느낄 우려가 있다고 인정하는 때에는 직권 또는 피해자·법정대리인·검사의 신청에 따라 <span class=\"cs-red\"><strong>신뢰관계자 동석 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span> ② 피해자가 <span class=\"cs-red\"><strong>13세 미만이거나 신체적·정신적 장애로 사물변별·의사결정 능력이 미약한 경우</strong></span>에는 부득이한 경우가 아닌 한 <span class=\"cs-red\"><strong>동석하게 하여야</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§163의2①②)</strong></span></span><span class=\"cs-exam\">【모사24·22】</span>","k":"1hpxezf"}
+ ]}
+]}

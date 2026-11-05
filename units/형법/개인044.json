@@ -1,0 +1,40 @@
+{"id":"개인044","t":"부작위에 의한 사기죄","cat":"gak_사기공갈","lv":1,"tg":["변사15","모사21"],"b":[
+ {"i":"18f86ba","o":"<details class=\"cs-case\">","b":[
+  {"i":"2655wh","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE]</strong></span></span> <span class=\"cs-exam\">【변사15】 </span><span class=\"cs-red\">(10)</span>","k":"13iqon2"},
+  {"i":"d9zjls","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"13vgqdm","o":"<div class=\"cs-fact\">","b":[
+    {"i":"34s2sy","o":"<div class=\"cs-callout\">","b":[
+     {"i":"12zlvo7","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲, 아파트를 A에게 6억 원에 매도하고 계약금 6,000만 원 수령. A가 잔금 지급 시 수표를 잘못 세어 1억 원권 5장 + 1,000만 원권 5장 교부 → 甲은 현장에서 세어보고","k":"v1b0q5"},
+     {"i":"1mhlzky","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"1,000만 원 초과 지급을 알았음에도 돌려주지 않음. 甲의 죄책은? (10점)","k":"ns1ng9"}
+    ]}
+   ]},
+   {"i":"18epyp9","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"mtgz04","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"om4yt2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 매도인이 사실대로 고지했다면 매수인이 초과 교부하지 않았을 것임이 경험칙상 명백 → 잔금을 '교부받기 전 또는 교부받던 중' 알게 되었으면 고지할 신의칙상 의무 有 → 사기죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"aq6edr"},
+    {"i":"1ve37mg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② A가 초과 지급을 알았다면 그 법률행위를 하지 않았을 것이 명백 → 甲은 현장에서 세어보고 초과를 알았으므로 고지의무<span class=\"cs-o\"><strong>(O)</strong></span>","k":"5ytfb6"},
+    {"i":"458pnh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 甲 = 부작위에 의한 사기죄(<span class=\"cs-blue\"><span class=\"cs-u\">제347조</span> 제1항</span>)","k":"1mhq6k"}
+   ]}
+  ]}
+ ]},
+ {"i":"19trzn3","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1tb23wc","o":"<div class=\"cs-h\">","h":"Ⅰ. 부작위에 의한 사기","k":"104fzo6"},
+  {"i":"1wqoh7g","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>부작위 기망</strong></span> = <span class=\"cs-u\">법률상 고지의무 있는 자가 상대방이 착오에 빠져 있음을 알면서 고지 X</span><span class=\"cs-exam\">【변23】</span>","k":"14jmwa9"},
+  {"i":"qpu0kl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-def\"><strong>고지의무</strong></span> = <span class=\"cs-u\">법령·계약·관습·조리 → 거래실정·신의칙으로 결정</span>","k":"11vst4r"},
+  {"i":"1uv9vut","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"상대방이 고지받았더라면 거래에 임하지 않았을 관계 인정 시 → 신의칙상 고지의무<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1chzrgx"},
+  {"i":"i3mcv9","o":"<div class=\"cs-h\">","h":"Ⅱ. 초과 지급된 금원 수령<span class=\"cs-exam\">【변사15】</span>","k":"wq7jiz"},
+  {"i":"145zhdh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"p33g5w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[교부 전/중 인식]</span> 신의칙상 고지의무<span class=\"cs-o\"><strong>(O)</strong></span> → 사기죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"r60wh6"},
+  {"i":"1h38hw7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"↔ <span class=\"cs-gbg\">[교부 완료 후 인식]</span> 편취수단 의미 X → 사기죄<span class=\"cs-x\"><strong>(X)</strong></span> (<span class=\"cs-blue\">점유이탈물횡령죄</span> 별론)","k":"ndy2b0"},
+  {"i":"1sjei4s","o":"<div class=\"cs-h\">","h":"Ⅲ. 목적물의 하자를 고지하지 않은 경우","k":"meroha"},
+  {"i":"1vg8j13","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>판례 법리 (부작위 기망)</strong></span>","k":"1t7bs0l"},
+  {"i":"1qwoiqp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例) : <span class=\"cs-u\">매수인 권리확보 위험 알면서 미고지·계약체결·대금수령</span> + 고지받았다면 계약/지급 안 했을 것 명백 → 신의칙상 고지의무<span class=\"cs-o\"><strong>(O)</strong></span> ↔ 매매 법률관계에 영향 없어 권리실현 장애 안 되는 사유 → 고지의무<span class=\"cs-x\"><strong>(X)</strong></span>","k":"hh9z1h"},
+  {"i":"ebysfr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>구체적 판례</strong></span>","k":"qlhpkc"},
+  {"i":"1pruwk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"bwh99p","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[경매진행중 임대차, 임차인 등기열람 가능]</span> 사기죄<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변21·18·12】</span>","k":"f9gnao"},
+  {"i":"18yap5z","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[도시계획 협의매수·수용 예정 미고지]</span> 부작위 사기죄<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변18·14】</span>","k":"3ntx7h"},
+  {"i":"9b2qta","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[가맹점주 허위 매출전표 미고지·대금청구]</span> 사기죄<span class=\"cs-o\"><strong>(O)</strong></span> — 변제의사·능력 있어도 무방<span class=\"cs-exam\">【변22】</span>","k":"16mbvad"},
+  {"i":"17x8h1m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[이면약정 감춘 채 집단 중도금대출 교섭·수령]</span> 부작위 기망<span class=\"cs-o\"><strong>(O)</strong></span>","k":"r1q0w2"},
+  {"i":"rx1mz6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"↔ <span class=\"cs-gbg\">[이중매매, 제1계약 해제불가 사정 미고지]</span> 기망<span class=\"cs-x\"><strong>(X)</strong></span> — 제2매수인 권리실현 장애 아님 (이중양도담보도 同)","k":"11g5rcx"},
+  {"i":"1ldz17b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-gbg\">[중고차 할부금채무 미고지]</span> 부작위 기망<span class=\"cs-x\"><strong>(X)</strong></span> — 채무 당연승계 아님<span class=\"cs-exam\">【변24·18·13】</span>","k":"molynv"}
+ ]}
+]}

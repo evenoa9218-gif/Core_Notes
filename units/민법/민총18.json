@@ -1,0 +1,15 @@
+{"id":"민총18","t":"기간","cat":"민법총칙 · 제5장 권리의 변동","lv":1,"tg":["제3절 기간"],"b":[
+ {"i":"1apanbg","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"1. 계산 방법","k":"5n7uoi"},
+ {"i":"9cwj74","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"기간 계산 규정(155조~161조)은 <strong>보충규정</strong> — 법령·재판상의 처분·법률행위에 다른 정한 바가 있으면 그에 따르고, 없으면 본절에 의한다(155조)","k":"gt0d6u"},
+ {"i":"h2yd2z","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>자연적 계산법</strong>(156조) : 시·분·초는 <strong>즉시로부터</strong> 기산","k":"1nkbrb5"},
+ {"i":"19od9a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>역법적 계산법</strong>(157조 본문) : 일·주·월·년은 <span class=\"cs-hl\"><strong>초일불산입</strong></span> 원칙 — 기간말일 종료로 만료(159조), 말일이 <strong>토요일·공휴일</strong>이면 익일 만료(161조)","k":"19nmxbj"},
+ {"i":"10mlxs5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>역에 의한 계산</strong>(160조) : ① 주·월·년으로 정한 때에는 역(曆)에 의하여 계산한다 ② 주·월·년의 처음으로부터 기산하지 않는 때에는 최후의 주·월·년에서 <strong>기산일에 해당한 날의 전일</strong>로 만료 ③ 월·년으로 정한 경우 최종의 월에 해당일이 없으면 <strong>그 월의 말일</strong>로 만료","k":"74ol92"},
+ {"i":"11ev8j6","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"2. 예외적 초일산입","k":"fjrg3t"},
+ {"i":"h8i5h7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-star\">★</span><span class=\"cs-exam\">【암기】</span> ① <strong>오전 0시부터 시작</strong>(157조 단서) : 6월 1일 0시부터 3개월 → 8월 31일 오후 12시","k":"9wiaof"},
+ {"i":"eswwpz","o":"<div class=\"cs-ans-in\" style=\"margin-left:16px\">","h":"正辯 : 기산점이 점유개시 같은 사건 발생이라면 0시부터가 아니므로 초일불산입 원칙 적용되고, 가령 법령 시행일 같은 경우는 0시부터이므로 초일산입 예외 적용","k":"1tce1y2"},
+ {"i":"803idd","o":"<div class=\"cs-ans-in\" style=\"margin-left:16px\">","h":"正辯 : '오후 12시' = '24시' = '자정'으로서 만료를 의미하고, 시작을 의미할 때는 같은 시점을 '0시'로 쓸 수 있음 ex. 8월 31일 오후 12시 = 24시 = 자정 = (시작 의미로) 9월 1일 0시","k":"agaf6b"},
+ {"i":"1mmt7b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-star\">★</span><span class=\"cs-exam\">【암기】</span> ② <strong>연령 계산</strong>(158조) : 연령계산에는 <strong>출생일을 산입</strong>한다","k":"varvz7"},
+ {"i":"e5r4q2","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"3. 역산","k":"yi9dad"},
+ {"i":"ibxiza","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"총회 소집통지는 총회일 <strong>1주간 전</strong> 발송 — 총회일 9월 10일이면 9월 2일 오후 12시까지 발송","k":"pj4tch"},
+ {"i":"1knj3rb","o":"<div class=\"cs-ans-in\" style=\"margin-left:16px\">","h":"正辯 : 1주일 전 소집통지는 총회 날짜에서 \"8을 빼고 자정\"이라고 외우기","k":"cuuur2"}
+]}

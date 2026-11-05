@@ -1,0 +1,39 @@
+{"id":"개인064","t":"영업상 주요한 자산에 대한 업무상배임","cat":"gak_횡령배임","lv":1,"tg":["변사23","모사16","모사12"],"b":[
+ {"i":"128ch84","o":"<details class=\"cs-case\">","b":[
+  {"i":"3gd1ur","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE]</strong></span></span> <span class=\"cs-exam\">【변사23】 </span><span class=\"cs-red\">(15)</span>","k":"12gr2u6"},
+  {"i":"1pgpkci","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"ewft1k","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1t8ry0g","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1k2u9go","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"X회사 경쟁사 상무 D가 甲에게 'X회사가 10억 원가량 투입해 새로 개발한 기밀인 메모리칩 도면 파일을 빼내 주면 3억 원을 주겠다'고 제안 → 창업 자금이 부족하던 甲이 승낙 → 09:00경 출근해 도면 파일을 자기 USB에 몰래 복사, 가지고 나와 D에게 넘기고 현금 3억 원 수령.","k":"1td9o34"},
+     {"i":"ix6nl1","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲의 죄책은? (15점) [주거침입 및 특별법위반의 점은 제외함]","k":"26k4c"}
+    ]}
+   ]},
+   {"i":"1wfymnj","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1x8xi7q","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"5kpve0","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [절도죄]</strong></span>","k":"31vo7v"},
+    {"i":"o9lmq5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 메모리칩 도면 파일 = '정보' → 그 자체가 유체물도 관리할 수 있는 동력도 아님 → 재물<span class=\"cs-x\"><strong>(X)</strong></span>(<span class=\"cs-blue\"><span class=\"cs-u\">제346조</span></span>)","k":"2i2s09"},
+    {"i":"9k7jqx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② '정보'를 복사·출력해도 정보 자체가 감소하거나 피해자의 점유· 이용가능성이 감소하지 않음 → 복사·출력 행위로 절도죄 구성<span class=\"cs-x\"><strong>(X)</strong></span>","k":"12s2nfb"},
+    {"i":"1bjisiy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ USB에 복사해 가지고 나왔어도 甲에게 절도죄(<span class=\"cs-blue\"><span class=\"cs-u\">제329조</span></span>)<span class=\"cs-x\"><strong>(X)</strong></span>","k":"k0x12g"},
+    {"i":"1bbgfqf","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [업무상배임죄]</strong></span>","k":"1tcri5s"},
+    {"i":"hcxk0j","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 회사 직원의 무단 자료 반출이 업무상배임죄가 되려면 그 자료가 영업비밀일 필요까지는 없어도, 불특정 다수인에게 공개되지 않아 보유자를 통하지 않고는 통상 입수 불가 + 보유자가 취득·개발에 상당한 시간·노력·비용을 들인 '영업상 주요한 자산'에는 해당해야","k":"l5835a"},
+    {"i":"b5uoex","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 재직 중 영업비밀·영업상 주요한 자산을 무단 반출하면 유출·반출 시에 업무상배임죄 기수","k":"1msy41x"},
+    {"i":"1a58ltz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 10억 원을 투입해 개발한 기밀 도면 파일을 경쟁사에 유출할 의도로 복사·반출 → 반출 시 업무상배임죄(<span class=\"cs-blue\"><span class=\"cs-u\">제356조</span>, <span class=\"cs-u\">제355조</span> 제2항</span>) 기수","k":"f1r6uj"},
+    {"i":"725otv","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(3) [배임수재죄]</strong></span> 경쟁사 상무 D에게서 기밀을 빼내달라는 부정한 청탁을 받고 3억 원 수령 → 배임수재죄(<span class=\"cs-blue\"><span class=\"cs-u\">제357조</span> 제1항</span>) 기수","k":"1lj952b"},
+    {"i":"10f4daw","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(4) [결론]</strong></span> 甲 = 업무상배임죄 + 배임수재죄의 실체적 경합","k":"5emhzv"}
+   ]}
+  ]}
+ ]},
+ {"i":"1pn2qlp","o":"<div class=\"cs-callout\">","b":[
+  {"i":"ptvbbe","o":"<div class=\"cs-h\">","h":"Ⅰ. 영업비밀 또는 영업상 주요 자산","k":"1m51ijm"},
+  {"i":"pefynq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-def\"><strong>[영업상 주요한 자산]</strong></span> 무단 자료 반출이 업무상배임에 해당하려면 영업비밀일 필요는 X, 적어도 불특정다수에 미공개로 보유자 통하지 않고 통상 입수 불가 + <span class=\"cs-u\">보유자가 취득·개발에 상당한 시간·노력·비용 들인 '영업상 주요한 자산'이어야</span><span class=\"cs-exam\">【변사23】</span>","k":"nkkv5l"},
+  {"i":"1sshey8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"1r53wdr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"공지 정보 조합이라도 조합 자체가 업계 미공지·전체로 공지 이상 정보 포함하여 통상 입수 어려우면 공지<span class=\"cs-x\"><strong>(X)</strong></span>","k":"8m06y6"},
+  {"i":"9y3fkh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[가정용 맥주제조기 공정흐름도 = 영업상 주요한 자산 O]</span>","k":"rh5fu1"},
+  {"i":"i6zg3w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"비밀유지조치 없이 판매로 공지된 제품 → 통상적 역설계로 쉽게 입수가능 → 영업상 주요한 자산<span class=\"cs-x\"><strong>(X)</strong></span>","k":"7cd6zv"},
+  {"i":"1lh6q74","o":"<div class=\"cs-h\">","h":"Ⅱ. 기수시기","k":"9y5cxa"},
+  {"i":"ev3ks5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"1qdjs","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[재직중-유출·반출시]</span> 재직 중 유출·이용목적으로 무단 반출 → '유출·반출시' 업무상배임 기수<span class=\"cs-exam\">【변사23】</span>","k":"1ny4z0a"},
+  {"i":"al3ho0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[퇴사시]</span> 적법 반출로 반출 자체는 배임 아니어도, 퇴사 시 반환·폐기의무 있음에도 유출·이용목적으로 반환·폐기 X → '퇴사시' 기수<span class=\"cs-exam\">【변18】</span>","k":"1ts5y4z"},
+  {"i":"1wdcmb8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[퇴사후]</span> ① 퇴사 후에는 타인의 사무처리자 지위 X → 반환·폐기 안 한 영업비밀 유출·이용해도 이미 성립한 배임의 실행행위에 불과 → 별도 <span class=\"cs-green\"><strong>배임<span class=\"cs-x\"><strong>(X)</strong></span></strong></span> ② 제3자가 유출·이용에 공모·가담해도 사무처리자 지위 없으면 배임 공범도 X<span class=\"cs-exam\">【변12】</span>","k":"gocnk"}
+ ]}
+]}

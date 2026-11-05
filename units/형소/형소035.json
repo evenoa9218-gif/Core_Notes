@@ -1,0 +1,31 @@
+{"id":"형소035","t":"별건구속","cat":"pro_04","lv":1,"tg":["下","모사20"],"b":[
+ {"i":"5owqst","o":"<details class=\"cs-case\">","b":[
+  {"i":"52zs3l","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 사기 혐의로 구속하여 살인 자백을 받은 경우</strong></span>","k":"1ruegwl"},
+  {"i":"ai1b17","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1m8c1ht","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1xvdgtl","o":"<div class=\"cs-callout\">","b":[
+     {"i":"jmgd7i","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"검사가 甲의 A에 대한 살인·B에 대한 사기를 수사 중, 살인은 소명 부족으로 영장 발부가 어렵자 증거가 충분한 사기 혐의로 구속영장을 발부받아 살인 혐의를 수사하고 구속상태를 이용해 자백을 받음. 이 자백을 살인의 증거로 쓸 수 있는가? (10점)","k":"xtqvhb"}
+    ]}
+   ]},
+   {"i":"8hb586","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"q9oghb","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"yc7jn8","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [별건구속의 적법여부]</strong> 긍정설, 부정설. 별건구속 = 실질적 영장주의 잠탈 → 부정설 타당","k":"1clm5ku"},
+    {"i":"6xkxy0","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [자백의 증거능력]</strong> 별건구속 위법 → 위법한 구속상태를 이용한 자백 → 위법수집증거배제법칙에 의해 증거능력 X(자백배제법칙설도 있음)","k":"1ywqp8x"}
+   ]}
+  ]}
+ ]},
+ {"i":"z1y7kk","o":"<div class=\"cs-callout\">","b":[
+  {"i":"16jmrf7","o":"<div class=\"cs-h\">","h":"Ⅰ. 별건구속, 여죄수사, 이중구속","k":"a5vrgi"},
+  {"i":"1u60pp4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[별건구속] = 구속요건이 충족되지 않은 본건의 수사에 이용할 목적으로 구속요건이 충족되는 별건으로 구속하는 것</strong></span>","k":"nfzu7e"},
+  {"i":"zufqgt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[여죄수사] = 본건에 대해 구속한 후 그 기회에 다른 범죄를 수사하는 것</strong></span>","k":"n5m5d8"},
+  {"i":"1gvlvfc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[이중구속] = 구속된 피의자 등에 대해 다른 범죄사실로 다시 구속하는 것</strong></span>","k":"1xhy8o8"},
+  {"i":"qtfdoj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[구속기간이 만료될 무렵에 종전 구속영장에 기재된 범죄사실과 다른 범죄사실로 피고인을 구속한 경우]</span> 구속의 효력은 원칙적으로 <span class=\"cs-red\"><strong>구속영장에 기재된 범죄사실에만</strong></span> 미치므로 그 사정만으로는 구속이 <span class=\"cs-green\"><strong>위법 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변13】</span>","k":"1fudy71"},
+  {"i":"l5rkdh","o":"<div class=\"cs-h\">","h":"Ⅱ. 별건구속의 적법성<span class=\"cs-exam\">【모사20】</span>","k":"1fhx9i9"},
+  {"i":"apfvuv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《구속요건이 충족되지 않은 본건의 수사에 이용할 목적으로 구속요건이 충족되는 별건으로 구속하는 것이 적법한지 여부》</strong></span>","k":"1c3qh3l"},
+  {"i":"14rkoue","o":"<div class=\"cs-theory\">","b":[
+   {"i":"i17uuv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 긍정설(별건 구속 자체가 구속의 요건과 절차에 따른 것이라면 탈법적 목적은 문제되지 않아 적법) ② <span class=\"cs-green\"><strong>부정설</strong></span>(실질적으로 영장주의에 반하므로 위법)","k":"1f5t76j"},
+   {"i":"14xaa95","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 – 간접적으로 인정하고 있다고 평가] 피고인이 신용카드사업법위반 등 피의사실로 27일간 구속되었고, 연이어 사기 등 범행으로 구속되어 사기 등 범행으로 구속기소되었지만 결과적으로 위 구속기간이 사기 등 범행사실의 수사에 실질상 이용되었다 하더라도 위 구금일수를 사기죄의 본형에 산입할 수는 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"1thmfke"},
+   {"i":"1jw2b3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: <span class=\"cs-u\">별건구속 후 본건으로 구속하는 것은</span> <span class=\"cs-green\"><strong>구속기간을 제한하는 취지에 반함</strong></span> → <span class=\"cs-green\"><strong>부정설 타당</strong></span>. 부정설에 의하면 별건 구속 중에 수집한 증거는 <span class=\"cs-green\"><strong>위법수집증거</strong></span>","k":"1l20d2t"}
+  ]}
+ ]}
+]}

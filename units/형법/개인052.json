@@ -1,0 +1,81 @@
+{"id":"개인052","t":"신용·직불·현금카드 관련범죄","cat":"gak_사기공갈","lv":1,"tg":["변사18","모사25","모사24","변기20","변기14","모기24","모기21"],"b":[
+ {"i":"oswglt","o":"<details class=\"cs-case\">","b":[
+  {"i":"bgjrqg","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE]</strong></span></span> <span class=\"cs-exam\">【변사18】 </span><span class=\"cs-red\">(20)</span>","k":"v5jqmo"},
+  {"i":"13wk99j","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1poauel","o":"<div class=\"cs-fact\">","b":[
+    {"i":"u1i2j9","o":"<div class=\"cs-callout\">","b":[
+     {"i":"8ehdjc","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"乙, 합의금 마련하려 기숙사 룸메이트 C의 지갑에서 신용카드(현금카드 겸용)를 몰래 꺼내 편의점 앞 현금자동지급기에서 평소 알던 비밀번호로 C 계좌 잔고 전액 300만 원을 인출하고","k":"1ul776d"},
+     {"i":"1e4qoiq","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"200만 원은 현금서비스를 받은 뒤 카드를 제자리에 반환. 乙의 죄책은? (20점)","k":"1pku066"}
+    ]}
+   ]},
+   {"i":"9el4wa","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"aa96fn","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"gn54bk","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [신용카드에 대한 절도죄]</strong></span>","k":"anlj9y"},
+    {"i":"ctztuf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"①·② 타인 신용카드로 현금을 인출해도 카드 자체의 경제적 가치가 인출된 예금액만큼 소모되지 않음 → 일시 사용하고 곧 반환하면 불법영득의사<span class=\"cs-x\"><strong>(X)</strong></span>","k":"dwp7p9"},
+    {"i":"zsnlrg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 곧바로 반환한 이상 신용카드 자체에 대한 절도죄(<span class=\"cs-blue\"><span class=\"cs-u\">제329조</span></span>)<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1rwp28c"},
+    {"i":"16qm3y3","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [신용카드 사용에 관한 범죄]</strong></span>","k":"1encdt4"},
+    {"i":"1c05fha","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(가) [절도죄]</strong>","k":"1qj40a2"},
+    {"i":"1pv7vi1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 절취한 신용카드를 부정사용해 현금자동인출기 에서 예금을 인출하거나 현금서비스를 받으면 관리자의 의사에 반해 그 지배를 배제하고 현금을 자기 지배로 옮긴 것 → 절도죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"nq9bav"},
+    {"i":"lxr75t","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 예금 300만 원 + 현금서비스 200만 원 인출 → 절도죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1jbh3ji"},
+    {"i":"1s6fjav","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(나) [신용카드 사용범죄]</strong>","k":"auo2r2"},
+    {"i":"185ihgv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 여신전문금융업법 <span class=\"cs-blue\"><span class=\"cs-u\">제70조</span> 제1항 제3호</span>","k":"hxt1z8"},
+    {"i":"iirmfb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② '분실 또는 도난된 신용카드'는 점유이탈 카드를 취득하거나 점유를 배제한 자가 반드시 유죄일 것을 요하지 않음 → 카드 절도죄가 성립하지 않아도 신용카드부정사용<span class=\"cs-o\"><strong>(O)</strong></span>","k":"177txni"},
+    {"i":"1ta2kb4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"③ 부정사용 = 신용카드·직불카드의 본래 용법에 따른 사용 → 현금카드 기능으로 '예금'을 인출한 행위는 포함<span class=\"cs-x\"><strong>(X)</strong></span>","k":"jp8rgf"},
+    {"i":"1abtpmr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"④ 절취 카드를 인출기에 넣고 비밀번호를 조작해 '현금서비스'를 받는 행위는 포함<span class=\"cs-o\"><strong>(O)</strong></span>","k":"10nfzo8"},
+    {"i":"128orrt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"⑤ 乙 = 현금서비스 200만 원 부분에 한해 여신전문금융업법위반죄","k":"18bxhwi"},
+    {"i":"nwbyxx","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(3) [결론]</strong></span> 乙 = 500만 원 절도죄 + 현금서비스 200만 원 여신전문금융업법위반죄, 양죄는 보호법익·행위태양이 전혀 달라 실체적 경합","k":"5nztfr"}
+   ]}
+  ]}
+ ]},
+ {"i":"dmtdk8","o":"<div class=\"cs-callout\">","b":[
+  {"i":"xor2fp","o":"<div class=\"cs-h\">","h":"Ⅰ. 여신전문금융업법위반죄 (신용카드·직불카드)","k":"1vt28oo"},
+  {"i":"10h3qs2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>분실·도난, 강취·횡령, 기망·공갈</strong></span>","k":"1aiyx33"},
+  {"i":"1p8a5hx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용범위: <span class=\"cs-def\"><strong>[분실·도난 카드]</strong></span> <span class=\"cs-u\">취득·점유배제 행위자가 반드시 유죄 처벌받을 것 요 X</span> (신용카드 사용절도O)","k":"zukjsr"},
+  {"i":"1o6yaj6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-def\"><strong>[기망·공갈 취득]</strong></span> '자유로운 의사에 의하지 않고 점유 배제'되어 '사실상 처분권 취득'한 카드 의미","k":"reyqwf"},
+  {"i":"1k8ygnv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[피해자가 사용권한 부여한 경우 편취 인정돼도 부정사용 X — 파기된 원심 논리]</span>","k":"1capa86"},
+  {"i":"1uq7u5o","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"alhnq2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-gbg\">[유흥주점 폭행·협박 후 합의금 결제 카드]</span> 부정사용<span class=\"cs-x\"><strong>(X)</strong></span> — 점유가 피해자 의사에 반해 이탈·배제됐다 보기 어려움","k":"fmmsqm"},
+  {"i":"xxm5xa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>부정사용</strong></span>","k":"8ysbit"},
+  {"i":"18khice","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>[본래의 용법]</strong></span> 여전법 <span class=\"cs-blue\"><span class=\"cs-u\">§70</span>①4호</span> '사용' = 강취·횡령·기망·공갈 취득 카드를 <span class=\"cs-u\">진정한 카드로서 '본래의 용법'대로 사용</span><span class=\"cs-exam\">【변사18, 변기14, 모사25, 모기24·12】</span>","k":"6g4f41"},
+  {"i":"1qn45c9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"91h52g","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[현금서비스O]</span> 절취 신용카드 현금인출기 주입·비밀번호 조작해 '현금서비스' → 부정사용 포함 부정사용은 새로운 법익침해로 절도범행 불가벌적 사후행위 아님 → 절도죄와 실체적 경합<span class=\"cs-exam\">【변22, 변사18, 모기24·21】</span>","k":"1f1xnbk"},
+  {"i":"v3rtf5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-gbg\">[예금인출X]</span> 절취 직불카드로 현금지급기서 '예금' 인출 → 부정사용 개념 포함 X<span class=\"cs-exam\">【변22, 변사18, 변기14, 모사25, 모기24·12】</span>","k":"18z616t"},
+  {"i":"1fya5q2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-gbg\">[예금이체X]</span> 예금 계좌이체도 부정사용죄<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변22】</span>","k":"1rzf717"},
+  {"i":"10h9uck","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[제시만·미완성]</span> 대금결제 위해 가맹점 제시+매출전표 서명·교부 일련행위가 '사용' 단순 제시만으론 실행착수일 뿐 사용 완성 X, 카드회사 승인받아도 同","k":"1s3pt3j"},
+  {"i":"x6cce7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:48px\">","h":"<span class=\"cs-gbg\">[절취카드 제시했으나 도난카드 발각돼 매출표 미작성·검거 → 미수]</span> <span class=\"cs-gbg\">[미수범 처벌규정 X]</span><span class=\"cs-exam\">【변18】</span>","k":"gl7pcw"},
+  {"i":"1qgkq64","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[사문서 흡수]</span> 매출표 서명·교부가 사문서위조·동행사 구성요건 충족해도 부정사용죄에 흡수 → 별도 성립 X<span class=\"cs-exam\">【변20·15】</span>","k":"alg0pt"},
+  {"i":"surask","o":"<div class=\"cs-h\">","h":"Ⅱ. 형법상 범죄 (신용·직불·현금카드)","k":"12rh526"},
+  {"i":"3kjgd8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>예금·현금서비스 인출</strong></span>","k":"1sum4qu"},
+  {"i":"1flgvlt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"判例(죄수관계):","k":"1qecrhl"},
+  {"i":"jcak3r","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[공갈]</span> 현금카드 갈취 후 승낙받아 현금 인출 → 단일·계속 범의의 일련행위로 포괄 하나의 공갈죄, 인출을 절도죄로 별도 처단 X<span class=\"cs-exam\">【변18·15·12】</span>","k":"8x928m"},
+  {"i":"5boeqo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[사기]</span> 현금카드 기망 편취 후 현금 인출도 同 (포괄 하나의 사기죄)","k":"119l2uj"},
+  {"i":"6ql8kj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[편취+무권한 인출]</span> 카드 편취해도 명의자가 사용권한 부여한 적 없으면 인출은 별도 절도죄<span class=\"cs-exam\">【모사25】</span>","k":"ygt3eh"},
+  {"i":"s6ejsr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[강도]</span> 현금카드 강취 시 사용승낙 의사표시 볼 여지 X → 강취카드로 예금 인출은 강도죄와 별도 절도죄<span class=\"cs-exam\">【변21·19·15】</span>","k":"14i7xuq"},
+  {"i":"djoj4u","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[절도]</span> 절취 신용카드 부정사용해 현금서비스 인출·현금 취득 → 부정사용죄 + 별도 절도죄, 실체적 경합<span class=\"cs-exam\">【변16·15, 모사25】</span>","k":"vubjgm"},
+  {"i":"1x3nx9m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[컴사X]</span> <span class=\"cs-blue\"><span class=\"cs-u\">§347의2</span></span> 컴사죄 객체는 재산상 이익뿐 → 절취 신용카드로 현금 인출(재물죄)은 컴사죄로 처벌 X<span class=\"cs-exam\">【모사25·24】</span>","k":"ym6s8u"},
+  {"i":"en07f6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>가맹점 사용</strong></span>","k":"p6m4kp"},
+  {"i":"xuwm0c","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"判例(죄수관계):","k":"1qecrhl"},
+  {"i":"1pame8s","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[강도]</span> 강취 신용카드로 정당소지인인양 점주 속여 주류 등 취득 → 부정사용죄와 별도 사기죄","k":"1rahis0"},
+  {"i":"1qcf8ho","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[절도]</span> 절취카드 가맹점 부정사용 반복 → 거래안전·공중신뢰 침해로 포괄일죄 가맹점별 각 사기죄는 실체적 경합이나, 부정사용죄와 사기죄는 법익·태양 달라 실체적 경합 → 부정사용 포괄일죄 취급 지장 X<span class=\"cs-exam\">【변25·22·21】</span>","k":"o5n5xr"},
+  {"i":"19e0o3n","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>계좌이체행위·인터넷뱅킹</strong></span>","k":"2k9itw"},
+  {"i":"1eh7rv7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"1n9rdhq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[계좌이체=컴사]</span> 절취 신용카드로 현금지급기 계좌이체 → 컴사죄 별론, 절취행위로 볼 수 X","k":"1u4n1dx"},
+  {"i":"2loj0x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[인터넷뱅킹]</span> 무권한 인터넷뱅킹으로 타인 예금 자기계좌 이체 → 컴사죄","k":"1og0gex"},
+  {"i":"12vbxp1","o":"<div class=\"cs-h\">","h":"Ⅲ. 신용카드 부정발급","k":"1llyz3c"},
+  {"i":"18u01o5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>'자기명의'로 발급받은 신용카드 사용</strong></span>","k":"f3jjgu"},
+  {"i":"r8v6n","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"1ld16eh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[자기명의 기망발급]</span> 대금결제 의사·능력 없이 카드회사 기망해 발급받은 경우, 자동지급기 인출이든 가맹점 물품구입이든 모두 카드발급에 터잡은 사기 포괄일죄","k":"l277tx"},
+  {"i":"1e45y0t","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[정상발급 후 기망사용]</span> 일시적 자금궁색 아니라 과다부채 누적으로 변제 의사·능력 없음에도 카드 사용 → 사기죄","k":"1hopweo"},
+  {"i":"dlgydo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용범위: 위와 같이 발급받은 카드 사용해도 부정사용죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1sl1xm8"},
+  {"i":"fs8slc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>'타인명의'로 발급받은 신용카드 사용</strong></span>","k":"1yytjva"},
+  {"i":"xajc8t","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"1flxxix","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[현금서비스]</span> 타인명의 모용 발급 카드로 현금서비스 → 카드회사 허용범위 밖, 자동지급기 관리자 의사에 반함 → 절도죄","k":"pax2lx"},
+  {"i":"zszlsi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[자동대출]</span> 모용 발급 카드번호·비밀번호로 ARS·인터넷 신용대출로 이익 취득 → 대출금융기관에 대한 컴사죄<span class=\"cs-exam\">【변19·15·12】</span>","k":"12gboy5"},
+  {"i":"mazg73","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[부정사용죄]</span>","k":"yi0inr"},
+  {"i":"6y0fl9","o":"<div class=\"cs-theory\">","b":[
+   {"i":"8hzb1v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①긍정설 ②부정설","k":"1527pji"},
+   {"i":"1eec5kk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 카드회사 기망 발급은 여전법 <span class=\"cs-blue\"><span class=\"cs-u\">§70</span>①4호</span> '사람 기망 취득'에 해당 X → 부정설 타당 부정설에 의하면 매출전표 서명은 사문서위조·동행사죄 실체적 경합","k":"1kfnr37"},
+   {"i":"120ybu1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[긍정설: 여전법위반죄만 성립]</span>","k":"1e4tbz4"}
+  ]}
+ ]}
+]}

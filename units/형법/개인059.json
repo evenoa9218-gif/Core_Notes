@@ -1,0 +1,78 @@
+{"id":"개인059","t":"명의신탁과 횡령죄","cat":"gak_횡령배임","lv":1,"tg":["변사18","변사15","변사13","모사24","모사23","모사21","모사16","모기22","모기21","모기18"],"b":[
+ {"i":"x21eoq","o":"<details class=\"cs-case\">","b":[
+  {"i":"z27cas","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE(1)]</strong></span></span> <span class=\"cs-red\">(10)</span>","k":"u6wwfb"},
+  {"i":"rfwib0","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1nxu0fa","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1faxx0e","o":"<div class=\"cs-callout\">","b":[
+     {"i":"18a46iy","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲, A와의 명의신탁약정에 따라 A 소유로 등기돼 있던 'X토지'를 자기 명의로 소유권이전 등기 → 자기 명의로 등기돼 있음을 기화로 B에게 매도하고 소유권이전등기 경료.","k":"1hcs2e4"},
+     {"i":"ojue46","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲의 죄책은? (10점)","k":"4x47pd"}
+    ]}
+   ]},
+   {"i":"1xq7ddt","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"243x4","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"10x4zrz","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [A에 대한 횡령죄]</strong></span>","k":"q3sc8y"},
+    {"i":"1gbcdaw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 무효인 명의신탁약정에 따른 신탁자·수탁자 사이의 사실상 위탁관계는 범죄를 구성하는 불법적 관계 → 형법상 보호할 가치 있는 신임<span class=\"cs-x\"><strong>(X)</strong></span> → 수탁자는 신탁자에 대해 '타인의 재물을 보관하는 자'<span class=\"cs-x\"><strong>(X)</strong></span>. 부동산실명법 위반 양자간 명의신탁에서 수탁자가 임의 처분해도 신탁자에 대한 횡령죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"13jti1"},
+    {"i":"1gwx2zb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 甲에게 A에 대한 횡령죄(<span class=\"cs-blue\"><span class=\"cs-u\">제355조</span> 제1항</span>)<span class=\"cs-x\"><strong>(X)</strong></span>","k":"9h5g0s"},
+    {"i":"1qjrr7i","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [B에 대한 사기죄]</strong></span>","k":"4swpvq"},
+    {"i":"gvhc3g","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 명의수탁자가 부동산을 제3자에게 매도한 경우 제3자에게 소유권이전 등기가 경료되어 실질적 재산상 손해<span class=\"cs-x\"><strong>(X)</strong></span> → 제3자에 대한 사기죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1dlk33g"},
+    {"i":"m67y9i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 甲에게 B에 대한 사기죄(<span class=\"cs-blue\"><span class=\"cs-u\">제347조</span> 제1항</span>)<span class=\"cs-x\"><strong>(X)</strong></span>","k":"8wglyw"},
+    {"i":"ufvgc6","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(3) [결론]</strong></span> 甲 = 아무런 죄책도 지지 않음","k":"1xp3e25"}
+   ]}
+  ]}
+ ]},
+ {"i":"1rwe2rf","o":"<details class=\"cs-case\">","b":[
+  {"i":"11ogwdi","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE(2)]</strong></span></span> <span class=\"cs-red\">(10)</span>","k":"1yhejtw"},
+  {"i":"1xbebil","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"os9pvr","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1tbawfz","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1x0ohul","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"C가 乙에게 'Y토지'를 매도, 계약 당시 乙은 C에게 실제 매수인은 D이고 자신은 명의신탁 약정에 따라 D를 대신해 계약을 체결하고 등기만 한다고 알려줌 → 乙이 사업자금이 추가로","k":"d2u2oa"},
+     {"i":"1c4imse","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"필요하자 E에게 Y토지를 매도하고 소유권 이전. 乙의 죄책은? (10점)","k":"1eoxv0o"}
+    ]}
+   ]},
+   {"i":"c9gr1c","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"os05rt","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1qu19l6","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [명의신탁자 D에 대한 죄책]</strong></span>","k":"713gty"},
+    {"i":"o3v7ly","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(가) [횡령죄]</strong> 수탁자 명의 소유권이전등기는 무효이고 소유권은 매도인이 그대로 보유 → 수탁자는 취득 계약의 당사자도 아닌 신탁자에 대해 '타인의 재물을 보관하는 자'<span class=\"cs-x\"><strong>(X)</strong></span> → 처분해도 신탁자에 대한 횡령죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1a7nsrj"},
+    {"i":"1i07n9p","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(나) [배임죄]</strong> 수탁자가 신탁자에게 매매대금 등을 부당이득으로 반환할 의무를 부담해도 '타인의 사무를 처리하는 자'<span class=\"cs-x\"><strong>(X)</strong></span> → 처분해도 배임죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"p9lo0l"},
+    {"i":"1rpd24i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(다) [소결]</strong> 乙 = D에 대해 횡령죄(<span class=\"cs-blue\"><span class=\"cs-u\">제355조</span> 제1항</span>)·배임죄(<span class=\"cs-blue\"><span class=\"cs-u\">제355조</span> 제2항, 제1항</span>) 모두<span class=\"cs-x\"><strong>(X)</strong></span>","k":"cb61sb"},
+    {"i":"1er45bx","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [매도인에 대한 죄책]</strong></span>","k":"z6adl1"},
+    {"i":"1wfgpke","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 말소등기의무의 존재나 수탁자에 '의한' 유효한 처분가능성을 들어 수탁자가 '매도인'에 대해 '타인의 재물을 보관하는 자'·'타인의 사무를 처리하는 자'라고 볼 수<span class=\"cs-x\"><strong>(X)</strong></span>","k":"9k1jl6"},
+    {"i":"ypw63b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 乙 = 매도인 C에 대해 횡령죄(<span class=\"cs-blue\"><span class=\"cs-u\">제355조</span> 제1항</span>)·배임죄(<span class=\"cs-blue\"><span class=\"cs-u\">제355조</span> 제2항, 제1항</span>)<span class=\"cs-x\"><strong>(X)</strong></span>","k":"b4lnde"},
+    {"i":"1s3b956","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(3) [제3자 E에 대한 사기죄]</strong></span>","k":"1p7vipr"},
+    {"i":"w39egi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 명의수탁자가 부동산을 제3자에게 매도한 경우 소유권이전등기가 경료되어 실질적 재산상 손해<span class=\"cs-x\"><strong>(X)</strong></span> → 제3자에 대한 사기죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1cvqbsf"},
+    {"i":"3xm0jr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 乙 = 제3취득자 E에 대한 사기죄(<span class=\"cs-blue\"><span class=\"cs-u\">제347조</span> 제1항</span>)<span class=\"cs-x\"><strong>(X)</strong></span>","k":"zs1r9b"},
+    {"i":"4u1l7w","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(4) [결론]</strong></span> 乙 = 아무런 죄책도 지지 않음","k":"1dsarwh"}
+   ]}
+  ]}
+ ]},
+ {"i":"kjk340","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1f5myqq","o":"<div class=\"cs-h\">","h":"Ⅰ. '유효'한 명의신탁과 횡령","k":"18a20x3"},
+  {"i":"6kz1gt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>명의수탁자의 죄책</strong></span>","k":"1ar25bc"},
+  {"i":"p0vzib","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例) : <span class=\"cs-fact-tag\">[근저당=기수]</span> 보관 부동산에 불법영득의사로 근저당권설정등기 경료 → 횡령행위 기수<span class=\"cs-exam\">【변19·16·15】</span>","k":"1pdcyiu"},
+  {"i":"abd793","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[불가벌적 사후행위 법리]</span> 선행 처분행위로 위험발생·기수 후, 후행 처분이 선행 위험을 현실적 법익침해로 완성하는 수단에 불과하거나 당연 예상될 수 있는 것이면 후행행위는 불가벌적 사후행위 그러나 후행 처분이 예상 못한 새 위험 추가로 위험 증가시키거나 선행과 무관한 방법으로 법익침해 결과 발생시키면 별도 횡령죄","k":"64ur6t"},
+  {"i":"v5fc9x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"790tdm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-neg-tag\">[근저당 후 매각]</span> 근저당설정으로 기수 후 별개 근저당 설정해 위험 추가하거나 매각해 결과 발생시키면 불가벌적 사후행위<span class=\"cs-x\"><strong>(X)</strong></span>, 별도 횡령죄 <span class=\"cs-fact-tag\">[실경]</span><span class=\"cs-exam\">【변26·25·20·16·15】</span>","k":"dykcmy"},
+  {"i":"e8zxfb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[수용보상금+반환거부]</span> 신탁부동산 일부 수용보상금 일부 소비 후 나머지 전체 반환거부 → 새 법익침해로 별개 횡령죄, 불가벌적 사후행위 아님<span class=\"cs-exam\">【변12】</span>","k":"1p8k8kw"},
+  {"i":"5g4xxw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\">상대방의 죄책</span><span class=\"cs-exam\">【변사15·13】</span>","k":"1l0dqmg"},
+  {"i":"15032m8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"12ykbh0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-neg-tag\">[공동정범X]</span> 종중부동산 수탁자(유효신탁) 무단 매각처분 횡령 시 매수인이 정 알아도 수탁자와 '짜고' 불법영득 공모 아닌 한 <span class=\"cs-green\"><strong>횡령죄 공동정범<span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변16·14】</span>","k":"k8d0tf"},
+  {"i":"st9mn5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-neg-tag\">[장물취득X]</span> 유효신탁서 수탁자는 외부관계상 소유자 간주 → 취득 제3자는 정 알든 모르든 <span class=\"cs-green\"><strong>장물취득죄<span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"qlx7cu"},
+  {"i":"1u4utf7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[무효 명의신탁]</span> 수탁자 횡령죄 불성립 → 상대방에 공동정범·장물취득죄 성립 여지 X","k":"1ox6kky"},
+  {"i":"uw163h","o":"<div class=\"cs-h\">","h":"Ⅱ. '무효'인 명의신탁과 횡령죄 (전부 '전단'무죄)","k":"gdkfkb"},
+  {"i":"jue75w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\">양자간 명의신탁</span><span class=\"cs-exam\">【변사13, 모사23, 모기21】</span>","k":"3xyah9"},
+  {"i":"12lrmtd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例) : 무효 명의신탁의 사실상 위탁관계는 부동산실명법 위반 불법적 관계일 뿐 보호가치 신임 X 말소등기의무·유효처분가능성으로도 보관자 지위 X → 양자간 명의신탁 수탁자 임의처분해도 명의신탁자에 대한 <span class=\"cs-green\"><strong>횡령죄<span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변22·14】</span>","k":"18h79lq"},
+  {"i":"1jjqv9e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\">중간생략 명의신탁</span><span class=\"cs-exam\">【변사18·15, 모사24·21·16, 모기22】</span>","k":"1ltis6l"},
+  {"i":"q45xmg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例) : 사실상 위탁관계는 불법적 관계일 뿐 보호가치 신임 X 명의신탁자는 신탁부동산 소유권 없고 위탁신임관계 인정 X → 수탁자는 신탁자 재물 보관자 아님, 임의처분해도 '명의신탁자'에 대한 <span class=\"cs-green\"><strong>횡령죄<span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변26·19·18·17】</span>","k":"1c9odb9"},
+  {"i":"9btoiw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\">매도인 '악의' 계약명의신탁</span><span class=\"cs-exam\">【모사14】</span>","k":"1pyzhr9"},
+  {"i":"tvdgj5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"11m71ct","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[명의신탁자에 횡령·배임X]</span> 부동산실명법 <span class=\"cs-blue\"><span class=\"cs-u\">§4</span>②</span>본문상 수탁자 등기 무효·소유권은 매도인 보유 → 수탁자는 계약당사자 아닌 명의신탁자에 대해 보관자 X, 부당이득 반환의무 있어도 배임 '사무처리자' X<span class=\"cs-exam\">【변15】</span>","k":"olv6j3"},
+  {"i":"dee2l7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[매도인에 횡령·배임X]</span> 말소등기의무·유효처분가능성으로도 '매도인'에 대한 보관자·사무처리자 지위 X<span class=\"cs-exam\">【변15】</span>","k":"19n0iqw"},
+  {"i":"1k05pnc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\">매도인 '선의' 계약명의신탁</span><span class=\"cs-exam\">【모기18】</span>","k":"q8xo7k"},
+  {"i":"6lr4fs","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"1rjgy5e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[명의신탁자에 횡령죄X]</span> 부동산실명법 <span class=\"cs-blue\"><span class=\"cs-u\">§4</span>②</span>단서상 물권변동 유효·명의신탁약정 무효 → 수탁자는 매도인뿐 아니라 신탁자에 대해서도 유효하게 소유권 취득 → 타인 재물 보관자 X<span class=\"cs-exam\">【변17·12】</span>","k":"3nf7sp"},
+  {"i":"1bgl3e1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[명의신탁자에 배임죄X]</span> 선의 소유자와 계약한 계약명의신탁서 수탁자가 신탁자 위해 신탁부동산 관리·무단처분 금지 의무 부담하는 등 사무처리자 지위 X<span class=\"cs-exam\">【변17】</span>","k":"1mzemqm"},
+  {"i":"7l0oga","o":"<div class=\"cs-h\">","h":"Ⅲ. 명의수탁자의 제3자에 대한 사기죄<span class=\"cs-exam\">【모사21】</span>","k":"rfriw8"},
+  {"i":"hqort","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-def\">수탁자가 제3자에 매도·이전등기 시 대외적 처분권한 있음 분명</span>, 제3자도 자기명의 등기로 재산상 손해 없어 고지의무·기망 X → 제3자에 대한 사기죄 성립 여지 X<span class=\"cs-exam\">【변20】</span>","k":"v5qhb9"},
+  {"i":"1xnm38d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"자동차 명의수탁자 처분도 同<span class=\"cs-exam\">【변15】</span>","k":"1b6y5i9"}
+ ]}
+]}

@@ -1,0 +1,21 @@
+{"id":"국가001","t":"직무유기죄","cat":"gak_국가공무원","lv":1,"tg":["B급","변사21"],"b":[
+ {"i":"1lsydpi","o":"<div class=\"cs-callout\">","b":[
+  {"i":"z17qq7","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제122조(직무유기)</strong></span> <span class=\"cs-u\">공무원</span>이 정당한 이유없이 그 직무수행을 <span class=\"cs-blue\"><strong>거부</strong></span>하거나 그 직무를 <span class=\"cs-blue\"><strong>유기</strong></span>한 때에는 <span class=\"cs-red\">1년 이하의 <strong>징역</strong>이나 <strong>금고</strong></span> 또는 <span class=\"cs-red\">3년 이하의 <strong>자격정지</strong></span>에 처한다.","k":"1pvu9t6"}
+ ]},
+ {"i":"mpbw95","o":"<div class=\"cs-h\">","h":"Ⅰ. 일반","k":"th6k6n"},
+ {"i":"1hnme20","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>부진정부작위범</strong></span> <span class=\"cs-u\">— 구체적 직무수행 작위의무 있음에도</span> 직무 버린다는 인식하 작위의무 불이행으로 성립 <span class=\"cs-fact-tag\">[작위·부작위 모두 가능]</span>","k":"1pq3qt"},
+ {"i":"rys0gp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[계속범]</span> 위법한 부작위상태 계속되는 한 가벌적 위법상태 계속 존재 → <span class=\"cs-gbg\">즉시범</span> <span class=\"cs-green\"><strong>아님</strong></span><span class=\"cs-exam\">【변22·20】</span>","k":"1im0955"},
+ {"i":"y205qu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용범위: <span class=\"cs-fact-tag\">[병가중인 자]</span> <span class=\"cs-def\"><span class=\"cs-u\">구체적 작위의무 내지 국가기능 저해에 대한 구체적 위험성 없어</span></span> → <span class=\"cs-green\"><strong>직무유기죄 주체 될 수<span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"1i8668x"},
+ {"i":"pq844t","o":"<div class=\"cs-h\">","h":"Ⅱ. 직무유기","k":"1szdlv3"},
+ {"i":"dibq6n","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"성립요건: 성립하려면 직무내용이 성문 법령상 근거 or 적어도 군대 내 특단의 지시·명령으로 고유의 직무내용 이루어야 <span class=\"cs-fact-tag\">[군형법 </span><span class=\"cs-blue\"><span class=\"cs-u\">§24</span></span><span class=\"cs-fact-tag\"> 관련]</span>","k":"naovgu"},
+ {"i":"7bd2kq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-def\"><span class=\"cs-u\">직무유기 = 법령·내규상 추상적 성실의무 게을리하는 일체 아니라,</span></span> 직장 무단이탈·직무 의식적 포기 등 국가기능 저해·국민 피해 야기 구체적 가능성 있는 경우만","k":"omy0vn"},
+ {"i":"8iagvp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+ {"i":"19g8rb4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[경찰관이 불법체류자 신병 출입국관리사무소 인계 X·훈방·인적사항조차 미기재]</span> <span class=\"cs-red\"><strong>직무유기 성립<span class=\"cs-o\"><strong>(O)</strong></span></strong></span>","k":"1t3bxb4"},
+ {"i":"1fcv8i2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[태만·착각 등으로 직무 성실 수행 X or 소홀 수행]</span> <span class=\"cs-green\"><strong>직무유기죄 성립<span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"cbc6f4"},
+ {"i":"1a6b4au","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"①직무집행 의사로 자신의 직무 수행한 경우 내용 위법 평가만으로 직무유기 성립 X ②지자체장이 전공노 주도 파업 참가 소속 공무원들에 대해 관할 인사위원회 징계의결요구 X하고 자체 인사위원회 징계의결요구·훈계처분 지시 → <span class=\"cs-green\"><strong>직무유기 구성<span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변22·14】</span>","k":"1r1axni"},
+ {"i":"e6r2r2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[교육기관장 등 징계의결 집행]</span> 장애 없는데 통보받은 날부터 법정 시한 지나도록 집행 유보 모든 경우 성립 X, 의식적 방임·포기 해당 경우만 성립","k":"1fj4k6g"},
+ {"i":"tpxb6l","o":"<div class=\"cs-h\">","h":"Ⅲ. 직무유기죄의 죄수관계","k":"n4z4js"},
+ {"i":"1kix6og","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"判例(죄수관계):","k":"1qecrhl"},
+ {"i":"1amq493","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[뇌물수수죄]</span> 경찰관이 오토바이 장기간 반복 보관·반환 처리 및 반환여부 확인 전혀 X ·대가 돈까지 지급받음 → 습득물 처리 지침 직무 의식적 방임·포기, 직무유기 해당 <span class=\"cs-fact-tag\">[판례: 뇌물수수죄와 직무유기죄 실체적 경합 인정, 단 수뢰후부정처사죄 성립 시 그와 상상적 경합]</span><span class=\"cs-exam\">【변사21】</span>","k":"1wdrjtk"},
+ {"i":"p9hudx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[인권옹호직무명령불준수죄]</span> <span class=\"cs-blue\"><span class=\"cs-u\">§139</span></span> 인권옹호직무명령불준수죄와 <span class=\"cs-blue\"><span class=\"cs-u\">§122</span></span> 직무유기죄 구성요건·보호법익 비교 시 법조경합 특별관계로 보기 어렵고 양죄 상상적 경합","k":"1w8fn2v"}
+]}

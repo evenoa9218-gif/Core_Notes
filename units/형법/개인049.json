@@ -1,0 +1,97 @@
+{"id":"개인049","t":"공갈죄","cat":"gak_사기공갈","lv":1,"tg":["변사12","모사20","모사18","모사16","변기13"],"b":[
+ {"i":"emuhdn","o":"<details class=\"cs-case\">","b":[
+  {"i":"12r4bzf","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE]</strong></span></span> <span class=\"cs-exam\">【변사12】 </span><span class=\"cs-red\">(10)</span>","k":"z10btl"},
+  {"i":"do42bx","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"es4o5j","o":"<div class=\"cs-fact\">","b":[
+    {"i":"16joj3z","o":"<div class=\"cs-callout\">","b":[
+     {"i":"kgv6e9","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"乙, 甲에게 5,000만 원을 빌려주고 못 받자 甲에게 전화해 '돈을 갚지 않으면 아들을","k":"17nb8ie"},
+     {"i":"1496jdp","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"등교 길에 유괴할 수도 있다'고 말함 → 甲이 경찰에 신고해 돈은 받지 못함. 乙의 죄책은? (10점)","k":"1wye5wr"}
+    ]}
+   ]},
+   {"i":"1ks3x0g","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1bij77d","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"8h6h2i","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"[변사12 변형]","k":"ql7zy1"},
+    {"i":"1vv93s9","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [공갈죄의 협박]</strong></span>","k":"1nj2ql2"},
+    {"i":"1kbnj73","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 공갈죄의 협박 = 의사결정의 자유를 제한하거나 의사실행의 자유를 방해할 정도로 겁먹게 할 만한 해악의 고지","k":"154oziw"},
+    {"i":"1d5j0jf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② '제3자'에 대한 법익 침해를 내용으로 해도 '피해자 본인과 제3자가 밀접한 관계'에 있어 본인에게 공포심을 일으킬 정도면 협박<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1518yqy"},
+    {"i":"15vvsaf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ '아들을 등교 길에 유괴할 수도 있다' → 공갈죄(<span class=\"cs-blue\"><span class=\"cs-u\">제350조</span> 제1항</span>)의 협박<span class=\"cs-o\"><strong>(O)</strong></span>","k":"d773m4"},
+    {"i":"1duookf","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [공갈죄의 불법영득의사]</strong></span>","k":"10gu5us"},
+    {"i":"izng3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 권리행사 수단으로 해악을 고지한 경우 공갈죄 성부 — 긍정설(갈취의 불법설)/부정설(영득의 불법설), 판례 = 긍정설. 긍정설 타당","k":"1np5xhc"},
+    {"i":"p8ieh0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 5,000만 원 대여금채권이 있어도 사회통념상 허용 범위를 넘는 협박 → 불법영득의사<span class=\"cs-o\"><strong>(O)</strong></span>","k":"78eegp"},
+    {"i":"1glb4ln","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 사회상규에 위배되지 않는 행위에도 해당<span class=\"cs-x\"><strong>(X)</strong></span> → <span class=\"cs-blue\"><span class=\"cs-u\">제20조</span></span>로 위법성 조각<span class=\"cs-x\"><strong>(X)</strong></span>","k":"layc71"},
+    {"i":"2bgvcj","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(3) [결론]</strong></span> 甲의 신고로 돈을 받지 못함 → 乙 = 공갈미수죄(<span class=\"cs-blue\"><span class=\"cs-u\">제352조</span>, <span class=\"cs-u\">제350조</span> 제1항, <span class=\"cs-u\">제25조</span></span>)","k":"hhnvbo"}
+   ]}
+  ]}
+ ]},
+ {"i":"sxm0jm","o":"<div class=\"cs-callout\">","b":[
+  {"i":"btk25i","o":"<div class=\"cs-callout\">","b":[
+   {"i":"1l0y4n1","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제350조(공갈)</strong></span>","k":"1a8i337"},
+   {"i":"57y5qm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 사람을 <span class=\"cs-blue\"><strong>공갈</strong></span>하여 <span class=\"cs-u\">재물의 교부를 받거나 재산상의 이익을 취득한 자</span>는 <span class=\"cs-red\">10년 이하의 <strong>징역</strong></span> 또는 <span class=\"cs-red\">2천만원 이하의 <strong>벌금</strong></span>에 처한다.","k":"vw2zr7"},
+   {"i":"1jhomke","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 전항의 방법으로 제삼자로 하여금 재물의 교부를 받게 하거나 재산상의 이익을 취득하게 한 때에도 전항의 형과 같다.","k":"18180c4"},
+   {"i":"5utuut","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제350조의2(특수공갈)</strong></span>","k":"4e6zxk"},
+   {"i":"so1e1","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"단체 또는 다중의 위력을 보이거나 위험한 물건을 휴대하여 <span class=\"cs-blue\"><span class=\"cs-u\">제350조</span></span>의 죄를 범한 자는 <span class=\"cs-red\">1년 이상 15년 이하의 <strong>징역</strong></span>에 처한다.","k":"1x72t05"},
+   {"i":"11c9z3l","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(폭처법) 제2조","k":"htiyxm"},
+   {"i":"bioamp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 2명 이상이 공동하여 다음 각 호의 죄를 범한 사람은 「형법」 각 해당 조항에서 정한 형의 2분의 1까지 가중한다.","k":"1h3f73z"},
+   {"i":"1rq18uq","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"3<span class=\"cs-stat\">.</span> 「형법」 <span class=\"cs-blue\"><span class=\"cs-u\">제257조</span> 제1항</span>(상해)·<span class=\"cs-blue\">제2항</span>(존속상해), <span class=\"cs-blue\"><span class=\"cs-u\">제276조</span> 제2항</span>(존속체포, 존속감금) 또는 <span class=\"cs-blue\"><span class=\"cs-u\">제350조</span></span>(공갈)의 죄","k":"15201rf"}
+  ]},
+  {"i":"1y9lu0b","o":"<div class=\"cs-h\">","h":"Ⅰ. 공갈 (<span class=\"cs-blue\"><span class=\"cs-u\">§350</span></span>)","k":"1ju57c6"},
+  {"i":"1wvc9py","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>협박</strong></span> = <span class=\"cs-u\">의사결정 자유 제한 또는 의사실행 자유 방해할 정도로 겁먹게 할 해악 고지</span>","k":"eucv2d"},
+  {"i":"h8xay7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용범위: <span class=\"cs-def\"><strong>[적법 O]</strong></span> <span class=\"cs-u\">고지 내용이 위법하지 않아도 해악 될 수 있음</span>","k":"158lezh"},
+  {"i":"6i54q6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>[언어·거동 O]</strong></span> 명시 방법 불요, 언어·거동으로도 가능","k":"8bywl4"},
+  {"i":"hpga3s","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>[간접적 O]</strong></span> 직접 아니어도 제3자 통해 간접적으로도 가능","k":"xigmrj"},
+  {"i":"emckxn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"1phr291","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[불법한 위세 이용]</span> 직업·지위 기해 재물·이익 요구, 불응 시 부당한 불이익 위구심 야기 → 해악의 고지<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1gx6rh2"},
+  {"i":"11dhycu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[소비자불매운동 고지]</span> 전체 법질서상 용인 못할 정도로 사회적 상당성 못 갖추면 강요죄·공갈죄 협박에 포섭 가능","k":"tkmzsj"},
+  {"i":"1jndb4e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[신력·길흉화복]</span> 천재지변·신력·길흉화복도 해악 포함 가능 단 행위자가 이를 사실상 지배·영향 미칠 수 있다고 믿게 하는 명시·묵시 행위 있어야 성립","k":"1mq60ya"},
+  {"i":"sujwx4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-gbg\">[조상천도제 안 지내면 나쁜 일 생긴다 고지·천도비용 수령<span class=\"cs-x\"><strong>(X)</strong></span>]</span>","k":"z02s4x"},
+  {"i":"ss2vut","o":"<div class=\"cs-h\">","h":"Ⅱ. 피공갈자의 처분행위","k":"rnphwy"},
+  {"i":"1e7mqe9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>처분행위</strong></span>","k":"oondo4"},
+  {"i":"j5ibfr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"성립요건: 재산상 이익 공갈죄 = 공갈행위로 피공갈자가 재산상 이익 공여하는 처분행위 있어야","k":"xb1l72"},
+  {"i":"19mxpz3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"1o7n04p","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[부작위 O]</span> 처분행위는 부작위로도 족 → 외포심에 묵인하는 동안 공갈자가 직접 탈취해도 성립 가능","k":"1msyusu"},
+  {"i":"17isctq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-gbg\">[단순도주 X]</span> 피해자 처분행위 없이, 의무 있는 재산상 이익 공여 면하려 폭행·도주로 상대방의 이익 실현에 장애만 발생 → 공갈죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"28q28h"},
+  {"i":"72ktyk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:48px\">","h":"<span class=\"cs-fact-tag\">[택시요금 지급 요구 피해자 때리고 달아난 사안]</span><span class=\"cs-exam\">【변기13】</span>","k":"1uyvxys"},
+  {"i":"1ktxu62","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>삼각공갈</strong></span>","k":"pf13z9"},
+  {"i":"1gdxge4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용범위: 공갈 상대방≠피해자 가능, 단 재물·이익을 처분할 '사실상·법률상 권한 또는 지위'에 있어야","k":"eoq2n3"},
+  {"i":"eij4u1","o":"<div class=\"cs-h\">","h":"Ⅲ. 재물 또는 재산상 이익의 취득","k":"1q6w14c"},
+  {"i":"c6ytrn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\">재물</span><span class=\"cs-exam\">【모사20, 변기26, 모기25】</span>","k":"153rx5"},
+  {"i":"mmfz0a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"1bvjpyi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-neg-tag\">[자기 재물 X]</span> 공갈죄 대상은 타인 재물 → 공갈해 자기 재물 교부받으면 공갈죄<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변22】</span>","k":"10fcjma"},
+  {"i":"mf00d7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[특정된 절취금전]</span> 절취금전만 소지 등 구체적 특정 가능해 명백히 구분되는 예외적 경우 → 절도 피해자 관계서 그 금전은 절도범 타인의 재물이라 할 수 없음<span class=\"cs-exam\">【변18】</span> → 절도 피해자가 절도범 공갈해 그 돈 교부받아도 타인 재물 갈취 아님 → 공갈죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1jo7hqw"},
+  {"i":"1ekuwrs","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>재산상 이익</strong></span>","k":"7bsird"},
+  {"i":"k64c3j","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용범위: 이득액 = 불법영득 대상 재물·이익의 가액, 기수시기 기준 산정, 이후 사정변경(예견 가능해도) 불고려 <span class=\"cs-fact-tag\">[5억 이상 특경법 적용]</span>","k":"10vfbcu"},
+  {"i":"14enswh","o":"<div class=\"cs-h\">","h":"Ⅳ. 재산상 손해의 발생 – 불필요","k":"exepoj"},
+  {"i":"6h37oh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-u\">하자 있는 의사에 기한 재물 교부 자체가 공갈죄 재산상 손해</span> → 전체재산 감소 요구 X","k":"1jskj9f"},
+  {"i":"owtzxn","o":"<div class=\"cs-h\">","h":"Ⅴ. 공갈죄의 착수와 기수","k":"w9d3dj"},
+  {"i":"10ath8r","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[착수]</strong></span> 수단인 폭행·협박 개시된 때","k":"1lxqhy5"},
+  {"i":"2vfdjl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>[기수]</strong></span> 지정 예금구좌에 입금케 하면 자유처분 가능 상태 → 기수<span class=\"cs-exam\">【변23】</span>","k":"1fa0lwh"},
+  {"i":"ar3o94","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>[기수]</strong></span> 부동산 공갈은 소유권이전등기 경료받은 때 기수 (이전등기 서류 교부받은 때 X)","k":"ktnnl7"},
+  {"i":"2nhsvw","o":"<div class=\"cs-h\">","h":"Ⅵ. 권리행사와 공갈죄<span class=\"cs-exam\">【변사12, 모사20·18, 모기25】</span>","k":"r4io4b"},
+  {"i":"1wpp3ag","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>권리행사와 공갈죄</strong></span>","k":"1fxln2x"},
+  {"i":"1ulk59p","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-hl\">《권리행사 수단으로 해악 고지 시 공갈죄 성립여부》</span>","k":"1o7codh"},
+  {"i":"i4sb5u","o":"<div class=\"cs-theory\">","b":[
+   {"i":"1murvav","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①긍정설(불법영득의사=갈취의 불법 → 외관상 권리행사라도 실질 권리남용이면 성립)","k":"9vm5r9"},
+   {"i":"1jbo3qc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"②부정설(불법영득의사=영득의 불법 → 정당한 권리 있으면 강요·폭행·협박죄만 성립, 공갈죄 X)","k":"1uzatkf"},
+   {"i":"fkzwhi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-glabel\">[긍정설]</span> 정당한 권리 실현수단이라도 그 수단·방법이 사회통념상 허용 정도·범위를 넘으면 공갈죄 착수 <span class=\"cs-fact-tag\">[공갈죄 성립]</span><span class=\"cs-exam\">【변17·13】</span>","k":"16hpq3c"},
+   {"i":"hmrj10","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 불법영득의사=갈취의 불법 → 긍정설 타당","k":"1jlkug5"}
+  ]},
+  {"i":"12ynxun","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>정당한 권리자의 권리실행 상당 수단인 경우</strong></span>","k":"lastkd"},
+  {"i":"bhb9co","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"16lnv67","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-neg-tag\">[고소권 행사 수반]</span> 정당한 권리자의 권리실행 수단으로 인정될 여지 있으면, 권리남용 정도의 특별사정 없는 한 공갈죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"zh54q4"},
+  {"i":"1gvri6v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:48px\">","h":"<span class=\"cs-fact-tag\">[합의금 불응 시 불이익 언동·고소했으나 성폭력 성립 미증명이어도 당연히 해악 고지 아님]</span>","k":"1myq96l"},
+  {"i":"6y7n66","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>정당한 권리행사 범위를 넘는 경우</strong></span>","k":"puc1p9"},
+  {"i":"17no0ut","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"8wpzjh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[동거 정산·금전채권 있어도 권리행사 빙자, 사회통념상 용인 어려운 협박]</span> 공갈죄<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【모기25】</span>","k":"1qox8wo"},
+  {"i":"1esxmt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[기망으로 비싸게 매수한 자가 계약 취소 없이 전매차익 받아낼 셈으로 협박]</span> 정당 범위 넘어 공갈죄<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변13】</span>","k":"3jsyl3"},
+  {"i":"tl7or5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[교통사고 손해배상청구권 기화로 운전사 바뀐 것 알고 과다 금원 요구·신고 태도로 외포·교부]</span> 공갈죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"7szng2"},
+  {"i":"6zxjmz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[공사현장서 일행과 집기 손괴·신용 훼손 게시 태도, 원상회복·손배청구권 실현 목적이라도 사회통념 허용범위 넘음]</span> 공갈죄<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변17】</span>","k":"10ocr3v"},
+  {"i":"l359a9","o":"<div class=\"cs-h\">","h":"Ⅶ. 죄수관계","k":"1qghqfp"},
+  {"i":"19yvvvd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"判例(죄수관계):","k":"1qecrhl"},
+  {"i":"1mfdq0m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[공갈죄 포괄일죄]</span> 동일 피해자에 단일·계속된 범의로 범행 → 포괄일죄","k":"j2p726"},
+  {"i":"1thqy16","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[공갈죄와 사기죄]</span> 협박·기망 동시 사용 시 의사형성에 영향 준 요소에 따라 공갈죄 또는 사기죄 / 우열 못 가리면 상상적 경합<span class=\"cs-exam\">【모사16】</span>","k":"dk2e62"},
+  {"i":"1m76v2m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[공갈죄와 횡령죄]</span> 공갈해 재물 교부케 하면 공갈죄 성립, 이후 소비·처분해도 횡령죄 X<span class=\"cs-exam\">【모사16】</span>","k":"1fmztcv"},
+  {"i":"fjje3y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[공갈죄와 협박죄]</span> 수단인 협박은 공갈죄에 흡수 → 별도 협박죄 X","k":"1g9mux8"},
+  {"i":"1bzmx4h","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[공갈죄와 도박죄]</span> 도박행위가 공갈 수단이어도 공갈죄에 흡수 X","k":"o4w0nm"},
+  {"i":"ji61kv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[실체적 경합]</span> <span class=\"cs-fact-tag\">[\"돈 안 주면 도박죄로 신고\" 협박]</span><span class=\"cs-exam\">【변25】</span>","k":"1h7n0ir"}
+ ]}
+]}

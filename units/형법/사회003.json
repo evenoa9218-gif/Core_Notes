@@ -1,0 +1,19 @@
+{"id":"사회003","t":"공전자·사전자기록 위작·변작","cat":"gak_사회","lv":1,"tg":["B급","모사25","모사23"],"b":[
+ {"i":"8v30ll","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1f5f3fa","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제227조의2(공전자기록위작·변작)</strong></span> <span class=\"cs-u\"><strong>사무처리를 그르치게 할 목적</strong></span>으로 <span class=\"cs-u\">공무원 또는 공무소의 전자기록등 특수매체기록</span>을 <span class=\"cs-blue\"><strong>위작</strong></span> 또는 <span class=\"cs-blue\"><strong>변작</strong></span>한 자는 <span class=\"cs-red\">10년 이하의 <strong>징역</strong></span>에 처한다.","k":"19ma0lx"},
+  {"i":"pfsg9x","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제232조의2(사전자기록위작·변작)</strong></span> <span class=\"cs-u\"><strong>사무처리를 그르치게 할 목적</strong></span>으로 권리·의무 또는 사실증명에 관한 <span class=\"cs-u\">타인의 전자기록등 특수매체기록</span>을 <span class=\"cs-blue\"><strong>위작</strong></span> 또는 <span class=\"cs-blue\"><strong>변작</strong></span>한 자는 <span class=\"cs-red\">5년 이하의 <strong>징역</strong></span> 또는 <span class=\"cs-red\">1천만원 이하의 <strong>벌금</strong></span>에 처한다.","k":"417uhm"}
+ ]},
+ {"i":"1weuwgy","o":"<div class=\"cs-h\">","h":"Ⅰ. 사무처리를 그르치게 할 목적","k":"1xsu7zf"},
+ {"i":"dgc7fv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>'사무처리를 그르치게 할 목적'</strong></span> = <span class=\"cs-u\">위작·변작된 전자기록이 사용됨으로써</span> 정보 생성·처리·저장·출력 목적으로 구축·설치한 시스템 운영 주체인 개인 또는 법인의 사무처리를 잘못되게 하는 것","k":"1yii913"},
+ {"i":"rlawwx","o":"<div class=\"cs-h\">","h":"Ⅱ. '타인'의 전자기록등 특수매체기록 (사전자기록)","k":"65rm2y"},
+ {"i":"1w1y1dk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용범위: <span class=\"cs-def\"><strong>[사전자기록]</strong></span> <span class=\"cs-u\">법인이 설치·운영하는 전산망 시스템에 제공되어</span> 정보 생성·처리·저장·출력 이뤄지는 전자기록 등 특수매체기록은 그 법인 임직원과의 관계에서 '타인'의 전자기록 등 특수매체기록 해당<span class=\"cs-exam\">【모사25】</span>","k":"zejuya"},
+ {"i":"1rqrva9","o":"<div class=\"cs-h\">","h":"Ⅲ. 위작의 개념<span class=\"cs-exam\">【모사25·23】</span>","k":"156pry4"},
+ {"i":"el971m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\">《'위작·변작' 개념에 문서의 무형위조가 포함되는지》</span>","k":"5c2d2i"},
+ {"i":"1f9njbz","o":"<div class=\"cs-theory\">","b":[
+  {"i":"o4ki3s","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①공전자·사전자기록 모두 무형위조 포함된다는 포함설 ②공전자기록은 무형위조 포함되지만 사전자기록은 포함되지 않는다는 구별설","k":"k6xxxj"},
+  {"i":"1jvw1wz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-fact-tag\">[判例 무형위조 포함설]</span>","k":"c41n3n"},
+  {"i":"1731va4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"①시스템 설치·운영 주체와의 관계에서 전자기록 생성 관여 '권한 없는 사람'이 전자기록 '작출'하거나 생성 필요 단위정보 '입력'하는 경우는 물론, 시스템 설치·운영 주체로부터 직무범위 내 개개 단위정보 입력 '권한' 부여받은 사람이 그 권한 '남용'해 '허위' 정보 입력함으로써 시스템 설치·운영 주체 의사 반하는 전자기록 생성하는 경우도 공전자기록등위작죄(<span class=\"cs-blue\"><span class=\"cs-u\">§227의2</span></span>) '위작'에 포함<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1jli6xv"},
+  {"i":"19rg4tx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"②이 법리는 사전자기록등위작죄(<span class=\"cs-blue\"><span class=\"cs-u\">§232의2</span></span>) '위작'에도 마찬가지 적용<span class=\"cs-exam\">【변23】</span>","k":"14nk0l6"},
+  {"i":"ucli31","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 위작은 '위조'와 '허위작성' 결합한 것으로 해석 가능하고, 전자기록 작성엔 여러 사람 개입해 작성명의인 개념 상정 어려우므로 → 포함설 타당","k":"komfqe"}
+ ]}
+]}

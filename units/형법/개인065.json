@@ -1,0 +1,23 @@
+{"id":"개인065","t":"이중매매 – 배임죄가 성립하는 유형","cat":"gak_횡령배임","lv":1,"tg":["변사15","모사24","모사21"],"b":[
+ {"i":"8udd9f","o":"<div class=\"cs-h\">","h":"Ⅰ. 부동산 소유권이전등기의무와 배임죄","k":"70j6q7"},
+ {"i":"1yxszgn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\">타인의 사무처리자의 지위 – 진정신분범</span><span class=\"cs-exam\">【모사24】</span>","k":"1ti0r6c"},
+ {"i":"fczhv2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例) : <span class=\"cs-def\"><strong>[제1매수인으로부터 중도금 수령]</strong></span> <span class=\"cs-u\">중도금 지급 등 계약 본격 이행단계</span> → 매도인은 소유권이전의무 벗어날 수 없고 매수인 재산보전 협력할 신임관계 → 그때부터 '타인의 사무처리자' → 이전 전 제3자 처분·등기 시 <span class=\"cs-red\"><strong>배임<span class=\"cs-o\"><strong>(O)</strong></span></strong></span><span class=\"cs-exam\">【변20】</span>","k":"j35fm5"},
+ {"i":"1syr6c4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\">실행의 착수 및 기수</span><span class=\"cs-exam\">【모사24】</span>","k":"1niwrxh"},
+ {"i":"1uv42t9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[착수]</span> 제2매수인으로부터 계약금만 받고 중도금 미수령이면 실행착수<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변20】</span>","k":"1yhmc8c"},
+ {"i":"rxr777","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-def\"><strong>[기수]</strong></span> 제2매수인에 이전등기 마쳐준 때 배임 성립 — 손해에 실해 발생 위험 초래도 포함, 제1매수인 소유권이전등기청구권 이행불능·위험이면 성립<span class=\"cs-exam\">【변25】</span>","k":"72mli1"},
+ {"i":"mmh88b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>타인의 사무처리자의 지위에 관한 구체적 판례</strong></span>","k":"1cvoja8"},
+ {"i":"13wp7za","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"해당여부 判例:","k":"q5qfip"},
+ {"i":"1lssloy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[순위보전 가등기O]</span> 가등기는 손해회복방안일 뿐 물권변동 효력 X → 매도인 소유권이전의무 유지 → 신임관계 전형적·본질적 내용 변경 X → <span class=\"cs-red\"><strong>배임<span class=\"cs-o\"><strong>(O)</strong></span></strong></span>","k":"1b0o3j2"},
+ {"i":"ppb7bm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[서면증여O]</span> 서면증여자는 취소·해제 없는 한 소유권이전의무 벗어날 수 없음 → 타인의 사무처리자 → 제3자 처분·등기 시 <span class=\"cs-red\"><strong>배임<span class=\"cs-o\"><strong>(O)</strong></span></strong></span>","k":"19mw4tb"},
+ {"i":"p6vp55","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[교환O]</span> 교환계약 본격 이행단계 → 이행받은 당사자는 상대방 재산보전 협력할 신임관계","k":"1ujmvmo"},
+ {"i":"10qxnwf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[대물변제약정O]</span> 대물변제'약정'(확정적 소유권이전)도 해제 불가 상태면 <span class=\"cs-red\"><strong>배임<span class=\"cs-o\"><strong>(O)</strong></span></strong></span>","k":"1jl7a0b"},
+ {"i":"1hfdckg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:48px\">","h":"<span class=\"cs-fact-tag\">[① 공사완료로 해제불가한 공사대금채무 변제 위해 빌라 확정 양도 = 대물변제'약정' → 배임 O]</span>","k":"1m6pldy"},
+ {"i":"1j01nap","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:48px\">","h":"<span class=\"cs-gbg\">[② 공사·매수대금 미지급 시 폐기하기로 한 분양계약서 = 대물변제'예약' → 배임 X]</span>","k":"z29mfv"},
+ {"i":"1kd7bbo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-gbg\">[증여X]</span> ① 서면에 의하지 않은 증여는 언제든 해제 가능","k":"1kt6k1g"},
+ {"i":"1vv48lw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:48px\">","h":"② 불륜지속 대가 매매형식 매도증서·공증은 <span class=\"cs-blue\"><span class=\"cs-u\">§103</span></span> 위반 무효 → 각 <span class=\"cs-green\"><strong>배임<span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변20】</span>","k":"dtvirn"},
+ {"i":"cnpp5g","o":"<div class=\"cs-h\">","h":"Ⅱ. 부동산 전세권설정등기의무","k":"pid18v"},
+ {"i":"vujbt5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+ {"i":"1t1e9ia","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[전세권설정계약 중도금까지 받고 임의로 근저당설정등기 경료]</span> 전세금반환채무 담보능력 상실 위험 → <span class=\"cs-red\"><strong>배임<span class=\"cs-o\"><strong>(O)</strong></span></strong></span> <span class=\"cs-fact-tag\">[향후 부정 가능성 있으나 아직 미폐기]</span>","k":"120zu6v"},
+ {"i":"1sqduol","o":"<div class=\"cs-h\">","h":"Ⅲ. 선매수인에게 이행한 경우 후매수인에 대한 배임죄 성립여부","k":"136bukh"},
+ {"i":"1uy6r56","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-u\">① 이중매도 후 매도인이 선매수인에 소유권이전의무 이행</span> → 후매수인 관계에서 위법한 임무위배 X ② 선매수인에 대한 매매가 특별사정으로 사기죄 구성해도 무효·취소 없는 한 선매수인에 대한 소유권이전의무 소멸 X","k":"1fuwqh7"}
+]}

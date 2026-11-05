@@ -1,0 +1,27 @@
+{"id":"형총050","t":"기타 신분","cat":"chong_06","lv":1,"tg":[],"b":[
+ {"i":"mn3iu","o":"<div class=\"cs-h\">","h":"Ⅰ. <span class=\"cs-blue\"><span class=\"cs-u\">제33조</span></span>의 적용 여부","k":"1qee7bv"},
+ {"i":"1d7n5uh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[적용X]</span> <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33</strong></span></span>은 적극적 신분에만 적용, 소극적 신분(불구성적 신분·위법성조각적 신분·책임조각적 신분·형벌조각적 신분)에는 적용 X","k":"182o36n"},
+ {"i":"1axdnh1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[제한적 종속형식]</span> 소극적 신분은 공범종속성 원칙(제한적 종속형식)으로 해결 → 소극적 신분 가진 직접행위자 행위에 비신분자 가담 시, 정범이 소극적 신분 가져 범죄 구성 X(구성요건해당성 없음) → 제한적 종속형식상 비신분자도 범죄 구성 X","k":"1pf8wk4"},
+ {"i":"1y460nz","o":"<div class=\"cs-h\">","h":"Ⅱ. 불구성적 신분","k":"nzpo6y"},
+ {"i":"c4qxbr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[치과기공사 무면허 진료]</span> 치과의사가 환자 대량유치 위해 치과기공사들에게 내원환자 진료행위 지시·각 단독 진료 → 무면허의료행위 교사범 해당<span class=\"cs-exam\">【변21】</span>","k":"1nwmqtc"},
+ {"i":"1kmwld1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[간호사 사망진단]</span> ① 간호사는 의사의 개별적 지도·감독 있어도 사망진단 불가 ② 의사가 간호사에게 사망진단서 작성·유족 교부하게 함 → 간호사 = 의료법위반죄 정범, 의사 = 의료법위반죄 교사범 ③ 정당행위로 위법성 조각 X","k":"1irtfk3"},
+ {"i":"1xbh2y1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[의사·간호사 공모]</span> 의사가 간호사 의료행위 실시에 공모·공동의사에 의한 기능적 행위지배 있으면 의사도 무면허의료행위 공동정범 죄책<span class=\"cs-exam\">【변16】</span>","k":"1hp2zjw"},
+ {"i":"8fc6ln","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[원장 방치]</span> 의원 원장·유일 의사인 피고인이 간호조무사의 무면허 재수술 알면서 월 1,000만원 급여받으며 원장 계속 근무해 무면허의료행위 가능하게 함 → 사무장·간호조무사와 묵시적 의사연결 아래 가담 → 의사인 피고인 무면허의료행위 공동정범 죄책<span class=\"cs-exam\">【변16】</span>","k":"pi1na7"},
+ {"i":"7741wp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[의료기관 개설]</span> 의료인이 비의료인의 의료기관 개설행위에 공모·가공 → 의료법위반죄 공동정범 해당","k":"xw9kwy"},
+ {"i":"1cbq6zi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[약국 개설]</span> 약사법 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§20</strong></span></span>① 위반해 '약사·한약사 아닌 자연인'이 약국 개설 시 처벌(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§93</strong></span></span>①제2호). 약사가 면허증 대여·고용·동업 등으로 비약사 약국 개설 가담 시 약사도 공범 처벌","k":"1seoeb8"},
+ {"i":"1k5izez","o":"<div class=\"cs-h\">","h":"Ⅲ. 책임조각적 신분","k":"11advq4"},
+ {"i":"sllr1t","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>교사·방조범</strong>","k":"4x45sz"},
+ {"i":"1d1jmgk","o":"<div class=\"cs-li cs-issue\" style=\"margin-left:16px\">","h":"가. <strong>비신분자가 신분자를 교사·방조한 경우</strong>","k":"1reoypc"},
+ {"i":"7q66lb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[비신분자 성립]</span> ① 정범인 책임조각적 신분자 행위 = 책임 조각 ② 교사·방조자인 비신분자 = 교사·방조범 성립 (제한적 종속형식)","k":"vx5cn3"},
+ {"i":"1y6s90d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[범인도피교사]</span> 범인이 자신 위해 타인에게 허위자백하게 해 범인도피죄 범하게 함 = 방어권 남용으로 범인도피교사죄 해당, 이 경우 그 타인이 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§151</strong></span></span>②에 의해 처벌 안 받는 친족·호주·동거가족이어도 달리 볼 것 X <span class=\"cs-fact-tag\">[제한적 종속형식, 친족간 특례는 책임조각사유]</span><span class=\"cs-exam\">【변26·23·22·20·17·14·12】</span> [변사26, 모사25·18, 변기25·16]","k":"1qh0jj4"},
+ {"i":"1h0773q","o":"<div class=\"cs-li cs-issue\" style=\"margin-left:16px\">","h":"나. <strong>신분자가 비신분자를 교사·방조한 경우</strong><span class=\"cs-exam\"><strong>【모사25】</strong></span>","k":"3zhi16"},
+ {"i":"1lds0ul","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[비신분자 성립]</span> 책임조각적 신분자가 비신분자 교사·방조 → 비신분자는 책임 조각 X → 범죄 성립","k":"vovmug"},
+ {"i":"22z5fx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-hl\">《비신분자 범행을 교사·방조한 책임조각적 신분자의 책임 조각 여부》</span>","k":"8u3n42"},
+ {"i":"1aaeznz","o":"<div class=\"cs-theory\">","b":[
+  {"i":"1v0cc0k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①책임조각긍정설(책임개별화 원칙 적용, 통설) ②책임조각부정설(책임조각 범위 넘음)","k":"accrsb"},
+  {"i":"130cnih","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-fact-tag\">[책임조각부정설]</span> 범인의 친족이 친족 아닌 자를 교사해 범인 도피하게 한 경우 범인의 친족은 범인도피죄 교사범 죄책 면 X","k":"1ascyft"},
+  {"i":"1shc3q8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 책임조각 신분자라도 타인 시켜 범죄 저지르게 해 새 범인 창조는 기대불가능성 이유 책임조각 인정 취지에 반함 → 책임조각 부정설 타당","k":"j1s6e5"}
+ ]},
+ {"i":"kfmpqq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>공동정범</strong>","k":"bjqbvs"},
+ {"i":"lxod6t","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[정치자금]</span> 정치자금 기부받는 자와 친족관계 있는 자가 친족관계 없는 자와 공모해 정치자금법에 정하지 않은 방법으로 정치자금 기부한 경우, <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33</strong></span></span> 본문 '신분관계로 성립될 범죄에 가공한 행위' 해당 X → 친족관계 있는 자 책임 조각 <span class=\"cs-fact-tag\">[친족관계 없는 자들은 정치자금법위반죄 공동정범 성립]</span>","k":"1courl5"}
+]}

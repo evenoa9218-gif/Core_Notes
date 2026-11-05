@@ -1,0 +1,18 @@
+{"id":"개인074","t":"자동차의 대내적·대외적 소유관계","cat":"gak_기타재산","lv":1,"tg":["변기16"],"b":[
+ {"i":"1o5bged","o":"<div class=\"cs-h\">","h":"Ⅰ. 특별한 약정이 없는 경우","k":"1lthvyh"},
+ {"i":"11p3fcs","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용범위: <span class=\"cs-u\">자동차 소유권 득실변경은 등록으로 효력 발생, 등록 없으면 대외·대내 관계 모두 소유권 취득 X (원칙)</span>","k":"gdke9a"},
+ {"i":"1edzrfh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+ {"i":"tz8c6c","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[타인명의 등록]</span> 담보제공 차량이 타인명의 등록이면 피고인 소유 아님(등록명의자 소유) → 승낙 없이 미리 소지한 보조키로 운전해 감 → <span class=\"cs-blue\">권리행사방해죄</span><span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변21·17·15】</span>","k":"1almjg"},
+ {"i":"xpjck6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[지입]</span> 택시를 회사에 '지입' 운행해도 소유권 보유 약정 등 특별사정 없으면 등록명의 회사 소유 → 승낙 없이 가져감 → 권리행사방해죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1ff5pza"},
+ {"i":"tl8x3w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[미등록]</span> 렌트카회사 공동대표 1인이 미등록 회사보유 차량을 개인 채무담보로 피해자에 넘긴 것을 다른 공동대표(피고인)가 몰래 회수케 함 → ①피해자 점유는 잠정 보호가치 있는 점유에 포함되나 ②미등록 상태라 회사·피고인 소유물 아님 → 권리행사방해죄<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변13】</span>","k":"13lsqap"},
+ {"i":"6ur6i4","o":"<div class=\"cs-h\">","h":"Ⅱ. 특별한 약정이 있는 경우","k":"dctb6u"},
+ {"i":"s9z9ng","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\">소유권 관계 </span><span class=\"cs-def\"><strong>[대내적·대외적 관계 구분]</strong></span>","k":"2zqqb4"},
+ {"i":"1r6aiwj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용범위: <span class=\"cs-u\">등록명의자 아닌 자가 소유권 보유 약정 시 → 내부관계에선 명의자 아닌 자 소유, 제3자 관계에선 등록명의자 소유</span>","k":"1cl12wv"},
+ {"i":"xv6ouo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>대내적 관계</strong></span>","k":"t41o0k"},
+ {"i":"14tm389","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+ {"i":"1stvuc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[증여]</span> 사실혼 피해자에 승용차 증여 후 피해자만 운행·관리, 별거하며 재산분할·위자료 명목으로 피해자 소유키로 → 등록명의(피고인)와 무관하게 내부적으로 피해자 소유 → 피고인이 절취하면 절도죄<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변21】【변기16】</span>","k":"175tibx"},
+ {"i":"1x6l0lg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[명의신탁]</span> 제3자가 명의수탁자로부터 승용차 매도 허락·인감증명 교부받아 명의신탁자 몰래 가져감 → 제3자·명의수탁자 공모·가공 절도죄 공모공동정범 <span class=\"cs-fact-tag\">[면세 위해 甲명의 등록, 수탁자 甲·딸 乙 공모, 甲이 이전서류 교부·乙이 신탁자 A 몰래 가져와 처분]</span><span class=\"cs-exam\">【변14】</span>","k":"114zm6p"},
+ {"i":"lr8kxz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>대외적 관계</strong></span>","k":"h6agig"},
+ {"i":"rpmql","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+ {"i":"1o42bie","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[대외=명의자]</span> 母 A 명의 구입·등록해 명의신탁한 자동차를 甲에 담보제공 후 몰래 가져감 → 甲 관계에서 소유자는 A, 피고인은 소유자 아님 → 甲 점유 자동차 임의로 가져감 → 절도죄<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변20·14】</span>","k":"g7h15n"}
+]}

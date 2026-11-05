@@ -1,0 +1,19 @@
+{"id":"개인003","t":"업무상과실치사상죄","cat":"gak_생명신체","lv":1,"tg":["변22","변17","변18","변24"],"b":[
+ {"i":"c89o5y","o":"<div class=\"cs-h\">","h":"Ⅰ. 업무상과실치상","k":"yzq1y2"},
+ {"i":"1wovuzr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>업무</strong></span>의 개념: <span class=\"cs-def\"><span class=\"cs-u\">사회생활상 하나의 지위로서 계속적으로 종사하는 사무</span> = 안전배려의무 업무 + 생명·신체위험방지의무 업무 모두 포함, 적법성 불요</span>","k":"146q7kq"},
+ {"i":"r0qlin","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"업무해당성 判例:","k":"f35svx"},
+ {"i":"1sydey3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[골프장 캐디]</span> 업무<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1oi7n0x"},
+ {"i":"cf3vfy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[무허가 골재채취업무]</span> 업무<span class=\"cs-o\"><strong>(O)</strong></span> — 허가받은 적법한 업무일 필요 X","k":"1gxmheb"},
+ {"i":"18gqmcp","o":"<div class=\"cs-h\">","h":"Ⅱ. 임대인(건물소유자)·임차인","k":"lvjuzk"},
+ {"i":"1o4o7ed","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"업무상과실치상죄 성부 判例:","k":"oollp0"},
+ {"i":"4mzkd5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[건물소유자→ 비정기 수리·일부임대만 한 경우]</span> 업무<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변22·17】</span>","k":"p5shy2"},
+ {"i":"bhes59","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[3층 건물 소유자인 임대인의 낙하사고방지를 위한 관리의무 소홀, 안전바 미설치 낙하사고]</span> 업무<span class=\"cs-red\"><strong><span class=\"cs-x\"><strong>(X)</strong></span> →</strong> 업무상과실치상죄 후단무죄</span>, <span class=\"cs-green\"><span class=\"cs-u\"><strong>과실치상죄</strong></span>는 별도</span><span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변22·17】</span>","k":"fgknho"},
+ {"i":"1xjekzh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[분전반을 통해 합선 화재사고로 상해]</span>","k":"1li7kiy"},
+ {"i":"1pnusmh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-red\"><strong>임대인</strong></span>: 업무<span class=\"cs-x\"><strong>(X)</strong></span> —<span class=\"cs-green\"><span class=\"cs-u\"><strong>과실치상죄</strong></span></span><span class=\"cs-o\"><strong>(O)</strong></span>는 인정취지","k":"x64m2t"},
+ {"i":"1lgjttw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-red\"><strong>임차인</strong></span>: 과실<span class=\"cs-x\"><strong>(X)</strong></span> — 안전이상 인지하고 있었어도 <span class=\"cs-green\">업무상 주의의무위반 X</span><span class=\"cs-exam\">【변18】</span>","k":"1oe3wjn"},
+ {"i":"gnx3lv","o":"<div class=\"cs-h\">","h":"Ⅲ. 도급인","k":"1drpkho"},
+ {"i":"d5q7ve","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"도급인의 <span class=\"cs-def\"><strong>수급인업무 관련 안전조치 취할 주의의무</strong></span>:","k":"1axfnuu"},
+ {"i":"sj6fbu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\">원칙 : </span><span class=\"cs-x\"><strong>(X)</strong></span>","k":"1k1kesv"},
+ {"i":"ekp35f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-sub\">예외 : </span><span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-def\"> — <span class=\"cs-u\">①법령상 관리·감독의무</span>가 있거나 <span class=\"cs-u\">②도급인이 구체적으로 지시·감독</span>한 특별한 사정이 있는 경우</span><span class=\"cs-exam\">【변18·17】</span>","k":"kwhs5h"},
+ {"i":"kzqxr3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-neg-tag\">[타워크레인 설치작업을 도급, 현장대리인에게 실질적 지휘·감독권한 X]</span> 업무상 주의의무 위반 과실<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변24】</span>","k":"1yuq3ze"}
+]}

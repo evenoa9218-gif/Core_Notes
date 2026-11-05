@@ -1,0 +1,63 @@
+{"id":"형소133","t":"재심사유 — 증거의 신규성과 명백성 (제5호)","cat":"pro_20","lv":1,"tg":["中","변사22","모사19·15"],"b":[
+ {"i":"jdwiju","o":"<details class=\"cs-case\">","b":[
+  {"i":"oftyp2","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(1)] 절도죄(신규성)·업무방해죄(명백성) 재심사유 인정 여부</strong></span>","k":"1c807hx"},
+  {"i":"13qiz30","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"162jiqe","o":"<div class=\"cs-fact\">","b":[
+    {"i":"epx2cu","o":"<div class=\"cs-callout\">","b":[
+     {"i":"w39u86","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲이 절도죄 및 업무방해죄의 경합범으로 기소되어 징역 1년을 선고받고 확정 → ⑴ 절도죄는 실제로 甲이 아닌 동생 A가 진범임을 밝힐 충분한 증거(CCTV 등)를 확보 ⑵ 업무방해죄는 그 당시 영업장에서 근무하다 외국으로 이민 가 진술할 수 없었던 B로부터 뒤늦게 \"甲이 소란·난동을 부린 것을 본 적이 없다\"는 진술서를 제출받음. 甲이 위 2개 범죄에 재심을 청구. 재심사유로 인정되는가? (20점)","k":"1jdps74"}
+    ]}
+   ]},
+   {"i":"gos0dt","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"vj97vs","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1y3ho0i","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [재심사유]</strong> §420제5호","k":"1e6wzof"},
+    {"i":"p6wvl8","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [절도죄 — 증거의 신규성]</strong> 신규성은 확정판결 소송절차에서 발견 못 하였거나 제출할 수 없었던 증거. CCTV는 법원에 새로운 것이나 피고인은 이미 제출할 수 있었음 → 피고인 기준 필요설·불필요설·절충설, 판례는 절충설(과실로 제출 못 한 경우 제외). 甲은 CCTV를 알고도 진술하지 않아 고의·과실 있음 → 신규성 부정, 절도죄 재심사유 X","k":"133xhia"},
+    {"i":"j6lgu3","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [업무방해죄 — 증거의 명백성]</strong> 명백한 증거는 증거가치가 확정판결 증거보다 경험칙·논리칙상 객관적으로 우위. B의 진술서는 정당성이 의심되는 정도이나 법관의 자유심증으로 진실성이 판단될 것이어서 유죄판결을 유지할 수 없을 정도의 고도의 개연성이 인정되기 어려움 → 명백성 부정, 업무방해죄 재심사유 X","k":"s441lg"},
+    {"i":"18gk23c","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(4) [결론]</strong> 절도죄·업무방해죄 모두 재심사유 인정 X","k":"18z8jps"}
+   ]}
+  ]}
+ ]},
+ {"i":"lj09cb","o":"<details class=\"cs-case\">","b":[
+  {"i":"1kscm1e","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(2)] 공범의 무죄판결과 재심사유</strong></span> <span class=\"cs-exam\">【변사22】</span>","k":"9j2zcg"},
+  {"i":"1s25b25","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"iy0vxz","o":"<div class=\"cs-fact\">","b":[
+    {"i":"apy5n3","o":"<div class=\"cs-callout\">","b":[
+     {"i":"9zuumz","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"乙과 丙의 공범사건에 대하여 乙이 먼저 기소되어 유죄판결이 확정된 후 丙이 기소되었는데, 丙에 대해서는 무죄판결이 선고·확정된 경우 乙은 이를 이유로 재심을 청구할 수 있는가? (10점)","k":"13l93mk"}
+    ]}
+   ]},
+   {"i":"1fq5lcg","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"150vymh","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"xq84oi","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [재심사유·학설·판례]</strong> §420제5호 — 공범의 무죄판결과 재심사유에 관해 긍정설·부정설·절충설, 판례는 절충설","k":"20proe"},
+    {"i":"7iw5p1","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [결론]</strong> 丙에 대한 무죄 확정판결 자체는 새롭고 명백한 증거에 해당하지 않음. 다만 丙에 대한 무죄확정판결의 증거자료가 乙에 대한 유죄 확정판결에서 사용하지 못한 새롭고 명백한 증거인 경우에는 재심사유가 될 수 있음","k":"1muopoa"}
+   ]}
+  ]}
+ ]},
+ {"i":"183plv4","o":"<div class=\"cs-callout\">","b":[
+  {"i":"x654jd","o":"<div class=\"cs-h\">","h":"Ⅰ. 제420조 제5호 재심사유","k":"8ua2cs"},
+  {"i":"cblfqw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 유죄를 선고받은 자에 대하여 <span class=\"cs-red\"><strong>무죄·면소</strong></span>를 ② 형의 선고를 받은 자에 대하여 <span class=\"cs-red\"><strong>형의 면제 또는 원판결이 인정한 죄보다 가벼운 죄를 인정할 '명백한 증거'가 새로 발견된 때</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§420제5호)</strong></span></span>","k":"ag7er"},
+  {"i":"6htbs7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[별개의 경한 죄]</span> '원판결이 인정한 죄보다 경한 죄'란 <span class=\"cs-red\"><strong>원판결에서 인정한 죄와는 별개의 경한 죄</strong></span>를 말하고, 원판결이 인정한 죄 자체에는 변함이 없고 양형상의 자료에 변동을 가져오는 사유에 불과한 경우는 X(필요적·임의적 감경사유 X)<span class=\"cs-exam\">【변20】</span>","k":"4lc7co"},
+  {"i":"1xdf2ku","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[공소기각 X]</span> 동일한 죄에 대하여 공소기각을 선고받을 수 있는 경우는 <span class=\"cs-green\"><strong>'원판결이 인정한 죄보다 경한 죄'에 해당 X</strong></span>","k":"oqbbc5"},
+  {"i":"1fp6m28","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[필요적 면제 한정]</span> '형의 면제'란 <span class=\"cs-red\"><strong>형의 필요적 면제의 경우만을 말하고 임의적 면제는 해당 X</strong></span>(임의적 감면사유인 자수·자복 X)<span class=\"cs-exam\">【변14】</span>","k":"1ism2bt"},
+  {"i":"oomm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[포괄일죄 중 일부무죄 X]</span> 포괄일죄의 일부에 무죄를 선고하여야 할 증거는 <span class=\"cs-green\"><strong>유죄 자체에는 변함이 없어 경한 죄에 해당한다고 할 수 없으므로 재심요건 X</strong></span>","k":"1ecj2hv"},
+  {"i":"16de8qp","o":"<div class=\"cs-h\">","h":"Ⅱ. 증거의 신규성","k":"boc52q"},
+  {"i":"n4exk7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>증거가 새로 발견되었을 때</strong></span>","k":"a142ic"},
+  {"i":"18ask4h","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[신규성]</span> '증거가 새로 발견된 때'란 <span class=\"cs-red\"><strong>확정판결의 소송절차에서 발견되지 못하였거나 발견되었어도 제출할 수 없었던 증거로서 새로 발견하였거나 비로소 제출할 수 있게 된 때</strong></span><span class=\"cs-exam\">【변25】</span>","k":"1xqw9xw"},
+  {"i":"jsf4w9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"형벌 법령이 당초부터 헌법에 위배되어 위헌·무효라고 선언한 때에도 이에 해당","k":"1lquum6"},
+  {"i":"9joe15","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>증거의 신규성을 판단하는 기준</strong></span><span class=\"cs-exam\">【모사15】</span>","k":"t8tmjg"},
+  {"i":"1oddid7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"새로운 증거는 <span class=\"cs-red\"><strong>법원에 대해 신규성을 요하고 검사에 대해서는 신규성을 요하지 않으나, 피고인에 대해 새로운 것이어야 하는지</strong></span> 문제","k":"1knfao8"},
+  {"i":"1g2nbm8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-green\"><strong>필요설</strong></span>(피고인에게도 새로울 것) / <span class=\"cs-green\"><strong>불필요설</strong></span>(법원에 대해서만 새로우면 족함) / <span class=\"cs-red\"><strong>절충설</strong></span>(원칙적으로 피고인에게 새로울 필요 없으나 고의·과실로 제출하지 않은 경우 신규성 부정)","k":"1fvozts"},
+  {"i":"h965fr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 절충설] §420제5호가 그 범위를 제한하고 있지 않으므로 대상을 법원으로 한정할 것은 아니나, 피고인이 재심을 청구한 경우 확정판결의 소송절차 중에 그러한 증거를 제출하지 못한 데 '과실'이 있는 경우에는 그 증거는 '증거가 새로 발견된 때'에서 제외</strong></span> → 재심은 예외적 비상구제절차인데 피고인이 제출할 수 있었던 증거까지 포함하면 확정력이 증거제출시기에 따라 손쉽게 부인되어 법적 안정성을 해치므로 <span class=\"cs-red\"><strong>절충설 타당</strong></span><span class=\"cs-exam\">【변24·22·19 빈출】</span>","k":"sc926n"},
+  {"i":"1dd64vd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>종전의 증언을 번복하는 진술</strong></span>","k":"1naztoo"},
+  {"i":"1c8rzym","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"유죄 확정판결의 근거가 된 증언을 한 증인이 그 내용을 번복하는 진술을 한 경우가 '증거가 새로 발견된 때'에 해당하는지 — <span class=\"cs-green\"><strong>부정설</strong></span>(§420제2호는 별론, 제5호 신규성 X) / <span class=\"cs-green\"><strong>긍정설</strong></span>","k":"mj3omc"},
+  {"i":"xwck0b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 부정설] 확정판결의 소송절차에서 이미 증거로 조사·채택된 증인이 판결확정 후 전의 진술내용을 번복함과 같은 것은 이에 해당 X</strong></span> → 번복진술은 원판결에서 실질적 판단을 한 증언과 같은 증거이므로 <span class=\"cs-red\"><strong>부정설 타당</strong></span>","k":"1xq8mmu"},
+  {"i":"1uv5m6y","o":"<div class=\"cs-h\">","h":"Ⅲ. 증거의 명백성","k":"1kgndbt"},
+  {"i":"1w44h11","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>명백성의 의미</strong></span>","k":"scoy60"},
+  {"i":"be0j03","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>'명백한 증거가 새로 발견된 때'란 그 증거가치가 확정판결이 사실인정의 자료로 한 증거보다 경험칙·논리칙상 객관적으로 우위에 있다고 보여지는 증거를 의미하고, 법관의 자유심증에 의하여 증거가치가 좌우되는 증거를 말하는 것이 아님</strong></span>","k":"fpuifw"},
+  {"i":"yfgaqi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[고도의 개연성]</span> 단순히 유죄 확정판결의 정당성이 의심되는 수준을 넘어 <span class=\"cs-red\"><strong>그 판결을 그대로 유지할 수 없을 정도로 고도의 개연성이 인정되는 경우</strong></span>라면 명백한 증거에 해당","k":"1aghtj9"},
+  {"i":"1js27gb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>명백성의 판단 방법</strong></span>","k":"1fdf7lo"},
+  {"i":"1bvavdo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-green\"><strong>단독평가설</strong></span>(새 증거만으로) / <span class=\"cs-red\"><strong>제한평가설</strong></span>(새 증거+유기적 관련 있는 구증거) / <span class=\"cs-green\"><strong>종합평가설</strong></span>(유기적 관련 불문 구증거 종합)","k":"1soqcen"},
+  {"i":"1u7sih8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 제한평가설] 새로 발견된 증거만을 독립적·고립적으로 고찰하여 그 증거가치만으로 판단할 것이 아니라, 확정판결을 선고한 법원이 사실인정의 기초로 삼은 증거들 가운데 새로 발견된 증거와 유기적으로 밀접하게 관련되고 모순되는 것들은 함께 고려하여 평가</strong></span><span class=\"cs-exam\">【변14】</span>","k":"mz8qxm"},
+  {"i":"4drjvz","o":"<div class=\"cs-h\">","h":"Ⅳ. 공범의 무죄판결과 재심사유<span class=\"cs-exam\">【변사22, 모사19】</span>","k":"1vuoq58"},
+  {"i":"tr6fqa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"공범에 대한 무죄판결 그 자체가 새롭고 명백한 증거인지 문제 — <span class=\"cs-green\"><strong>긍정설</strong></span>(모순판결 자체가 명백한 증거) / <span class=\"cs-green\"><strong>부정설</strong></span>(증명력 평가 차이에 불과) / <span class=\"cs-red\"><strong>절충설</strong></span>(무죄판결의 기초가 된 증거가 유죄판결에서 사용하지 못한 새롭고 명백한 증거인 경우에 한해 재심이유)","k":"yq0unq"},
+  {"i":"18so8pp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 절충설] 공범자 중 1인에게 무죄, 다른 1인에게 유죄의 확정판결이 있는 경우, 무죄확정판결의 증거자료를 자기의 증거자료로 하지 못하였고 또 새로 발견된 것이 아닌 한, 무죄확정판결 자체만으로는 유죄확정판결에 대한 새로운 증거로서의 재심사유에 해당한다고 할 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span> → 공범의 무죄판결 자체는 증거가 아니므로 그 무죄판결에 사용된 증거가 신규성·명백성이 있는 경우에 한해 재심이유가 된다는 <span class=\"cs-red\"><strong>절충설 타당</strong></span>","k":"4og7cl"}
+ ]}
+]}

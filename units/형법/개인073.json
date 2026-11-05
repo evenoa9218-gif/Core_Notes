@@ -1,0 +1,28 @@
+{"id":"개인073","t":"재물손괴죄","cat":"gak_기타재산","lv":1,"tg":["A급","모사24","모기23"],"b":[
+ {"i":"s0z7nu","o":"<div class=\"cs-callout\">","b":[
+  {"i":"2gjdik","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제366조(재물손괴등)</strong></span>","k":"5qv666"},
+  {"i":"1003sbo","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-u\">타인의 재물, 문서 또는 전자기록등 특수매체기록</span>을 <span class=\"cs-blue\"><strong>손괴</strong></span> 또는 <span class=\"cs-blue\"><strong>은닉</strong></span> 기타 방법으로 그 <span class=\"cs-u\">효용을 해한</span> 자는 <span class=\"cs-red\">3년이하의 <strong>징역</strong></span> 또는 <span class=\"cs-red\">700만원 이하의 <strong>벌금</strong></span>에 처한다.","k":"zumghz"},
+  {"i":"gzmedd","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제369조(특수손괴)</strong></span>","k":"1adstgx"},
+  {"i":"qqouc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 단체 또는 다중의 위력을 보이거나 위험한 물건을 휴대하여 <span class=\"cs-blue\"><span class=\"cs-u\">제366조</span></span>의 죄를 범한 때에는 <span class=\"cs-red\">5년 이하의 <strong>징역</strong></span> 또는 <span class=\"cs-red\">1천만원 이하의 <strong>벌금</strong></span>에 처한다.","k":"1ov3k7c"}
+ ]},
+ {"i":"1wx1rzx","o":"<div class=\"cs-h\">","h":"Ⅰ. 타인소유의 재물","k":"vkw12v"},
+ {"i":"1mb56b6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용범위: <span class=\"cs-def\"><strong>[공유물]</strong></span> <span class=\"cs-u\">절도죄·횡령죄·재물은닉죄에서 공유물은 해당 범죄 객체인 '타인의 재물'에 속함</span>","k":"1b5ts31"},
+ {"i":"e0jw9e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+ {"i":"1be7o60","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[철거예정 아파트O]</span> 재건축 철거예정·전원 이주해 무거주 아파트도 재물손괴죄 객체<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변22】</span>","k":"ei9590"},
+ {"i":"1l0ludm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[부패 포도주원액O]</span> 원료 효용가치 상실됐으나 식초 제조 등 다른 용도 사용 가능하면 재물손괴죄 객체<span class=\"cs-o\"><strong>(O)</strong></span>","k":"arc68n"},
+ {"i":"1blgtjn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[식재 수목]</span> 타인 토지에 수목 식재 당시 소유권자로부터 명시·묵시 승낙·동의·허락 받았으면 민법 <span class=\"cs-blue\"><span class=\"cs-u\">§256</span></span> 부합 예외의 '권원' 해당 → 수목은 토지에 부합 X, 식재자 소유 <span class=\"cs-gbg\">[승낙·무상사용 허락 가능성 배제 곤란→절단 수목이 피해자 소유라 볼 수 없음→특수재물손괴죄 X]</span>","k":"nlv6as"},
+ {"i":"1eo92pz","o":"<div class=\"cs-h\">","h":"Ⅱ. 손괴, 은닉, 기타 방법","k":"wauw23"},
+ {"i":"1q9gjuj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>'기타 방법'</strong></span> = <span class=\"cs-u\">손괴·은닉에 준하는 정도 유형력 행사로 재물 효용 해하는 행위</span>","k":"6jhdzi"},
+ {"i":"nihuv2","o":"<div class=\"cs-h\">","h":"Ⅲ. '재물'의 효용 침해","k":"1hew9y4"},
+ {"i":"xrpl6u","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[감정상O]</strong></span> <span class=\"cs-def\"><strong>'효용을 해한다'</strong></span> = <span class=\"cs-u\">사실상·'감정상' 본래 사용목적에 제공 못하는 상태로 만드는 것</span>","k":"90ksgz"},
+ {"i":"cvtrp8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>[일시적O]</strong></span> '일시적'으로 이용·구체적 역할 못하게 하는 것도 포함","k":"1sm2geq"},
+ {"i":"ynwzya","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+ {"i":"1hazkjz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[차량 구조물]</span> ①차량 앞뒤에 제거 어려운 철근콘크리트 구조물 바짝 붙임 = 유형력 행사(기타 방법) ②물리적 훼손·기능 멸실 없어도 운행 불가로 일시적 사용목적 이용 불가케 한 이상 효용 침해<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변24】</span>","k":"1m1fvp1"},
+ {"i":"10fiob9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[자동문 수동화]</span> 자동문을 수동으로만 개폐 가능케 해 자동잠금장치 역할 못하게 함 → 재물손괴죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"sqdhko"},
+ {"i":"14qphn1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[낙서·계란]</span> ①래커스프레이로 외벽·벽면 낙서 → 효용 침해<span class=\"cs-o\"><strong>(O)</strong></span> ②계란 30여개 투척 → 효용 침해<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변24】【모사24】</span>","k":"1ge4aw7"},
+ {"i":"170qj3j","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[게시 문서]</span> ①소유자 의사로 게시된 문서를 의사에 반해 떼어내어 종래 이용상태 변경·일시 이용 불가케 하면 문서손괴죄 가능 ②종래 사용상태가 소유자 의사에 반해·무관하게 이뤄진 경우 이를 제거·변경만 할 뿐 새로 사용 지장 초래 않으면 사용가치 해한 것 아님 → 문서손괴죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"57jyif"},
+ {"i":"f5g62o","o":"<div class=\"cs-h\">","h":"Ⅳ. 불법영득의사의 부존재","k":"o185j1"},
+ {"i":"129fr5r","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"재물손괴죄(<span class=\"cs-blue\"><span class=\"cs-u\">§366</span></span>)는 이용·처분 의사(불법영득의사) 없다는 점에서 절도·강도·사기·공갈·횡령 등 영득죄와 구별","k":"1uajhkd"},
+ {"i":"6if17k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+ {"i":"vpyx1q","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[무단 사용·수익]</span> ①타인 소유물을 본래 용법대로 무단 사용·수익 = 소유자 배제·이용가치 영득, 소유자가 효용 못 누려도 '효용 자체' 침해 아님 → 재물손괴죄<span class=\"cs-x\"><strong>(X)</strong></span> ②타인 토지에 무단 건물 신축 = 이미 대지화된 토지를 부지로 사용·수익해 소유자가 효용 못 누리게 한 것일 뿐, 토지 효용 해친 것 아님 → 재물손괴죄<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변24】【모기23】</span>","k":"1cysjnt"}
+]}

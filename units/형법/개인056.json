@@ -1,0 +1,14 @@
+{"id":"개인056","t":"착오 송금과 횡령죄","cat":"gak_횡령배임","lv":1,"tg":["변사20","변기26"],"b":[
+ {"i":"km4bh8","o":"<div class=\"cs-h\">","h":"Ⅰ. 착오송금과 횡령죄<span class=\"cs-exam\">【변사20】</span>","k":"i6vygw"},
+ {"i":"15wppmk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-fact-tag\">[횡령O]</span> <span class=\"cs-def\">착오로 잘못 송금·입금된 경우</span> 예금주-송금인 사이 신의칙상 보관관계 성립 → 임의인출·소비는 <span class=\"cs-red\"><strong>횡령죄<span class=\"cs-o\"><strong>(O)</strong></span></strong></span>, 거래관계 없어도 同<span class=\"cs-exam\">【변19·16·14】</span>","k":"14abrzy"},
+ {"i":"1v3ixve","o":"<div class=\"cs-h\">","h":"Ⅱ. 착오로 송금된 금원을 반환하지 않고 '상계'한 경우","k":"14avz1w"},
+ {"i":"zgq71i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-def\">'반환거부'가 횡령이려면 단순 거부론 부족</span>, 거부행위가 횡령행위와 같다고 볼 정도여야","k":"1pgsouc"},
+ {"i":"fpys1k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"반환거부에 정당한 이유 있으면 불법영득의사 X","k":"1seyxos"},
+ {"i":"1lrna6i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"착오송금 시 신의칙상 보관관계 성립하나, 착오송금 금전이 용도특정 위탁금전과 동일하다거나 수취인에게 금전수수 수반 사무처리 위임했다 볼 수 없어 상계권 행사가 위임취지에 반한다 평가 X","k":"1kplk8v"},
+ {"i":"1mmrahl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+ {"i":"1h2fgye","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[X회사 대표 甲이 A 착오송금 500만원 중 X의 A에 대한 채권액 100만원 반환거부]</span> 정당한 상계권 행사 → <span class=\"cs-green\"><strong>불법영득의사<span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변24】</span>","k":"1fx7y0w"},
+ {"i":"1nniaip","o":"<div class=\"cs-h\">","h":"Ⅲ. 가상자산 착오 이체","k":"1y0nfwl"},
+ {"i":"ditrkm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+ {"i":"1ta602x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[횡령X]</span> 비트코인은 유체물·관리가능 동력 아니고, 가치변동 크고 강제통용력 없어 화폐가치를 법률상 지배한다 볼 수 없어 재물 X → <span class=\"cs-green\"><strong>횡령죄<span class=\"cs-x\"><strong>(X)</strong></span></strong></span> <span class=\"cs-fact-tag\">[전단무죄]</span><span class=\"cs-exam\">【변25, 변기26】</span>","k":"1hti7wn"},
+ {"i":"1b0h4f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[배임X]</span> 착오·시스템 오류로 법률상 원인 없이 가상자산 이체받은 자는 신임관계 기초 보존·관리 지위 X → <span class=\"cs-green\"><strong>배임죄<span class=\"cs-x\"><strong>(X)</strong></span></strong></span> 착오송금 횡령 판례 유추해 신의칙으로 배임 처벌은 죄형법정주의 위반<span class=\"cs-exam\">【변25·24, 변기26】</span>","k":"1phdlzi"}
+]}

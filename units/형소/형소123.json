@@ -1,0 +1,55 @@
+{"id":"형소123","t":"불이익변경금지 원칙의 구체적 사안","cat":"pro_19","lv":1,"tg":["上","변사22","모사20 빈출"],"b":[
+ {"i":"1fj0tor","o":"<details class=\"cs-case\">","b":[
+  {"i":"2jqsau","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 동일 징역형에 벌금 병과 + 집행유예 추가</strong></span> <span class=\"cs-exam\">【변사22】</span>","k":"co1zpg"},
+  {"i":"11nmgjh","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"x4hx9z","o":"<div class=\"cs-fact\">","b":[
+    {"i":"g543rj","o":"<div class=\"cs-callout\">","b":[
+     {"i":"mylrsw","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"제1심이 乙에 대한 공소사실을 전부 유죄로 인정하여 乙에게 징역 2년 6월 및 추징 40,000,000원 선고 → 乙만 항소 → 항소심이 사실인정을 1심보다 중하게 변경하면서 乙에게 징역 2년 6월 및 집행유예 5년, 벌금 100,000,000원 및 추징 40,000,000원 선고. 항소심의 판결은 적법한가? (10점)","k":"70jh2f"}
+    ]}
+   ]},
+   {"i":"8syyq8","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"ok5yix","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1s0q6cx","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [적용여부]</strong> §368 — 제1심판결에 피고인 乙만 항소하였으므로 불이익변경금지 원칙 적용","k":"8j3zrx"},
+    {"i":"s5zf4i","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [위반여부]</strong> (가) [판단기준] 주문을 개별적·형식적으로 고찰할 것이 아니라 전체적·실질적으로 고찰하여 판단 (나) [사실인정 변경] 사실인정을 불이익하게 변경하는 것은 위반 아님 (다) [위반여부] 항소심은 제1심과 동일한 징역 2년 6월에 집행유예를 선고하였으나 제1심이 선고하지 않은 벌금 1억 원을 병과 → 집행유예 실효·취소 가능성, 벌금 미납시 노역장 유치 가능성·기간 등을 전체적·실질적으로 고찰할 때 제1심 형보다 무거워 불이익","k":"wrgpel"},
+    {"i":"bumcx0","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> 항소심의 판결은 §368 불이익변경금지 원칙에 위반되어 위법","k":"1nieoay"}
+   ]}
+  ]}
+ ]},
+ {"i":"mkhawi","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1m9fyhk","o":"<div class=\"cs-h\">","h":"Ⅰ. 판단방법","k":"1qg8d9r"},
+  {"i":"t49w0p","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>불이익변경금지 원칙 적용시 주문을 개별적·형식적으로 고찰할 것이 아니라 전체적·실질적으로 고찰하여 경중을 판단. 불이익하게 변경되었는지는 일단 형법상 형의 경중을 기준으로 하되, 나아가 병과형·부가형·집행유예·노역장 유치기간 등 주문 전체를 고려하여 피고인에게 실질적으로 불이익한가에 의하여 판단</strong></span><span class=\"cs-exam\">【변13】</span>","k":"1tc3p9"},
+  {"i":"plnvmm","o":"<div class=\"cs-h\">","h":"Ⅱ. 징역형과 집행유예","k":"10n62ej"},
+  {"i":"4fvq91","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>징역형을 늘리면서 집행유예를 붙인 경우</strong></span>","k":"15hzho0"},
+  {"i":"72sdx0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-red\"><strong>긍정설</strong></span>(실효·취소시 불이익) / <span class=\"cs-green\"><strong>부정설</strong></span>(유예기간 경과시 선고 효력 상실)","k":"m2mlk4"},
+  {"i":"1ljvhb3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 긍정설] 집행유예 선고가 실효·취소된 경우 형의 선고는 효력을 지니게 되어 피고인은 형의 집행을 받아야 하므로, 비록 집행유예의 선고를 붙였다 하더라도 불이익변경금지원칙에 위반</strong></span> → <span class=\"cs-red\"><strong>긍정설 타당</strong></span>(징역 6월 → 징역 8월·집유 2년, 위법)","k":"eak6wi"},
+  {"i":"4mjwcm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>1심(집행유예)의 형기를 단축하면서 실형을 선고한 경우</strong></span><span class=\"cs-exam\">【모사20】</span>","k":"fc2x52"},
+  {"i":"1rw7z9y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"제1심 징역형 집행유예에 대해 제2심이 형기를 단축하여 실형을 선고하는 것도 <span class=\"cs-red\"><strong>위반</strong></span><span class=\"cs-exam\">【변19·16】</span>","k":"14yrmzk"},
+  {"i":"v0x16f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[재심]</span> 재심대상사건에서 징역형 집행유예를 선고하였는데 재심사건에서 주형을 경하게 하고 집행유예를 없앤 경우 <span class=\"cs-red\"><strong>§439에 의한 불이익변경금지 위반</strong></span>(재심에도 불변금 적용)","k":"jt2hf4"},
+  {"i":"w0xtgt","o":"<div class=\"cs-h\">","h":"Ⅲ. 불이익변경금지원칙에 위배되지 않는 경우","k":"c635zn"},
+  {"i":"1wu62u8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[금고→징역 집유]</span> 형기 변경 없이 금고형을 징역형으로 바꾸어 집행유예를 선고하여도 위반 X","k":"yibm9a"},
+  {"i":"rkafpm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[징역 집유→벌금]</span> 징역 10월·집행유예 2년을 파기하고 벌금 1,000만 원을 선고하여도 위반 X","k":"46t8bp"},
+  {"i":"14lrmsc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[선고유예→선고유예]</span> 징역 1년 선고유예를 파기환송 후 벌금 4,000만 원과 1,500만 원 추징의 선고를 모두 유예하여도 위반 X","k":"1genknk"},
+  {"i":"cro101","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[몰수 추가]</span> 주형을 동일하게 하고 원심이 선고하지 아니한 <span class=\"cs-red\"><strong>몰수를 새로이 선고한 것은 위반</strong></span>","k":"1b3yt0s"},
+  {"i":"1cx9bkq","o":"<div class=\"cs-h\">","h":"Ⅳ. 불이익변경금지원칙에 위배되는 경우","k":"1tigla0"},
+  {"i":"1r9vscs","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[집행면제→집행유예]</span> 형의 집행면제를 형의 집행유예로 변경하는 것은 위반 X","k":"21937r"},
+  {"i":"1qybeyj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[집행유예→집행면제]</span> 반대로 형의 집행유예를 형의 집행면제로 변경하는 것은 <span class=\"cs-red\"><strong>위반</strong></span><span class=\"cs-exam\">【변18】</span>","k":"tfoc8j"},
+  {"i":"1wdpkmu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[선고유예→벌금 실형]</span> 징역형 선고유예(징역 6월)에 피고인만 항소한 경우 벌금형(실형)을 선고한 것은 <span class=\"cs-red\"><strong>중한 형</strong></span><span class=\"cs-exam\">【변17】</span>","k":"1vdk05b"},
+  {"i":"1sj8xdn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[집유기간 연장]</span> 항소심이 동일한 형기에 집행유예기간만을 제1심보다 장기로 하여 선고한 것은 <span class=\"cs-red\"><strong>불이익변경</strong></span>","k":"10c5c25"},
+  {"i":"1101jcd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[벌금 감경 + 노역장 연장]</span> 벌금형이 제1심보다 감경되었다면 노역장유치기간이 더 길어졌어도 <span class=\"cs-green\"><strong>전체적으로 불이익변경 X</strong></span><span class=\"cs-exam\">【변13】</span>","k":"1uskjhr"},
+  {"i":"xrqf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[동일 징역 + 벌금 병과]</span> 징역 1년 6월·추징 2,615만 원에 피고인만 항소하였는데 누락된 필요적 벌금병과 규정을 적용하여 징역 1년 6월·집행유예 3년·추징 2,615만 원 및 벌금 5,000만 원을 선고한 것은 <span class=\"cs-red\"><strong>전체적·실질적으로 불이익</strong></span><span class=\"cs-exam\">【변18, 변사22】</span>","k":"7zcp2i"},
+  {"i":"rspjjc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[추징→몰수]</span> 항소심이 제1심의 추징을 몰수로 변경하여도 그것만으로 위반 X<span class=\"cs-exam\">【변13】</span>","k":"1vpohkk"},
+  {"i":"1lqpoko","o":"<div class=\"cs-h\">","h":"Ⅴ. 보안처분","k":"922oxb"},
+  {"i":"p5wqc7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[수강·이수명령 병과]</span> 성폭법상 수강명령·이수명령은 보안처분이나 실질적으로 신체적 자유를 제한하므로, 동일한 형을 선고하면서 <span class=\"cs-red\"><strong>새로 수강·이수명령을 병과하는 것은 불이익변경</strong></span><span class=\"cs-exam\">【변17】</span>","k":"ib135l"},
+  {"i":"xnq7cm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[금고 실형→징역 집유+수강]</span> 금고 5월 실형을 징역 5월·집행유예 2년·보호관찰 및 40시간 수강명령으로 변경한 경우 <span class=\"cs-green\"><strong>형기 변경 없이 금고형을 징역형으로 바꾸어 집행유예를 선고하는 것은 위반 X</strong></span>(실형을 집유로 변경하며 보호관찰·수강명령 새로 부과하여도 위반 X)<span class=\"cs-exam\">【변17】</span>","k":"1jss9bu"},
+  {"i":"17o01c","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[취업제한명령 연장]</span> 취업제한명령은 보안처분이나 실질적으로 직업선택의 자유를 제한하므로, 동일한 형을 선고하면서 <span class=\"cs-red\"><strong>제1심보다 더 긴 취업제한명령을 부가하는 것은 불이익</strong></span>","k":"3r6cqw"},
+  {"i":"1jxvhu1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[부착명령]</span> 항소심에서 처음 청구된 전자장치 부착명령을 선고하는 것은 위반 X → 징역 장기 7년·단기 5년 및 5년 부착명령을 파기하고 <span class=\"cs-green\"><strong>징역 장기 5년·단기 3년 및 20년 부착명령을 선고한 것도 위반 X</strong></span>","k":"1awvrg7"},
+  {"i":"167x68h","o":"<div class=\"cs-h\">","h":"Ⅵ. 소년에 대한 부정기형과 불이익변경금지 원칙","k":"bekx8z"},
+  {"i":"1nbh6t9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>부정기형의 기준 시점</strong></span>","k":"3r0t4h"},
+  {"i":"szt3z5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[항소심]</span> 소년법상 '소년'은 19세 미만인 자로 사실심판결 선고 시를 기준으로 판단하므로, 제1심에서 부정기형을 선고받은 피고인이 <span class=\"cs-red\"><strong>항소심 선고 이전에 19세에 도달하면 정기형이 선고되어야</strong></span><span class=\"cs-exam\">【변14】</span>","k":"1tzh9id"},
+  {"i":"1na7ykq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[상고심]</span> 상고심 심판대상은 항소심판결 당시 기준이므로 <span class=\"cs-red\"><strong>항소심판결 당시 미성년인 피고인에 대한 부정기형 선고는 그 후 상고심 계속중 성년이 되어도 위법 X</strong></span>","k":"1wre5cm"},
+  {"i":"1ursiay","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>제1심 부정기형 → 항소심 정기형인 경우</strong></span>","k":"1lby9e6"},
+  {"i":"ra87kr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-green\"><strong>단기형기준설</strong></span> / <span class=\"cs-red\"><strong>중간형기준설</strong></span> / <span class=\"cs-green\"><strong>장기형기준설</strong></span> (판례 전합으로 단기기준설 → 중간형기준설로 변경)","k":"euarrf"},
+  {"i":"68sx3v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 중간형기준설] 불이익변경금지 원칙 위반 여부를 판단하는 기준은 부정기형의 '장기와 단기의 중간형'이 되어야</strong></span> → 양형재량권 과도 제한 방지 + 상소권 행사 위축 방지상 <span class=\"cs-red\"><strong>중간형기준설 타당</strong></span><span class=\"cs-exam\">【변18·14】</span>","k":"10ok89f"},
+  {"i":"11d3knf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[중간형]</span> ① 일반범죄는 장기 10년·단기 5년 초과 못함<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(소년법§60①)</strong></span></span>(중간형 7년 6월) ② 특강법 적용 범죄(살인 등)는 장기 15년·단기 7년 초과 못함<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(특강법§4②)</strong></span></span>(중간형 11년)","k":"vxuqwe"}
+ ]}
+]}

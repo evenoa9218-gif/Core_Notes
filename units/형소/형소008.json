@@ -1,0 +1,81 @@
+{"id":"형소008","t":"성명모용","cat":"pro_01","lv":1,"tg":["B급","中","변사17","모사22·19"],"b":[
+ {"i":"1h1ea2r","o":"<details class=\"cs-case\">","b":[
+  {"i":"1m6pyqe","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(1)] 성명모용 - 제1심 공판 중 발각</strong></span> <span class=\"cs-exam\">【변사17】</span>","k":"1x0la4c"},
+  {"i":"4l4a9h","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"vq1e67","o":"<div class=\"cs-fact\">","b":[
+    {"i":"3jft53","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1ekt8uc","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲은 길에서 주운 A의 주민등록증을 자신의 신분증인 것처럼 제시하였다. 경찰관이 甲(A 명의)에 대한 조사를 마친 후 검사에게 송치하였고, 검사는 이를 토대로 공소장에 피고인을 A로 기재하여 공소를 제기하였다. 제1심 공판 중 피고인의 성명이 A가 아니라 甲이라는 점이 밝혀진 경우, 검사와 법원이 취할 조치는? (15점)","k":"5nbtcb"}
+    ]}
+   ]},
+   {"i":"1lz8k8","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1wa70e9","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"9xu6v3","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [피고인 특정]</strong>","k":"mhf5vf"},
+    {"i":"2jy3mz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 학설(표시설·의사설·행위설·실질적 표시설) 및 판례","k":"1iqp9hh"},
+    {"i":"5mpy1l","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 판례(실질적 표시설)에 의하면 모용자 <span class=\"cs-red\"><strong>甲이 피고인</strong></span>","k":"1hms6rv"},
+    {"i":"5a2agd","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [검사의 조치]</strong>","k":"19gx8ng"},
+    {"i":"xqh8mf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"표시상의 착오를 정정하는 것이지 공소장변경 X → 검사는 공소장의 피고인 표시를 A에서 甲으로 정정, 법원의 허가 불요<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§298 불요)</strong></span></span>","k":"1s63n3e"},
+    {"i":"14ryi4n","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [법원의 조치]</strong>","k":"jlfyo4"},
+    {"i":"19ywj55","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"(가) <strong>[공소장 정정시]</strong> 피모용자 A는 피고인의 지위에 있지 않으므로 A에 대해 따로 공소기각판결 X → 모용자 甲에 대해 재판 진행","k":"109jtzh"},
+    {"i":"4o07sd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"(나) <strong>[공소장 미정정시]</strong> 공소제기 방식이 §254 위반으로 무효 → <span class=\"cs-red\"><strong>공소기각판결</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§327제2호)</strong></span></span>","k":"12egopr"}
+   ]}
+  ]}
+ ]},
+ {"i":"1d13vvm","o":"<details class=\"cs-case\">","b":[
+  {"i":"1ga59sy","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(2)] 성명모용 - 약식명령 정식재판청구 중 발각</strong></span>","k":"78e6d5"},
+  {"i":"1mb97tg","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"xjb2e6","o":"<div class=\"cs-fact\">","b":[
+    {"i":"58gfae","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1x8gszp","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"乙은 음주운전을 하고 길에서 주운 B의 주민등록증을 자신의 신분증인 것처럼 제시하였다. 검사는 B를 피고인으로 표시하여 약식명령을 청구하고, 법원은 벌금 100만 원의 약식명령을 발령하고 B에게 송달하였다. B는 약식명령을 받고 놀라 정식재판을 청구하였다. 정식재판 심리 과정에서 乙의 성명모용 사실이 밝혀졌다. 검사와 법원의 조치는? (15점)","k":"1ya3dyj"}
+    ]}
+   ]},
+   {"i":"7vjagp","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1jla600","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1r2b42m","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [피고인 특정]</strong>","k":"mhf5vf"},
+    {"i":"1ca1lgo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 학설 및 판례","k":"1a44553"},
+    {"i":"c9s7hf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 피고인은 모용자인 <span class=\"cs-red\"><strong>乙</strong></span>","k":"1t306eo"},
+    {"i":"1m9hv3y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 피모용자 B는 약식명령을 송달받고 정식재판을 청구하는 등 사실상의 소송계속이 발생하고 형식상·외관상 피고인의 지위를 갖게 됨","k":"4qyz2v"},
+    {"i":"16fx3kd","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [검사의 조치]</strong>","k":"19gx8ng"},
+    {"i":"y5cnka","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검사는 공소장을 정정하면 됨","k":"1jujh8h"},
+    {"i":"1j8mzxj","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [법원의 조치]</strong>","k":"jlfyo4"},
+    {"i":"54p650","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"(가) <strong>[공소장 미정정시]</strong> 공소제기 방식이 §254 위반으로 무효 → <span class=\"cs-red\"><strong>공소기각판결</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§327제2호)</strong></span></span>","k":"1jvunpj"},
+    {"i":"7nugxy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"(나) <strong>[공소장 정정시]</strong> ① <strong>[피모용자 B]</strong> §327제2호를 <span class=\"cs-red\"><strong>유추적용하여 공소기각판결</strong></span> ② <strong>[모용자 乙]</strong> 법원은 약식명령의 피고인 표시를 乙로 정정하여 본래의 약식명령과 함께 경정결정을 乙에게 송달 → 이때 비로소 적법한 송달 → 乙은 송달받은 때부터 기간 내에 정식재판 청구 여부 결정","k":"r0zk40"}
+   ]}
+  ]}
+ ]},
+ {"i":"15vt1bt","o":"<div class=\"cs-callout\">","b":[
+  {"i":"18tgqgy","o":"<div class=\"cs-h\">","h":"Ⅰ. 피고인 특정(모용자) - 공통","k":"1twcdy6"},
+  {"i":"1ac8qtp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"공소장에는 피고인의 성명 기타 피고인을 특정할 수 있는 사항 기재<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§254③제1호)</strong></span></span>, 공소의 효력은 검사가 피고인으로 지정한 자에게만 미침<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§248①)</strong></span></span>","k":"8rdy63"},
+  {"i":"pb3h23","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《성명모용의 경우 피고인이 누구인지》</strong></span>","k":"94ysbo"},
+  {"i":"1x0uzn3","o":"<div class=\"cs-theory\">","b":[
+   {"i":"4zoigz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 표시설(공소장 표시 기준) ② 의사설(검사의 의사 기준) ③ 행위설(실제 피고인으로 행위하거나 취급된 자) ④ <span class=\"cs-red\"><strong>실질적 표시설</strong></span>(표시설 중심 + 의사설·행위설 함께 고려)","k":"1r87xda"},
+   {"i":"rrgw38","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 실질적 표시설] 공소장에 피모용자가 피고인으로 표시되었어도 이는 당사자의 표시상의 착오일 뿐이고, 검사는 모용자에 대하여 공소를 제기한 것이므로 모용자가 피고인이 되고 피모용자에게는 공소의 효력이 미치지 않음</strong></span>","k":"tioj2k"},
+   {"i":"9rinqe","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: <span class=\"cs-u\">어느 한 가지 기준만으로는 문제해결이 곤란</span> → <span class=\"cs-red\"><strong>실질적 표시설 타당</strong></span>","k":"1lfxof1"}
+  ]},
+  {"i":"1y4o66f","o":"<div class=\"cs-h\">","h":"Ⅱ. 피모용자가 소송행위를 하지 않은 경우<span class=\"cs-exam\">【변사17, 모사19】</span>","k":"1utrgj3"},
+  {"i":"2i57a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>검사가 공소장을 정정하지 않은 경우</strong></span>","k":"flu2q6"},
+  {"i":"1xwctz9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"공소제기의 방식이 §254 규정에 위반하여 무효 → <span class=\"cs-red\"><strong>공소기각판결</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§327제2호)</strong></span></span>","k":"lvnyi5"},
+  {"i":"1ubp3p6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>검사가 공소장을 정정한 경우</strong></span>","k":"zigl0g"},
+  {"i":"1xnf96w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[모용자에 대한 조치] 검사는 공소장의 인적 사항 기재를 정정하여 피고인의 표시를 바로잡아야 함 — 이는 표시상의 착오를 정정하는 것이지 공소장을 변경하는 것이 아니므로 §298 공소장변경 절차 불요, 법원의 허가도 불요</strong></span>","k":"1hpd73y"},
+  {"i":"1gcq9er","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[피모용자에 대한 조치 - 단순배제] 정정 전의 피고인(피모용자)은 모용관계가 바로잡혀 피고인의 지위에 있지 않게 되었으므로, 공소제기 절차가 법률의 규정에 위배하여 무효인 때에 해당한다 하여 공소기각판결을 하면 위법</strong></span>","k":"196rlec"},
+  {"i":"1k9l28l","o":"<div class=\"cs-h\">","h":"Ⅲ. 피모용자가 소송행위를 한 경우(약식명령에 대한 정식재판청구)<span class=\"cs-exam\">【모사22】</span>","k":"1w6uaaw"},
+  {"i":"1mdazup","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>피모용자에 대한 조치</strong></span>","k":"vp9kfg"},
+  {"i":"1jpw1hp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>피모용자가 약식명령을 송달받고 정식재판을 청구하여 심리하는 과정에서 성명모용 사실이 발각되고 검사가 공소장을 정정하는 등 사실상의 소송계속이 발생하고 형식상·외관상 피고인의 지위를 갖게 된 경우 → 법원은 피모용자에게 적법한 공소제기가 없었음을 밝혀주는 의미에서 §327제2호를 '유추적용'하여 공소기각판결</strong></span>","k":"qh72hs"},
+  {"i":"3u2fa7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>모용자에 대한 조치</strong></span>","k":"oyel9s"},
+  {"i":"o76u0r","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>성명모용의 경우 공소제기 효력은 처음부터 모용자에게만 미치므로, 피모용자에 대하여 §327제2호를 유추적용하여 공소기각판결을 하고 그 판결이 확정되었다 하여 모용자에 대해 별도로 기소하여야 하는 것이 아님</strong></span>","k":"od8w5s"},
+  {"i":"1bmxyg6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>진정한 피고인인 모용자에게는 아직 약식명령의 송달이 없었으므로 → 검사는 공소장에 기재된 피고인 표시를 정정하고, 법원은 이에 따라 약식명령의 피고인 표시를 정정하여 본래의 약식명령과 함께 그 경정결정을 모용자인 피고인에게 송달하면 비로소 적법한 송달</strong></span>","k":"110qbl8"},
+  {"i":"mq8gri","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"이에 대하여 소정의 기간 내에 정식재판의 청구가 없으면 그 약식명령은 <span class=\"cs-red\"><strong>확정</strong></span>","k":"ent537"},
+  {"i":"1kivn5q","o":"<div class=\"cs-h\">","h":"Ⅳ. 통고처분의 경우","k":"1q4vams"},
+  {"i":"11z6s2i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>공소장의 피고인 특정에 관한 법리는 경범죄처벌법에 따른 경찰서장의 통고처분의 효력에도 마찬가지로 적용</strong></span> — <span class=\"cs-fact-tag\">['모용자'에게 통고처분 효력]</span>","k":"147qgwj"},
+  {"i":"ckm93f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[甲이 무전취식을 하고 친형 A의 인적사항을 모용하여 친형 이름으로 통고처분을 받은 후(납부 X) 검사가 사기로 기소]</span> '모용자' 甲에게 통고처분의 효력이 미치므로, 이미 발령된 통고처분의 효력이 기소된 사기의 공소사실에도 미쳐 <span class=\"cs-red\"><strong>공소기각판결</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§327제2호)</strong></span></span>","k":"gab4lv"},
+  {"i":"1gl5aas","o":"<div class=\"cs-h\">","h":"Ⅴ. 판결이 확정된 경우","k":"i83o3u"},
+  {"i":"g47d26","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>모용자에 대한 조치</strong></span>","k":"oyel9s"},
+  {"i":"vedc3d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"피모용자를 피고인으로 표시한 유죄판결이 확정된 경우, 판결의 효력은 <span class=\"cs-red\"><strong>'모용자'에게만</strong></span> 미치고 <span class=\"cs-green\"><strong>피모용자에게는 미치지 않음</strong></span>","k":"9m9ppy"},
+  {"i":"1x1wn5i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"모용자에 대해서는 <span class=\"cs-red\"><strong>판결경정절차</strong></span>를 통해 피고인 표시를 바로잡고 검사는 형을 집행","k":"49yi5"},
+  {"i":"60j1an","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>피모용자에 대한 구제수단</strong></span>","k":"gi5f9g"},
+  {"i":"awenos","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《피모용자의 형집행·전과기재 불이익에 대한 구제방법》</strong></span>","k":"1wiafra"},
+  {"i":"1bzz4ns","o":"<div class=\"cs-theory\">","b":[
+   {"i":"1m2btj3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 재심설 ② 비상상고설 ③ <span class=\"cs-red\"><strong>전과말소설</strong></span>","k":"vjt1d1"},
+   {"i":"lszy1d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: <span class=\"cs-u\">확정판결의 효력이 피모용자에게 미치지 않으므로</span> 재심설·비상상고설은 <span class=\"cs-green\"><strong>타당하지 않음</strong></span> → 검사가 피모용자의 전과만 말소하면 되는 <span class=\"cs-red\"><strong>전과말소설 타당</strong></span>","k":"jhfbd7"}
+  ]}
+ ]}
+]}

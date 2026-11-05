@@ -1,0 +1,83 @@
+{"id":"형소117","t":"상소제기","cat":"pro_19","lv":1,"tg":["中","변사26","모사23·21"],"b":[
+ {"i":"jyjulo","o":"<details class=\"cs-case\">","b":[
+  {"i":"mv69or","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(1)] 변호인의 구술 항소취하와 피고인 동의</strong></span> <span class=\"cs-exam\">【변사26】</span>","k":"1c4npke"},
+  {"i":"kry0nu","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"pc9ufk","o":"<div class=\"cs-fact\">","b":[
+    {"i":"yvxeg8","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1uf7f3h","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲에 대한 제1심판결에 검사와 甲이 모두 항소 → 甲의 변호인 戊가 항소심 제1회 공판기일에서 구두로 항소를 취하한다고 진술 → 항소심법원은 항소취하에 동의하는지 甲에게 확인하지 않은 채 변론을 종결하고 검사의 항소이유에 대하여만 판결을 선고. 위 항소심판결이 적법한지 논하시오. (10점)","k":"8cpnwt"}
+    ]}
+   ]},
+   {"i":"1u4ltbr","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1idlxpq","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"14kpsm4","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [항소취하 및 동의의 방식]</strong> (가) [방식] 항소취하는 서면이 원칙이나 공판정에서는 구술 가능(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§352①</strong></span></span>) → 변호인은 상소취하대리권자로서 법정 구술 취하 가능 (나) [피고인 동의] 변호인은 피고인의 동의를 얻어 취하(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§351</strong></span></span>), 동의 취지 서면 제출(규칙§153②), 다만 피고인 동의도 공판정 구술로 가능","k":"1jr59zr"},
+    {"i":"dna2ec","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [변호인 항소취하권의 법적 성질]</strong> 독립대리권설·종속대리권설, 판례는 종속대리권설. 취하시 상소권 소멸로 불이익하므로 피고인 의사에 종속되는 종속대리권설 타당","k":"1a3d0b0"},
+    {"i":"vwotyw","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [戊의 항소취하 효력]</strong> 변호인이 구술 취하하였으나 피고인이 아무런 의견도 진술하지 않았다면 효력 없음 → 甲이 동의한 사실이 없으므로 戊의 항소취하는 효력 없음","k":"1mejf9t"},
+    {"i":"1sr5o11","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(4) [결론]</strong> 항소법원은 항소이유에 포함된 사유를 심판해야(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§364①</strong></span></span>) → 항소취하가 무효이므로 甲의 항소이유도 심판했어야 하는데 이를 심판하지 않고 판결하였으므로 위법","k":"1b5by5r"}
+   ]}
+  ]}
+ ]},
+ {"i":"m3nle5","o":"<details class=\"cs-case\">","b":[
+  {"i":"12wwr0m","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(2)] 미성년 피고인 항소취하 + 국선변호인 항소이유서 미제출</strong></span> <span class=\"cs-exam\">【변사26】</span>","k":"1pxo5wi"},
+  {"i":"193kcmz","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"27r7n5","o":"<div class=\"cs-fact\">","b":[
+    {"i":"uvyhqh","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1euq90k","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"제1심이 甲(15세)에게 강도상해죄로 징역 장기 3년·단기 2년 선고 → 甲이 항소하였다가 항소이유서 미제출 중 항소취하서 제출, 甲의 어머니는 항소취하 동의서를 제출하였으나 아버지는 미제출 → 항소법원이 국선변호인을 선정하여 소송기록접수통지를 하였으나 국선변호인이 항소이유서 제출기간 만료일까지 미제출 → 다음 날 甲의 어머니가 사선변호인 선임 → 항소법원이 곧바로 甲의 항소 기각. 항소기각 조치는 타당한가? 어떤 조치를 취해야 하는가? (15점)","k":"qr8i79"}
+    ]}
+   ]},
+   {"i":"u4vcba","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1v0a7kf","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"8glplx","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [항소취하의 효력]</strong> 미성년자 甲의 항소취하는 법정대리인의 동의를 얻어야(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§350</strong></span></span>), 동의 취지 서면 제출(규칙§153①) → 어머니만 동의서 제출하고 아버지는 미제출한 경우 '부모 모두'의 동의를 요하므로 항소취하는 효력 없음","k":"lbn6x7"},
+    {"i":"1jrn9pu","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [국선변호인 항소이유서 미제출]</strong> 국선변호인이 기간 내 미제출은 충분한 조력을 제공하지 아니한 것 → 피고인이 법정대리인 동의 없이 항소취하서를 제출하였다는 사정만으로 미제출에 피고인 귀책 있다고 볼 수 없음 → 항소법원은 종전 국선변호인 선정을 취소하고 새로운 국선변호인을 선정하여 다시 소송기록접수통지를 해야 하고, 그 전에 피고인이 스스로 사선변호인을 선임한 경우에도 마찬가지","k":"8yehtn"},
+    {"i":"1nlxmfz","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [사안 해결]</strong> 곧바로 항소를 기각한 것은 부당 → 항소법원은 종전 국선변호인 선정을 취소하고 사선변호인에게 다시 소송기록접수통지를 한 후 통지받은 때로부터 20일 이내 항소이유서를 제출하도록 해야 함","k":"1vij5dj"}
+   ]}
+  ]}
+ ]},
+ {"i":"bvf46u","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1kse27t","o":"<div class=\"cs-h\">","h":"Ⅰ. 상소제기","k":"1svq616"},
+  {"i":"rf4m6f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>상소권자</strong></span>","k":"pl1xx0"},
+  {"i":"1meeyho","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[고유권]</span> 검사 또는 피고인<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§338①)</strong></span></span>, 피고인의 법정대리인<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§340)</strong></span></span>","k":"28kt6w"},
+  {"i":"1ei6q7q","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[대리권]</span> 피고인의 배우자·직계친족·형제자매 또는 원심의 대리인·변호인은 피고인을 위하여 상소 가능<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§341①)</strong></span></span>, 단 <span class=\"cs-red\"><strong>피고인의 명시한 의사에 반하여 하지 못함</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§341②)</strong></span></span>","k":"1wj1g66"},
+  {"i":"1tjxi7t","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[변호인]</span> 고유 상소권이 아니라 <span class=\"cs-u\">피고인의 상소권을 대리 행사하게 한 것</span>이므로, <span class=\"cs-red\"><strong>피고인의 상소권이 소멸된 후에는 상소할 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"1j4h710"},
+  {"i":"1uxhkt6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[피고인 사망]</span> 피고인이 사망한 때에는 상소권이 소멸하여 <span class=\"cs-green\"><strong>대리권자인 원심 변호인 등은 상소 제기 불가(원칙)</strong></span> → 다만 피고인 사망으로 공소기각결정이 내려졌어야 함에도 사망을 간과한 채 유죄판결이 선고된 때에는 <span class=\"cs-red\"><strong>시정을 위하여 예외적으로 공소기각결정을 구하는 취지의 상소 제기 가능</strong></span>","k":"cd3x58"},
+  {"i":"1yd1cds","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>상소제기 절차</strong></span>","k":"cxrjdw"},
+  {"i":"1ksle6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[기간]</span> 상소제기기간은 재판을 선고·고지한 날로부터 <span class=\"cs-red\"><strong>7일</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§343·§358·§374)</strong></span></span>(초일 불산입, 기간만료일이 공휴일이면 그 다음날)<span class=\"cs-exam\">【변19】</span>","k":"1p5hqqe"},
+  {"i":"1wnkejo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[서면]</span> 상소제기는 기간 내에 <span class=\"cs-red\"><strong>서면</strong></span>으로<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§343①)</strong></span></span>(구두 X)<span class=\"cs-exam\">【변12】</span>","k":"ijklsj"},
+  {"i":"35mm6r","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[원심법원 제출]</span> 상소장은 <span class=\"cs-red\"><strong>원심법원에 제출</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§359·§375·§406)</strong></span></span>, <span class=\"cs-red\"><strong>도달주의 원칙</strong></span>","k":"1sqnmug"},
+  {"i":"7uruky","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[재소자 특칙]</span> 교도소·구치소에 있는 피고인이 상소제기기간 내에 상소장을 교도소장·구치소장 등에게 제출한 때에는 <span class=\"cs-red\"><strong>기간 내에 상소한 것으로 간주</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§344①)</strong></span></span> → 즉시항고·정식재판청구서 제출에도 적용","k":"1haxkng"},
+  {"i":"toxfxi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>상소제기 방식에 위반한 상소</strong></span> (항소·상고·항고 동일)","k":"pvexxg"},
+  {"i":"133g8lx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>① 상소제기가 법률상 방식에 위반하거나 상소권소멸 후인 것이 명백한 때에는 원심법원이 결정으로 상소를 기각 ② 원심법원이 상소기각결정을 하지 아니한 때에는 상소법원이 결정으로 기각 ③ 상소기각결정에 대하여는 즉시항고 가능</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§360·§376·§407)</strong></span></span>","k":"1kgr7oz"},
+  {"i":"qvhg22","o":"<div class=\"cs-h\">","h":"Ⅱ. 상소포기와 취하","k":"2g8nt7"},
+  {"i":"sguzew","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>상소포기·취하권자</strong></span>","k":"8coo33"},
+  {"i":"1pydfvr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검사·피고인 또는 항고권자는 상소의 포기·취하 가능<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§349)</strong></span></span>, 단 피고인·상소대리권자는 <span class=\"cs-red\"><strong>사형·무기징역·무기금고가 선고된 판결에 대하여는 상소의 포기 불가</strong></span>","k":"ggssz6"},
+  {"i":"19y7h2m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>법정대리인이 있는 피고인</strong></span><span class=\"cs-exam\">【모사21】</span>","k":"f0tdq3"},
+  {"i":"9rr96n","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[법정대리인 동의]</span> 법정대리인이 있는 피고인이 상소 포기·취하시 <span class=\"cs-red\"><strong>법정대리인의 동의</strong></span>를 얻어야, 단 법정대리인의 사망 기타 사유로 동의를 얻을 수 없는 때는 예외<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§350)</strong></span></span>, 동의 취지 서면 제출<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(규칙§153①)</strong></span></span>","k":"37nyqq"},
+  {"i":"26w9cp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[부모 모두 동의]</span> 미성년 피고인이 항소취하서를 제출하며 어머니만 동의서를 제출하고 아버지는 미제출한 경우 <span class=\"cs-green\"><strong>법정대리인인 아버지의 동의가 없어 항소취하는 효력 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>(부모 모두의 동의 요함)","k":"1bx0vrs"},
+  {"i":"62p0o7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>법정대리인 또는 상소대리권자의 상소 취하</strong></span>","k":"18ur2x9"},
+  {"i":"s4pkma","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"피고인의 법정대리인·상소대리권자는 <span class=\"cs-red\"><strong>피고인의 동의</strong></span>를 얻어 상소를 취하<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§351)</strong></span></span>, 동의 취지 서면 제출<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(규칙§153②)</strong></span></span>","k":"1m3snpx"},
+  {"i":"15kfzg2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[구술 동의]</span> 피고인은 공판정에서 구술로 상소취하 가능하므로 변호인의 상소취하에 대한 피고인의 동의도 공판정에서 구술로 가능, 단 <span class=\"cs-red\"><strong>구술 동의는 '명시적'으로 이루어져야</strong></span>","k":"1jzo9ze"},
+  {"i":"1y6g548","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[변호인 상소취하권 법적 성질]</span><span class=\"cs-exam\">【변사26】</span> <span class=\"cs-green\"><strong>독립대리권설</strong></span> / <span class=\"cs-red\"><strong>종속대리권설</strong></span> → <span class=\"cs-def\"><strong>[判例 종속대리권설] 변호인의 상소취하에 피고인의 동의가 없다면 상소취하의 효력은 발생하지 아니함</strong></span> → 취하시 상소권 소멸로 피고인에게 불이익하므로 <span class=\"cs-red\"><strong>종속대리권설 타당</strong></span>","k":"11hc7pe"},
+  {"i":"1lmswp0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[상소포기는 대리 불가]</span> §351은 <span class=\"cs-u\">상소 취하만 규정하고 상소 포기는 규정이 없</span>으므로, <span class=\"cs-red\"><strong>상소대리권자는 피고인의 동의를 받아도 상소포기 불가</strong></span>","k":"k5nvoq"},
+  {"i":"1d6sdjn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>상소 포기·취하의 방법</strong></span>","k":"1q2uqfr"},
+  {"i":"1j6txgl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"상소의 포기·취하는 서면이 원칙(공판정에서는 구술 가능)<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§352①)</strong></span></span><span class=\"cs-exam\">【변16】</span>","k":"hc6n3y"},
+  {"i":"1ofasro","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"상소를 취하한 자 또는 포기·취하에 동의한 자는 <span class=\"cs-red\"><strong>그 사건에 대하여 다시 상소하지 못함</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§354)</strong></span></span>(상소를 '포기한 자'도 동일)","k":"1ucrbpt"},
+  {"i":"9cm2s6","o":"<div class=\"cs-h\">","h":"Ⅲ. 상소권회복청구","k":"1gu7jw0"},
+  {"i":"1vxfjy0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>상소권회복청구사유</strong></span>","k":"av01gw"},
+  {"i":"jbf75g","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"가. 자기 또는 대리인이 책임질 수 없는 사유","k":"a1rjr4"},
+  {"i":"smo3qu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"상소할 수 있는 자는 ① 자기 또는 대리인이 책임질 수 없는 사유로 ② 상소제기기간 내에 상소를 하지 못한 경우 <span class=\"cs-red\"><strong>상소권회복 청구 가능</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§345)</strong></span></span>","k":"147zlyc"},
+  {"i":"1xzpvng","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[책임질 수 없는 사유]</span> 본인·대리인에게 귀책사유가 전혀 없는 경우는 물론, 귀책사유가 있더라도 그와 상소제기기간 도과 사이에 <span class=\"cs-red\"><strong>다른 독립한 원인이 개입된 경우를 배제한다고 보기 어려움</strong></span>","k":"fbsmpx"},
+  {"i":"1riio19","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[잘못된 공시송달]</span> 피고인이 재판 계속을 알면서 새 주소를 신고하지 않아 소환장이 송달불능되었어도, 법원이 기록의 다른 주소·전화번호로 연락을 시도하는 조치 없이 곧바로 공시송달한 것은 §63①·소촉법§23 위배로 허용되지 않으며, 이런 잘못된 공시송달에 터 잡아 피고인 불출석 기일에 판결이 선고된 경우 <span class=\"cs-green\"><strong>책임질 수 없는 사유로 상소하지 못한 것으로 봄</strong></span><span class=\"cs-exam\">【모사23】</span>","k":"1d9ot8i"},
+  {"i":"wjodp8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[인정 O]</span> 교도소장이 정본을 송달받고 일주일 지난 뒤 피고인에게 알린 경우","k":"r7keey"},
+  {"i":"jhyy6i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[인정 X]</span> ① 선고 당시 법정이 소란하여 판결주문을 알아들을 수 없었던 경우 ② 상소권자·대리인이 질병으로 입원·기거불능인 경우 ③ 피고인이 공동피고인의 기망에 의하여 항소권을 포기하였음을 항소제기기간 도과 후에야 알게 된 경우<span class=\"cs-exam\">【변26】</span>","k":"197lxnf"},
+  {"i":"1ifo5a0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"나. 상소 제기기간 내에 상소를 하지 못한 경우","k":"pyy9pd"},
+  {"i":"1tvrjat","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"상소포기로 인하여 소멸한 상소권까지 회복하는 것은 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"cytepa"},
+  {"i":"wfywu6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[도과 전]</span> 상소권 포기 후 상소제기기간 '도과 전'에 상소포기의 효력을 다투며 상소를 제기한 자는 <span class=\"cs-red\"><strong>그 상소의 적법 여부에 대한 판단을 받으면 되고 별도로 상소권회복청구를 할 여지 X</strong></span>","k":"vpje4h"},
+  {"i":"i1ly71","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[도과 후]</span> 상소권 포기 후 상소제기기간 '도과 다음'에 상소포기의 효력을 다투며 책임질 수 없는 사유를 주장하는 사람은 <span class=\"cs-red\"><strong>상소를 제기함과 동시에 상소권회복청구 가능</strong></span>","k":"1rn11v1"},
+  {"i":"1xqjmst","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>상소권회복의 절차</strong></span>","k":"1dsm3gl"},
+  {"i":"mgm2vy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"상소권회복 청구는 §345의 사유가 <span class=\"cs-red\"><strong>'해소된 날'부터 상소제기기간에 해당하는 기간 내에 서면으로 '원심법원'에 제출</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§346①)</strong></span></span>, 청구와 동시에 상소를 제기<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§346③)</strong></span></span>","k":"a0pe0f"},
+  {"i":"1466t6q","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적법하게 상소를 제기한 자는 <span class=\"cs-red\"><strong>다시 상소권회복을 청구할 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"12yo42s"},
+  {"i":"xakoak","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[선고 사실 인지시점]</span> ① 공시송달로 판결이 선고·확정된 후 검거되어 수용된 경우 <span class=\"cs-red\"><strong>형 집행으로 수용된 날</strong></span> 대상판결 선고 사실을 알았다고 봄 ② 별건 구속 후 소송기록접수통지서·검사 항소이유서를 송달받은 날 알았다고 봄","k":"cft0ox"},
+  {"i":"9nlkrl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[시간적 한계]</span> 항소심판결이 선고되면 항소법원이 다시 항소심 절차를 진행하여 판결할 수 없으므로 <span class=\"cs-green\"><strong>당초 항소하지 않았던 자의 항소권회복청구는 부적법</strong></span> → 원인 판단에 나아갈 필요 없이 §347①에 따라 결정으로 기각<span class=\"cs-exam\">【변26】</span>","k":"1bwyc20"},
+  {"i":"1tw4bdu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>법원의 결정과 불복방법</strong></span>","k":"10oeli8"},
+  {"i":"nz8mr3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[즉시항고]</span> 상소권회복 청구를 받은 법원은 청구의 허부에 관한 결정을 하고<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§347①)</strong></span></span>, 이 결정에 대하여는 <span class=\"cs-red\"><strong>즉시항고 가능</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§347②)</strong></span></span>","k":"uvdmr9"}
+ ]}
+]}

@@ -1,0 +1,93 @@
+{"id":"형총010","t":"고의와 착오론 (부합설)","cat":"chong_02","lv":1,"tg":[],"b":[
+ {"i":"a3t5zv","o":"<details class=\"cs-case\">","b":[
+  {"i":"16cupkk","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 존속 살해교사·정범의 객체착오</strong></span> <span class=\"cs-exam\">【변사23】 </span><span class=\"cs-red\">(32)</span>","k":"120cclw"},
+  {"i":"rme12l","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1j6f7qf","o":"<div class=\"cs-fact\">","b":[
+    {"i":"rnezq7","o":"<div class=\"cs-callout\">","b":[
+     {"i":"2sukqe","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲 = 코로나로 사업난 → 양부 A에 증여 요구했으나 핀잔 → A 살해 결심. 따로 사는 사촌동생 乙에게 A 살해 교사(현관 비밀번호·집구조 알려줌). 甲 알리바이용 타지역 출장 사이, 乙 = 범행당일 새벽 2시경 비밀번호로 현관 열고 침실서 자던 사람 얼굴을 베개로 눌러 질식사시킴. 그러나 실제는 A의 운전기사 B. 乙 = 살해 직후 거실서 A 소유 명품시계 1개 발견·욕심나 가지고 나옴. 甲·乙의 죄책? (32점)","k":"1gim89t"}
+    ]}
+   ]},
+   {"i":"6wl24g","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"19ft23d","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"c0usa2","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-exam\">【변사23】</span>","k":"1rqnrux"},
+    {"i":"gmu0jy","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [乙의 죄책]</strong> (가) [주거침입죄]","k":"9o8acx"},
+    {"i":"w23skr","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① '침입' 여부 = 출입 당시 객관적·외형적 행위태양 기준(원칙)","k":"1z05fe"},
+    {"i":"a3v279","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 외부 공동거주자 동의 받아도 현재자 동의 없이 새벽 2시 자는 틈에 몰래 들어감 → 침입<span class=\"cs-o\"><strong>(O)</strong></span> [주거침입죄 불성립설도 있음] (나) [B에 대한 살인죄] 구체적 사실착오 中 객체착오 → 구체적·법정적·추상적 부합설 모두 발생사실 B에 대한 살인기수죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§250</strong></span></span>①)(전용) (다) [절도죄]","k":"pgx912"},
+    {"i":"d1kvlg","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 야간주거침입절도죄 = 실행착수시점(주거침입시)에 절도고의 要 → 침입시 절도고의 X → 야간주거침입절도죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"2rpjpx"},
+    {"i":"qgm4p3","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② A소유 명품시계 절취 → 절도죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§329</strong></span></span>)<span class=\"cs-o\"><strong>(O)</strong></span>","k":"v2ge6u"},
+    {"i":"1m4alaj","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [甲의 죄책]</strong> (가) [주거침입교사죄] 乙에 주거침입 교사 → 주거침입교사죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§31</strong></span></span>①) (나) [살인교사죄]","k":"m2pkvp"},
+    {"i":"1u4b5uv","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 정범 객체착오가 교사자에 어떤 착오인지 — 객체착오설·방법착오설 → 수단 잘못으로 의도 않은 객체에 결과발생 = 방법착오설 타당","k":"16ihwe5"},
+    {"i":"1daer1r","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 구체적 사실착오 = 구체적·법정적·추상적 부합설, 판례 = \"타격의 착오 있어도 살인 범의 성립에 방해 X\" 법정적 부합설","k":"svub10"},
+    {"i":"b201xf","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 법정적 부합설 → 甲 = B에 대한 살인교사죄 (다) [절도교사죄] 乙의 절도 = 甲에겐 교사착오 中 본질적 질적 초과 → 절도교사죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"13iqja"},
+    {"i":"dd1t7w","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong>","k":"1az60e9"},
+    {"i":"27dfig","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 甲 = 주거침입교사죄 + 살인교사죄 실체적 경합","k":"1x7anc9"},
+    {"i":"1hjadc","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 乙 = 주거침입죄 + 살인죄 + 절도죄 실체적 경합","k":"14vg9c0"}
+   ]}
+  ]}
+ ]},
+ {"i":"18zbxnm","o":"<div class=\"cs-callout\">","b":[
+  {"i":"f5pzpi","o":"<div class=\"cs-callout\">","b":[
+   {"i":"mueoa3","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제15조(사실의 착오)</strong></span> ① 특별히 무거운 죄가 되는 사실을 인식하지 못한 행위는 무거운 죄로 벌하지 아니한다.","k":"3uxmt1"}
+  ]},
+  {"i":"dk6llo","o":"<div class=\"cs-h\">","h":"Ⅰ. 구성요건적 착오","k":"z2e47u"},
+  {"i":"10gwew7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\">《발생사실 고의 인정에 인식사실과 어느 정도 부합 要하는지》</span> <span class=\"cs-fact-tag\">[고의 '전용'의 문제이지 고의 '복사'(저자 용어)가 아님]</span>","k":"pbl0te"},
+  {"i":"rgchf8","o":"<div class=\"cs-theory\">","b":[
+   {"i":"chx01j","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①구체적 부합설(인식·발생 구체적 부합 시 고의 → 구체적 사실착오는 객체착오만 고의) ②법정적 부합설(동일 구성요건·죄질이면 고의 → 구체적 사실착오는 객체·방법착오 모두 고의) ③추상적 부합설(가벌적이라는 점서 추상적 중첩범위 내 경죄 고의기수 인정)","k":"beqzcj"},
+   {"i":"1oxcx70","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-fact-tag\">[판례 법정적 부합설]</span> 타격의 착오 있어도 살인 범의 성립에 방해 X <span class=\"cs-fact-tag\">[몽둥이로 내려쳤는데, 업혀 있던 조카가 맞아 사망한 경우]</span>","k":"1titsnd"},
+   {"i":"179xnea","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 구체적 부합설 = 고의기수 인정범위 지나치게 협소, 결과 발생에도 미수만 인정 = 법감정에 반함 → 법정적 부합설 타당","k":"igs6ms"}
+  ]},
+  {"i":"1wob59s","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"181csk4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[농약 1포 숭늉그릇 투입·식당에 둠 → 정 모르는 甲의 장녀가 마셔 사망]</span> 甲의 장녀에 대한 살인죄<span class=\"cs-o\"><strong>(O)</strong></span> <span class=\"cs-fact-tag\">[방법의 착오]</span><span class=\"cs-exam\">【변13】</span>","k":"1e32tgb"},
+  {"i":"kjcup0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[3명과 싸우다 식칼 휘두름 → 말리며 식칼 뺏으려던 A에 상해]</span> A에 대한 상해 범의 인정<span class=\"cs-o\"><strong>(O)</strong></span> <span class=\"cs-fact-tag\">[방법의 착오로 A에 대한 특수상해죄 성립]</span><span class=\"cs-exam\">【변22】</span>","k":"1l4ue7c"},
+  {"i":"1cmtvvv","o":"<div class=\"cs-h\">","h":"Ⅱ. 기본형태","k":"9wva17"},
+  {"i":"1um8jca","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>구체적 사실의 착오</strong>","k":"m26k75"},
+  {"i":"a4pye9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[객체의 착오]</span> 어느 견해에 의하더라도 고의 전용 → 발생사실 고의기수<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변24·23·14】</span>","k":"1oml2lo"},
+  {"i":"58kcbj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[방법의 착오]</span> ①<span class=\"cs-fact-tag\">[구체적 부합설]</span> 전용 X → 인식사실 고의미수 + 발생사실 과실범 = 상상적 경합 ②<span class=\"cs-fact-tag\">[법정적·추상적 부합설]</span> 전용 → 발생사실 고의기수<span class=\"cs-exam\">【변19】</span>","k":"1nsm0a3"},
+  {"i":"1i28uqn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>추상적 사실의 착오</strong>","k":"1eq87yk"},
+  {"i":"1subkjw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"개념: 객체착오·방법착오 동일하게 해결","k":"m3w7no"},
+  {"i":"o928hs","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[구체적 부합설, 법정적 부합설]</span> 객체·방법착오 모두 인식사실 고의미수 + 발생사실 과실범 = 상상적 경합 (전용X)","k":"npytxj"},
+  {"i":"6qgyoz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[추상적 부합설]</span> ①경죄 고의로 중죄 발생 → 인식(경죄) 고의기수 + 발생(중죄) 과실범 상경 ②중죄 고의로 경죄 발생 → 인식(중죄) 고의미수 + 발생(경죄) 고의기수 상경 <span class=\"cs-fact-tag\">[예, 재물손괴(경죄), 상해(중죄)]</span><span class=\"cs-exam\">【변14·13】</span>","k":"16ir4xp"},
+  {"i":"1m5sqey","o":"<div class=\"cs-h\">","h":"Ⅲ. 정범의 착오와 교사자의 착오 (간접정범·방조범 동일) [변사23, 모사23 등 빈출]","k":"1vutm21"},
+  {"i":"14sbo9c","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>피교사자의 방법의 착오</strong>","k":"1cazdyc"},
+  {"i":"1fh8493","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"피교사자 '방법'착오 = 교사자에게도 '방법'착오 <span class=\"cs-fact-tag\">[이론 없음]</span>","k":"1ouhd5w"},
+  {"i":"1x9x08b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>피교사자의 객체의 착오</strong>","k":"1pd5uhd"},
+  {"i":"8uawtf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-hl\">《피교사자 '객체'착오가 교사자에게 어떤 착오인지》</span>","k":"5w1ht1"},
+  {"i":"1aheyn9","o":"<div class=\"cs-theory\">","b":[
+   {"i":"1kbvjfp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①객체착오설 ②방법착오설 ③인과과정 착오설","k":"wxpq7k"},
+   {"i":"zhhv00","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 정범 객체착오 = 교사자에겐 피교사자라는 수단의 잘못으로 의도 않은 객체에 결과발생 → 방법착오설 타당","k":"1bf4bt0"}
+  ]},
+  {"i":"cqra9x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판례·통설: <span class=\"cs-fact-tag\">[법정적 부합설]</span> 피교사자 객체착오·방법착오 모두 교사자에겐 방법착오 → 교사자도 발생사실에 대한 교사범","k":"1y6565f"},
+  {"i":"j7kh7a","o":"<div class=\"cs-h\">","h":"Ⅳ. 가중적 구성요건을 인식하지 못한 경우<span class=\"cs-exam\">【모사20】</span>","k":"1xnrl5d"},
+  {"i":"hcx9l5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>가중적 구성요건을 인식하지 못한 경우</strong>","k":"1p8hn3v"},
+  {"i":"1sp824b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"법리: 특별히 무거운 죄 되는 사실 인식 X → 무거운 죄로 벌 X (<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§15</strong></span></span>①)","k":"1aimumq"},
+  {"i":"1t9wvn2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[A의 촉탁·승낙 오인 살해, 실제 촉탁·승낙 X]</span> <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§15</strong></span></span>①만 적용 → 촉탁·승낙살인죄만 성립","k":"us5jhk"},
+  {"i":"1dhn0dp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[보통살인 고의로 존속(장모) 살해]</span> <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§15</strong></span></span>①에 의해 장모에 대한 보통살인죄만 성립","k":"1mi42ko"},
+  {"i":"u2ebv2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>구체적 사실의 착오가 존재하는 경우</strong>","k":"xt6rx4"},
+  {"i":"1o1unzb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"법리: ①가중적 구성요건 고의 X → 기본적 구성요건 고의만(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§15</strong></span></span>①) ②구체적 사실착오 법리로 해결 <span class=\"cs-fact-tag\">[A에 대한 보통살인의 고의만 있었으나 객체·방법의 착오로 존속인 B를 살해한 경우]</span>","k":"vw692k"},
+  {"i":"1apx38z","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[객체의 착오]</span> 어느 견해든 존속 B에 대한 보통살인죄만(전용)","k":"ribhod"},
+  {"i":"5i1rzn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[방법의 착오]</span> ①<span class=\"cs-fact-tag\">[구체적 부합설]</span> A에 대한 보통살인미수죄 + 존속 B에 대한 과실치사죄 상경(전용X) ②<span class=\"cs-fact-tag\">[법정적 부합설]</span> 존속 B에 대한 보통살해죄(전용)","k":"gqhonp"},
+  {"i":"oxo4kp","o":"<div class=\"cs-h\">","h":"Ⅴ. 존속살해 고의로 보통살인 (보통살인의 고의로 촉탁·승낙살인)","k":"1s079ks"},
+  {"i":"hw7jus","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[객체의 착오]</span> 구체적·법정적 부합설 모두 ①발생사실 보통살인죄만(전용) ②존속살해미수죄 + 보통살인기수죄 상경(복사)","k":"1ecalg7"},
+  {"i":"161wuub","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[방법의 착오]</span> ①<span class=\"cs-fact-tag\">[구체적 부합설]</span> 존속살해미수죄 + 과실치사죄 상경(전용X) ②<span class=\"cs-fact-tag\">[법정적 부합설]</span> 발생사실 보통살인기수죄만(전용) / 존속살해미수죄 + 보통살인기수죄 상경(복사)","k":"16r0o35"},
+  {"i":"fnugav","o":"<div class=\"cs-h\">","h":"Ⅵ. '교사자의 존속'에 대한 살해 교사, 정범이 착오로 다른 사람 살인<span class=\"cs-exam\">【변사23】</span>","k":"bdtchz"},
+  {"i":"1vfxfi1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>피교사자(정범)의 죄책</strong>","k":"1u3xr3g"},
+  {"i":"indghe","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"법리: 정범 = 인식사실·발생사실 모두 보통살인","k":"1nbgcd8"},
+  {"i":"19m5dl4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[객체의 착오]</span> 구체적·법정적 부합설 모두 발생사실 보통살인죄(전용)","k":"u9i1s9"},
+  {"i":"xt3hrr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[방법의 착오]</span> ①<span class=\"cs-fact-tag\">[구체적 부합설]</span> 인식사실 보통살인미수죄 + 발생사실 과실치사죄 상경(전용X) ②<span class=\"cs-fact-tag\">[법정적 부합설]</span> 발생사실 보통살인죄(전용)","k":"12o9kex"},
+  {"i":"1vyl8cp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>교사자의 죄책</strong>","k":"1b3zcog"},
+  {"i":"ic5lxu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"법리: 정범 객체착오·방법착오 = 교사자에겐 모두 방법착오","k":"1v9520t"},
+  {"i":"1xu1j22","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[법정적 부합설]</span> 교사자 = '발생사실'에 대한 보통살인교사기수(전용) <span class=\"cs-fact-tag\">[다양한 견해가 존재하지만, 공범종속성의 원칙에 따름]</span>","k":"tvn3zo"},
+  {"i":"vqwua3","o":"<div class=\"cs-h\">","h":"Ⅶ. 병발 사례 (방법의 착오 문제) – A를 살해할 의사","k":"1qe50ca"},
+  {"i":"l84rgv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>A '사망', B '사망' 또는 '상해'</strong>","k":"8x5kkb"},
+  {"i":"cuqfbv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[의도객체에 의도결과 발생]</span> A에 대한 살인기수죄 + B에 대한 과실치'사상'죄 상경(전용X)","k":"1r3gc0u"},
+  {"i":"1tngkd8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>A '상해', B '사망'</strong>","k":"1o56su"},
+  {"i":"jdq64i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[구체적 부합설]</span> 구체적 사실착오 中 방법착오 → A에 대한 살인미수죄 + B에 대한 과실치사죄 상경(전용X)","k":"h22pol"},
+  {"i":"1o7df4l","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[법정적 부합설]</span> ①방법착오 → B에 대한 살인기수죄만, A에 대한 살인미수 흡수(전용) ②A에 대한 살인미수죄 + B에 대한 살인기수죄 상경(복사)","k":"1jypaib"},
+  {"i":"ygwyvp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>A 결과 없고(사망·상해 X), B '사망' 또는 '상해'</strong>","k":"yqjtpm"},
+  {"i":"ytey8b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"병발 착오 아닌 일반 '구체적 사실착오 中 방법착오' 문제","k":"1mk1959"},
+  {"i":"8e0m5s","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[표: 객체의 착오와 방법의 착오]</span>","k":"qy4ufk"},
+  {"i":"i8qwkg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[구체적 사실·객체]</span> 발생사실 고의기수(인식사실 별도평가 X)(전용) — 3설 공통","k":"1jymi1z"},
+  {"i":"145j07z","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[구체적 사실·방법]</span> 인식사실 미수 + 발생사실 과실 = 상경(전용X) — 구체적 부합설","k":"1cur7ff"},
+  {"i":"1p1fb9g","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[추상적 사실·객체/방법]</span> <span class=\"cs-fact-tag\">[추상적 부합설]</span> ①경죄 고의·중죄 발생 → 경죄 고의기수 + 중죄 과실 상경 ②중죄 고의·경죄 발생 → 중죄 고의미수 + 경죄 고의기수 상경 <span class=\"cs-fact-tag\">[원칙 + 경죄 고의기수]</span>","k":"19241b5"}
+ ]}
+]}

@@ -1,0 +1,43 @@
+{"id":"형소009","t":"위장출석","cat":"pro_01","lv":1,"tg":["下","모사19"],"b":[
+ {"i":"1bvkyv6","o":"<details class=\"cs-case\">","b":[
+  {"i":"1muil9t","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 쌍둥이 동생의 위장출석</strong></span> <span class=\"cs-exam\">【모사19】</span>","k":"zro3ay"},
+  {"i":"lqvwdw","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"pxuhfi","o":"<div class=\"cs-fact\">","b":[
+    {"i":"17gk75y","o":"<div class=\"cs-callout\">","b":[
+     {"i":"f6x1b","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"검사가 甲을 상해죄로 기소하였는데 제1심 공판정에 甲의 쌍둥이 동생 乙이 마치 甲인 것처럼 출석하고 허위 자백을 하였다. ① 피고인은 누구인가? ② 제1심 진행 중 발각되었다면 진행 정도에 따른 법원의 조치는? ③ 제1심 판결이 선고된 후 항소심 재판이 진행 중이라면 법원의 조치는? ④ 유죄판결이 확정되었다면 甲에 대한 절차와 乙에 대한 구제절차는? (각 5점)","k":"m2niep"}
+    ]}
+   ]},
+   {"i":"hf42ah","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1x21ygw","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1wy1bb6","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>① [피고인]</strong>","k":"1fsayfb"},
+    {"i":"1qkfs1h","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"실질적 표시설에 의하면 공소장에 표시된 甲이 실질적 피고인, 위장출석자 乙은 형식적 피고인 → 공소제기 효력은 <span class=\"cs-red\"><strong>甲에게만</strong></span> 미침","k":"12ftnmv"},
+    {"i":"l5ji54","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>② [제1심 진행 중]</strong>","k":"1ulx3sv"},
+    {"i":"4zystb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>[인정신문 단계]</strong> 乙을 퇴정시키고 甲을 소환하여 재판 진행","k":"1in7xdl"},
+    {"i":"93izkn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>[사실심리 진행 후]</strong> 乙에 대해 <span class=\"cs-green\"><strong>§327제2호 유추적용하여 공소기각판결</strong></span> + 甲을 소환하여 공판절차를 새로 진행","k":"5nevad"},
+    {"i":"bdgzaf","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>③ [판결 선고 후]</strong>","k":"y7a1l1"},
+    {"i":"3h5m3o","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판결의 효력은 乙에게만 미침 → 상소로 乙에게 <span class=\"cs-red\"><strong>공소기각판결</strong></span> 선고 + 甲에 대해서는 제1심 공판절차를 새로 진행","k":"41vryr"},
+    {"i":"72gy94","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>④ [판결 확정 후]</strong>","k":"13uv9ac"},
+    {"i":"1oenfp9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>[乙 구제]</strong> 비상상고설·재심설 대립 → 재심사유를 유추적용하는 <span class=\"cs-red\"><strong>재심설 타당</strong></span>","k":"9kdgjv"},
+    {"i":"1s1s8oz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>[甲]</strong> 제1심 공판절차를 새로 진행","k":"1rsn20g"}
+   ]}
+  ]}
+ ]},
+ {"i":"nfw4kb","o":"<div class=\"cs-callout\">","b":[
+  {"i":"19u478d","o":"<div class=\"cs-h\">","h":"Ⅰ. 피고인 특정","k":"vxiozn"},
+  {"i":"11t7i7t","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"개념 : <span class=\"cs-def\"><strong>검사가 피고인을 정확하게 표시하여 공소제기하였는데 다른 사람이 피고인인 것처럼 출석하여 재판이 진행된 경우</strong></span>","k":"1c9qvqc"},
+  {"i":"1x5mk6l","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[실질적 표시설] 공소장에 표시된 피고인이 실질적 피고인, 위장출석자는 형식적 피고인 → 공소제기의 효력은 진정한 피고인에게만 미치고 위장출석자에게는 미치지 않음</strong></span>","k":"qhj8ur"},
+  {"i":"x8hsrv","o":"<div class=\"cs-h\">","h":"Ⅱ. 제1심이 진행 중인 경우","k":"1ulkncm"},
+  {"i":"12reumh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[인정신문 단계에서 밝혀진 경우]</span> <span class=\"cs-red\"><strong>위장출석자를 퇴정시키고 진정한 피고인을 소환하여 재판 진행</strong></span>","k":"132aqwb"},
+  {"i":"yhwzt7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[사실심리가 진행된 단계에서 밝혀진 경우]</span> 위장출석자에 대해 형식적 소송계속이 발생 → §327제2호를 <span class=\"cs-green\"><strong>유추적용하여 공소기각판결</strong></span> 선고 + 진정한 피고인을 소환하여 공판절차를 새로 진행","k":"1jrnh4d"},
+  {"i":"1iahnuc","o":"<div class=\"cs-h\">","h":"Ⅲ. 판결이 선고된 경우","k":"xqfsvg"},
+  {"i":"mvmsxh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판결의 효력은 <span class=\"cs-red\"><strong>위장출석자에게만</strong></span> 미침 → 상소에 의해 위장출석자에게 <span class=\"cs-red\"><strong>공소기각판결 선고</strong></span>","k":"1iu9z0n"},
+  {"i":"jv5ktd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"진정한 피고인에 대해서는 <span class=\"cs-red\"><strong>제1심 공판절차를 새로 진행</strong></span>","k":"djcush"},
+  {"i":"3n4sqi","o":"<div class=\"cs-h\">","h":"Ⅳ. 판결이 확정된 경우","k":"1e9ckz1"},
+  {"i":"14vtzy6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《판결 확정 후 위장출석자에 대한 구제방법》</strong></span>","k":"q4eypc"},
+  {"i":"ixo61q","o":"<div class=\"cs-theory\">","b":[
+   {"i":"iih1i3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 비상상고설 ② <span class=\"cs-red\"><strong>재심설</strong></span>","k":"hb24nb"},
+   {"i":"1d9olj7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: <span class=\"cs-u\">비상상고는 검찰총장만 할 수 있다는 점</span>에서 <span class=\"cs-red\"><strong>재심사유를 유추적용하는 재심설 타당</strong></span>","k":"4vbdqi"}
+  ]},
+  {"i":"1azymvu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"진정한 피고인에 대해서는 <span class=\"cs-red\"><strong>제1심 공판절차를 새로 진행</strong></span>","k":"djcush"}
+ ]}
+]}

@@ -1,0 +1,15 @@
+{"id":"국가009","t":"사전수뇌죄, 사후수뇌죄, 수뇌후부정처사죄","cat":"gak_국가공무원","lv":1,"tg":[],"b":[
+ {"i":"1myz01a","o":"<div class=\"cs-callout\">","b":[
+  {"i":"111ekbw","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제131조(수뢰후부정처사, 사후수뢰)</strong></span>","k":"brxafu"},
+  {"i":"r8c1ul","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① <span class=\"cs-u\">공무원 또는 중재인</span>이 전2조의 죄를 범하여 <span class=\"cs-blue\"><strong>부정한 행위</strong></span>를 한 때에는 <span class=\"cs-red\">1년 이상의 <strong>유기징역</strong></span>에 처한다.","k":"1xha9s5"},
+  {"i":"1qs6rqt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 공무원 또는 중재인이 그 직무상 부정한 행위를 한 후 뇌물을 수수, 요구 또는 약속하거나 제삼자에게 이를 공여하게 하거나 공여를 요구 또는 약속한 때에도 전항의 형과 같다.","k":"y7v0d3"},
+  {"i":"123ufmx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 공무원 또는 중재인이었던 자가 그 재직 중에 청탁을 받고 직무상 부정한 행위를 한 후 뇌물을 수수, 요구 또는 약속한 때에는 <span class=\"cs-red\">5년 이하의 <strong>징역</strong></span> 또는 <span class=\"cs-red\">10년 이하의 <strong>자격정지</strong></span>에 처한다.","k":"56gsoa"}
+ ]},
+ {"i":"186g3d6","o":"<div class=\"cs-h\">","h":"Ⅰ. 사전뇌물수수죄 (사전수뢰죄) (<span class=\"cs-blue\"><span class=\"cs-u\">§129</span>②</span>)","k":"6qno1b"},
+ {"i":"3fwgvu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[개념]</strong></span> <span class=\"cs-u\">공무원·중재인 될 자가 담당할 직무에 관해 청탁받고 뇌물 수수·요구·약속 후 '공무원·중재인이 된 때' 처벌</span> <span class=\"cs-def\"><strong>[became時=객관적 처벌조건, 고의 인식대상 X]</strong></span>","k":"1cz5n60"},
+ {"i":"21mg1m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"성립요건: <span class=\"cs-def\"><strong>[청탁 요건]</strong></span> 직무행위가 부정한 것인지 <span class=\"cs-green\"><strong>묻지 X</strong></span>, 청탁이 <span class=\"cs-green\"><strong>반드시 명시적일 필요도 X</strong></span>","k":"q90e50"},
+ {"i":"16ji512","o":"<div class=\"cs-h\">","h":"Ⅱ. 수뢰후부정처사죄 (<span class=\"cs-blue\"><span class=\"cs-u\">§131</span>①</span>)","k":"mbuoie"},
+ {"i":"18lhovt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例): <span class=\"cs-def\"><strong>[부정행위 시점]</strong></span> <span class=\"cs-green\"><strong>뇌물수수 완료 이후일 필요 X</strong></span>, 수수 중 부정행위 한 경우도 포함 — 단일·계속된 범의로 반복된 일련의 수수·부정행위에 인과관계·피해법익 동일하면 최후 부정행위 이후 수수도 포괄일죄 처벌<span class=\"cs-exam\">【변22】</span>","k":"1dd1984"},
+ {"i":"jbl90a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+ {"i":"1vfe25e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[도박장개설·범행 묵인 사례비 수수]</span> 경찰관 직무위배 부정행위<span class=\"cs-o\"><strong>(O)</strong></span>, 원주경찰서 교통계 근무·구체적 수사사무 미담당이라도 마찬가지, <span class=\"cs-fact-tag\">[직무유기죄와 상상적 경합]</span><span class=\"cs-exam\">【변14】</span>","k":"1ovj9af"}
+]}

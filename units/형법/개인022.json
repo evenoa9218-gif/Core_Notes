@@ -1,0 +1,73 @@
+{"id":"개인022","t":"형법 제310조 위법성조각사유","cat":"gak_명예주거","lv":1,"tg":["변사16","모사25","모사24","모사20","모사15"],"b":[
+ {"i":"pp3vhy","o":"<details class=\"cs-case\">","b":[
+  {"i":"16fkx32","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE] 기자 프로포폴 불법투여 특종 보도·진실성 착오</strong></span></span> <span class=\"cs-exam\">【변사16】 </span><span class=\"cs-red\">(25)</span>","k":"1j74j9d"},
+  {"i":"pde9c0","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"9kriyy","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1ckmovm","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1gzzkv6","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"참소식신문사 사회부 기자 甲·乙은 의사들의 프로포폴 불법투여 실태를 취재 중, 다나아 종합병원 원장 A가 연예인들에게 프로포폴을 불법 투여한다는 풍문을 듣고 취재차 병원을 찾아갔다(대표이사 김참말은 포상금 지급을 약속하며 격려). 甲·乙은 연예인 B가 진료실에서 A로부터 프로포폴을 투여받는 것을 열린 문틈으로 우연히 목격하고 불법투여를 사실이라 믿었다. A(환자 비밀)·B(사생활)가 인터뷰를 거절하자, 추가 확인 없이 \"A가 거액을 받고 상습적으로 프로포폴을 주사하고, B도 상습적으로 불법투여받은 것으로 보인다\"는 기사를 작성해 1면 특종으로 게재하였다. 甲·乙은 사실이라 굳게 믿었고 비방 의도 없이 오·남용 근절 목적이었으나, 실은 B는 성형수술 목적이었고 A 관련 내용도 경쟁병원 의사 C의 헛소문(허위)이었다. (1) 甲·乙의 죄책? (25점) (2) 甲·乙 행위에 대해 대표이사 김참말에게 방조범 성립을 긍정하는 견해? (5점)","k":"mgew3c"}
+    ]}
+   ]},
+   {"i":"2s9up9","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"z9cph0","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1gnp1on","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [甲·乙의 죄책]</strong></span>","k":"1so16om"},
+    {"i":"wteigb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(가) [구성요건 확정]</strong>","k":"uq5xfj"},
+    {"i":"y8ig6u","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 비방목적 ↔ 공익목적은 주관적 의도가 상반 → 드러낸 사실이 공공의 이익에 관한 것이면 특별한 사정 없는 한 비방목적<span class=\"cs-x\"><strong>(X)</strong></span>. 甲·乙 = 비방 의도 없는 공익 목적 → <span class=\"cs-blue\"><span class=\"cs-u\">§309</span></span><span class=\"cs-x\"><strong>(X)</strong></span>, <span class=\"cs-blue\"><span class=\"cs-u\">§307</span></span> 적용","k":"1qw2kuz"},
+    {"i":"s4umhk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 적시 사실이 허위여도 행위자에게 허위성 인식이 없으면 <span class=\"cs-blue\"><span class=\"cs-u\">§307</span>②</span><span class=\"cs-x\"><strong>(X)</strong></span> → <span class=\"cs-blue\"><span class=\"cs-u\">§307</span>①</span>. 甲·乙 = 진실로 굳게 믿음 → <span class=\"cs-blue\"><span class=\"cs-u\">§15</span>①</span>에 의해 <span class=\"cs-blue\"><span class=\"cs-u\">§307</span>①</span> 해당","k":"39p004"},
+    {"i":"1pwymf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"③ 하나의 기사로 A·B 명예 동시 훼손 → 각 명예훼손죄 상상적 경합","k":"xbppfw"},
+    {"i":"1leouhx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(나) [</strong><span class=\"cs-blue\"><span class=\"cs-u\"><strong>§310</strong></span></span><strong> 진실성 착오의 법적 취급]</strong>","k":"1nfml4u"},
+    {"i":"ar93n2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① <span class=\"cs-blue\"><span class=\"cs-u\">§307</span>①</span> 행위가 진실한 사실 + 오로지 공공의 이익 → 불벌(<span class=\"cs-blue\"><span class=\"cs-u\">§310</span></span>)","k":"1xvbsxz"},
+    {"i":"kt8qnj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 허위를 진실로 믿고 공익 위해 작성 → 진실성 착오","k":"14t9thl"},
+    {"i":"1obi2fk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"③ 위법성조각사유의 전제사실 착오설·허용된 위험설 등, 판례 = 공익 관련이면 진실 증명이 없어도 진실로 믿었고 그렇게 믿을 상당한 이유가 있으면 위법성<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1c8hlq9"},
+    {"i":"1xq5lnj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"④ 풍문·투약 장면만 목격, 추가 확인 전무 → 상당한 이유<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1vbtrw6"},
+    {"i":"16juy3k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(다) [결론]</strong> 甲·乙 = A·B에 대한 각 명예훼손죄의 공동정범, 양죄는 상상적 경합","k":"1l9of1i"},
+    {"i":"ua54om","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [김참말 방조범 긍정 견해]</strong></span>","k":"1z97md"},
+    {"i":"12jzqiq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(가) [부정 견해]</strong> 소극적구성요건표지이론·유추적용제한책임설 → 甲·乙의 불법고의 조각 → 제한적 종속형식상 김참말에게 방조범<span class=\"cs-x\"><strong>(X)</strong></span>","k":"y3owds"},
+    {"i":"iinteh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(나) [긍정 견해]</strong>","k":"bqu4ze"},
+    {"i":"qqbafx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 법효과제한책임설 = 고의불법 인정·책임고의만 조각","k":"1fc5s93"},
+    {"i":"6sobxj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 엄격책임설 = '정당한 이유' 부정 → 고의범","k":"5yr1zy"},
+    {"i":"srtork","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"③ 허용된 위험설 = 성실한 검토의무 위반 → 고의범","k":"1wknxx4"},
+    {"i":"e06jh2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"④ 판례 = 상당한 이유 없어 고의범 → 제한적 종속형식상 김참말에게 방조범<span class=\"cs-o\"><strong>(O)</strong></span>","k":"8gozog"}
+   ]}
+  ]}
+ ]},
+ {"i":"h3j7jj","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1xt484r","o":"<div class=\"cs-callout\">","b":[
+   {"i":"1n7r4yo","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제310조(위법성의 조각)</strong></span>","k":"5kdz9v"},
+   {"i":"wdpjeu","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><span class=\"cs-u\">제307조</span> 제1항</span>의 행위가 <span class=\"cs-u\"><strong>진실한 사실</strong></span>로서 <span class=\"cs-u\"><strong>오로지 공공의 이익</strong></span>에 관한 때에는 처벌하지 아니한다.","k":"eg8a9b"}
+  ]},
+  {"i":"96xm72","o":"<div class=\"cs-h\">","h":"Ⅰ. 적용범위 – <span class=\"cs-blue\"><span class=\"cs-u\">제307조</span> 제1항</span> (구성요건의 확정)<span class=\"cs-exam\">【변사16, 모사25·24·20·15】</span>","k":"1ucbgwe"},
+  {"i":"1lobaov","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용범위: <span class=\"cs-blue\"><span class=\"cs-u\">§307</span>①</span> 명예훼손죄에 적용 <span class=\"cs-def\"><strong>[위법성 조각]</strong></span>","k":"1viqz9a"},
+  {"i":"1mgppx2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 정통망법위반(명예훼손)·출판물 명예훼손에서 '정통망'·'출판물'·'비방목적' 등이 부정","k":"130zev7"},
+  {"i":"12irbax","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 허위사실 적시했으나 허위성 인식 없어 <span class=\"cs-blue\"><span class=\"cs-u\">§15</span>①</span>에 의해 <span class=\"cs-blue\"><span class=\"cs-u\">§307</span>①</span>이 적용되는 경우 → 최종적으로 <span class=\"cs-blue\"><span class=\"cs-u\">§307</span>①</span>이 구성요건으로 확정되면 <span class=\"cs-blue\"><span class=\"cs-u\">§310</span></span> 적용","k":"9tqzvv"},
+  {"i":"1r6w5fb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>[각 구성요건 중 부정되는 것을 순차 검토해 적용법조 확정]</strong></span><span class=\"cs-exam\">【변23·21·12】</span>","k":"1kwm1x9"},
+  {"i":"1e8fpmi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>[군형법 유추적용]</strong></span> ① 군형법은 <span class=\"cs-blue\"><span class=\"cs-u\">§310</span></span> 같은 규정을 두지 않음","k":"1r6n4q0"},
+  {"i":"1gaf9ye","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 그러나 입법자가 의도하지 않은 규율 공백에 대해 체계·입법의도·목적상 정당한 한도 내에서 유사 사안의 법규범 적용 가능","k":"5398rb"},
+  {"i":"1fe81c2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"③ <span class=\"cs-blue\"><span class=\"cs-u\">§310</span></span>은 군형법 <span class=\"cs-blue\"><span class=\"cs-u\">§64</span>③</span> 행위에 유추적용된다","k":"nzevvg"},
+  {"i":"1ulbpi4","o":"<div class=\"cs-h\">","h":"Ⅱ. 진실한 사실로서 오로지 공공의 이익에 관한 때","k":"1n68spr"},
+  {"i":"v4njbf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>진실한 사실</strong></span>","k":"t4sdch"},
+  {"i":"53wen1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>'진실한 사실'</strong></span> = <span class=\"cs-u\">전체 취지상 중요 부분이 객관적 사실과 합치</span> → 세부 차이·다소 과장 표현 있어도 무방<span class=\"cs-exam\">【변12】</span>","k":"zfdgnq"},
+  {"i":"17omj44","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>공공의 이익</strong></span>","k":"ny538c"},
+  {"i":"16qbnfk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例) : <span class=\"cs-u\">객관적으로 공익 관련 + 행위자도 주관적으로 공익 위해 적시한 것</span>","k":"13tpjqo"},
+  {"i":"1nia8ba","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"주요 동기·목적이 공익이면 부수적 사익 목적·동기 있어도 <span class=\"cs-blue\"><span class=\"cs-u\">§310</span></span> 적용<span class=\"cs-exam\">【변23·12】</span>","k":"frdhk"},
+  {"i":"md8hkz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"① 공공의 이익 = 국가·사회·일반 다수인 이익 + 특정 사회집단·구성원 전체 관심·이익 포함","k":"1i0yyvb"},
+  {"i":"16btjir","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"② '사회 일반 일부 이익'만 관련해도 타인과 공동생활 관계 사항이면 공익성","k":"edfuus"},
+  {"i":"1igy2jg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"③ '개인에 관한 사항'이라도 공익 관련·사회적 관심 획득(가능) 시 <span class=\"cs-blue\"><span class=\"cs-u\">§310</span></span> 적용 배제 X","k":"dlt8x"},
+  {"i":"1j47ph1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"공적 인물·제도·정책에 한정 X","k":"75ey7w"},
+  {"i":"b9bxjf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"'사인'도 관계 사회적 활동의 성질·사회적 영향 헤아려 공익 관련성 판단","k":"1aadp6r"},
+  {"i":"s6edcs","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"1wz6quy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-gbg\">[징계절차 회부 단계 공개 X]</span> 공익성<span class=\"cs-x\"><strong>(X)</strong></span> — 징계혐의는 절차 거쳐 확정 → '회부'만 된 단계 공개로 명예훼손 시 피해 가볍지 않아 회사 운영 도모라는 공익으로 볼 수 없음","k":"124ow30"},
+  {"i":"4dvkmm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[종친회 회장 출마 반대 \"사기꾼\"]</span> <span class=\"cs-blue\"><span class=\"cs-u\">§310</span></span> 위법성 조각<span class=\"cs-o\"><strong>(O)</strong></span> — <span class=\"cs-blue\">특경법위반(횡령)</span> 전과 있어 주요부분 객관적 사실 합치 · 회장 적격은 구성원 전체 관심·이익(공익성)","k":"ycpaid"},
+  {"i":"gdk1e6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[총학생회장 임원진 음주운전 관행 페북 게시]</span> <span class=\"cs-blue\"><span class=\"cs-u\">§310</span></span> 인정<span class=\"cs-o\"><strong>(O)</strong></span> — 중요부분 진실·주된 의도 공익","k":"1ik90az"},
+  {"i":"hz3wg1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>증명책임</strong></span>","k":"ql1tb0"},
+  {"i":"5kelqk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"인정자료: ① 진실·공익성은 행위자가 증명해야 하나 ② 그 증명은 엄격한 증거에 의할 것은 아니다<span class=\"cs-exam\">【변21·16·12】</span>","k":"d1mrtp"},
+  {"i":"2rqhmb","o":"<div class=\"cs-h\">","h":"Ⅲ. <span class=\"cs-blue\"><span class=\"cs-u\">제310조</span></span> 진실성에 대한 착오의 형법적 취급 (위전착 쟁점)<span class=\"cs-exam\">【변사16, 모사25·20】</span>","k":"ezaoty"},
+  {"i":"3emqdc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><span class=\"cs-u\">§307</span>①</span> 행위가 진실·공익이면 처벌 X(<span class=\"cs-blue\"><span class=\"cs-u\">§310</span></span>)","k":"96xtpw"},
+  {"i":"15sv442","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\">《적시 사실이 허위임에도 진실로 오인한 경우 법적 효과 문제》</span>","k":"ol0sp8"},
+  {"i":"1rtwbfl","o":"<div class=\"cs-theory\">","b":[
+   {"i":"1g0tc99","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①위법성조각사유의 전제사실 착오설 (소극적구성요건표지이론·유추적용제한책임설·법효과제한책임설·엄격책임설)","k":"16b11to"},
+   {"i":"zvgo71","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"②허용된 위험설(성실한 검토의무 이행 시 위법성 조각)","k":"16cll79"},
+   {"i":"t1rlfi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-fact-tag\">[위법성 조각]</span> 적시 사실이 공익 관련이면 진실 증명 없어도 진실로 믿었고 그렇게 믿을 만한 '상당한 이유' 있으면 <span class=\"cs-blue\"><span class=\"cs-u\">§310</span></span>에 의해 '위법성' 없음<span class=\"cs-exam\">【변24】</span>","k":"p0in5k"},
+   {"i":"cf6rpy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 진실성 착오 시 고의로 명예훼손 불법을 실현했으나 책임비난은 실질상 부주의에 있음 → 법효과제한책임설 타당","k":"1lwalg"}
+  ]}
+ ]}
+]}

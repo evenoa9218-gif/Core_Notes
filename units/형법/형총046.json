@@ -1,0 +1,79 @@
+{"id":"형총046","t":"교사범","cat":"chong_06","lv":1,"tg":[],"b":[
+ {"i":"2avqbc","o":"<details class=\"cs-case\">","b":[
+  {"i":"1drzhbi","o":"<summary>","h":"<span class=\"cs-u\">[CASE] 절도교사·丙 중지·甲 공범관계 이탈</span><span class=\"cs-exam\">【변사19】</span> <span class=\"cs-red\">(20)</span>","k":"vsydia"},
+  {"i":"sb8zgu","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"uwsy2s","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1th1bcs","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1nptxfd","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲→乙 \"너 혼자 몰래 A집 들어가 도자기 훔쳐라\". 승낙한 乙, 甲에 알리지 않고 丙과 절도 공모. 甲→乙 전화로 범행 단념 권유했으나 乙 단호히 거절. 오전 丙 망보고 乙 A집 들어가 도자기 찾음. 丙 후회하고 망 안 보고 가버림. 이를 모른 乙 도자기 훔쳐 나옴. 甲·乙·丙 죄책? (20점)","k":"60nm25"}
+    ]}
+   ]},
+   {"i":"b29nc3","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1eiwtdm","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"wbynog","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-exam\">【변사19】</span>","k":"1rqnx6o"},
+    {"i":"wc6qmp","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [乙의 죄책]</strong> 망보기도 '합동'·'공동' 해당 → 乙 = 특수절도죄 + 폭처법위반(공동주거침입)죄 실체적 경합","k":"1a63cwd"},
+    {"i":"39qp8t","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [丙의 죄책]</strong>","k":"cbrspc"},
+    {"i":"1cxsejh","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 乙 A집 들어가 도자기 찾음 → 절도 실행착수","k":"ktgkiw"},
+    {"i":"1titnbq","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 중지미수 자의성 어느 견해로도 인정되나, 丙 乙 범행 중지 안 시키고 그냥 가버려 乙 기수 → 중지미수 X","k":"12ez02q"},
+    {"i":"1q5xwfb","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 丙 = 특수절도죄 + 폭처법위반(공동주거침입)죄 실체적 경합","k":"yedvtc"},
+    {"i":"97v86b","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [甲의 죄책]</strong>","k":"1yf597e"},
+    {"i":"qs3nrj","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 乙 실행착수 前 교사 철회했으나 乙 거부한데도 범죄실행 결의 해소 X → 공범관계 이탈 X","k":"swjyie"},
+    {"i":"16xm8n6","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 乙·丙 특수절도·공동주거침입 실행 = 양적 초과 → 甲 = 교사범위인 절도교사죄 + 주거침입교사죄 실체적 경합","k":"1yyo8je"}
+   ]}
+  ]}
+ ]},
+ {"i":"miv3dt","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1wa50f9","o":"<div class=\"cs-callout\">","b":[
+   {"i":"11adsjj","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제31조(교사범)</strong></span>","k":"1p4fbeq"},
+   {"i":"v4d9qi","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 타인을 교사하여 죄를 범하게 한 자는 죄를 실행한 자와 동일한 형으로 처벌한다.","k":"mmmi12"},
+   {"i":"59cq2n","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 교사를 받은 자가 범죄의 실행을 승낙하고 실행의 착수에 이르지 아니한 때에는 교사자와 피교사자를 음모 또는 예비에 준하여 처벌한다.","k":"1k1z574"},
+   {"i":"ujp549","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 교사를 받은 자가 범죄의 실행을 승낙하지 아니한 때에도 교사자에 대하여는 전항과 같다.","k":"5zn6x3"}
+  ]},
+  {"i":"vapqop","o":"<div class=\"cs-h\">","h":"Ⅰ. 교사의 의미 – 특정범죄의 결의 야기","k":"1mm91z0"},
+  {"i":"q1towu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"개념: 범죄 결의 X인 피교사자에게 '특정범죄를 결의'하게 함","k":"89voqb"},
+  {"i":"1ixae1x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-neg-tag\">[세부사항 특정 不要]</span> 범행 일시·장소·방법까지 특정 不要 <span class=\"cs-fact-tag\">[막연히 \"범죄하라\"·\"절도하라\"<span class=\"cs-x\"><strong>(X)</strong></span>, 일제 드라이바 1개 사주며 \"열심히 일하라\"·장물 매수해주겠다<span class=\"cs-o\"><strong>(O)</strong></span>]</span>","k":"176bm1u"},
+  {"i":"11q10vt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[특정범죄에 대한 것]</span> 막연한 범죄계획만으론 부족 → 특정 안 된 막연한 범죄계획 가진 자에게 특정범죄 교사 可","k":"7xwnp8"},
+  {"i":"1pc40bf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[공동교사]</span> 교사자 2인 이상 공동교사 可","k":"10utovz"},
+  {"i":"1j8fq2o","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[편면적 교사]</span> 인정 X","k":"1eog8iv"},
+  {"i":"14b8ro9","o":"<div class=\"cs-h\">","h":"Ⅱ. 이미 범행을 결의한 정범에 대한 교사","k":"wi26qi"},
+  {"i":"z77hgv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[이미 결의한 범죄 교사]</span> 피교사자가 이미 결의 가진 때 = 교사범 성립 여지 X","k":"10ktnl2"},
+  {"i":"1m589un","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 정범 실행착수 + 결의 강화·촉진 → 방조범 ② 정범 실행착수 X or 착수했어도 결의 강화·촉진 X → <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§31</strong></span></span>③ 실패한 교사","k":"ukd3i5"},
+  {"i":"1sa6tnc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[양적 초과 교사(결의보다 큼)]</span> 전체범죄에 교사범 성립 <span class=\"cs-fact-tag\">[예: 절도 결의 정범에 강도교사]</span>","k":"uc2zba"},
+  {"i":"dedslb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[양적 과소 교사(결의보다 작음)]</span> 경미범죄 교사범 X → '방조범'만 성립 可","k":"1sa1dji"},
+  {"i":"1gwzksi","o":"<div class=\"cs-h\">","h":"Ⅲ. 교사행위와 범행결의의 인과관계","k":"4h76c5"},
+  {"i":"62kxlv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[승낙 X or 결의 교사無관]</span> 피교사자 승낙 X or 범행결의가 교사행위에 의한 것으로 보기 어려움 → 실패한 교사(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§31</strong></span></span>③) → 음모·예비 준해 처벌","k":"lixyes"},
+  {"i":"157pk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[승낙 지연 후 결의]</span> 교사 당시 일응 승낙 X로 보여도 이후 교사행위에 의해 결의 인정되면 교사범 성립 영향 X <span class=\"cs-fact-tag\">[甲 낙태 권유 → 乙 거절했으나 결국 甲으로 인해 낙태 결의·실행 → 인과관계 단절 X → 甲 낙태교사죄 성립]</span>","k":"1y45wj6"},
+  {"i":"vamkgv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[유일조건 不要]</span> 교사가 정범 범행의 유일조건일 필요 X → 정범에 범죄의 습벽 있어 습벽 + 교사행위 함께 원인이어도 교사범 성립 영향 X","k":"afzene"},
+  {"i":"h5ge2b","o":"<div class=\"cs-h\">","h":"Ⅳ. 교사범의 고의","k":"kcvhk0"},
+  {"i":"1c24gm3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>교사범의 고의</strong>","k":"1lkz9u5"},
+  {"i":"suvhsa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[이중의 고의]</span> ① 정범의 특정범죄 실행행위에 대한 고의(정범의 고의) + ② 교사행위에 대한 고의(교사의 고의)","k":"yf25t1"},
+  {"i":"1gfyr84","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[예비만 교사]</span> 기본범죄(정범) 고의 없이 '예비만 교사' → 교사범 성립 X (불가벌)","k":"a961qy"},
+  {"i":"1t2j1pa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[신분범·목적범]</span> 정범의 신분·목적에 대한 고의도 필요","k":"1a9fi4a"},
+  {"i":"v3pb76","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>미수의 교사</strong>","k":"1kjvtr5"},
+  {"i":"7q3a7w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[교사자(주로 함정수사 수사기관)]</span> ① 애초에 미수 그칠 것 예상하며 교사 = 기수의 고의 X → 교사범 성립 X ② 예상과 달리 기수여도 교사범 X, 단지 과실범만 문제","k":"17rq3ru"},
+  {"i":"csqcf9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[피교사자]</span> 기수의 고의 有 → 기수범 or 미수범 성립 <span class=\"cs-fact-tag\">[범의유발형 함정수사로 위법 시 공소기각(</span><span class=\"cs-blue\"><span class=\"cs-u\">§327</span></span><span class=\"cs-fact-tag\">②) 대상일 뿐, 피교사자 고의 조각 X]</span><span class=\"cs-exam\">【변12】</span>","k":"q8661l"},
+  {"i":"2m3t8s","o":"<div class=\"cs-h\">","h":"Ⅴ. 기도된 교사 – 효과 없는 교사와 실패한 교사","k":"t52u5a"},
+  {"i":"1xnholn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[효과 없는 교사]</span> 승낙 + 실행착수 X → 교사자·피교사자 음모·예비 준해 처벌(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§31</strong></span></span>②)<span class=\"cs-exam\">【변21·18】</span>","k":"1spyll"},
+  {"i":"jebca","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[실패한 교사]</span> 승낙 X → 교사자에 대하여 전항과 동일(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§31</strong></span></span>③)","k":"t34ba3"},
+  {"i":"14fxcf2","o":"<div class=\"cs-h\">","h":"Ⅵ. 간접교사와 연쇄교사","k":"118dpin"},
+  {"i":"4lfm5a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>간접교사와 연쇄교사</strong>","k":"1c9rtpg"},
+  {"i":"1xs3ohq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[간접교사]</span> 교사를 하라고 교사 <span class=\"cs-fact-tag\">[甲→乙 \"丙 시켜 A 혼내주라\"]</span>","k":"aorrr1"},
+  {"i":"1fnkt9q","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[연쇄교사]</span> 직접 범행 교사받은 피교사자가 다시 제3자에 교사 <span class=\"cs-fact-tag\">[甲→乙 \"A 혼내주라\" → 乙→丙 \"A 혼내주라\"]</span>","k":"p0r7hh"},
+  {"i":"1oe0j3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>인정여부</strong><span class=\"cs-exam\"><strong>【모사25·21·16】</strong></span>","k":"vvlgzm"},
+  {"i":"5sh4fz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-hl\">《간접교사·연쇄교사 인정 여부》</span>","k":"1ly5lkj"},
+  {"i":"knvrms","o":"<div class=\"cs-theory\">","b":[
+   {"i":"xfpix8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①부정설(교사자가 실행 정범 교사한 것 X → 성립 부정) ②긍정설(정범 범행 야기 점 차이 X → 정범 행위와 인과관계만 인정되면 교사 해당)","k":"1dcv4m0"},
+   {"i":"regy4q","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-fact-tag\">[간접교사 긍정설]</span> 교사를 하라고 교사한 간접교사 사안 교사범 성립 인정 <span class=\"cs-fact-tag\">[甲이 乙로부터 丙 범죄 저지르게 해달라 부탁받아 乙 요청 丙에 전달·丙 결의·실행하게 함 → 乙 교사범 죄책]</span> <span class=\"cs-fact-tag\">[연쇄교사 사안 판례 없음]</span>","k":"kygcdt"},
+   {"i":"d4vian","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§31</strong></span></span>① 타인 교사 방법 제한 X → 긍정설 타당","k":"740g25"}
+  ]},
+  {"i":"1isi3fu","o":"<div class=\"cs-h\">","h":"Ⅶ. 교사자의 '공범'관계 이탈 <span class=\"cs-fact-tag\">[변사19, 모사23 등 사례형 빈출]</span>","k":"1pzcuuv"},
+  {"i":"1n9n2u7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"개념: 교사 = 결의 X 피교사자에게 특정범죄 '결의하게' 함","k":"n5578m"},
+  {"i":"1x4uy21","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[이탈 요건]</span> 교사범 공범관계 이탈: ① 피교사자 실행행위 나아가기 前 ② 교사행위 철회 의사표시 + ③ 교사로 형성된 피교사자 범죄실행 '결의를 해소'","k":"197xgwt"},
+  {"i":"1e225w7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[결의해소 인정]</span> ① 교사범 철회 의사표시 + 피교사자도 그 의사 따르기로 or ② 교사범 명시적 철회 + 피교사자 범죄실행 방지 진지한 노력 다해 결의 사정 제거<span class=\"cs-exam\">【변23】</span>","k":"jn3jyq"},
+  {"i":"trjel5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[철회 인정 효과]</span> 이후 피교사자 범죄해도 당초 교사 아닌 새 결의에 의한 것 → 교사자 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§31</strong></span></span>②죄책 별론, <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§31</strong></span></span>① 교사범 죄책 X","k":"1r75xb7"},
+  {"i":"4h354p","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[표]</span> 부작위·과실 관련문제 (공범 — 교사/방조 — 정범)","k":"9ra5du"},
+  {"i":"cj8itl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[부작위·교사]</span> 부작위에 의한 <span class=\"cs-x\"><strong>(X)</strong></span> — 교사 — 부작위범에 대한 (정범 보증인지위)","k":"123rcm9"},
+  {"i":"7lcmki","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[부작위·방조]</span> 부작위에 의한 (방조범 보증인지위) — 방조 — 부작위범에 대한 (정범 보증인지위)","k":"6fyr6p"},
+  {"i":"mr03wc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[과실·교사]</span> 과실에 의한 <span class=\"cs-x\"><strong>(X)</strong></span> — 교사 — 과실범에 대한 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"1l3vq2o"},
+  {"i":"14g77od","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[과실·방조]</span> 과실에 의한 <span class=\"cs-x\"><strong>(X)</strong></span> — 방조 — 과실범에 대한 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"1hbfkxs"}
+ ]}
+]}

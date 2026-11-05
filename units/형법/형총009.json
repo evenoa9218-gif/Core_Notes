@@ -1,0 +1,27 @@
+{"id":"형총009","t":"고의 일반","cat":"chong_02","lv":1,"tg":["B급"],"b":[
+ {"i":"18q0nwr","o":"<div class=\"cs-callout\">","b":[
+  {"i":"emhww2","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제13조(고의)</strong></span> 죄의 성립요소인 사실을 인식하지 못한 행위는 벌하지 아니한다. 다만, 법률에 특별한 규정이 있는 경우에는 예외로 한다.","k":"1cftp69"},
+  {"i":"8dtg5j","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제15조(사실의 착오)</strong></span> ① 특별히 무거운 죄가 되는 사실을 인식하지 못한 행위는 무거운 죄로 벌하지 아니한다.","k":"3uxmt1"}
+ ]},
+ {"i":"1try4t4","o":"<div class=\"cs-h\">","h":"Ⅰ. 고의","k":"thnj03"},
+ {"i":"hkno44","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[고의의 이중적 지위]</span> 이중적 지위 인정설: 객관적 행위상황 인식 = 구성요건적 고의 ↔ 심정반가치로서의 책임고의 구별, 책임고의 = 위법성 인식과 분리된 독자적 책임요소","k":"oijmxl"},
+ {"i":"vwnhgc","o":"<div class=\"cs-h\">","h":"Ⅱ. 미필적 고의와 인식 있는 과실의 구별기준 [변사19·16, 모사26 등 빈출]","k":"krasut"},
+ {"i":"1p58pgk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[문제]</span> 미필적 고의 ↔ 인식 있는 과실 구별기준","k":"x3uaxb"},
+ {"i":"4on2qc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[학설]</span> ①결과발생 구체적 가능성 인식 시 미필적 고의 인정하는 가능성설 ②결과발생 개연성 인식 시 인정하는 개연성설 ③가능성 인식 + 결과발생 용인 시 인정하는 용인설 ④가능성 인식 + 결과발생 위험 감수 시 인정하는 감수설","k":"85tum"},
+ {"i":"ksn5ap","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[판례 용인설]</span> 미필적 고의 인정되려면 범죄사실 발생가능성 인식 + 나아가 발생 위험을 용인하는 내심의 의사 有<span class=\"cs-exam\">【변18】</span>","k":"ygmwmg"},
+ {"i":"i9ilbf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[검토]</span> 고의의 의지적 요소 기준 구별하는 용인설(내지 감수설) 타당","k":"1hmvdoj"},
+ {"i":"19dv04m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[추인]</span> 발생가능성 용인 여부 = 진술에 의존 X, 외부 행위형태·상황 등 구체적 사정 기초로 일반인 평가 고려하며 '행위자의 입장'에서 심리상태 추인","k":"11hv28x"},
+ {"i":"hf3q5n","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[미필적 고의≠중과실]</span> 미필적 고의 = 중과실과 달리 발생가능성 인식 + 발생 위험 용인 내심의 의사 有여야 → 발생가능성 인식 자체 없으면 미필적 고의 X","k":"16mhynh"},
+ {"i":"1i2ac9i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[살인죄 범의]</span> 자기 행위로 피해자 사망할 수도 있다는 사실 인식·예견으로 족, 사망 희망·목적 不要, 확정적 고의 아닌 미필적 고의로도 족<span class=\"cs-exam\">【변12】</span>","k":"1jckic8"},
+ {"i":"movul3","o":"<div class=\"cs-h\">","h":"Ⅲ. 고의의 인식대상","k":"1b71u25"},
+ {"i":"jk8uy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[인식대상=객관적 구성요건요소]</span> 고의의 인식대상 = '객관적 구성요건요소' 해당 사실","k":"1te4s7a"},
+ {"i":"8d0voq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[재물 타인성 오신]</span> 재물 타인성 오신하여 자기에게 취득(빌린 것) 허용된 동일 물건으로 오인·가져온 경우 = '범죄사실' 인식 X → 범의 조각, 절도죄 X<span class=\"cs-exam\">【변23·19·13】</span>","k":"15fnfyf"},
+ {"i":"129szv2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[가중·감경적 구성요건O]</span> 보통살인 고의로 존속(장모) 살해 시 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제15조</strong></span></span> 제1항에 의해 장모에 대한 보통살인죄만 성립<span class=\"cs-exam\">【변24】</span>","k":"1kabwkg"},
+ {"i":"1d4ilc2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[구체적 위험범O]</span> ①현주건조물·공용건조물·타인소유 일반건조물 방화 = 추상적 위험범 → 공공의 위험 = 고의 인식대상 X ②자기소유 일반건조물·일반물건(자기·타인소유) 방화 = 구체적 위험범 → '공공의 위험발생' = 고의 인식대상(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제164조</strong></span></span>~<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제167조</strong></span></span> 참조)","k":"19a5c8p"},
+ {"i":"1s6tmuc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[상습성X]</span> 상습성 = 행위자가 갖추면 족, 고의 대상 X","k":"1toaohd"},
+ {"i":"1dr3vhf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[객관적 처벌조건X]</span> 객관적 처벌조건 = 고의 인식대상 X <span class=\"cs-gbg\">[예, 사전뇌물수수죄 '공무원 또는 중재인이 된 때'(</span><span class=\"cs-blue\"><span class=\"cs-u\">제129조</span></span><span class=\"cs-gbg\"> 제2항)]</span>","k":"18pnlto"},
+ {"i":"vbxkx0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[친족상도례X]</span> 본가 소유물로 오신했어도 = 형면제 사유(현 상대적 친고죄)에 불과 → 절도죄 성립·처벌에 영향 X<span class=\"cs-exam\">【변19·17】</span>","k":"vk6i6n"},
+ {"i":"16gmwxd","o":"<div class=\"cs-h\">","h":"Ⅳ. 초과주관적 구성요건 – 목적범의 목적","k":"19zoepv"},
+ {"i":"ybkmef","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[고의 인식대상X]</span> 목적범의 목적 = 범죄 성립 위한 초과주관적 위법요소, 고의 외 별도로 요구","k":"1b5zyze"},
+ {"i":"1o6yc32","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[미필적 인식]</span> 목적 = 초과주관적 위법요소 → 미필적 인식이면 족, 목적 대상 범죄의 구체적 내용까지 인식 不要, 적극적 의욕·확정적 인식 不要 <span class=\"cs-fact-tag\">[내란선동죄의 '국헌을 문란할 목적']</span>","k":"gh4it8"}
+]}

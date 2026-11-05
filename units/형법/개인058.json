@@ -1,0 +1,44 @@
+{"id":"개인058","t":"용도를 특정하여 위탁한 금전과 횡령죄","cat":"gak_횡령배임","lv":1,"tg":["모사20"],"b":[
+ {"i":"127upwb","o":"<details class=\"cs-case\">","b":[
+  {"i":"1oykull","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE]</strong></span></span> [사법12] <span class=\"cs-red\">(10)</span>","k":"l3rh1n"},
+  {"i":"aa4w6l","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1tq0x5z","o":"<div class=\"cs-fact\">","b":[
+    {"i":"bdtizj","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1laplja","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲, A학교법인 이사장으로서 그 법인이 설치·운영하는 사립학교 B대학 및 별개 법인인 B대학 산학협력단 운영에 직·간접 영향력을 행사하고 산학협력단 자금 입출금을 지시하기도 함. 증권회사 근무 친구 乙과 산학협력단이 국가에서 용도를 특정해 교부받은 보조금(보조금 관리에 관한 법률상 다른 용도 사용 금지)을 빼내 주식에 투자해 수익을 나누기로 합의 → 甲이 보조금 중 2억 원을 빼내 乙에게 전달, 乙은 사정을 알고 주식에 투자.","k":"6k7n4h"},
+     {"i":"zmshln","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲의 행위가 업무상횡령죄에 해당되는지 여부를 논하시오. (10점)","k":"vzokul"}
+    ]}
+   ]},
+   {"i":"1hx2jnk","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1muvro9","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1sdpjny","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [위탁관계]</strong></span>","k":"1cgkprm"},
+    {"i":"zvcdps","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 업무상횡령죄의 '업무'는 사실상의 것도 포함","k":"8lhism"},
+    {"i":"6ufgiu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 재물 보관의 위탁관계도 사실상의 관계면 충분","k":"1hwxok1"},
+    {"i":"12ggco6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 별개 법인인 산학협력단 운영에 영향력을 행사하고 자금 입출금을 지시 → 업무상 재물 보관자의 지위<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1rxtlpz"},
+    {"i":"1owmytp","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [용도를 정하여 위탁한 금전]</strong></span>","k":"j67vv9"},
+    {"i":"mlgepa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 용도가 '엄격히' 제한된 자금을 위탁받아 보관하는 자가 제한된 용도 외의 목적으로 사용하면 횡령죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1xyd1q5"},
+    {"i":"rrzown","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 법률상 다른 용도 사용이 금지된 보조금을 주식투자에 사용 → 업무상횡령죄(<span class=\"cs-blue\"><span class=\"cs-u\">제356조</span>, <span class=\"cs-u\">제355조</span> 제1항</span>)<span class=\"cs-o\"><strong>(O)</strong></span>","k":"4ynph6"}
+   ]}
+  ]}
+ ]},
+ {"i":"c29qn6","o":"<div class=\"cs-callout\">","b":[
+  {"i":"d3dizi","o":"<div class=\"cs-h\">","h":"Ⅰ. 용도를 정하여 위탁한 금전<span class=\"cs-exam\">【모사20】</span>","k":"3588p5"},
+  {"i":"1d6s5wn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\">《용도를 정하여 위탁받은 금전을 수탁자가 임의소비한 경우 죄책》</span>","k":"126h9zj"},
+  {"i":"z4szf9","o":"<div class=\"cs-theory\">","b":[
+   {"i":"wen2kz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①횡령죄설(소유권 위탁자에게 유보) ②배임죄설(금전 가치성 강조, 상대방에 소유권 이전)","k":"goe0ye"},
+   {"i":"1royj0b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-glabel\">[횡령죄설]</span> 목적·용도 정한 금전은 그 용도 사용 전까지 소유권 위탁자 유보","k":"1x1h24f"},
+   {"i":"sh8qc8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 특정성 불요 시 취지 반하지 않고 대체가능한 상태면 일시사용도 횡령 X ② 취지 반해 다른 용도 소비할 때 비로소 횡령죄","k":"1dzhzdz"},
+   {"i":"109dzky","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 용도특정 위탁 시 사용 전까지 위탁자에게 소유권 유보 → 횡령죄설 타당","k":"2ggy1w"}
+  ]},
+  {"i":"122kcwt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용범위: <span class=\"cs-def\"><strong>[수령 금전]</strong></span> <span class=\"cs-u\">금전수수 수반 사무처리 위임받아 제3자로부터 수령한 금전은</span> 용도한정 위탁금전처럼 수령과 동시에 '위임자 소유', 위임받은 자는 보관관계","k":"n1typb"},
+  {"i":"1ab68at","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[불법영득의사]</strong></span> <span class=\"cs-u\">위탁취지 반해 권한 없이 소유권자 처분(반환거부 포함)하려는 의사</span>","k":"10ak3zk"},
+  {"i":"16i3k19","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"소유자 이익 위해 처분 시 특별한 사정 없으면 불법영득의사 X","k":"l9yw0j"},
+  {"i":"idnf2f","o":"<div class=\"cs-h\">","h":"Ⅱ. 용도가 '엄격히' 제한된 자금","k":"a63tqe"},
+  {"i":"mkjiam","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-def\">용도 '엄격히' 제한된 자금을 제한용도 외로 사용 → 횡령죄</span>","k":"c3e7zn"},
+  {"i":"vt0zxd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"보관 중 '특정 용도·목적 소멸'돼도 반환·임의소비 승낙 전까지 위탁자 소유물 → 횡령죄","k":"1f0x6nm"},
+  {"i":"tk54th","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"용도 엄격제한 자금을 제한용도 외 사용 시 결과적으로 본인 위하는 면 있어도 사용행위 자체로 불법영득의사 실현 → 횡령죄","k":"bul07"},
+  {"i":"re5ilh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"wyceqv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[교비회계]</span> 사립학교 교비회계 수입 다른 용도 사용 → 사용행위 자체로 불법영득의사 실현, <span class=\"cs-red\"><strong>횡령죄<span class=\"cs-o\"><strong>(O)</strong></span></strong></span><span class=\"cs-exam\">【변22·12】</span>","k":"cb4i3y"},
+  {"i":"3axgkw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[사회단체보조금]</span> 경비부족 메우려 보조금 전용해도 용도 엄격제한된 이상 불법영득의사 부인 X","k":"es5kie"},
+  {"i":"1fxueai","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[산학협력단 국고보조금]</span> 업무는 법령·계약뿐 아니라 관례·사실상의 것도 포함, 위탁관계도 사실상 관계면 충분 이사장이 대학·산학협력단 자금 입출금 지시 등 → 산학협력단 자금 '사실상 보관자' 용도 엄격특정 국고보조금을 교비계좌 송금·교직원 급여 사용 → <span class=\"cs-red\"><strong>업무상횡령죄<span class=\"cs-o\"><strong>(O)</strong></span></strong></span><span class=\"cs-exam\">【모사20】</span>","k":"j08fgx"}
+ ]}
+]}

@@ -1,0 +1,49 @@
+{"id":"개인016","t":"성폭법 – 주거침입강간 등","cat":"gak_성범죄","lv":1,"tg":["변사21","모사25","모사24","모사23"],"b":[
+ {"i":"14wxua9","o":"<details class=\"cs-case\">","b":[
+  {"i":"1e0b7c5","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE] 엘리베이터 폭행 후 계단 강간 중지·저항 중 상해</strong></span></span> <span class=\"cs-exam\">【변사21】 </span><span class=\"cs-red\">(25)</span>","k":"1v0afwd"},
+  {"i":"1vmefdz","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1m52rcd","o":"<div class=\"cs-fact\">","b":[
+    {"i":"q9tvit","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1ysgkzm","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲, 교제해주지 않는 A를 강간하기로 마음먹고 A 거주 아파트 1층 현관에 숨어 있다 귀가하는 A를 따라 엘리베이터 탑승 → 주먹으로 얼굴 2회 폭행, 5층에서 내려 계단으로 끌고 가 청테이프로 양손 묶어 반항 억압 후 간음하려 했으나 A가 애원하자 뉘우치고 단념. A는 끌려가는 과정에서 甲의 손을 뿌리치다 넘어져 3주 발목 골절.","k":"1449u0v"},
+     {"i":"1v6u4p","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲의 죄책은?<span class=\"cs-red\"> (25점)</span>","k":"4x27dz"}
+    ]}
+   ]},
+   {"i":"1vk7jbe","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"107saj7","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1f3xhfp","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [성폭법위반(주거침입강간)죄]</strong></span>","k":"10hk5bn"},
+    {"i":"174e9xu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(가) [결합범]</strong> 주거침입죄 + 강간죄의 결합범","k":"15ggqe9"},
+    {"i":"kr9j4d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(나) [주거침입죄]</strong>","k":"rq3hb3"},
+    {"i":"1yqh53i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 공동주택 내부 공용부분도 '주거'<span class=\"cs-o\"><strong>(O)</strong></span>","k":"12r7kma"},
+    {"i":"134ph1q","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② '침입' 여부 = 출입 당시 객관적·외형적으로 드러난 행위태양 기준이 원칙","k":"mwnqxu"},
+    {"i":"mcau46","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"③ 사실상 평온상태를 해치는 태양으로 침입<span class=\"cs-o\"><strong>(O)</strong></span>","k":"11b9ri0"},
+    {"i":"10udyrj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"④ 주거침입죄(<span class=\"cs-blue\"><span class=\"cs-u\">제319조</span></span>)<span class=\"cs-o\"><strong>(O)</strong></span>","k":"w3era3"},
+    {"i":"m1wtg7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(다) [중지미수의 인정여부]</strong>","k":"vn0wby"},
+    {"i":"88xj49","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제26조</strong></span></span>","k":"4ro14d"},
+    {"i":"rqyblj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 자의성 — 학설 및 판례(절충설)","k":"15kgskv"},
+    {"i":"1kb2xny","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"③ 폭행으로 강간 실행 착수 후 A의 애원에 뉘우치고 간음 포기 → 어느 견해에 의해도 자의성<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1ccn6ae"},
+    {"i":"1y58nla","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"④ 성폭법위반(주거침입강간)죄의 중지미수(<span class=\"cs-blue\">성폭법 <span class=\"cs-u\">제15조</span>, <span class=\"cs-u\">제3조</span> 제1항, 형법 <span class=\"cs-u\">제319조</span> 제1항, <span class=\"cs-u\">제297조</span>, <span class=\"cs-u\">제26조</span></span>)","k":"kujf5r"},
+    {"i":"10fokvw","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [성폭법위반(강간등치상)죄]</strong></span>","k":"1j07m1l"},
+    {"i":"e6dh4k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(가) [기본범죄의 미수]</strong> 주거침입강간이 미수여도 상해 발생 시 성폭법위반(강간등치상)죄<span class=\"cs-o\"><strong>(O)</strong></span>(<span class=\"cs-blue\">성폭법 <span class=\"cs-u\">제8조</span> 제1항, <span class=\"cs-u\">제3조</span> 제1항</span>)","k":"1o60qge"},
+    {"i":"1pte5o1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(나) [강간미수행위와 상해의 인과관계 및 예견가능성]</strong>","k":"15pc1v8"},
+    {"i":"te1rmw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제15조</strong></span> 제1항</span> — 결과적 가중범은 기본범죄와 중한 결과 사이 상당인과관계 + 예견가능성 要","k":"ep4u2a"},
+    {"i":"1tk11gs","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 저항하며 손 뿌리치다 넘어져 골절 = 통상 예견 가능 → 상당인과관계·예견가능성<span class=\"cs-o\"><strong>(O)</strong></span>","k":"17hf4z6"},
+    {"i":"1qdds07","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(다) [결과적 가중범의 미수 인정여부]</strong> 긍정설(미수설)/부정설(기수설), 판례는 특수강간치상죄에서 \"특수강간이 미수에 그쳐도 상해 입었으면 치상죄의 기수범 성립, 미수범<span class=\"cs-x\"><strong>(X)</strong></span>\" → 부정설. 결과 발생으로 불법 실현된 이상 미수로 볼 수 없고 기본범죄 미수는 양형 고려로 족 → 부정설 타당","k":"ortzq1"},
+    {"i":"11pp5zk","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(3) [결론]</strong></span> 甲 = 성폭법위반(강간등치상)죄의 기수범. 주거침입죄는 별도 성립<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1bn22fd"}
+   ]}
+  ]}
+ ]},
+ {"i":"10003u0","o":"<div class=\"cs-callout\">","b":[
+  {"i":"15timql","o":"<div class=\"cs-h\">","h":"Ⅰ. 결합범 (일종의 신분범)<span class=\"cs-exam\">【변사21, 모사24·23】</span>","k":"hyhpb4"},
+  {"i":"1r4i07f","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>  성폭법위반(</strong><span class=\"cs-red\"><span class=\"cs-u\"><strong>주거침입</strong></span></span><span class=\"cs-u\"><strong>강간</strong></span><strong>)죄</strong> =","k":"192dke0"},
+  {"i":"vjlyhm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[결합범]</strong></span> <span class=\"cs-red\"><span class=\"cs-u\"><strong>주거침입죄·건조물침입죄</strong></span></span><span class=\"cs-u\"> + </span><span class=\"cs-u\"><strong>강간죄</strong></span>  <strong>↔ </strong> [<span class=\"cs-red\"><span class=\"cs-u\">주거침입</span></span><span class=\"cs-u\">+</span><span class=\"cs-green\"><span class=\"cs-u\">(준)강제추행</span></span><span class=\"cs-u\">]</span><span class=\"cs-green\"><strong><span class=\"cs-x\"><strong>(X)</strong></span>: 위헌</strong></span>","k":"l88b5h"},
+  {"i":"1lo496v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[일종의 신분범]</strong></span> <span class=\"cs-red\"><span class=\"cs-u\">주거침입</span></span> <span class=\"cs-u\"><strong>후</strong></span> <span class=\"cs-u\">강간</span>해야 성립","k":"etaptu"},
+  {"i":"10s6dy0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-green\">선후가 바뀌어 </span><span class=\"cs-gbg\"><span class=\"cs-u\">강간</span></span> <span class=\"cs-gbg\"><span class=\"cs-u\"><strong>후</strong></span></span> <span class=\"cs-gbg\"><span class=\"cs-u\">주거침입</span> :</span> <span class=\"cs-green\"><strong>해당 X</strong></span>, <span class=\"cs-red\"><span class=\"cs-u\"><strong>강간죄+주거침입죄</strong></span></span> <span class=\"cs-hl\"><span class=\"cs-u\"><strong>실체적 경합</strong></span></span>              — 실제 '결합범'이므로 후행가담자는 승계적 공동정범 논점","k":"183j5l9"},
+  {"i":"igj62j","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"1t4nw9v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[남자화장실서 반항 억압해 여자화장실로 끌고가 유사강간 미수]</span>","k":"1d93s53"},
+  {"i":"1ze0sk","o":"<div class=\"cs-li\" style=\"margin-left:32px\">","h":"<span class=\"cs-green\"><strong>성폭법(주거침입유사강간)<span class=\"cs-x\"><strong>(X)</strong></span> </strong></span>— 끌고 갈 때(여자화장실 침입 전) 이미 유사강간 착수 → 착수시 주거침입 범한 자 아님 → <span class=\"cs-red\"><strong>유사강간미수죄</strong></span>+<span class=\"cs-red\"><strong>건조물침입죄</strong></span> <span class=\"cs-hl\"><strong>실체적 경합</strong></span>","k":"72r94r"},
+  {"i":"10tx5iv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[공중화장실 용변칸 노크→남편으로 오인한 피해자가 문 열자 강간의도로 들어감]</span>","k":"1ur2y2o"},
+  {"i":"yac3vc","o":"<div class=\"cs-li\" style=\"margin-left:32px\">","h":"<span class=\"cs-red\"><strong>주거침입<span class=\"cs-o\"><strong>(O)</strong></span> </strong></span>— 피해자의 명시적·묵시적 승낙으로 볼 수 X → <span class=\"cs-red\"><strong>강간등치상죄+감금죄</strong></span> <span class=\"cs-hl\"><strong>상상적 경합</strong></span><span class=\"cs-exam\">【변17·12】</span>","k":"1f4iomz"},
+  {"i":"zwyqxa","o":"<div class=\"cs-h\">","h":"Ⅱ. 죄수관계","k":"1tfubg2"},
+  {"i":"obxqv6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[주거침입해 강간 미수 + 형사사건 수사단서 제공 및 진술에 대한 보복목적 폭행]</span> <span class=\"cs-red\"><strong>특가법위반(보복폭행등)죄·성폭법위반(주거침입강간)죄</strong></span> <span class=\"cs-hl\"><strong>상상적 경합</strong></span>","k":"4hwqx9"}
+ ]}
+]}

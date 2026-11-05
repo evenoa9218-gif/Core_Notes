@@ -1,0 +1,33 @@
+{"id":"형총059","t":"선고유예","cat":"chong_08","lv":1,"tg":[],"b":[
+ {"i":"1o01pou","o":"<div class=\"cs-callout\">","b":[
+  {"i":"yupode","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제59조(선고유예의 요건)</strong></span>","k":"r88th0"},
+  {"i":"51urv3","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 1년 이하의 징역이나 금고, 자격정지 또는 벌금의 형을 선고할 경우에 제51조의 사항을 고려하여 뉘우치는 정상이 뚜렷할 때에는 그 형의 선고를 유예할 수 있다. 다만, 자격정지 이상의 형을 받은 전과가 있는 사람에 대해서는 예외로 한다.","k":"9jqlgo"},
+  {"i":"1kv5sv2","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 형을 병과할 경우에도 형의 전부 또는 일부에 대하여 선고를 유예할 수 있다.","k":"1jqigfu"},
+  {"i":"1pje5ch","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제62조(집행유예의 요건)</strong></span>","k":"16rdv50"},
+  {"i":"132md8q","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 3년 이하의 징역이나 금고 또는 500만원 이하의 벌금의 형을 선고할 경우에 제51조의 사항을 참작하여 그 정상에 참작할 만한 사유가 있는 때에는 1년 이상 5년 이하의 기간 형의 집행을 유예할 수 있다. 다만, 금고 이상의 형을 선고한 판결이 확정된 때부터 그 집행을 종료하거나 면제된 후 3년까지의 기간에 범한 죄에 대하여 형을 선고하는 경우에는 그러하지 아니하다.","k":"10gc2tk"},
+  {"i":"7g6oa9","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 형을 병과할 경우에는 그 형의 일부에 대하여 집행을 유예할 수 있다.","k":"h51nci"}
+ ]},
+ {"i":"xk04oc","o":"<div class=\"cs-h\">","h":"Ⅰ. 선고유예 대상","k":"iulu3m"},
+ {"i":"xft3d0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[선고형 기준]</span> 선고유예 = 선고형 기준 1년 이하 징역·금고, 자격정지 or 벌금 선고 시 可(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§59</strong></span></span>①)","k":"jeen3c"},
+ {"i":"1qhih12","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[구류형X]</span> 구류형엔 선고유예 X <span class=\"cs-gbg\">[과료X]</span>","k":"18f79ox"},
+ {"i":"159q3a5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[부인O]</span> 피고인이 범죄사실 자백 안 하고 부인해도 언제나 선고유예 X로 해석할 것 X<span class=\"cs-exam\">【변14】</span>","k":"1wmwxyb"},
+ {"i":"1d3x422","o":"<div class=\"cs-h\">","h":"Ⅱ. 결격사유 - 자격정지 이상의 형을 받은 전과가 없을 것","k":"rcmqv4"},
+ {"i":"2dh8u2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[형의 효력 상실 불문]</span> '자격정지 이상의 형을 받은 전과'=자격정지 이상 형 선고받은 범죄경력 자체, 형의 효력 상실 여부 불문","k":"1vh9i1i"},
+ {"i":"13d5nw4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[집행유예기간 경과O]</span> 집행유예 선고받은 자가 실효·취소 없이 유예기간 무사 경과해 형 선고 효력 잃어도, 형 선고 있었던 기왕 사실 자체는 안 없어짐 → 결격사유인 '자격정지 이상 형 받은 전과 있는 자' 해당<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변14】</span>","k":"p6r9e0"},
+ {"i":"ktagnh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[형이 실효된 전과O]</span> 일단 자격정지 이상 형 선고받은 이상 후에 형실효법 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§7</strong></span></span>로 실효돼도 결격사유 '자격정지 이상 형 받은 전과' 해당<span class=\"cs-o\"><strong>(O)</strong></span>","k":"3vcmay"},
+ {"i":"m3dloo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[후단 경합범 관계의 전과O]</span> 선고유예 예외사유 '자격정지 이상 형 받은 전과'엔 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§37</strong></span></span> 후단 금고 이상 형 판결 전과도 포함<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변14】</span>","k":"a4ug72"},
+ {"i":"1flb6yz","o":"<div class=\"cs-h\">","h":"Ⅲ. 병과형의 일부","k":"1mhuolx"},
+ {"i":"1ujqzbc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[병과형 일부O]</span> 형 병과 시에도 형 전부·일부에 선고유예 可(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§59</strong></span></span>②) <span class=\"cs-fact-tag\">[징역 1년 및 벌금 500만 원 중 징역 1년만 집행유예 <span class=\"cs-o\"><strong>(O)</strong></span>]</span>","k":"l87zh5"},
+ {"i":"13c417r","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[단일형 일부X]</span> 하나의 형 일부엔 선고유예 X <span class=\"cs-gbg\">[징역 2년 중 징역 1년은 실형, 1년은 집행유예 <span class=\"cs-x\"><strong>(X)</strong></span>]</span>","k":"1wasi12"},
+ {"i":"1frqsk5","o":"<div class=\"cs-h\">","h":"Ⅳ. 주형과 부가형","k":"16z67ag"},
+ {"i":"1q6terk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"필요적 몰수라도 주형 선고유예 시 몰수·추징도 선고유예 可 <span class=\"cs-fact-tag\">[임의적 몰수는 물론]</span>","k":"16xcrpb"},
+ {"i":"1087uae","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"형 선고유예 시에도 몰수요건 있으면 몰수형만 선고 可","k":"y8wghy"},
+ {"i":"ut99sy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"주형 선고유예 안 하면서 부가 추징에만 선고유예 X","k":"m5533l"},
+ {"i":"1i9beam","o":"<div class=\"cs-h\">","h":"Ⅴ. 선고유예 판결","k":"s7cdvr"},
+ {"i":"sbq2l3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[재량]</span> 형 선고유예 여부 = 법원 재량(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§59</strong></span></span>①)","k":"1lthyps"},
+ {"i":"1bf8jfa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[유예기간]</span> 선고유예 유예기간 = 2년 법정(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§60</strong></span></span>)","k":"1v252yo"},
+ {"i":"130zjlj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[면소간주]</span> 선고유예 받은 날부터 2년 경과 시 면소 간주(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§60</strong></span></span>)","k":"aqlhnv"},
+ {"i":"2a7azz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[환형유치]</span> 선고유예 판결도 이유에 선고형 종류·량(선고형) 정해둬야, 유예 형이 벌금형이면 벌금액+환형유치처분까지 해둬야","k":"1w3ndkm"},
+ {"i":"lrfhct","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[보호관찰O]</span> 선고유예 시 재범방지 지도·원호 필요 시 보호관찰 명할 수 有(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§59의2</strong></span></span>①), 보호관찰 기간=1년(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§59의2</strong></span></span>②)","k":"1sasl53"},
+ {"i":"5if1nt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[사회봉사명령·수강명령X]</span> 사회봉사명령·수강명령은 부과 X","k":"1d60me7"}
+]}

@@ -1,0 +1,85 @@
+{"id":"개인066","t":"이중매매 – 배임죄가 성립하지 않는 유형","cat":"gak_횡령배임","lv":1,"tg":["변사21","모사23","모사12","변기23"],"b":[
+ {"i":"9l2hti","o":"<details class=\"cs-case\">","b":[
+  {"i":"12mxmom","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE(1)]</strong></span></span> <span class=\"cs-exam\">【변사21】 </span><span class=\"cs-red\">(10)</span>","k":"d9d10p"},
+  {"i":"1woo56o","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"d3zm16","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1gcavw2","o":"<div class=\"cs-callout\">","b":[
+     {"i":"58mhkw","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"丙, 자기 고가 골프채를 D에게 1,500만 원에 양도하기로 하고 계약금·중도금 800만 원을","k":"1xnmcqi"},
+     {"i":"tcekt","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"받았음에도 그 골프채를 E에게 1,800만 원에 양도. 丙의 죄책은? (10점)","k":"eej4wm"}
+    ]}
+   ]},
+   {"i":"fnri99","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1nfcbjo","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1r1r0ki","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 동산매매에서 매도인에게는 자기 사무인 동산인도채무 외에 별도로 매수인의 재산 보호·관리에 협력할 의무<span class=\"cs-x\"><strong>(X)</strong></span> → 매도인은 매수인의 사무를 처리하는 지위<span class=\"cs-x\"><strong>(X)</strong></span> → 목적물을 처분해도 배임죄<span class=\"cs-x\"><strong>(X)</strong></span> ② 계약금·중도금 800만 원을 받았어도 丙은 D의 사무를 처리하는 자<span class=\"cs-x\"><strong>(X)</strong></span> → 丙에게 배임죄(<span class=\"cs-blue\"><span class=\"cs-u\">제355조</span> 제2항, 제1항</span>)<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1daz7kx"}
+   ]}
+  ]}
+ ]},
+ {"i":"dlcw0n","o":"<details class=\"cs-case\">","b":[
+  {"i":"1iptl73","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE(2)]</strong></span></span> <span class=\"cs-red\">(15)</span>","k":"1yhejnl"},
+  {"i":"eyj7mp","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"bapxt7","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1ena9qr","o":"<div class=\"cs-callout\">","b":[
+     {"i":"4pqkqm","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"乙, 승용차 구입 시 B에게서 매수대금 용도로 3,000만 원을 차용하고 담보로 자기 소유 승용차에 B를 저당권자로 하는 저당권 설정 → 담보가치를 유지·보전하지 않고 자동차 밀수출업자 Y에게 1,000만 원을 받고 매도·인도 → B가 저당권을 실행하려 했으나 자동차 소재가 발견되지","k":"1c2xddx"},
+     {"i":"kvvlcg","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"않아 실행 불가. 乙의 죄책은? (15점)","k":"1uexclm"}
+    ]}
+   ]},
+   {"i":"9e7gcs","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"9hvbrp","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"uph67n","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [배임죄]</strong></span>","k":"ki70gz"},
+    {"i":"wfvvkq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 자동차 등 특정동산 저당법 등과 배임죄에 관한 위 판례 법리","k":"1b7ck9s"},
+    {"i":"i3t2he","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 저당권을 설정해 주었어도 담보물의 담보가치를 유지·보전할 의무는 乙 자신의 사무일 뿐 B의 사무를 맡아 처리하는 것<span class=\"cs-x\"><strong>(X)</strong></span> → 乙은 B의 사무를 처리하는 자<span class=\"cs-x\"><strong>(X)</strong></span> → 승용차를 Y에게 처분해도 배임죄(<span class=\"cs-blue\"><span class=\"cs-u\">제355조</span> 제2항, 제1항</span>)<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1djls1g"},
+    {"i":"na2s1l","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [권리행사방해죄]</strong></span>","k":"txzb64"},
+    {"i":"1iw4fkl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 승용차 = 乙 소유 → 자기의 물건<span class=\"cs-o\"><strong>(O)</strong></span>, B에게 저당권을 설정 → B의 저당권의 목적<span class=\"cs-o\"><strong>(O)</strong></span>","k":"jespns"},
+    {"i":"lxyavj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② '은닉' = 타인의 점유·권리의 목적이 된 자기 물건 등의 소재를 발견하기 불가능하게 하거나 현저히 곤란한 상태에 두는 것. 밀수출업자 Y에게 매도·인도해 소재 불명으로 저당권 실행 불가 → '은닉'<span class=\"cs-o\"><strong>(O)</strong></span>","k":"16fmr8w"},
+    {"i":"1jx0gys","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 乙 = <span class=\"cs-blue\">권리행사방해죄</span>(<span class=\"cs-blue\"><span class=\"cs-u\">제323조</span></span>)<span class=\"cs-o\"><strong>(O)</strong></span>","k":"j5i966"},
+    {"i":"1jqnmf4","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(3) [결론]</strong></span> 乙 = 권리행사방해죄","k":"1r4q4ft"}
+   ]}
+  ]}
+ ]},
+ {"i":"1j5u9ws","o":"<div class=\"cs-callout\">","b":[
+  {"i":"17wq2g3","o":"<div class=\"cs-h\">","h":"Ⅰ. 기본 판례 법리","k":"1bn7wqy"},
+  {"i":"r8z1mx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"개념 (判例) : <span class=\"cs-def\"><strong>'타인의 사무처리자'</strong></span> = 당사자관계의 전형적·본질적 내용이 통상 계약의 이익대립관계를 넘어 신임관계에 기초하여 타인 재산을 보호 또는 관리하는 자","k":"qkcegz"},
+  {"i":"1aneek7","o":"<div class=\"cs-h\">","h":"Ⅱ. 부동산 관련 배임죄가 성립하지 않는 경우","k":"13u0qik"},
+  {"i":"6hfj1f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>대물변제'예약' 후 처분</strong></span>","k":"1cp8aiw"},
+  {"i":"1o6uw2d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例) : 대물변제예약의 궁극목적 = 차용금반환채무 이행확보 → 소유권이전등기의무는 궁극목적 달성 위한 부수적 내용 → 신임관계 기초 '타인의 사무' X → 대물 부동산 제3자 처분해도 <span class=\"cs-green\"><strong>배임<span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변20·17】</span>","k":"1g0acd3"},
+  {"i":"13jddcm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\">① 근저당설정계약, ② 양도담보설정계약 후 처분 </span>[모사23, 모기21]","k":"1wcwc9g"},
+  {"i":"icr8oe","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例) : ① 저당권설정계약에 따른 저당권설정의무는 채무자 자신의 의무·사무 → 이익대립관계 넘는 신임관계 기초 채권자 사무 X → 채무자를 '타인의 사무처리자' X ② 따라서 제3자에 먼저 저당권 설정·담보물 양도로 담보가치 감소·상실시켜 채권실현에 위험 초래해도 <span class=\"cs-green\"><strong>배임<span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변26·22】</span>","k":"1e77xqm"},
+  {"i":"jcxh3w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"위 법리는 부동산 '양도담보설정계약' 체결·소유권이전등기의무 있음에도 제3자 처분한 경우에도 적용","k":"ov2154"},
+  {"i":"1xrxiit","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>담보신탁계약 후 처분</strong></span>","k":"pi2hph"},
+  {"i":"a418ys","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"hc179a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-neg-tag\">[담보신탁·자금관리대리사무계약 후 제3자 앞 소유권보존등기]</span> 새마을금고 주된 관심은 신탁등기 아닌 대출금 채권회수 → 신임관계 기초 우선수익권 보호·관리하는 사무처리자 지위 X → <span class=\"cs-green\"><strong>'타인의 사무처리자'<span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변21】</span>","k":"1xtwof1"},
+  {"i":"6p63yt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>담보가등기와 근저당권설정등기 약정 후 처분</strong></span>","k":"1d7isnh"},
+  {"i":"r8zp32","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"8jklpi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-neg-tag\">[차용금채무 담보 위한 매매예약 가등기·근저당설정 약정]</span> 당사자관계 본질 = 변제와 담보 → 신임관계 기초 채권자 사무 X → 대표이사도 '타인의 사무처리자' X → <span class=\"cs-green\"><strong>배임<span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"zehsgm"},
+  {"i":"yhkmq9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>부동산 '수분양권' 양도 후 처분과 배임죄</strong></span>","k":"96hd4c"},
+  {"i":"11l8r13","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例) : 수분양권 매도인이 수분양권 이전할 의무는 자신의 사무 → '타인의 사무처리자' X → 수분양권·향후 취득 목적물 미리 제3자 처분해도 <span class=\"cs-green\"><strong>배임<span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"cg3t1x"},
+  {"i":"17nt3fg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>소유권이전등기 받은 '매수인'의 융통자금 소비</strong></span>","k":"1xp3bnn"},
+  {"i":"1npe6ov","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例) : ① 매수인의 매매대금 지급은 매수인 자신의 법적 의무·자신의 사무 ② 소유권이전등기 받은 당일 담보제공·융통한 자금을 매도인에 대금으로 지급 안 해도 <span class=\"cs-green\"><strong>임무위배<span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변14】</span>","k":"1a7eq5r"},
+  {"i":"bbomx7","o":"<div class=\"cs-h\">","h":"Ⅲ. 동산·주식·채권의 '매매·양도' 관련","k":"hcp6sb"},
+  {"i":"1ruv1xr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\">동산(등기·등록 동산 포함)의 매매와 배임죄 </span>[변사21, 모사12]","k":"1e38gj4"},
+  {"i":"zqiqvq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"1r5onqb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[동산]</span> 동산매매 매도인에게 인도채무 외 매수인 재산 보호·관리 협력의무 X → 매수인에 대한 타인의 사무처리자 X → 목적물 인도 않고 타에 처분해도 <span class=\"cs-green\"><strong>배임<span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변18·17·16·12】</span>","k":"1c9o8vy"},
+  {"i":"r2vvuj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-neg-tag\">[등록 동산]</span> 등기·등록 요하는 동산 매매도 동일 → 자동차 등 매도인이 소유권이전등록 안 하고 타에 처분해도 <span class=\"cs-green\"><strong>배임<span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변25】</span>","k":"qyqv15"},
+  {"i":"qf4l4y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[동산 이중매매 선이행]</span> 선매수인에 소유권이전의무 이행해도 후매수인 관계에서 위법한 임무위배 X","k":"1e59c4u"},
+  {"i":"h7pao4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>채권·주식 양도 후 이중양도</strong></span>","k":"189wpcq"},
+  {"i":"19ljwtv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"nixbt2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-neg-tag\">[주권발행 전 주식 양도]</span> 양도인은 양수인에 대한 타인의 사무처리자 X → 대항요건(양도통지·승낙) 안 갖추고 타에 처분해도 <span class=\"cs-green\"><strong>배임<span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"l03n80"},
+  {"i":"1hgq2oa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-neg-tag\">[점포임차권 양도]</span> 계약금·중도금 받아도 점포명도의무는 민사상 채무 → <span class=\"cs-green\"><strong>타인의 사무<span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"2lmmt9"},
+  {"i":"1f17fh3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[질권설정]</span> 통지·승낙 시 제3채무자가 질권자 동의 없이 변제해도 질권자에 대항 X, 질권자는 직접 변제청구·공탁청구 가능(민법 <span class=\"cs-blue\"><span class=\"cs-u\">§353</span>②③</span>) → 질권설정자 <span class=\"cs-green\"><strong>배임<span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"1nvu5g8"},
+  {"i":"asvg5b","o":"<div class=\"cs-h\">","h":"Ⅳ. 동산·주식·채권의 '양도담보' 관련","k":"zbuknh"},
+  {"i":"qf6ni4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>'동산·주식'의 양도담보와 배임죄</strong></span>","k":"tb58iv"},
+  {"i":"1p6lazk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例) : <span class=\"cs-def\"><strong>[제공]</strong></span> 동산을 양도담보로 '제공'하여 담보가치 유지·보전의무 부담해도 신임관계 기초 채권자 사무 X → 계약·설정 전후 불문 본질은 금전채권 실현·피담보채무 변제 → 채무자는 '타인의 사무처리자' X → 제3자 처분으로 담보가치 감소·상실시켜도 <span class=\"cs-green\"><strong>배임<span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변17】</span>","k":"q0nqnx"},
+  {"i":"1ruerst","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[점유개정 방식 양도담보 제공한 동산을 제3자에 매각한 사안]</span>","k":"1b68f0x"},
+  {"i":"c235b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-def\"><strong>[체결]</strong></span> 위 법리는 동산 양도담보설정계약 '체결'하여 채권자에 양도할 의무 있음에도 제3자 처분한 경우에도 적용","k":"8fp485"},
+  {"i":"1ctwvtf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-def\"><strong>[주식]</strong></span> 주식 양도담보설정계약 '체결'한 채무자가 해당 주식 처분한 경우에도 동일 적용","k":"cgro1q"},
+  {"i":"1ktxx95","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-def\"><strong>[등기·등록 동산]</strong></span> 등기·등록 요하는 동산 양도담보에도 적용 → 자동차 등 양도담보설정 채무자가 의무 다하지 않고 타에 처분해도 <span class=\"cs-green\"><strong>배임<span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변24】【모기25】</span>","k":"50hokm"},
+  {"i":"169jwde","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\">'채권'의 양도담보와 배임죄</span><span class=\"cs-exam\">【변기23】</span>","k":"53s70g"},
+  {"i":"1silkgi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例) : 채권양도담보계약 체결에도 본질은 피담보채권(금전채권) 실현 → 담보 목적 채권의 담보가치 유지·보전의무는 채무자 자신의 사무 → 채무자는 '타인의 사무처리자' X","k":"s1cxcj"},
+  {"i":"ehbi6w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[전세보증금반환채권 담보양도 약정 후 양도통지 전 제3자에 전세권근저당 설정 → 배임 X]</span>","k":"14acxz2"},
+  {"i":"vbrweq","o":"<div class=\"cs-h\">","h":"Ⅴ. 자동차 등 특정동산 저당법 등과 배임죄<span class=\"cs-exam\">【모기21】</span>","k":"jq7bwx"},
+  {"i":"vswthz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : 저당권설정계약상 채무자 의무는 설정 전후 불문 본질이 금전채권 실현·피담보채무 변제 → 자동차 등 특정동산 저당법에 따라 저당권 '약정'·'설정'해도 담보권 실행 협조의무는 채무자 자신의 급부의무 → 채무자는 '타인의 사무처리자' X → 담보물 제3자 처분으로 담보가치 감소·상실시켜도 <span class=\"cs-green\"><strong>배임<span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"1sy0m1u"},
+  {"i":"nu8dyj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"위 법리는 '공장 및 광업재단 저당법' 저당권 설정 동산을 채무자가 임의처분한 경우에도 적용","k":"ww9mkr"},
+  {"i":"jkl97f","o":"<div class=\"cs-h\">","h":"Ⅵ. 동산·채권 등의 담보에 관한 법률과 배임죄","k":"1orf58k"},
+  {"i":"1ao09db","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : 동산을 '동산·채권 등의 담보에 관한 법률'에 따른 동산담보로 제공하여 담보가치 유지·보전의무 부담해도 신임관계 기초 채권자 사무 X → 채무자는 '타인의 사무처리자' X → 제3자 처분으로 담보가치 감소·상실시켜도 <span class=\"cs-green\"><strong>배임<span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"xmphp5"}
+ ]}
+]}

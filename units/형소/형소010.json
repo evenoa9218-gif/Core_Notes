@@ -1,0 +1,69 @@
+{"id":"형소010","t":"진술거부권","cat":"pro_01","lv":1,"tg":["A급","下","모사18"],"b":[
+ {"i":"wjtl2i","o":"<details class=\"cs-case\">","b":[
+  {"i":"r7q3vu","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 필로폰 수입 공범 참고인 조사·진술거부권 미고지 (각 10점)</strong></span>","k":"7q1s7t"},
+  {"i":"v35s0s","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1ycc786","o":"<div class=\"cs-fact\">","b":[
+    {"i":"18vamge","o":"<div class=\"cs-callout\">","b":[
+     {"i":"c71her","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"검사가 甲(중국의 A와 공모, 입국자 B를 통해 필로폰 든 곡물포대 배달받아 수입) 수사 → 甲은 수입 인식 부인 → 검사가 B에게서 포대를 받아 甲에게 전달한 乙을 참고인 조사(공범 가능성 의심하나 피의자 수사 X) → 甲을 마약류관리법위반(향정) 기소.","k":"ur3545"},
+     {"i":"1jb56cs","o":"<div class=\"cs-li cs-issue\" style=\"margin-left:0px\">","h":"(1) 검사가 乙 조사시 진술거부권 미고지 → 乙 참고인 진술조서를 甲에 대한 증거로 사용 가부? (전문법칙 논외) (10점)","k":"19xhb8v"},
+     {"i":"1mnwy5o","o":"<div class=\"cs-li cs-issue\" style=\"margin-left:0px\">","h":"(2) 甲이 명백한 증거가 있음에도 진술거부권 행사 → 법원이 가중적 양형사유로 삼을 수 있는가? (10점)","k":"1xv1fak"}
+    ]}
+   ]},
+   {"i":"1cnl6up","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"z1mrs8","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1oz4kcq","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>[CASE(1)]</strong>","k":"1lbhzmv"},
+    {"i":"fopuwo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 피의자 신문 전 진술거부권 등 고지(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§244의3①</strong></span></span>)","k":"1ydo1ln"},
+    {"i":"1d45vpn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 고지대상 피의자 — 형식설, 실질설. 판례: 실질설. 실질적 피의자의 방어권 보장 → 실질설 타당","k":"1wjuy0d"},
+    {"i":"17gy4us","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 검사가 乙에 대해 실질적으로 수사 개시한 때에 해당 X → 미고지 참고인 진술조서 작성도 위법 X","k":"yep40l"},
+    {"i":"ce8xim","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"④ ∴<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§312④</strong></span></span> 또는 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§314</strong></span></span> 전문법칙 예외 요건 충족시 甲에 대한 증거 사용 O","k":"re27qm"},
+    {"i":"b15wge","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>[CASE(2)]</strong>","k":"1lbhvms"},
+    {"i":"3qlfoi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 진술거부권 행사를 가중적 양형사유로 삼을 수 있는지 — 적극설, 소극설, 절충설","k":"1xq296o"},
+    {"i":"7fux9b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 판례: 원칙적 자백강요라 허용 X, 예외적으로 명백한 증거가 있음에도 진실발견을 적극적으로 숨기거나 법원을 오도하려는 시도에 기인시 방어권 범위 초과 → 가중적 양형조건 참작 O","k":"gfr4i"},
+    {"i":"nalgmp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ ∴甲의 진술거부권 행사가 진실발견을 숨기거나 법원을 오도하려는 시도에 기인한 것이라면 가중적 양형사유 O","k":"1d68eql"}
+   ]}
+  ]}
+ ]},
+ {"i":"anetgz","o":"<div class=\"cs-callout\">","b":[
+  {"i":"166hsm5","o":"<div class=\"cs-h\">","h":"Ⅰ. 진술거부권의 고지","k":"1b0gpbf"},
+  {"i":"pweb3r","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>수사기관</strong></span>","k":"pd0nr5"},
+  {"i":"gfqqeh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"근거<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§244의3)</strong></span></span> — 피의자는 불이익한 사실뿐 아니라 <span class=\"cs-red\"><strong>이익되는 사실에 대해서도 진술거부 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span><span class=\"cs-exam\">【변12】</span>","k":"cbltoe"},
+  {"i":"nla6gs","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검사·사법경찰관은 진술거부권을 고지한 후 그 행사 여부를 질문하고, 답변을 조서에 기재하여 <span class=\"cs-red\"><strong>자필 또는 기명날인·서명</strong></span>하게 해야 함<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§244의3②)</strong></span></span>","k":"1910q8r"},
+  {"i":"kckmib","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>법원</strong></span>","k":"2ne8w"},
+  {"i":"1qoshd1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"근거<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§283의2)</strong></span></span> — <span class=\"cs-fact-tag\">[인정신문]</span> 고지대상 <span class=\"cs-o\"><strong>(O)</strong></span>, <span class=\"cs-fact-tag\">[증거서류의 진정성립 진술]</span> 고지대상 <span class=\"cs-o\"><strong>(O)</strong></span>","k":"1c0c8wp"},
+  {"i":"13yok03","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[공판준비기일]</span> 재판장은 출석한 피고인에게 진술거부권 고지 <span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§266의8⑥)</strong></span></span><span class=\"cs-exam\">【변21·12】</span>","k":"15te877"},
+  {"i":"v9l7q1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[공판절차 갱신]</span> 진술거부권 고지 <span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(규칙§144①i)</strong></span></span><span class=\"cs-exam\">【변12】</span>","k":"1grmy1k"},
+  {"i":"snut79","o":"<div class=\"cs-h\">","h":"Ⅱ. 고지대상","k":"a4ybyj"},
+  {"i":"1jot65e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>진술거부권 고지대상</strong></span>","k":"1gnzfmk"},
+  {"i":"yhakbl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《단순히 [내사] 단계에 있는 자도 고지대상인지 여부》</strong></span>","k":"3nfp2f"},
+  {"i":"hkppbq","o":"<div class=\"cs-theory\">","b":[
+   {"i":"8qf6nr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 형식설(입건 기준) ② <span class=\"cs-red\"><strong>실질설</strong></span>(실질적 수사개시 여부 기준)","k":"w1ramb"},
+   {"i":"l963ek","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 실질설] 수사기관이 범죄인지서 작성 등 형식적 사건수리절차 이전이라도 조사대상자에게 범죄혐의가 있다고 보아 실질적으로 수사를 개시하는 행위를 한 때 인정</strong></span><span class=\"cs-exam\">【변17·14】</span>","k":"1srkfv1"},
+   {"i":"qaoeen","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: <span class=\"cs-u\">실질적 피의자의 방어권 보장 필요</span> → <span class=\"cs-red\"><strong>실질설 타당</strong></span>","k":"206mi5"}
+  ]},
+  {"i":"gmq1qg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>구체적 판례</strong></span>","k":"qlhpkc"},
+  {"i":"k2s1dr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[조사대상자의 진술내용이 자신과 제3자에게 공동으로 관련된 범죄에 관한 것이거나, 제3자의 피의사실뿐 아니라 자신의 피의사실에 관한 것이기도 하여 실질이 피의자신문조서의 성격을 가지는 경우]</span> 진술거부권 고지 <span class=\"cs-o\"><strong>(O)</strong></span> — <span class=\"cs-fact-tag\">['진술조서·진술서·자술서'의 형식]</span>이라도 실질에 따라 고지<span class=\"cs-exam\">【변17】</span>","k":"uuhbk1"},
+  {"i":"8rx3my","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[필로폰 수입 인지 여부를 모른다는 취지로 변소한 후 전달역할을 거친 참고인 조사]</span> 수사개시된 피의자의 지위 <span class=\"cs-x\"><strong>(X)</strong></span> → 진술거부권 미고지만으로는 위법수집증거 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변22】</span>","k":"1bp5q9d"},
+  {"i":"1e07qrt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[성매매 여성 A의 진술서 — 성매매미수범 처벌규정 없어 A에 대한 범죄혐의사실 미포함, 수사개시 자료도 없는 경우]</span> 참고인으로 조사받으며 진술거부권 미고지 → 위법수집증거 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【모기25】</span>","k":"qpn9mt"},
+  {"i":"r3m8ax","o":"<div class=\"cs-h\">","h":"Ⅲ. 진술거부권의 행사와 가중적 양형사유<span class=\"cs-exam\">【모사18】</span>","k":"1daeuvs"},
+  {"i":"91ut3k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《진술거부권 행사를 가중적 양형사유로 삼을 수 있는지 여부》</strong></span>","k":"1p3q1yp"},
+  {"i":"1q77xjz","o":"<div class=\"cs-theory\">","b":[
+   {"i":"3xibs1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 적극설(자백자와 동일처벌은 불합리) ② 소극설(진술의 자유 보장 위해 불허) ③ <span class=\"cs-red\"><strong>절충설</strong></span>(원칙적 불허, 예외적 허용)","k":"1sc9exo"},
+   {"i":"1fotdam","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 절충설] 진술을 거부하거나 부인하는 것을 가중적 양형의 조건으로 삼는 것은 자백 강요가 되어 허용될 수 없음</strong></span>","k":"1reyona"},
+   {"i":"18x1w4v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"예외 : <span class=\"cs-fact-tag\">[방어권 행사의 범위를 넘어 객관적·명백한 증거가 있음에도 진실발견을 적극적으로 숨기거나 법원을 오도하려는 시도에 기인한 경우]</span> 가중적 양형의 조건으로 참작 <span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변20】</span>","k":"14z5iqa"}
+  ]},
+  {"i":"9wbepw","o":"<div class=\"cs-h\">","h":"Ⅳ. 진술거부권 등 침해와 피의자신문조서의 증거능력<span class=\"cs-exam\">【모사21·12】</span>","k":"b3ddqy"},
+  {"i":"k5lcoc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>진술거부권 미고지의 효과</strong></span>","k":"1wzip2h"},
+  {"i":"1j42smd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-neg-tag\">[자백 이외의 진술]</span> 위법수집증거배제법칙에 의해 증거능력 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"1tilsb3"},
+  {"i":"1ernk30","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《미고지 상태의 [자백]의 증거능력 배제근거》</strong></span>","k":"ty2hm3"},
+  {"i":"p22e47","o":"<div class=\"cs-theory\">","b":[
+   {"i":"1xtw0de","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 자백배제법칙설 ② <span class=\"cs-red\"><strong>위법수집증거배제법칙설</strong></span>","k":"n6f5pz"},
+   {"i":"9aaf9i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 위법수집증거배제법칙설] 미리 진술거부권을 고지하지 않은 때 그 피의자의 진술은 임의성이 인정되어도 증거능력 부인</strong></span><span class=\"cs-exam\">【변25·24·23 등 빈출】</span>","k":"1d05z7a"}
+  ]},
+  {"i":"efk0ec","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-neg-tag\">['공범'에 대한 진술조서가 진술조서의 형식을 취하였으나 내용은 피의자신문조서와 실질적으로 같은데 진술거부권 사전 고지가 없는 경우]</span> '피고인'에 대하여 증거능력 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변25·24】</span>","k":"1xt10jf"},
+  {"i":"leezc4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[접견교통권·피의자신문참여권 침해]</span> 같은 법리 적용","k":"1n5qtkw"},
+  {"i":"314o6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[진술거부권 행사 여부를 질문했으나(§244의3①) 답변이 자필기재 또는 기명날인·서명이 없는 조서]</span> <span class=\"cs-green\"><strong>[적법한 절차와 방식] 위반으로 증거능력 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변14】</span>","k":"gc6p1b"},
+  {"i":"10pircx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>인과관계 희석·단절</strong></span>","k":"15hvwo3"},
+  {"i":"cameck","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>공판조서에서 진술거부권을 고지하여 잘못이 시정되는 등 이후 수사절차가 적법하게 진행되었다는 사정, 이미 상당한 시간이 경과하여 자발적으로 동일 내용의 자백을 한 사정 등 → 2차적 증거의 증거능력을 인정할 만한 정황 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span><span class=\"cs-exam\">【변19·14】</span>","k":"1gdbqwr"}
+ ]},
+ {"i":"10qj0f1","o":"<div class=\"cs-h\">","h":"제3절. 변호인","k":"vf6zws"}
+]}

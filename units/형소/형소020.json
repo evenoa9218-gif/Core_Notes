@@ -1,0 +1,48 @@
+{"id":"형소020","t":"고소불가분의 원칙","cat":"pro_03","lv":1,"tg":["上","변사16·15","모사25·22·17","모기25 등"],"b":[
+ {"i":"wanykp","o":"<details class=\"cs-case\">","b":[
+  {"i":"1ac47nz","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 공모 허위기사·공범 1인에 대한 처벌불원</strong></span> <span class=\"cs-exam\">【변사16】</span>","k":"1700q33"},
+  {"i":"9nyo1r","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"7vrvw5","o":"<div class=\"cs-fact\">","b":[
+    {"i":"14spvrh","o":"<div class=\"cs-callout\">","b":[
+     {"i":"cwcpz3","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"기자 甲·乙이 공모하여 \"병원장 A가 거액을 받고 상습적으로 프로포폴을 주사한다\"는 허위 기사 작성 → 검사가 甲·乙 기소 → 제1심 공판 중 A가 甲에 대해서만 처벌불원의사 표시. 제1심 법원의 甲·乙에 대한 판결은? (20점)","k":"8sdypm"}
+    ]}
+   ]},
+   {"i":"110wwuq","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1c8670r","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1lulle4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 허위사실 적시 출판물에의한명예훼손죄 = 반의사불벌죄(형법<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§309②</strong></span></span>, <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§312②</strong></span></span>)","k":"tiaodn"},
+    {"i":"1ksowat","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 반의사불벌죄에 불가분원칙 적용 가부 — 긍정설, 부정설. 판례: 부정설. <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§233</strong></span></span>을 반의사불벌죄에 준용하는 명문 규정 X → 부정설 타당","k":"zujc79"},
+    {"i":"t6qwyk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ A가 甲에 대해 제1심 판결선고 전 처벌불원해도 乙에게 효력 X","k":"1ehn4mx"},
+    {"i":"u8tmg9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"④ ∴甲 = 공소기각판결(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§327제6호</strong></span></span>), 乙 = 실체판결","k":"b9dqtr"}
+   ]}
+  ]}
+ ]},
+ {"i":"k7igq8","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1byho23","o":"<div class=\"cs-h\">","h":"Ⅰ. 객관적 고소불가분 원칙","k":"1ev1nb2"},
+  {"i":"1jcfi0q","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>개념 : 하나의 범죄사실(일죄) 일부에 대한 고소·취소는 그 범죄사실 전부에 효력이 미침</strong></span>","k":"1lmdcmk"},
+  {"i":"5itgfw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용범위 — 죄수관계에 따른 3단 구분:","k":"221wo0"},
+  {"i":"1t86x79","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[단순일죄]</span> 일부에 대한 고소도 전부에 효력 <span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변23】</span>","k":"4x9kqo"},
+  {"i":"ngrhqq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[상상적 경합]</span> 수개의 죄가 <span class=\"cs-red\"><strong>모두 친고죄이고 피해자도 동일</strong></span>해야 적용 <span class=\"cs-o\"><strong>(O)</strong></span>","k":"1cz78nh"},
+  {"i":"1rf19le","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[상상적 경합 중 일부만 친고죄이거나 피해자가 다른 경우]</span> 적용 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"mslgln"},
+  {"i":"j4q42v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[실체적 경합]</span> 애초 별개의 범죄이므로 죄마다 개별 판단 → 고소 없는 행위에 효력 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변15, 모기25】</span>","k":"49lsbx"},
+  {"i":"1hjjs91","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-neg-tag\">[수단인 행위(협박)가 목적인 죄(공갈죄)에 흡수되어 별죄를 구성하지 않는 경우]</span> 고소의 실질적 대상은 흡수한 죄(비친고죄) → 그 고소가 취소되어도 처벌에 지장 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【모기25】</span>","k":"5bhn8o"},
+  {"i":"gwv2pv","o":"<div class=\"cs-h\">","h":"Ⅱ. 주관적 고소불가분 원칙","k":"dhrqji"},
+  {"i":"1wy6qoq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>원칙 : 친고죄 공범 중 1인·수인에 대한 고소 또는 취소는 다른 공범자에게도 효력</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§233)</strong></span></span><span class=\"cs-exam\">【변18】</span>","k":"ekupg0"},
+  {"i":"11xjyn2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용의 전제 — <span class=\"cs-red\"><strong>'진정한 공범관계'일 것</strong></span> : 공범(진범) 관계에 있는 자 사이에서만 적용","k":"9e64p8"},
+  {"i":"1aj8geg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[공범이 아닌 자에 대한 고소·고소취소]</span> 진정한 범인에게 영향 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변기21】</span>","k":"960cpv"},
+  {"i":"14fe5oo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용이 배제되는 경우 — 신분·처벌근거가 다른 자 사이:","k":"h13tol"},
+  {"i":"1qnkn3d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[양벌규정 관계]</span> 행위자에 대한 고소만 있으면 족함 → 양벌규정으로 처벌받는 자(법인 등)에 대한 <span class=\"cs-green\"><strong>별도 고소 불요</strong></span><span class=\"cs-exam\">【모사17】</span>","k":"35an84"},
+  {"i":"mudsde","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[상대적 친고죄에서 수인의 친족이 공범인 경우]</span> 1인에 대한 고소는 다른 친족에게 효력 <span class=\"cs-o\"><strong>(O)</strong></span>","k":"1muiyq9"},
+  {"i":"1wh9did","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[상대적 친고죄에서 비신분자에 대한 고소·취소]</span> 신분자에게 영향 <span class=\"cs-x\"><strong>(X)</strong></span> — 비신분자는 친고죄 규정 자체의 적용을 받지 않음","k":"46iju5"},
+  {"i":"1bcpc52","o":"<div class=\"cs-h\">","h":"Ⅲ. 반의사불벌죄에 적용 여부<span class=\"cs-exam\">【변사16·15, 모사22·17, 기록 빈출】</span>","k":"1w3a2pw"},
+  {"i":"1fuczqa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《§233(고소불가분원칙)을 반의사불벌죄에 준용할 수 있는지 여부》</strong></span>","k":"x630bk"},
+  {"i":"hgcbwc","o":"<div class=\"cs-theory\">","b":[
+   {"i":"11a8v2m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 긍정설(친고죄와 유사, 준용 필요) ② <span class=\"cs-green\"><strong>부정설</strong></span>(준용 규정 없고 법익침해가 더 중함)","k":"kn4fp4"},
+   {"i":"196otue","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 부정설] §232에서는 반의사불벌죄에 §232①②(취소시한·재고소금지)를 준용하는 규정(§232③)을 두면서도 §233(불가분원칙)은 준용규정을 두지 않음 → 입법의 불비가 아니라 의도적으로 불가분원칙을 배제한 것</strong></span><span class=\"cs-exam\">【변18·15·13·12】</span>","k":"ihjdql"},
+   {"i":"1bfcgof","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: 준용 명문 없음 → <span class=\"cs-green\"><strong>부정설 타당</strong></span>","k":"qwfvjv"}
+  ]},
+  {"i":"2ydxop","o":"<div class=\"cs-h\">","h":"Ⅳ. 소추조건인 고발에 적용 여부","k":"ieyjpg"},
+  {"i":"1oyapco","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[공정거래위원회 고발]</span> §233(주관적 불가분원칙)을 유추적용하는 것은 형벌범위 확장으로 죄형법정주의 위반 → 유추적용 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변21】</span>","k":"1nlhqb5"},
+  {"i":"1133vt0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"고발대상에서 제외된 자는 소추요건 결여 → <span class=\"cs-red\"><strong>공소기각판결</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§327제2호)</strong></span></span>","k":"63lwsw"},
+  {"i":"etmewr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[조세범처벌법 등 고소·고발 불가분원칙]</span> 적용 <span class=\"cs-x\"><strong>(X)</strong></span> — 양벌규정상 고발 구비 여부는 행위자(자연인)와 법인에 대해 <span class=\"cs-red\"><strong>개별적으로</strong></span> 판단","k":"1bz7fkt"}
+ ]}
+]}

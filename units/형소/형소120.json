@@ -1,0 +1,42 @@
+{"id":"형소120","t":"포괄일죄·상상적 경합 일부에 대한 상소 (상소불가분원칙)","cat":"pro_19","lv":1,"tg":["下","모사15"],"b":[
+ {"i":"13oulzc","o":"<details class=\"cs-case\">","b":[
+  {"i":"1mc8mc0","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 신용카드부정사용 포괄일죄 일부 유죄·일부 무죄와 피고인 항소</strong></span> <span class=\"cs-exam\">【모사15】</span>","k":"bjnjsh"},
+  {"i":"1l4xfjy","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1rd7304","o":"<div class=\"cs-fact\">","b":[
+    {"i":"9it0y4","o":"<div class=\"cs-callout\">","b":[
+     {"i":"bl76c","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲이 절취한 동일한 신용카드를 이용하여 같은 날 3회에 걸쳐 물건을 구입 → 제1심이 ①②번 무죄(이유), ③번 유죄를 선고. 甲만 ③번 유죄부분에 대해 항소한 경우 항소심법원의 심판범위는? (15점)","k":"g7iho0"}
+    ]}
+   ]},
+   {"i":"1jk6383","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1ht807e","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"drs80k","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [포괄일죄]</strong> 절취한 동일 신용카드를 같은 날 3회 이용한 것은 신용카드부정사용으로 인한 여전법위반죄의 포괄일죄","k":"71l3mj"},
+    {"i":"4b0ydl","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [상소불가분의 원칙]</strong> §342② — 포괄일죄에 일부 유죄·일부 무죄가 선고되고 피고인만 유죄부분에 항소한 경우 이심의 효력과 심판 범위가 문제. 전부대상설·일부대상설(처분권설)·이원설, 판례는 피고인만 유죄부분에 항소한 경우 상소불가분 원칙으로 무죄부분도 이심되나 그 부분은 이미 당사자 간 사실상 심판대상에서 벗어나 상소심도 무죄부분까지 판단할 수 없다고 봄. 피고인 이익 보호하는 판례 타당","k":"b7n8w5"},
+    {"i":"xyly0h","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> 항소심은 피고인이 항소한 유죄부분에 대해서만 심판할 수 있고, 항소하지 않은 무죄부분은 심판할 수 없음","k":"16jvunw"}
+   ]}
+  ]}
+ ]},
+ {"i":"1fdhb0x","o":"<div class=\"cs-callout\">","b":[
+  {"i":"eugedz","o":"<div class=\"cs-h\">","h":"Ⅰ. 상소불가분 원칙","k":"t28noj"},
+  {"i":"1u0yza0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[상소불가분 원칙]</span> 일부에 대한 상소는 <span class=\"cs-red\"><strong>그 일부와 불가분의 관계에 있는 부분에 대하여도 효력이 미침</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§342②)</strong></span></span>('판결주문'이 불가분의 관계인 경우)","k":"1bnzwz5"},
+  {"i":"19aisht","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-u\">경합범 전부에 대하여 유죄로 하나의 형이 선고된 경우</span> <span class=\"cs-red\"><strong>상소불가분 원칙 적용</strong></span>","k":"2u879x"},
+  {"i":"314u1k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[하나의 형 전부 파기]</span> 항소심이 전부 유죄로 형법§37 전단 경합범 관계라며 하나의 형을 선고하였는데 피고인만 전부 상소하여 일부만 파기할 때에는 <span class=\"cs-red\"><strong>경합범 관계로 하나의 형이 선고된 유죄 부분도 함께 전부 파기</strong></span><span class=\"cs-exam\">【변25】</span>","k":"12v5ahz"},
+  {"i":"1tpe4z4","o":"<div class=\"cs-h\">","h":"Ⅱ. 포괄일죄(상상적 경합) 일부 상소와 이심의 효력 및 심판 범위<span class=\"cs-exam\">【모사15】</span>","k":"bddzbk"},
+  {"i":"1fwhzft","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"포괄일죄(상상적 경합)에 일부 유죄·일부 무죄·공소기각이 선고된 경우 이심 효력·심판 범위 문제 — <span class=\"cs-green\"><strong>전부대상설</strong></span> / <span class=\"cs-green\"><strong>일부대상설</strong></span>(처분권) / <span class=\"cs-red\"><strong>이원설(선택적 적용설)</strong></span>","k":"12pcky6"},
+  {"i":"16izzug","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[검사만 일부상소 → 전부 이심]</span> 포괄일죄(상상적 경합) 중 일부 유죄(주문)·나머지 무죄(이유)의 판결에 검사만 무죄부분에 상소하고 피고인은 상소하지 아니하여도 <span class=\"cs-red\"><strong>상소불가분 원칙상 검사의 상소는 유죄·무죄부분 전부에 미쳐 유죄부분도 이심되어 심판대상</strong></span><span class=\"cs-exam\">【변12】</span>","k":"kk67c2"},
+  {"i":"1m9ii40","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[피고인만 일부상소 → 공방대상이탈론] 포괄일죄 일부만 유죄로 선고된 경우 피고인만 유죄부분만 상소하면 상소불가분 원칙에 의하여 무죄부분도 이심되기는 하나, 그 부분은 이미 당사자 간의 사실상 심판대상에서 벗어나 상소심도 판단할 수 없고, 유죄부분을 파기환송받은 항소심도 무죄부분에 대하여 다시 심리·판단하여 유죄를 선고할 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>(소위 공방대상이탈론) → 피고인 이익 보호 위해 <span class=\"cs-red\"><strong>판례 타당</strong></span><span class=\"cs-exam\">【변26】</span>","k":"vejm7u"},
+  {"i":"nyz3v8","o":"<div class=\"cs-h\">","h":"Ⅲ. 판례의 소위 공방대상이탈론의 적용 범위","k":"1255yx4"},
+  {"i":"1aq502v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>적용되지 않는 경우 — 전부 이심, 전부 심판대상</strong></span>","k":"cs270b"},
+  {"i":"vyf47y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[포괄일죄·상상적 경합 — 검사만]</span> 검사만 무죄·공소기각 부분만 상소한 경우","k":"1tgp29q"},
+  {"i":"gx8yke","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[실체적 경합 + 상상적 경합 혼재]</span> 실체적 경합 중 일부 유죄·일부 무죄를 선고하고 그 유죄부분과 상상적 경합관계인 다른 일부를 무죄(이유)로 판단한 항소심판결에 검사가 무죄부분 전체(주문 무죄+이유 무죄)에 상고한 경우, <span class=\"cs-red\"><strong>유죄부분(상고하지 않은 부분)도 상상적 경합관계인 무죄부분에 대한 검사 상고로 함께 상고심 판단대상</strong></span>","k":"85tgte"},
+  {"i":"1pcd10c","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[단순일죄]</span> 단순일죄 관계(허위사실 명예훼손 제외)에서 검사만 무죄부분만 상소하거나 피고인만 유죄부분만 항소한 경우 모두 <span class=\"cs-red\"><strong>전부 이심, 전부 심판대상</strong></span> → 건조물침입죄·절도미수죄만 유죄로 하나의 형을 선고하고 일죄 관계인 특수절도미수죄를 무죄(이유) 판단하였는데 검사만 무죄부분만 상소한 경우, 절도미수죄 부분도 파기되어야 하고 §37 전단 경합범으로 하나의 형이 선고된 건조물침입죄도 파기<span class=\"cs-exam\">【변16】</span>","k":"rewm6r"},
+  {"i":"1tpzq9i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[택일적 공소제기]</span> 택일적 공소제기에서 어느 하나만 유죄로 선고한 제1심판결에 항소가 제기되어 항소심이 파기·자판하는 경우, <span class=\"cs-red\"><strong>철회되지 아니하는 한 유죄로 인정된 이외의 다른 범죄사실도 당연히 항소심 심판대상</strong></span>","k":"1754mi0"},
+  {"i":"16a5qp6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[주위적·예비적 공소제기]</span> 검사만 무죄부분 상소, 피고인만 유죄부분 상소 모두 <span class=\"cs-red\"><strong>전부 이심, 전부 심판대상</strong></span> → 예비적 공소사실만 유죄로 인정되고 피고인만 상고하여도 주위적 공소사실까지 상고심 심판대상, 상고심이 예비적 공소사실을 전부 파기환송하면 <span class=\"cs-red\"><strong>환송 후 원심은 예비적 공소사실은 물론 동일체 관계인 주위적 공소사실도 심리·판단</strong></span><span class=\"cs-exam\">【변24】</span>","k":"1s2gcda"},
+  {"i":"15m33hf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[본안과 몰수·추징]</span> 피고인이 몰수·추징 부분만을 불복대상으로 상소를 제기하여도 그 효력은 불가분 관계인 <span class=\"cs-red\"><strong>본안 판단 부분에까지 미쳐 전부 이심</strong></span><span class=\"cs-exam\">【변18】</span>","k":"nev1fv"},
+  {"i":"1jd993f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-neg-tag\">[부착명령과 집행유예]</span> 부착명령은 보호관찰부 집행유예와 불가분 관계로 <span class=\"cs-red\"><strong>독립하여 상소의 대상이 될 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"y12ie2"},
+  {"i":"40w0ui","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>적용되는 경우 — 전부 이심, 공방대상이탈</strong></span>","k":"m2wumh"},
+  {"i":"15yr9um","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[포괄일죄·상상적 경합 — 피고인만]</span> 포괄일죄·상상적 경합 중 일부 유죄·일부 무죄·공소기각이 있고 피고인만 유죄부분만 상소한 경우","k":"1cey8eu"},
+  {"i":"1i3kwp7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[단순일죄 중 허위사실 명예훼손]</span> 사실적시 명예훼손(주문 유죄)·허위사실적시 명예훼손(이유 무죄) 중 피고인만 유죄부분에 항소하고 검사는 무죄부분에 항소하지 아니하였다면, 상소불가분으로 항소심에 이심되어도 <span class=\"cs-red\"><strong>무죄 부분은 심판대상이 되지 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"5miv1l"},
+  {"i":"we93gn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[검사 전부상소 + 일부 상고이유 누락]</span> 상상적 경합관계 수죄에 모두 무죄가 선고되고 검사가 무죄부분 전부에 상고하였으나 일부 무죄부분(A)을 상고이유로 삼지 않은 경우, A도 이심되나 <span class=\"cs-red\"><strong>공격방어 대상에서 벗어나 심판대상에서 이탈하므로, 다른 무죄부분(B)을 파기환송받은 원심도 A에 대하여 유죄를 선고할 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변21·12】</span>","k":"nttc67"},
+  {"i":"qzib1l","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[검사 전부상소 + 양형부당만 주장]</span> 방조범으로 유죄·공동정범 무죄(이유)인 판결에 검사가 전부 항소하였으나 항소이유서에서 양형부당만 주장하고 무죄부분을 언급하지 않은 경우, 이심되어도 <span class=\"cs-red\"><strong>무죄 부분은 사실상 심판대상이 되지 아니하며, 직권조사사유·직권심판에도 해당하지 않아 항소심이 직권으로 공동정범을 유죄로 처벌하는 것은 방어권 불이익으로 허용 X</strong></span>","k":"e7pkpi"}
+ ]}
+]}

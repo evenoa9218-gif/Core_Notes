@@ -1,0 +1,73 @@
+{"id":"사회004","t":"허위공문서작성 및 허위진단서작성","cat":"gak_사회","lv":1,"tg":["변사22","변사18","모사21","모사14","모기24","모기23"],"b":[
+ {"i":"bm0eeu","o":"<details class=\"cs-case\">","b":[
+  {"i":"5uzgo5","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE] 보조공무원의 허위 시험평가서 기안</strong></span></span> <span class=\"cs-exam\">【변사22】 </span><span class=\"cs-red\">(18)</span>","k":"1yiulga"},
+  {"i":"13idn9c","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1har7uy","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1cms6r6","o":"<div class=\"cs-callout\">","b":[
+     {"i":"qs4ohi","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"乙, 대위로 육군사관학교에 재직하며 납품 관련 시험평가서 기안 보조업무 담당 중 B방위산업체 근무 고교동창 丁에게서 납품할 탄환의 시험평가서가 필요하니 도와달라는 부탁을 받고, 다른 업체의 탄환 실험데이터를 도용해 결과를 허위 기재한 육군사관학교장 명의 시험평가서를","k":"1526ngs"},
+     {"i":"35zacx","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"작성한 뒤 정을 모르는 결재권자의 도장을 받음. 乙, 丁의 죄책은? (18점)","k":"zovy22"}
+    ]}
+   ]},
+   {"i":"vlph4d","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1nj1aus","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1sin77m","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [乙의 죄책]</strong></span>","k":"1hr2lwz"},
+    {"i":"g125en","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 허위공문서작성죄(<span class=\"cs-blue\"><span class=\"cs-u\">제227조</span></span>) = '작성권한자인 공무원'을 주체로 하는 진정신분범","k":"1iiy1bj"},
+    {"i":"qstd61","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 乙은 기안을 담당하는 보조공무원이었을 뿐 시험평가서 작성권한<span class=\"cs-x\"><strong>(X)</strong></span>","k":"182y8px"},
+    {"i":"az86r5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 보조공무원이 허위공문서를 기안해 정을 모르는 작성권자의 결재를 받아 완성한 경우 허위공문서작성죄의 간접정범(<span class=\"cs-blue\"><span class=\"cs-u\">제34조</span> 제1항</span>) 성부 — 부정설/긍정설, 판례 = 긍정설. 대부분의 서류가 기안 담당 보조공무원에 의해 작성되는 현실을 고려하면 긍정설 타당","k":"8ujbaf"},
+    {"i":"psw823","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"④ 乙 = 허위공문서작성죄의 간접정범","k":"zq68hj"},
+    {"i":"1cozhku","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [丁의 죄책]</strong></span>","k":"clbnk8"},
+    {"i":"1qr338b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 범행의 결의가 없는 乙에게 부탁해 실행하게 함 → 교사범(<span class=\"cs-blue\"><span class=\"cs-u\">제31조</span> 제1항</span>)","k":"i1bdu6"},
+    {"i":"1pfxi1j","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 丁 = <span class=\"cs-blue\"><span class=\"cs-u\">제33조</span></span> 본문에 따라 허위공문서작성교사죄","k":"tjqjil"}
+   ]}
+  ]}
+ ]},
+ {"i":"1mwlc1b","o":"<div class=\"cs-callout\">","b":[
+  {"i":"4ubi0b","o":"<div class=\"cs-callout\">","b":[
+   {"i":"aknmy1","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제227조(허위공문서작성등)</strong></span> <span class=\"cs-u\"><strong>공무원</strong></span>이 행사할 목적으로 그 직무에 관하여 <span class=\"cs-blue\"><strong>문서</strong></span> 또는 도화를 <span class=\"cs-blue\"><strong>허위</strong></span>로 <span class=\"cs-blue\"><strong>작성</strong></span>하거나 변개한 때에는 <span class=\"cs-red\">7년 이하의 <strong>징역</strong></span> 또는 <span class=\"cs-red\">2천만원 이하의 <strong>벌금</strong></span>에 처한다.","k":"18vnc35"},
+   {"i":"6j11kc","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제233조(허위진단서등의 작성)</strong></span> <span class=\"cs-u\"><strong>의사, 한의사, 치과의사 또는 조산사</strong></span>가 <span class=\"cs-blue\"><strong>진단서</strong></span>, 검안서 또는 생사에 관한 증명서를 <span class=\"cs-blue\"><strong>허위</strong></span>로 <span class=\"cs-blue\"><strong>작성</strong></span>한 때에는 <span class=\"cs-red\">3년 이하의 <strong>징역</strong>이나 <strong>금고</strong></span>, <span class=\"cs-red\">7년 이하의 <strong>자격정지</strong></span> 또는 <span class=\"cs-red\">3천만원 이하의 <strong>벌금</strong></span>에 처한다.","k":"6uidzb"}
+  ]},
+  {"i":"1ypgw6x","o":"<div class=\"cs-h\">","h":"Ⅰ. 허위공문서작성죄","k":"1csvoky"},
+  {"i":"15aoync","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>문서</strong></span>","k":"2mazl"},
+  {"i":"wln7c9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-u\">문서에 관한 죄의 보호법익은 문서의 증명력·의사표시의 안정·신용</span> → 법률관계·거래상 중요 사실에 관한 관계를 표시하여 증거될 만한 가치 있는 문서가 대상","k":"18tpqyw"},
+  {"i":"khdlwj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"1wongrn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-gbg\">[작성명의인 명시 X]</span> 문서 자체에 의하여 누가 작성했는지 추지할 수 있을 정도면 객체 됨<span class=\"cs-exam\">【변21】</span>","k":"opeo79"},
+  {"i":"1wx2f5y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[피의자신문조서]</span> 말미에 작성자 서명·날인 없으나 첫머리에 작성 사경·참여 사경 직위·성명 기재 → 작성자 추지 가능 → 허위공문서작성죄 객체인 공문서<span class=\"cs-o\"><strong>(O)</strong></span>","k":"qsg4kf"},
+  {"i":"932jhh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>허위</strong></span>","k":"32hop"},
+  {"i":"1u94c00","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-u\">허위란 표시된 내용과 진실이 부합하지 않아 공공의 신용을 위태롭게 하는 것</span> → 내용이 허위라는 사실을 인식하면 성립","k":"1ugnr9m"},
+  {"i":"1tt2uoe","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"1k60ana","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[준공검사조서]</span> 정산설계서 확인·준공검사 안 했음에도 한 것처럼 '정산설계서에 의하여 준공검사'를 하였다는 내용 기입 → 성립<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변24】</span>","k":"1ismom0"},
+  {"i":"y889nn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[원본대조필]</span> 실제 원본대조 없이 '원본대조필 토목기사 피고인' 기재 → 성립<span class=\"cs-o\"><strong>(O)</strong></span>","k":"dqlrn0"},
+  {"i":"1vw7oeq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[인감증명서]</span> 본인 직접 출두 없음에도 직접 신청·발급받은 것처럼 기재 → 공문서위조죄 아닌 허위공문서작성죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"rzei9q"},
+  {"i":"q2rd33","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[재수사결과서]</span> 사경이 검사로부터 재수사 요청받고 피해자 진술 없는 독자적 의견·추측을 직접 들은 진술처럼 기재 → 성립<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변25】</span>","k":"vonosi"},
+  {"i":"1nbuuw6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-neg-tag\">[작성의도·목적 부정]</span> 작성권한 공무원이 허위 인식하며 진실 반하는 기재를 한 공문서이므로, 작성 의도·목적이 부정해도 기재 내용에 거짓 없으면 성립<span class=\"cs-x\"><strong>(X)</strong></span>","k":"19gyqg7"},
+  {"i":"13m9dff","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-gbg\">[법령 오적용]</span> ①적용 전제된 사실관계에 거짓 기재 없으면 성립<span class=\"cs-x\"><strong>(X)</strong></span> ②그 잘못이 공무원의 '고의'에 기해도 마찬가지<span class=\"cs-exam\">【변25】</span>","k":"1lq34vu"},
+  {"i":"ulkap8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>허위공문서작성죄의 간접정범</strong></span>","k":"bdoksw"},
+  {"i":"1eyp7wl","o":"<div class=\"cs-li cs-issue\" style=\"margin-left:16px\">","h":"가. <strong>'사인'의 허위공문서작성죄의 간접정범·공동정범</strong>","k":"1ikfvvs"},
+  {"i":"pdra8w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"적용범위: <span class=\"cs-def\"><strong>[진정신분범]</strong></span> <span class=\"cs-u\">작성권한자인 공무원을 주체로 하는 진정신분범</span>","k":"1aojk44"},
+  {"i":"wa5ggu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:48px\">","h":"<span class=\"cs-fact-tag\">[공동정범 O]</span> 공무원 아닌 자가 공무원과 공동하여 범한 때 → <span class=\"cs-blue\"><span class=\"cs-u\">제33조</span></span> 본문에 의해 공동정범 됨","k":"1kda3we"},
+  {"i":"hoit73","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:48px\">","h":"<span class=\"cs-gbg\">[간접정범 X]</span> 공무원 아닌 자는 <span class=\"cs-blue\"><span class=\"cs-u\">제228조</span></span> 경우를 제외하고는 간접정범으로 처벌 X<span class=\"cs-exam\">【변19】【변사18, 모기24】</span>","k":"d7cqrc"},
+  {"i":"lszwd6","o":"<div class=\"cs-li cs-issue\" style=\"margin-left:16px\">","h":"나. <strong>'보조 공무원'의 허위공문서작성죄 간접정범</strong><span class=\"cs-exam\"><strong>【변사22, 모기23·21·14】</strong></span>","k":"1b9m6fh"},
+  {"i":"azdfhn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-hl\">《보조공무원이 허위공문서 기안 → 정 모르는 작성권자 결재로 완성 시 간접정범 성립여부》</span>","k":"15oqeku"},
+  {"i":"18b1hpn","o":"<div class=\"cs-theory\">","b":[
+   {"i":"d6n3uh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①부정설(작성권한 없는 보조공무원 간접정범 X) ②긍정설(기안 담당 보조공무원은 '사실상·실질적 작성권한' 보유)","k":"upxxvm"},
+   {"i":"pmlibk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-glabel\">[긍정설]</span> ①보조직무 공무원이 허위공문서 기안→정 모르는 작성권자 결재로 완성 시 간접정범 ②공모자도 그 공범 죄책 면할 수 없고 공범은 공무원 신분자로 한정 X<span class=\"cs-exam\">【변23·15】</span>","k":"1l2vka"},
+   {"i":"k6bidf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 긍정설 타당","k":"hlgovu"}
+  ]},
+  {"i":"17hhs4e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"15y8q9e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:48px\">","h":"<span class=\"cs-fact-tag\">[중간·최종 결재]</span> 甲이 허위 자동차운송사업변경 검토조서 작성→사정 아는 중간결재자 乙과 사정 모르는 최종결재자 丙 차례 결재로 변경허가 → 甲·乙은 간접정범 <span class=\"cs-gbg\">[허위공문서작성죄 공동정범 X]</span>","k":"e5fd91"},
+  {"i":"3zvslt","o":"<div class=\"cs-li cs-issue\" style=\"margin-left:16px\">","h":"다. <strong>'감독공무원'의 허위공문서작성죄 간접정범</strong>","k":"11b36m6"},
+  {"i":"pmq6il","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"l1xx5m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:48px\">","h":"<span class=\"cs-fact-tag\">[감독공무원 O]</span> 경찰서 보안과장이 甲 음주운전 눈감아주려 적발보고서 찢고 (<span class=\"cs-blue\"><span class=\"cs-u\">제141조</span> 제1항</span> 공용서류손상죄 성립), 부하시켜 가짜 적발보고서에 乙 음주운전 기재케 하여 정 모르는 담당 경찰관으로 처리부에 기재하도록 함 → 허위공문서작성 및 동 행사죄 간접정범 죄책 면할 수 X","k":"5cobbs"},
+  {"i":"wzk4d7","o":"<div class=\"cs-h\">","h":"Ⅱ. <span class=\"cs-fact-tag\">[비교]</span> 위조죄의 간접정범","k":"1ne2f0k"},
+  {"i":"11mksj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"el9rox","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[직인 보관담당]</span> 작성권자 결재 있을 때만 날인 가능 → 결재 없이 직인 보관담당자를 기망하여 작성권자 직인 날인케 하여 공문서 완성 시 공문서위조죄 성립 <span class=\"cs-fact-tag\">[간접정범]</span>","k":"1nsk99x"},
+  {"i":"1f0id0d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[진정 성립]</span> ①작성권한 공무원이 기재 사항 인식하고 작성 의사로 서명·날인 → 성립은 진정, 명의 모용 아님 ②공무원 아닌 자가 관공서에 허위 증명원 제출→정 모르는 담당공무원으로부터 증명서 발급받아도 공문서위조죄 간접정범 의율 X<span class=\"cs-exam\">【변21·17】</span>","k":"1t1mtz8"},
+  {"i":"yqgq5n","o":"<div class=\"cs-h\">","h":"Ⅲ. 허위진단서작성죄","k":"6d4mi9"},
+  {"i":"12pltoc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용범위: <span class=\"cs-blue\"><span class=\"cs-u\">제233조</span></span>는 <span class=\"cs-u\">사문서의 무형위조 처벌 규정</span>","k":"k9lkvp"},
+  {"i":"2juz0m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"qnhvye","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">['입퇴원 확인서']</span> 진단서로 보기 어려움","k":"wtakx7"},
+  {"i":"1j56p7s","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[허위 인식 필요]</span> ①진단서 내용이 객관적 진실에 반할 뿐 아니라 작성자가 허위임을 인식해야 ②주관적으로 진찰 소홀·착오로 오진하여 진실 반한 진단서 작성 시 허위 인식 X → 성립<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1e4vgry"},
+  {"i":"19r4l3l","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[부검 이전 작성 사망진단서 기재 사망원인이 부검 결과와 달라도 허위진단서 고의 곧바로 추단 X]</span>","k":"4xc7mc"},
+  {"i":"pmkgp0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[대상 한정]</span> 허위진단서작성죄 대상은 '공무원 아닌 의사'가 사문서로 진단서 작성한 경우에 한정 → 공무원인 의사가 공무소 명의로 작성 시 허위공문서작성죄만 성립, 허위진단서작성죄 별도 성립 X<span class=\"cs-exam\">【변18·12】【모기24】</span>","k":"1btolkm"}
+ ]}
+]}

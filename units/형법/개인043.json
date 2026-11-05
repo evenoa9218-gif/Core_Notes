@@ -1,0 +1,36 @@
+{"id":"개인043","t":"불법원인급여와 사기죄","cat":"gak_사기공갈","lv":1,"tg":["변사14","모사23","모사20","변기12"],"b":[
+ {"i":"psaos1","o":"<details class=\"cs-case\">","b":[
+  {"i":"7nzy10","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE]</strong></span></span> <span class=\"cs-exam\">【변사14】 </span><span class=\"cs-red\">(20)</span>","k":"12wt3q4"},
+  {"i":"6m2lzb","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1dh9r65","o":"<div class=\"cs-fact\">","b":[
+    {"i":"e8b3jp","o":"<div class=\"cs-callout\">","b":[
+     {"i":"k8q50h","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"丙, 도박자금이 떨어지자 구경하던 丁에게 변제 의사 없이 높은 이자를 약속하고 도박자금을 빌려달라 함 → 丁은 丙의 상습도박 전과를 알면서 300만 원 대여 → 丙은 도박으로 전액 탕진.","k":"bcfvp8"},
+     {"i":"1t28o8","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"丙과 丁의 죄책은? (20점)","k":"ce5otw"}
+    ]}
+   ]},
+   {"i":"1q5adii","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"cbt99v","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1cqqt6t","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [丙의 죄책]</strong></span>","k":"1j2ph2r"},
+    {"i":"1lxpeqx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(가) [사기죄]</strong>","k":"1p6a64a"},
+    {"i":"1ji0p6t","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 도박자금 대여 = 불법원인급여 → 급여자는 반환 청구<span class=\"cs-x\"><strong>(X)</strong></span>. 이때 사기죄 성부 — 부정설/긍정설, 판례 = 긍정설. 긍정설 타당","k":"1eur8bd"},
+    {"i":"1y3enep","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 변제 의사 없이 차용 → 사기죄(<span class=\"cs-blue\"><span class=\"cs-u\">제347조</span> 제1항</span>)<span class=\"cs-o\"><strong>(O)</strong></span>","k":"c9ogg6"},
+    {"i":"tuqcsv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(나) [상습도박죄]</strong>","k":"1vc7fln"},
+    {"i":"llk1j0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 상습도박 전과가 있는데도 도박 → 도박의 습벽<span class=\"cs-o\"><strong>(O)</strong></span> (상습성이 명확하지 않으나 출제의도 고려)","k":"1m2mjf6"},
+    {"i":"jih0na","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 丙 = <span class=\"cs-blue\">상습도박죄</span>(<span class=\"cs-blue\"><span class=\"cs-u\">제246조</span> 제2항, 제1항</span>)<span class=\"cs-o\"><strong>(O)</strong></span>","k":"p8vkv1"},
+    {"i":"k1wczb","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [丁의 죄책]</strong></span>","k":"clbnk8"},
+    {"i":"1yywy3s","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 도박의 상습성 = '행위'가 아니라 '행위자'의 속성(반복하는 습벽) → 부진정신분","k":"zn67y7"},
+    {"i":"wyfsht","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 비신분자가 부진정신분범에 가담한 경우 <span class=\"cs-blue\"><span class=\"cs-u\">제33조</span></span> 본문·단서의 관계 — 진정·부진정신분범 구별설/성립·과형 구별설, 판례 = 성립·과형 구별설. 단서는 본문의 적용을 전제한다고 해석함이 문언에 충실 → 성립·과형 구별설 타당","k":"nj62x1"},
+    {"i":"4w6mss","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 판례에 의하면 丁 = <span class=\"cs-blue\"><span class=\"cs-u\">제33조</span></span> 본문에 의해 상습도박방조죄 성립, <span class=\"cs-blue\"><span class=\"cs-u\">제33조</span></span> 단서에 의해 단순도박방조죄의 형으로 처벌","k":"1wog09u"}
+   ]}
+  ]}
+ ]},
+ {"i":"pz8u88","o":"<div class=\"cs-callout\">","b":[
+  {"i":"17905nw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-u\">급여자를 기망하여 불법한 급여를 하게 한 경우</span> → 급여자는 수익자에 반환청구 X(민법 <span class=\"cs-blue\"><span class=\"cs-u\">§746</span></span>)","k":"7ktn5h"},
+  {"i":"k4h2ra","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\">《기망으로 불법원인급여를 하게 한 수익자에게 사기죄가 성립하는지》</span>","k":"1dlnes4"},
+  {"i":"zjqji7","o":"<div class=\"cs-theory\">","b":[
+   {"i":"xyyc57","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①부정설(반환청구 불가 → 법이 보호할 재산상 손해 부존재 → 불성립) ②긍정설(반환청구권 존재는 사기죄 요건 아님 → 성립)","k":"auwwxg"},
+   {"i":"hwlp3h","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-glabel\">[긍정설]</span> 기망으로 불법원인급여 재물 제공케 한 경우 사기죄<span class=\"cs-o\"><strong>(O)</strong></span> — 반환청구 불가해도 무방<span class=\"cs-exam\">【변22·13】</span>","k":"1bak98y"},
+   {"i":"1on0vsd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 수익자는 기망으로 재물·이익 취득 → 형법 독자적 관점서 사기죄 인정 → 긍정설 타당","k":"1l4e7gg"}
+  ]}
+ ]}
+]}

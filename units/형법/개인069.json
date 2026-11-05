@@ -1,0 +1,86 @@
+{"id":"개인069","t":"배임수·증재죄","cat":"gak_횡령배임","lv":1,"tg":["변사26","변사20","모사25","모사17","모사12","모기23"],"b":[
+ {"i":"1hr5t4p","o":"<details class=\"cs-case\">","b":[
+  {"i":"1fjmk19","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE]</strong></span></span> <span class=\"cs-exam\">【변사20】 </span><span class=\"cs-red\">(15)</span>","k":"11rzzjx"},
+  {"i":"14704r3","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"16bx2f9","o":"<div class=\"cs-fact\">","b":[
+    {"i":"3n3z3x","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1tyt4ae","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"A사립학교법인 이사장 甲, 학교 폭력문제 보도 등으로 운영에 어려움을 겪자 임원 변경 방식으로 운영권을 넘기기로 함 → 乙이 운영권을 5억 원에 양도하고 자기를 이사장으로 선임해 달라 부탁, 선임 후 5억 원을 이체하기로 함 → 乙은 이사장 선임 직후 B에게서 교직원 채용","k":"fwd83n"},
+     {"i":"syy9oc","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"부탁을 받고 대가로 1억 원 수령. 甲, 乙의 죄책은? (15점)","k":"1gipgko"}
+    ]}
+   ]},
+   {"i":"1a4f1uq","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1mzomz","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1woxzyz","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [운영권 양도와 관련 甲과 乙의 배임수증재]</strong></span>","k":"zrn9t1"},
+    {"i":"12bgqel","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① '부정한 청탁'은 업무상 배임의 정도에 이를 것을 요하지 않고 사회상규 또는 신의성실의 원칙에 반하는 내용이면 족","k":"jtg7rt"},
+    {"i":"1ypogje","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 학교법인 이사장이 운영권을 양도하고 양수인 측을 임원으로 선임해 주는 대가로 양도대금을 받기로 하는 청탁은, 학교법인의 존립에 중대한 위협을 초래함이 명백하다는 등 특별한 사정이 없는 한 '부정한 청탁'<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1h21855"},
+    {"i":"1tf9x6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 운영권 5억 원 양도 + 乙을 이사장으로 선임 → 甲·乙 모두 '부정한 청탁'<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1ywtcse"},
+    {"i":"1pksmb8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"④ 甲에 대한 배임증재죄(<span class=\"cs-blue\"><span class=\"cs-u\">제357조</span> 제2항, 제1항</span>)·乙에 대한 배임수재죄(<span class=\"cs-blue\"><span class=\"cs-u\">제357조</span> 제1항</span>) 모두<span class=\"cs-x\"><strong>(X)</strong></span>","k":"120wzbl"},
+    {"i":"dir19o","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [교직원 채용 관련 乙의 배임수재]</strong></span>","k":"kmz1o5"},
+    {"i":"8rhsvx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① B를 교직원으로 채용하는 대가로 1억 원을 받는 것은 사회상규·신의성실의 원칙에 반하는 내용 → 부정한 청탁<span class=\"cs-o\"><strong>(O)</strong></span>","k":"11llcx9"},
+    {"i":"u3yizx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 乙 = 배임수재죄(<span class=\"cs-blue\"><span class=\"cs-u\">제357조</span> 제1항</span>)","k":"1qz3np4"}
+   ]}
+  ]}
+ ]},
+ {"i":"1d8x4cg","o":"<div class=\"cs-callout\">","b":[
+  {"i":"d6z2qs","o":"<div class=\"cs-callout\">","b":[
+   {"i":"2gjp94","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제357조(배임수증재)</strong></span>","k":"1z0zt44"},
+   {"i":"1t1snha","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① <span class=\"cs-u\"><strong>타인의 사무를 처리하는 자</strong></span>가 그 임무에 관하여 <span class=\"cs-blue\"><strong>부정한 청탁</strong></span>을 받고 <span class=\"cs-u\">재물 또는 재산상의 이익을 취득</span>하거나 제3자로 하여금 이를 취득하게 한 때에는 <span class=\"cs-red\">5년 이하의 <strong>징역</strong></span> 또는 <span class=\"cs-red\">1천만원 이하의 <strong>벌금</strong></span>에 처한다.","k":"2g416y"},
+   {"i":"i9glc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 제1항의 재물 또는 재산상 이익을 공여한 자는 <span class=\"cs-red\">2년 이하의 <strong>징역</strong></span> 또는 <span class=\"cs-red\">500만원 이하의 <strong>벌금</strong></span>에 처한다.","k":"3c3y3s"},
+   {"i":"cgou5l","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 범인 또는 그 사정을 아는 제3자가 취득한 제1항의 재물은 몰수한다. 그 재물을 몰수하기 불가능하거나 재산상의 이익을 취득한 때에는 그 가액을 추징한다.","k":"dks800"}
+  ]},
+  {"i":"guae8v","o":"<div class=\"cs-h\">","h":"Ⅰ. 타인의 사무를 처리하는 자 (<span class=\"cs-blue\"><span class=\"cs-u\">§357</span>①</span>)","k":"cqc4r4"},
+  {"i":"wfq4u6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[진정신분범]</strong></span> 원칙적으로 타인 사무처리자만 배임수재죄 주체, 무신분자는 신분자 범행에 가공한 경우에 한하여 주체","k":"1kjpa1n"},
+  {"i":"1o29uhn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>'타인의 사무처리자'</strong></span> = 대내관계에서 신의칙상 사무처리 신임관계 존재 인정되는 자, 대외적 사무권한 존재·포괄적 위탁사무일 것 요 X","k":"y4vi14"},
+  {"i":"1xur2qn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용범위: 신임관계 발생근거 = 법령·법률행위·관습·사무관리","k":"1jeiur9"},
+  {"i":"goo62g","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"'타인의 사무처리자'의 사무는 재산권 관련 사무에 국한 X (통설)","k":"157liys"},
+  {"i":"1rljsjd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"1li0x33","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[현실적 담당O]</span> 장래 담당 합리적 기대되는 임무에 부정한 청탁받고 취득 후 그 임무를 현실적 담당하게 되면 <span class=\"cs-red\"><strong>성립<span class=\"cs-o\"><strong>(O)</strong></span></strong></span> <span class=\"cs-fact-tag\">[청탁 당시 정식 통보 전이나 위촉 사실상 확정 상태<span class=\"cs-o\"><strong>(O)</strong></span>]</span>","k":"bvbtq4"},
+  {"i":"36m0ml","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[사후 취득O]</span> 부정한 청탁 후 '사후'에 취득해도 성립<span class=\"cs-exam\">【변20】</span>","k":"ckdpz6"},
+  {"i":"2rnbvd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[사무분담 변경O]</span> 청탁 후 사무분담 변경으로 직무 미담당 상태서 수수해도, 여전히 같은 타인 사무처리 지위+청탁 관련 수수면 성립","k":"1a5nqhz"},
+  {"i":"8zcwzt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[사직 후 수수O]</span> 수재 당시 임무 현실적 담당은 요건 아님 → 청탁 후 '사직'으로 미담당 상태서 '수수'해도 청탁 관련이면 성립","k":"16o23pr"},
+  {"i":"1snkvcd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[지위 취득 前 청탁X]</span> 사무처리자 지위 취득 전 부정한 청탁 받으면 <span class=\"cs-green\"><strong>배임수재죄 처벌<span class=\"cs-x\"><strong>(X)</strong></span></strong></span> <span class=\"cs-gbg\">[청탁받은 후 평가위원 위촉<span class=\"cs-x\"><strong>(X)</strong></span>]</span><span class=\"cs-exam\">【변26·20·16】</span>","k":"1u37i1t"},
+  {"i":"1jnkujp","o":"<div class=\"cs-h\">","h":"Ⅱ. 임무에 관한 부정한 청탁","k":"1gzbz8z"},
+  {"i":"16bvnpj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>임무에 관하여</strong></span>","k":"whyi35"},
+  {"i":"1fbv6iy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용범위: '임무에 관하여' = 위탁관계 본래 사무뿐 아니라 밀접 관계 있는 범위 내 사무 포함","k":"1y1sr5y"},
+  {"i":"17du93h","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"고유권한 처리자에 한정 X, 보조기관으로서 직·간접 처리 사무 담당자도 포함","k":"odm2na"},
+  {"i":"13bx65v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>부정한 청탁</strong></span>","k":"bn1og0"},
+  {"i":"1igyxem","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"반드시 업무상 배임 정도에 이를 것 요 X, <span class=\"cs-u\">사회상규 또는 신의칙에 반하는 내용이면 족</span><span class=\"cs-exam\">【변사26·20, 모사25, 모기25·23】</span>","k":"1tzl9it"},
+  {"i":"ei120d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[묵시적O]</span> 명시적일 필요 X, 묵시적으로 이루어져도 무방","k":"13lcwpx"},
+  {"i":"vjyh00","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"dsoqiw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[O 교사채용]</span> 교사채용 명목 800만원 교부받음 → 부정한 청탁<span class=\"cs-exam\">【변사20】</span>","k":"d6ubjv"},
+  {"i":"196jp6t","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[O 유료기사]</span> 보도대상자가 기자에 '유료기사' 게재 청탁 = 광고를 언론보도로 가장 → 언론 공정성·객관성 신뢰 저버림 → 부정한 청탁, 내용이 객관적 사실 부합해도 동일<span class=\"cs-exam\">【변26】[모사25, 모기23]</span>","k":"3q39w7"},
+  {"i":"1l4doja","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[O 평론 우호여론]</span> 언론인이 평론대상 특정인·기업으로부터 경제적 이익 받으며 우호여론 형성 청탁 → 부정한 청탁 <span class=\"cs-fact-tag\">[논설주간이 여론형성 청탁 후 유럽여행비 3,973만원 대납]</span><span class=\"cs-exam\">【변25】</span>","k":"9mlu95"},
+  {"i":"x5hahf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[O 수의계약]</span> 구매담당 직원에 수의계약·편의 대가 사례 청탁 후 계약체결 후 금원 교부 → 부정한 청탁<span class=\"cs-exam\">【모기25】</span>","k":"1u21xxf"},
+  {"i":"ry4luy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[O]</span> 계약 관련 사무처리자에 '계약상대방 되게 해달라' 부탁+대가 → 부정한 청탁","k":"11iawkt"},
+  {"i":"15x6aqi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[O 골프장부킹]</span> 예약담당자가 부킹대행업자 청탁에 회원용 주말부킹권 판매·대금 수수 → 배임수재죄","k":"1osijmk"},
+  {"i":"sctzl5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[X]</span> 규정 허용 범위 내 최대한 선처 요청 또는 적법·정상적 처리범위 속하는 것이면 부정한 청탁 X<span class=\"cs-exam\">【변20】</span>","k":"3v5e58"},
+  {"i":"1q1j4dm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[X 학교운영권]</span> 학교법인 운영권 양도하고 양수인측 임원 선임 대가로 양도대금 받기로 한 청탁 → 설립목적과 다른 목적 기본재산 매수 등 존립에 중대한 위협 명백한 특별사정 없는 한 부정한 청탁 X<span class=\"cs-exam\">【변사20】</span>","k":"kpyuri"},
+  {"i":"1g804sr","o":"<div class=\"cs-h\">","h":"Ⅲ. 재물 또는 재산상의 이익의 취득","k":"gmohh0"},
+  {"i":"6987f3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>취득</strong></span>","k":"362i8"},
+  {"i":"ckbl0u","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>[취득=현실취득]</strong></span> <span class=\"cs-u\">취득은 현실적 취득만 의미</span> → 단순 요구·약속만은 불포함<span class=\"cs-exam\">【변20】</span>","k":"bh2wbt"},
+  {"i":"2ypyg7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[취득시 기수]</span> 재물·이익 취득만으로 기수, 부정행위·배임행위 나아갈 것 불요","k":"emii78"},
+  {"i":"16lo1hz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例) : <span class=\"cs-fact-tag\">[예금통장]</span> 증재자로부터 입금계좌 통장·현금카드·신용카드 교부받아 소지하며 언제든 인출가능·실질적 사용·처분권 있으면 '예금된 돈' 취득으로 봄<span class=\"cs-exam\">【변23】</span>","k":"fbxji9"},
+  {"i":"61roh9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[제3자 취득도 직접취득 평가]</span> 다른 사람이 취득해도 그가 사자·대리인이거나, 청탁받은 자가 그 생활비 부담·채무 부담 등으로 지출 면하는 등 사회통념상 직접 받은 것과 같이 평가되면 성립 <span class=\"cs-fact-tag\">[제3자로 하여금 취득X]</span>","k":"1bpbzb6"},
+  {"i":"qvias8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[부정한 청탁의 대가여야]</span> ①수수 재물·이익은 부정한 청탁의 대가·사례여야 ②대향적 행위 필요 유형 배임죄에서 상대방이 계약상 의무 이행하고 실행행위자가 이행받은 것을 부정한 청탁 대가로 쉽게 단정 X","k":"5w03ge"},
+  {"i":"1s6msqf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"az1irj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[딸·지배회사 계좌]</span> 입점청탁 대가를 딸에게 주게 하거나 아들명의 자신 지배 주식회사 계좌로 입금케 함 → 직접 받은 것과 동일","k":"7380fv"},
+  {"i":"owk7hk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[명의신탁 특허권 1,000만원 매도·이전등록, 계약상 의무 이행 지급을 대가로 단정 곤란]</span><span class=\"cs-exam\">【변18】</span>","k":"3ue8u5"},
+  {"i":"1ya4q0k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>제3자로 하여금 취득하게 한 때</strong></span>","k":"n45pnv"},
+  {"i":"1oryq36","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例) : <span class=\"cs-fact-tag\">[위임한 '타인'은 제3자 아님]</span> ①'제3자'에 특별사정 없는 한 '사무처리 위임한 타인'은 불포함 ②외형상 위임한 타인에 지급돼도 사회통념상 직접 받은 것과 동일 평가 가능 시 성립 <span class=\"cs-fact-tag\">[신문사가 피고인 실질적 1인 회사면 사실상 피고인 귀속→직접 받은 것과 동일 평가]</span><span class=\"cs-exam\">【변26】[모사25, 모기23]</span>","k":"oyiggx"},
+  {"i":"xgs72t","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"1knlbrm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-neg-tag\">[신문사 교부X]</span> 홍보기사 대가로 '기자들 소속 신문사들'이 교부받음 = 사무처리자·제3자 교부 아님 → <span class=\"cs-green\"><strong>배임수재죄<span class=\"cs-x\"><strong>(X)</strong></span></strong></span> → 이를 전제한 배임증재죄도 X","k":"qxs1zd"},
+  {"i":"tkql0i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[조합운영비]</span> 조합 이사장이 대행기획사 선정하며 최종 선정회사로부터 조합운영비 명목 3,000만원 교부받아 조합운영비로 사용 → 자신 아닌 '타인'(조합)에 취득케 한 경우 <span class=\"cs-green\"><strong>배임수재죄<span class=\"cs-x\"><strong>(X)</strong></span></strong></span> <span class=\"cs-fact-tag\">[개인 이익 아닌 조합 경비]</span><span class=\"cs-exam\">【변17】</span>","k":"wv59aw"},
+  {"i":"bjtx9f","o":"<div class=\"cs-h\">","h":"Ⅳ. 배임증재죄와 배임수재죄의 관계","k":"1wifm8h"},
+  {"i":"3tvn0r","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용범위: 배임수재(<span class=\"cs-blue\"><span class=\"cs-u\">§357</span>①</span>)·배임증재(<span class=\"cs-blue\"><span class=\"cs-u\">§357</span>②</span>)는 통상 필요적 공범이나 반드시 수·증재자 같이 처벌해야 하는 것 X, 증재자엔 정당한 업무 청탁이라도 수재자엔 부정한 청탁일 수 있음","k":"1laroet"},
+  {"i":"1uueptv","o":"<div class=\"cs-h\">","h":"Ⅴ. 죄수관계","k":"1roczmf"},
+  {"i":"1xn48b9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"判例(죄수관계):","k":"1qecrhl"},
+  {"i":"14fz8nk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[동일인 포괄일죄]</span> 동일인으로부터 직무 관련 부정한 청탁받고 여러 차례 금품 수수, 단일·계속 범의+동일 피해법익이면 포괄일죄","k":"17tq5uc"},
+  {"i":"afu09y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[수인 실경]</span> 여러 사람으로부터 각 청탁받고 각 금품 수수 시, 청탁 동종이라도 단일·계속 범의 아님 → 포괄일죄 X <span class=\"cs-fact-tag\">[실체적 경합]</span><span class=\"cs-exam\">【변22】</span>","k":"iip58z"},
+  {"i":"6y7ki9","o":"<div class=\"cs-h\">","h":"Ⅵ. 횡령·배임죄의 공범과 배임수증재","k":"1smkzt"},
+  {"i":"46fzrm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"判例(죄수관계):","k":"1qecrhl"},
+  {"i":"ha2b5y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[내부 이익분배X]</span> 금융기관 임직원이 대출상대방과 공모·임무위배 담보가치 초과대출하고 대출금 일부 돌려받기로 해 수수 = 업무상배임 공동정범 간 내부 이익분배 → 별도 <span class=\"cs-blue\">특경법위반(수재등)죄</span><span class=\"cs-x\"><strong>(X)</strong></span>","k":"1a7rg8c"},
+  {"i":"11tq3gh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[내부 분배X]</span> ①공동 사기로 얻은 돈을 공범끼리 수수한 것이 내부 분배에 불과하면 <span class=\"cs-green\"><strong>배임수증재죄<span class=\"cs-x\"><strong>(X)</strong></span></strong></span> ②입찰담당자가 공사업자와 공모해 낙찰하한가 알아내 알려주고 낙찰케 하고 돈 수수 → <span class=\"cs-green\"><strong>배임수재죄<span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변23】</span>","k":"ttzlnx"},
+  {"i":"17br8zk","o":"<div class=\"cs-h\">","h":"Ⅶ. 몰수·추징","k":"1i17usz"},
+  {"i":"zy8nwv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : 공여 금품에 부정한 청탁 대가 성질과 그 외 행위 사례 성질이 불가분 결합 시 전부가 불가분적으로 부정한 청탁 대가 성질<span class=\"cs-exam\">【변23】</span>","k":"k86p0g"}
+ ]}
+]}

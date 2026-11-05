@@ -1,0 +1,77 @@
+{"id":"형총030","t":"법률의 착오","cat":"chong_04","lv":1,"tg":[],"b":[
+ {"i":"16wd4gp","o":"<details class=\"cs-case\">","b":[
+  {"i":"1sa3oso","o":"<summary>","h":"<span class=\"cs-u\">[CASE] 착오송금 횡령·법률의 착오 — 사안</span><span class=\"cs-exam\">【변사20】</span> <span class=\"cs-red\">(25)</span>","k":"1xofpol"},
+  {"i":"wv5jcf","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"okf97d","o":"<div class=\"cs-callout\">","b":[
+    {"i":"1r18vcg","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"乙, 운영권 양수대금 5억 원을 甲 계좌로 이체하려다 착각해 丙 계좌로 잘못 이체. 자신 계좌에 乙 명의 5억 원 이체 확인하고 돌려주려는 丙에게 친구 丁이 근거 없이 \"乙이 착오 입금한 게 분명하니 다른 계좌로 이체해도 문제없다, 우선 내 계좌로 이체해\"라고 말함. 丙, 丁의 말 듣고 막연히 괜찮을 것이라 생각하고 5억 원을 丁 계좌로 이체. 丙, 丁의 죄책은? (25점)","k":"1bnhkld"}
+   ]}
+  ]}
+ ]},
+ {"i":"12w2q9k","o":"<details class=\"cs-case\">","b":[
+  {"i":"yotjxg","o":"<summary>","h":"<span class=\"cs-u\">[CASE] 착오송금 횡령·법률의 착오 — 답안</span><span class=\"cs-exam\">【변사20】</span>","k":"k3cl5m"},
+  {"i":"fk6exa","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1u249ok","o":"<div class=\"cs-fact\">","h":"","k":"45h"},
+   {"i":"1624f7","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"5ibbqy","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"10ju8a2","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [丙의 죄책]</strong> (가) [구성요건해당성]","k":"1vupzzp"},
+    {"i":"1tqp8in","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 계좌명의인은 착오 송금·이체된 돈을 송금의뢰인 위해 보관하는 지위 → 영득의사로 인출하면 횡령죄","k":"mgmo7g"},
+    {"i":"139suo9","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 丙은 착오이체 5억 원 반환 안 하고 불법영득의사로 丁 계좌로 재이체 → 특경법위반(횡령)죄(특경법 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§3</strong></span></span>①제2호, <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§355</strong></span></span>①) 구성요건해당성 인정 (나) [법률의 착오]","k":"19zr8hn"},
+    {"i":"4sv9zo","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§16</strong></span></span>","k":"t1sk2t"},
+    {"i":"5ozkf","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② '정당한 이유' 유무 = 위법 가능성 심사숙고·조회 계기 있어 지적능력 다해 회피 위한 진지한 노력 다했다면 위법성 인식 가능성 있었는지 여부로 판단","k":"1c3ydob"},
+    {"i":"qqw04g","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 丙은 법률전문가 등에 충분히 조회 가능했음에도 막연히 괜찮을 것이라 생각하고 이체 → 정당한 이유 X (다) [소결] 丙 = 특경법위반(횡령)죄","k":"1ihsqlz"},
+    {"i":"yrhb86","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [丁의 죄책]</strong> (가) [특경법위반(횡령)죄의 교사범]","k":"swl15b"},
+    {"i":"1hoqblt","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 교사 = 범죄 결의 안 한 피교사자에게 특정범죄 결의케 함(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§31</strong></span></span>①)","k":"vetxh8"},
+    {"i":"sznacy","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 丁은 돌려주려는 丙에게 특경법위반(횡령) 결의케 함 → 교사범","k":"uvthey"},
+    {"i":"qacmci","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 특경법위반(횡령) = '타인의 재물 보관자'만 주체인 진정신분범 → 비신분자 丁이 신분자 丙에게 교사 = <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§33</strong></span></span> 본문에 의해 교사범 죄책 (나) [장물취득(보관)죄] 교사자 丁이 장물 취득·보관 = 장물취득죄 또는 장물보관죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§362</strong></span></span>①), 특경법위반(횡령)죄 교사범과 실체적 경합","k":"11wj2qq"},
+    {"i":"1n5r63k","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> 丙 = 특경법위반(횡령)죄, 丁 = 특경법위반(횡령)죄 교사범 + 장물취득(보관)죄 실체적 경합","k":"rgbj66"}
+   ]}
+  ]}
+ ]},
+ {"i":"1gbameb","o":"<div class=\"cs-callout\">","b":[
+  {"i":"158ll7r","o":"<div class=\"cs-callout\">","b":[
+   {"i":"igad3k","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제16조(법률의 착오)</strong></span>","k":"1ikd6y7"},
+   {"i":"em6nzy","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"자기의 행위가 법령에 의하여 죄가 되지 아니하는 것으로 오인한 행위는 그 오인에 정당한 이유가 있는 때에 한하여 벌하지 아니한다.","k":"1gnyhkg"}
+  ]},
+  {"i":"1v4srks","o":"<div class=\"cs-h\">","h":"Ⅰ. 위법성의 인식의 체계적 지위","k":"1ejssyj"},
+  {"i":"1p5i8dn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[고의설]</span> ① 고의 = '책임요소'(주관적 구성요건요소 X), 고의 = 범죄사실 인식 + 위법성 인식 ② 위법성 인식 없으면 책임고의 부정 → 책임 조각<span class=\"cs-exam\">【변16】</span>","k":"1ve7d6i"},
+  {"i":"1t61vkw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[책임설]</span> ① 위법성 인식 = 고의와 독립적 별개 책임요소 ② 위법성 인식 없으면 고의 무관 책임 조각<span class=\"cs-exam\">【변16】</span> ③ 고의의 이중적 지위 인정설: 객관적 구성요건요소 인식·의사 = 구성요건적 고의, 법적대적 태도 부정적 가치판단(심정반가치) = 책임고의","k":"1l5ymy8"},
+  {"i":"5sg8d","o":"<div class=\"cs-h\">","h":"Ⅱ. 위법성의 인식의 의미","k":"vzoe8f"},
+  {"i":"zb6vbx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"위법 인식 = 범죄사실이 사회정의·조리에 어긋남 인식으로 족, 구체적 해당 법조문까지 인식 요 X","k":"27sldh"},
+  {"i":"om6dbc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[확신범]</span> 확신범·양심범도 윤리적·종교적 신념상 정당하다 믿어도 법적 위법성 인식한 이상 위법성 인식 인정","k":"zys4dp"},
+  {"i":"1ovgj02","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[미신범]</span> 비과학적 미신(예: 주술) 믿고 비현실적 수단으로 범죄 실현 → 처벌규정 있으나 행위정형성 없어 구성요건해당성 X","k":"zpda6u"},
+  {"i":"jgvm8e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[환각범]</span> 처벌규정 자체 없는 경우 → 구성요건해당성 X, 반전된 법률의 착오 <span class=\"cs-fact-tag\">[간통이 형사처벌된다고 착오하고 간통행위를 한 경우]</span><span class=\"cs-exam\">【변25】</span>","k":"1q4p1cr"},
+  {"i":"1v6hzhe","o":"<div class=\"cs-h\">","h":"Ⅲ. 법률의 착오 (금지착오)","k":"vsregd"},
+  {"i":"3g8bzv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>법률의 부지</strong>","k":"4p8abs"},
+  {"i":"13mt101","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[법률의 부지]</span> <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§16</strong></span></span> = 단순 법률의 부지 의미 X, 일반적으로 범죄이나 자기 특수한 경우 법령상 허용된 행위로 죄 안 된다 그릇 인식 + 그 인식에 정당한 이유 있으면 불벌 취지<span class=\"cs-exam\">【변24·16】</span>","k":"150q69"},
+  {"i":"1408eq7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"일본 영주권 재일교포가 영리목적 아니라거나 입국시 관세신고 안 해도 되는 것으로 착오한 사정만으로 법률의 착오 X","k":"jtseo6"},
+  {"i":"1suy8eg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>정당한 이유의 판단기준 </strong><strong>[변사20, 모사24]</strong>","k":"1fux853"},
+  {"i":"13kqs0l","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"'정당한 이유' 유무 = 위법 가능성 심사숙고·조회 계기 있어 지적능력 다해 회피 위한 진지한 노력 다했다면 위법성 인식 가능성 있었음에도 다하지 못해 위법성 인식 못한 것인지 여부로 판단<span class=\"cs-exam\">【변25·16】</span>","k":"5jipm2"},
+  {"i":"1dmqpfi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"위법성 인식에 필요한 노력 정도 = 구체적 행위정황·행위자 개인 인식능력·행위자 속한 사회집단에 따라 달리 평가<span class=\"cs-exam\">【변25·19】</span>","k":"adya74"},
+  {"i":"13kuhgx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>정당한 이유에 관한 구체적 판례</strong>","k":"14zm1no"},
+  {"i":"mjli9m","o":"<div class=\"cs-li cs-issue\" style=\"margin-left:16px\">","h":"가. <strong>판례</strong>","k":"asmykb"},
+  {"i":"1bgne9r","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-gbg\">[중간 일시 처벌면제 해석]</span> 법률 위반 행위 중간에 일시적으로 판례상 처벌대상 아닌 것으로 해석된 적 있어도 그것만으로 불처벌로 믿은 데 정당한 이유 X<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변26·24·23】</span>","k":"f4vjy7"},
+  {"i":"1e7bhj7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-gbg\">[무허가 의약품]</span> 판례에 비추어 무허가 의약품 제조·판매 아닌 것으로 오인해도 사안 달리하는 판례 취지 오해에 불과 → 정당한 사유 X<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변16】</span>","k":"6jzg0y"},
+  {"i":"1eeqjvu","o":"<div class=\"cs-li cs-issue\" style=\"margin-left:16px\">","h":"나. <strong>검사의 불기소처분</strong>","k":"tedab3"},
+  {"i":"10t9l6n","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"불기소처분 이전부터 저지른 행위면 무혐의 처분 믿고 한 것 아니고, 처분 이후 행위도 항고 인용·재기수사명령으로 기소된 이상 정당한 이유 X<span class=\"cs-x\"><strong>(X)</strong></span>","k":"4087s6"},
+  {"i":"iopqq6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[가감삼십전대보초]</span> 한약 가지수만 차이나는 십전대보초 제조·광고에 이전 검찰 혐의없음 결정 받은 적 있으면, 면허·허가 없이 의약품 판매해도 죄 안 되는 것으로 오인함에 정당한 이유 O<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변16】</span>","k":"1tyjfj1"},
+  {"i":"1gay7rg","o":"<div class=\"cs-li cs-issue\" style=\"margin-left:16px\">","h":"다. <strong>행정청의 회신</strong>","k":"1n3rv9m"},
+  {"i":"5u4lph","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"건설폐기물처리시설 질의회신 따라 죄 안 된다 오인해도, 질의회신을 유리하게 잘못 해석한 것에 불과하면 정당한 이유 X<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1ht87h5"},
+  {"i":"ktj8m6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-gbg\">[선관위 회신]</span> 변호사 자격 국회의원(법률전문가, 헌법소원 경험)이 보좌관 통해 관할 선관위 직원에 구두 문의·답변 들은 것만으로는(공식적 답변 X) 지적능력 다한 진지한 노력 X → 정당한 이유 X<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변14】</span>","k":"81zjzk"},
+  {"i":"koam9c","o":"<div class=\"cs-li cs-issue\" style=\"margin-left:16px\">","h":"라. <strong>변호사의 자문</strong>","k":"19z4sj7"},
+  {"i":"1myq5pr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"부동산중개업자가 중개업협회 자문 통해 중개보조원 인원제한 없이 채용 허용된다 믿은 사정만으로 정당한 이유 X<span class=\"cs-x\"><strong>(X)</strong></span>","k":"cn39dc"},
+  {"i":"156w8us","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"조합 자문변호사로부터 조합원 전화번호·동호수 배정 비공개가 좋겠다는 답변 받아도, 자문변호사 개인 독자적 견해에 불과·도시정비법 체계적 해석 아니면 정당한 이유 X<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1q24lus"},
+  {"i":"1klb8s","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[표: 착오의 유형]</span>","k":"ydvup1"},
+  {"i":"182su43","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[소극적 착오·사실의 착오]</span> 구성요건적 착오(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§13</strong></span></span>,<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§15</strong></span></span>①) — <span class=\"cs-fact-tag\">[내용]</span> 구성요건적 사실 인식 X — <span class=\"cs-fact-tag\">[예시]</span> 멧돼지로 알고 발사했는데 사람 사망 — <span class=\"cs-fact-tag\">[효과]</span> 정당한 이유 불문·구성요건적 고의 조각","k":"ydjm9o"},
+  {"i":"1rzqb3l","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[소극적 착오·법률의 착오]</span> 위법성착오·금지착오(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§16</strong></span></span>) — <span class=\"cs-fact-tag\">[내용]</span> 위법한 행위이나 위법성 인식 X — <span class=\"cs-fact-tag\">[예시]</span> 채무자 죽이는 것 법적 허용된다 생각 — <span class=\"cs-fact-tag\">[효과]</span> 정당한 이유 있는 경우에만 책임 조각","k":"1qr74u3"},
+  {"i":"11kvlb1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[적극적 착오·불능미수]</span> 반전된 구성요건적 착오(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§27</strong></span></span>) — <span class=\"cs-fact-tag\">[내용]</span> 결과발생 불가능한데 가능하다 오인 — <span class=\"cs-fact-tag\">[예시]</span> 사람인 줄 알고 강제추행했으나 시체 — <span class=\"cs-fact-tag\">[효과]</span> 위험성 있는 경우에만 불능미수","k":"150kpf8"},
+  {"i":"1hdhq7j","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[적극적 착오·환각범]</span> 반전된 법률의 착오 — <span class=\"cs-fact-tag\">[내용]</span> 위법하지 않은 행위를 위법하다 오인 — <span class=\"cs-fact-tag\">[예시]</span> 간통 형사처벌된다 착오하고 간통 — <span class=\"cs-fact-tag\">[효과]</span> 처벌 X·구성요건해당성 X","k":"1or7p37"},
+  {"i":"x5ho0u","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[표: 위법성조각사유 전제사실의 착오]</span> (학설 — 적용법조 — 효과(위전착자) — 악의가담자 의사지배/제한종속 — 정당방위)","k":"o4gicb"},
+  {"i":"1nwl2a9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[소극적 구성요건요소이론]</span> <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§13</strong></span></span> 직접적용 — ①고의범X(불법고의 조각) ②과실범O — 의사지배 간접O·제한종속 공범X — 정당방위△(과실 있으면 O, 처벌규정 불문)","k":"1t4paep"},
+  {"i":"qwz8xy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[유추적용 제한책임설]</span> <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§13</strong></span></span> 유추적용 — ①고의범X(불법고의 조각) ②과실범O — 간접O·공범X — 정당방위△(과실 있으면 O, 처벌규정 불문)","k":"1x6frc5"},
+  {"i":"bzw853","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[판례(독자이론)]</span> 독자이론 — ①정당한 이유O: 고의범X(위법성X)·과실범X(간접O·공범X·정당방위X) ②정당한 이유X: 고의범 처벌(간접X·공범O·정당방위O)","k":"12474dt"},
+  {"i":"rr8pqc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[법효과제한책임설]</span> 독자착오(위법성착오 X) — ①고의범X(고의불법 인정·책임고의 탈락) ②과실범O(과실 있으면) — 간접O·공범O — 정당방위O(고의범 위법성O)","k":"va665p"},
+  {"i":"1g2swjc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[엄격책임설]</span> <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§16</strong></span></span> 법률의 착오 — ①정당한 이유O: 고의범X(책임조각)·과실범X ②정당한 이유X: 고의범 처벌 — 간접(①O②X)·공범O — 정당방위O(고의범 위법성O, 엄격책임설도 정당한 이유 불문)","k":"iogd2s"},
+  {"i":"1y8nqxh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[</span><span class=\"cs-blue\"><span class=\"cs-u\">§310</span></span><span class=\"cs-fact-tag\"> 진실성 착오·판례(상당한 이유)]</span> <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§310</strong></span></span> — ①상당한 이유O: 고의범X(위법성X)(간접O·공범X·정당방위X) ②상당한 이유X: 고의범O(간접X·공범O·정당방위O)","k":"2d6rn6"},
+  {"i":"1c413ys","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[</span><span class=\"cs-blue\"><span class=\"cs-u\">§310</span></span><span class=\"cs-fact-tag\"> 진실성 착오·허용된 위험설(성실한 검토의무)]</span> <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§310</strong></span></span> — ①성실검토O: 고의범X(위법성X)(정당방위X) ②성실검토X: 고의범O(정당방위O)","k":"175gxrm"}
+ ]}
+]}

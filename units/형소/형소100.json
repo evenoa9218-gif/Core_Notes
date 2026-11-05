@@ -1,0 +1,57 @@
+{"id":"형소100","t":"전문진술 (제316조)","cat":"pro_14","lv":1,"tg":["上","변사25·24·21·14","모사24·14 등"],"b":[
+ {"i":"1g7hocq","o":"<details class=\"cs-case\">","b":[
+  {"i":"1kml5zi","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 피신조서 내용부인 시 경찰 진술을 증거로 쓸 방법</strong></span> <span class=\"cs-exam\">【변사24】</span>","k":"slgwwd"},
+  {"i":"u8byyk","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"zsgywm","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1ij14r2","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1x82jk0","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"살인미수로 공소제기된 丁에 대한 제1심 공판에서 丁이 범행을 부인하면서 범행을 자백하는 내용이 기재된 경찰관 P 작성의 丁에 대한 피의자신문조서의 내용을 부인한 경우, 丁의 경찰에서의 진술 내용을 증거로 사용할 수 있는 방법을 논하라. (8점)","k":"1dij1fq"}
+    ]}
+   ]},
+   {"i":"wvbjpt","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"163quo8","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"tceek2","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [경찰관 P의 조사자 증언]</strong>","k":"ohp1xb"},
+    {"i":"jrgyqd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§316①</strong></span></span>","k":"qhp65y"},
+    {"i":"6i8p0o","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 특신상태 = 진술 내용·조서 작성에 허위개입 여지가 거의 없고 신빙성·임의성을 담보할 구체적·외부적 정황이 있는 것","k":"sc1qr2"},
+    {"i":"h1bofl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 경찰관 P가 피의자신문 과정에서 丁의 진술을 들었으므로 丁의 조사과정 진술이 특신상태하에서 행해졌음이 증명되면 P의 증언 중 丁의 진술 부분 증거능력 O","k":"1jl5d80"},
+    {"i":"1qlzrwo","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [丁의 경찰진술의 탄핵증거 사용]</strong>","k":"1qpkmch"},
+    {"i":"k9gwhh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§318의2①</strong></span></span>","k":"bb1us2"},
+    {"i":"cfrw89","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 사경 작성 피신조서는 피고인이 내용을 부인하면 증거능력 X이나, 임의로 작성된 것이 아니라고 의심할 사정이 없는 한 피고인의 법정진술을 탄핵하기 위한 반대증거로 사용 O","k":"1whe4ej"},
+    {"i":"1nf8a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 丁이 내용부인하여 증거능력이 없어도 피신조서는 丁의 법정진술을 탄핵하는 증거로 사용 O","k":"9jalw7"}
+   ]}
+  ]}
+ ]},
+ {"i":"1n558gj","o":"<div class=\"cs-callout\">","b":[
+  {"i":"18vhpxz","o":"<div class=\"cs-callout\">","b":[
+   {"i":"cwl643","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제316조(전문의 진술)</strong></span>","k":"14ftbng"},
+   {"i":"1vps69u","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 피고인이 아닌 자<span class=\"cs-statute\"><span class=\"cs-u\"><strong>(공소제기 전에 피고인을 피의자로 조사하였거나 그 조사에 참여하였던 자를 포함한다)</strong></span></span>의 공판준비 또는 공판기일에서의 진술이 <span class=\"cs-statute\"><span class=\"cs-u\"><strong>피고인의 진술을 그 내용으로 하는 것</strong></span></span>인 때에는 그 진술이 <span class=\"cs-statute\"><span class=\"cs-u\"><strong>특히 신빙할 수 있는 상태</strong></span></span>하에서 행하여졌음이 증명된 때에 한하여 증거로 할 수 있다.","k":"3ocg4w"},
+   {"i":"1tfq0nr","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 피고인 아닌 자의 진술이 <span class=\"cs-statute\"><span class=\"cs-u\"><strong>피고인 아닌 타인의 진술을 그 내용으로 하는 것</strong></span></span>인 때에는 원진술자가 <span class=\"cs-statute\"><span class=\"cs-u\"><strong>사망·질병·외국거주·소재불명 그 밖에 이에 준하는 사유로 진술할 수 없고</strong></span></span>, 그 진술이 <span class=\"cs-statute\"><span class=\"cs-u\"><strong>특히 신빙할 수 있는 상태</strong></span></span>하에서 행하여졌음이 증명된 때에 한하여 증거로 할 수 있다.","k":"myx7mu"}
+  ]},
+  {"i":"1mb7jdg","o":"<div class=\"cs-h\">","h":"Ⅰ. '피고인 아닌 자'의 '피고인 진술'을 내용으로 하는 전문진술 (제1항)","k":"1ou1ig3"},
+  {"i":"iupg7u","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>전문진술자 – 피고인 아닌 자·공범·조사자</strong></span>","k":"nc8cpb"},
+  {"i":"1iwcvuq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[공범]</span> 전문진술자인 피고인 아닌 자에는 <span class=\"cs-red\"><strong>공범이나 공동피고인도 포함</strong></span>","k":"y5f07j"},
+  {"i":"c9bl36","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[조사자]</span> 조사하였거나 그 조사에 참여하였던 자를 포함<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§316①)</strong></span></span> — (수사검사·참여한 검찰수사관·사법경찰관리)<span class=\"cs-exam\">【변22·21, 변사24, 모기24】</span>","k":"1l3py4h"},
+  {"i":"2tnx64","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>판례는 조사자 증언의 특신상태를 엄격하게 판단 → 이를 폭넓게 허용하면 §312①③의 입법취지와 기능이 크게 손상될 수 있기 때문</strong></span>","k":"1u70sf1"},
+  {"i":"l3c7rl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[피고인이 변호인 동석 없이 진술한 점, 범인만이 알 수 있는 자발적·구체적 진술이 없고, 경찰관의 임의제출 종용·발신기지국 위치 기반 진술번복 유도에 따라 필로폰 투약을 인정한 것으로 보이는 등 신빙하기 어려운 상태로 의심되는 정황이 존재하는 경우]</span> 경찰관의 제1심 증언은 <span class=\"cs-green\"><strong>증거능력이 인정된다고 보기 어려움</strong></span>","k":"z78g64"},
+  {"i":"r3uyvn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[조사자 이외 피고인의 수사기관 진술을 들은 사람]</span> 조사자 증언 이외에 피고인의 수사기관 진술을 내용으로 하는 전문증거는 모두 <span class=\"cs-green\"><strong>피고인이 내용부인하면 증거능력 부정</strong></span>","k":"18e79pb"},
+  {"i":"1vg5hxi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[수사경찰관이 대질신문을 위하여 피고인을 피해자와 동석시킨 자리에서 피해자가 피고인의 자백 진술을 들었다는 취지의 진술]</span> 피고인이 법정에서 그 진술 내용을 부인하는 이상 <span class=\"cs-green\"><strong>증거능력 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"1gdyl0z"},
+  {"i":"6xhhsu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[변호인의견서에 기재된 피고인 진술]</span> 경찰 피신조서의 증거능력을 인정할 수 없는 이상 변호인의견서 중 같은 취지의 진술 부분도 <span class=\"cs-green\"><strong>유죄의 증거로 사용할 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【모사25】</span>","k":"1xr0xdm"},
+  {"i":"1uloels","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>원진술자 – 피고인</strong></span>","k":"1el206u"},
+  {"i":"lf91tf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[공범]</span> 원진술자인 피고인은 <span class=\"cs-red\"><strong>'당해 피고인'만을 의미</strong></span>하고, '공범이나 공동피고인'은 피고인 아닌 자에 해당하므로 <span class=\"cs-green\"><strong>§316② 적용</strong></span>","k":"137ukz9"},
+  {"i":"66hca8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"피고인의 진술은 피고인의 지위에서 한 법정진술에 한정되지 않고 <span class=\"cs-red\"><strong>피의자·참고인·증인 기타 지위에서 한 진술이 모두 포함</strong></span>","k":"8ja2w3"},
+  {"i":"1jlv2g0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>요건</strong></span>","k":"350kl"},
+  {"i":"usu6y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"원진술의 <span class=\"cs-red\"><strong>특신상태만 요건</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§316①)</strong></span></span><span class=\"cs-exam\">【변24·20·19 등 빈출】</span>","k":"hht8l7"},
+  {"i":"cv8617","o":"<div class=\"cs-h\">","h":"Ⅱ. '피고인 아닌 자'의 '피고인 아닌 타인'의 진술을 내용으로 하는 전문진술 (제2항)","k":"1rsfisp"},
+  {"i":"158jjao","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>전문진술자 (피고인 아닌 자)</strong></span>","k":"1t61he8"},
+  {"i":"dwodvt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① §316① 적용설 ② §316② 적용설","k":"1s4wdnm"},
+  {"i":"6cjz4x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 §316② 적용설] §316②의 피고인 아닌 자는 제3자는 말할 것도 없고 공동피고인이나 공범자를 모두 포함</strong></span><span class=\"cs-exam\">【변20】</span>","k":"1tshaos"},
+  {"i":"sy8p56","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: 공범의 진술은 피고인에 대하여는 제3자의 진술에 불과하므로 <span class=\"cs-red\"><strong>§316② 적용설 타당</strong></span>","k":"10rsbci"},
+  {"i":"n72a80","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>요건</strong></span>","k":"350kl"},
+  {"i":"d6vtok","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 원진술자의 <span class=\"cs-red\"><strong>진술불능(필요성)</strong></span> ② 원진술의 <span class=\"cs-red\"><strong>특신상태</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§316②)</strong></span></span><span class=\"cs-exam\">【변23·21】</span>","k":"gp99ge"},
+  {"i":"9swcpy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[원진술자가 공동피고인으로 출석하여 공소사실을 부인하고 있는 경우]</span> <span class=\"cs-green\"><strong>진술불능에 해당 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변18】</span>","k":"fkahob"},
+  {"i":"trhvk1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[원진술자가 증인으로 출석하여 증언한 경우]</span> 진술불능에 해당하지 않으므로 <span class=\"cs-green\"><strong>원진술자의 진술을 내용으로 하는 조사자의 증언은 증거능력 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"4y4b0t"},
+  {"i":"cf0bo2","o":"<div class=\"cs-h\">","h":"Ⅲ. 피고인의 피고인 아닌 타인의 진술을 내용으로 하는 전문진술 (규정 없음)","k":"lg18he"},
+  {"i":"1jf0sno","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[判例 §316② 적용]</span> '피고인'(안○○)의 업무수첩 등의 대화 내용 부분이 <span class=\"cs-red\"><strong>전 대통령(박○○)과 개별 면담자(이○○) 사이에서 대화한 내용을 증명하기 위한 진술증거</strong></span>인 경우에는 전문진술로서 §316②이 적용","k":"7tsdbh"},
+  {"i":"riu6nn","o":"<div class=\"cs-h\">","h":"Ⅳ. 원진술자의 증언능력","k":"908os1"},
+  {"i":"1qqk79a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>전문의 진술을 증거로 함에 있어서는 전문진술자가 원진술자로부터 진술을 들을 당시 '원진술자'가 증언능력에 준하는 능력을 갖춘 상태에 있어야</strong></span> — (사고 당시 3세 3개월인 피해자의 증언능력 인정)","k":"1nb3qcf"}
+ ]}
+]}

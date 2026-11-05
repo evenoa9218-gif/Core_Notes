@@ -1,0 +1,66 @@
+{"id":"사회012","t":"도박죄와 사기도박","cat":"gak_사회","lv":1,"tg":["변사14","모사20","모사19"],"b":[
+ {"i":"1r0sqoh","o":"<details class=\"cs-case\">","b":[
+  {"i":"2qsyy7","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE] 도박장 운영·바지사장 위장</strong></span></span> <span class=\"cs-exam\">【변사14】 </span><span class=\"cs-red\">(30)</span>","k":"4604yf"},
+  {"i":"1u4ycx3","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"42h9wt","o":"<div class=\"cs-fact\">","b":[
+    {"i":"4ie4id","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1bebpar","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲, 도박장을 직접 운영하기로 하고 단속에 대비해 실직 중이던 사촌동생 乙에게 '영업을 돕고 적발되면 네가 사장이라고 진술해 달라'고 제의 → 乙 승낙. 생활정보지 광고로 종업원을 채용하고, 乙을 사장으로 위장하려 甲의 자금으로 乙이 직접 사무실을 임차하게 함. 알던 도박꾼 丙 등을 '대포폰'으로 불러 '포커' 도박을 시키고 자릿값으로 한 판에 판돈의 10%를 뗌, 乙은 창문으로 망을 봄. 주민 신고로 경찰관 P 등이 출동해 乙 체포, 甲은 도주. 乙은 경찰서에서 자신이 도박장 주인이라며 운영 경위·자금 출처·임대차계약 경위·종업원 채용 등을 구체적으로","k":"cg6t4e"},
+     {"i":"hmcp37","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"거짓 진술. 甲, 乙의 죄책은? (30점)","k":"1bq2vsv"}
+    ]}
+   ]},
+   {"i":"1vmopai","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1mlv7ir","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"r3yvf8","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [도박장소개설죄의 공동정범]</strong></span>","k":"gaomqq"},
+    {"i":"1ijggtg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 공동정범(<span class=\"cs-blue\"><span class=\"cs-u\">제30조</span></span>) = 공동가공의 의사 + 그 공동의사에 기한 기능적 행위지배를 통한 범죄실행이라는 주관적·객관적 요건 要","k":"19f9s43"},
+    {"i":"68yahf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 甲은 직접 운영, 乙은 직접 운영은 아니나 공모해 사장 위장을 위해 사무실을 임차하고 망을 봄 → 공동가공의 의사에 기한 기능적 행위지배<span class=\"cs-o\"><strong>(O)</strong></span>","k":"rvs68f"},
+    {"i":"1dw3e9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 甲·乙 = 도박장소개설죄의 공동정범. 본죄가 성립하는 이상 도박방조죄는 별도 성립<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1g9lzod"},
+    {"i":"cevm41","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [범인도피죄 및 범인도피교사죄]</strong></span>","k":"1i5l76r"},
+    {"i":"1g6cymc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(가) [乙의 범인도피죄]</strong>","k":"1ah1w3"},
+    {"i":"bpvv6r","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 범인도피죄(<span class=\"cs-blue\"><span class=\"cs-u\">제151조</span> 제1항</span>)는 '타인'을 도피하게 하는 경우에 성립 → 자기 도피는 불벌. 다만 바지사장 역할을 맡아 수사기관을 착오에 빠뜨리기로 하고, 단순히 실제 업주라 진술하는 데서 나아가 운영 경위·자금 출처· 임대차 계약 체결 경위 등까지 적극 허위진술하거나 허위자료를 제시해 수사기관이 실제 업주를 발견·체포하기 곤란 내지 불가능할 정도에 이르면 범인도피죄 구성 가능","k":"u940au"},
+    {"i":"1lu1abt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 乙은 구성요건 해당<span class=\"cs-o\"><strong>(O)</strong></span>(사안 포섭은 위 판례와 동일하므로 생략). 그러나 甲의 사촌동생 → 책임 조각 → 범인도피죄<span class=\"cs-x\"><strong>(X)</strong></span>(<span class=\"cs-blue\"><span class=\"cs-u\">제151조</span> 제2항</span>)","k":"5qti2c"},
+    {"i":"1mnuxxg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(나) [甲의 범인도피교사죄]</strong>","k":"1by32bg"},
+    {"i":"1mdb3ng","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 자기 도피 교사 — 긍정설/부정설, 판례 = 타인에게 도움을 요청하는 행위도 도피행위의 범주에 속하는 한 불벌이나 방어권의 남용이면 범인도피교사죄 → 긍정설","k":"uhmk6c"},
+    {"i":"1gr4bn2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 그 타인이 <span class=\"cs-blue\"><span class=\"cs-u\">제151조</span> 제2항</span>에 의해 처벌받지 않는 친족 등이어도 범인도피교사죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1kavj3x"},
+    {"i":"795n24","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"③ 미리 乙을 바지사장으로 내세워 사장인 것처럼 허위 진술하게 함 → 방어권 남용 → 범인도피교사죄(<span class=\"cs-blue\"><span class=\"cs-u\">제31조</span> 제1항</span>)<span class=\"cs-o\"><strong>(O)</strong></span>","k":"cw5slo"},
+    {"i":"1nm5voj","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(3) [위계공무집행방해죄 및 교사죄]</strong></span>","k":"1w55edi"},
+    {"i":"1jqn0qe","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 수사기관에 허위사실을 진술해도 위계로 수사가 방해되었다고 볼 수 없어 위계공무집행방해죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1rd6nfv"},
+    {"i":"gaxcbu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 乙이 적극적으로 증거를 조작한 것은 아니므로 위계공무집행방해죄(<span class=\"cs-blue\"><span class=\"cs-u\">제137조</span></span>)<span class=\"cs-x\"><strong>(X)</strong></span>, 정범이 구성요건에 해당하지 않는 이상 甲에게도 위계공무집행방해교사죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"pgjnbf"},
+    {"i":"n0lln","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(4) [결론]</strong></span> 甲 = 도박장소개설죄 + 범인도피교사죄의 실체적 경합, 乙 = 도박장소개설죄","k":"17aif7f"}
+   ]}
+  ]}
+ ]},
+ {"i":"qpmpyg","o":"<div class=\"cs-callout\">","b":[
+  {"i":"epj5l8","o":"<div class=\"cs-callout\">","b":[
+   {"i":"1scd9lg","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제246조(도박, 상습도박)</strong></span>","k":"1ra2dq8"},
+   {"i":"oovk0q","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① <span class=\"cs-blue\"><strong>도박</strong></span>을 한 사람은 <span class=\"cs-red\">1천만원 이하의 <strong>벌금</strong></span>에 처한다. 다만, 일시오락 정도에 불과한 경우에는 예외로 한다.","k":"loaswk"},
+   {"i":"iu0pbv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 상습으로 제1항의 죄를 범한 사람은 <span class=\"cs-red\">3년 이하의 <strong>징역</strong></span> 또는 <span class=\"cs-red\">2천만원 이하의 <strong>벌금</strong></span>에 처한다.","k":"1cgcc4b"},
+   {"i":"1w7uxrz","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제247조(도박장소 등 개설)</strong></span>","k":"18b4y5k"},
+   {"i":"1eh5zne","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-u\"><strong>영리의 목적</strong></span>으로 <span class=\"cs-u\">도박을 하는 장소나 공간</span>을 <span class=\"cs-blue\"><strong>개설</strong></span>한 사람은 <span class=\"cs-red\">5년 이하의 <strong>징역</strong></span> 또는 <span class=\"cs-red\">3천만원 이하의 <strong>벌금</strong></span>에 처한다.","k":"11agt45"}
+  ]},
+  {"i":"1p4d5n2","o":"<div class=\"cs-h\">","h":"Ⅰ. 도박죄 - 우연성","k":"1pdiciq"},
+  {"i":"ehqu4o","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>도박</strong></span><span class=\"cs-u\"> = 재물 걸고 '우연'에 의해 재물 득실 결정</span>","k":"el4smp"},
+  {"i":"168sc6l","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"'우연'이란 주관적으로 '당사자에 있어서' 확실히 예견 or 자유로이 지배할 수 없는 사실에 관해 승패 결정, <span class=\"cs-gbg\"><strong>객관적으로 불확실할 것</strong></span> <span class=\"cs-green\">요구 X</span>","k":"2u4gvd"},
+  {"i":"1qxl89f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"i2vfm5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[당사자 능력이 승패결과에 영향]</span> 다소라도 우연성 사정에 영향받으면 도박죄 성립<span class=\"cs-o\"><strong>(O)</strong></span> <span class=\"cs-fact-tag\">[내기 골프는 도박]</span>","k":"1sl6ks8"},
+  {"i":"1xsj1hx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[골프 핸디캡]</span> 개인 주관적 평가에 상당히 영향받는 흥정 결과 → 기망행위로 보기 어려움 <span class=\"cs-gbg\">[도박죄O, 사기죄X]</span>","k":"i8xo27"},
+  {"i":"1tytdus","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"判例(죄수관계): <span class=\"cs-fact-tag\">[상습성]</span> 상습도박죄·상습도박방조죄의 상습성 = 행위 속성 아닌 '행위자' 속성(도박 반복·거듭 습벽) → 습벽 있는 자가 타인 도박 방조 시 상습도박방조죄, 습벽 있는 자가 도박+도박방조 하면 상습도박방조죄는 무거운 상습도박죄에 포괄시켜 1죄로 처단","k":"18sw2kr"},
+  {"i":"dmx5i3","o":"<div class=\"cs-h\">","h":"Ⅱ. 도박장소(공간)개설죄","k":"jwsvpa"},
+  {"i":"1vf9j9q","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-u\">영리 목적으로 스스로 주재자 되어 그 지배하에 도박장소 개설함으로써 성립,</span> 도박죄와 별개 독립 범죄","k":"1rbo0wl"},
+  {"i":"lun2yb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용범위: <span class=\"cs-def\"><strong>['영리의 목적']</strong></span> 반드시 도박개장 직접 대가 아니라 <span class=\"cs-def\">도박개장 통해 간접적으로 얻을 이익도 포함</span>, <span class=\"cs-gbg\"><strong>현실적으로 이익 얻었을 것</strong></span> <span class=\"cs-green\">요하지 않음</span>","k":"1h3fce5"},
+  {"i":"18dl17w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"영리 목적으로 도박 개장하면 기수, 현실로 도박 행하여졌음은 묻지 않음","k":"1f4fgzx"},
+  {"i":"1025qbr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"도박장소개설죄 성립 시 별도로 도박방조죄 성립 X (통설)","k":"3x1t0l"},
+  {"i":"1o3yrzg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"dvlr4u","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[인터넷도박게임 사이트 개설자가 영리 목적 개설]</span> 게임이용자들이 실제 게임 하였는지 여부와 관계없이 도박개장죄 기수<span class=\"cs-exam\">【변13】</span>","k":"1662cqs"},
+  {"i":"frlruw","o":"<div class=\"cs-h\">","h":"Ⅲ. 사기도박 - 사기죄만 성립","k":"8x1hn5"},
+  {"i":"nb041f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>사기도박</strong></span>","k":"pecayw"},
+  {"i":"bvnnnd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例) : <span class=\"cs-def\"><strong>[일방이 사기 수단으로 승패 수 지배]</strong></span> <span class=\"cs-def\">우연성 결여</span> → 사기죄만 성립, <span class=\"cs-green\"><strong>도박죄 성립<span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변12】</span>","k":"117fu9u"},
+  {"i":"9r4v50","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"우연성 갖고 도박한 '상대방'도 사기 피해자일 뿐 도박죄 성립 X","k":"1dso53e"},
+  {"i":"noor6d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"편취 이득액 = 도박 당일 피해자가 잃은 도금 상당액","k":"yjgdwa"},
+  {"i":"p9av7k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>실행의 착수와 기수 및 죄수관계</strong></span>","k":"vwssm6"},
+  {"i":"cftr0s","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>[실행착수]</strong></span> 사기적 방법으로 도금 편취하려는 자가 <span class=\"cs-def\">상대방에게 도박 참가 권유하는 등 기망행위 개시한 때</span><span class=\"cs-exam\">【변20·12】</span>","k":"3nis5t"},
+  {"i":"1w611t4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"判例(죄수관계):","k":"1qecrhl"},
+  {"i":"oi7r0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[사기도박 착수 후 숨기려 얼마간 정상 도박]</span> 사기죄 실행행위에 포함 → 피해자에 대한 사기죄만 성립, 도박죄 따로 성립 X<span class=\"cs-exam\">【변25·22·12】</span>","k":"1dlrmbo"},
+  {"i":"13ebfu4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[피해자가 도박 고수임 직감·사기도박 포기하고 정상 도박만]</span> 포기 후 도박범행은 도박죄, 포기 前 도박으로 인한 사기미수죄와 실체적 경합범 관계<span class=\"cs-exam\">【모사20】</span>","k":"19rjdcj"},
+  {"i":"1hsy49e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[피해자들 유인해 사기도박·도금 편취한 각 사기죄]</span> 상상적 경합 <span class=\"cs-fact-tag\">[피해자 2명 상대 화투 친 경우]</span><span class=\"cs-exam\">【변25】</span>","k":"30062q"}
+ ]}
+]}

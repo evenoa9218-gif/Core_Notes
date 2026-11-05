@@ -1,0 +1,69 @@
+{"id":"형소125","t":"항소심의 심리와 재판","cat":"pro_19","lv":1,"tg":["中","변사25","모사24·23"],"b":[
+ {"i":"9s8jil","o":"<details class=\"cs-case\">","b":[
+  {"i":"6gzwwz","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 객관적 사유 없이 제1심 사실인정을 뒤집은 항소심</strong></span> <span class=\"cs-exam\">【변사25】</span>","k":"hg3p53"},
+  {"i":"1tietrv","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1qf2lgx","o":"<div class=\"cs-fact\">","b":[
+    {"i":"17i51jd","o":"<div class=\"cs-callout\">","b":[
+     {"i":"s4jkfs","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"제1심이 丙에 대한 강제추행 공소사실 모두 유죄 인정 → 丙 항소 → 항소심법원이 심리 과정에서 심증 형성에 영향을 미칠 만한 객관적 사유가 새로 드러난 것이 없음에도 제1심의 사실인정에 관한 판단을 재평가하여 공소사실 모두 무죄를 선고. 항소심판결이 적법한지 논하시오. (10점)","k":"15jglw9"}
+    ]}
+   ]},
+   {"i":"17c6ixi","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"m83n67","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"11om64q","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [항소심의 구조]</strong> 원칙적 속심설·원칙적 사후심설, 판례는 속심을 기반으로 하되 사후심적 요소도 상당 부분 들어 있는 '사후심적 속심'","k":"1anjjb4"},
+    {"i":"v63s5o","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [제1심 사실인정 재평가]</strong> 항소심이 제1심판단을 재평가하여 사후심적으로 뒤집고자 할 때에는 제1심의 증거가치 판단이 명백히 잘못되었거나 논증이 논리·경험법칙에 어긋나는 등 그 판단 유지가 현저히 부당하다고 볼 합리적 사정이 있어야 하고, 그런 예외적 사정 없이 함부로 뒤집어서는 안 됨","k":"73fjid"},
+    {"i":"bunvru","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> 항소심은 심증 형성에 영향을 미칠 객관적 사유가 새로 드러나지 않았음에도 제1심 유죄판결의 사실인정을 재평가하여 무죄를 선고 → 현저히 부당하다고 볼 합리적 사정이 없다면 항소심판결은 위법","k":"18a6xbm"}
+   ]}
+  ]}
+ ]},
+ {"i":"vgwzhw","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1rhjf77","o":"<div class=\"cs-h\">","h":"Ⅰ. 형사소송법상 항소심의 구조","k":"1e18l2a"},
+  {"i":"10g7hc2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[사후심적 속심]</span> 항소심은 <span class=\"cs-red\"><strong>속심을 기반으로 하되 사후심적 요소도 상당 부분 들어 있는 '사후심적 속심'</strong></span>","k":"v1wq4q"},
+  {"i":"uau86k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[판단시점]</span> 사후심적 성격이 가미된 속심이므로 원판결(제1심)의 당부는 <span class=\"cs-red\"><strong>항소심판결 선고시점 기준</strong></span>(대법원은 사후심)","k":"30wbuv"},
+  {"i":"bdo5vu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[파기자판 원칙]</span> 원칙적 속심이므로 <span class=\"cs-red\"><strong>파기 자판이 원칙</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§364⑥)</strong></span></span>","k":"19y1d38"},
+  {"i":"1fcn577","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[공소장변경]</span> 항소심에서도 가능하고, 상고심이 파기하여 항소심에 환송한 경우에도 가능","k":"sdzg77"},
+  {"i":"1ob94zq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[기판력 시적 범위]</span> ① 제1심판결 확정 → 제1심판결 선고시 ② 항소심판결 확정 → 항소심판결 선고시 ③ 항소이유서 미제출 항소기각결정 확정 → 항소기각결정시<span class=\"cs-exam\">【변23·16】</span>","k":"sgsrl3"},
+  {"i":"1sg8thx","o":"<div class=\"cs-h\">","h":"Ⅱ. 항소심의 심판대상","k":"19o1qzm"},
+  {"i":"3q26yq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>직권조사사항</strong></span>","k":"1cf0df9"},
+  {"i":"1ych94a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"항소법원은 직권조사사유에 관하여는 항소제기가 적법하다면 <span class=\"cs-red\"><strong>항소이유서 제출·포함 여부를 가릴 필요 없이 반드시 심판</strong></span>","k":"1u3tiyt"},
+  {"i":"krq7by","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>항소이유에 포함된 사유</strong></span><span class=\"cs-exam\">【모사24】</span>","k":"lyxr9z"},
+  {"i":"izjep9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"항소법원은 <span class=\"cs-red\"><strong>항소이유에 포함된 사유에 관하여 심판</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§364①)</strong></span></span>","k":"p03c4f"},
+  {"i":"3of1eu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>직권심판사항</strong></span><span class=\"cs-exam\">【모사24】</span>","k":"1tkqpli"},
+  {"i":"16md8af","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"항소법원은 <span class=\"cs-red\"><strong>'판결에 영향을 미친 사유'에 관하여는 항소이유서에 포함되지 아니한 경우에도 직권으로 심판 가능</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§364②)</strong></span></span>","k":"18negxz"},
+  {"i":"1fgnpku","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[직권심판 범위]</span> 사실오인만을 이유로 항소한 경우에 항소심이 직권으로 양형부당을 이유로 제1심판결을 파기하고 <span class=\"cs-red\"><strong>제1심 양형보다 가벼운 형을 정하여도 심판범위 법리오해 위법 X</strong></span><span class=\"cs-exam\">【변21】</span>","k":"d1ug6t"},
+  {"i":"a6zw6d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[피고인 이익 한정]</span> 사실오인·양형부당에 관한 직권심판은 <span class=\"cs-red\"><strong>피고인의 이익을 위한 경우에 한정되고, 검사를 위한 경우에는 인정 X</strong></span>","k":"1e3mdo9"},
+  {"i":"11rk20p","o":"<div class=\"cs-h\">","h":"Ⅲ. 항소심의 심리절차","k":"1n59p24"},
+  {"i":"10l292e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>항소심의 증거조사</strong></span>","k":"73pzj5"},
+  {"i":"1ryca7n","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"제1심 법원에서 증거로 할 수 있었던 증거는 항소법원에서도 증거로 할 수 있음<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§364③)</strong></span></span> → 다만 재판장은 증거조사절차에 앞서 <span class=\"cs-red\"><strong>제1심의 증거관계와 증거조사결과의 요지를 고지</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(규칙§156의5①)</strong></span></span><span class=\"cs-exam\">【변21】</span>","k":"1ryvtrm"},
+  {"i":"49irkc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"제1심에서 증거능력이 있었던 증거는 항소심에서도 그대로 유지되어 <span class=\"cs-red\"><strong>다시 증거조사를 할 필요 X</strong></span><span class=\"cs-exam\">【변21】</span>","k":"1l2djxe"},
+  {"i":"nx4zyy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[증인신문 제한]</span> 항소심은 ① 제1심에서 조사되지 아니한 데에 고의·중대한 과실이 없고 소송을 현저히 지연시키지 않는 경우 ② 새로운 중요한 증거 발견 등으로 다시 신문이 부득이한 경우 ③ 항소의 당부 판단을 위하여 반드시 필요한 경우에 <span class=\"cs-red\"><strong>'한하여' 증인을 신문</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(규칙§156의5②)</strong></span></span>","k":"bti2r3"},
+  {"i":"5cz6xa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>항소심의 피고인신문</strong></span>","k":"7v9vyk"},
+  {"i":"1qnyoiz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검사·변호인은 증거조사 종료 후 항소이유의 당부 판단에 필요한 사항에 한하여 피고인을 신문<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§370·§296의2)</strong></span></span>","k":"1n5ky2u"},
+  {"i":"11mamo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>변호인의 피고인신문권은 소송법상 권리이므로, 재판장이 중복·불필요를 이유로 신문의 전부·일부를 제한할 수 있으나 변호인의 본질적 권리를 해할 수는 없음 → 변호인이 신문 의사를 표시하였음에도 일체의 피고인신문을 허용하지 않은 것은 본질적 권리를 해하는 소송절차 법령위반</strong></span><span class=\"cs-exam\">【변24】</span>","k":"ofoexv"},
+  {"i":"17pqhfn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>항소심 2회 연속 불출석</strong></span>","k":"1gjst36"},
+  {"i":"25nfmy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[개정요건]</span> 항소심에서도 피고인의 출석 없이는 원칙적으로 개정 불가<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§370·§276)</strong></span></span>","k":"1slhvos"},
+  {"i":"1ir7qq3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[항소심 특례]</span> 피고인이 출정하지 아니하여 다시 기일을 정하고 <span class=\"cs-red\"><strong>정당한 사유 없이 다시 정한 기일에도 출정하지 아니한 때(2회 연속)에는 피고인의 진술 없이 판결 가능</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§365)</strong></span></span><span class=\"cs-exam\">【변24】</span>","k":"5idqbl"},
+  {"i":"9j7yjv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>항소심의 사실인정</strong></span><span class=\"cs-exam\">【변사25】</span>","k":"7ry6e7"},
+  {"i":"6j075t","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>항소심이 심증 형성에 영향을 미칠 객관적 사유가 새로 드러난 것이 없음에도 제1심판단을 재평가하여 사후심적으로 뒤집고자 할 때에는, 제1심의 증거가치 판단이 명백히 잘못되었거나 그 판단 유지가 현저히 부당하다고 볼 합리적 사정이 있어야 하고, 그러한 예외적 사정 없이 함부로 뒤집어서는 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"tfgxo1"},
+  {"i":"g27i8m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"특히 공소사실을 뒷받침하는 증거의 경우, 증인의 모습·태도를 직접 관찰한 제1심이 신빙성을 인정할 수 없다고 판단하였음에도 항소심이 뒤집어 신빙성을 인정하려면 <span class=\"cs-red\"><strong>제1심 판단을 수긍할 수 없는 충분하고도 납득할 만한 현저한 사정이 나타나야</strong></span>","k":"w6scvf"},
+  {"i":"1c1pgzr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>항소심의 양형판단</strong></span>","k":"6410x8"},
+  {"i":"1osxscm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"양형은 형법§51의 조건을 참작하여 <span class=\"cs-red\"><strong>합리적이고 적정한 범위 내에서 이루어지는 재량 판단</strong></span>이며 양형판단에 관하여도 제1심의 고유한 영역이 존재<span class=\"cs-exam\">【변19】</span>","k":"j6u8y"},
+  {"i":"1w8ynha","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[사후심적 성격]</span> 양형 조건에 변화가 없고 제1심 양형이 재량의 합리적 범위를 벗어나지 아니하면 이를 존중함이 타당 → <span class=\"cs-red\"><strong>제1심과 별로 차이 없는 형을 선고하는 것은 자제함이 바람직</strong></span>","k":"zrbb9"},
+  {"i":"14z0l6y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[속심적 성격]</span> 항소심은 고유의 양형재량을 가지므로 양형부당을 이유로 파기하는 것이 바람직하지 않더라도 <span class=\"cs-red\"><strong>양형심리·판단 방법이 위법하다고까지 할 수는 없음</strong></span> → 다만 제1심 양형이 재량의 합리적 한계를 벗어났거나 새 자료로 유지가 부당하면 파기","k":"1x06i2a"},
+  {"i":"10ud8u8","o":"<div class=\"cs-h\">","h":"Ⅳ. 항소심의 재판","k":"9zzkyp"},
+  {"i":"1tnj0nr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>파기자판원칙</strong></span>","k":"k3c968"},
+  {"i":"o547sf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[파기 자판]</span> 항소이유가 있다고 인정한 때에는 원심판결을 파기하고 다시 판결<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§364⑥)</strong></span></span>","k":"1fvjw95"},
+  {"i":"1s32ilh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[파기 환송]</span> 공소기각·관할위반의 재판이 법률에 위반됨을 이유로 파기하는 때에는 판결로써 <span class=\"cs-red\"><strong>사건을 원심법원에 환송</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§366)</strong></span></span>","k":"19xbz19"},
+  {"i":"wpv5g6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[파기 이송]</span> 관할인정이 법률에 위반됨을 이유로 파기하는 때에는 관할법원에 이송, 단 항소법원이 제1심 관할권이 있으면 제1심으로 심판<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§367)</strong></span></span>","k":"1axh4wi"},
+  {"i":"gwrdc1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[함정수사 공소기각]</span> 제1심의 공소기각 판결(함정수사 §327제2호)이 법률에 위반된다고 판단한 이상 본안 심리할 것이 아니라 <span class=\"cs-red\"><strong>제1심판결을 파기하고 사건을 제1심 법원에 환송</strong></span>(파기 자판은 위법)","k":"prgwsz"},
+  {"i":"1306pw7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[필요적 변호 위반]</span> 필요적 변호사건에서 제1심이 변호인 없이 이루어진 경우 <span class=\"cs-red\"><strong>소송행위를 새로이 한 후 제1심판결을 파기하고 다시 판결</strong></span>(환송 X)<span class=\"cs-exam\">【모사23】</span>","k":"7pn3g4"},
+  {"i":"1tlk6mw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[국민참여재판 위반]</span> 제1심에서 국민참여재판으로 진행하지 않은 위법이 있으면 제1심판결을 파기하고 <span class=\"cs-red\"><strong>사건을 제1심 법원으로 환송</strong></span>(자판 X)<span class=\"cs-exam\">【모사23】</span>","k":"1h73ynp"},
+  {"i":"1uewcyw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[공소장변경 경미]</span> 항소심 공소장변경이 단순 오기 정정·기존 공소사실 보충·상세 설명 정도에 불과하여 심판대상이 제1심과 실질적으로 달라졌다고 평가되지 않으면 <span class=\"cs-green\"><strong>공소장변경을 거쳤다는 이유로 반드시 제1심판결을 직권 파기할 필요 X</strong></span>","k":"434dwx"},
+  {"i":"1c0ptrz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>공통파기</strong></span>","k":"b28jo9"},
+  {"i":"11dvtjw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"피고인을 위하여 원심판결을 파기하는 경우 파기의 이유가 <span class=\"cs-red\"><strong>항소한 공동피고인에게 공통되는 때에는 그 공동피고인에 대하여도 원심판결을 파기</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§364의2)</strong></span></span>(공동피고인 상호간 재판의 공평)","k":"p74rs8"},
+  {"i":"1avfcl2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[동일 소송절차 한정]</span> 파기 이유가 공통되는 범죄사실이 <span class=\"cs-red\"><strong>동일한 소송절차에서 병합심리된 경우에만 적용</strong></span>","k":"1lixgv"},
+  {"i":"1f4zgwg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[검사만 항소한 경우 O]</span> '항소한 공동피고인'은 제1심 공동피고인이 항소한 경우는 물론 <span class=\"cs-red\"><strong>그에 대하여 검사만 항소한 경우까지 포함</strong></span>","k":"npmo08"},
+  {"i":"mculyv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>재판서의 기재방식</strong></span>","k":"16i4o51"},
+  {"i":"1vkc7is","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"항소법원의 재판서에는 항소이유에 대한 판단을 기재하며 원심판결에 기재한 사실·증거를 인용할 수 있음<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§369)</strong></span></span>","k":"kpzll"},
+  {"i":"1gvg5te","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[일방 상소기각]</span> 쌍방이 상소한 경우 어느 일방의 상소는 이유 없으나 다른 일방의 상소가 이유 있어 원판결을 파기·자판하는 때에는 <span class=\"cs-red\"><strong>이유 없는 상소는 판결이유 중에 그 이유가 없다는 점을 적으면 충분하고 주문에서 기각해야 하는 것은 아님</strong></span><span class=\"cs-exam\">【변21】</span>","k":"5ujzw7"}
+ ]}
+]}

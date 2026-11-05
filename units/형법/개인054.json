@@ -1,0 +1,16 @@
+{"id":"개인054","t":"불법원인급여와 횡령죄","cat":"gak_횡령배임","lv":1,"tg":["변사25","변사21","모사25","모사22","모사17","모사14","변기12"],"b":[
+ {"i":"1nz2smr","o":"<div class=\"cs-h\">","h":"Ⅰ. 불법원인급여물에 대한 횡령죄 성립여부<span class=\"cs-exam\">【변사25·21, 모사25·22·17·14, 변기12】</span>","k":"sopjhp"},
+ {"i":"1tywfx0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\">《불법원인급여물을 임의소비한 경우 횡령죄 성립 여부》</span>","k":"1yartn9"},
+ {"i":"grfau4","o":"<div class=\"cs-theory\">","b":[
+  {"i":"1euvt2o","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①긍정설(형법 독자성 강조, 반환청구권 없어도 횡령 인정)","k":"ffl24c"},
+  {"i":"14u1act","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"②부정설(소유권 수급자 귀속 → 타인성 부정 → 횡령 불성립)","k":"hiu5co"},
+  {"i":"13o0i22","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"③절충설(급여/위탁 구별, 위탁의 경우에만 횡령)","k":"sp78ws"},
+  {"i":"17pufso","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-fact-tag\">[원칙]</span> 뇌물공여·배임증재 목적 전달 교부 금전은 민법 <span class=\"cs-blue\"><span class=\"cs-u\">§746</span></span> 불법원인급여물 → '소유권 상대방 귀속', 전달 않고 임의소비해도 횡령죄<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변26·19·14·12】</span>","k":"1jaguac"},
+  {"i":"qe8w2e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[예외]</span> 포주-윤락녀 화대 분배약정 보관 중 임의소비 시 포주 불법성이 윤락녀보다 현저히 커 소유권 여전히 윤락녀 잔존 → 포주 횡령죄<span class=\"cs-o\"><strong>(O)</strong></span> <span class=\"cs-fact-tag\">[민법 </span><span class=\"cs-blue\"><span class=\"cs-u\">§746</span></span><span class=\"cs-fact-tag\"> 단서]</span><span class=\"cs-exam\">【변19】</span>","k":"k1cyya"},
+  {"i":"1d4k0yx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 급여자·수익자 불법성 정도에 따라 개별사안 구체 검토하는 판례 타당","k":"1jctjuo"}
+ ]},
+ {"i":"15nyuku","o":"<div class=\"cs-h\">","h":"Ⅱ. 구체적 판례","k":"16prjhf"},
+ {"i":"1fy2uc9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+ {"i":"h4jgqf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[범죄수익 수표교환]</span> 유사수신 사기수익인 정 알고 수표 현금교환 대가 약정은 범죄수익은닉규제법상 반사회성 현저 → 교부수표 불법원인급여물, 소유권 피고인 귀속 → 미교환 수표·이미 교환한 현금 임의소비해도 <span class=\"cs-green\"><strong>횡령죄<span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변26】</span>","k":"s5deu5"},
+ {"i":"1vsttax","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[기부금 보관]</span> 병원 대신 제약회사서 의약품 매출비례 기부금 명목 금원 받아 병원 위해 보관한 것뿐이면 불법원인급여 아님 → 임의소비 시 <span class=\"cs-red\"><strong>횡령죄<span class=\"cs-o\"><strong>(O)</strong></span></strong></span>","k":"1yucyrj"}
+]}

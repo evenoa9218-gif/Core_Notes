@@ -1,0 +1,35 @@
+{"id":"형소087","t":"엄격한 증명과 자유로운 증명","cat":"pro_12","lv":1,"tg":["下"],"b":[
+ {"i":"3swuf8","o":"<details class=\"cs-case\">","b":[
+  {"i":"1mjnsxb","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 상대적 친고죄 변론종결 후 합의서 제출과 변론재개 요부</strong></span> <span class=\"cs-exam\">【변사26】</span>","k":"xw4mea"},
+  {"i":"brxbxu","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1sq2qm0","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1lmfi9s","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1wu2jm4","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲(17세)이 이종사촌인 유명 아이돌 丁의 무대의상을 탐내 초등학생 A(10세)에게 절취 교사 → 丁이 A를 적법하게 고소, 검사가 甲을 절도교사죄로 기소 → 제1심 변론종결 후 丁이 \"피해가 회복되었으므로 甲에 대한 처벌을 원하지 않는다\"라는 합의서를 제출. 법원은 변론을 재개하여 이에 대한 증거조사를 하여야 하는가? [제한적 종속형식 전제, 절도교사죄에 한정] (5점)","k":"1abk52c"}
+    ]}
+   ]},
+   {"i":"wuqsv3","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"wtgzba","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"cvv1y8","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [자유로운 증명의 대상]</strong> ① 상대적 친고죄에서 적법한 고소가 있었는지는 자유로운 증명의 대상 → 증거능력 없는 증거나 법정 증거조사방법을 거치지 아니한 증거에 의한 증명도 가능 ② 丁은 제1심판결선고 전(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§232①</strong></span></span>)에 합의서를 제출하여 적법하게 고소취소","k":"gh9op3"},
+    {"i":"11ywbb4","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [변론재개 및 증거조사의 필요성]</strong> 고소취소 여부는 자유로운 증명의 대상 → 제1심 법원은 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§305</strong></span></span>에 따른 변론재개 없이 합의서 등 소송기록을 종합하여 판단할 수 있고, 반드시 변론을 재개해야 하는 것은 X","k":"da8l38"}
+   ]}
+  ]}
+ ]},
+ {"i":"16yxe8t","o":"<div class=\"cs-callout\">","b":[
+  {"i":"2kspmi","o":"<div class=\"cs-h\">","h":"Ⅰ. 엄격한 증명","k":"av4yyq"},
+  {"i":"3idicg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>① 공소 제기된 범죄사실에 대한 증명책임은 검사에게 있고 ② 유죄의 인정은 합리적인 의심을 할 여지가 없을 정도로 공소사실이 진실하다는 확신을 가지게 하는 증명력을 가진 '엄격한 증거'에 의하여야</strong></span>","k":"1vnugvv"},
+  {"i":"1jyakv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[엄격한 증명] '증거능력이 있고 적법한 증거조사'를 거친 증거에 의한 증명</strong></span> — 형벌권의 존부와 범위에 관한 것으로 <span class=\"cs-red\"><strong>범죄사실, 형의 가중감면사유인 사실, 상습범·누범 전과</strong></span> 등이 해당","k":"1gpbj8q"},
+  {"i":"1is61lr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[범죄사실 – 엄격한 증명]</span> ① 공모관계<span class=\"cs-exam\">【변21】</span> ② 명예훼손죄의 공연성(전파가능성)<span class=\"cs-exam\">【변22】</span> ③ 명예훼손죄의 '허위성' ④ 사문서위조죄의 '행사할 목적'<span class=\"cs-exam\">【변16】</span> ⑤ 횡령죄의 불법영득의사 ⑥ 횡령죄에서 피해자 등이 목적·용도를 정하여 금전을 위탁한 사실 및 그 목적·용도<span class=\"cs-exam\">【변23】</span> ⑦ 성폭법위반(13세미만미성년자강간)죄에서 피고인이 피해자가 13세 미만임을 알면서 강간하였다는 사실","k":"677uv5"},
+  {"i":"d0rl06","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[위법성조각사유·책임조각사유]</span> 피고인이 주장하는 때에는 <span class=\"cs-red\"><strong>검사가 그 부존재를 엄격한 증명으로 증명하여야</strong></span> — (형법§310은 예외)<span class=\"cs-exam\">【변20】</span>","k":"uunegy"},
+  {"i":"vh6vwe","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[과학공식 등 경험칙 적용의 전제사실]</span> 범죄구성요건사실의 존부를 알아내기 위해 과학공식 등의 경험칙을 이용하는 경우 그 <span class=\"cs-red\"><strong>법칙 적용의 전제가 되는 개별적·구체적 사실</strong></span>에 대하여는 엄격한 증명 — (위드마크 공식 적용의 전제인 알코올의 양·음주 시각 등)","k":"1ooarkr"},
+  {"i":"1nxelk3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[형법§6 단서 – 행위지 법률에 의하여 범죄를 구성하는지]</span> <span class=\"cs-red\"><strong>엄격한 증명에 의하여 검사가 증명하여야</strong></span>","k":"1xyut2d"},
+  {"i":"46zsph","o":"<div class=\"cs-h\">","h":"Ⅱ. 자유로운 증명","k":"1eb0xu2"},
+  {"i":"1inaifm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[자유로운 증명] 증거능력이나 적법한 증거조사를 요하지 않는 증거에 의한 증명</strong></span> — <span class=\"cs-red\"><strong>소송법적 사실이나 정상관계인 사실</strong></span>의 증명","k":"1hnwvr1"},
+  {"i":"6jt6s5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[소송조건의 존부]</span> ① 친고죄의 고소 ② 반의사불벌죄에서 처벌불원의사의 부존재 ③ 전속고발 사건의 고발의 존부(출입국사범·조세범)<span class=\"cs-exam\">【변13】</span>","k":"oos4x"},
+  {"i":"14u5k0w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[증거능력 요건]</span> 특신상태·진술의 임의성","k":"4flzvw"},
+  {"i":"1i3ldl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[정상관계사실]</span> 양형의 조건, 누범·상습범 이외 정상관계인 전과","k":"ql3juc"},
+  {"i":"12f51k6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[몰수·추징]</span> 몰수·추징의 대상이 되는지 여부나 추징액의 인정 등은 범죄구성요건사실에 관한 것이 아니어서 <span class=\"cs-green\"><strong>엄격한 증명 불요</strong></span>","k":"1iekov1"},
+  {"i":"1k6ojbm","o":"<div class=\"cs-h\">","h":"Ⅲ. 증명의 정도","k":"gddeuw"},
+  {"i":"1ki5r6f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"엄격한 증명과 자유로운 증명은 <span class=\"cs-green\"><strong>심증형성의 정도에 차이가 있는 것이 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"frluhe"},
+  {"i":"w5xds1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[고도의 증명] ① 유죄로 인정하기 위한 심증형성의 정도는 합리적인 의심을 할 여지가 없을 정도여야 하나 모든 가능한 의심을 배제할 정도까지 요구하는 것은 <span class=\"cs-x\"><strong>(X)</strong></span> ② '합리적 의심'이란 논리와 경험칙에 기하여 요증사실과 양립할 수 없는 사실의 개연성에 대한 합리성 있는 의문을 의미하고, 단순히 관념적인 의심이나 추상적인 가능성에 기초한 의심은 합리적 의심에 포함되지 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변17】</span>","k":"1vhora7"}
+ ]}
+]}

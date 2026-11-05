@@ -1,0 +1,64 @@
+{"id":"형소015","t":"소송행위와 소송조건","cat":"pro_02","lv":1,"tg":["B급","下"],"b":[
+ {"i":"11lph0v","o":"<details class=\"cs-case\">","b":[
+  {"i":"i35qio","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(1)] 사촌동생 임차인 도어락 변경·고소추완</strong></span> <span class=\"cs-exam\">【변사25】</span>","k":"1qfvgfa"},
+  {"i":"1j09al5","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"uojn83","o":"<div class=\"cs-fact\">","b":[
+    {"i":"11qtyuj","o":"<div class=\"cs-callout\">","b":[
+     {"i":"10lucor","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲이 단독 소유 빌라에 거주하는 사촌동생 임차인 C와 갈등하자 C를 쪾아내려 현관 도어락 비밀번호 변경 → 검사가 C의 고소 없이 甲을 권리행사방해죄로 기소 → 이후 고소기간 내에 C가 고소장을 제1심에 제출. 법원의 판단은? (8점)","k":"p44rzs"}
+    ]}
+   ]},
+   {"i":"j500dw","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1ifhdm5","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1ilk7km","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [상대적 친고죄]</strong> 甲·C = 비동거 4촌 혈족 → 권리행사방해죄는 상대적 친고죄","k":"q1q3vi"},
+    {"i":"6f2x4a","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [고소추완 허용여부]</strong>","k":"1ycq3s1"},
+    {"i":"lnqm11","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 친고죄 고소 없이 공소제기 후 고소추완 허용 가부 — 긍정설, 부정설, 절충설. 판례: 부정설","k":"1o83rom"},
+    {"i":"xi6nwe","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 공소제기 절차의 형식적 확실성 → 부정설 타당","k":"ync4wq"},
+    {"i":"26vel9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ ∴제1심은 공소기각판결(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§327제2호</strong></span></span>)","k":"17fxwu4"}
+   ]}
+  ]}
+ ]},
+ {"i":"6rcsy6","o":"<details class=\"cs-case\">","b":[
+  {"i":"469mr2","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(2)] 폭행치상 → 항소심 폭행죄 공소장변경·처벌불원 (각 10점)</strong></span> <span class=\"cs-exam\">【변사18】</span>","k":"1k76ah5"},
+  {"i":"d4rhdk","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1tu3xrm","o":"<div class=\"cs-fact\">","b":[
+    {"i":"nqgzey","o":"<div class=\"cs-callout\">","b":[
+     {"i":"em9mbe","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲이 A에 대한 폭행치상으로 제1심 유죄선고 후 항소 → 검사가 상해 불인정 판단하고 항소심 계속 중 폭행죄로 공소장변경허가신청. (1) 법원은 허가해야 하는가? (10점) (2) 허가 후 A가 처벌불원 합의서를 제출한 경우 항소심의 판단은? (10점)","k":"11hdnco"}
+    ]}
+   ]},
+   {"i":"5kmkr9","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"godo7g","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"d6r5he","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [항소심에서의 공소장변경]</strong>","k":"zrewa3"},
+    {"i":"1p6w676","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"(가) [가능여부] ① 긍정설(원칙적 속심), 부정설(원칙적 사후심), 절충설(원칙적 사후심이나 파기·자판시 허용) ② 판례: 사후심적 성격이 가미된 속심 → 공소장변경 가능(긍정설) ③ 원칙적 속심 → 긍정설 타당","k":"88a4xt"},
+    {"i":"16laa58","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"(나) [공소사실 동일성] 폭행치상·폭행 = 기본적 사실관계 동일 + 규범적으로도 동일(판례)","k":"lulw1q"},
+    {"i":"1fqf14d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"(다) [허가의무] 공소장변경허가신청 → 법원 허가하여야(판례 의무설)","k":"1835n0o"},
+    {"i":"t0t56k","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [처벌불원의사의 효력 여부]</strong>","k":"1jqu8fl"},
+    {"i":"14o1pg8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 처벌희망 의사표시 철회 = 제1심판결 선고 전까지(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§232③①</strong></span></span>)","k":"1yejt4r"},
+    {"i":"1id8epf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 항소심에서 반의사불벌죄(폭행죄)로 변경 후 비로소 처벌불원 → 효력 긍정설, 부정설. 판례: 부정설. 항소심 ≠ 제1심 + 일반범죄 공소사실에 반의사불벌죄 공소사실 포함 → 효력 X(부정설 타당)","k":"f9b905"},
+    {"i":"apu9ns","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ A의 항소심 합의서 제출 → 처벌불원의사 효력 X","k":"qk2qp"},
+    {"i":"tlnntv","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> ∴유·무죄 실체판결","k":"19kamma"}
+   ]}
+  ]}
+ ]},
+ {"i":"us0o45","o":"<div class=\"cs-callout\">","b":[
+  {"i":"157ibjm","o":"<div class=\"cs-h\">","h":"Ⅰ. 소송조건 일반(공소제기의 유효요건)","k":"aed0si"},
+  {"i":"1eax8pk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>소송조건 일반</strong></span>","k":"1nzoiko"},
+  {"i":"fnc7zu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[직권조사사항] 소송요건의 존부 등은 공소장에 기재되지 않았거나 공소장변경이 없더라도 반드시 심판</strong></span>","k":"1obgt4a"},
+  {"i":"tlg4kb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"증명정도 : <span class=\"cs-red\"><strong>자유로운 증명</strong></span>으로 족하나 합리적 의심을 배제할 정도의 확신(고도의 증명)을 요하고, 증명책임은 <span class=\"cs-red\"><strong>검사</strong></span>가 부담","k":"1714yrn"},
+  {"i":"11fymup","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>소송조건의 흠결</strong></span>","k":"1pxgrfo"},
+  {"i":"1s86ge0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[신호위반이 없음이 밝혀지고 자동차종합보험에 가입된 경우]</span> 피고인에게 과실이 없다는 점이 입증되어도 무죄가 아니라 <span class=\"cs-red\"><strong>소송조건의 흠결을 이유로 공소기각판결</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§327제2호)</strong></span></span><span class=\"cs-exam\">【변22】</span>","k":"syidgh"},
+  {"i":"1qlgwb8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"예외 : <span class=\"cs-gbg\">[사건의 실체에 관한 심리가 이미 완료되어 교특법상 단서 사유가 없는 것으로 판명된 경우]</span> 처벌불원·종합보험특례 사유가 있더라도 법원이 피고인의 이익을 위해 <span class=\"cs-green\"><strong>무죄의 실체판결을 선고해도 위법 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변12】</span>","k":"17npz5l"},
+  {"i":"1xf9sjq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>형식재판 우선의 원칙</strong></span>","k":"1h0cv00"},
+  {"i":"149owdn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"우선순위 : 공소기각결정 &gt; 공소기각판결 &gt; 관할위반판결 &gt; 면소","k":"1ruvxfc"},
+  {"i":"1akex53","o":"<div class=\"cs-h\">","h":"Ⅱ. 무효인 소송행위의 치유와 추완","k":"fuwsam"},
+  {"i":"1isxtvl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[치유] = 무효인 소송행위를 한 자의 추후 보완행위 없이도 상대방의 책문권 포기 등 일정한 사유가 발생하면 효력을 인정하는 것</strong></span>","k":"7j9kxu"},
+  {"i":"sab863","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[동일성이 인정되는 범위에서 친고죄↔비친고죄 간 공소장변경이 허용되는 경우]</span> 공소제기의 흠 <span class=\"cs-red\"><strong>치유 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span> — 친고죄로 기소 후 고소가 취소되어도 비친고죄로 공소장변경이 허용되면 심리·판단 <span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변25】</span>","k":"1pwsb6b"},
+  {"i":"hbzvg1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[반의사불벌죄 — 협박죄로 고소 후 처벌불원의사, 검사 기소 후 항소심에서 공갈미수죄로 공소장변경]</span> 동일하게 치유 <span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변25·18·15】</span>","k":"7rx1wm"},
+  {"i":"1hla4e3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《친고죄에서 고소 없이 공소제기된 후 [고소추완]이 허용되는지 여부》</strong></span><span class=\"cs-exam\">【변사25, 변기23·15】</span>","k":"xg8xzc"},
+  {"i":"jbdv5h","o":"<div class=\"cs-theory\">","b":[
+   {"i":"qsvqie","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 긍정설 ② <span class=\"cs-green\"><strong>부정설</strong></span> ③ 절충설","k":"uulea1"},
+   {"i":"tbz6im","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 부정설] 공소제기 후 고소추완은 허용되지 않으므로 공소기각판결</strong></span><span class=\"cs-exam\">【변17】</span>","k":"ulcyb0"},
+   {"i":"tzn5xp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: 공소제기 절차의 형식적 확실성 확보 필요 → <span class=\"cs-green\"><strong>부정설 타당</strong></span>","k":"adollc"}
+  ]},
+  {"i":"fnmtjz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[고발전치사건에서 세무공무원의 고발 없이 기소된 후 고발]</span> 치유 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"qygasl"}
+ ]}
+]}

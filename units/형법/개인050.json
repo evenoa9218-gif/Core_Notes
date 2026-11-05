@@ -1,0 +1,29 @@
+{"id":"개인050","t":"컴퓨터등사용사기죄","cat":"gak_사기공갈","lv":1,"tg":["변기20","모사15","모기22"],"b":[
+ {"i":"1qnypgr","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1dudvd1","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제347조의2(컴퓨터등 사용사기)</strong></span>","k":"q869ee"},
+  {"i":"qp96fs","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"컴퓨터등 정보처리장치에 <span class=\"cs-u\"><strong>허위의 정보 또는 부정한 명령을 입력하거나 권한 없이 정보를 입력·변경</strong></span>하여 <span class=\"cs-u\"><strong>정보처리를 하게 함으로써 재산상의 이익을 취득하거나 제3자로 하여금 취득</strong></span>하게 한 자는 <span class=\"cs-red\">20년 이하의 <strong>징역</strong></span> 또는 <span class=\"cs-red\">5천만원 이하의 <strong>벌금</strong></span>에 처한다.","k":"15io2qi"}
+ ]},
+ {"i":"1rt89lx","o":"<div class=\"cs-h\">","h":"Ⅰ. 허위의 정보 또는 부정한 명령을 입력하거나 권한 없이 정보를 입력·변경","k":"1kyicoe"},
+ {"i":"1jiil2q","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+ {"i":"yxinj4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[프로그램 오류 이용]</span> 전자복권시스템 환불명령·구매명령 반복해 오류로 가상현금 입금 → '허위정보 입력'은 아니어도 프로그램 오류를 적극 이용해 정당하지 않은 사무처리 → '부정한 명령의 입력'<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변16】</span>","k":"11twczu"},
+ {"i":"7gu7wf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[통화·접속버튼]</span> 휴대전화 통화·인터넷 접속버튼만 누른 것은 정보·명령 입력·정보처리 X → 컴사기<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【모사15】</span>","k":"12gxe49"},
+ {"i":"150p7iv","o":"<div class=\"cs-h\">","h":"Ⅱ. 정보처리를 하게 함으로써 재산상의 이익을 취득하거나 제3자로 하여금 취득","k":"wjy1mg"},
+ {"i":"1rzxfe8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>'정보처리'</strong></span> = <span class=\"cs-u\">사기죄의 처분행위에 상응</span> → 허위정보 등으로 계산·데이터 처리되어 직접 재산처분 결과 초래해야 하고, 이익취득은 사람 처분행위 개재 없이 컴퓨터 정보처리 과정서 이루어져야","k":"1eu05m2"},
+ {"i":"1pjs23i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+ {"i":"1fip3gy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[타인 명의 카드번호·비번 입력 결제·대출]</span> 가맹점·대출금융기관에 대한 컴사기죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1ydk41v"},
+ {"i":"dk03g1","o":"<div class=\"cs-h\">","h":"Ⅲ. 권한 없이 자기 계좌로 이체한 후 인출한 경우","k":"ogi7de"},
+ {"i":"1um8m2a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>이체행위</strong></span>","k":"nfa0vc"},
+ {"i":"ai5ygu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+ {"i":"1la2lfw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[무단 인터넷뱅킹 이체]</span> 권한 없이 타인 계좌서 자기 계좌로 이체 → 컴사기죄<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변16】</span>","k":"1dph3gw"},
+ {"i":"1c7brt6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[절취 신용카드로 계좌이체]</span> 컴사기죄 해당은 별론, 절취행위로는 볼 수 없음<span class=\"cs-exam\">【변21】</span>","k":"nvgjiu"},
+ {"i":"1pm2la9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>인출한 행위와 제3자의 장물취득죄</strong></span>","k":"17d5kxr"},
+ {"i":"7o71oa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+ {"i":"1d4ro4d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[무단 계좌이체로 취득한 예금채권]</span> 재물 아닌 재산상 이익 → 자기 계좌서 인출해도 장물 예치·인출로 볼 수 없음","k":"132yh04"},
+ {"i":"vkrdxn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-neg-tag\">[인출 현금]</span> 자기 현금카드 사용권한자의 정당 사용, 지급기 관리자 의사에 반하지 않고 기망·처분행위 없음 → 절도·사기 구성요건 X → 인출 현금은 재산범죄로 취득한 재물 아니어서 장물<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변24·22·20·19·18·17·16·14, 모기22】</span>","k":"1w4e5dl"},
+ {"i":"hl43sv","o":"<div class=\"cs-h\">","h":"Ⅳ. 기수시기","k":"21yay4"},
+ {"i":"1gr9wf5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+ {"i":"1js0b87","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[허위정보 입금완료 시]</span> 금융기관 직원이 전산단말기로 특정계좌에 입금된 것처럼 허위정보 입력 → 입금절차 완료로 장차 인출 가능한 재산상 이익 취득 → 기수 이후 입금 취소·미인출되어도 영향 X<span class=\"cs-exam\">【변24·12】</span>","k":"1rkwsbx"},
+ {"i":"2nq49q","o":"<div class=\"cs-h\">","h":"Ⅴ. 친족상도례","k":"16j5k7"},
+ {"i":"13veeq1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+ {"i":"18wx9x1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[조부 예금통장 절취한 손자가 지급기 조작해 자기 계좌로 이체]</span> 피해자는 이중지급 위험에 처하는 친척 거래 금융기관 → 친족상도례 적용<span class=\"cs-x\"><strong>(X)</strong></span> <span class=\"cs-fact-tag\">[컴사기죄]</span><span class=\"cs-exam\">【변24, 모사25, 변기20】</span>","k":"1uoiw"}
+]}

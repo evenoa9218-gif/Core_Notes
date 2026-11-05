@@ -1,0 +1,10 @@
+{"id":"국가010","t":"알선뇌물수수(요구·약속)죄","cat":"gak_국가공무원","lv":1,"tg":[],"b":[
+ {"i":"4p5oue","o":"<div class=\"cs-callout\">","b":[
+  {"i":"14sec6o","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제132조(알선수뢰)</strong></span> 공무원이 <span class=\"cs-u\">그 지위를 이용하여</span> 다른 공무원의 직무에 속한 사항의 <span class=\"cs-blue\"><strong>알선</strong></span>에 관하여 뇌물을 수수, 요구 또는 약속한 때에는 <span class=\"cs-red\">3년 이하의 <strong>징역</strong></span> 또는 <span class=\"cs-red\">7년 이하의 <strong>자격정지</strong></span>에 처한다.","k":"gbgzu2"}
+ ]},
+ {"i":"1uctm5w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例):","k":"i19r89"},
+ {"i":"j2666f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>['지위를 이용하여']</strong></span> 친구·친족 등 사적 관계 이용 or 단순 공무원 신분 이용은 해당 X, 다른 공무원 업무처리에 법률상·사실상 영향 줄 수 있는 공무원이 지위 이용하면 해당<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변16】</span>","k":"bx01k6"},
+ {"i":"eqvim3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>['지위 이용'의 범위]</strong></span> 다른 공무원 사무처리에 영향 줄 관계면 족, 반드시 상하·협동·감독 등 특수 지위 요 X","k":"1wfwzoq"},
+ {"i":"12lggw6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>['알선행위']</strong></span> 그 공무원 직무에 속하는 사항에 관한 것이면 족, 반드시 부정행위이거나 결재·최종결정권한 있어야 하는 것 X","k":"1lik4kw"},
+ {"i":"1gtkjig","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>[특정 요부·기대감]</strong></span> ①알선 상대방·직무내용 구체적 특정 필요까지는 X ②알선행위 장래의 것도 무방·현안 존재 불요하나, 뇌물수수 명목이 그 사항 알선 관련됨이 어느 정도 구체적으로 나타나야 함 ③단순히 잘 보이면 도움·손해 없으리란 막연한 기대감 정도에 불과하면 <span class=\"cs-green\"><strong>알선뇌물수수죄 성립<span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변22】</span>","k":"dn09po"}
+]}

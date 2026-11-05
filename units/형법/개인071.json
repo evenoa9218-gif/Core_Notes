@@ -1,0 +1,21 @@
+{"id":"개인071","t":"장물을 절도·강도·공갈·사기로 취득한 경우","cat":"gak_기타재산","lv":1,"tg":["모사20"],"b":[
+ {"i":"11emqpj","o":"<div class=\"cs-h\">","h":"Ⅰ. 장물죄의 본질","k":"z0i6e6"},
+ {"i":"19poefr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\">《장물죄의 본질》</span>","k":"pplepd"},
+ {"i":"1nu3z6j","o":"<div class=\"cs-theory\">","b":[
+  {"i":"1yxglzm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①추구권설(피해자 반환청구권 행사 곤란케 함) ②위법상태유지설(본범 위법 재산상태를 본범·점유자와 합의 아래 유지·존속) ③결합설(양자 결합)","k":"16jezh5"},
+  {"i":"2yp0iy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-glabel\">[결합설]</span> 결합설 입장으로 평가","k":"1l5v1mo"},
+  {"i":"1wtcw7m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 양자 모두에서 본질 파악하는 결합설 타당","k":"1gcg8ij"}
+ ]},
+ {"i":"1ud1tp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용범위: <span class=\"cs-fact-tag\">[불법원인급여물]</span> ①추구권설: 반환청구권 없으므로 장물 X ②유지설: 사법상 추구권과 무관하게 장물성 긍정","k":"19igqsy"},
+ {"i":"s1yvah","o":"<div class=\"cs-h\">","h":"Ⅱ. 장물을 절도·강도·공갈·사기로 취득한 경우","k":"ha2sbo"},
+ {"i":"1gh4pkd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\">《장물을 절도·강도·공갈·사기로 취득 시 장물취득죄 성립 여부》</span>","k":"tjr3f3"},
+ {"i":"1qnbknz","o":"<div class=\"cs-theory\">","b":[
+  {"i":"wmiqcw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①긍정설(추구권설, 반환청구권 행사 곤란케 함) ②부정설(유지설·결합설, 본범과 합의 없음)","k":"1mhyjdr"},
+  {"i":"1rbmh0m","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-glabel\">[부정설]</span> 타인 갈취 재물(장물)을 그 타인 의사에 반해 '절취' → <span class=\"cs-red\"><strong>절도죄</strong></span>만 성립, 장물취득죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"e5eadf"},
+  {"i":"rgpwuw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 유지설·결합설 입장에서 부정설 타당","k":"1qs3fpx"}
+ ]},
+ {"i":"145oldv","o":"<div class=\"cs-h\">","h":"Ⅲ. 자기의 소유물인 장물을 돌려받은 경우<span class=\"cs-exam\">【모사20】</span>","k":"1m0fmd9"},
+ {"i":"o2acwa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-u\">피해자가 본범·점유자로부터 장물 돌려받는 경우,</span> 장물이나 자기 재물 회수 → 추구권 곤란케 X·위법상태 유지 X → 장물취득죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1gp8f1e"},
+ {"i":"4y3rh3","o":"<div class=\"cs-h\">","h":"Ⅳ. 변제를 독촉(공갈)하고 단순히 장물임을 알면서 받은 경우","k":"ziz0vr"},
+ {"i":"1xbhd0w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-u\">장물 자체를 갈취·절취한 것 아니라</span> 변제 독촉(공갈)하고 단순 장물 정 알면서 변제받은 경우 → 장물취득죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1bwp5yu"}
+]}

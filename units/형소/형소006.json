@@ -1,0 +1,54 @@
+{"id":"형소006","t":"기피와 회피","cat":"pro_01","lv":1,"tg":["下","사법16"],"b":[
+ {"i":"1t9l899","o":"<details class=\"cs-case\">","b":[
+  {"i":"yh6kvn","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 변론종결 후 기피신청·소송절차 정지</strong></span> <span class=\"cs-exam\">【사법16】</span>","k":"aoh2yf"},
+  {"i":"a1ob23","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"18o0xgx","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1ughzyh","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1v862x3","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"항소심에서 甲은 제1심 법원이 증인으로 채택하지 않은 甲측 증인 A에 대해 다시 증인신청을 하였으나 항소심 법원도 甲의 신청을 기각하였다. 이후에도 甲의 신청에 의해 몇 차례 공판기일이 변경·연기되었지만, 항소심 법원은 수차례 공판기일을 열어 심리를 다하고 변론을 종결하였다. 그 후 甲은 A에 대한 증인신청 기각결정이 부당하다는 이유로 항소심 법관들에 대해 기피신청서를 제출하였다. 그러나 항소심 법원은 소송진행을 정지하지 않고 甲의 기피신청에 대해 기각결정을 한 후 판결을 선고하였다. 항소심 법원이 소송진행을 정지하지 않고 기각결정을 한 것은 적법한가? (10점)","k":"17cs59i"}
+    ]}
+   ]},
+   {"i":"j6hw5y","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"4r9d5b","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"hpwy0c","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [소송지연 목적]</strong>","k":"17zeina"},
+    {"i":"13hd4lb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"소송지연을 목적으로 함이 명백한 경우에 해당(판례) → 소명자료 제출을 기다리지 않고 <span class=\"cs-red\"><strong>간이기각</strong></span> 가능 → 소송절차를 정지하지 않고 판결을 선고하더라도 위법 X<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§22, §20①)</strong></span></span>","k":"1qlzrly"},
+    {"i":"dzvy71","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [본안의 소송절차]</strong>","k":"11596c5"},
+    {"i":"1teq1yg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"甲은 변론종결 후 기피신청서 제출 → 판결 선고는 정지되는 본안의 소송절차에 포함 X → 소송진행을 정지하지 않고 '선고'한 것도 위법 X","k":"oal5m6"},
+    {"i":"1761i3z","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong>","k":"1az60e9"},
+    {"i":"w22958","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"∴항소심 법원이 소송진행을 정지하지 않고 기각결정을 한 것은 <span class=\"cs-red\"><strong>적법</strong></span>","k":"1iv8u1h"}
+   ]}
+  ]}
+ ]},
+ {"i":"1xaxwfo","o":"<div class=\"cs-callout\">","b":[
+  {"i":"19xdu3e","o":"<div class=\"cs-h\">","h":"Ⅰ. 기피 사유","k":"9hneq3"},
+  {"i":"1kzqm7d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"개념 : ① 제척사유가 있음에도 재판에 관여 ② 기타 불공평한 재판을 할 염려 → 당사자의 신청과 법원의 결정으로 배제<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§18)</strong></span></span>","k":"vdpjue"},
+  {"i":"136jgya","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>판단기준 (判例) : '불공평한 재판을 할 염려' = 주관적 추측이 아니라, 통상인의 판단으로서 법관과 사건과의 관계상 불공평한 재판을 할 것이라는 의혹을 갖는 것이 합리적이라고 인정할 만한 객관적 사정이 있는 때</strong></span>","k":"1f0nexv"},
+  {"i":"1qdfnrc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"5ey8iq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[재판부가 증거신청을 채택하지 않거나 이미 한 증거결정을 취소한 사유만으로]</span> 해당 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변16】</span>","k":"6is6ni"},
+  {"i":"1xyhsui","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[재판장이 피고인의 증인에 대한 신문을 제지한 사실만으로]</span> 해당 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"g0af1z"},
+  {"i":"18suoww","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[검사의 공소장변경허가신청에 대하여 불허가 결정을 한 사유만으로]</span> 해당 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"2c7br2"},
+  {"i":"bqceil","o":"<div class=\"cs-h\">","h":"Ⅱ. 기피신청과 재판","k":"xbxex7"},
+  {"i":"6aj6t","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>소속 법원 합의부 결정(원칙)</strong></span>","k":"m6b9a5"},
+  {"i":"jyq2vf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"기피신청에 대한 재판은 원칙적으로 <span class=\"cs-red\"><strong>당해 법관 소속법원 합의부</strong></span>에서 결정<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§21①)</strong></span></span> — <span class=\"cs-fact-tag\">['제척' 결정, '기각' 결정]</span> 모두","k":"19hk0j3"},
+  {"i":"dcx6km","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>간이기각결정(신청 받은 법원 또는 법관 결정)</strong></span>","k":"pcua9z"},
+  {"i":"511phj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① <span class=\"cs-red\"><strong>소송지연 목적이 명백</strong></span>하거나 ② <span class=\"cs-red\"><strong>§19 규정에 위배</strong></span>된 때 → 신청을 받은 법원·법관이 결정으로 <span class=\"cs-def\"><strong>간이기각</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§20①)</strong></span></span>","k":"v3cr0g"},
+  {"i":"1ixtkpp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : 소송지연 목적 명백 여부는 <span class=\"cs-u\">신청인이 제출한 소명방법뿐 아니라 당해 법원에 현저한 사실·사건기록에 나타난 제반사정을 종합</span>하여 판단 <span class=\"cs-o\"><strong>(O)</strong></span>","k":"1kbthwh"},
+  {"i":"1w54jxr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[소송지연 목적이 명백한 경우]</span> 소명자료 제출을 기다리지 않고 간이기각 <span class=\"cs-o\"><strong>(O)</strong></span> — <span class=\"cs-gbg\">[서면 소명 3일]</span> 불요","k":"1fwnpyj"},
+  {"i":"lbx1qo","o":"<div class=\"cs-h\">","h":"Ⅲ. 기피신청과 소송절차의 정지","k":"1x2g46s"},
+  {"i":"1q5ryhd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>원칙(소송절차 정지)</strong></span>","k":"1m0ob3p"},
+  {"i":"1up72h3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>기피신청을 받은 법관이 §22에 위반하여 정지하지 않고 진행한 소송행위는 무효</strong></span> → 이후 기피신청 기각결정이 확정되어도 동일<span class=\"cs-exam\">【변16】</span>","k":"u8i28j"},
+  {"i":"tgd10f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>예외(정지 X)</strong></span>","k":"tok1tl"},
+  {"i":"eibwzn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>§22 정지대상 = 실체재판에 도달할 것을 직접 목적으로 하는 본안의 소송절차</strong></span>","k":"1o6t0x5"},
+  {"i":"13wo6k1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[구속기간갱신절차, 판결선고]</span> 정지대상 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"1tlu6ue"},
+  {"i":"169iuyy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[구속기간 만료 임박]</span> 급속을 요하는 예외사유 해당 <span class=\"cs-o\"><strong>(O)</strong></span>","k":"v3ysu8"},
+  {"i":"2mp4xq","o":"<div class=\"cs-h\">","h":"Ⅳ. 기피신청기각결정에 대한 항고","k":"1rsp1bw"},
+  {"i":"iu30lz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[기피신청 기각결정]</span> <span class=\"cs-red\"><strong>즉시항고 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§23①)</strong></span></span> ↔ <span class=\"cs-gbg\">[기피신청 이유 있어 '제척' 결정]</span> <span class=\"cs-green\"><strong>즉시항고 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변16】</span>","k":"1ixomij"},
+  {"i":"1a3mr9y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[합의부의 기피신청 기각결정에 대한 즉시항고]</span> 집행정지 효력 <span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§410)</strong></span></span>","k":"1sbx3li"},
+  {"i":"bv3cvl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[간이기각결정에 대한 즉시항고]</span> 집행정지 효력 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§23②)</strong></span></span>","k":"1svru18"},
+  {"i":"11lcjf0","o":"<div class=\"cs-h\">","h":"Ⅴ. 제척된 법관이 관여한 경우","k":"nbe0ne"},
+  {"i":"qs56ck","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"제척사유 있는 법관이 재판에 관여 : <span class=\"cs-red\"><strong>절대적 항소이유</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§361의5⑦)</strong></span></span> / <span class=\"cs-red\"><strong>상대적 상고이유</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§383①)</strong></span></span>","k":"muh3e2"},
+  {"i":"1jffk2d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[당연무효, 재심사유]</span> <span class=\"cs-x\"><strong>(X)</strong></span>","k":"q7y2un"},
+  {"i":"xetldh","o":"<div class=\"cs-h\">","h":"Ⅵ. 회피","k":"th7ae6"},
+  {"i":"1klgs3x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>법관이 스스로 기피사유(§18)가 있다고 사료한 때 → 회피</strong></span> → 소속법원에 <span class=\"cs-red\"><strong>서면으로 신청</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§24)</strong></span></span><span class=\"cs-exam\">【변16】</span>","k":"cvp0y4"}
+ ]},
+ {"i":"1j88prz","o":"<div class=\"cs-h\">","h":"제2절. 피고인","k":"v68uix"}
+]}

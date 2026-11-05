@@ -1,0 +1,81 @@
+{"id":"개인038","t":"강도죄·특수강도죄","cat":"gak_절도강도","lv":1,"tg":["변사21","모사21"],"b":[
+ {"i":"6qtnj1","o":"<details class=\"cs-case\">","b":[
+  {"i":"15jdsx9","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE]</strong></span></span> <span class=\"cs-exam\">【변사21】 </span><span class=\"cs-red\">(10)</span>","k":"1165gmx"},
+  {"i":"jeph9n","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"c03hy9","o":"<div class=\"cs-fact\">","b":[
+    {"i":"10idms9","o":"<div class=\"cs-callout\">","b":[
+     {"i":"ynudn6","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲의 1,000만 원 반환 독촉에 시달리던 乙, A의 재물을 강취하기로 하고 지인에게서 A의 집 구조·금고위치 정보를 입수하고 현장 답사. 3일 뒤 밤 11시경 A의 단독주택 외부 벽면을 타고 2층으로 올라가 창문을 열고 들어가다 집안에서 거구의 남자 2명이 다가오자 겁먹고 도망.","k":"112p54z"},
+     {"i":"11i12gq","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"乙의 죄책은? (10점)","k":"lsz8a2"}
+    ]}
+   ]},
+   {"i":"1vbkp1i","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"99z1b","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1pm2ruk","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [야간주거침입강도죄의 실행의 착수시기]</strong></span> 야간주거침입강도죄(<span class=\"cs-blue\"><span class=\"cs-u\">제334조</span> 제1항</span>)의 착수시기 — 주거침입시설/폭행·협박시설, 판례는 양쪽 입장이 다 있음. 구조가 같은 야간주거침입절도죄와 달리 볼 이유<span class=\"cs-x\"><strong>(X)</strong></span> → 주거침입시설 타당","k":"14xq457"},
+    {"i":"d0quld","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [야간주거침입강도죄의 실행 착수]</strong></span>","k":"zezx6g"},
+    {"i":"1hw4rbk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 주거침입죄(<span class=\"cs-blue\"><span class=\"cs-u\">제319조</span> 제1항</span>)의 침입 = 사실상 평온상태를 해치는 행위태양으로 들어가는 것, 판단은 출입 당시 객관적·외형적 행위태양 기준이 원칙","k":"1oig6ne"},
+    {"i":"zpnewc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 주거침입죄의 착수 = 침입의 범의로 시정장치를 부수거나 문을 여는 등 구체적 행위를 시작해 구성요건 실현의 현실적 위험성을 포함하는 행위를 개시할 것 要","k":"19uqcii"},
+    {"i":"1csgsh3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 주거침입시설에 의하면, 외부 벽면을 타고 2층 '창문을 열고 들어가다' 도망 → 착수<span class=\"cs-o\"><strong>(O)</strong></span>","k":"12ptdch"},
+    {"i":"1cnh19g","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(3) [중지미수의 인정여부]</strong></span>","k":"1wx49ix"},
+    {"i":"7wh0hl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 중지미수(<span class=\"cs-blue\"><span class=\"cs-u\">제26조</span></span>)의 자의성 — 판례 = 일반 사회통념상 범죄 완수에 장애가 되는 사정에 의한 것이 아니면 중지미수(절충설)","k":"dr2asn"},
+    {"i":"1rqfah1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 거구의 남자 2명이 다가오자 겁먹고 도망 = 사회통념상 장애사유에 의한 중지","k":"blpaqn"},
+    {"i":"kmant3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 乙에게 중지미수<span class=\"cs-x\"><strong>(X)</strong></span>","k":"16iyi4q"},
+    {"i":"5a5iq","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(4) [결론]</strong></span> 乙 = <span class=\"cs-blue\"><span class=\"cs-u\">제334조</span> 제1항</span> 특수강도죄의 장애미수","k":"1n7c9g3"}
+   ]}
+  ]}
+ ]},
+ {"i":"5jxov8","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1r53m6m","o":"<div class=\"cs-h\">","h":"Ⅰ. 폭행 또는 협박","k":"r3ssxb"},
+  {"i":"nv80hk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[최협의]</strong></span> 폭행·협박 정도 = 사회통념상 객관적으로 상대방 반항을 억압·항거불능케 할 정도","k":"2sq5zu"},
+  {"i":"15qli1q","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용범위: 폭행·협박 당한 자 ≠ 탈취당한 재물의 소유자·점유자여도 무방","k":"eq1no6"},
+  {"i":"1fkfzm","o":"<div class=\"cs-h\">","h":"Ⅱ. 처분행위 – 불필요","k":"1wvc0q8"},
+  {"i":"11crfpt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>재물</strong></span>","k":"34f11"},
+  {"i":"vkko3o","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용범위: <span class=\"cs-fact-tag\">[재물]</span> 폭행·협박으로 타인 재물 탈취한 이상, 피해자가 우연히 재물탈취 사실 몰라도 강도죄 성립","k":"1geg6k2"},
+  {"i":"kav6xr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>재산상 이익</strong></span>","k":"7bsird"},
+  {"i":"7i35b3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-hl\">《재산상 이익 취득에 피해자의 처분행위가 필요한지》</span>","k":"5ozwg0"},
+  {"i":"10vwz6h","o":"<div class=\"cs-theory\">","b":[
+   {"i":"ba4drm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①적극설(처분행위 불요 시 이익 노린 살인 전부 강도살인 되어 부당→처분행위 필요) ②소극설(강도는 탈취죄→처분행위 불요)","k":"l7564b"},
+   {"i":"1ylo59","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-glabel\">[소극설]</span> 재산상 이득행위도 반항 억압할 폭행·협박 수단으로 재산상 이익 취득하면 족함 → 상대방 의사에 의한 처분행위 강제 불요","k":"1p82s8l"},
+   {"i":"1rvpn0r","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 강도는 반항 억압으로 자유의사 결여 상태에서 탈취하는 범죄 → 소극설 타당","k":"utprb4"}
+  ]},
+  {"i":"152k4lg","o":"<div class=\"cs-h\">","h":"Ⅲ. 재물 또는 재산상 이익의 취득","k":"1q6w14c"},
+  {"i":"3olph3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>폭행·협박과 재물 취거 사이의 인과관계</strong></span>","k":"9ve0xy"},
+  {"i":"771or9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"1i23rwi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-neg-tag\">[합의 성교 중 시비→이불 덮어씌우고 폭행 후 나가다 우발적으로 손가방 현금 취거]</span> 인과관계<span class=\"cs-x\"><strong>(X)</strong></span> → 강도죄<span class=\"cs-x\"><strong>(X)</strong></span> — 폭행·협박이 재물 탈취방법으로 사용된 것도 아니고 반항억압 상태 이용 취득도 아님","k":"pq5cfs"},
+  {"i":"1195cna","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>재산상 이익의 취득</strong></span>","k":"jb6h6c"},
+  {"i":"qvlpzh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용범위: 재산상 이익 = 적극적 이익(재산 증가) + 소극적 이익(부채 감소) 모두 포함","k":"1sizojp"},
+  {"i":"1l1qm1l","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"반항 억압 폭행·협박으로 채무부담·채권포기·채무면제 의사표시 하게 한 경우처럼,","k":"eyu8ra"},
+  {"i":"1fkx79d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"자유의사 결여 상태에서 처분행위 '외형' 지닌 행동에 의한 이득도 재산상 이익 포함","k":"1c58x9"},
+  {"i":"1fxw5t3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"법률상 정당한 이행청구 가능·사법상 유효 이득 아니어도","k":"8tjjre"},
+  {"i":"1snffd2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"외견상 재산상 이득 인정할 사실관계만 있으면 해당","k":"1l7a204"},
+  {"i":"1g8xjml","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"gj7epb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[협박으로 지불각서 작성·강취]</span> 외형상 서면에 따른 채무부담 의사표시<span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변20】</span>","k":"1fhli1l"},
+  {"i":"1s6gcht","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[성매매대금 받고→반환 요구하는 피해자 폭행·협박 후 돈 갖고 이탈]</span> 외견상 반환 면함","k":"zfs0av"},
+  {"i":"1bxkveo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:48px\">","h":"→ <span class=\"cs-blue\">사기죄</span>+특수강도죄 실체적 경합 (합동강도는 사기의 불가벌적 사후행위 아님)","k":"f54gd5"},
+  {"i":"9cwx77","o":"<div class=\"cs-h\">","h":"Ⅳ. 불법영득·이득의사","k":"twmscj"},
+  {"i":"1nplrsm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : 채무면탈 강도죄의 불법이득의사는 단순 폭력범죄와 구별하는 중요 구성요건 표지 → 폭행·협박 당시 채무면탈 불법이득의사 있었는지 신중·면밀 심리","k":"tqfp1m"},
+  {"i":"1ffu5dx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"fxtveq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"[술값 일부만 내고 나가려다 붙잡히자 격분→A 폭행, 말리는 B도 폭행, 도망간 B 쫓다 '다시 돌아와' A 재폭행 후 경찰 올 때까지 바닥에 '누워' 있음] 강도죄 불법영득의사<span class=\"cs-x\"><strong>(X)</strong></span>","k":"53do65"},
+  {"i":"1lbwdh","o":"<div class=\"cs-h\">","h":"Ⅴ. 날치기<span class=\"cs-exam\">【모사21】</span>","k":"caw20x"},
+  {"i":"y1xgbl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"1sperjb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[강도]</span> 날치기 중 상대방 반항에 부딪혔음에도 5m 끌고가며 억지로 재물 탈취 → 반항 억압 후 강취 = 강도","k":"1f91mgf"},
+  {"i":"1hxtqbm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[재물 탈취 위한 폭행이므로 재물탈환 항거 폭행 아님 → 준강도 아닌 강도]</span><span class=\"cs-exam\">【변23·18·14】</span>","k":"jjhvkk"},
+  {"i":"1i1xlfp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"↔ <span class=\"cs-neg-tag\">[절도]</span> 날치기처럼 반항억압 목적 없이 점유탈취 과정서 우연히 넘어뜨리거나 상해 → 강도<span class=\"cs-x\"><strong>(X)</strong></span>, 절도<span class=\"cs-exam\">【변14】</span>","k":"s6u53y"},
+  {"i":"13fbgmc","o":"<div class=\"cs-h\">","h":"Ⅵ. 실행의 착수<span class=\"cs-exam\">【변사21】</span>","k":"1bojv38"},
+  {"i":"clssao","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\">단순강도죄 (</span><span class=\"cs-blue\"><span class=\"cs-u\">§333</span></span><span class=\"cs-sub\">)</span>","k":"zmvhld"},
+  {"i":"11ffk03","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>[폭행·협박시]</strong></span> 재물강취·강제이득 수단으로서 반항 억압할 정도의 폭행·협박이 개시된 때 착수","k":"itvm5c"},
+  {"i":"s2s6dw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\">특수강도죄 (</span><span class=\"cs-blue\"><span class=\"cs-u\">§334</span></span><span class=\"cs-sub\">)</span>","k":"1w7wjtv"},
+  {"i":"1yocmz8","o":"<div class=\"cs-li cs-issue\" style=\"margin-left:16px\">","h":"가. <strong>야간주거침입강도죄 (</strong><span class=\"cs-blue\"><span class=\"cs-u\"><strong>§334</strong></span><strong>①</strong></span><strong>)</strong>","k":"ocwg39"},
+  {"i":"1js0dgy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-hl\">《야간주거침입강도죄 실행 착수시기》</span>","k":"zbt314"},
+  {"i":"1s4znoq","o":"<div class=\"cs-theory\">","b":[
+   {"i":"ejjwpk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①주거침입시설(주거침입+강도 결합범→선행하는 주거침입 시) ②폭행·협박시설(폭행·협박 시)","k":"1rezpsy"},
+   {"i":"1h7kyb7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-glabel\">[주거침입시설]</span> ①<span class=\"cs-blue\"><span class=\"cs-u\">§334</span>①</span>은 주거침입+강도 결합범, 주거침입 선행 → '주거침입 한 때' 착수","k":"1y090n7"},
+   {"i":"179c3xe","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"②<span class=\"cs-blue\"><span class=\"cs-u\">§334</span>②</span>(흉기휴대·합동)도 야간에 주거 침입하여 강도 이루어지면 '주거침입 한 때' 착수","k":"8tc2sp"},
+   {"i":"1qts6jo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">[폭행·협박시설]</span> ①<span class=\"cs-blue\"><span class=\"cs-u\">§334</span>①·②</span>의 특수강도 착수 = 반항 억압할 정도의 '폭행·협박에 나아갈 때'","k":"1qww57y"},
+   {"i":"mzundi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"②강도 범의로 야간에 칼 휴대 주거침입 후 동정 살피다 갑자기 욕정으로 칼로 협박·강간 → 동정만 살핀 단계는 특수강도 착수 X → 성폭법 <span class=\"cs-blue\"><span class=\"cs-u\">§3</span>②</span> 특수강도강간죄 불성립","k":"91kpjv"},
+   {"i":"1blz1t1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: ①주거침입시설 – 구조 동일한 야간주거침입절도와 착수시기 달리 볼 이유 X → 주거침입시설 타당","k":"1c4m6wq"},
+   {"i":"e6xaxj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"②폭행·협박시설 – 주거침입 단계 체포 시 내심 의사만으로 야간주거침입절도/강도 구별함은 불합리 → 폭행·협박시설 타당","k":"1cmnub7"}
+  ]},
+  {"i":"100gtgo","o":"<div class=\"cs-li cs-issue\" style=\"margin-left:16px\">","h":"나. <strong>흉기휴대 및 합동으로 인한 특수강도 (</strong><span class=\"cs-blue\"><span class=\"cs-u\"><strong>§334</strong></span><strong>②</strong></span><strong>)</strong>","k":"1fo830m"},
+  {"i":"mweosr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-def\"><strong>[폭행·협박시]</strong></span> 흉기휴대·합동 특수강도 착수 = 폭행·협박 개시한 때<span class=\"cs-exam\">【변25】【모사25】</span>","k":"180in1"}
+ ]}
+]}

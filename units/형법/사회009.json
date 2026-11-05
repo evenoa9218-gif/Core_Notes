@@ -1,0 +1,16 @@
+{"id":"사회009","t":"공기호","cat":"gak_사회","lv":1,"tg":[],"b":[
+ {"i":"npr6yr","o":"<div class=\"cs-callout\">","b":[
+  {"i":"bxb9ty","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제238조(공인 등의 위조, 부정사용)</strong></span>","k":"1rdt84d"},
+  {"i":"vjbnhk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 행사할 목적으로 <span class=\"cs-u\"><strong>공무원 또는 공무소</strong></span>의 인장, 서명, 기명 또는 <span class=\"cs-blue\"><strong>기호</strong></span>를 <span class=\"cs-blue\"><strong>위조</strong></span> 또는 <span class=\"cs-blue\"><strong>부정사용</strong></span>한 자는 <span class=\"cs-red\">5년 이하의 <strong>징역</strong></span>에 처한다.","k":"yggk5u"},
+  {"i":"4ukmyz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 위조 또는 부정사용한 <span class=\"cs-u\"><strong>공무원 또는 공무소</strong></span>의 인장, 서명, 기명 또는 <span class=\"cs-blue\"><strong>기호</strong></span>를 <span class=\"cs-blue\"><strong>행사</strong></span>한 자도 전항의 형과 같다.","k":"hzzsbj"}
+ ]},
+ {"i":"17tdmki","o":"<div class=\"cs-h\">","h":"Ⅰ. 공기호위조죄 및 위조공기호행사죄","k":"102wxr5"},
+ {"i":"11ez3vd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① <span class=\"cs-def\"><strong>인장</strong></span> = <span class=\"cs-u\">사람의 동일성 표시 위해 사용하는 일정한 상형</span> / <span class=\"cs-def\"><strong>기호</strong></span> = <span class=\"cs-u\">물건에 압날하여 사람의 '인격상 동일성 이외'의 일정 사항 증명 부호</span>","k":"xzepyq"},
+ {"i":"1d3de61","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② <span class=\"cs-blue\"><span class=\"cs-u\">§238</span></span> 공기호는 해당 부호를 공무원·공무소가 사용하는 것만으로 부족, 그 부호 통하여 증명하는 사항이 구체적으로 특정·해당 사항이 그 부호에 의하여 증명될 것 요구","k":"1cip0xb"},
+ {"i":"5q2e2d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+ {"i":"cxsx7d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[검찰 업무표장]</span> '검찰 공무수행 차량' 증명 기능 등 이를 통하여 증명하는 사항 구체적 특정 X → 일반인이 표지판 부착 차량을 '검찰 공무수행 차량'으로 오인해도 증명적 기능 없으면 공기호<span class=\"cs-x\"><strong>(X)</strong></span>","k":"ghzw6e"},
+ {"i":"1o28rwk","o":"<div class=\"cs-h\">","h":"Ⅱ. 공기호부정'사용' 및 부정사용공기호'행사'","k":"1fdoyrk"},
+ {"i":"1q661k0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① <span class=\"cs-blue\"><span class=\"cs-u\">§238</span>①</span> <span class=\"cs-def\"><strong>공기호(자동차등록번호판) 부정사용</strong></span> = 진정하게 만들어진 번호판을 권한 없는 자가 사용하거나 권한 있는 자라도 권한 남용·부당사용 / <span class=\"cs-blue\"><span class=\"cs-u\">§238</span>②</span> 행사죄 = 부정사용한 번호판을 진정한 것처럼 용법 따라 사용 → 행위개념 달리함","k":"2kldpj"},
+ {"i":"1pl4j1o","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 행사 = 자동차에 부착·운행하여 일반인으로 자동차 동일성 오인 야기 가능 상태 (부착 자동차 운행) 의미 → 운행과 별도로 부정사용 번호판을 타인에게 제시하는 등 행위 있어야 행사죄 성립하는 것 X","k":"wguaii"},
+ {"i":"cqn6zm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[부착은 공기호부정'사용', 운행은 부정사용공기호'행사'에 해당하고 양죄는 실체적 경합관계]</span>","k":"1hgbkkb"}
+]}

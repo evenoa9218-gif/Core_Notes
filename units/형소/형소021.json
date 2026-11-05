@@ -1,0 +1,34 @@
+{"id":"형소021","t":"고소포기의 가능 여부","cat":"pro_03","lv":1,"tg":["C급","下"],"b":[
+ {"i":"1guroi0","o":"<details class=\"cs-case\">","b":[
+  {"i":"pvf48a","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 고소장 반환 후 6개월 내 재제출·고소포기</strong></span>","k":"urp24b"},
+  {"i":"1chk8hq","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"klvpis","o":"<div class=\"cs-fact\">","b":[
+    {"i":"13o6l1o","o":"<div class=\"cs-callout\">","b":[
+     {"i":"c0ezvs","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲이 A를 모욕 → A가 112신고 후 출동 경찰관 P1에게 고소장 제출 → P1이 임의동행으로 경찰서 인치, 당직 P2에게 인계 → P2가 A로부터 \"甲과 이야기해 보고 접수 여부 결정하겠다\"는 취지를 듣고 고소장 반환, 당직사건처리부에 '고소인 처벌불원 귀가조치' 기재 → A가 사건일로부터 6개월 내 고소장 제출 → 검사가 모욕죄 기소. 모욕 입증시 법원의 판결은? (15점)","k":"1t6bdkc"}
+    ]}
+   ]},
+   {"i":"ghv7pv","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1j9meiy","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"zz8at8","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [고소 여부]</strong>","k":"19tuosz"},
+    {"i":"nx8ve2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① A가 P1에게 고소장 교부해도, 경찰서 도착 후 최종 접수시키지 않기로 하고 반환 → 적법 수리·고소 효력 발생 X","k":"15aszan"},
+    {"i":"2yhne5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ A가 고소 후 취소한 적 X → 재고소금지원칙(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§232①</strong></span></span>) 위반 X","k":"ebeky5"},
+    {"i":"11784bn","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [고소포기 가능여부]</strong>","k":"145yje1"},
+    {"i":"12uw062","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 긍정설, 부정설, 절충설. 판례: 부정설","k":"1ik2bw8"},
+    {"i":"uyxyal","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② A가 처벌불원 표시해도 고소포기 인정 X","k":"lz7ggs"},
+    {"i":"tymfet","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [법원의 판결]</strong>","k":"jog6to"},
+    {"i":"ysftp8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 고소한 적 X → 재고소 제한 규정 적용 X + 고소 전 포기 X → A의 고소 적법","k":"1cpw043"},
+    {"i":"adjz43","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② ∴모욕죄 유죄판결","k":"nijbxp"}
+   ]}
+  ]}
+ ]},
+ {"i":"ei7ksx","o":"<div class=\"cs-callout\">","b":[
+  {"i":"71xzpa","o":"<div class=\"cs-h\">","h":"Ⅰ. 고소포기의 가능 여부","k":"1crt62y"},
+  {"i":"1u3p0eg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《고소가 있기 전 미리 고소권을 [포기]할 수 있는지 여부》</strong></span> — 고소를 [취소]한 자는 다시 고소할 수 없다는 <span class=\"cs-red\"><strong>재고소 금지</strong></span> 규정<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§232②)</strong></span></span>은 있으나 포기에 관한 명문 규정 없음","k":"1k34xdx"},
+  {"i":"1i95giu","o":"<div class=\"cs-theory\">","b":[
+   {"i":"94fvha","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 긍정설(취소와 마찬가지로 포기하면 고소권 상실) ② <span class=\"cs-green\"><strong>부정설</strong></span>(명문 규정 없으므로 포기 불인정) ③ 절충설(고소취소와 같은 방식으로 수사기관에 의사표명한 경우에 한하여 인정)","k":"ufjno2"},
+   {"i":"7mpsl6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 부정설] 친고죄에서 피해자의 고소권은 공법상의 권리로서 명문으로 인정하는 경우를 제외하고는 자유처분이 허용되지 않는데, 고소권 포기에 관한 규정이 없으므로 고소 전 고소권을 포기할 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변22】</span>","k":"bzsbl9"},
+   {"i":"1r7mw75","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: 고소권은 공법상의 권리로 자유로운 처분이 허용되지 않음 → <span class=\"cs-green\"><strong>부정설 타당</strong></span>","k":"oks2b3"}
+  ]},
+  {"i":"1cv0dbo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[피해자가 고소 전 처벌불원의사를 표시한 적 있더라도 그 후 고소장을 제출하여 처벌희망의사를 분명히 표시하고 이를 취소한 바 없는 경우]</span> 그 고소는 <span class=\"cs-red\"><strong>유효</strong></span> — 고소포기가 인정되지 않기 때문","k":"1lnesij"}
+ ]}
+]}

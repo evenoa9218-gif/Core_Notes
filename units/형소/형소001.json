@@ -1,0 +1,91 @@
+{"id":"형소001","t":"관할 일반","cat":"pro_01","lv":1,"tg":["B급","下"],"b":[
+ {"i":"1tdeqve","o":"<details class=\"cs-case\">","b":[
+  {"i":"1adov5z","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 단독판사 유죄 후 항소심에서 특경법위반으로 공소장변경</strong></span> <span class=\"cs-exam\">【변사13】</span>","k":"16mg610"},
+  {"i":"lkyrwc","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1s29nee","o":"<div class=\"cs-fact\">","b":[
+    {"i":"dnamvi","o":"<div class=\"cs-callout\">","b":[
+     {"i":"483dbl","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲이 횡령으로 서울중앙지법(단독판사) 유죄선고 → 甲·검사 모두 항소 → 검사가 특경법위반(횡령)으로 공소장변경 신청(공소사실 동일성 O).","k":"1ndichj"},
+     {"i":"ikc4cd","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"항소심(서울중앙지법 항소부)의 조치는? (10점)","k":"kjpmyi"}
+    ]}
+   ]},
+   {"i":"1su4q6p","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1txq7d4","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"sgge3b","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [항소심에서 공소장변경 가능여부]</strong>","k":"s3zt6i"},
+    {"i":"16kyzs6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 긍정설, 부정설, 절충설(항소 부분 참조)","k":"dxq7c1"},
+    {"i":"1janq5e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 판례: 항소심 = 사후심적 성격이 가미된 속심 → 공소장변경 가능","k":"v3ul38"},
+    {"i":"114pgug","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 항소심 = 원칙적 속심 → 긍정설 타당","k":"bupzop"},
+    {"i":"swazvc","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [공소장변경의 한계]</strong>","k":"12qkv81"},
+    {"i":"qaj1g6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§298①</strong></span></span>","k":"qhn32p"},
+    {"i":"19vh8qh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 공소장변경O 공소사실 동일성 판단기준 — 죄질동일설, 구성요건공통설, 소인공통설, 기본적 사실동일설","k":"1po1hob"},
+    {"i":"1wguqob","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ 판례: 기본적 사실동일성 + 규범적 요소 고려","k":"12145k6"},
+    {"i":"1ad1l5q","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"④ 횡령·특경법위(횡령): 동일성 O → 공소장변경 가능","k":"8h5uwi"},
+    {"i":"1q3p53o","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [법원의 공소장변경 허가의무]</strong>","k":"5x6yuh"},
+    {"i":"x1mp4u","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§298①</strong></span></span> / ② 의무설 / ③ 항소부는 허가하여야","k":"1lcv87j"},
+    {"i":"1amhzv5","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(4) [항소심 법원의 조치]</strong>","k":"1htr9v2"},
+    {"i":"4buakm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§8②</strong></span></span>  / ② 항소심 단독 → 합의부 관할 변경시 조치에 관한 학설·판례  / ③ ∴서울고등법원 이송","k":"11iguz9"}
+   ]}
+  ]}
+ ]},
+ {"i":"m9vi8j","o":"<div class=\"cs-callout\">","b":[
+  {"i":"b34e5t","o":"<div class=\"cs-h\">","h":"Ⅰ. 사물관할과 토지관할","k":"hongfb"},
+  {"i":"2ygter","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>사물관할</strong></span>","k":"pe5rg5"},
+  {"i":"x7ctdy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"개념 : 사물관할은 <span class=\"cs-red\"><strong>공소제기시부터 재판종결시(판결시)까지 계속 존재</strong></span> 요함<span class=\"cs-exam\">【변24】</span>","k":"19o049g"},
+  {"i":"y3x2vj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"원칙 : <span class=\"cs-red\"><strong>제1심 = 단독판사 관할</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(법원조직법§7④)</strong></span></span>","k":"1xz05oo"},
+  {"i":"qhw4ls","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"예외 : <span class=\"cs-green\"><strong>합의부 관할</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(법원조직법§32①)</strong></span></span>","k":"1djhztk"},
+  {"i":"19bxu0j","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 사형·무기 또는 단기 1년이상 징역·금고 해당사건 (각목 예외 제외)","k":"1llih24"},
+  {"i":"gr98oi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 지방법원판사에 대한 제척·기피사건","k":"1fz1mbi"},
+  {"i":"a6hgnn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"③ 합의부 심판으로 <span class=\"cs-green\"><strong>합의부가 결정</strong></span>한 사건(재정합의사건)","k":"1c8nhe3"},
+  {"i":"vw777o","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"1i5o8gf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[상습특수상해죄]</span> 합의부 관할<span class=\"cs-o\"><strong>(O)</strong></span> ↔ <span class=\"cs-fact-tag\">[특수(존속)상해죄]</span> 단독 관할<span class=\"cs-o\"><strong>(O)</strong></span>","k":"zi35wh"},
+  {"i":"1uuhwdv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[단독판사 관할 항소사건 계속 중 치료감호사건이 같은 합의부 배당]</span> 합의부는 치료감호사건·피고사건 <span class=\"cs-red\"><strong>모두 고등법원 이송</strong></span>(치료감호법)<span class=\"cs-exam\">【변24】</span>","k":"1bwejuu"},
+  {"i":"lov42","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>토지관할</strong></span>","k":"l88gqt"},
+  {"i":"2l93d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"개념 : 범죄지 · 피고인의 <span class=\"cs-red\"><strong>주소·거소·현재지</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§4①)</strong></span></span>","k":"cxho2m"},
+  {"i":"1j4n8bh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : 토지관할은 <span class=\"cs-red\"><strong>'공소제기시점'에만 존재하면 족함</strong></span> — 이후 변경 불문<span class=\"cs-exam\">【변24】</span>","k":"j5t6hr"},
+  {"i":"dl80y8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"5y7jvz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>['현재지'] = 임의에 의한 현재지 + 적법한 강제에 의한 현재지</strong></span><span class=\"cs-exam\">【변18】</span>","k":"rsqafc"},
+  {"i":"1ppj4tx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[지원 토지관할 인정 → 본원 토지관할 당연인정]</span> <span class=\"cs-x\"><strong>(X)</strong></span> — 지방법원 본원·지원은 별개 법원, 대등관계<span class=\"cs-exam\">【변24】</span>","k":"1s4fs19"},
+  {"i":"1cf41is","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>관할 위반의 처리</strong></span>","k":"1kzsa7p"},
+  {"i":"r4610f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[직권조사사항] 법원은 직권으로 관할을 조사</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§1)</strong></span></span><strong> [</strong><span class=\"cs-def\"><strong>소송요건</strong></span><strong>]</strong>","k":"2kpxsv"},
+  {"i":"1r334yy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"원칙 : 관할 <span class=\"cs-x\"><strong>(X)</strong></span> → 판결로 <span class=\"cs-red\"><strong>관할위반 선고</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§319)</strong></span></span>","k":"1vo15j4"},
+  {"i":"lh22vd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<strong>[토지관할]</strong> : <span class=\"cs-red\"><strong>피고인 신청</strong></span> <strong>없으면</strong> 관할위반 선고 <span class=\"cs-green\"><strong>불가</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§320①)</strong></span></span>","k":"oi5xel"},
+  {"i":"11c96ar","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"신청시기 : 피고사건에 대한 <span class=\"cs-red\"><strong>진술 전</strong></span>까지<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§320②)</strong></span></span> — '진술 전' = '피고인의 모두진술'","k":"bwghfp"},
+  {"i":"ykekpd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[소송행위는 유효] 관할위반이어도 소송행위 효력은 영향 X</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§2)</strong></span></span> — 공판조서·증인신문조서는 재기소시 증거사용 <span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변24】</span>","k":"6l72zk"},
+  {"i":"tesucw","o":"<div class=\"cs-h\">","h":"Ⅱ. 동일사건","k":"71q7sn"},
+  {"i":"185qxl1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>→ ‘</strong><span class=\"cs-fact-tag\"><strong>동일 법원</strong></span><strong>’ 이중기소</strong>","k":"1hghxu7"},
+  {"i":"8065tv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":": 공소기각 <span class=\"cs-red\"><strong>'판결'</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§327제3호)</strong></span></span>","k":"zwscz4"},
+  {"i":"1smglwz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>→ ‘</strong><span class=\"cs-gbg\"><strong>다른 법원</strong></span><strong>’ 이중기소</strong>","k":"10asa2e"},
+  {"i":"1jj8yfo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":": 공소기각 <span class=\"cs-green\"><strong>'결정'</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§328①제3호)</strong></span></span><span class=\"cs-exam\">【변24】</span>","k":"pejljx"},
+  {"i":"zgspq3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[사물관할 <strong>다른</strong> 때]</span> 법원합의부 심판<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§12)</strong></span></span>","k":"xbgem"},
+  {"i":"e9pi7w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[사물관할 <strong>같은</strong> 때]</span> ① <span class=\"cs-u\">먼저 공소 받은 법원</span>이 심판 ② 단, 공통되는 바로 위 상급법원→ (신청에 의한 결정으로) <span class=\"cs-u\">뒤에 공소받은 법원이 심판하게</span> 할 수 있음<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§13)</strong></span></span><span class=\"cs-exam\">【변24·22】</span>","k":"1isfoj9"},
+  {"i":"1npp71","o":"<div class=\"cs-h\">","h":"Ⅲ. 관련사건 <span class=\"cs-glabel\">→ 쟁점002</span>","k":"hrueh4"},
+  {"i":"o60ymk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"개념 : ① <span class=\"cs-u\">1인</span>이 범한 <span class=\"cs-u\">수죄</span> ② <span class=\"cs-u\">수인이 공동</span>으로 범한 죄 ③ <span class=\"cs-u\">수인이 동시에 동일장소</span>에서 범한 죄 ④ 범인은닉·증거인멸·위증·허위감정통역죄 또는 장물죄와 그 본범의 죄<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§11)</strong></span></span>","k":"1ncmfwn"},
+  {"i":"ry5we2","o":"<div class=\"cs-h\">","h":"Ⅳ. 사건의 이송","k":"16o6v3x"},
+  {"i":"dsn0to","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[현재지 이송]</strong></span> 피고인이 관할구역 밖에 현재 X + 특별한 사정 → 결정으로 <strong>현재지 관할 동급법원</strong>에 이송 <span class=\"cs-red\"><strong>가능</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§8①)</strong></span></span>","k":"4gteqm"},
+  {"i":"auyf1d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[군사법원 이송]</strong></span> 군사법원이 재판권O→ 결정으로 <strong>같은 심급의 군사법원</strong> 이송<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§16의2)</strong></span></span>","k":"pnqc7d"},
+  {"i":"u7ng4d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"특정 군사범죄[ex) 군용물절도죄]: 군사법원 전속 → 일반법원의 재판권 행사 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"d6ds53"},
+  {"i":"yrya69","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"↔ 그 밖의 일반범죄: 군사법원이 재판권 행사 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"16yf7k8"},
+  {"i":"11byavc","o":"<div class=\"cs-h\">","h":"Ⅴ. 관할이전의 신청","k":"17dgw6i"},
+  {"i":"pvva14","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검사 : 법률상 이유·특별사정으로 재판공평 유지 곤란 염려 → 직근 상급법원에 신청 <span class=\"cs-red\"><strong>의무</strong></span>. ↔ 피고인도 신청 <span class=\"cs-red\"><strong>가능(권리)</strong></span> <span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§15)</strong></span></span><span class=\"cs-exam\">【변14】</span>","k":"izq5ne"},
+  {"i":"1p4ome7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[공소장변경 허용을 이유로 한 관할이전신청]</strong></span> <span class=\"cs-x\"><strong>(X)</strong></span> — 재판공평 유지 어려운 염려 X","k":"un8ltz"},
+  {"i":"1xng93z","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[즉시항고 규정X</strong>]</span> 관할이전신청 기각결정 시 <span class=\"cs-green\"><strong>불복불가</strong></span>","k":"10dovsa"},
+  {"i":"1hlt285","o":"<div class=\"cs-h\">","h":"Ⅵ. 공소장변경에 의한 사물관할 변경<span class=\"cs-exam\">【변사13, 모사16】</span>","k":"8qq906"},
+  {"i":"1p9s5w6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>단독판사 → 합의부</strong></span>","k":"1fyvpo7"},
+  {"i":"1oebtsf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>가. 제1심에서 변경된 경우</strong>","k":"6z8l1m"},
+  {"i":"80wd4f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-def\"><strong>: 결정으로 관할권 있는 법원에 이송</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§8②)</strong></span></span>   <span class=\"cs-gbg\"><strong>[관할위반판결]</strong></span><span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변14】</span>","k":"ogd6c2"},
+  {"i":"2azc4t","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>나. 항소심에서 변경된 경우</strong><span class=\"cs-exam\">【변사13, 모사16】</span>","k":"9hy02m"},
+  {"i":"8h2e7q","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-hl\"><strong>《항소심에서 공소장변경으로 합의부 관할사건이 된 경우의 처리》</strong></span>","k":"ags8qs"},
+  {"i":"5p1nkl","o":"<div class=\"cs-theory\">","b":[
+   {"i":"id82gz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"명문 규정 X","k":"1s83aqx"},
+   {"i":"1jnhl8b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① <strong>관할위반판결설</strong> ② <strong>항소부 항소심 관할설</strong> ③ <strong>항소부 제1심 관할설</strong> ④ <span class=\"cs-def\"><span class=\"cs-u\"><strong>고등법원이송설</strong></span></span> <strong>:</strong> <span class=\"cs-blue\"><span class=\"cs-u\">§8②</span></span> 준용, 관할권 있는 고등법원 이송, 그 고등법원이 항소심 심판","k":"tpdm92"},
+   {"i":"1ss6693","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판례: <span class=\"cs-def\"><strong>[고등법원이송설]</strong></span><strong> (</strong>항소심에서 공소장변경으로 단독판사사건이 합의부관할사건이 된 경우에도) 법원은 사건을 <span class=\"cs-u\">관할권 있는 고등법원으로 이송하여야</span> 하고, <span class=\"cs-u\">관할권이 있는 법원은 고등법원</span>","k":"12577k9"},
+   {"i":"wzh426","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[상습사기→특경법위반(사기)로 변경]</span><span class=\"cs-exam\">【변25】</span>","k":"51ncq6"},
+   {"i":"1illol1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: <span class=\"cs-u\">소송경제</span>와 법률이 정한 법관에 의한 <span class=\"cs-u\">재판받을 권리 보장</span>을 조화 → <span class=\"cs-def\"><span class=\"cs-u\"><strong>고등법원이송설</strong></span></span> 타당","k":"eokts6"}
+  ]},
+  {"i":"gxw7y4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>합의부 → 단독판사</strong></span>","k":"9ju1jr"},
+  {"i":"1c7ep13","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《합의부 관할사건이 공소장변경으로 단독판사 관할사건으로 변경된 경우》</strong></span>","k":"gdpov1"},
+  {"i":"xo0303","o":"<div class=\"cs-theory\">","b":[
+   {"i":"hktnxj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"명문규정 X (제1심·항소심 모두)","k":"lrjiuj"},
+   {"i":"a6rdcb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판례: <span class=\"cs-def\"><strong>[</strong><strong>실체심판O</strong></span> <span class=\"cs-gbg\"><strong>(재배당X)</strong></span><span class=\"cs-def\"><strong>]</strong></span> 합의부가 공소장변경 허가결정을 해도 합의부의 <strong>관할에 영향X</strong> → 합의부는 <span class=\"cs-red\"><span class=\"cs-u\">마땅히 사건에 관하여 그 실체에 들어가 심판</span></span>하여야 하고, <span class=\"cs-green\"><span class=\"cs-u\">단독판사에게 재배당 불가</span></span><span class=\"cs-exam\">【변24·22·18】</span>","k":"15c4jf6"}
+  ]}
+ ]}
+]}

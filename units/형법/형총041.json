@@ -1,0 +1,64 @@
+{"id":"형총041","t":"승계적 공동정범과 승계적 방조","cat":"chong_06","lv":1,"tg":[],"b":[
+ {"i":"1sbg0lb","o":"<details class=\"cs-case\">","b":[
+  {"i":"k8o1x2","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 준강도 상황서 후발 가담</strong></span> <span class=\"cs-exam\">【변사12】 </span><span class=\"cs-red\">(30)</span>","k":"m61m2a"},
+  {"i":"yw6a15","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"cha7r7","o":"<div class=\"cs-fact\">","b":[
+    {"i":"gvagqj","o":"<div class=\"cs-callout\">","b":[
+     {"i":"7tq0lr","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲, 부녀 A 핸드백서 신용카드 든 손지갑 1개 꺼내던 순간 A \"도둑이야\" 소리치자 손지갑 갖고 도주. A + 정복 경찰관 P1이 甲 추격. 甲 도망 중 대전교도소 동기 乙 만나 사정 이야기·도움 요청, 乙 승낙 → 甲·乙 각 깨진 소주병 들고 체포하려 달려드는 P1 얼굴 찔러 4주 안면부 열상 후 도주. 甲·乙 죄책? (30점)","k":"11i3yl8"}
+    ]}
+   ]},
+   {"i":"z67kh0","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"14bxf3x","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"2p8mwc","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-exam\">【변사12】</span>","k":"1rqnxez"},
+    {"i":"18forus","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [甲의 죄책]</strong> (가) [강도상해죄]","k":"nwr68v"},
+    {"i":"107wayj","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 손지갑 갖고 도주 = 절도죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제329조</strong></span></span>)","k":"ysb39m"},
+    {"i":"1si2lz5","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② A·P1 추격 중 체포면탈 목적 상해 = '절도의 기회'","k":"izzser"},
+    {"i":"w24b3g","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ '준강도'·'준특수강도' 구별기준 — 절취태양기준설/폭행·협박태양기준설, 판례 = 폭행·협박태양기준설. 강도죄가 폭행·협박태양 기준 → 타당. 甲 = 乙과 '합동'하여 '흉기(깨진 소주병)'로 P 얼굴 찔러 준특수강도(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제335조</strong></span></span>·<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제334조</strong></span></span>②①)","k":"1i4h49r"},
+    {"i":"1fjdq7q","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"④ 준특수강도가 P1 상해 = 강도상해죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제337조</strong></span></span>) (나) [특수공무집행방해치상죄]","k":"15l7naa"},
+    {"i":"162xn1g","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 상해 과실뿐 아니라 상해 고의 있어도 성립 = 부진정결과적 가중범","k":"1fcpywl"},
+    {"i":"1xtxy5m","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 甲 = 乙과 공모, 흉기로 P 얼굴 찔러 특수공무집행방해치상죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제144조</strong></span></span>②①·<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제136조</strong></span></span>)의 공동정범(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제30조</strong></span></span>) (다) [강도상해죄와 특수공무집행방해치상죄의 죄수관계]","k":"pck8xc"},
+    {"i":"9uli5c","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 고의로 중한 결과 발생행위가 별도 구성요건 + 그 고의범을 결과적 가중범보다 더 무겁게 처벌 규정 有 → 상상적 경합, 無 → 결과적 가중범이 고의범에 '특별관계' → 결과적 가중범만 성립·고의범 별도 성립 X","k":"o8bbgf"},
+    {"i":"1lyx0aa","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 고의범 강도상해죄 형 &gt; 부진정결과적 가중범 특수공무집행방해치상죄 → 상상적 경합","k":"1c2as2d"},
+    {"i":"y89hin","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [乙의 죄책]</strong> (가) [승계적 공동정범]","k":"jsi37q"},
+    {"i":"e61fn5","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 후행자에 선행행위 공동정범 책임 귀속 가부 — 승계긍정설/승계부정설, 판례 = 포괄일죄서 \"범행 도중 가담자는 가담 전 이미 이루어진 종전 범행 알았어도 가담 이후 범행에 대하여만 공동정범 책임\"承繼否定説. 후행자에 사후고의·기능적 행위지배·인과적 기여 X → 승계부정설 타당","k":"g5vjx0"},
+    {"i":"1jtsjem","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 乙 = 가담 이후 범죄 특수상해죄 공동정범(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제258조의2</strong></span></span>①·<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제257조</strong></span></span>①). 乙에 결합범 강도상해죄 방조범 성립설도 有 (나) [특수공무집행방해치상죄] 乙 = 특수공무집행방해치상죄 공동정범(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제30조</strong></span></span>) (다) [특수상해죄와 특수공무집행방해치상죄의 죄수관계] 고의범 특수상해 법정형 &lt; 부진정결과적 가중범 특수공무집행방해치상죄 → 특별관계 → 특수공무집행방해치상죄 공동정범만 성립 (라) [범인도피죄] 乙 = 절도로 추격받는 甲 도피 위한 본건 범행 → 범인도피죄(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>제151조</strong></span></span>①)","k":"1n4b4ai"},
+    {"i":"1cn6w3e","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> 甲 = 강도상해죄·특수공무집행방해치상죄 상상적 경합, 乙 = 특수공무집행방해치상죄·범인도피죄 상상적 경합","k":"yz8zdi"}
+   ]}
+  ]}
+ ]},
+ {"i":"1mlzqdi","o":"<div class=\"cs-callout\">","b":[
+  {"i":"z36ppk","o":"<div class=\"cs-h\">","h":"Ⅰ. 공동정범 성립의 최후 종기 (공동정범 성립가능성)","k":"18bhdjf"},
+  {"i":"ro2o3z","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[즉시범-기수시까지]</span> 유사기관 설립·설치 공직선거법위반죄 = 설립·설치한 때 성립·완성 즉시범 → 이후 관여행위 = 그 공동정범 처벌 X <span class=\"cs-o\"><strong>(O)</strong></span>","k":"1bcgoi1"},
+  {"i":"1bw748t","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[상태범-기수시까지]</span> 회사직원이 영업비밀 유출/이용 목적 무단 반출한 때 업무상배임죄 기수 → 이후 그 직원 접촉해 영업비밀 취득하려 한 자 = 업무상배임죄 공동정범 X <span class=\"cs-o\"><strong>(O)</strong></span>","k":"1k1a3zs"},
+  {"i":"lrycu3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[계속범-종료시까지]</span> ① 범인도피죄 = 도피케 함으로 기수, 도피행위 계속되는 동안 범죄 계속·행위 종료시 비로소 종료 → 공범자 범인도피행위 도중 범행 인식 + 공동 범의로 기왕의 범인도피상태 이용해 스스로 범인도피 계속 = 범인도피죄 공동정범 성립 ② 종범도 同 <span class=\"cs-o\"><strong>(O)</strong></span>","k":"1fzzqn3"},
+  {"i":"11s1v90","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[변호인 범인도피방조]</span> 변호인이 甲 이익 위한 정당 변론 넘어 甲·乙 부정거래 인식·乙에게서 甲 사건 수임·합의 성사 조력·합의금 일부 예치 용인·합의서 작성 등 깊이 관여 = 정당 변론권 범위 X → 정범 甲에 결의 강화한 방조 = 범인도피방조죄 성립 <span class=\"cs-o\"><strong>(O)</strong></span>","k":"92epyv"},
+  {"i":"19z4k65","o":"<div class=\"cs-h\">","h":"Ⅱ. 승계적 '공동정범'","k":"nh6o6z"},
+  {"i":"bj1pft","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>단순일죄(사기·공갈 등) 및 계속범(범인도피)</strong>","k":"13ef948"},
+  {"i":"awm026","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[공갈죄 승계]</span> 공범자가 공갈 실행착수 후 범행 인식 + 공동 범의로 이후 공갈 계속해 재물교부·재산상 이익 취득 = 공갈죄 공동정범 성립 <span class=\"cs-o\"><strong>(O)</strong></span>","k":"1bdeayh"},
+  {"i":"7simml","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[단순일죄 불가분]</span> 단순일죄(사기·공갈 등)·계속범(범인도피) = 범죄 불가분 → 전체범죄 공동정범 성립 견해 일반적 <span class=\"cs-gbg\">[승계적 공동정범 논점X]</span>","k":"1jwrffe"},
+  {"i":"16gcbwm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>포괄일죄 및 결합범 </strong><strong>[변사12, 모사23·16]</strong>","k":"y2ftlz"},
+  {"i":"efhv1k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-hl\">《실행행위 일부 종료 후 기수 전(상태범)·종료 전(계속범) 공동의사 생긴 경우 후행자에 선행행위 공동정범 책임 귀속 가부》</span>","k":"1eu7143"},
+  {"i":"1b9x0j","o":"<div class=\"cs-theory\">","b":[
+   {"i":"962tc6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: <span class=\"cs-fact-tag\">[적극설·소극설]</span> ①승계긍정설(적극설): 선행행위 인식·이용 의사 근거 → 전체범죄 공동정범 ②승계부정설(소극설): 가담 이후 행위만 공동정범","k":"gov4cb"},
+   {"i":"fp5t3f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-fact-tag\">[판례 승계부정설]</span> '포괄일죄' 범행 도중 가담자는 가담 전 이미 이루어진 종전 범행 알았어도 '가담 이후 범행에 대하여만' 공동정범 책임 <span class=\"cs-fact-tag\">[업무상 배임]</span> <span class=\"cs-exam\">【변13】</span>","k":"1yk1suh"},
+   {"i":"p5qfx3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: <span class=\"cs-fact-tag\">[소극설 근거]</span> 사후고의 X + 선행행위에 후행자 기능적 행위지배 X + 후행자 행위·선행행위 인과관계 X → 승계부정설 타당","k":"1qd0dvs"}
+  ]},
+  {"i":"1xp5c9o","o":"<div class=\"cs-h\">","h":"Ⅲ. 승계적 '방조'","k":"1ll9mjw"},
+  {"i":"wdmpi9","o":"<div class=\"cs-theory\">","b":[
+   {"i":"1ulde62","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: <span class=\"cs-fact-tag\">[전체종범설·일부종범설]</span> ①선행범죄 승인·방조 → 전체범죄 종범 ②선행범죄 미가담 → 가담 이후 범죄만 종범","k":"704k9x"},
+   {"i":"ia2wqf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-fact-tag\">[판례 결합범 전체 종범]</span> 미성년자 약취·유인엔 미가담이나 사후에 알면서 약취유인 미성년자를 부모 등 안전 염려하는 자의 우려 이용해 재물·재산상 이익 취득/요구하는 타인 행위 가담·방조 = 재물등 요구행위 종범 그침 X → 결합범 특가법 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제5조의2</strong></span></span>②제1호 위반죄 종범 <span class=\"cs-fact-tag\">['제13세미만미성년자 약취·유인 + 재물 등 취득·요구'의 방조범]</span>","k":"jfs82r"},
+   {"i":"9g1cae","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: <span class=\"cs-fact-tag\">[방조 종기]</span> 방조범 = 정범 범행종료 전 언제든 성립 가능 → 전체범죄 종범 성립설 타당","k":"hsr5rf"}
+  ]},
+  {"i":"qbcbd6","o":"<div class=\"cs-h\">","h":"Ⅳ. 승계적 공동정범과 승계적 방조의 관계","k":"uswtwc"},
+  {"i":"1fquee3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[결합범 후행가담 정리]</span> 결합범 중 후행범죄 공동정범 성립 or 전체범죄 방조범 성립 문제. ① 후행범죄 부분에 공동의사에 의한 기능적 행위지배 有 → 승계적 공동정범 결론 + '부가적으로' 전체범죄 방조범 성립설도 추가 기재 추천(단 전체범죄 방조범만 성립설·양죄 상상적 경합설도 有 → 그에 따라 작성 무방) ② 후행범죄 부분에도 기능적 행위지배 X → 공동정범 문제 X → 승계적 방조만 기재","k":"wtix7t"},
+  {"i":"1amk6wc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"즉시범·상태범·계속범 구별실익:","k":"1wnzsmr"},
+  {"i":"q9acju","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[공소시효 기산점]</span> 즉시범·상태범 = 기수시(=종료시)부터 — 계속범 = 종료시부터(≠기수시X)","k":"1cu1dcd"},
+  {"i":"17f6cum","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[공동정범·방조범 성립 종기]</span> 즉시범·상태범 = 기수시(=종료시)까지(단 상태범은 불가벌적 사후행위에 공범 성립 가능) — 계속범 = 종료시까지(≠기수시X)","k":"12yyh5y"},
+  {"i":"x33i4h","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[정당방위 성립 종기]</span> 즉시범·상태범 = 기수시(=종료시)까지 — 계속범 = 종료시까지(≠기수시X)","k":"wet408"},
+  {"i":"7ykkxs","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"결합범과 신분범의 차이:","k":"1gfww3e"},
+  {"i":"t8uvt8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[전체 가담자]</span> 결합범 = ①행위+②행위 — 신분범 = ①행위자+②행위","k":"1qfbfla"},
+  {"i":"1kf2egz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[후행 가담자]</span> 결합범 = X / 승계적 공동정범(승계부정설) / X — 신분범 = O / <span class=\"cs-blue\"><span class=\"cs-u\"><strong>제33조</strong></span></span> 본문(신분의 연대작용) / O","k":"1q0bkme"},
+  {"i":"1drviza","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[범죄 귀속]</span> 결합범 = '가담부분만' 공동정범·전체범죄 공동정범 X(전체범죄 방조범 O) — 신분범 = '전체 범죄' 공동정범 성립(진정신분범이면 과형도 연대, 부진정신분범이면 과형은 개별화(判))","k":"9m0p3q"},
+  {"i":"1xn4myj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[판례 대비]</span> 결합범 = 준강도 [변사12] 특수강도강제추행 [모사23] 도주차량 — 신분범 = 결합범으로 보는 것과 선행범을 신분으로 보는 것은 후행 가담자 책임 범위에서 차이","k":"1yjur30"}
+ ]}
+]}

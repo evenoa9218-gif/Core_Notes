@@ -1,0 +1,111 @@
+{"id":"개인037","t":"준강도죄","cat":"gak_절도강도","lv":1,"tg":["A급","변사25","변사24","변사22","변사17","변사12"],"b":[
+ {"i":"1fjvvma","o":"<details class=\"cs-case\">","b":[
+  {"i":"1joad0l","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE]</strong></span></span> <span class=\"cs-exam\">【변사25】 </span><span class=\"cs-red\">(20)</span>","k":"13rct1a"},
+  {"i":"ujfsys","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"scbje6","o":"<div class=\"cs-fact\">","b":[
+    {"i":"11u2yl2","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1inla0n","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"주점 운영 甲, 종업원 乙과 공모 — 甲이 망보면 乙이 A의 가방 속 현금을 훔치기로. A가 공원 벤치에 앉자 甲이 망보기 시작, 乙이 가방을 집어드는 순간 甲은 급한 전화를 받고 주점으로 귀환. A가 가방을 들고 공원을 나가려는 乙을 목격, 100m 쫓아가 어깨·목덜미를 붙잡자 乙이 항거하려 A를 넘어뜨리고 발로 밟아 전치 6주 골절상. 甲·乙의 죄책? 단 甲은 ㉠ 판례의 입장에서 설명하고 ㉡ 그 판례법리에 대한 비판논거를 제시. (20점)","k":"uat9c9"}
+    ]}
+   ]},
+   {"i":"zvets9","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"19rhm6o","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"mbq84t","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [甲의 죄책]</strong></span>","k":"kv2f88"},
+    {"i":"xo2a4j","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(가) [특수절도죄의 성립여부]</strong>","k":"6cynsj"},
+    {"i":"17g9rui","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① '합동'의 의미 — 공모공동정범설/가중적 공동정범설/현장설/현장적 공동정범설, 판례 = 현장설","k":"ac6egj"},
+    {"i":"126vsdr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 공모 + 甲 망보기 + 乙 절취 = 현장에서 시간적·장소적 협동 → 특수절도죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1539x28"},
+    {"i":"1kmdkk0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"③ 甲은 실행 착수 후 이탈, 乙에 의해 기수 → 특수절도기수(<span class=\"cs-blue\"><span class=\"cs-u\">제331조</span> 제2항, 제1항</span>)","k":"j0bqd0"},
+    {"i":"urag6b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(나) [준강도 또는 강도상해죄의 성립여부]</strong>","k":"1a34f9z"},
+    {"i":"1nn5ua1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<strong>(A) [판례의 입장]</strong>","k":"1tdai7f"},
+    {"i":"19a617b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"① \"2인 이상 합동절도 중 1인이 체포를 면탈할 목적으로 상해를 가한 때 나머지도 이를 예기하지 못한 것으로 볼 수 없으면 강도상해죄를 면할 수 없다\"","k":"oxetyr"},
+    {"i":"z7xpfu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"② 현장의 피해자를 상대로 한 절취는 발각·추격 상황을 충분히 예견 가능 → 甲이 이미 현장을 벗어났어도 강도상해죄(<span class=\"cs-blue\"><span class=\"cs-u\">제337조</span></span>)<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1xlfxol"},
+    {"i":"1yw3r30","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<strong>(B) [판례에 대한 비판]</strong>","k":"xv4rs8"},
+    {"i":"e4a31o","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"① 준강도·강도상해죄는 각 고의범 → 준강도 공동정범은 '폭행'의, 강도상해 공동정범은 '상해'의 고의 공동이 要. 판례는 예견가능성(과실)을 기준으로 고의 공동이 없는 甲에게 고의범을 인정 → 고의·과실을 엄격 구별하는 형법 규율에 부합<span class=\"cs-x\"><strong>(X)</strong></span>, 책임주의 위반","k":"s4llty"},
+    {"i":"1321j34","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"② 공동정범(<span class=\"cs-blue\"><span class=\"cs-u\">제30조</span></span>)은 기능적 행위지배 要 → 공모도 실행분담도 없는 甲에게 기능적 행위지배<span class=\"cs-x\"><strong>(X)</strong></span>. 그 검토 없이 준강도·강도상해 공동정범을 인정함은 부당","k":"4y8dcy"},
+    {"i":"rj00yi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<strong>(C) [소결]</strong> 甲에게 '폭행'·'상해'의 고의 공동<span class=\"cs-x\"><strong>(X)</strong></span> → 특수절도죄만 성립","k":"1stgtbv"},
+    {"i":"g6uss1","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [乙의 죄책]</strong></span>","k":"b55tjk"},
+    {"i":"iab4s4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(가) [특수절도죄의 성립여부]</strong> 甲과 합동하여 절취 → 특수절도기수죄(<span class=\"cs-blue\"><span class=\"cs-u\">제331조</span> 제2항, 제1항</span>)","k":"ov1a6x"},
+    {"i":"15bmtoy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(나) [준강도죄의 성립여부]</strong>","k":"3l2piv"},
+    {"i":"1mh5f19","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 준강도(<span class=\"cs-blue\"><span class=\"cs-u\">제335조</span></span>)의 폭행·협박 = 절도의 기회, 즉 사회통념상 절도행위가 완료되지 않았다고 인정될 단계에서 행해질 것 要","k":"10mp2fe"},
+    {"i":"uaz3pw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② A가 100m 쫓아가 붙잡자 체포면탈·재물탈환 항거 목적으로 폭행 → 절도범행 완료 전 폭행 → 준강도죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"95bddy"},
+    {"i":"lq3azf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"③ 준강도/준특수강도 구별기준 — 절취태양기준설/폭행·협박태양기준설, 판례 = 폭행·협박태양기준설. 甲이 이미 이탈한 후 폭행 → 준특수강도<span class=\"cs-x\"><strong>(X)</strong></span>, 준강도<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1f3zopq"},
+    {"i":"1k02q0u","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(다) [강도상해죄의 성립여부]</strong>","k":"ev6xi6"},
+    {"i":"17huobk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 강도상해죄(<span class=\"cs-blue\"><span class=\"cs-u\">제337조</span></span>)의 '강도'에 준강도죄의 강도범인 포함","k":"614ab6"},
+    {"i":"c534po","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 미필적 고의 — 판례 = \"발생 가능성의 인식 + 발생 위험을 용인하는 내심의 의사\" 용인설. 넘어뜨린 후 발로 밟음 → 상해의 미필적 고의<span class=\"cs-o\"><strong>(O)</strong></span>","k":"215y9z"},
+    {"i":"rpouk7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"③ 乙 = 강도상해죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1ai2bd9"},
+    {"i":"1o5oh5v","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(3) [결론]</strong></span>","k":"1az60e9"},
+    {"i":"115ay5j","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 판례의 입장은 부당 → 甲은 특수절도죄 기수범만","k":"1leqy8d"},
+    {"i":"15xbl3d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 乙 = 강도상해죄","k":"1v9cfz4"}
+   ]}
+  ]}
+ ]},
+ {"i":"1r5bsnf","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1az5az3","o":"<div class=\"cs-callout\">","b":[
+   {"i":"sfnlq3","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제335조(준강도)</strong></span>","k":"10mq4q4"},
+   {"i":"k5ff0t","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>절도</strong></span>가 <span class=\"cs-u\">재물의 탈환에 항거하거나 체포를 면탈하거나 범죄의 흔적을 인멸할 목적</span>으로 <span class=\"cs-blue\"><strong>폭행</strong></span> 또는 <span class=\"cs-blue\"><strong>협박</strong></span>한 때에는 <span class=\"cs-blue\"><span class=\"cs-u\">제333조</span></span> 및 <span class=\"cs-blue\"><span class=\"cs-u\">제334조</span></span>의 예에 따른다.","k":"15qd0a7"}
+  ]},
+  {"i":"y7zg9a","o":"<div class=\"cs-callout\">","b":[
+   {"i":"1kiz9ek","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제333조(강도)</strong></span>","k":"1yy836y"},
+   {"i":"x1qg0q","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"폭행 또는 협박으로 타인의 재물을 강취하거나 기타 재산상의 이익을 취득하거나 제삼자로 하여금 이를 취득하게 한 자는 <span class=\"cs-red\">3년 이상의 <strong>유기징역</strong></span>에 처한다.","k":"1m0c54w"},
+   {"i":"86mm3c","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제334조(특수강도)</strong></span>","k":"ta371o"},
+   {"i":"opd5z3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 야간에 사람의 주거, 관리하는 건조물, 선박이나 항공기 또는 점유하는 방실에 침입하여 <span class=\"cs-blue\"><span class=\"cs-u\">제333조</span></span>의 죄를 범한 자는 <span class=\"cs-red\"><strong>무기</strong> 또는 5년 이상의 <strong>징역</strong></span>에 처한다.","k":"uepew5"},
+   {"i":"17ubpe5","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 흉기를 휴대하거나 2인 이상이 합동하여 전조의 죄를 범한 자도 전항의 형과 같다.","k":"18w87d"},
+   {"i":"1u0ghy5","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제337조(강도상해, 치상)</strong></span>","k":"148qocu"},
+   {"i":"ursleq","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"강도가 사람을 상해하거나 상해에 이르게 한때에는 <span class=\"cs-red\"><strong>무기</strong> 또는 7년 이상의 <strong>징역</strong></span>에 처한다.","k":"1gc0nqo"},
+   {"i":"ah3v1b","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제338조(강도살인·치사)</strong></span>","k":"1uh3je6"},
+   {"i":"19swzpe","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"강도가 사람을 살해한 때에는 <span class=\"cs-red\"><strong>사형</strong> 또는 <strong>무기징역</strong></span>에 처한다. 사망에 이르게 한 때에는 <span class=\"cs-red\"><strong>무기</strong> 또는 10년 이상의 <strong>징역</strong></span>에 처한다.","k":"rgb53g"},
+   {"i":"12niolq","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-blue\"><strong>제339조(강도강간)</strong></span>","k":"1yu6sx"},
+   {"i":"5mm2am","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"강도가 사람을 강간한 때에는 <span class=\"cs-red\"><strong>무기</strong> 또는 10년 이상의 <strong>징역</strong></span>에 처한다.","k":"1y64at7"}
+  ]},
+  {"i":"xoyb7a","o":"<div class=\"cs-h\">","h":"Ⅰ. 준강도의 요건 (<span class=\"cs-blue\"><span class=\"cs-u\">§335</span></span>)","k":"16ui775"},
+  {"i":"1hz2z3y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>주체 – 절도</strong></span>","k":"w7ms6q"},
+  {"i":"15um35k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용범위: <span class=\"cs-u\">주체=절도범인, 객체=재물</span>","k":"9c8xy2"},
+  {"i":"u28r5v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-def\"><strong>[미수·기수 불문]</strong></span> 절도 실행착수 이상 주체<span class=\"cs-o\"><strong>(O)</strong></span> (예비단계 그친 경우 X)<span class=\"cs-exam\">【변25·15】</span>","k":"1uo3uui"},
+  {"i":"f4ppmf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-gbg\">[교사·방조범]</span> 주체<span class=\"cs-x\"><strong>(X)</strong></span> (정범 국한) → 절도교사·방조죄 + 폭행·협박죄 실체적 경합","k":"svskds"},
+  {"i":"izfx59","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"9qoep3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-gbg\">[술값 면탈·재산상 이익 취득]</span> 준강도<span class=\"cs-x\"><strong>(X)</strong></span> — 절도 객체는 재물, 재산상 이익 취득은 절도 아님<span class=\"cs-exam\">【변15】</span>","k":"1jcx31a"},
+  {"i":"d1meh7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>절도의 기회</strong></span>","k":"gtkm31"},
+  {"i":"1hqhb1e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-u\">폭행·협박은 절도 실행 중·실행 직후·범의포기 직후로서</span> 사회통념상 범죄행위 미완료 단계에서 행해져야<span class=\"cs-exam\">【변사25】</span>","k":"7771b9"},
+  {"i":"1acptwy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例) : <span class=\"cs-u\">절도 현장, 또는 시간·장소 접착으로 피해자측 체포가능·죄적인멸 가능 상황</span> (추적태세, 체포 후 신병확보 불확실 포함) = 절도의 기회<span class=\"cs-exam\">【변26·25】</span>","k":"1jp0n04"},
+  {"i":"159etqo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"s8e6cp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[도주 중 보안요원에 붙잡혀 보안사무실 인도]</span> 절도의 기회<span class=\"cs-o\"><strong>(O)</strong></span>","k":"3bat34"},
+  {"i":"bs7ozu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[방범대원에 파출소 연행 중]</span> <span class=\"cs-o\"><strong>(O)</strong></span>","k":"152ndc4"},
+  {"i":"39vq6u","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[절도 후 10분·200m 떨어진 버스정류장에서 뒤쫓아온 피해자에 붙잡혀 집으로 돌아와 비로소 폭행]</span>","k":"1xvx7qw"},
+  {"i":"qenyvb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:48px\">","h":"절도의 기회<span class=\"cs-x\"><strong>(X)</strong></span> → 준강도<span class=\"cs-x\"><strong>(X)</strong></span>, 절도죄+폭행·협박죄 실체적 경합<span class=\"cs-exam\">【변20】【변사22】</span>","k":"l4goop"},
+  {"i":"tmjo54","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>폭행 또는 협박</strong></span>","k":"167wm1t"},
+  {"i":"1tti16y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"성립요건: 목적(<span class=\"cs-blue\"><span class=\"cs-u\">§335</span></span>) = ①재물탈환 항거 ②체포 면탈 ③범죄흔적 인멸","k":"1da27ka"},
+  {"i":"1mq129a","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"(재물탈환 항거목적) 절도가 재물을 배타적 지배로 옮긴 뒤 탈환당하지 않으려 대항","k":"b3ln1g"},
+  {"i":"mcxqdy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"폭행·협박 정도: 반항 억압할 정도 요, <span class=\"cs-gbg\">실제 억압</span>까진 <span class=\"cs-green\">불요</span>","k":"s7zlux"},
+  {"i":"14wvrj5","o":"<div class=\"cs-h\">","h":"Ⅱ. 준강도의 기수·미수","k":"1my8z0c"},
+  {"i":"13eefoq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\">《준강도의 기수·미수 판단기준》</span>","k":"3lm7i2"},
+  {"i":"l1jgb3","o":"<div class=\"cs-theory\">","b":[
+   {"i":"18useh7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①절취행위기준설 ②폭행·협박행위기준설","k":"nokzmc"},
+   {"i":"1lktha3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-glabel\">[절취행위기준설]</span> 재물탈취와 폭행·협박은 시간적 전후 차이일 뿐 위법성 동일 → 기수여부는 '절도행위'의 기수·미수 기준<span class=\"cs-exam\">【변26·25·24·23·22·19】</span>","k":"1odzhyt"},
+   {"i":"ry2y2e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 본질적 재산범죄인 점, 강도 기수·미수도 절취행위 기준인 점 → 절취행위기준설 타당","k":"1nh32q3"}
+  ]},
+  {"i":"1bskm3i","o":"<div class=\"cs-h\">","h":"Ⅲ. 준강도와 준특수강도의 구별기준<span class=\"cs-exam\">【변사25·12】</span>","k":"aucc9i"},
+  {"i":"jdfjje","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\">《'흉기 휴대'·'합동'(특수강도 요건)을 준강도의 어느 행위에 갖춰야 하는지》</span>","k":"psu3x9"},
+  {"i":"1pbhjfu","o":"<div class=\"cs-theory\">","b":[
+   {"i":"uq7xj0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>학설</strong>: ①절취태양기준설(신분적 가중유형으로 보아 절도의 가중사유 유무로 결정) ②폭행·협박태양기준설(강도처럼 폭행·협박 태양으로 구별)","k":"1gt5xs6"},
+   {"i":"3unlqr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong>: <span class=\"cs-glabel\">[폭행·협박태양기준설]</span> 처음엔 흉기 미휴대였으나 체포면탈 목적 폭행·협박 시 비로소 흉기 휴대·사용 → <span class=\"cs-blue\"><span class=\"cs-u\">§334</span></span>의 예에 의한 준강도(특수강도의 준강도)<span class=\"cs-exam\">【변26】</span>","k":"oo02qb"},
+   {"i":"awg1h2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>검토</strong>: 강도도 폭행·협박 유형에 따라 단순·특수 구별 → 준강도도 폭행·협박태양기준설 타당","k":"v7sh0u"}
+  ]},
+  {"i":"33mlh6","o":"<div class=\"cs-h\">","h":"Ⅳ. 절도 공범 중 1인의 양적 초과","k":"3uit6p"},
+  {"i":"oa9fq3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>준강도 및 강도상해죄의 공동정범</strong></span>","k":"1lh2ea6"},
+  {"i":"1g9azdx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"판단기준 (判例) : <span class=\"cs-fact-tag\">[합동절도 중 1인이 체포면탈 목적 폭행하여 상해]</span> 나머지 범인도 '예기' 못한 것으로 볼 수 없으면 강도상해죄 죄책 면할 수 X<span class=\"cs-exam\">【변17】【변사25, 모기24】</span>","k":"ahitu"},
+  {"i":"kt4vdh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[TIP·판례비판]</span> ①고의 없는 자에게 고의범 책임 불가 → 공모자 중 1인이 '공집방·방화' 등 별개 고의범죄 시, 고의 없는 자는 예견가능성 무관하게 책임 X","k":"d3w5mk"},
+  {"i":"225ze8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"②'폭행·협박'·'상해'는 고의범인데 판례가 '예견가능성'(과실·결과적가중범 요소)으로 다른 절도공범에 준강도·강도상해 인정 → 기능적 행위지배 없는 자에 고의정범 인정 문제 + 책임주의 반함","k":"bfdrfa"},
+  {"i":"1crm5wm","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"③사례답안: 판례 인정 '준강도'·'강도상해' 외 다른 고의범죄는 고의 없는 절도공범자에 인정 X<span class=\"cs-exam\">【변사25】</span>","k":"w50b83"},
+  {"i":"1k376c3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>구체적 판례</strong></span>","k":"qlhpkc"},
+  {"i":"1xuojx0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"112ti0r","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[흉기 준비]</span> 식칼 나눠갖은 특수절도범들이 발각·각기 도주 중 1인이 체포면탈 목적 상해 → 나머지도 예기 못했다 볼 수 X → 강도상해죄 책임<span class=\"cs-o\"><strong>(O)</strong></span>","k":"14j7opi"},
+  {"i":"74njo2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[발각 시 현장에 있었음]</span> 생맥주집 함께 절취 중 발각→피고인 먼저 도주, 뒤이어 도주하던 공범이 현장에서 붙잡혀 상해 → 예기 못했다 볼 수 X → 강도상해죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"1om84e4"},
+  {"i":"vp4jvl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-neg-tag\">[이미 체포된 경우]</span> 피해자가 피고인 체포·동리사람에 인계 후 1km 더 추격, 몽둥이로 공범 구타하자 공범이 몽둥이 빼앗아 상해 → 공범은 준강도상해, but 피고인은 상해 예기 못함 → 강도상해죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"jaacsl"},
+  {"i":"grnfiq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-neg-tag\">[이미 상당한 거리 도주]</span> 망보던 피고인이 인기척에 먼저 도주해버린 후 창구에 낀 공모자가 붙잡혀 상해 → 상당거리 도주로 폭행 예기 불가 → 강도상해죄 책임<span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변사24】</span>","k":"zdtm6h"},
+  {"i":"9j87d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>공무집행방해 등 '별개의 고의범'</strong></span>","k":"p2tq2k"},
+  {"i":"80vi7k","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"적용범위: <span class=\"cs-def\"><strong>[질적 초과]</strong></span> ①공모내용과 전혀 다른 별개 범죄 실행 → 다른 공범자는 초과부분 책임 X","k":"1oz9xq7"},
+  {"i":"1nbjdlq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"②공범 1인이 공무집행방해(특수공무집행방해치상) 범함 → 다른 공범자는 예견가능성 무관하게 책임 X","k":"ux9m9r"},
+  {"i":"1lbxm1p","o":"<div class=\"cs-h\">","h":"Ⅴ. 강도예비·음모죄","k":"aadh8l"},
+  {"i":"1v6ik45","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용범위: <span class=\"cs-fact-tag\">[준강도 목적뿐]</span> 강도예비·음모죄는 미필적으로라도 '강도' 목적 요 → '준강도' 목적뿐이면 처벌 X","k":"5xb45l"},
+  {"i":"19s21og","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[절도 발각 대비 도움될 정도 생각에 등산용칼 준비 → 강도예비죄 X]</span><span class=\"cs-exam\">【변25·24·22·17·15·14】</span>","k":"dvotdo"}
+ ]}
+]}

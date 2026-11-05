@@ -1,0 +1,16 @@
+{"id":"개인040","t":"강도강간, 특수강도강간","cat":"gak_절도강도","lv":1,"tg":["모사23"],"b":[
+ {"i":"lx20cg","o":"<div class=\"cs-h\">","h":"Ⅰ. 성폭법위반(강도강간)죄의 주체","k":"4xn1fv"},
+ {"i":"6y384w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용범위: 성폭법위반(특수강도강제추행)죄 = 특수강도+강제추행 '결합범'으로 특수강도 신분 취득자가 새로운 고의로 강제추행에 나아갈 때 성립 → 주체는 <span class=\"cs-blue\"><span class=\"cs-u\">§334</span></span> 특수강도범·특수강도미수범에 한정","k":"yrctne"},
+ {"i":"1k5dzgu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-blue\"><span class=\"cs-u\">§335</span></span>·<span class=\"cs-blue\"><span class=\"cs-u\">§342</span></span>의 특수강도의 준강도범·준강도미수범은 주체<span class=\"cs-x\"><strong>(X)</strong></span> <span class=\"cs-fact-tag\">[실제 '결합범']</span><span class=\"cs-exam\">【모사23】</span>","k":"1ny19lf"},
+ {"i":"12yt6ud","o":"<div class=\"cs-h\">","h":"Ⅱ. 강간범이 강도·특수강도를 실행한 경우","k":"15v4ll9"},
+ {"i":"1nwt5aj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : ①강간범이 '강간 후' 특수강도 범의로 재물 강취 → 성폭법 <span class=\"cs-blue\"><span class=\"cs-u\">§3</span>②</span> 특수강도강간죄 의율<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1n61osy"},
+ {"i":"174uewe","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"②강간범이 '강간 후' 강도 범의로 재물 강취 → 강도강간 아니라 <span class=\"cs-blue\">강간죄</span>+<span class=\"cs-blue\">강도죄</span> 경합<span class=\"cs-exam\">【변18·13】</span>","k":"1t4jtho"},
+ {"i":"1pd6n7n","o":"<div class=\"cs-h\">","h":"Ⅲ. 강간범이 강간행위 종료 전 강도·특수강도 실행 후 계속 강간","k":"1y6tj5a"},
+ {"i":"r0couv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : ①강간범이 '강간행위 종료 전 실행행위 계속 중' 강도 → 이때 강도 '신분' 취득 → 그 자리서 강간 계속 시 강도강간죄","k":"1g61zu8"},
+ {"i":"14iolzj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"②특수강간범이 강간 종료 전 '특수강도' 행위 후 그 자리서 강간 계속 → 특수강도강간죄<span class=\"cs-exam\">【변26·22·19·18·13】</span>","k":"pv3okg"},
+ {"i":"1me0xit","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"폭행·협박으로 재물 탈취한 이상 피해자가 우연히 몰라도 강도죄 성립 → 강간 목적 폭행·협박으로 반항 억압 후 그 상태 계속 이용하여 재물 탈취 시, 재물탈취용 새 폭행·협박 없어도 강도죄 성립","k":"11llgtn"},
+ {"i":"18b59gq","o":"<div class=\"cs-h\">","h":"Ⅳ. 죄수관계","k":"1x3x4c0"},
+ {"i":"1sdop6h","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"判例(죄수관계):","k":"1qecrhl"},
+ {"i":"85xxag","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[강도미수(재물 부재)+항거불능 피해자 간음 결의·강간 착수 미수+반항억압 폭행으로 상해]</span> 강도강간미수죄 + 강도치상죄 상상적 경합","k":"h52m0y"},
+ {"i":"wrjhjt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"<span class=\"cs-fact-tag\">[고의로 상해 시 강도강간미수죄 + 강도상해죄 상상적 경합]</span>","k":"1sxg3sk"}
+]}

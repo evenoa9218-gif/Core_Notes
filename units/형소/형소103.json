@@ -1,0 +1,65 @@
+{"id":"형소103","t":"사진·영상의 증거능력","cat":"pro_14","lv":1,"tg":["A급","上","변사21·18·12","모사25·24·23·22·19·16"],"b":[
+ {"i":"1pg6ia1","o":"<details class=\"cs-case\">","b":[
+  {"i":"u9shne","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(1)] 원본 삭제된 CCTV 동영상 사본(CD)의 증거능력</strong></span> <span class=\"cs-exam\">【변사18】</span>","k":"19f42be"},
+  {"i":"16j2lfj","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"4m8wvp","o":"<div class=\"cs-fact\">","b":[
+    {"i":"3gbpzh","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1ylrpxh","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"경찰관이 회사에서 甲과 乙이 만나 약속어음을 발행하는 상황이 녹화된 CCTV 동영상을 찾아 관리자의 동의를 얻어 동영상 파일을 CD에 복사한 후 임의제출받아 압수 → 이후 CCTV 동영상 보존기간 경과로 원본파일 삭제. 위 CD는 甲에 대한 업무상배임죄의 증거로 할 수 있는가? (15점)","k":"1r334xs"}
+    ]}
+   ]},
+   {"i":"jypz4i","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"9qq4ej","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1aoveqn","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [압수의 적법여부]</strong> 관리자로부터 임의제출받았으므로 압수 적법(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§218</strong></span></span>)","k":"1md05n9"},
+    {"i":"1auestz","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [증거동의]</strong> 甲이 증거동의하면 진정성이 인정되면 증거로 할 수 있음(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§318①</strong></span></span>)","k":"11x68qm"},
+    {"i":"3bf56v","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [현장사진의 증거능력]</strong> 부동의시 전문법칙 적용 여부 — 비진술증거설·진술증거설·검증조서유추적용설, 판례는 비진술증거설. 비진술증거설 타당 → 전문법칙 적용 X, 진정성(요증사실 관련성)만 있으면 증거능력 O","k":"2qb0kr"},
+    {"i":"1s6l1jk","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(4) [사본의 증거능력]</strong> CD는 사본이므로 최량증거법칙에 따라 원본의 존재·필요성·정확성 요건이 충족되면 사본 증거능력 O. 인위적 개작 없이 원본을 그대로 복사한 사본이라는 점은 해쉰값 비교가 원칙이나, 절차 관여자의 증언·진술·검증·감정 결과 등 제반 사정으로 증명 가능","k":"kkkukb"}
+   ]}
+  ]}
+ ]},
+ {"i":"1nb2rhk","o":"<details class=\"cs-case\">","b":[
+  {"i":"19f3tmn","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE(2)] 협박 문자메시지를 촬영한 사진의 증거능력 요건</strong></span> <span class=\"cs-exam\">【변사12】</span>","k":"tyosse"},
+  {"i":"i7g9ge","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"rqrjo4","o":"<div class=\"cs-fact\">","b":[
+    {"i":"7gamp8","o":"<div class=\"cs-callout\">","b":[
+     {"i":"17hnwt9","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"乙이 甲에게 \"돈을 갚지 않으면 아들을 등교 길에 유괴할 수도 있다\"는 등으로 협박하는 문자메시지를 보냄 → 甲이 乙이 보난 핸드폰 메시지를 촬영한 사진 20매를 증거로 제출, 검사가 乙을 공갈미수죄로 기소. 乙이 위 사진들에 부동의하는 경우 증거능력을 부여하기 위한 요건은? (15점)","k":"t66mgp"}
+    ]}
+   ]},
+   {"i":"1jygg4z","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1u32j8q","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"17rgd3z","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [전문법칙 적용여부]</strong> (가) [사본으로서의 사진] 비진술증거설·진술증거설·구별설, 판례는 구별설. 구별설 타당 (나) [전문법칙] 문자정보의 '내용의 진실성'이 요증사실이면 전문법칙 적용되나 '문자정보의 존재 자체'가 직접 증거이면 적용 X. 乙의 협박 문자는 존재 자체가 요증사실 → 전문법칙 적용 X","k":"1m7qxhs"},
+    {"i":"x1gal8","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [사본의 증거능력]</strong> 사진 20매는 최량증거법칙에 따라 ① 원본이 존재하거나 존재하였을 것 ② 원본 제출이 불능·곳란한 사정 ③ 원본을 정확하게 전사하였을 것을 충족하면 증거능력 O. 甲의 진술 등으로 원본을 그대로 촬영한 사진이라는 점이 입증되면 증거능력 O","k":"thq5xs"}
+   ]}
+  ]}
+ ]},
+ {"i":"1s5xpyr","o":"<div class=\"cs-callout\">","b":[
+  {"i":"fjxx5p","o":"<div class=\"cs-h\">","h":"Ⅰ. '현장사진' 촬영의 적법여부 (위수증 문제)","k":"19454dn"},
+  {"i":"tzsl72","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>'수사기관'의 영장없는 사진·영상 촬영</strong></span><span class=\"cs-exam\">【모사24·23】</span>","k":"6ir814"},
+  {"i":"hhs6f7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《수사기관이 피촬영자의 동의 없이 촬영한 현장사진이 위법수집증거에 해당하는지》</strong></span>","k":"dejut2"},
+  {"i":"1deqldf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>수사기관이 ① 현재 범행이 행하여지고 있거나 행하여진 직후이고(범죄의 현행성) ② 증거보전의 필요성 및 긴급성이 있으며 ③ 일반적으로 허용되는 상당한 방법으로 촬영한 경우(촬영방법의 상당성)라면 영장 없이 이루어졌다 하여 위법하다고 할 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span> — (사전 영장은 물론 사후영장을 받아야 하는 것도 아님)","k":"1ca5hte"},
+  {"i":"yoxrom","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[촬영방법의 상당성]</span> 통상적인 방법으로 출입하였는지, 촬영장소·대상이 <span class=\"cs-red\"><strong>사생활의 비밀과 자유 등에 대한 보호가 합리적으로 기대되는 영역</strong></span>에 속하는지 등을 종합 고려하여 신중히 판단","k":"89fx0s"},
+  {"i":"1k058mc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[불특정·다수의 출입이 가능한 장소에 통상적인 방법으로 출입하여 물리력·강제력 없이 위법행위를 확인한 경우]</span> <span class=\"cs-red\"><strong>'임의수사'의 한 방법으로 허용</strong></span> → 영장 없이 이루어졌다고 위법 X<span class=\"cs-exam\">【변25】</span>","k":"1v9v79b"},
+  {"i":"1ijq4l9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[국민신문고 민원으로 혐의가 포착된 상태에서 불특정 다수에게 공개된 클럽에 통상적 방법으로 출입하여 손님들에게 공개된 음란행위 영업 모습을 촬영]</span> 영장 없이 촬영하였더라도 <span class=\"cs-red\"><strong>촬영물·캐처 영상사진 증거능력 <span class=\"cs-o\"><strong>(O)</strong></span></strong></span>","k":"r6c5tg"},
+  {"i":"19pebd7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[무인장비에 의한 제한속도 차량의 차량번호 촬영]</span> <span class=\"cs-red\"><strong>적법</strong></span>","k":"1merg02"},
+  {"i":"1lpsmbj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[집회현장에서 범죄 발생 시 증거수집을 위한 촬영]</span> <span class=\"cs-o\"><strong>(O)</strong></span>","k":"15ov7et"},
+  {"i":"1kdirkc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>'사인'의 피촬영자 동의 없는 비밀촬영</strong></span>","k":"1nvfc4y"},
+  {"i":"1xz35ga","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[사인의 위수증 논점]</span> 수사기관이 아닌 사인이 피촬영자 동의 없이 비밀촬영한 경우에는 <span class=\"cs-red\"><strong>'사인의 위수증'의 문제</strong></span>","k":"vyakyt"},
+  {"i":"19z903j","o":"<div class=\"cs-h\">","h":"Ⅱ. 사진·영상의 전문법칙 적용여부","k":"8sa2s9"},
+  {"i":"zz2mu2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>현장사진</strong></span><span class=\"cs-exam\">【변사18, 모사25·24·22·19·16】</span>","k":"82j25q"},
+  {"i":"1i83f8e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"(피촬영자의 동의와 무관) 범행 전후·범행장면 등이 촬영된 사진·영상에 전문법칙이 적용되는지 문제","k":"1el6ai9"},
+  {"i":"1ml78w2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① <span class=\"cs-red\"><strong>비진술증거설</strong></span>(비진술증거로 전문법칙 적용 X) ② <span class=\"cs-green\"><strong>진술증거설</strong></span>(인위적 조작 위험으로 전문법칙 적용) ③ <span class=\"cs-green\"><strong>검증조서유추적용설</strong></span>(비진술증거이나 오류·조작 가능성 고려하여 수사기관·사인 촬영 모두 §312⑥ 유추적용)","k":"18km1mf"},
+  {"i":"h82xin","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 비진술증거설로 평가] 피고인이 사진의 촬영일자 부분을 조작된 것이라고 다투더라도 이 부분이 전문증거에 해당되어 별도로 증거능력이 있는지를 살펴보면 족함</strong></span> — (촬영일자 부분은 진술증거로 전문법칙 적용, 사진 전체는 비진술증거설)","k":"m0r92n"},
+  {"i":"140piah","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: 현장사진은 <span class=\"cs-u\">현장을 그대로 촬영한 것이고 사람의 진술이 존재하는 것은 아니므로</span> <span class=\"cs-red\"><strong>비진술증거설 타당</strong></span>. 다만 <span class=\"cs-red\"><strong>진정성과 관련성 요건</strong></span>은 갖추어야","k":"kvibjb"},
+  {"i":"e2qe1x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>증거물인 사진</strong></span>","k":"1xz70is"},
+  {"i":"10xkfgz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[전문법칙 X]</span> 사진 자체가 증거물인 경우 전문법칙 적용 X — (예, 음란사진·불법촬영사진)","k":"7j789"},
+  {"i":"k0406b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>범행재연 사진</strong></span>","k":"ikziek"},
+  {"i":"1s4ayyf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검증조서에 범행재연사진이 첨부된 경우 실질에 따라 피고인의 경우 <span class=\"cs-red\"><strong>§312①③ 적용</strong></span> — (피해자 등이 재연한 경우 §312④ 적용)","k":"vxiejp"},
+  {"i":"mllt5z","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>사본으로서의 사진</strong></span><span class=\"cs-exam\">【변사12】</span>","k":"1nast9v"},
+  {"i":"fvhtzw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"원래 증거로 제출되어야 하는 자료에 대한 <span class=\"cs-red\"><strong>'대체물'로 사진이 제출된 경우</strong></span> 전문법칙이 적용되는지 문제 — (예, 범행도구를 촬영한 사진)","k":"x0hszw"},
+  {"i":"1mjnvx3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① <span class=\"cs-green\"><strong>비진술증거설</strong></span> ② <span class=\"cs-green\"><strong>진술증거설</strong></span>(§315제3호) ③ <span class=\"cs-red\"><strong>구별설</strong></span>(원본증거가 진술증거인지 비진술증거인지에 따라 사본도 동일)","k":"19q6ozq"},
+  {"i":"p63776","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 구별설] 사본으로 사진이 제출된 경우 원본증거에 따라 진술증거인지 비진술증거인지를 구분</strong></span>","k":"smi4wg"},
+  {"i":"1pdzssy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: <span class=\"cs-u\">사본은 원본 대신 제출된 것이므로</span> <span class=\"cs-red\"><strong>원본의 성격에 따라 구분하는 구별설 타당</strong></span>","k":"sarp69"},
+  {"i":"11hhbdz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[전문법칙 X — 상해부위를 촬영한 사진]</span> 비진술증거로서 전문법칙 적용 X<span class=\"cs-exam\">【변24·17】</span>","k":"17ju9w0"},
+  {"i":"95pesk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[전문법칙 X — 정보통신망 반복 도달 공소사실에서 휴대전화기에 저장된 문자정보가 범행의 직접적 수단일 뿐 대체물에 해당하지 않는 경우]</span> 전문법칙 적용 여지 X. 다만 <span class=\"cs-red\"><strong>검사가 휴대전화기 화면을 촬영한 사진을 증거로 제출한 경우 → 휴대전화기를 법정에 제출할 수 없거나 곳란한 사정 + 사진의 영상이 화면에 표시된 문자정보와 정확하게 같다는 사실이 증명</strong></span>되어야(사본의 증거능력 요건)<span class=\"cs-exam\">【변26·23·21 등 빈출, 변사21】</span>","k":"rckv9r"},
+  {"i":"8l2e9v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[전문법칙 O — 피해자가 풀려난 당일 남동생에게 피고인의 협박 말을 포함하여 피해 내용을 보낸 문자메시지의 내용을 촬영한 사진]</span> <span class=\"cs-red\"><strong>증거서류 중 피해자의 진술서에 준함</strong></span> → §313에 따라 <span class=\"cs-red\"><strong>작성자인 피해자가 법정에 출석하여 자신이 작성·발송한 것과 같음을 확인하고, 동생도 그 사진이 맞다고 확인하면 성립의 진정함이 증명</strong></span>되어 증거로 할 수 있음<span class=\"cs-exam\">【변23·17】</span>","k":"btjzwa"}
+ ]}
+]}

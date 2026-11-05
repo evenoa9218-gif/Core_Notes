@@ -1,0 +1,65 @@
+{"id":"형소003","t":"제척 사유","cat":"pro_01","lv":1,"tg":["下"],"b":[
+ {"i":"1xga9l4","o":"<details class=\"cs-case\">","b":[
+  {"i":"whc6gc","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 통역인의 제척(사실혼 배우자·증인 겸 통역)</strong></span>","k":"l050hp"},
+  {"i":"1f1h0hq","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"r3uoms","o":"<div class=\"cs-fact\">","b":[
+    {"i":"2hpm4s","o":"<div class=\"cs-callout\">","b":[
+     {"i":"3aklnf","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"제1심에서 통역인 A가 피고인들에 대한 특경법위반(사기)사건에서 목격자로 증인으로 출석하여 진술하였다. 이후 통역인 A는 위 사기의 피해자인 B의 증언을 통역하였다. 그런데 통역인 A와 증인 B는 사실혼관계에 있었다. (1) 통역인 A는 제척사유가 있는가? (10점) (2) 항소심에서 증인 B에 대한 증인신문조서를 증거로 사용할 수 있는가? (5점)","k":"8ewxxb"}
+    ]}
+   ]},
+   {"i":"1vqnzbn","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"m76ll6","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"15gdhvw","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [통역인 A의 제척사유]</strong>","k":"1fnayn7"},
+    {"i":"6fohhl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① <strong>[§17제2호]</strong> A와 B는 사실혼 관계에 불과 → <span class=\"cs-green\"><strong>제척사유 해당 X</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§25①, §17제2호)</strong></span></span>(판례)","k":"1r9pu36"},
+    {"i":"xi4h5y","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② <strong>[§17제4호]</strong> 증인으로 증언한 A가 다시 통역인으로 B의 증언 통역 → <span class=\"cs-red\"><strong>제척사유 해당 O</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§25①, §17제4호)</strong></span></span>","k":"1408lsk"},
+    {"i":"1j1c1ha","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [증인신문조서의 증거능력]</strong>","k":"y21b78"},
+    {"i":"15dlpfn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"제4호 제척사유 있는 통역인이 통역한 증인 B에 대한 증인신문조서 → <span class=\"cs-red\"><strong>증거능력 X</strong></span>(판례)","k":"60234s"}
+   ]}
+  ]}
+ ]},
+ {"i":"moeitt","o":"<div class=\"cs-callout\">","b":[
+  {"i":"16b3f2y","o":"<div class=\"cs-h\">","h":"Ⅰ. 제척","k":"th6yha"},
+  {"i":"1k2xxhr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>개념 : 법관이 불공정한 재판을 할 우려가 현저한 사유를 법률이 유형적으로 규정 → 기피신청·회피 없어도 직무집행에서 당연 배제</strong></span>","k":"1qa6i8o"},
+  {"i":"t9reyb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"제척사유 있는 법관 관여시 : <span class=\"cs-red\"><strong>절대적 항소이유</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§361의5⑦)</strong></span></span> / <span class=\"cs-red\"><strong>상대적 상고이유</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§383①)</strong></span></span>","k":"uw6qmm"},
+  {"i":"9gizz7","o":"<div class=\"cs-h\">","h":"Ⅱ. §17제2호 제척사유","k":"isac5w"},
+  {"i":"1pxtact","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>통역인이 피고인·피해자의 '친족' 또는 '친족관계가 있었던 자'인 때 → 직무집행에서 배제</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§25①, §17제2호)</strong></span></span>","k":"1cg4vjv"},
+  {"i":"17jgjwr","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"om8xol","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[재판장이 피해자와 이혼한 경우]</span> 제척 <span class=\"cs-o\"><strong>(O)</strong></span>","k":"1m65b7o"},
+  {"i":"18uxqkl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[통역인이 피해자의 사실혼 배우자인 경우]</span> 제척 <span class=\"cs-x\"><strong>(X)</strong></span> — 사실혼관계에 있는 사람은 <span class=\"cs-green\"><strong>친족에 해당하지 않음</strong></span><span class=\"cs-exam\">【변16】</span>","k":"1eesi2i"},
+  {"i":"kf7gr1","o":"<div class=\"cs-h\">","h":"Ⅲ. §17제4호 제척사유","k":"1dlnoq9"},
+  {"i":"1unn9h7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>통역인이 해당 사건에 관하여 증인으로 증언한 때 → 직무집행 제척</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§25①, §17제4호)</strong></span></span><span class=\"cs-exam\">【변16】</span>","k":"3t6nsg"},
+  {"i":"1a12lal","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[제척사유 있는 통역인이 통역한 증인의 증인신문조서]</span> 유죄인정의 증거로 사용 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"1dlghqu"},
+  {"i":"1q4jpw6","o":"<div class=\"cs-h\">","h":"Ⅳ. §17제6호 제척사유","k":"1btqifm"},
+  {"i":"2pj77g","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[선거관리위원장]</span> 사법경찰관 해당 근거 없음 → §17제6호 '법관이 사건에 관하여 사법경찰관의 직무를 행한 때' 해당 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"1y5nblx"},
+  {"i":"5zszbr","o":"<div class=\"cs-h\">","h":"Ⅴ. §17제7호 제척사유(전심 관여)","k":"nfbx8x"},
+  {"i":"wh5qgt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>전심재판 관여</strong></span>","k":"d82ypp"},
+  {"i":"zzqrxd","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[전심] = '상소'에 의하여 불복이 신청된 재판</strong></span>","k":"1hi403n"},
+  {"i":"va23pw","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[전심'재판'에 관여한 때] = 전심재판의 내부적 성립에 실질적으로 관여(재판의 합의 및 판결서 작성)한 때</strong></span>","k":"k9uaut"},
+  {"i":"18ql8gl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : 전심 = <span class=\"cs-red\"><strong>불복신청을 한 '당해 사건'의 전심</strong></span>","k":"1f3jtep"},
+  {"i":"ukir07","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"6gv5c","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[재심청구사건에서 재심대상이 되는 사건]</span> 전심 해당 <span class=\"cs-x\"><strong>(X)</strong></span> → 원심재판장이 재심대상판결 제1심에 관여했어도 제척·기피 원인 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"1psj4cj"},
+  {"i":"fxlbr2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[환송판결 전 원심에 관여한 재판관이 환송 후 원심재판관으로 관여]</span> 제척 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변16】</span>","k":"b4is01"},
+  {"i":"rwe5ly","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[상고심판결을 한 법관이 상고심 판결정정절차(§400)에 관여]</span> 제척 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"mw4yaw"},
+  {"i":"1y8ofvz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>전심재판의 기초되는 조사·심리에 관여</strong></span>","k":"5k6q5m"},
+  {"i":"1v6tu3w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[전심재판의 '기초되는 조사·심리'] = 전심재판의 내용 형성에 사용될 자료의 수집·조사에 관여하여 그 결과가 전심재판의 사실인정 자료로 쓰여진 경우</strong></span>","k":"6dbx1n"},
+  {"i":"dfxt94","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해당여부 判例:","k":"q5qfip"},
+  {"i":"191kzzq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[제1심판결에서 유죄의 증거로 사용된 증거를 조사한 판사]</span> 전심재판의 기초되는 조사·심리 관여 <span class=\"cs-o\"><strong>(O)</strong></span> → 항소심 재판 관여 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"1p5yenk"},
+  {"i":"1jxhvxz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[증거를 조사한 후 경질된 판사]</span> 이에 해당 <span class=\"cs-o\"><strong>(O)</strong></span>","k":"1rrg7es"},
+  {"i":"hjlgzu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[재판의 선고에만 관여하거나 공판기일의 연기에만 관여한 때]</span> 해당 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"c2du6a"},
+  {"i":"j25n59","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[선거관리위원장으로서 수사의뢰를 한 법관이 항소심 재판]</span> 해당 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"1dlkkiy"},
+  {"i":"20hljl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[고발사실 일부에 대한 재정신청사건에 관여하여 그 신청을 '기각']</span> 나머지 부분에 대해 해당 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"ricc53"},
+  {"i":"1dw0ndt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[수사단계에서 피고인에 대하여 구속영장을 발부한 경우]</span> 해당 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"1wtm67j"},
+  {"i":"14kbqea","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[구속적부심에 관여한 법관이 그 사건 제1심재판에 관여]</span> 해당 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변16】</span>","k":"vtr14t"},
+  {"i":"94017j","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[원심 합의부원인 법관이 원심 재판장에 대한 기피신청 사건의 심리와 기각결정에 관여]</span> 해당 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"6ydltf"},
+  {"i":"143c7p","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>제척되는 재판</strong></span>","k":"1jyf0ts"},
+  {"i":"1t4afwf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[제척되는 재판] = 불복이 신청된 당해 사건의 판결절차</strong></span>","k":"1m2cxy6"},
+  {"i":"8aqgv0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[약식명령을 발부한 법관이 그 정식재판절차의 항소심 공판에 관여했다가 경질되어 그 판결에는 관여하지 않은 경우]</span> 해당 <span class=\"cs-x\"><strong>(X)</strong></span> — <span class=\"cs-fact-tag\">[전심 등]</span>에는 해당 <span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-exam\">【변24】</span>","k":"1ewt3kv"},
+  {"i":"1to9cgm","o":"<div class=\"cs-h\">","h":"Ⅵ. 검사에 대한 제척·기피·회피","k":"1ebmiaf"},
+  {"i":"1fmbjwt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《검사에 대하여 제척·기피·회피 규정을 유추적용할 수 있는지 여부》</strong></span>","k":"mj0vvw"},
+  {"i":"cjxpz3","o":"<div class=\"cs-theory\">","b":[
+   {"i":"13mlk3f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 긍정설 ② <span class=\"cs-green\"><strong>부정설</strong></span>","k":"1527pji"},
+   {"i":"hcg8ms","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 부정설로 평가] 범죄의 피해자인 검사가 그 사건의 수사에 관여하거나, 압수·수색영장의 집행에 참여한 검사가 다시 수사에 관여하였다는 이유만으로 바로 그 수사가 위법하다고 볼 수 없음</strong></span>","k":"19a5xks"},
+   {"i":"l1itjl","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: 현행법상 <span class=\"cs-u\">검사에 대한 제척 등 제도가 마련되어 있지 않음</span> → <span class=\"cs-green\"><strong>부정설 타당</strong></span>","k":"1jo59w2"}
+  ]}
+ ]}
+]}

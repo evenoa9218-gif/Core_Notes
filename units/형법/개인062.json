@@ -1,0 +1,76 @@
+{"id":"개인062","t":"배임행위의 거래상대방","cat":"gak_횡령배임","lv":1,"tg":["변사26","변사18","모사24","모사23","모기23"],"b":[
+ {"i":"ixkucy","o":"<details class=\"cs-case\">","b":[
+  {"i":"19re86t","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE(1)]</strong></span></span> <span class=\"cs-exam\">【변사26】 </span><span class=\"cs-red\">(10)</span>","k":"hr0e6m"},
+  {"i":"lhl6is","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1c09xq","o":"<div class=\"cs-fact\">","b":[
+    {"i":"jhi60m","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1s0dsk7","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲, 자금 압박 중 상속세 납부 위해 丁에게서 40억 원 차용 → 丁은 차용 목적을 알면서도 대여금 채권 담보 명목으로 S건물에 소유권이전등기청구권 가등기를 요구, S건물에 丁 명의","k":"cnkuzt"},
+     {"i":"1k4jzlr","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"가등기를 마침. 丁의 죄책에 대한 유죄와 무죄의 논거를 각각 제시하시오. (10점)","k":"v921i8"}
+    ]}
+   ]},
+   {"i":"1cesrop","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"xv8l0w","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"eda01i","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [유죄의 논거]</strong></span>","k":"p6sf37"},
+    {"i":"4hrupe","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(가) [배임죄의 교사범]</strong>","k":"1da7ftu"},
+    {"i":"llut3v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 거래상대방의 대향적 행위가 필요한 유형의 배임죄 에서는 배임 의도가 전혀 없던 실행행위자에게 배임행위를 교사하거나 전 과정에 관여하는 등 적극 가담한 경우에 한해 배임교사죄·배임죄의 공동정범<span class=\"cs-o\"><strong>(O)</strong></span>","k":"zjc1mb"},
+    {"i":"14qzyni","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 丁은 차용 목적을 알면서 A회사 소유 S건물에 가등기를 요구하고 마침 → 특경법위반(배임)죄의 교사범 성립 가능","k":"wwjrts"},
+    {"i":"x09d2s","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(나) [배임죄의 방조범]</strong> 판례와 달리, 丁이 적극 교사·가담에 이르지 않아 교사범·공동정범이 성립하지 않는 경우에도 甲의 배임행위를 직접 용이하게 하고 법익침해를 강화 → 방조범 성립 가능","k":"1xvjq6b"},
+    {"i":"10gfh52","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [무죄의 논거]</strong></span>","k":"3whmus"},
+    {"i":"1d80tri","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 거래상대방의 관여 정도가 교사범·공동정범에 이르지 않아 법질서 전체의 관점에서 사회적 상당성을 갖춘 경우에는 정범의 행위가 배임행위임을 알고 거래해 외견상 방조로 평가될 행위가 있어도 범죄를 구성할 정도의 위법성<span class=\"cs-x\"><strong>(X)</strong></span>","k":"kwnobm"},
+    {"i":"1gnkzff","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 판례에 의하면 丁이 40억 원을 대여하며 담보를 요구함은 사회적 상당성을 갖춘 행위 → 위법성<span class=\"cs-x\"><strong>(X)</strong></span> → 특경법위반(배임)죄의 방조범<span class=\"cs-x\"><strong>(X)</strong></span>","k":"j92e4u"}
+   ]}
+  ]}
+ ]},
+ {"i":"mxv8k3","o":"<details class=\"cs-case\">","b":[
+  {"i":"19gudy7","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE(2)]</strong></span></span> <span class=\"cs-exam\">【변사26】 </span><span class=\"cs-red\">(18)</span>","k":"1qnl26d"},
+  {"i":"12skaxx","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1yjunov","o":"<div class=\"cs-fact\">","b":[
+    {"i":"hshjvb","o":"<div class=\"cs-callout\">","b":[
+     {"i":"14f6nmu","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"A회사 1인주주·대표이사 甲, A회사 소유 S건물 부지에 건물을 신축하려 했으나 자금 조달이 어렵고 A회사 발행 약속어음(액면가 3억 원) 할인도 여의치 않자, A회사 기술담당 이사 乙 및 신용도 높은 B주식회사 대표이사 丙에게 사례금을 주고 B회사 배서를 받아 은행에서 할인받기로 합의. 乙이 甲 보관 A회사 비자금 2,000만 원을 건네받아 丙에게 주며 배서를 부탁 → 丙은 돈을 받고 A회사의 자금지급 능력이 없음을 알면서 어음에 B회사 명의로 배서.","k":"54n6wp"},
+     {"i":"lzokqf","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲, 乙, 丙의 죄책은? (18점)","k":"6875u1"}
+    ]}
+   ]},
+   {"i":"1658ps8","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1crxo41","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"ofobtz","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [丙의 죄책]</strong></span>","k":"1j2ph2r"},
+    {"i":"a6sob7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(가) [업무상배임죄]</strong>","k":"1bv96iq"},
+    {"i":"padxwz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 주식회사 이사가 타인 발행 약속어음에 회사 명의로 배서할 때 그 타인의 어음금 지급능력이 없어 회사에 손해가 발생하리라는 점을 알면서 나아갔다면 회사에 대한 배임행위","k":"146phcr"},
+    {"i":"a5wy6z","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 丙은 A회사의 자금지급능력이 없음을 알면서 B회사 명의로 배서 → 업무상배임죄(<span class=\"cs-blue\"><span class=\"cs-u\">제356조</span>, <span class=\"cs-u\">제355조</span> 제2항, 제1항</span>) [대표권 남용의 법리에 따라 답안을 작성할 수도 있다. 이 경우에도 어음할인을 위한 것이므로 유통되었다고 볼 수 있어 기수범이 성립한다.]","k":"vp60vf"},
+    {"i":"1evmmko","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(나) [배임수재죄]</strong>","k":"hjv9oe"},
+    {"i":"1xe4jod","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① '부정한 청탁' = 사회상규 또는 신의성실의 원칙에 반하는 내용이면 족","k":"168lt9s"},
+    {"i":"7nrcwe","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 임무에 위배해 B회사와 무관한 A회사 발행 약속어음에 배서해 달라는 부정한 청탁을 받고 2,000만원 취득 → 배임수재죄(<span class=\"cs-blue\"><span class=\"cs-u\">제357조</span> 제1항</span>)","k":"1clud3d"},
+    {"i":"1thpcfv","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(다) [결론]</strong> 丙 = 업무상배임죄 + 배임수재죄의 실체적 경합","k":"luskn4"},
+    {"i":"5mwcmq","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [甲, 乙의 죄책]</strong></span>","k":"1ac1hou"},
+    {"i":"1mfixi4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(가) [업무상배임교사죄]</strong>","k":"6us35q"},
+    {"i":"rlulpj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<strong>(A) [교사범의 성립여부]</strong>","k":"m291cj"},
+    {"i":"acgfgp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"① 거래상대방의 대향적 행위가 필요한 유형의 배임죄에서는 배임 의도가 전혀 없던 실행행위자에게 교사하거나 전 과정에 관여하는 등 적극 가담한 경우에 한해 배임교사죄·배임죄의 공동정범<span class=\"cs-o\"><strong>(O)</strong></span>","k":"bnb3ee"},
+    {"i":"cjr0ih","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"② 甲·乙이 공모해 배임 결의가 전혀 없던 丙에게 사례금까지 주며 배서하게 함 → 각 교사범<span class=\"cs-o\"><strong>(O)</strong></span>","k":"19n7mkn"},
+    {"i":"12qjew8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<strong>(B) [공범과 신분]</strong>","k":"vr8f5l"},
+    {"i":"1sqtpji","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"① 업무자·타인의 사무처리자라는 이중 신분이 없는 자가 업무상배임죄를 교사한 경우 — 진정·부진정신분범구별설/성립·과형 구별설, 판례 = 성립·과형 구별설. 단서는 본문의 적용을 전제한다고 해석함이 문언에 충실 → 성립·과형 구별설 타당","k":"vjmhhz"},
+    {"i":"63ryzq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"② 甲·乙 = <span class=\"cs-blue\"><span class=\"cs-u\">제33조</span></span> 본문에 의해 각 업무상배임교사죄(<span class=\"cs-blue\"><span class=\"cs-u\">제356조</span>, <span class=\"cs-u\">제355조</span> 제2항, <span class=\"cs-u\">제31조</span> 제1항</span>) 성립, <span class=\"cs-blue\"><span class=\"cs-u\">제33조</span></span> 단서에 의해 각 배임교사죄(<span class=\"cs-blue\"><span class=\"cs-u\">제355조</span> 제2항, <span class=\"cs-u\">제31조</span> 제1항</span>)의 형으로 처벌","k":"1d3aozs"},
+    {"i":"1dgaqvn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(나) [업무상횡령죄]</strong>","k":"12uupau"},
+    {"i":"x55q01","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 공동정범(<span class=\"cs-blue\"><span class=\"cs-u\">제30조</span></span>) = 공동가공의 의사 + 공동의사에 의한 기능적 행위지배를 통한 실행","k":"182kcag"},
+    {"i":"ggkwbc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 회사 이사 등이 업무상 임무에 위배해 보관 중인 회사 자금으로 부정한 청탁을 하고 배임증재를 하면 회사에 대해 업무상횡령죄를 면하지 못함","k":"1kcw20b"},
+    {"i":"e26ij7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"③ 甲이 보관하던 비자금 2,000만 원을 乙에게 주고 乙이 丙에게 전달·배서 부탁 → 각 기능적 행위지배로 실행행위 분담","k":"18mhxbe"},
+    {"i":"4uvdq9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"④ 甲·乙 = 각 업무상횡령죄의 공동정범(<span class=\"cs-blue\"><span class=\"cs-u\">제356조</span>, <span class=\"cs-u\">제355조</span> 제1항, <span class=\"cs-u\">제30조</span></span>)","k":"1agjuj6"},
+    {"i":"2rjnpc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(다) [배임증재죄]</strong> 甲·乙은 배임증재를 공모하고 실행행위를 분담 → 각 배임증재죄의 공동정범(<span class=\"cs-blue\"><span class=\"cs-u\">제357조</span> 제2항, 제1항, <span class=\"cs-u\">제30조</span></span>)","k":"1af3k3g"},
+    {"i":"1aa29qd","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(3) [결론]</strong></span>","k":"1az60e9"},
+    {"i":"1aws9kp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 丙 = 업무상배임죄 + 배임수재죄의 실체적 경합","k":"1izz9gz"},
+    {"i":"1wbzkj7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 甲·乙 = 각 업무상배임교사죄 (단, 배임교사죄의 형으로 처벌) + 업무상횡령죄 공동정범 + 배임증재죄 공동정범의 실체적 경합","k":"1ntdpso"}
+   ]}
+  ]}
+ ]},
+ {"i":"9qlfe0","o":"<div class=\"cs-callout\">","b":[
+  {"i":"eszt4f","o":"<div class=\"cs-h\">","h":"Ⅰ. '거래상대방'의 공동정범 또는 교사범 성립가능성 [변사26·18, 모사24·23]","k":"1uzycte"},
+  {"i":"27dtis","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"원칙 : <span class=\"cs-u\">대향적 행위 필요 유형 배임죄에서 거래상대방은 별개 이해관계로 반대편에서 독자 거래</span> → 수익자는 <span class=\"cs-green\"><strong>배임죄 공범<span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"oirzms"},
+  {"i":"1rkn5yi","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"↔ 예외 : 실행행위자 행위가 본인에 대한 배임임을 인식한 상태에서, 배임 의도 전혀 없던 실행행위자에게 배임 교사하거나 전 과정 관여 등 '적극 가담'한 경우에 한해 공동정범 인정<span class=\"cs-exam\">【변19·18】</span>","k":"1fmbkhq"},
+  {"i":"10im4ho","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-gbg\">[소극적으로 배임행위에 편승하여 이익 취득한 것만으로는 공동정범 X]</span>","k":"wf0kvh"},
+  {"i":"1cmctd5","o":"<div class=\"cs-h\">","h":"Ⅱ. '거래상대방'의 배임방조죄 [변사26, 모기23]","k":"zkslmo"},
+  {"i":"1vyd9by","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : 거래상대방 관여가 교사·공동정범 정도에 이르지 않고 법질서 전체 관점상 사회적 상당성 갖춘 경우 → 배임임을 알고 거래하여 외견상 방조로 평가될 행위 있어도 위법성 X<span class=\"cs-exam\">【변사26, 모기23】</span>","k":"1bixo25"},
+  {"i":"1dejl88","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"nypwew","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[1인회사 주주가 개인 상속세 위해 법인부동산 담보제공하는 사정 알면서 가등기 요구·경료받은 거래상대방]</span> <span class=\"cs-green\"><strong>배임방조<span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변사26】</span>","k":"flh7m7"},
+  {"i":"12hc9ek","o":"<div class=\"cs-h\">","h":"Ⅲ. 거래상대방의 장물취득죄","k":"15eqda1"},
+  {"i":"1lrzwhj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용 判例:","k":"z2xd5k"},
+  {"i":"87ghtt","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-neg-tag\">[배임으로 영득한 것은 재산상 이익, 배임에 제공된 대지는 범죄로 영득한 것 자체 X]</span> 취득·전득자에 <span class=\"cs-green\"><strong>장물취득죄<span class=\"cs-x\"><strong>(X)</strong></span></strong></span> (배임 가공 여부는 별론)<span class=\"cs-exam\">【변14】</span>","k":"iiv2m8"}
+ ]}
+]}

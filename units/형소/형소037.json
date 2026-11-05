@@ -1,0 +1,42 @@
+{"id":"형소037","t":"[피고인] 법원의 구속 절차","cat":"pro_04","lv":1,"tg":["下"],"b":[
+ {"i":"1qnl54f","o":"<details class=\"cs-case\">","b":[
+  {"i":"y3gsz8","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 소송기록이 제1심에 있을 때 원심법원이 한 구속</strong></span>","k":"uil49u"},
+  {"i":"1s6z509","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"8fht77","o":"<div class=\"cs-fact\">","b":[
+    {"i":"se39t7","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1myf7ch","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲이 상해죄로 불구속 기소되어 공판정에 불출석 → 제1심 징역 1년 선고 → 甲 항소 → 소송기록이 아직 제1심에 있을 때 제1심 법원이 甲에 대한 구속영장을 발부·구속. 제1심 법원의 구속은 적법한가? (구속사유 존재, 구속절차 위법 X) (10점)","k":"2rduvm"}
+    ]}
+   ]},
+   {"i":"1q3u8tw","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"1dwd9bh","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"mql912","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§105</strong></span></span> 및 규칙<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§57①</strong></span></span>.","k":"1khvq0n"},
+    {"i":"k85adp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 판결선고 후 원심법원이 상소제기 후 소송기록 송부 전에 '구속' 가부 — 긍정설(소송기록송부기준설), 긍정설(상소제기기준설), 부정설(상소제기기준설). 판례는 긍정설(상소제기기준설)","k":"1o7sjtb"},
+    {"i":"1p2kzs4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§105</strong></span></span>는 구속 관련 규정 → 긍정설(상소제기기준설) 타당","k":"17c9gw3"},
+    {"i":"kcl2ae","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"④ 원심법원의 구속 적법","k":"8mvmsy"}
+   ]}
+  ]}
+ ]},
+ {"i":"1v1uk9i","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1mmsuz4","o":"<div class=\"cs-h\">","h":"Ⅰ. 주체","k":"th6umb"},
+  {"i":"nibtre","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>수소법원 직권</strong></span>","k":"1t444ux"},
+  {"i":"a6q5sk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[직권]</span> 법원은 피고인을 구속 <span class=\"cs-o\"><strong>(O)</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§70①)</strong></span></span> — 수사기관의 피의자 구속은 <span class=\"cs-green\"><strong>검사의 청구</strong></span>에 의하지만, 수소법원의 피고인 구속은 <span class=\"cs-red\"><strong>법원이 직권으로</strong></span>","k":"1q42trh"},
+  {"i":"1e6v8ni","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>판결선고 후 원심법원의 구속 가능여부</strong></span><span class=\"cs-exam\">【모사13】</span>","k":"1vdbb0v"},
+  {"i":"10m1plc","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《규칙§57①이 §105에 기재되어 있지 않은 '구속'·'보석의 취소'까지 포함하고 있는데, 이 '규칙'에 의하여 원심법원이 상소가 제기된 후 소송기록이 송부되기 전에 '구속' 또는 '보석의 취소'를 할 수 있는지 여부》</strong></span>","k":"11z2iee"},
+  {"i":"1n05xza","o":"<div class=\"cs-theory\">","b":[
+   {"i":"12pr6n6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 긍정설(이심의 효력에 관한 <span class=\"cs-red\"><strong>소송기록송부기준설</strong></span>의 입장에서 원심법원이 할 수 있다) ② <span class=\"cs-red\"><strong>긍정설</strong></span>(이심의 효력에 관한 <span class=\"cs-red\"><strong>상소제기기준설</strong></span>의 입장에서 상소법원이 권한을 행사할 수 없다는 현실적 한계를 고려하여 원심법원이 할 수 있다) ③ 부정설(상소제기기준설의 입장에서 §105는 예외규정이므로, 대법원규칙인 형사소송규칙에 의해 원심법원이 구속 또는 보석의 취소를 할 수는 없다)","k":"1yq6b1i"},
+   {"i":"1knz1hf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 상소제기기준설의 입장에서 긍정설] 상소제기 후 소송기록이 상소법원에 도달하지 않고 있는 사이에는 피고인을 구속할 필요가 있는 경우에도 기록이 없는 상소법원에서 구속의 요건이나 필요성 여부에 대한 판단을 하여 구속하는 것이 실질적으로 불가능 → 상소기간 중 또는 상소 중의 사건에 관한 피고인의 구속을 소송기록이 상소법원에 도달하기까지는 원심법원이 하도록 규정한 규칙§57①이 §105의 규정에 저촉된다고 보기는 어려움</strong></span>","k":"83sa42"},
+   {"i":"uhb4s7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: <span class=\"cs-u\">§105는 구속 관련된 규정으로</span> '구속' 또는 '보석의 취소'가 규정되어 있지 않다고 하여 이를 배제하는 것으로 볼 수 없음 → <span class=\"cs-red\"><strong>긍정설(상소제기기준설) 타당</strong></span>","k":"1xwn611"}
+  ]},
+  {"i":"a0z9of","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 상소제기기준설] 형사사건에 있어 항소법원의 소송계속은 제1심판결에 대한 '항소에 의하여 사건이 이심된 때'로부터 그 법원의 판결에 대하여 '상고가 제기되거나 그 판결이 확정되는 때'까지 유지</strong></span>","k":"1ww9ulk"},
+  {"i":"1f35o9r","o":"<div class=\"cs-h\">","h":"Ⅱ. '사전' 청문절차 (구속영장 발부 전)","k":"xk1tuz"},
+  {"i":"11rjqx3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"피고인에 대하여 <span class=\"cs-red\"><strong>범죄사실의 요지, 구속의 이유와 변호인을 선임할 수 있음</strong></span>을 말하고 <span class=\"cs-red\"><strong>변명할 기회</strong></span>를 준 후가 아니면 구속 <span class=\"cs-x\"><strong>(X)</strong></span>. 다만 <span class=\"cs-green\"><strong>피고인이 도망한 경우</strong></span>에는 그러하지 아니함<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§72)</strong></span></span>","k":"1v9mh00"},
+  {"i":"s8pczx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[발부결정 위법]</span> §72는 피고인을 구속함에 있어서 법관에 의한 <span class=\"cs-red\"><strong>'사전' 청문절차</strong></span>를 규정한 것으로서, 법원이 사전에 위 규정에 따른 절차를 거치지 아니한 채 구속영장을 발부하였다면 <span class=\"cs-green\"><strong>'발부결정'이 위법</strong></span>","k":"1r771g7"},
+  {"i":"11rq1eq","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[예외 — 이미 변호인을 선정하여 공판절차에서 변명과 증거의 제출을 다하고 그의 변호 아래 판결을 선고받은 경우 등]</span> §72는 피고인의 <span class=\"cs-red\"><strong>절차적 권리를 보장하기 위한 규정</strong></span>이므로 절차적 권리가 실질적으로 보장되었다고 볼 수 있는 경우에는 절차의 전부 또는 일부를 거치지 아니한 채 구속영장을 발부하였더라도 <span class=\"cs-red\"><strong>발부결정이 위법 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"j4t4xf"},
+  {"i":"cuv5sk","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[예외 X — 검사가 모두진술에 의하여 공소사실 등을 낭독하고 피고인과 변호인이 모두진술에 의하여 공소사실의 인정 여부 및 이익이 되는 사실 등을 진술하였다는 점]</span> 그것만으로는 절차적 권리가 <span class=\"cs-green\"><strong>실질적으로 보장되었다고 보기 어려움</strong></span>","k":"zmkfgq"},
+  {"i":"d3zwdo","o":"<div class=\"cs-h\">","h":"Ⅲ. 발부된 구속영장의 집행 절차","k":"75heks"},
+  {"i":"if0lc1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[영장 제시 및 사본교부]</span> 체포영장의 집행과 동일<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§85①)</strong></span></span> — (법원의 피고인 구속에 관한 §85가 체포영장에 의한 체포, 피의자 구속에 준용된다)","k":"a0aadd"},
+  {"i":"o2lkc3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[미란다 원칙 고지]</span> 피고인을 구속한 때에는 <span class=\"cs-red\"><strong>즉시 공소사실의 요지와 변호인을 선임할 수 있음</strong></span>을 알려야 함<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§88)</strong></span></span>","k":"oblwkp"},
+  {"i":"15ffp42","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[사후청문절차]</span> §88은 <span class=\"cs-red\"><strong>사후 청문절차</strong></span>에 관한 규정으로서 이를 위반하였다 하여 <span class=\"cs-green\"><strong>구속영장의 효력에 어떤 영향을 미치는 것 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span> — (구속영장의 '집행' 위법)","k":"rjfwam"},
+  {"i":"1aixdtz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[구속의 통지]</span> 체포영장의 집행과 동일<span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§87①②)</strong></span></span>","k":"qpzj4y"}
+ ]}
+]}

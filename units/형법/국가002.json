@@ -1,0 +1,53 @@
+{"id":"국가002","t":"부작위범인 직무유기죄와 작위범의 관계","cat":"gak_국가공무원","lv":1,"tg":["변사26","모사22","모사16","모기23"],"b":[
+ {"i":"gd6sql","o":"<details class=\"cs-case\">","b":[
+  {"i":"1wp4198","o":"<summary>","h":"<span class=\"cs-red\"><span class=\"cs-u\"><strong>[CASE] 진술조서 파쇄·허위 불송치결정서 작성</strong></span></span> <span class=\"cs-exam\">【변사26】 </span><span class=\"cs-red\">(15)</span>","k":"10o2k7c"},
+  {"i":"146rm4r","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"5kj9a9","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1b3xbcp","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1mciwiz","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲의 절도죄·장물취득죄를 수사하던 사법경찰관 戊, 甲의 아버지가 자신이 좋아하는 영화배우임을 알고 사건을 무마하려 절도 피해자 丁에 대한 진술조서를 파쇄하고, 불송치 결정서에 '丁이 소환에 불응하여 조사를 할 수 없었다'고 기재해 수사기록에 편철.","k":"d9ipui"},
+     {"i":"t6qn2","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"戊의 죄책을 논하시오. (15점) [범인은닉의 점은 논외로 함]","k":"5jmqsu"}
+    ]}
+   ]},
+   {"i":"1ot1692","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"ydablr","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1st6lil","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(1) [피해자 丁에 대한 진술조서 파쇄한 행위]</strong></span>","k":"1b5ckjb"},
+    {"i":"10ahx0w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(가) [공용서류손상죄]</strong>","k":"19r57v3"},
+    {"i":"1l3v8jn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 공무소에서 사용하는 서류를 손상·은닉하거나 기타 방법으로 효용을 해하면 성립(<span class=\"cs-blue\"><span class=\"cs-u\">제141조</span> 제1항</span>)","k":"e2e8ha"},
+    {"i":"1bg2hla","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 戊는 공무소 사용 서류인 丁에 대한 진술조서를 파쇄 → 공용서류손상죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"15fwiy6"},
+    {"i":"9eau6j","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(나) [증거인멸죄]</strong>","k":"147jfar"},
+    {"i":"4cpbjn","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 타인의 형사사건·징계사건에 관한 증거를 인멸하면 성립(<span class=\"cs-blue\"><span class=\"cs-u\">제155조</span> 제1항</span>)","k":"amw8u3"},
+    {"i":"cmb2jj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 甲의 절도죄·장물취득죄의 증거인 丁 진술조서를 파쇄 → 증거인멸죄<span class=\"cs-o\"><strong>(O)</strong></span>","k":"mpnq0s"},
+    {"i":"ax75ty","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(다) [소결]</strong> 진술조서 파쇄라는 1개의 행위 → 공용서류손상죄와 증거인멸죄의 상상적 경합(<span class=\"cs-blue\"><span class=\"cs-u\">제40조</span></span>)","k":"17abfso"},
+    {"i":"694h5x","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(2) [허위 내용의 불송치 결정서를 작성·비치한 행위]</strong></span>","k":"cs64fr"},
+    {"i":"a63zf3","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(가) [직무유기죄]</strong>","k":"68k3dv"},
+    {"i":"psqcxu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 직무유기죄는 부진정부작위범 → 부작위로도 범할 수 있음","k":"4sk5kn"},
+    {"i":"3ckiob","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 절도죄 증거가 충분해 검사에게 송치해야 함에도 정당한 이유 없이 직무를 유기하고 송치하지 않음 → 일응 부작위에 의한 직무유기죄(<span class=\"cs-blue\"><span class=\"cs-u\">제122조</span></span>)","k":"17gzxiu"},
+    {"i":"bwek05","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(나) [허위공문서작성죄 및 동행사죄]</strong> 공문서인 불송치 결정서에 허위 내용을 기재한 뒤 수사기록에 편철 → 허위공문서작성죄(<span class=\"cs-blue\"><span class=\"cs-u\">제227조</span></span>) + 허위작성공문서행사죄(<span class=\"cs-blue\"><span class=\"cs-u\">제229조</span></span>)의 실체적 경합","k":"1bkyudm"},
+    {"i":"1c6kp12","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>(다) [죄수관계]</strong>","k":"1yfsr3y"},
+    {"i":"cafgvy","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"① 공무원이 위법사실을 발견하고도 직무상 의무에 따른 적절한 조치 없이 적극적으로 은폐할 목적으로 허위공문서를 작성·행사한 경우 직무위배의 위법상태는 허위공문서작성 당시부터 그 속에 포함 → 작위범인 허위공문서작성·동행사죄만 성립, 부작위범인 직무유기죄는 별도 성립<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1drkb15"},
+    {"i":"1g6bioo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"② 戊는 甲의 절도범행을 적극 은폐할 목적으로 허위공문서를 작성·행사 → 직무유기죄<span class=\"cs-x\"><strong>(X)</strong></span>","k":"1bnvwt8"},
+    {"i":"fx1a90","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\"><strong>(3) [결론]</strong></span> 戊 = 공용서류손상죄·증거인멸죄의 상상적 경합 + 허위공문서작성죄 + 허위작성공문서행사죄, 이들 상호간 실체적 경합","k":"ypak95"}
+   ]}
+  ]}
+ ]},
+ {"i":"2nfbes","o":"<div class=\"cs-callout\">","b":[
+  {"i":"2w41fi","o":"<div class=\"cs-h\">","h":"Ⅰ. 기본 구조","k":"9awihr"},
+  {"i":"1bw4wk7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"판단기준 (判例) : <span class=\"cs-fact-tag\">[판례 기본 문구]</span> 직무위배 위법상태가 (허위공문서작성행위, 범인도피행위, 증거인멸행위, 위계에 의한 공무집행방해행위) 속에 포함 → 작위범(허위공문서작성 및 동행사죄, 범인도피죄, 증거인멸죄, 위계공무집행방해죄)만 성립하고 <span class=\"cs-green\"><strong>부작위범 직무유기죄는 따로 성립 X</strong></span>","k":"1xl7dl3"},
+  {"i":"fy55ch","o":"<div class=\"cs-h\">","h":"Ⅱ. 직무유기죄와 허위공문서작성죄","k":"1gbd2s2"},
+  {"i":"1kxzzgg","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"判例(죄수관계):","k":"1qecrhl"},
+  {"i":"1yzwtow","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[위법사실 은폐 목적]</span> 공무원이 위법사실 발견하고도 적절 조치 X ·적극 은폐 목적 허위공문서 작성·행사 → 직무위배 위법상태 허위공문서작성 당시부터 포함, <span class=\"cs-red\"><strong>작위범 허위공문서작성·동행사죄만 성립</strong></span>·<span class=\"cs-green\"><strong>직무유기죄 따로 성립 X</strong></span><span class=\"cs-exam\">【변24】【변사26】</span>","k":"emmqu7"},
+  {"i":"1d28hc4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[위법사실 은폐 목적]</span> ① 예비군 중대장이 소속 대원 훈련불참사실 알고도 대대장 보고 등 조치 X ·고의 은폐 목적 참석한 양 허위 학급편성명부 작성·행사","k":"10y4u6q"},
+  {"i":"2dradf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"② 경찰관이 도박범행 적발하고도 상관 보고·형사입건 등 조치 X ·은폐 목적 근무일지 허위 작성·행사","k":"1vhh63i"},
+  {"i":"qsuc7f","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"③ 공무원이 신축건물 착공·준공검사 후 허가조건 위배사실 숨기려 허위 복명서 작성·행사","k":"1m28ipj"},
+  {"i":"ek45he","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:32px\">","h":"→ <span class=\"cs-red\"><strong>각 작위범 허위공문서작성죄·동행사죄만 성립</strong></span>, <span class=\"cs-green\"><strong>부작위범 직무유기죄 성립 X</strong></span>","k":"1rs6cft"},
+  {"i":"1wo2e8x","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"<span class=\"cs-fact-tag\">[위법사실 은폐 목적 아닌 경우]</span> 복명서·심사의견서 허위작성이 농지일시전용허가 신청 허가해 주기 위한 것 → 농지불법전용 은폐 목적 아니므로 허위공문서작성·동행사죄와 직무유기죄는 '실체적 경합범'<span class=\"cs-exam\">【모기23】</span>","k":"pkwqcr"},
+  {"i":"194gei5","o":"<div class=\"cs-h\">","h":"Ⅲ. 직무유기죄와 범인도피죄<span class=\"cs-exam\">【모사22·16】</span>","k":"7ib6od"},
+  {"i":"darlq4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"判例(죄수관계): 검사로부터 범인 검거 지시받고도 적절 조치 X ·오히려 범인에게 전화로 도피 권유하여 도피케 함 → 직무위배 위법상태 범인도피행위 속 포함, <span class=\"cs-red\"><strong>작위범 범인도피죄만 성립</strong></span>·<span class=\"cs-green\"><strong>직무유기죄 따로 성립 X</strong></span><span class=\"cs-exam\">【변22·19】</span>","k":"1atzafy"},
+  {"i":"1s7j8aa","o":"<div class=\"cs-h\">","h":"Ⅳ. 직무유기죄와 증거인멸죄","k":"1i65674"},
+  {"i":"eo7y2q","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"判例(죄수관계): 경찰서 과장이 부하직원으로부터 오락실 단속 증거물(변조 기판) 압수 보고받고도 수사계 인계·검찰 송치 등 조치 X ·오히려 압수 변조 기판 돌려주라 지시하여 오락실 업주에게 반환 → 직무위배 위법상태 증거인멸행위 속 포함, <span class=\"cs-red\"><strong>작위범 증거인멸죄만 성립</strong></span>·<span class=\"cs-green\"><strong>직무유기죄 따로 성립 X</strong></span><span class=\"cs-exam\">【변22·18·15】【변사26】</span>","k":"xnsnxe"},
+  {"i":"m24kqi","o":"<div class=\"cs-h\">","h":"Ⅴ. 직무유기죄와 위계공무집행방해죄","k":"1ogbzce"},
+  {"i":"1raqdr2","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"判例(죄수관계): 출원인이 어업허가 받을 수 없는 자임 알면서 적절 조치 X ·오히려 부하직원으로 어업허가 처리 기안문 작성케 한 뒤 스스로 중간결재하여 국장 최종결재 받음 → 직무위배 위법상태 위계공무집행방해행위 속 포함, <span class=\"cs-red\"><strong>작위범 위계공무집행방해죄만 성립</strong></span>·<span class=\"cs-green\"><strong>직무유기죄 따로 성립 X</strong></span>","k":"55qjrc"},
+  {"i":"1ufkzo9","o":"<div class=\"cs-h\">","h":"Ⅵ. 검사의 공소제기","k":"14ky7cf"},
+  {"i":"n6fiv0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"적용범위: <span class=\"cs-def\"><span class=\"cs-u\">① 하나의 행위가 부작위범 직무유기죄와 작위범 범인도피죄 구성요건 동시 충족 시,</span></span> 공소제기권자는 재량으로 작위범 범인도피죄로 공소 X하고 부작위범 직무유기죄로만 공소 제기 가능 ② 허위공문서작성죄·동행사죄도 동일 <span class=\"cs-fact-tag\">[하나의 행위가 작위범과 부작위범 구성요건 동시 충족 가능<span class=\"cs-o\"><strong>(O)</strong></span>]</span><span class=\"cs-exam\">【변22·13·12】</span>","k":"164v0ul"}
+ ]}
+]}

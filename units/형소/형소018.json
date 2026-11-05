@@ -1,0 +1,49 @@
+{"id":"형소018","t":"수사의 조건 - 수사의 필요성과 상당성","cat":"pro_03","lv":1,"tg":["中","변사25","모사24·18·17·13"],"b":[
+ {"i":"f1zt2a","o":"<details class=\"cs-case\">","b":[
+  {"i":"1phdqjn","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 친고죄 고소 전 별건 임의출석 조사 중 긴급체포</strong></span> <span class=\"cs-exam\">【변사25】</span>","k":"1lk38tk"},
+  {"i":"v92wic","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"w7x19a","o":"<div class=\"cs-fact\">","b":[
+    {"i":"3ng4rq","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1fzjdwl","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"甲이 단독 소유 빌라 임차인인 사촌동생 C와 갈등하자 도어락 비밀번호 변경 → P2가 C의 고소 없이 甲을 별건 혐의로 임의출석 조사하던 중 권리행사방해 혐의 인지 → 조사 중 변명이 받아들여지지 않자 화내며 귀가하려는 甲을 긴급체포. P2의 수사의 적법성은? (12점)","k":"vgieq3"}
+    ]}
+   ]},
+   {"i":"18kiyh","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"ho32u8","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1cf8kp1","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [친고죄 고소전 수사의 적법성]</strong> ① 甲·C = 비동거 4촌 혈족 → 권리행사방해죄는 상대적 친고죄 ② 학설 및 판례. ③ C의 고소의사 없음 명백·고소기간 도과·고소취소 등 사정 X → 甲을 입건·조사한 것 적법","k":"ket9mo"},
+    {"i":"1akpfsq","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [긴급체포의 적법성]</strong> (가) [자진출석과 긴급체포] 부정설도 있으나 일률적 부정 X, 긴급체포 요건 충족 여부에 따라 판단 타당. 판례도 동일 (나) [긴급체포의 적법여부] ① 요건 = 범죄의 중대성 + 혐의 상당성 + 필요성(구속사유) + 긴급성(<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§200의3①</strong></span></span>) ② 체포 당시 상황 기준 판단, 수사주체에 상당한 재량 ③ 권리행사방해죄 = 5년 이하 징역(형법<span class=\"cs-blue\"><span class=\"cs-u\"><strong>§323</strong></span></span>) → 중대성 O / 조사 중 혐의 인지 → 상당성 O / 자기 소유 도어락 변경 → 중형 예상 어렵고 빌라 단독소유자 → 도주 우려 X + 친고죄 고소 없어 증거인멸 우려 X → 필요성 X / 체포영장 받을 시간 없을 정도의 긴급성 X ④ 긴급체포 위법(필요성·긴급성 인정되어 적법하다는 결론도 가능)","k":"15l81bw"},
+    {"i":"1il6i4t","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [결론]</strong> ∴P2의 수사 위법","k":"1h1ydt6"}
+   ]}
+  ]}
+ ]},
+ {"i":"btffsr","o":"<div class=\"cs-callout\">","b":[
+  {"i":"lybnqv","o":"<div class=\"cs-h\">","h":"Ⅰ. 수사의 필요성 - 친고죄 고소 전 수사의 적법성<span class=\"cs-exam\">【변사25, 모사24·18·17】</span>","k":"t8uq9l"},
+  {"i":"1ua0i6b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《친고죄의 고소 전에 수사가 가능한지 여부》</strong></span>","k":"i3e5od"},
+  {"i":"ej2jrg","o":"<div class=\"cs-theory\">","b":[
+   {"i":"qi29v4","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 전면허용설(소송조건은 수사조건이 아니므로 제한 없이 허용) ② 전면불허설(현실적 고소 없으면 허용 X) ③ <span class=\"cs-red\"><strong>원칙적 허용설</strong></span>(고소가능성이 전혀 없으면 불허)","k":"gd2nem"},
+   {"i":"gh91v0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 원칙적 허용설] 고소는 소추조건이지 범죄 성립요건이나 수사의 조건이 아니므로, 고소가 있기 전에 수사했다는 이유만으로는 장차 고소·고발의 가능성이 없는 상태에서 행해졌다는 등의 특단의 사정이 없는 한 그 수사가 위법 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변24】</span>","k":"ho8kcx"},
+   {"i":"rurl49","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: 고소가 없는 경우에도 현실적으로 수사할 필요성 <span class=\"cs-o\"><strong>(O)</strong></span> → <span class=\"cs-red\"><strong>원칙적 허용설 타당</strong></span>","k":"fdlq04"}
+  ]},
+  {"i":"1kdyylj","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[고소의사 없음이 명백한 경우, 고소기간이 도과한 경우]</span> 수사 <span class=\"cs-x\"><strong>(X)</strong></span>","k":"dwgn9g"},
+  {"i":"tzm1gz","o":"<div class=\"cs-h\">","h":"Ⅱ. 수사의 상당성 - 함정수사의 적법성<span class=\"cs-exam\">【변사13】</span>","k":"vg98hl"},
+  {"i":"bjmpkb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>함정수사의 적법성</strong></span>","k":"6j0ivl"},
+  {"i":"4dcgrf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"수사는 기본권 침해 위험이 있어 <span class=\"cs-red\"><strong>상당성</strong></span>을 요함 (수사비례의 원칙, 신의칙)","k":"6m2ogl"},
+  {"i":"1gdzg6d","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《함정수사의 위법성 판단기준》</strong></span>","k":"1j87fr1"},
+  {"i":"1dg5jd2","o":"<div class=\"cs-theory\">","b":[
+   {"i":"ky23ek","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① <span class=\"cs-red\"><strong>주관설</strong></span>(피유인자 내심의사 기준 — 기회제공형은 적법, 범의유발형은 위법) ② 객관설(수사기관 유인 강도 기준) ③ <span class=\"cs-red\"><strong>절충설</strong></span>(종합)","k":"zrq51h"},
+   {"i":"1yl16lb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: 판례는 주관설·절충설 입장 모두 존재 → 피유인자의 내심과 수사기관 유인의 정도를 종합 고려하는 <span class=\"cs-red\"><strong>절충설 타당</strong></span>","k":"d1kp2y"}
+  ]},
+  {"i":"vs3a3b","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>위법한 함정수사인 경우 법원의 조치</strong></span>","k":"12wtb0h"},
+  {"i":"1dlsoyo","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 무죄판결설 ② 유죄판결설 ③ <span class=\"cs-red\"><strong>공소기각판결설</strong></span>","k":"1swex"},
+  {"i":"1hnpcbh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 공소기각'판결'설] 함정수사에 기한 공소제기는 그 절차가 법률의 규정에 위반하여 무효인 때에 해당</strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§327제2호)</strong></span></span><span class=\"cs-exam\">【변20·17·12】</span>","k":"1a2n1id"},
+  {"i":"17nwq32","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: 적정절차에 위배하여 공소가 제기되었고 위법한 함정수사를 억제하고 피고인의 이익을 보호할 필요 → <span class=\"cs-red\"><strong>공소기각판결설 타당</strong></span>","k":"1cauunp"},
+  {"i":"1lcny49","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>주관설로 평가되는 판례</strong></span>","k":"1rscawk"},
+  {"i":"bcj2g9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>본래 범의를 가지지 아니한 자에게 수사기관이 사술이나 계략 등을 써서 범의를 유발하게 하여 범죄인을 검거하는 함정수사는 위법</strong></span> ↔ <span class=\"cs-green\"><strong>범의를 가진 자에게 단순히 범행의 기회를 제공하는 것에 불과한 경우 위법한 함정수사라고 단정 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span>","k":"bpje2r"},
+  {"i":"6umyk0","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[노래방 도우미 알선단속을 위해 제보나 첩보 없이 손님을 가장해 도우미를 요구하고 거절당한 후 다시 요구해 단속]</span> 범의유발형 <span class=\"cs-red\"><strong>위법</strong></span><span class=\"cs-exam\">【변17】</span>","k":"1t38dki"},
+  {"i":"1cutd9","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[부축빼기 절도범 단속을 위해 잠복감시하다가 피고인이 취객을 부축하며 지갑을 뒤지자 현장 체포]</span> 기회제공형 <span class=\"cs-green\"><strong>적법</strong></span><span class=\"cs-exam\">【변사13】</span>","k":"16rkcvd"},
+  {"i":"kwlz4w","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>절충설로 평가되는 판례</strong></span>","k":"1x2noo9"},
+  {"i":"1fl541e","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>판단기준 (判例) : 위법한 함정수사 해당 여부는 범죄의 종류와 성질, 유인자의 지위와 역할, 유인의 경위와 방법, 유인에 따른 피유인자의 반응, 피유인자의 처벌전력 및 유인행위 자체의 위법성 등을 종합하여 판단</strong></span>","k":"1hkp0jb"},
+  {"i":"8polol","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[수사기관과 직접 관련 있는 유인자가 개인적 친밀관계를 이용한 동정심·감정 호소, 금전적·심리적 압박이나 위협, 거절하기 힘든 유혹, 구체적 범행방법 제시, 범행자금 제공 등으로 과도하게 개입하여 범의를 일으킨 경우]</span> 위법한 함정수사 <span class=\"cs-o\"><strong>(O)</strong></span> → 허용 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변25·12】</span>","k":"11d251d"},
+  {"i":"1n3gja1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[유인자가 수사기관과 직접적인 관련을 맺지 않은 상태에서 단순히 반복적으로 범행을 부탁한 경우]</span> 범의가 유발되었더라도 위법한 함정수사 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변14】</span>","k":"1bwqjff"}
+ ]},
+ {"i":"19n3ltt","o":"<div class=\"cs-h\">","h":"제2절. 고소(수사의 단서)","k":"e050pk"}
+]}

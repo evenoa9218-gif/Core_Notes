@@ -1,0 +1,48 @@
+{"id":"형소059","t":"공소제기 후 수사 (피고인 신문)","cat":"pro_07","lv":1,"tg":["A급","中","변사15","모사24·17·16"],"b":[
+ {"i":"107x2p3","o":"<details class=\"cs-case\">","b":[
+  {"i":"1h41yri","o":"<summary>","h":"<span class=\"cs-u\"><strong>[CASE] 구속 기소된 공범을 재소환하여 받은 진술조서의 증거능력</strong></span> <span class=\"cs-exam\">【변사15】</span>","k":"68nab4"},
+  {"i":"buwj81","o":"<div class=\"cs-case-in\">","b":[
+   {"i":"1o20g63","o":"<div class=\"cs-fact\">","b":[
+    {"i":"1rsfc4j","o":"<div class=\"cs-callout\">","b":[
+     {"i":"1wxmjza","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"ⓐ 甲·乙이 함께 V를 구타하다가 사망에 이르게 함 → 甲이 乙을 회유하여 乙이 단독범행이라고 자수, 검사는 乙만 상해치사죄로 구속 기소 → 乙이 심경 변화로 진상을 털어놓음 → 긴급체포된 甲이 위 상해치사 사건 이전에 ⓑ 甲·乙이 함께 V를 구타하여 직불카드를 빼앗은 후 현금 50만원을 인출한 사실을 자백 → 재수사 과정에서 검사가 구속 중인 피고인 乙을 소환하여 ⓐ·ⓑ 범죄사실에 대해 신문하고 그 내용을 조서에 기재. 甲·乙의 죄책에 대한 이 조서의 증거능력은? (20점)","k":"1xbqmml"}
+    ]}
+   ]},
+   {"i":"tvlqws","o":"<div class=\"cs-ans-in\">","b":[
+    {"i":"qgkcyt","o":"<div class=\"cs-li\">","h":"<strong>모범답안</strong>","k":"8duxk4"},
+    {"i":"1opofaa","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(1) [피고인 신문 허용여부]</strong>","k":"1ntq62q"},
+    {"i":"17irqo6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 공소제기 후 피고인 신문에 대한 긍정설·부정설·절충설, 판례와 검토 기재","k":"1tdd2cs"},
+    {"i":"164v3hu","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② ⓐ범죄사실 관련해서는 이미 공소가 제기된 피고인 乙에 대한 신문에 해당하지만 공범 甲이 추가로 체포되었으므로, 긍정설은 물론 부정설에 의하더라도 공범 甲에 대한 수사를 위해 가능","k":"orfovt"},
+    {"i":"17h29fs","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"③ ⓑ범죄사실은 공소가 제기된 상해치사죄와 관계 없는 특수강도(또는 폭처법상 공동공갈)의 새로운 범죄사실에 대한 것이므로 피고인의 지위에 있는 乙을 신문한 것으로 볼 수 X","k":"1s8t010"},
+    {"i":"1gdmx0h","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(2) [위법수집증거]</strong>","k":"10inhz9"},
+    {"i":"xmnkdx","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 사안에서 ⓐ·ⓑ 모두 긍정설은 물론 부정설에 의하더라도 위법수집증거로 볼 수 X","k":"b6ust7"},
+    {"i":"13o6mqz","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 조서의 형식과 관계 없이 사안은 모두 실질이 피의자신문조서와 같으므로 미리 진술거부권을 고지해야 하고, 만약 이를 고지하지 않았다면 위법수집증거로 증거능력 X","k":"1xiq70k"},
+    {"i":"11wsh3c","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(3) [전문법칙]</strong>","k":"4ekhj5"},
+    {"i":"1f3b2kb","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"① 乙에 대하여는 실질에 따라 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§312①</strong></span></span>이 적용되므로, 乙이 내용을 인정하는 때에 한하여 증거능력 인정","k":"pc2iwu"},
+    {"i":"bzjqh7","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"② 공범 甲에 대하여는 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§312④</strong></span></span> 적용설, <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§312①</strong></span></span> 적용설이 있고, <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§312①</strong></span></span> 적용설은 원진술자내용인정설과 피고인내용인정설이 있음. 판례는 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§312①</strong></span></span> 적용설 중 피고인내용인정설. 위법수사를 억제하려는 개정 <span class=\"cs-blue\"><span class=\"cs-u\"><strong>§312①</strong></span></span>의 취지상 판례가 타당 → 공범 甲이 내용을 인정하는 때에 한하여 증거능력 인정","k":"h2o42e"},
+    {"i":"ovakkk","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>(4) [전문법칙]</strong> 진술거부권이 고지되고, 甲이 내용을 인정하면 甲에 대하여, 乙이 내용을 인정하면 乙에 대하여 각각 유죄의 증거로 사용 O","k":"ambk45"}
+   ]}
+  ]}
+ ]},
+ {"i":"129ugda","o":"<div class=\"cs-callout\">","b":[
+  {"i":"1hy9zy","o":"<div class=\"cs-h\">","h":"Ⅰ. 공소제기 후 피고인 신문의 허용여부<span class=\"cs-exam\">【변사15, 모사24·17·16】</span>","k":"5cooph"},
+  {"i":"1x85yp6","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-hl\"><strong>《공소제기 후 수사기관이 피고인을 소환하여 조사할 수 있는지 여부》</strong></span>","k":"i6sywh"},
+  {"i":"1a2fm5l","o":"<div class=\"cs-theory\">","b":[
+   {"i":"u7uznh","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"학설: ① 피고인신문은 임의수사이므로 제1회 공판기일 전후를 불문하고 허용된다는 <span class=\"cs-red\"><strong>긍정설</strong></span> ② 피고인의 당사자 지위와 모순되고, §200는 신문의 대상을 피의자로 규정하고 있으므로 제1회 공판기일 전후 불문 허용되지 않는다는 <span class=\"cs-green\"><strong>부정설</strong></span> ③ 제1회 공판기일 전에만 허용된다는 <span class=\"cs-red\"><strong>절충설</strong></span>","k":"t35ji6"},
+   {"i":"12l6ocf","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-def\"><strong>[判例 긍정설] 검사 작성의 피고인에 대한 진술조서가 공소제기 후에 작성된 것이라는 이유만으로는 곧 그 증거능력이 없다고 할 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-exam\">【변18】</span>","k":"1ynu84n"},
+   {"i":"1qxr3ej","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"검토: ① 공소제기 후에는 <span class=\"cs-red\"><strong>피고인신문절차</strong></span>에 의하면 되므로 원칙적으로 <span class=\"cs-green\"><strong>부정설 타당</strong></span> ② 부정설에 의하더라도 <span class=\"cs-fact-tag\">[피고인이 스스로 요청하거나 공범이나 진범이 발견된 경우]</span>에는 <span class=\"cs-red\"><strong>허용</strong></span>","k":"1eyetmc"}
+  ]},
+  {"i":"1wmcxjl","o":"<div class=\"cs-h\">","h":"Ⅱ. 피고인에 대한 진술조서의 증거능력<span class=\"cs-exam\">【변사15, 모사24·17·16】</span>","k":"1pj0zsp"},
+  {"i":"vbdqup","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>허용되지 않는 경우</strong></span>","k":"1y2srtb"},
+  {"i":"14p5jr8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[위법수집증거]</span> 부정설에 의하면 피고인 신문은 허용되지 않으므로 <span class=\"cs-green\"><strong>위법수집증거에 해당하여 증거능력 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span> — (예외적인 경우 제외)","k":"d3wqk1"},
+  {"i":"pjh7zp","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>허용되는 경우 (실질이 피의자신문조서인 경우)</strong></span>","k":"14mb5op"},
+  {"i":"qtz44z","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"가. 진술거부권 고지","k":"di1var"},
+  {"i":"1bfneih","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"공소제기 후에는 진술조서의 형식으로 피고인 조사를 하지만, <span class=\"cs-red\"><strong>실질에 따라 판단</strong></span>","k":"1ls936k"},
+  {"i":"10d6ik8","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-gbg\">[진술거부권 고지 — 검사가 구속 기소한 후 다시 피의자를 소환하여 신문을 하면서 피의자신문조서가 아닌 일반적인 진술조서의 형식으로 조서를 작성한 경우]</span> 진술조서의 내용이 피의자신문조서와 실질적으로 같고 진술의 임의성이 인정되는 경우라도 <span class=\"cs-green\"><strong>미리 피의자에게 진술거부권을 고지하지 않았다면 위법수집증거에 해당</strong></span>하므로 유죄의 증거로 사용할 수 <span class=\"cs-x\"><strong>(X)</strong></span><span class=\"cs-exam\">【변25·24·23 등 빈출】</span>","k":"10zx10x"},
+  {"i":"4cbs9v","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:16px\">","h":"나. 전문법칙<span class=\"cs-exam\">【변사15, 모사24·17·16】</span>","k":"c5v7c5"},
+  {"i":"zsg43h","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[§312①③]</span> 실질이 피의자신문조서인 경우에는 <span class=\"cs-red\"><strong>§312①(검사)·§312③(사법경찰관)이 적용</strong></span>","k":"u0umfi"},
+  {"i":"lqs3j1","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-neg-tag\">[당해 피고인에 대하여]</span> 실질에 따라 진술조서의 내용이 피의자신문조서와 같다면 <span class=\"cs-red\"><strong>내용을 부인하면 증거능력 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§312①③)</strong></span></span>","k":"kphxlv"},
+  {"i":"1h4nw2i","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-neg-tag\">[공범에 대하여]</span> 피고인이 자신과 공범관계에 있는 다른 피고인이나 피의자에 대하여 검사가 작성한 피의자신문조서의 <span class=\"cs-red\"><strong>내용을 부인하는 경우에는 유죄의 증거로 쓸 수 <span class=\"cs-x\"><strong>(X)</strong></span></strong></span><span class=\"cs-blue\"><span class=\"cs-u\"><strong>(§312①)</strong></span></span> — (사법경찰관이 작성한 공범에 대한 피의자신문조서의 경우에도 동일하다)","k":"1t0reit"},
+  {"i":"1svx2xa","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-sub\"><strong>허용되는 경우 (실질이 참고인 진술조서인 경우)</strong></span>","k":"1vaph7l"},
+  {"i":"1axh29c","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-fact-tag\">[§312④]</span> <span class=\"cs-red\"><strong>§312④에 의하여 판단</strong></span>","k":"b600ef"}
+ ]}
+]}
