@@ -64,6 +64,7 @@ window.__loadData = function (file, onDone) {
   document.head.appendChild(s);
 };
 </script>
+<script src="./data-cards.js"></script>
 <script src="./data-ask.js"></script>
 <script src="./support.js"></script>
 </head>
@@ -564,6 +565,12 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div role="button" tabIndex="0" style="font:500 11.5px Pretendard,sans-serif;color:var(--ink-faint);cursor:pointer" onClick="{{ goToc }}">{{ crumb }}</div><div style="font:400 11px Pretendard,sans-serif;color:var(--ink-ghostest)">/</div><div style="font:600 11.5px Pretendard,sans-serif;color:var(--ink)">{{ chapterTitle }}</div>
 <div style="flex:1"></div>
 <div class="q-tools" style="display:flex;gap:6px;flex:none;white-space:nowrap">
+<sc-if value="{{ hasCards }}" hint-placeholder-val="{{ true }}">
+<div style="display:flex;border:1px solid var(--line-10);border-radius:7px;overflow:hidden;flex:none">
+<div role="button" tabIndex="0" style="padding:5px 10px;cursor:pointer;background:{{ fullBg }};font-weight:600;font-size:11px;color:{{ fullInk }}" onClick="{{ goFull }}">전문</div>
+<div role="button" tabIndex="0" style="padding:5px 10px;cursor:pointer;background:{{ cardBg }};font-weight:600;font-size:11px;color:{{ cardInk }}" onClick="{{ goCards }}">카드</div>
+</div>
+</sc-if>
 <sc-if value="{{ hasCases }}" hint-placeholder-val="{{ false }}"><div role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;cursor:pointer;background:var(--surface);border:1px solid var(--line-10);font-weight:500;font-size:11px;color:var(--ink-soft)" onClick="{{ toggleFold }}">{{ foldLabel }}</div></sc-if>
 <sc-if value="{{ showProg }}" hint-placeholder-val="{{ true }}">
 <div role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;cursor:pointer;background:{{ doneBg }};border:1px solid {{ doneBorder }};font-weight:600;font-size:11px;color:{{ doneColor }}" onClick="{{ toggleDone }}">✓ 완료</div>
@@ -603,6 +610,13 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div style="display:flex;flex-direction:column;gap:24px">
 <sc-if value="{{ isRich }}" hint-placeholder-val="{{ false }}">
 <div>{{ richBody }}</div>
+</sc-if>
+<sc-if value="{{ showPager }}" hint-placeholder-val="{{ false }}">
+<div style="display:flex;align-items:center;justify-content:center;gap:14px;padding-top:6px">
+<div role="button" tabIndex="0" style="padding:7px 14px;border-radius:8px;cursor:pointer;background:var(--surface);border:1px solid var(--line-10);font-weight:600;font-size:12px;color:{{ prevInk }}" onClick="{{ cardPrev }}">◀</div>
+<div style="font:600 11.5px Pretendard,sans-serif;color:var(--ink-faint);letter-spacing:.4px">{{ cardLabel }}</div>
+<div role="button" tabIndex="0" style="padding:7px 14px;border-radius:8px;cursor:pointer;background:var(--surface);border:1px solid var(--line-10);font-weight:600;font-size:12px;color:{{ nextInk }}" onClick="{{ cardNext }}">▶</div>
+</div>
 </sc-if>
 <sc-for list="{{ sections }}" as="s" hint-placeholder-count="3">
 <div style="display:flex;flex-direction:column;gap:11px">
@@ -1169,6 +1183,89 @@ function outlineOf(id, html) {
   return out;
 }
 function anchoredOf(id, html) { outlineOf(id, html); return ANCHORED[id]; }
+
+// ── 카드 보기 ──────────────────────────────────────────────────
+// 전문 보기(지금까지의 화면)와 카드 보기는 **같은 데이터의 다른 렌더**다.
+// 본문을 두 벌 들고 있지 않는다 — 전문 HTML 하나를 잘라 카드를 만든다.
+//
+// 경계는 data-cards.js 가 **블록 id** 로 준다(tools/build_cards.js).
+// 번호가 아니라 id 라서 앱이 줄을 다시 셀 필요가 없고, 줄을 고치거나 끼워 넣어도
+// 경계가 제 자리를 지킨다.
+//
+// ⚠ 카드는 파생물이다. 진도는 카드가 아니라 **블록 id** 에 붙는다 —
+//   경계 규칙을 손봐도 기록이 흔들리지 않게.
+const CARDS_CACHE = {};
+function cardsHtml(unitId, html) {
+  if (CARDS_CACHE[unitId]) return CARDS_CACHE[unitId];
+  const bounds = (window.CARDS || {})[unitId];
+  const root = document.createElement('div');
+  root.innerHTML = html || '';
+  const all = [].slice.call(root.querySelectorAll('[data-i]'));
+  const leaves = all.filter(e => !e.querySelector('[data-i]'));
+  if (!bounds || bounds.length < 2 || !leaves.length) {
+    return (CARDS_CACHE[unitId] = [{ html: html || '', first: leaves[0] ? leaves[0].dataset.i : '' }]);
+  }
+  // 경계 id → 잎 번호. data-cards 가 가리키는 줄이 사라졌으면(앞으로 수정이 생기면) 건너뛴다.
+  const at = {};
+  leaves.forEach((e, i) => { at[e.dataset.i] = i; });
+  const cuts = [0].concat(bounds.map(b => at[b]).filter(i => i > 0)).sort((a, b) => a - b)
+    .filter((v, i, a) => i === 0 || v !== a[i - 1]);
+
+  const out = cuts.map((from, k) => {
+    const to = k + 1 < cuts.length ? cuts[k + 1] : leaves.length;
+    const clone = root.cloneNode(true);
+    const ls = [].slice.call(clone.querySelectorAll('[data-i]')).filter(e => !e.querySelector('[data-i]'));
+    ls.forEach((e, i) => { if (i < from || i >= to) e.remove(); });
+    // 잎이 다 빠진 울타리는 치운다. 다만 <summary> 는 남긴다 —
+    // 사례(details)의 제목이라 없으면 무엇에 대한 답인지 알 수가 없다.
+    [].slice.call(clone.querySelectorAll('[data-i]')).reverse().forEach(e => {
+      if (e.querySelector('[data-i]')) return;
+      if (e.tagName === 'SUMMARY') return;
+      if (!e.textContent.trim()) e.remove();
+    });
+    [].slice.call(clone.querySelectorAll('details')).forEach(d => {
+      if (!d.querySelector('[data-i]:not(summary)') && !d.textContent.trim()) d.remove();
+      else d.open = true;        // 카드로 띄운 사례는 펴 둔다
+    });
+    // 「이 단원 차례」가 쓰는 줄 열쇠. 카드 보기에서 차례를 누르면 그 줄이 든 카드로 넘어가야 한다.
+    const keys = {};
+    [].slice.call(clone.querySelectorAll('.cs-li, .cs-h, .cs-ans-in, summary'))
+      .forEach(n => { keys[keyOf(n.textContent)] = 1; });
+    return { html: clone.innerHTML, first: leaves[from].dataset.i, keys };
+  });
+  return (CARDS_CACHE[unitId] = out);
+}
+// 그 줄이 몇 번째 카드에 있나 — 없으면 -1
+function cardOfKey(unitId, key) {
+  const cs = CARDS_CACHE[unitId];
+  if (!cs || !key) return -1;
+  for (let i = 0; i < cs.length; i++) if (cs[i].keys && cs[i].keys[key]) return i;
+  return -1;
+}
+
+// 지금 화면 한가운데 걸린 블록 → 몇 번째 카드인가 (전문 → 카드로 넘어갈 때 자리 지키기)
+function cardAtViewport(cards) {
+  const mid = window.innerHeight / 2;
+  const els = [].slice.call(document.querySelectorAll('#main [data-i]'));
+  let best = null, bestD = Infinity;
+  els.forEach(e => {
+    const r = e.getBoundingClientRect();
+    if (!r.height) return;
+    const d = Math.abs(r.top + r.height / 2 - mid);
+    if (d < bestD) { bestD = d; best = e.dataset.i; }
+  });
+  if (!best) return 0;
+  // 그 블록이 든 카드 — 카드의 첫 블록부터 다음 카드의 첫 블록 사이
+  const order = {};
+  cards.forEach((c, i) => { order[c.first] = i; });
+  let at = 0;
+  const seq = [].slice.call(document.querySelectorAll('#main [data-i]')).map(e => e.dataset.i);
+  for (let i = 0; i < seq.length; i++) {
+    if (order[seq[i]] !== undefined) at = order[seq[i]];
+    if (seq[i] === best) break;
+  }
+  return at;
+}
 
 // ── 빈칸 채우기 ────────────────────────────────────────────────
 // O·X 는 「골라 맞히기」(재인)다. 외운 것을 실제로 꺼내 보는 「인출」이 없었다.
@@ -1765,7 +1862,9 @@ function hashOf(s) {
     const all = topicsOf(s.subject), t = findTopic(all, name);
     if (t) name = all.filter(x => x.title === t.title).length > 1 ? t.id : t.title;
   }
-  const tail = (s.view === 'page' && name) ? '/' + encodeURIComponent(name)
+  // 보기 상태를 주소에 싣는다 — 새로고침·링크가 살아남고, 뒤로가기로 전문으로 돌아온다
+  const mode = (s.view === 'page' && name && s.cards) ? '/카드' : '';
+  const tail = (s.view === 'page' && name) ? '/' + encodeURIComponent(name) + mode
     : s.mark ? '/!' + encodeURIComponent(s.mark)
     : s.q ? '/?' + encodeURIComponent(s.q)
     : '';
@@ -1783,11 +1882,12 @@ function parseHash(h) {
   } catch (e) { return null; }          // 손으로 고친 주소가 깨져 있을 수 있다
   const track = SUBJ_TRACK[subject];
   if (!track) return null;
-  const base = { track, subject, view:'toc', chapter:null, mark:null, q:'', crimPart:0, quizOpen:false };
+  const base = { track, subject, view:'toc', chapter:null, mark:null, q:'', crimPart:0, quizOpen:false, cards:false };
   if (!rest) return base;
   if (rest[0] === '?') return Object.assign(base, { q: rest.slice(1) });
   if (rest[0] === '!') return Object.assign(base, { mark: rest.slice(1), view:'page' });
-  return Object.assign(base, { view:'page', chapter: rest });
+  const cards = /\/카드$/.test(rest);
+  return Object.assign(base, { view:'page', chapter: cards ? rest.replace(/\/카드$/, '') : rest, cards });
 }
 
 // 해시 없이 열렸을 때(홈 화면 아이콘·바로가기)의 이어보기
@@ -1806,7 +1906,9 @@ try { document.documentElement.dataset.track = (BOOT && BOOT.track) || '민사�
 class Component extends DCLogic {
   // fold:true 는 「지금 [CASE] 가 접혀 있다」는 뜻이다 — 본문은 늘 접힌 채로 그려지므로 참으로 시작한다
   state = Object.assign(
-    { track:'민사법', subject:'민법', view:'toc', chapter:null, filter:'전체', fold:true, quizOpen:false, shown:{}, crimPart:0, mark:null, q:'', quizFilter:'all', quizSeed:0, deck:'unit', peek:{}, outline:true, note:'', offlineN:0, offlineAll:0, settings:false },
+    // cards:false 가 전문 보기 — 지금까지의 화면이 기본값이다. 「책 대신 한 번에 펼쳐 보기」는
+    // 암기장의 원래 값이라 그대로 둔다. 카드는 회독·체크를 위한 다른 렌더일 뿐이다.
+    { track:'민사법', subject:'민법', view:'toc', chapter:null, filter:'전체', fold:true, quizOpen:false, shown:{}, crimPart:0, mark:null, q:'', quizFilter:'all', quizSeed:0, deck:'unit', peek:{}, outline:true, note:'', offlineN:0, offlineAll:0, settings:false, cards:false, cardAt:0 },
     BOOT || {});
 
   componentDidMount() {
@@ -1914,6 +2016,12 @@ class Component extends DCLogic {
   runJump() {
     const key = this._jumpKey;
     if (!key) return;
+    // 카드 보기에서는 가리키는 줄이 다른 카드에 있을 수 있다 — 그 카드로 먼저 넘어간다.
+    // 안 그러면 차례를 눌러도 화면에 아무 일도 일어나지 않는다.
+    if (this.state.cards && this._cardsUnit) {
+      const at = cardOfKey(this._cardsUnit, key);
+      if (at >= 0 && at !== this.state.cardAt) { this.setState({ cardAt: at }); return; }
+    }
     let tries = 0;
     const go = () => {
       const hit = [].slice.call(document.querySelectorAll('#main .cs-li, #main .cs-h, #main .cs-ans-in, #main summary'))
@@ -1952,7 +2060,7 @@ class Component extends DCLogic {
   // 「지금 어느 화면인가」만 추린다 — 글자 크기·필터 같은 보기 설정은 기록에 남기지 않는다.
   navSnap(s) {
     return { track:s.track, subject:s.subject, view:s.view, chapter:s.chapter,
-             mark:s.mark, crimPart:s.crimPart, quizOpen:s.quizOpen, q:s.q || '' };
+             mark:s.mark, crimPart:s.crimPart, quizOpen:s.quizOpen, q:s.q || '', cards:!!s.cards };
   }
 
   // 이 런타임은 componentDidUpdate 에 prevProps 만 넘긴다 — 직전 화면은 직접 들고 비교한다.
@@ -1969,6 +2077,11 @@ class Component extends DCLogic {
       try { localStorage.setItem(LAST_KEY, JSON.stringify(now)); } catch (e) {}
     }
     this._nav = now;
+    // 단원이 바뀌면 카드 번호를 처음으로 되돌린다 — 3장짜리 단원에서 7번 카드를 보려 들면 빈다
+    if (this._cardUnit !== this.state.chapter) {
+      this._cardUnit = this.state.chapter;
+      if (this.state.cardAt) this.setState({ cardAt: 0 });
+    }
     this.syncPart();
     this.syncBox();
     this.syncMemo();
@@ -2370,6 +2483,12 @@ class Component extends DCLogic {
           quiz: crimCards, rich: anchoredOf(crimTopic.id, crimTopic.html) }
         : (PAGE[st.chapter] || null);
 
+    // 카드 — 전문 HTML 하나를 잘라 만든다. 본문을 두 벌 들고 있지 않는다.
+    // 단원이 바뀌면 카드 번호를 0 으로 되돌린다(아래 componentDidUpdate).
+    const unitCards = page && page.rich && crimTopic ? cardsHtml(crimTopic.id, page.rich) : [];
+    this._cardsUnit = crimTopic ? crimTopic.id : '';
+    const cardNow = Math.min(st.cardAt || 0, Math.max(0, unitCards.length - 1));
+
     const sections = page ? page.sections.map(s => ({
       isHead: !!s.head, head: s.head || '',
       isBody: !!s.body, body: s.body || '',
@@ -2499,8 +2618,38 @@ class Component extends DCLogic {
         : '현재는 민법·민사소송법·형법·형사소송법·헌법·행정법이 열려 있습니다. 자료가 추가되면 같은 구조로 목차가 채워집니다.',
       isRich: !!(page && page.rich),
       richBody: page && page.rich
-        ? React.createElement('div', { dangerouslySetInnerHTML: { __html: page.rich } })
+        ? React.createElement('div', { dangerouslySetInnerHTML: { __html: st.cards ? (unitCards[cardNow] || {}).html || '' : page.rich } })
         : null,
+      // ── 전문 ↔ 카드 ──────────────────────────────────────────
+      // 둘은 같은 데이터의 다른 렌더다. 전환의 성패는 「보던 자리」라
+      // 전문에서는 화면 한가운데 블록을, 카드에서는 그 카드의 첫 블록을 잡아 서로 옮긴다.
+      hasCards: !!(page && page.rich) && unitCards.length > 1,
+      fullBg: st.cards ? 'var(--surface)' : 'var(--accent-soft)',
+      fullInk: st.cards ? 'var(--ink-soft)' : 'var(--accent-ink)',
+      cardBg: st.cards ? 'var(--accent-soft)' : 'var(--surface)',
+      cardInk: st.cards ? 'var(--accent-ink)' : 'var(--ink-soft)',
+      goFull: () => {
+        if (!st.cards) return;
+        const first = (unitCards[cardNow] || {}).first;
+        this.setState({ cards: false }, () => {
+          const el = first && document.querySelector('#main [data-i="' + first + '"]');
+          if (!el) return;
+          el.scrollIntoView({ block: 'center' });
+          // 어디로 갔는지 한 번 짚어 준다 — 긴 본문에서 자리를 잃지 않게
+          el.style.transition = 'background .45s'; el.style.background = 'var(--accent-tint)';
+          setTimeout(() => { el.style.background = ''; }, 700);
+        });
+      },
+      goCards: () => {
+        if (st.cards) return;
+        this.setState({ cards: true, cardAt: cardAtViewport(unitCards) }, () => window.scrollTo({ top: 0 }));
+      },
+      showPager: !!(st.cards && unitCards.length > 1),
+      cardLabel: (cardNow + 1) + ' / ' + unitCards.length,
+      prevInk: cardNow <= 0 ? 'var(--ink-ghost)' : 'var(--ink-soft)',
+      nextInk: cardNow >= unitCards.length - 1 ? 'var(--ink-ghost)' : 'var(--ink-soft)',
+      cardPrev: () => this.setState({ cardAt: Math.max(0, cardNow - 1) }, () => window.scrollTo({ top: 0 })),
+      cardNext: () => this.setState({ cardAt: Math.min(unitCards.length - 1, cardNow + 1) }, () => window.scrollTo({ top: 0 })),
       hasOutline: outline.length > 1,
       outlineLabel: '이 단원 차례 ' + outline.length,
       outlineOpen: st.outline,

@@ -40,7 +40,9 @@ function leaves(blocks, anc = [], out = []) {
   blocks.forEach(b => {
     if (b.w !== undefined) return;                 // 블록 사이 공백은 카드와 무관
     if (b.b) {
-      const size = charsOf(b);
+      // details(사례)는 크기와 상관없이 못 가른다 — 문제와 답을 갈라 놓으면 카드가 못 쓴다.
+      // 제일 큰 것이 1,905자라 통으로 둬도 벽이 되지 않는다.
+      const size = /^<details/.test(b.o) ? 0 : charsOf(b);
       const a = anc.concat([{ i: b.i, size, first: out.length }]);
       leaves(b.b, a, out);
       return;
@@ -67,7 +69,8 @@ function isBoundary(L, i) {
 function canCut(L, i) {
   if (i === 0 || i >= L.length) return false;
   const prev = L[i - 1].anc, now = L[i].anc;
-  // 둘을 함께 감싸는 울타리 중 작은 것(≤MAX)이 있으면 못 끊는다
+  // 둘을 함께 감싸는 울타리 중 작은 것(≤MAX)이 있으면 못 끊는다.
+  // details 는 size 를 0 으로 두었으니 언제나 여기 걸린다.
   return !now.some(a => a.size <= MAX && prev.some(p => p.i === a.i));
 }
 
@@ -100,7 +103,10 @@ function main() {
     idx.order.forEach(id => {
       const u = JSON.parse(fs.readFileSync(path.join(dir, id + '.json'), 'utf8'));
       const { L, starts } = cardsOf(u);
-      out[id] = starts;
+      // 경계를 잎 번호가 아니라 **블록 id** 로 내보낸다.
+      // 앱이 번호를 다시 셀 필요가 없고(세는 규칙이 어긋날 일이 없다),
+      // 줄을 고치거나 끼워 넣어도 경계가 제 자리를 지킨다.
+      out[id] = starts.map(i => L[i].i);
       n += starts.length; leafTotal += L.length;
       starts.forEach((st, k) => {
         const end = k + 1 < starts.length ? starts[k + 1] : L.length;
@@ -123,7 +129,7 @@ function main() {
     '· 글자 중앙', p(.5), '10%', p(.1), '90%', p(.9), '99%', p(.99));
 
   const body = '// units/ 에서 만든 카드 경계. 손으로 고치지 않는다 — tools/build_cards.js 가 쓴다.\n' +
-    '// { 단원id: [카드가 시작하는 잎 블록 번호…] }  잎 = 단원을 문서 순서로 펼친 줄 열\n' +
+    '// { 단원id: [카드가 시작하는 블록 id…] }  — 화면에서는 data-i 로 그 자리를 찾는다\n' +
     '// 카드는 파생물이라 진도를 붙이지 않는다. 진도는 블록 id 에 붙는다.\n' +
     'window.CARDS = ' + JSON.stringify(out) + ';\n';
   fs.writeFileSync(path.join(ROOT, 'data-cards.js'), body, 'utf8');
