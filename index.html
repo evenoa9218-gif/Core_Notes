@@ -565,6 +565,13 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div role="button" tabIndex="0" style="font:500 11.5px Pretendard,sans-serif;color:var(--ink-faint);cursor:pointer" onClick="{{ goToc }}">{{ crumb }}</div><div style="font:400 11px Pretendard,sans-serif;color:var(--ink-ghostest)">/</div><div style="font:600 11.5px Pretendard,sans-serif;color:var(--ink)">{{ chapterTitle }}</div>
 <div style="flex:1"></div>
 <div class="q-tools" style="display:flex;gap:6px;flex:none;white-space:nowrap">
+<sc-if value="{{ canEdit }}" hint-placeholder-val="{{ true }}">
+<div role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;cursor:pointer;background:{{ editBg }};border:1px solid {{ editBorder }};font-weight:600;font-size:11px;color:{{ editInk }}" onClick="{{ toggleEdit }}">{{ editLabel }}</div>
+</sc-if>
+<sc-if value="{{ hasDraft }}" hint-placeholder-val="{{ false }}">
+<div role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;cursor:pointer;background:var(--accent);border:1px solid transparent;font-weight:700;font-size:11px;color:#fff" onClick="{{ onSave }}">{{ draftLabel }}</div>
+<div role="button" tabIndex="0" style="padding:5px 8px;border-radius:7px;cursor:pointer;background:var(--surface);border:1px solid var(--line-10);font-weight:500;font-size:11px;color:var(--ink-faint)" onClick="{{ onRevertUnit }}">되돌리기</div>
+</sc-if>
 <sc-if value="{{ hasCards }}" hint-placeholder-val="{{ true }}">
 <div style="display:flex;border:1px solid var(--line-10);border-radius:7px;overflow:hidden;flex:none">
 <div role="button" tabIndex="0" style="padding:5px 10px;cursor:pointer;background:{{ fullBg }};font-weight:600;font-size:11px;color:{{ fullInk }}" onClick="{{ goFull }}">전문</div>
@@ -1164,8 +1171,11 @@ function setupExamPopover() {
   });
 }
 
-function outlineOf(id, html) {
-  if (OUTLINE[id]) return OUTLINE[id];
+// ver 는 캐시 열쇠에만 쓴다 — 아직 저장하지 않은 수정분이 있으면 다시 그려야 하는데,
+// id 자체를 바꾸면 linkExams 가 기출 연결을 못 찾는다(연결표가 단원 id 로 되어 있다).
+function outlineOf(id, html, ver) {
+  const ck = ver ? id + '|' + ver : id;
+  if (OUTLINE[ck]) { OUTLINE[id] = OUTLINE[ck]; ANCHORED[id] = ANCHORED[ck]; return OUTLINE[ck]; }
   const out = [];
   const anchored = linkExams(id, html || '').replace(HEAD_RE, m => {
     const lv = isHead(m);
@@ -1178,11 +1188,72 @@ function outlineOf(id, html) {
       ? m.replace('<summary', '<summary data-h="' + k + '"')
       : m.replace('<div ', '<div data-h="' + k + '" ');
   });
-  OUTLINE[id] = out;
-  ANCHORED[id] = anchored;
+  OUTLINE[ck] = OUTLINE[id] = out;
+  ANCHORED[ck] = ANCHORED[id] = anchored;
   return out;
 }
-function anchoredOf(id, html) { outlineOf(id, html); return ANCHORED[id]; }
+function anchoredOf(id, html, ver) { outlineOf(id, html, ver); return ANCHORED[id]; }
+
+// ── 고치기 ────────────────────────────────────────────────────
+// 2026-11-05부터 본문의 정본은 노션이 아니라 이 저장소의 units/ 다.
+// 그래서 고친 것을 오버레이로 덧씌우지 않는다 — **본문을 고치고 저장소에 커밋한다.**
+//
+// 고친 내용은 「블록 id → 바뀐 속 HTML」 꼴의 **깁기(patch)** 로 들고 있는다.
+// 화면의 모든 줄이 data-i 를 달고 있어서 어느 줄인지 어긋날 일이 없고,
+// 전문 보기와 카드 보기가 같은 깁기를 보므로 두 화면이 저절로 맞는다.
+//
+// 저장은 Worker 를 거친다(worker/). 저장소가 public 이라 쓰기 토큰을 여기 둘 수 없다.
+const UNIT_DIR = { 민법:'민법', 민사소송법:'민소', 형법:'형법', 형사소송법:'형소',
+                   헌법:'헌법', 행정법:'행정법', 최신판례:'최판' };
+const DRAFT_KEY = 'lawmj_draft_v1';
+// 저장 서버(worker/). 배포하면 https://core-notes-writer.<계정>.workers.dev 같은 주소가 나온다.
+// 비어 있으면 저장 단추가 꺼진 채로 둔다 — 고치기 자체는 기기 안에서 그대로 된다.
+const WRITER_URL = '';
+// 비밀번호는 기기마다 한 번 넣고 여기에 둔다. 쓰기 토큰은 Worker 에만 있다 —
+// 저장소가 public 이라 토큰을 브라우저에 두면 XSS 하나로 저장소 전체가 넘어간다.
+const PW_KEY = 'lawmj_pw_v1';
+const DRAFT = {
+  data: null,
+  load() {
+    if (this.data) return this.data;
+    try { this.data = JSON.parse(localStorage.getItem(DRAFT_KEY)) || {}; } catch (e) { this.data = {}; }
+    return this.data;
+  },
+  save() { try { localStorage.setItem(DRAFT_KEY, JSON.stringify(this.data)); } catch (e) {} },
+  of(unitId) { return this.load()[unitId] || null; },
+  set(unitId, subj, blockId, change) {
+    const d = this.load();
+    const u = d[unitId] || (d[unitId] = { subj, b: {}, at: 0 });
+    if (change === null) delete u.b[blockId];
+    else u.b[blockId] = Object.assign({}, u.b[blockId], change);
+    u.at = Date.now();
+    if (!Object.keys(u.b).length) delete d[unitId];
+    this.save();
+  },
+  drop(unitId) { const d = this.load(); delete d[unitId]; this.save(); },
+  units() { return Object.keys(this.load()); },
+  count() { return this.units().reduce((n, k) => n + Object.keys(this.load()[k].b).length, 0); }
+};
+
+// 깁기를 본문 HTML 에 입힌다. 되그린 HTML 은 퀴즈·기출연결·차례가 모두 다시 읽으므로
+// 고친 줄이 그 자리에서 O·X 와 빈칸에도 반영된다.
+const PATCHED = {};
+function patched(unitId, html) {
+  const d = DRAFT.of(unitId);
+  if (!d) return html;
+  const key = unitId + '|' + d.at;
+  if (PATCHED[key]) return PATCHED[key];
+  const root = document.createElement('div');
+  root.innerHTML = html || '';
+  Object.keys(d.b).forEach(bid => {
+    const el = root.querySelector('[data-i="' + bid + '"]');
+    if (!el) return;                                  // 그 줄이 없어졌다 — 조용히 버린다
+    const c = d.b[bid];
+    if (c.x) { el.remove(); return; }                 // 숨김
+    if (typeof c.h === 'string') el.innerHTML = c.h;
+  });
+  return (PATCHED[key] = root.innerHTML);
+}
 
 // ── 카드 보기 ──────────────────────────────────────────────────
 // 전문 보기(지금까지의 화면)와 카드 보기는 **같은 데이터의 다른 렌더**다.
@@ -1195,15 +1266,16 @@ function anchoredOf(id, html) { outlineOf(id, html); return ANCHORED[id]; }
 // ⚠ 카드는 파생물이다. 진도는 카드가 아니라 **블록 id** 에 붙는다 —
 //   경계 규칙을 손봐도 기록이 흔들리지 않게.
 const CARDS_CACHE = {};
-function cardsHtml(unitId, html) {
-  if (CARDS_CACHE[unitId]) return CARDS_CACHE[unitId];
+function cardsHtml(unitId, html, ver) {
+  const ck = ver ? unitId + '|' + ver : unitId;
+  if (CARDS_CACHE[ck]) return CARDS_CACHE[ck];
   const bounds = (window.CARDS || {})[unitId];
   const root = document.createElement('div');
   root.innerHTML = html || '';
   const all = [].slice.call(root.querySelectorAll('[data-i]'));
   const leaves = all.filter(e => !e.querySelector('[data-i]'));
   if (!bounds || bounds.length < 2 || !leaves.length) {
-    return (CARDS_CACHE[unitId] = [{ html: html || '', first: leaves[0] ? leaves[0].dataset.i : '' }]);
+    return (CARDS_CACHE[ck] = [{ html: html || '', first: leaves[0] ? leaves[0].dataset.i : '' }]);
   }
   // 경계 id → 잎 번호. data-cards 가 가리키는 줄이 사라졌으면(앞으로 수정이 생기면) 건너뛴다.
   const at = {};
@@ -1233,11 +1305,11 @@ function cardsHtml(unitId, html) {
       .forEach(n => { keys[keyOf(n.textContent)] = 1; });
     return { html: clone.innerHTML, first: leaves[from].dataset.i, keys };
   });
-  return (CARDS_CACHE[unitId] = out);
+  return (CARDS_CACHE[ck] = out);
 }
 // 그 줄이 몇 번째 카드에 있나 — 없으면 -1
-function cardOfKey(unitId, key) {
-  const cs = CARDS_CACHE[unitId];
+function cardOfKey(ck, key) {
+  const cs = CARDS_CACHE[ck];
   if (!cs || !key) return -1;
   for (let i = 0; i < cs.length; i++) if (cs[i].keys && cs[i].keys[key]) return i;
   return -1;
@@ -2086,7 +2158,109 @@ class Component extends DCLogic {
     this.syncBox();
     this.syncMemo();
     this.syncAnswerBoxes();
+    this.syncEditable();     // 본문을 다시 그리면 contenteditable 이 날아간다 — 매번 다시 입힌다
     this.runJump();
+  }
+
+  // ── 고치기 ───────────────────────────────────────────────────
+  // 줄마다 contenteditable 을 켠다. 본문은 dangerouslySetInnerHTML 로 들어가 React 가
+  // 안을 들여다보지 않으므로, 직접 손대도 다시 그릴 때 덮일 뿐 충돌하지 않는다.
+  // 고친 결과는 「블록 id → 속 HTML」로 DRAFT 에 쌓고, 저장은 Worker 가 한다.
+  syncEditable() {
+    const on = !!this.state.edit;
+    const unit = this._memoUnit, subj = this.state.subject;
+    document.querySelectorAll('#main [data-i]').forEach(el => {
+      if (el.querySelector('[data-i]')) return;             // 울타리는 건드리지 않는다
+      if (on) {
+        if (el.dataset.ed) return;
+        el.dataset.ed = '1';
+        el.contentEditable = 'true';
+        el.spellcheck = false;
+        el.style.outline = '1px dashed var(--line-15)';
+        el.style.outlineOffset = '2px';
+        el.addEventListener('blur', () => {
+          const bid = el.dataset.i;
+          const base = this._baseHtml && this._baseHtml[bid];
+          const now = el.innerHTML;
+          if (base === undefined || base === now) return;
+          DRAFT.set(unit, subj, bid, { h: now });
+          this.setState({ __v: Date.now() });
+        });
+        el.addEventListener('focus', () => {
+          this._baseHtml = this._baseHtml || {};
+          this._baseHtml[el.dataset.i] = el.innerHTML;
+        });
+      } else if (el.dataset.ed) {
+        delete el.dataset.ed;
+        el.contentEditable = 'false';
+        el.style.outline = ''; el.style.outlineOffset = '';
+      }
+    });
+  }
+
+  // 저장 — 고친 단원을 정본(units/)에 커밋한다.
+  // 저장소가 public 이라 쓰기 토큰을 여기 둘 수 없다. Worker 가 토큰을 들고 있고,
+  // 앱은 기기마다 한 번 넣는 비밀번호로 말한다. 자세한 것은 worker/README.md.
+  async saveDrafts() {
+    if (!WRITER_URL) return this.say('저장 서버 주소가 아직 없다 (worker/README.md)');
+    let pw = '';
+    try { pw = localStorage.getItem(PW_KEY) || ''; } catch (e) {}
+    if (!pw) {
+      pw = prompt('암기장 저장 비밀번호 (이 기기에 한 번만)');
+      if (!pw) return;
+      try { localStorage.setItem(PW_KEY, pw); } catch (e) {}
+    }
+    const ids = DRAFT.units();
+    if (!ids.length) return this.say('저장할 것이 없다');
+
+    this.setState({ saving: true });
+    try {
+      // 정본을 받아 깁기를 입힌다 — 화면의 HTML 이 아니라 units/ 파일이 바탕이다.
+      const units = [];
+      for (const id of ids) {
+        const d = DRAFT.of(id);
+        const dir = UNIT_DIR[d.subj];
+        if (!dir) throw new Error(d.subj + ' 은 아직 고칠 수 없다');
+        const r = await fetch('units/' + encodeURIComponent(dir) + '/' + encodeURIComponent(id) + '.json?t=' + Date.now());
+        if (!r.ok) throw new Error(id + ' 의 정본을 못 받았다 (' + r.status + ')');
+        const unit = await r.json();
+        let hit = 0;
+        const walk = bs => bs.filter(b => {
+          if (b.w !== undefined) return true;
+          const c = d.b[b.i];
+          if (c && c.x) { hit++; b.x = 1; }
+          else if (c && typeof c.h === 'string' && b.h !== undefined) { hit++; b.h = c.h; }
+          if (b.b) b.b = walk(b.b);
+          return true;
+        });
+        unit.b = walk(unit.b);
+        if (!hit) continue;                       // 고친 줄이 정본에 없다 — 보내지 않는다
+        units.push({ subj: dir, id, unit });
+      }
+      if (!units.length) { DRAFT.load(); ids.forEach(i => DRAFT.drop(i)); throw new Error('고친 줄을 정본에서 못 찾았다 — 수정분을 비웠다'); }
+
+      const post = extra => fetch(WRITER_URL.replace(/\/$/, '') + '/save', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + pw },
+        body: JSON.stringify(Object.assign({ units, message: '암기장: ' + ids.join(', ') + ' 수정' }, extra)),
+      }).then(async r => ({ status: r.status, body: await r.json().catch(() => ({})) }));
+
+      let res = await post({});
+      // 글자가 많이 줄면 Worker 가 멈추고 되묻는다 — 사람이 확인하면 그때 다시 보낸다
+      if (res.status === 409 && res.body.why === '글자가 많이 줄어든다') {
+        if (!confirm(res.body.detail + '\n글자가 ' + res.body.before + ' → ' + res.body.after
+          + ' (−' + res.body.pct + '%) 로 줄어든다. 맞나?')) { this.setState({ saving: false }); return; }
+        res = await post({ confirmShrink: true });
+      }
+      if (res.status === 401) { try { localStorage.removeItem(PW_KEY); } catch (e) {} throw new Error('비밀번호가 다르다 — 다시 눌러 넣어 달라'); }
+      if (!res.body.ok) throw new Error((res.body.why || '저장 실패') + (res.body.detail ? ' (' + res.body.detail + ')' : ''));
+
+      ids.forEach(i => DRAFT.drop(i));
+      this.say(res.body.same ? '바뀐 것이 없었다' : ids.length + '단원 저장했다 — 사이트 반영까지 1~2분');
+    } catch (e) {
+      this.say(String(e.message || e));
+    }
+    this.setState({ saving: false });
   }
 
   // 답 입력칸은 비제어라, 목록이 바뀌어(오답만·섞기) 칸이 다른 카드에 재사용되면 앞 카드에 적던 글이
@@ -2467,10 +2641,13 @@ class Component extends DCLogic {
     const outline = outlineTopic ? outlineOf(outlineTopic.id, outlineTopic.html) : [];
 
     const crimTopic = curTopic;
-    const unitCases = crimTopic ? buildCases(crimTopic.html, crimTopic.id) : [];
-    const crimCards = crimTopic ? buildQuiz(crimTopic.html, crimTopic.id).concat(buildCloze(crimTopic.html, crimTopic.id)) : [];
+    // 아직 저장하지 않은 수정분을 본문에 입힌 것 — 이 아래로는 전부 이걸 쓴다.
+    // 퀴즈·기출연결·차례·카드가 모두 여기서 갈라지므로, 고친 줄이 그 자리에서 O·X 에도 반영된다.
+    const unitHtml = crimTopic ? patched(crimTopic.id, crimTopic.html) : '';
+    const unitCases = crimTopic ? buildCases(unitHtml, crimTopic.id) : [];
+    const crimCards = crimTopic ? buildQuiz(unitHtml, crimTopic.id).concat(buildCloze(unitHtml, crimTopic.id)) : [];
     const todo = crim ? dueCards(st.subject, rows) : [];
-    const caseBlocks = crimTopic ? ((crimTopic.html || '').match(/<details class="cs-case"/g) || []).length : 0;
+    const caseBlocks = crimTopic ? (unitHtml.match(/<details class="cs-case"/g) || []).length : 0;
     this._memoUnit = crimTopic ? crimTopic.id : '';
     const page = crimTopic
       ? { eyebrow: (crimParts.find(p => p.topics.indexOf(crimTopic) > -1) || {}).name + ' · ' + crimTopic.id,
@@ -2480,13 +2657,15 @@ class Component extends DCLogic {
           // 여백 카드는 눌러서 O/X 를 보는 자리라 O·X 문항만 쓴다. 헌법·행정법은 O·X 가 0개라
           // 빈칸 문항이 들어와 「?」를 눌러도 빈 칸만 남았다 — 그런 단원에선 여백 카드를 두지 않는다.
           margins: crimCards.filter(c => c.badge === 'O' || c.badge === 'X').slice(0, 3).map(c => ({ badge: c.badge, text: c.text.slice(0, 60) })),
-          quiz: crimCards, rich: anchoredOf(crimTopic.id, crimTopic.html) }
+          quiz: crimCards, rich: anchoredOf(crimTopic.id, unitHtml, (DRAFT.of(crimTopic.id) || {}).at || 0) }
         : (PAGE[st.chapter] || null);
 
     // 카드 — 전문 HTML 하나를 잘라 만든다. 본문을 두 벌 들고 있지 않는다.
     // 단원이 바뀌면 카드 번호를 0 으로 되돌린다(아래 componentDidUpdate).
-    const unitCards = page && page.rich && crimTopic ? cardsHtml(crimTopic.id, page.rich) : [];
-    this._cardsUnit = crimTopic ? crimTopic.id : '';
+    const cardsKey = crimTopic ? crimTopic.id + '|' + ((DRAFT.of(crimTopic.id) || {}).at || 0) : '';
+    const unitCards = page && page.rich && crimTopic
+      ? cardsHtml(crimTopic.id, page.rich, (DRAFT.of(crimTopic.id) || {}).at || 0) : [];
+    this._cardsUnit = cardsKey;
     const cardNow = Math.min(st.cardAt || 0, Math.max(0, unitCards.length - 1));
 
     const sections = page ? page.sections.map(s => ({
@@ -2643,6 +2822,24 @@ class Component extends DCLogic {
       goCards: () => {
         if (st.cards) return;
         this.setState({ cards: true, cardAt: cardAtViewport(unitCards) }, () => window.scrollTo({ top: 0 }));
+      },
+      // ── 고치기 ───────────────────────────────────────────────
+      canEdit: !!crimTopic,
+      editing: !!st.edit,
+      editBg: st.edit ? 'var(--ox-x)' : 'var(--surface)',
+      editBorder: st.edit ? 'transparent' : 'var(--line-10)',
+      editInk: st.edit ? '#fff' : 'var(--ink-soft)',
+      editLabel: st.edit ? '고치는 중' : '고치기',
+      toggleEdit: () => this.setState(s2 => ({ edit: !s2.edit }), () => this.syncEditable()),
+      draftN: DRAFT.count(),
+      hasDraft: DRAFT.count() > 0,
+      draftLabel: '저장 ' + DRAFT.count(),
+      saving: !!st.saving,
+      onSave: () => this.saveDrafts(),
+      onRevertUnit: () => {
+        if (!crimTopic) return;
+        if (!confirm(crimTopic.title + ' 의 저장 안 한 수정을 버릴까?')) return;
+        DRAFT.drop(crimTopic.id); this.setState({ __v: Date.now() });
       },
       showPager: !!(st.cards && unitCards.length > 1),
       cardLabel: (cardNow + 1) + ' / ' + unitCards.length,
