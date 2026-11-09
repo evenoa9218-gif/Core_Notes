@@ -67,6 +67,27 @@ const fromB64 = s => new TextDecoder().decode(
   Uint8Array.from(atob(String(s).replace(/\s/g, '')), c => c.charCodeAt(0)));
 
 // 비밀번호 비교는 길이와 상관없이 같은 시간이 걸리게 한다
+// 단원을 적는 틀 — tools/build_units.js 의 dumpUnit 과 **글자 하나까지 같아야 한다.**
+// 한 줄에 블록 하나다. JSON.stringify 로 통째 한 줄을 쓰면 단원 전체가 한 줄이라
+// git diff 가 「20줄 지우고 1줄 더함」으로만 보여서, 무엇이 바뀌었는지 못 읽는다.
+// 정본의 이력을 사람이 읽을 수 있는 것이 이 체계의 마지막 안전망이다.
+function dumpUnit(u) {
+  const lines = [];
+  const walk = (blocks, ind) => blocks.forEach((b, i) => {
+    const pad = ' '.repeat(ind), tail = i === blocks.length - 1 ? '' : ',';
+    if (b.w !== undefined || !b.b) return lines.push(pad + JSON.stringify(b) + tail);
+    lines.push(pad + '{"i":' + JSON.stringify(b.i) + ',"o":' + JSON.stringify(b.o) + ',"b":[');
+    walk(b.b, ind + 1);
+    lines.push(pad + ']}' + tail);
+  });
+  lines.push('{"id":' + JSON.stringify(u.id) + ',"t":' + JSON.stringify(u.t) +
+    ',"cat":' + JSON.stringify(u.cat) + ',"lv":' + u.lv +
+    ',"tg":' + JSON.stringify(u.tg) + ',"b":[');
+  walk(u.b, 1);
+  lines.push(']}');
+  return lines.join('\n') + '\n';
+}
+
 function sameSecret(a, b) {
   if (typeof a !== 'string' || typeof b !== 'string' || a.length !== b.length) return false;
   let diff = 0;
@@ -153,7 +174,7 @@ async function save(env, origin, req) {
     files.push({ path: 'units/' + u.subj + '/' + u.id + '.json', unit: u.unit, now });
   }
 
-  const text = files.map(f => f.text = JSON.stringify(f.unit)).join('');
+  const text = files.map(f => f.text = dumpUnit(f.unit)).join('');
   if (text.length > MAX_BYTES) return bad(origin, 413, '너무 크다');
 
   // ③④ 지금 올라가 있는 것과 견준다.

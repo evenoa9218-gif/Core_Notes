@@ -198,4 +198,4 @@ function main() {
 }
 
 if (require.main === module) main();
-module.exports = { scan, hasBlockChild, hash32, stripTags, keyOf };
+module.exports = { scan, hasBlockChild, hash32, stripTags, keyOf, dumpUnit };

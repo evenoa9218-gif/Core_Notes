@@ -20,7 +20,7 @@ const BEFORE = {
 const clone = o => JSON.parse(JSON.stringify(o));
 
 // 가짜 GitHub
-let captured = null;
+let captured = null, blob = null;
 globalThis.fetch = async (url, init = {}) => {
   const u = String(url);
   const ok = (b, s = 200) => new Response(JSON.stringify(b), { status: s });
@@ -32,7 +32,7 @@ globalThis.fetch = async (url, init = {}) => {
   }
   if (u.includes('/git/ref/heads/')) return ok({ object: { sha: 'head1' } });
   if (u.includes('/git/commits/head1')) return ok({ tree: { sha: 'tree0' } });
-  if (u.includes('/git/blobs')) return ok({ sha: 'blob1' });
+  if (u.includes('/git/blobs')) { blob = JSON.parse(init.body).content; return ok({ sha: 'blob1' }); }
   if (u.includes('/git/trees')) { captured = JSON.parse(init.body); return ok({ sha: 'tree1' }); }
   if (u.includes('/git/commits')) return ok({ sha: 'commit1' });
   if (u.includes('/git/refs/heads/')) return ok({});
@@ -104,6 +104,22 @@ await check('/health 는 비밀번호 없이', await call('/health', null, 'GET'
     { subj: '민법', id: '채총21', unit: u2 }] });
   const b = await check('단원 둘을 보내면 커밋 하나', r, 200);
   console.log('     올린 파일:', (captured.tree || []).map(t => t.path).join(' + '));
+}
+
+console.log('적는 틀');
+{
+  // 워커가 적은 글자가 tools/build_units.js 의 dumpUnit 과 **똑같아야** 한다.
+  // 다르면 단원이 한 줄로 적혀서 git diff 를 사람이 못 읽는다 — 이력이 마지막 안전망인데.
+  // build_units.js 는 CommonJS 라 기본 내보내기로 들어온다
+  const { dumpUnit } = (await import('../tools/build_units.js')).default;
+  await send(clone(BEFORE));
+  const want = dumpUnit(BEFORE);
+  const good = blob === want;
+  console.log((good ? '  ✓ ' : '  ★ ') + 'build_units 의 dumpUnit 과 같은가'.padEnd(42)
+    + (good ? blob.split('\n').length - 1 + '줄' : '다르다'));
+  good ? pass++ : fail++;
+  if (!good) console.log('     워커:', JSON.stringify(blob.slice(0, 120)),
+    '\n     바란 것:', JSON.stringify(want.slice(0, 120)));
 }
 
 console.log('\n' + (fail ? '★ ' + fail + '건 실패' : '✓ ' + pass + '건 전부 통과'));
