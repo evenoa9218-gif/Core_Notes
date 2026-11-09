@@ -1305,6 +1305,9 @@ const DRAFT = {
   pending() { return this.units().filter(k => Object.keys(this.load()[k].b).some(b => !this.load()[k].b[b].saved)); }
 };
 
+const escHtml = s => String(s == null ? '' : s)
+  .replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
 // 묻는 창. prompt()·confirm() 을 쓰지 않는다 —
 // 앱을 내장 브라우저(미리보기 창)나 PWA 로 띄우면 그 둘이 조용히 막혀,
 // 저장을 눌러도 아무 일도 안 일어난 것처럼 보인다. 실제로 그랬다.
@@ -1322,6 +1325,15 @@ function ask(opt) {
     msg.textContent = opt.msg;
     msg.setAttribute('style', 'white-space:pre-wrap;margin-bottom:14px;color:var(--ink-2)');
     box.appendChild(msg);
+
+    // 글자만으로 모자란 창(세션 끝 기출 같은 것)은 조각을 받는다.
+    // ⚠ 부르는 쪽이 만든 HTML 만 넣는다. 본문·기출에서 온 글자는 반드시 escHtml 로 거른다.
+    if (opt.html) {
+      const extra = document.createElement('div');
+      extra.innerHTML = opt.html;
+      extra.setAttribute('style', 'margin-bottom:14px;max-height:52vh;overflow-y:auto');
+      box.appendChild(extra);
+    }
 
     let input = null;
     if (opt.password) {
@@ -1370,8 +1382,9 @@ function ask(opt) {
       return b;
     };
     const done = v => { document.removeEventListener('keydown', key, true); wrap.remove(); resolve(v); };
-    const no = mk(opt.no || '그만');
-    no.onclick = () => done(null);              // 그만둔 것은 늘 null
+    // 알려 주기만 하는 창에는 무를 것이 없다 — 「그만/닫기」 둘을 놓으면 무엇이 다른지 묻게 된다
+    const no = opt.alone ? null : mk(opt.no || '그만');
+    if (no) no.onclick = () => done(null);      // 그만둔 것은 늘 null
     // 고르는 창에서는 고른 것이 곧 답이라 확인 단추가 없다 — 누를 것을 하나로 둔다
     const bare = opt.choices && !opt.yes;
     const yes = bare ? null : mk(opt.yes || '확인', true);
@@ -2565,6 +2578,35 @@ class Component extends DCLogic {
   // 줄마다 contenteditable 을 켠다. 본문은 dangerouslySetInnerHTML 로 들어가 React 가
   // 안을 들여다보지 않으므로, 직접 손대도 다시 그릴 때 덮일 뿐 충돌하지 않는다.
   // 고친 결과는 「블록 id → 속 HTML」로 DRAFT 에 쌓고, 저장은 Worker 가 한다.
+  // ── 고친 줄의 O·X 기록을 따라 옮긴다 (7단계) ──────────────────
+  // 4단계가 만든 구멍이다. 문항 id 가 `단원id:hash32(지문 글자)` 라, 줄을 한 글자만
+  // 고쳐도 해시가 달라져 그 줄에 쌓인 오답·연속정답이 **말없이** 끊긴다.
+  // (메모는 단원 단위라 멀쩡하다. 끊기는 것은 O·X·빈칸·사례뿐이다.)
+  //
+  // 전수 이전은 하지 않는다 — 1,946문항을 한꺼번에 다시 묶다가 한 군데만 어긋나면
+  // 그 기록이 사라진다. **고치는 그 순간 그 줄만** 옮긴다. 범위가 한 줄이라 안전하다.
+  //
+  // 짝은 차례로 맞춘다. 한 줄 안의 문항 수가 달라졌으면(지문을 더하거나 지웠으면)
+  // 무엇이 무엇인지 알 수 없으므로 건드리지 않는다 — 잘못 옮기느니 그대로 두는 게 낫다.
+  moveOx(unitId, before, after) {
+    if (!unitId || before === after) return 0;
+    const of = h => [].concat(buildQuiz(h, unitId), buildCloze(h, unitId), buildCases(h, unitId));
+    let a, b;
+    try { a = of(before); b = of(after); } catch (e) { return 0; }
+    if (!a.length || a.length !== b.length) return 0;
+    const d = OX.load();
+    let n = 0;
+    a.forEach((old, i) => {
+      const now = b[i];
+      if (!now || old.id === now.id || !d[old.id] || d[now.id]) return;
+      d[now.id] = d[old.id];
+      delete d[old.id];
+      n++;
+    });
+    if (n) OX.save();
+    return n;
+  }
+
   syncEditable() {
     const on = !!this.state.edit;
     const unit = this._memoUnit, subj = this.state.subject;
@@ -2583,7 +2625,15 @@ class Component extends DCLogic {
           const now = el.innerHTML;
           if (base === undefined || base === now) return;
           DRAFT.set(unit, subj, bid, { h: now });
+          // 고친 줄에 쌓인 O·X 기록을 새 해시로 옮긴다. 안 옮기면 오답 기록이 끊긴다.
+          // ⚠ 문항 뽑는 쪽은 `<div class="cs-li …">…</div>` 덩어리를 찾는다.
+          //    속 HTML 만 넘기면 블록을 하나도 못 찾아 조용히 0 건이 된다 — 여는 태그를 씌운다.
+          const oh = el.outerHTML, open = oh.slice(0, oh.indexOf('>') + 1);
+          const close = '</' + el.tagName.toLowerCase() + '>';
+          const moved = this.moveOx(unit, open + base + close, open + now + close);
+          this._baseHtml[bid] = now;       // 연달아 고치면 직전 모양이 기준이어야 한다
           this.setState({ __v: Date.now() });
+          if (moved) this.say('고친 줄의 O·X 기록 ' + moved + '건을 따라 옮겼다');
         });
         el.addEventListener('focus', () => {
           this._baseHtml = this._baseHtml || {};
@@ -2693,14 +2743,98 @@ class Component extends DCLogic {
   }
 
   // 읽은 카드로 친다. 넘길 때마다 쌓이고, 같은 카드를 다시 봐도 한 장이다.
-  countCard(key) {
+  // ★ 이때 그 카드에 달린 **기출 표시도 같이 거둔다**(7단계). 세션이 끝난 뒤에
+  //   「읽은 범위」를 되짚으려면 단원을 통째로 다시 훑어야 하는데, 그러면 안 읽은
+  //   카드의 기출까지 섞인다. 지나갈 때 주워 담는 쪽이 정확하고 싸다.
+  countCard(card) {
     const r = RUN.get();
+    const key = card && card.first;
     if (!r || !key || r.done[key]) return;
     r.done[key] = 1;
+    r.xl = r.xl || {};
+    ((card.html || '').match(/data-xl="([^"]+)"/g) || [])
+      .forEach(m => { r.xl[m.slice(9, -1)] = 1; });
+    // 이 묶음이 몇 회독인가 — 가장 적게 본 카드를 따른다(아래에서 무엇을 내놓을지 가른다)
+    const n = BLK.round(card.bids);
+    r.r = r.r === undefined ? n : Math.min(r.r, n);
     RUN.set(r);
+    // 읽은 것으로 치는 자리는 여기 하나다 — ▶ 로 넘기든 마치기로 끝내든 같게.
+    // 이미 ☆·? 를 찍은 줄은 덮지 않는다.
+    BLK.fill(this.state.subject, this._memoUnit, card.bids, '✓');
+  }
+
+  // ── 세션 끝 기출 (7단계) ────────────────────────────────────
+  // 암기장이 로고스를 이기는 칸은 여기 하나다. 읽고 끝내지 않고 그 범위 문제로 잇는다.
+  //
+  // 회독 차수가 무엇을 내놓을지 가른다. 1회독에 기록형을 들이밀면 읽기가 멈춘다 —
+  // 1회독의 목적은 끝까지 한 번 도는 것이다.
+  examHtml(r) {
+    const L = window.EXAM_LINKS || {}, R = window.EXAM_REFS || [];
+    const seen = {}, by = { 선택형: [], 사례형: [], 기록형: [] };
+    Object.keys(r.xl || {}).forEach(k => (L[k] || []).forEach(ln => {
+      const ref = R[ln.r];
+      if (!ref || seen[ln.r] || !by[ref.site]) return;
+      seen[ln.r] = 1;
+      by[ref.site].push(ref);
+    }));
+    const round = (r.r || 0) + 1;                 // 이 묶음을 세기 전 회독 + 이번
+    const open = { 선택형: true, 사례형: round >= 2, 기록형: round >= 3 };
+    const total = by.선택형.length + by.사례형.length + by.기록형.length;
+    if (!total) return '';
+
+    const head = '<div style="font:700 12px Pretendard,sans-serif;color:var(--ink-2);'
+      + 'margin:2px 0 10px">이 범위 기출 ' + total + '문'
+      + '<span style="font-weight:500;color:var(--ink-faint)"> · ' + round + '회독</span></div>';
+
+    const card = inner => '<div style="border:1px solid var(--line-10);border-radius:9px;'
+      + 'padding:10px 12px;margin-bottom:8px;background:var(--surface-2)">' + inner + '</div>';
+    const label = (t, n) => '<div style="font:700 11.5px Pretendard,sans-serif;'
+      + 'color:var(--accent-ink);margin-bottom:6px">' + t + ' ' + n + '</div>';
+
+    let out = head;
+
+    // 선택형 — 회차 자료가 없어 링크로 보낼 데가 없다. 가장 가까운 지문을 여기서 바로 푼다.
+    if (by.선택형.length) {
+      const items = [];
+      by.선택형.forEach(ref => (ref.items || []).forEach(it => items.push(it)));
+      out += card(label('선택형', by.선택형.length)
+        + '<ol style="margin:0;padding-left:18px;display:flex;flex-direction:column;gap:9px">'
+        + items.slice(0, 6).map(it => '<li style="font-size:12.5px;line-height:1.6;color:var(--ink-2)">'
+          + escHtml(String(it.q).replace(/§/g, ' / ')).slice(0, 300)
+          + '<details style="margin-top:3px"><summary style="cursor:pointer;font-size:11px;'
+          + 'color:var(--ink-faint)">정답 보기</summary>'
+          + '<b style="color:' + (it.ans ? 'var(--ox-o)' : 'var(--ox-x)') + '">'
+          + (it.ans ? 'O' : 'X') + '</b> <span style="font-size:11px;color:var(--ink-faint)">'
+          + escHtml(it.mod + ' · ' + (it.topic || '')) + '</span>'
+          + (it.why ? '<div style="font-size:11.5px;line-height:1.6;color:var(--ink-3);margin-top:3px">'
+            + escHtml(it.why) + '</div>' : '') + '</details></li>').join('')
+        + '</ol>' + (items.length > 6 ? '<div style="font-size:11px;color:var(--ink-faint);'
+          + 'margin-top:7px">외 ' + (items.length - 6) + '개</div>' : ''));
+    }
+
+    ['사례형', '기록형'].forEach(site => {
+      const list = by[site];
+      if (!list.length) return;
+      if (!open[site]) {
+        out += card('<div style="font:600 11.5px Pretendard,sans-serif;color:var(--ink-faint)">'
+          + site + ' ' + list.length + '문은 ' + (site === '사례형' ? 2 : 3) + '회독부터 뜬다</div>');
+        return;
+      }
+      out += card(label(site, list.length)
+        + '<div style="display:flex;flex-direction:column;gap:6px">'
+        + list.map(ref => '<a href="' + escHtml(ref.url) + '" target="_blank" rel="noopener"'
+          + ' style="font-size:12px;color:var(--link);text-decoration:none">'
+          + escHtml(ref.exam) + ' <span style="color:var(--ink-faint)">'
+          + escHtml(ref.groupLabel || '') + '</span> ↗</a>').join('')
+        + '</div>');
+    });
+    return out;
   }
 
   async endSession(quiet) {
+    // 지금 보고 있는 장도 읽은 것으로 친다 — 마지막 장은 ▶ 를 누르지 않고 마치기 때문에,
+    // 안 세면 그 장과 그 장의 기출이 통째로 빠진다
+    this.countCard(this._curCard);
     const r = RUN.get();
     clearInterval(this._runT);
     if (!r) return;
@@ -2716,7 +2850,8 @@ class Component extends DCLogic {
     const m = Math.floor(sec / 60), s = sec % 60;
     await ask({ msg: cards + '장 · ' + m + '분 ' + (s < 10 ? '0' : '') + s + '초\n'
       + (cards ? '한 장에 ' + (sec / cards).toFixed(0) + '초였다.' : '')
-      + (cards > 2 ? '\n이 값이 다음 묶음의 어림에 들어간다.' : ''), yes: '닫기' });
+      + (cards > 2 ? '\n이 값이 다음 묶음의 어림에 들어간다.' : ''),
+      html: this.examHtml(r), yes: '닫기', alone: true });
   }
 
   // 저장 — 고친 단원을 정본(units/)에 커밋한다.
@@ -3214,6 +3349,7 @@ class Component extends DCLogic {
     const unitRound = BLK.round(unitBids);
     // ── 읽기 세션 (6단계) ─────────────────────────────────────
     const run = RUN.get();
+    this._curCard = unitCards[cardNow];   // 마치기가 마지막 장을 셀 수 있게 (endSession)
     const runGoal = run ? RUN.goalCards(run) : 0;
     const runDone = run ? RUN.doneN(run) : 0;
     const mmss = s => Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0');
@@ -3430,11 +3566,7 @@ class Component extends DCLogic {
       cardPrev: () => this.setState({ cardAt: Math.max(0, cardNow - 1) }, () => window.scrollTo({ top: 0 })),
       cardNext: () => {
         const cur = unitCards[cardNow] || {};
-        if (run) {
-          this.countCard(cur.first);
-          // 넘기는 것이 곧 「읽음」이다. ☆·? 를 이미 찍은 줄은 그대로 둔다.
-          BLK.fill(this.state.subject, crimTopic.id, cur.bids, '✓');
-        }
+        if (run) this.countCard(cur);     // 넘기는 것이 곧 「읽음」이다(countCard 안에서 찍는다)
         if (cardNow < unitCards.length - 1) {
           return this.setState({ cardAt: cardNow + 1 }, () => window.scrollTo({ top: 0 }));
         }
