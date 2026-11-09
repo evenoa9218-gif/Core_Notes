@@ -321,6 +321,26 @@ html[data-nav="1"] .q-navtoggle::after{content:'목차 ▴'}
 .q-line:hover{background:var(--surface-2)}
 @keyframes q-flash{0%{background:var(--q-bg)}100%{background:transparent}}
 .q-flash{animation:q-flash 1.8s ease-out;border-radius:4px}
+/* ── 카드 경계와 체크 3단추 (5단계) ─────────────────────────────
+   전문 보기에서는 얇은 구분선 오른쪽에, 카드 보기에서는 카드 머리에 붙는다.
+   같은 DOM 조각 하나를 두 보기가 나눠 쓴다 — 두 보기가 같은 기록을 본다는 말이
+   화면에서도 사실이어야 한다. */
+.q-blk{display:flex;align-items:center;gap:10px;margin:18px 0 6px;user-select:none}
+.q-blk:first-child{margin-top:0}
+.q-blk-rule{flex:1;height:1px;background:var(--line-08)}
+.q-blk-n{font:600 10px Pretendard,sans-serif;color:var(--ink-ghost);letter-spacing:.3px;
+  font-variant-numeric:tabular-nums;min-width:30px;text-align:right}
+.q-blk b{display:inline-flex;align-items:center;justify-content:center;width:26px;height:22px;
+  border:1px solid var(--line-10);border-radius:6px;cursor:pointer;background:var(--surface);
+  font:600 11px Pretendard,sans-serif;color:var(--ink-ghost);margin-left:-1px}
+.q-blk b:first-of-type{border-radius:6px 0 0 6px;margin-left:0}
+.q-blk b:last-of-type{border-radius:0 6px 6px 0}
+.q-blk b:hover{color:var(--ink-muted);background:var(--surface-2)}
+.q-blk b[data-on]{background:var(--accent-soft);border-color:var(--accent);color:var(--accent-ink);z-index:1}
+/* 카드 보기에서는 머리에 붙어 따라다닌다 — 엄지가 닿는 자리를 잃지 않게.
+   ⚠ 바로 아래 자식일 때만. 카드가 콜아웃 안에서 시작하면 단추도 상자 안에 들어가는데,
+   거기에 var(--bg) 를 깔면 상자 한복판에 흰 띠가 생긴다. */
+.q-cardsview > .q-blk{position:sticky;top:0;z-index:5;background:var(--bg);padding:6px 0;margin-top:0}
 @media (max-width:760px){.q-input{font-size:16px;padding:12px 14px}.q-memo{font-size:16px}}
 body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-webkit-font-smoothing:antialiased}*{word-break:keep-all;overflow-wrap:break-word}a{color:var(--link)}a:hover{color:var(--link-hover)}
 /* ── 좁은 화면 대응 ─────────────────────────────────────────────
@@ -542,7 +562,7 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div role="button" tabIndex="0" class="q-tcard" onClick="{{ c.open }}">
 <div class="q-tcard-top">
 <div class="q-tcard-head"><div class="q-tcard-title">{{ c.title }}</div><div class="q-tcard-sub">{{ c.sub }}</div></div>
-<div class="q-tcard-meta">O·X {{ c.concepts }}<br>판례 {{ c.cases }}</div>
+<div class="q-tcard-meta">O·X {{ c.concepts }}<br>판례 {{ c.cases }}<sc-if value="{{ c.round }}" hint-placeholder-val="{{ false }}"><br><span style="color:var(--accent-ink);font-weight:700">{{ c.round }}</span></sc-if></div>
 </div>
 <div class="q-tcard-tags">
 <sc-for list="{{ c.tags }}" as="g" hint-placeholder-count="3">
@@ -577,6 +597,9 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div role="button" tabIndex="0" style="padding:5px 10px;cursor:pointer;background:{{ fullBg }};font-weight:600;font-size:11px;color:{{ fullInk }}" onClick="{{ goFull }}">전문</div>
 <div role="button" tabIndex="0" style="padding:5px 10px;cursor:pointer;background:{{ cardBg }};font-weight:600;font-size:11px;color:{{ cardInk }}" onClick="{{ goCards }}">카드</div>
 </div>
+</sc-if>
+<sc-if value="{{ hasRound }}" hint-placeholder-val="{{ true }}">
+<div style="padding:5px 10px;border-radius:7px;background:var(--surface);border:1px solid var(--line-10);font-weight:600;font-size:11px;color:var(--ink-faint);font-variant-numeric:tabular-nums">{{ roundLabel }}</div>
 </sc-if>
 <sc-if value="{{ hasCases }}" hint-placeholder-val="{{ false }}"><div role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;cursor:pointer;background:var(--surface);border:1px solid var(--line-10);font-weight:500;font-size:11px;color:var(--ink-soft)" onClick="{{ toggleFold }}">{{ foldLabel }}</div></sc-if>
 <sc-if value="{{ showProg }}" hint-placeholder-val="{{ true }}">
@@ -1362,7 +1385,8 @@ function cardsHtml(unitId, html, ver) {
   const all = [].slice.call(root.querySelectorAll('[data-i]'));
   const leaves = all.filter(e => !e.querySelector('[data-i]'));
   if (!bounds || bounds.length < 2 || !leaves.length) {
-    return (CARDS_CACHE[ck] = [{ html: html || '', first: leaves[0] ? leaves[0].dataset.i : '' }]);
+    return (CARDS_CACHE[ck] = [{ html: html || '', first: leaves[0] ? leaves[0].dataset.i : '',
+                                 bids: leaves.map(e => e.dataset.i) }]);
   }
   // 경계 id → 잎 번호. data-cards 가 가리키는 줄이 사라졌으면(앞으로 수정이 생기면) 건너뛴다.
   const at = {};
@@ -1390,7 +1414,9 @@ function cardsHtml(unitId, html, ver) {
     const keys = {};
     [].slice.call(clone.querySelectorAll('.cs-li, .cs-h, .cs-ans-in, summary'))
       .forEach(n => { keys[keyOf(n.textContent)] = 1; });
-    return { html: clone.innerHTML, first: leaves[from].dataset.i, keys };
+    // bids — 이 카드에 든 블록 id. 진도(회독·체크)가 붙는 자리다(결정 7)
+    return { html: clone.innerHTML, first: leaves[from].dataset.i, keys,
+             bids: leaves.slice(from, to).map(e => e.dataset.i) };
   });
   return (CARDS_CACHE[ck] = out);
 }
@@ -1400,6 +1426,23 @@ function cardOfKey(ck, key) {
   if (!cs || !key) return -1;
   for (let i = 0; i < cs.length; i++) if (cs[i].keys && cs[i].keys[key]) return i;
   return -1;
+}
+
+// 지금 **그려진** 본문을 카드 묶음으로 가른다 — [{ el, first, bids:[…] }]
+// data-cards.js 의 경계를 쓰되 지금 화면에 있는 줄만 센다. 고치거나 숨겨서
+// 경계 줄이 사라져도 묶음이 깨지지 않고 앞 묶음에 붙을 뿐이다.
+function cardGroups(unitId, root) {
+  const bset = {};
+  ((window.CARDS || {})[unitId] || []).forEach(b => { bset[b] = 1; });
+  const out = [];
+  [].slice.call(root.querySelectorAll('[data-i]'))
+    .filter(e => !e.querySelector('[data-i]'))
+    .forEach(el => {
+      const bid = el.dataset.i;
+      if (!out.length || bset[bid]) out.push({ el: el, first: bid, bids: [] });
+      out[out.length - 1].bids.push(bid);
+    });
+  return out;
 }
 
 // 지금 화면 한가운데 걸린 블록 → 몇 번째 카드인가 (전문 → 카드로 넘어갈 때 자리 지키기)
@@ -1607,8 +1650,11 @@ const OX = {
 // 기록은 이 브라우저에만 있다. 브라우저 데이터를 지우거나 폰을 바꾸면 그날로 0/72 였다.
 // 진도·O·X·메모를 한 파일로 내보내고 되불러온다.
 function dumpAll() {
-  return { app:'lawmj-core-notes', v:1, at:new Date().toISOString(),
-           progress:PROG.load(), ox:OX.load(), memo:MEMO.load() };
+  // v2 부터 블록 진도(회독·체크)가 들어간다. 이게 빠지면 폰을 바꾸는 날 회독이 0 이 된다.
+  // v1 파일도 계속 받는다 — blk 가 없으면 없는 대로 읽는다.
+  return { app:'lawmj-core-notes', v:2, at:new Date().toISOString(),
+           progress:PROG.load(), ox:OX.load(), memo:MEMO.load(),
+           blk:BLK.load(), blkmig:(MIG || {}) };
 }
 
 function mergeAll(inc) {
@@ -1632,6 +1678,29 @@ function mergeAll(inc) {
     if (inc.memo[k] && memo[k] !== inc.memo[k]) { memo[k] = inc.memo[k]; n++; }
   });
   try { localStorage.setItem(MEMO_KEY, JSON.stringify(memo)); } catch (e) {}
+
+  // 블록 진도 — 체크한 **날**을 합집합으로 모은다. 회독 수는 날 수라서,
+  // 기기 둘에서 같은 날 본 것은 1 회독, 다른 날 본 것은 2 회독이 된다.
+  const blk = BLK.load();
+  Object.keys(inc.blk || {}).forEach(k => {
+    const mine = blk[k], theirs = inc.blk[k];
+    if (!mine) { blk[k] = theirs; n++; return; }
+    const days = {};
+    (mine.d || []).concat(theirs.d || []).forEach(x => { days[x] = 1; });
+    const d = Object.keys(days).sort();
+    if (d.length !== (mine.d || []).length) n++;
+    mine.d = d; mine.n = d.length;
+    if (!mine.m && theirs.m) { mine.m = theirs.m; n++; }
+  });
+  BLK.byUnit.cache = null;
+  BLK.save();
+  // 옮긴 단원 목록도 합친다. 안 합치면 저쪽에서 이미 옮긴 단원을 여기서 또 옮겨
+  // 옛 완료 표시가 방금 지운 체크를 되살린다.
+  if (inc.blkmig) {
+    if (!MIG) { try { MIG = JSON.parse(localStorage.getItem(MIG_KEY)) || {}; } catch (e) { MIG = {}; } }
+    Object.keys(inc.blkmig).forEach(k => { MIG[k] = 1; });
+    try { localStorage.setItem(MIG_KEY, JSON.stringify(MIG)); } catch (e) {}
+  }
   return n;
 }
 
@@ -1873,6 +1942,121 @@ const PROG = {
     this.save();
   }
 };
+
+// ── 블록 진도 (5단계) ────────────────────────────────────────
+// ★ 진도는 **카드가 아니라 블록**에 붙는다.
+//   카드는 파생물이라 경계 규칙을 손보면 달라진다. 거기에 회독·체크를 붙여 두면
+//   build_cards.js 를 한 번 고칠 때마다 기록이 흔들린다.
+//   블록 id 는 영구라 흔들리지 않고, 덤으로 **전문 보기와 카드 보기가 같은 기록을 본다.**
+//
+//   { 블록id: { s:과목, m:'★'|'✓'|'?', n:회독수, d:[체크한 날…] } }
+const BLK_KEY = 'lawmj_blk_v1';
+const today = () => {
+  const d = new Date();
+  return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0')
+    + '-' + String(d.getDate()).padStart(2, '0');
+};
+const BLK = {
+  data: null,
+  load() {
+    if (this.data) return this.data;
+    try { this.data = JSON.parse(localStorage.getItem(BLK_KEY)) || {}; } catch (e) { this.data = {}; }
+    return this.data;
+  },
+  save() { try { localStorage.setItem(BLK_KEY, JSON.stringify(this.data)); } catch (e) {} },
+  get(bid) { return this.load()[bid] || null; },
+  markOf(bid) { const r = this.get(bid); return (r && r.m) || ''; },
+
+  // 카드 하나(=블록 묶음)에 표시를 찍는다. 이미 그 표시면 뗀다.
+  // 회독은 **체크한 날 수**다 — 같은 날 여러 번 눌러도 1, 표시를 떼도 줄지 않는다.
+  // 단순해서 되돌릴 일이 없다(로고스와 같은 셈법).
+  mark(subj, unit, bids, m) {
+    if (!bids || !bids.length) return false;
+    const d = this.load();
+    const off = bids.every(b => d[b] && d[b].m === m);   // 같은 표시를 다시 눌렀다
+    const day = today();
+    bids.forEach(b => {
+      const r = d[b] || (d[b] = { s: subj, u: unit, n: 0, d: [] });
+      r.s = subj; r.u = unit;
+      if (off) delete r.m; else r.m = m;
+      if (!off && r.d.indexOf(day) < 0) { r.d.push(day); r.n = r.d.length; }
+      if (!r.m && !r.d.length) delete d[b];
+    });
+    this.byUnit.cache = null;
+    this.save();
+    return !off;
+  },
+
+  // 묶음의 표시 — 전부 같아야 그 표시다. 섞여 있으면 빈 값(아무 단추도 안 켜진다)
+  markAll(bids) {
+    if (!bids || !bids.length) return '';
+    const first = this.markOf(bids[0]);
+    return bids.every(b => this.markOf(b) === first) ? first : '';
+  },
+  // 묶음의 회독 — **가장 적게 본 블록**을 따른다. 한 줄이라도 안 봤으면 0회독이다
+  round(bids) {
+    if (!bids || !bids.length) return 0;
+    return bids.reduce((n, b) => Math.min(n, (this.get(b) || {}).n || 0), Infinity) || 0;
+  },
+  marked(bids) { return (bids || []).filter(b => this.markOf(b)).length; },
+
+  // 단원별 집계 — 목차에 진도를 띄우려면 블록이 어느 단원 것인지 알아야 한다.
+  // 그래서 기록에 u(단원 id)를 같이 적는다. 단원마다 블록 id 목록을 들고 있으면
+  // 27,385개를 번들에 실어야 하므로, **세는 수**만 data-cards.js 가 준다.
+  byUnit() {
+    if (this.byUnit.cache) return this.byUnit.cache;
+    const d = this.load(), out = {};
+    Object.keys(d).forEach(b => {
+      const r = d[b];
+      if (!r.u) return;                  // u 가 없는 옛 기록 — 다음에 누를 때 붙는다
+      const o = out[r.u] || (out[r.u] = { n: 0, marked: 0, min: Infinity });
+      o.n++;
+      if (r.m) o.marked++;
+      o.min = Math.min(o.min, r.n || 0);
+    });
+    return (this.byUnit.cache = out);
+  },
+  // 그 단원 회독 — 모든 블록에 기록이 있어야 비로소 1회독이다.
+  // 한 줄이라도 안 본 단원을 「1회독」이라 하면 그 수가 거짓이 된다.
+  unitRound(unitId) {
+    const o = this.byUnit()[unitId], all = (window.CARD_N || {})[unitId];
+    if (!o || !all || o.n < all) return 0;
+    return o.min === Infinity ? 0 : o.min;
+  },
+  unitPct(unitId) {
+    const o = this.byUnit()[unitId], all = (window.CARD_N || {})[unitId];
+    if (!o || !all) return 0;
+    return Math.min(100, Math.round(o.marked / all * 100));
+  }
+};
+
+// 옛 단원 진도(PROG 의 완료·약점)를 블록 진도로 내린다.
+// 한 번에 다 못 한다 — 블록이 무엇인지는 그 과목 데이터가 열려야 알 수 있고,
+// 과목은 열어 볼 때 비로소 받아 온다. 그래서 **단원을 열 때 그 단원만** 옮긴다.
+const MIG_KEY = 'lawmj_blkmig_v1';
+let MIG = null;
+function migrateProg(unitId, subj, root) {
+  if (!MIG) { try { MIG = JSON.parse(localStorage.getItem(MIG_KEY)) || {}; } catch (e) { MIG = {}; } }
+  if (MIG[unitId]) return;
+  const leaves = [].slice.call(root.querySelectorAll('[data-i]')).filter(e => !e.querySelector('[data-i]'));
+  if (!leaves.length) return;            // 아직 안 그려졌다 — 옮겼다고 적으면 영영 못 옮긴다
+  MIG[unitId] = 1;
+  try { localStorage.setItem(MIG_KEY, JSON.stringify(MIG)); } catch (e) {}
+
+  const was = PROG.get(unitId);
+  const m = was === 'done' ? '✓' : was === 'weak' ? '?' : '';
+  if (!m) return;
+  const d = BLK.load();
+  leaves.forEach(el => {
+    const b = el.dataset.i;
+    if (d[b]) return;                    // 이미 블록 기록이 있으면 건드리지 않는다
+    // 날짜가 없다 — PROG 는 언제 봤는지를 안 남겼다. 오늘로 적으면 오늘 체크가
+    // 「같은 날」이라 묻혀서 그때 한 회독이 사라진다. 그래서 자리만 채운다.
+    d[b] = { s: subj, u: unitId, m: m, n: 1, d: ['이전'] };
+  });
+  BLK.byUnit.cache = null;
+  BLK.save();
+}
 
 // 본문에 찍힌 표시별로 줄을 모아 보는 기준.
 // 원문 마커를 그대로 쓰므로 데이터가 바뀌어도 따로 손볼 것이 없다.
@@ -2246,6 +2430,7 @@ class Component extends DCLogic {
     this.syncMemo();
     this.syncAnswerBoxes();
     this.syncEditable();     // 본문을 다시 그리면 contenteditable 이 날아간다 — 매번 다시 입힌다
+    this.syncMarks();        // 체크 3단추도 같은 이유로 매번 다시 붙인다
     this.runJump();
   }
 
@@ -2283,6 +2468,65 @@ class Component extends DCLogic {
         el.style.outline = ''; el.style.outlineOffset = '';
       }
     });
+  }
+
+  // ── 카드 체크 3단추 (5단계) ─────────────────────────────────
+  // 본문 안에 직접 붙인다. 본문은 dangerouslySetInnerHTML 로 들어가 React 가
+  // 안을 안 보므로, 다시 그릴 때 덮일 뿐 충돌하지 않는다(고치기와 같은 수법).
+  //
+  // ★ 전문 보기와 카드 보기가 **같은 조각**을 쓴다. 카드 보기의 카드는 전문의
+  //   한 묶음을 떼어 낸 것이라, 같은 함수가 양쪽에서 그대로 돈다.
+  syncMarks() {
+    const unit = this._memoUnit, subj = this.state.subject;
+    // 본문 뿌리 안에서만 일한다. #main 에는 모아보기·검색 결과 줄도 들어 있어서,
+    // 거기까지 올라가면 단추가 본문 바깥에 떨어진다.
+    const root = document.querySelector('#main .q-rich');
+    if (!root || !unit) return;
+    migrateProg(unit, subj, root);      // 옛 단원 진도(완료·약점)를 블록으로 내린다
+
+    cardGroups(unit, root).forEach(g => {
+      // 묶음의 첫 줄 바로 앞에 끼운다. 울타리(callout·details)가 그 줄에서
+      // 시작하면 울타리 **밖**에 둔다 — 안에 넣으면 상자 속에 단추가 갇힌다.
+      let node = g.el;
+      while (node.parentElement && node.parentElement !== root
+             && node.parentElement.firstElementChild === node) node = node.parentElement;
+      const before = node.previousElementSibling;
+      if (before && before.classList && before.classList.contains('q-blk')) {
+        return this.paintMark(before, g.bids);          // 이미 있다 — 색만 맞춘다
+      }
+      const strip = document.createElement('div');
+      strip.className = 'q-blk';
+      strip.innerHTML = '<div class="q-blk-rule"></div>'
+        + '<b data-m="★" title="중요">☆</b><b data-m="✓" title="읽음">✓</b>'
+        + '<b data-m="?" title="모름">?</b><span class="q-blk-n"></span>';
+      strip.__bids = g.bids;
+      this.paintMark(strip, g.bids);
+      node.parentElement.insertBefore(strip, node);
+    });
+
+    if (this._blkWired) return;
+    this._blkWired = true;
+    // 단추는 수백 개가 되므로 하나씩 듣지 않고 한 곳에서 받는다
+    document.addEventListener('click', e => {
+      const b = e.target.closest && e.target.closest('.q-blk b');
+      if (!b) return;
+      const strip = b.parentElement, bids = strip.__bids;
+      if (!bids) return;
+      e.preventDefault(); e.stopPropagation();
+      BLK.mark(this.state.subject, this._memoUnit, bids, b.dataset.m);
+      this.paintMark(strip, bids);
+      this.forceUpdate();                 // 머리말의 회독·진도 숫자
+    }, true);
+  }
+
+  paintMark(strip, bids) {
+    strip.__bids = bids;
+    const m = BLK.markAll(bids), n = BLK.round(bids);
+    [].slice.call(strip.querySelectorAll('b')).forEach(b => {
+      if (b.dataset.m === m) b.setAttribute('data-on', '1'); else b.removeAttribute('data-on');
+    });
+    const tag = strip.querySelector('.q-blk-n');
+    if (tag) tag.textContent = n ? n + '회독' : '';
   }
 
   // 저장 — 고친 단원을 정본(units/)에 커밋한다.
@@ -2631,7 +2875,8 @@ class Component extends DCLogic {
     const chapters = this.chapterList();
     const rows = crim ? (window[(DATASETS[st.subject] || {}).key] || []) : [];
     const stateOf = id => PROG.get(id);
-    const doneIds = rows.filter(r => stateOf(r[0]) === 'done').length;
+    // 「다 본 단원」 — 블록을 한 줄도 빠짐없이 체크했거나(5단계), 옛 완료 표시가 있거나
+    const doneIds = rows.filter(r => stateOf(r[0]) === 'done' || BLK.unitRound(r[0]) > 0).length;
     const weakIds = rows.filter(r => stateOf(r[0]) === 'weak').length;
     const done = crim ? doneIds : 0;
 
@@ -2665,12 +2910,20 @@ class Component extends DCLogic {
       : stateOf(id) === 'weak';
     const keep = t => keepId(t.id);
 
+    // 진도 막대는 **블록 체크**가 있으면 그것을 따른다(5단계). 아직 한 줄도 안 찍은
+    // 단원은 옛 단원 진도(완료·약점)를 그대로 보여 준다 — 쓰던 기록이 사라지면 안 된다.
+    const pctOf = id => {
+      const p = BLK.unitPct(id);
+      if (p) return p + '%';
+      return stateOf(id) === 'done' ? '100%' : stateOf(id) === 'weak' ? '50%' : '0%';
+    };
     const crimDecorate = list => list.map(t => ({
       title: (stateOf(t.id) === 'done' ? '✓ ' : stateOf(t.id) === 'weak' ? '△ ' : '') + t.title,
       sub: (t.tags || []).slice(0, 3).join(' · ') || (DATASETS[st.subject] || {}).unit + ' ' + t.id,
       concepts: quizCountOf(st.subject, rows, t.id),
       cases: (t.html.match(/判例|大判全合|통판|【판례】/g) || []).length,
-      pct: stateOf(t.id) === 'done' ? '100%' : stateOf(t.id) === 'weak' ? '50%' : '0%',
+      round: BLK.unitRound(t.id) ? BLK.unitRound(t.id) + '회독' : '',
+      pct: pctOf(t.id),
       tags: (t.tags || []).slice(0, 3).map(x => Object.assign({ text: x }, this.tagStyle(/^§|\d/.test(x) ? 'grey' : 'chip'))),
       open: () => this.openChapter(t.id)
     }));
@@ -2767,6 +3020,8 @@ class Component extends DCLogic {
       ? cardsHtml(crimTopic.id, page.rich, (DRAFT.of(crimTopic.id) || {}).at || 0) : [];
     this._cardsUnit = cardsKey;
     const cardNow = Math.min(st.cardAt || 0, Math.max(0, unitCards.length - 1));
+    const unitBids = unitCards.reduce((a, c) => a.concat(c.bids || []), []);
+    const unitRound = BLK.round(unitBids);
 
     const sections = page ? page.sections.map(s => ({
       isHead: !!s.head, head: s.head || '',
@@ -2897,7 +3152,8 @@ class Component extends DCLogic {
         : '현재는 민법·민사소송법·형법·형사소송법·헌법·행정법이 열려 있습니다. 자료가 추가되면 같은 구조로 목차가 채워집니다.',
       isRich: !!(page && page.rich),
       richBody: page && page.rich
-        ? React.createElement('div', { dangerouslySetInnerHTML: { __html: st.cards ? (unitCards[cardNow] || {}).html || '' : page.rich } })
+        ? React.createElement('div', { className: 'q-rich' + (st.cards ? ' q-cardsview' : ''),
+            dangerouslySetInnerHTML: { __html: st.cards ? (unitCards[cardNow] || {}).html || '' : page.rich } })
         : null,
       // ── 전문 ↔ 카드 ──────────────────────────────────────────
       // 둘은 같은 데이터의 다른 렌더다. 전환의 성패는 「보던 자리」라
@@ -2941,6 +3197,12 @@ class Component extends DCLogic {
         if (!await ask({ msg: crimTopic.title + ' 의 저장 안 한 수정을 버릴까?', yes: '버린다' })) return;
         DRAFT.drop(crimTopic.id); this.setState({ __v: Date.now() });
       },
+      // ── 이 단원의 회독·진도 (5단계) ───────────────────────────
+      // 회독은 **가장 적게 본 블록**을 따른다 — 한 줄이라도 안 본 단원은 0회독이다.
+      // 이렇게 해야 「다 봤다」가 거짓말이 되지 않는다.
+      hasRound: !!(page && page.rich) && !!unitBids.length,
+      roundLabel: (unitRound ? unitRound + '회독 · ' : '')
+        + Math.round(BLK.marked(unitBids) / unitBids.length * 100) + '%',
       showPager: !!(st.cards && unitCards.length > 1),
       cardLabel: (cardNow + 1) + ' / ' + unitCards.length,
       prevInk: cardNow <= 0 ? 'var(--ink-ghost)' : 'var(--ink-soft)',

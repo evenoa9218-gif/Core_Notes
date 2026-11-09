@@ -91,7 +91,7 @@ function cardsOf(unit) {
 }
 
 function main() {
-  const out = {};
+  const out = {}, nOf = {};
   const rows = [];
   let allLens = [], cards = 0, leafTotal = 0;
 
@@ -107,6 +107,7 @@ function main() {
       // 앱이 번호를 다시 셀 필요가 없고(세는 규칙이 어긋날 일이 없다),
       // 줄을 고치거나 끼워 넣어도 경계가 제 자리를 지킨다.
       out[id] = starts.map(i => L[i].i);
+      nOf[id] = L.length;                 // 이 단원의 잎 블록 수 — 진도의 분모
       n += starts.length; leafTotal += L.length;
       starts.forEach((st, k) => {
         const end = k + 1 < starts.length ? starts[k + 1] : L.length;
@@ -131,7 +132,10 @@ function main() {
   const body = '// units/ 에서 만든 카드 경계. 손으로 고치지 않는다 — tools/build_cards.js 가 쓴다.\n' +
     '// { 단원id: [카드가 시작하는 블록 id…] }  — 화면에서는 data-i 로 그 자리를 찾는다\n' +
     '// 카드는 파생물이라 진도를 붙이지 않는다. 진도는 블록 id 에 붙는다.\n' +
-    'window.CARDS = ' + JSON.stringify(out) + ';\n';
+    'window.CARDS = ' + JSON.stringify(out) + ';\n' +
+    '// { 단원id: 잎 블록 수 } — 「이 단원을 다 봤나」를 앱이 재는 분모.\n' +
+    '//   블록 id 25,730개를 싣지 않고 수만 준다. 진도는 기록 쪽에 적힌 u(단원)로 모은다.\n' +
+    'window.CARD_N = ' + JSON.stringify(nOf) + ';\n';
   fs.writeFileSync(path.join(ROOT, 'data-cards.js'), body, 'utf8');
   console.log('data-cards.js', (body.length / 1024).toFixed(0) + 'KB');
 }
