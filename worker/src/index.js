@@ -231,6 +231,24 @@ async function save(env, origin, req) {
   });
 }
 
+// 지금 저장소에 있는 그대로의 단원.
+// ⚠ 앱이 Pages(/units/…)에서 읽으면 안 된다 — 배포가 1~2분 늦어서, 연달아 저장하면
+//   두 번째 저장이 **첫 번째 수정이 없는 옛 파일**을 바탕으로 커밋해 앞 수정을 지운다.
+//   여기는 GitHub API 를 바로 보므로 늘 최신이다.
+async function unit(env, origin, url) {
+  const subj = url.searchParams.get('subj'), id = url.searchParams.get('id');
+  if (!SUBJECTS.includes(subj) || !UNIT_RE.test(String(id || '')))
+    return bad(origin, 400, '과목이나 단원 id 가 이상하다');
+  const path = 'units/' + subj + '/' + id + '.json';
+  try {
+    const got = await gh(env, `/repos/${OWNER}/${REPO}/contents/${encodeURI(path)}?ref=${BRANCH}`);
+    return json(origin, { ok: true, unit: JSON.parse(fromB64(got.content)) });
+  } catch (e) {
+    if (e.status === 404) return bad(origin, 404, '그런 단원이 없다', path);
+    throw e;
+  }
+}
+
 // 이 단원의 이력 — 되돌리기용
 async function history(env, origin, url) {
   const subj = url.searchParams.get('subj'), id = url.searchParams.get('id');
@@ -273,6 +291,7 @@ export default {
 
     try {
       if (request.method === 'POST' && url.pathname === '/save') return await save(env, origin, request);
+      if (request.method === 'GET' && url.pathname === '/unit') return await unit(env, origin, url);
       if (request.method === 'GET' && url.pathname === '/history') return await history(env, origin, url);
       return bad(origin, 404, '없는 길');
     } catch (e) {

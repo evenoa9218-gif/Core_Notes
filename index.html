@@ -1208,7 +1208,7 @@ const UNIT_DIR = { 민법:'민법', 민사소송법:'민소', 형법:'형법', �
 const DRAFT_KEY = 'lawmj_draft_v1';
 // 저장 서버(worker/). 배포하면 https://core-notes-writer.<계정>.workers.dev 같은 주소가 나온다.
 // 비어 있으면 저장 단추가 꺼진 채로 둔다 — 고치기 자체는 기기 안에서 그대로 된다.
-const WRITER_URL = '';
+const WRITER_URL = 'https://core-notes-writer.bar-exam.workers.dev';
 // 비밀번호는 기기마다 한 번 넣고 여기에 둔다. 쓰기 토큰은 Worker 에만 있다 —
 // 저장소가 public 이라 토큰을 브라우저에 두면 XSS 하나로 저장소 전체가 넘어간다.
 const PW_KEY = 'lawmj_pw_v1';
@@ -1232,7 +1232,12 @@ const DRAFT = {
   },
   drop(unitId) { const d = this.load(); delete d[unitId]; this.save(); },
   units() { return Object.keys(this.load()); },
-  count() { return this.units().reduce((n, k) => n + Object.keys(this.load()[k].b).length, 0); }
+  // 저장 단추에 쓰는 수 — 아직 안 보낸 것만 센다(보낸 것은 배포를 기다리는 중이다)
+  count() {
+    return this.units().reduce((n, k) =>
+      n + Object.keys(this.load()[k].b).filter(b => !this.load()[k].b[b].saved).length, 0);
+  },
+  pending() { return this.units().filter(k => Object.keys(this.load()[k].b).some(b => !this.load()[k].b[b].saved)); }
 };
 
 // 깁기를 본문 HTML 에 입힌다. 되그린 HTML 은 퀴즈·기출연결·차례가 모두 다시 읽으므로
@@ -1245,13 +1250,20 @@ function patched(unitId, html) {
   if (PATCHED[key]) return PATCHED[key];
   const root = document.createElement('div');
   root.innerHTML = html || '';
+  const done = [];
   Object.keys(d.b).forEach(bid => {
     const el = root.querySelector('[data-i="' + bid + '"]');
-    if (!el) return;                                  // 그 줄이 없어졌다 — 조용히 버린다
+    // 그 줄이 없어졌다 — 저장까지 끝난 깁기면 치운다(안 그러면 영원히 남는다)
+    if (!el) { if (d.b[bid].saved) done.push(bid); return; }
     const c = d.b[bid];
+    // 저장은 끝났는데 Pages 배포가 아직인 동안은 깁기를 계속 입혀 둔다.
+    // 안 그러면 저장하자마자 고친 것이 1~2분 사라져 보인다.
+    // 번들이 따라잡으면(본문이 이미 같으면) 그때 깁기를 지운다.
+    if (c.saved && (c.x ? false : el.innerHTML === c.h)) { done.push(bid); return; }
     if (c.x) { el.remove(); return; }                 // 숨김
     if (typeof c.h === 'string') el.innerHTML = c.h;
   });
+  if (done.length) setTimeout(() => done.forEach(b => DRAFT.set(unitId, d.subj, b, null)), 0);
   return (PATCHED[key] = root.innerHTML);
 }
 
@@ -2210,7 +2222,7 @@ class Component extends DCLogic {
       if (!pw) return;
       try { localStorage.setItem(PW_KEY, pw); } catch (e) {}
     }
-    const ids = DRAFT.units();
+    const ids = DRAFT.pending();
     if (!ids.length) return this.say('저장할 것이 없다');
 
     this.setState({ saving: true });
@@ -2221,9 +2233,15 @@ class Component extends DCLogic {
         const d = DRAFT.of(id);
         const dir = UNIT_DIR[d.subj];
         if (!dir) throw new Error(d.subj + ' 은 아직 고칠 수 없다');
-        const r = await fetch('units/' + encodeURIComponent(dir) + '/' + encodeURIComponent(id) + '.json?t=' + Date.now());
-        if (!r.ok) throw new Error(id + ' 의 정본을 못 받았다 (' + r.status + ')');
-        const unit = await r.json();
+        // 정본은 Worker 에서 받는다. Pages(/units/…)는 배포가 1~2분 늦어서,
+        // 연달아 저장하면 두 번째가 옛 파일을 바탕으로 커밋해 앞 수정을 지운다.
+        const r = await fetch(WRITER_URL.replace(/\/$/, '') + '/unit?subj='
+          + encodeURIComponent(dir) + '&id=' + encodeURIComponent(id),
+          { headers: { 'Authorization': 'Bearer ' + pw } });
+        const got = await r.json().catch(() => ({}));
+        if (r.status === 401) { try { localStorage.removeItem(PW_KEY); } catch (e) {} throw new Error('비밀번호가 다르다 — 다시 눌러 넣어 달라'); }
+        if (!got.ok) throw new Error(id + ' 의 정본을 못 받았다 (' + r.status + ')');
+        const unit = got.unit;
         let hit = 0;
         const walk = bs => bs.filter(b => {
           if (b.w !== undefined) return true;
@@ -2255,7 +2273,11 @@ class Component extends DCLogic {
       if (res.status === 401) { try { localStorage.removeItem(PW_KEY); } catch (e) {} throw new Error('비밀번호가 다르다 — 다시 눌러 넣어 달라'); }
       if (!res.body.ok) throw new Error((res.body.why || '저장 실패') + (res.body.detail ? ' (' + res.body.detail + ')' : ''));
 
-      ids.forEach(i => DRAFT.drop(i));
+      // 지우지 않고 「저장됨」으로 표시만 한다 — 배포가 따라잡으면 patched() 가 알아서 치운다
+      ids.forEach(i => {
+        const d = DRAFT.of(i); if (!d) return;
+        Object.keys(d.b).forEach(b => DRAFT.set(i, d.subj, b, { saved: 1 }));
+      });
       this.say(res.body.same ? '바뀐 것이 없었다' : ids.length + '단원 저장했다 — 사이트 반영까지 1~2분');
     } catch (e) {
       this.say(String(e.message || e));

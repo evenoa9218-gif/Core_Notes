@@ -1,3 +1,4 @@
 node_modules/
 .wrangler/
 src/index.mjs
+package-lock.json
