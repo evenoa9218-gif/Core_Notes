@@ -332,10 +332,10 @@ html[data-nav="1"] .q-navtoggle::after{content:'목차 ▴'}
   font-variant-numeric:tabular-nums;min-width:30px;text-align:right}
 .q-blk b{display:inline-flex;align-items:center;justify-content:center;width:26px;height:22px;
   border:1px solid var(--line-10);border-radius:6px;cursor:pointer;background:var(--surface);
-  font:600 11px Pretendard,sans-serif;color:var(--ink-ghost);margin-left:-1px}
+  font:600 11px Pretendard,sans-serif;color:var(--ink-muted);margin-left:-1px}
 .q-blk b:first-of-type{border-radius:6px 0 0 6px;margin-left:0}
 .q-blk b:last-of-type{border-radius:0 6px 6px 0}
-.q-blk b:hover{color:var(--ink-muted);background:var(--surface-2)}
+.q-blk b:hover{color:var(--ink-2);background:var(--surface-2)}
 .q-blk b[data-on]{background:var(--accent-soft);border-color:var(--accent);color:var(--accent-ink);z-index:1}
 /* 카드 보기에서는 머리에 붙어 따라다닌다 — 엄지가 닿는 자리를 잃지 않게.
    ⚠ 바로 아래 자식일 때만. 카드가 콜아웃 안에서 시작하면 단추도 상자 안에 들어가는데,
@@ -356,6 +356,13 @@ html[data-nav="1"] .q-navtoggle::after{content:'목차 ▴'}
 .q-run-fill{height:100%;background:var(--accent);transition:width .3s}
 /* 세션 중에는 막대도 카드 단추도 맨 위에 붙는다. 그냥 두면 단추가 막대 밑으로 숨는다. */
 .q-running.q-cardsview > .q-blk{top:59px}
+/* 폰에서는 엄지로 누른다. 26×22 는 손가락에 작다 — 읽는 내내 누를 단추라 더 그렇다. */
+@media (max-width:760px){
+  .q-blk b{width:40px;height:34px;font-size:14px}
+  .q-blk{gap:8px;margin:20px 0 8px}
+  .q-run-end{padding:7px 14px;font-size:12px}
+  .q-running.q-cardsview > .q-blk{top:63px}
+}
 @media (max-width:760px){.q-input{font-size:16px;padding:12px 14px}.q-memo{font-size:16px}}
 body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-webkit-font-smoothing:antialiased}*{word-break:keep-all;overflow-wrap:break-word}a{color:var(--link)}a:hover{color:var(--link-hover)}
 /* ── 좁은 화면 대응 ─────────────────────────────────────────────
@@ -429,6 +436,11 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
   /* ⚠ 위의 반경 규칙이 (0,2,1) 로 더 구체적이라 그냥 쓰면 38px 로 눌린다.
      한 단원에 120번 누르는 자리라 44px 를 지킨다. */
   .q-ox{min-height:44px!important;min-width:64px;display:flex;align-items:center;justify-content:center;box-sizing:border-box}
+  /* 바닥 띠의 앞·뒤 단원 화살표가 44×14 였다(실측). 폭만 넓혀 놓고 높이를 안 줬다 —
+     세션으로 단원을 이어 넘기기 시작하면 여기를 계속 누른다. */
+  .q-step{min-height:40px;display:flex;align-items:center;box-sizing:border-box}
+  /* 체크 3단추 — 읽는 내내 누르는 자리라 손끝 크기를 지킨다 */
+  .q-blk b{height:38px;width:42px}
 }
 </style></helmet>
 
@@ -624,7 +636,7 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;cursor:pointer;background:{{ doneBg }};border:1px solid {{ doneBorder }};font-weight:600;font-size:11px;color:{{ doneColor }}" onClick="{{ toggleDone }}">✓ 완료</div>
 <div role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;cursor:pointer;background:{{ weakBg }};border:1px solid {{ weakBorder }};font-weight:600;font-size:11px;color:{{ weakColor }}" onClick="{{ toggleWeak }}">△ 약점</div>
 </sc-if>
-<sc-if value="{{ hasQuiz }}" hint-placeholder-val="{{ true }}"><div role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;background:var(--accent-soft);font-weight:600;font-size:11px;color:var(--accent-ink);cursor:pointer" onClick="{{ toggleQuiz }}">암기 확인 {{ quizTotal }}</div></sc-if>
+<sc-if value="{{ hasQuiz }}" hint-placeholder-val="{{ true }}"><div role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;background:var(--accent-soft);font-weight:600;font-size:11px;color:var(--accent-ink);cursor:pointer" onClick="{{ toggleQuiz }}">{{ quizLabel }}</div></sc-if>
 <sc-if value="{{ hasCaseDeck }}" hint-placeholder-val="{{ false }}"><div role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;background:var(--surface);border:1px solid var(--accent);font-weight:600;font-size:11px;color:var(--accent-ink);cursor:pointer" onClick="{{ openCases }}">{{ caseLabel }}</div></sc-if>
 </div>
 </div>
@@ -2518,20 +2530,28 @@ class Component extends DCLogic {
     const t = brandOf(this.state.track, this.state.subject) + ' — 변호사시험 ' + this.state.subject;
     if (document.title !== t) document.title = t;
     const now = this.navSnap(this.state);
-    if (this._popping) { this._popping = false; this._nav = now; this.syncPart(); this.syncBox(); this.syncMemo(); this.runJump(); return; }
-    const moved = this._nav ? Object.keys(now).filter(k => this._nav[k] !== now[k]) : [];
-    if (moved.length) {
-      // 검색어만 바뀐 것은 한 번의 이동으로 친다 — 글쇠마다 기록이 쌓이면 뒤로가기가 막힌다
-      const typingOnly = moved.length === 1 && moved[0] === 'q' && !!this._nav.q && !!now.q;
-      history[typingOnly ? 'replaceState' : 'pushState']({ __nav: now }, '', hashOf(now));
-      try { localStorage.setItem(LAST_KEY, JSON.stringify(now)); } catch (e) {}
+    const popped = this._popping;
+    if (popped) {
+      this._popping = false;            // 되돌린 상태를 기록에 다시 쌓지 않는다
+      this._nav = now;
+    } else {
+      const moved = this._nav ? Object.keys(now).filter(k => this._nav[k] !== now[k]) : [];
+      if (moved.length) {
+        // 검색어만 바뀐 것은 한 번의 이동으로 친다 — 글쇠마다 기록이 쌓이면 뒤로가기가 막힌다
+        const typingOnly = moved.length === 1 && moved[0] === 'q' && !!this._nav.q && !!now.q;
+        history[typingOnly ? 'replaceState' : 'pushState']({ __nav: now }, '', hashOf(now));
+        try { localStorage.setItem(LAST_KEY, JSON.stringify(now)); } catch (e) {}
+      }
+      this._nav = now;
+      // 단원이 바뀌면 카드 번호를 처음으로 되돌린다 — 3장짜리 단원에서 7번 카드를 보려 들면 빈다
+      if (this._cardUnit !== this.state.chapter) {
+        this._cardUnit = this.state.chapter;
+        if (this.state.cardAt) this.setState({ cardAt: 0 });
+      }
     }
-    this._nav = now;
-    // 단원이 바뀌면 카드 번호를 처음으로 되돌린다 — 3장짜리 단원에서 7번 카드를 보려 들면 빈다
-    if (this._cardUnit !== this.state.chapter) {
-      this._cardUnit = this.state.chapter;
-      if (this.state.cardAt) this.setState({ cardAt: 0 });
-    }
+    // ⚠ 아래 다섯은 **되돌아온 경우에도** 돌아야 한다. 본문은 다시 그려질 때마다
+    //   통째로 갈아 끼워지므로, 여기서 다시 입히지 않으면 뒤로가기로 들어간 단원에는
+    //   체크 3단추도 고치기도 붙지 않는다(기록을 쌓는 일만 되돌림에서 빼면 된다).
     this.syncPart();
     this.syncBox();
     this.syncMemo();
@@ -3375,9 +3395,11 @@ class Component extends DCLogic {
       // ── 이 단원의 회독·진도 (5단계) ───────────────────────────
       // 회독은 **가장 적게 본 블록**을 따른다 — 한 줄이라도 안 본 단원은 0회독이다.
       // 이렇게 해야 「다 봤다」가 거짓말이 되지 않는다.
-      hasRound: !!(page && page.rich) && !!unitBids.length,
+      // 아직 한 줄도 안 본 단원에는 띄우지 않는다. 도구 줄은 폰에서 이미 두 줄인데,
+      // 거기에 「0%」만 덩그러니 놓이면 자리를 먹고 알려 주는 것은 없다.
+      hasRound: !!(page && page.rich) && !!unitBids.length && BLK.marked(unitBids) > 0,
       roundLabel: (unitRound ? unitRound + '회독 · ' : '')
-        + Math.round(BLK.marked(unitBids) / unitBids.length * 100) + '%',
+        + Math.round(BLK.marked(unitBids) / Math.max(1, unitBids.length) * 100) + '%',
       // ── 읽기 세션 (6단계) ───────────────────────────────────
       // 돌고 있는 동안에는 숨긴다 — 다시 누르면 돌던 묶음이 말없이 덮인다. 마치기는 막대에 있다
       canRun: !!crimTopic && !!(page && page.rich) && !run,
@@ -3492,6 +3514,7 @@ class Component extends DCLogic {
       },
       hasQuiz: quizCards.length > 0, hasLinkedQuiz: !!(page && page.quizCount),
       quizOpen: st.quizOpen, quizCards, quizTotal: allCards.length,
+      quizLabel: '암기 확인 ' + allCards.length,
       deckHint: deckKind === 'case'
         ? '답안 구성(논점·조문·결론)을 적고 채점을 누르면 모범답안의 논점(또는 핵심 용어)을 몇 개 짚었는지 센다. 모자라면 오답으로 남는다.'
         : 'O·X 는 고르면 바로 채점한다. 빈칸은 들어갈 말을 적고 Enter(또는 채점). 띄어쓰기·괄호 속 조문은 안 본다. 틀린 것은 오답으로 남는다.',

@@ -10,7 +10,7 @@
 
 // v3 — 데이터 파일을 과목별로 갈랐다(data-criminal/public → crim/crimpro/const/admin).
 // 이름을 올려 옛 캐시에 남은 합본 4MB 를 activate 에서 지운다.
-const CACHE = 'lawmj-v5';   // v5: 읽기 세션(6단계)
+const CACHE = 'lawmj-v6';   // v6: 폰 손끝 크기·뒤로가기 수리
 const SCOPE = new URL('./', self.location).pathname;
 const SHELL = ['./', './manifest.json', './support.js',
                './vendor/react.production.min.js', './vendor/react-dom.production.min.js'];
