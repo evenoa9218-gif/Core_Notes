@@ -89,16 +89,24 @@ const splitProblemText = sandbox.splitProblemText;
 // 「·」 로 이어지는 꼬리는 형사법의 「변25·23」 을 한 표시로 잡으려고 둔 것이다. 숫자 뒤 (?!\d) 가 없으면
 // 「변25, 2020도1234」 에서 「, 20」 을 삼킨다.
 const NUM_TAIL = '((?:\\s?·\\s?\\d{1,2}(?!\\d))*)';
+// ⚠ **책마다 표기가 다르다.** 넓힐 때마다 새 꼴이 나왔다 —
+//     민법·류정모   「변12 사례」「24년 8모」        (변이 앞, 모의는 「N모」)
+//     형사법        「변사25」「모사23·21」          (유형이 접두사, 번호는 연도)
+//     강성민 행정법  「12회 변시 1문」「25년 2차 2문」 (회가 앞, 모의는 「N차」, **문 번호까지**)
+//   강성민 것을 안 받아 185곳 중 63곳만 이어졌었다. 새 책을 넣을 땐 **표기부터 세어 볼 것.**
+// 묶음에 이름을 붙인다 — 번호로 세면 갈래를 더할 때마다 뒤가 밀려 조용히 어긋난다.
 const LABEL_SRC =
   '(?<=【)(?:객빈(?:\\s?—[^】]*)?|(?:법모\\s?)?객관식|변시\\s?선택형|' +
   '법모\\s?(?:사례|기록)(?:·(?:사례|기록))?(?:\\s?\\d회↑)?|법모\\s?(?:선택형|×\\s?\\d)|변시\\s?사례형|사례형|' +
   '\\d{2}년\\s?법모\\s?(?:출제|사례|기록)?|기록형|기록\\s?기출|변\\s?기출)(?=】)' +
-  '|(변사|변기|모사|모기)\\s?(\\d{1,2})(?!\\d)' + NUM_TAIL +
-  '|변시?\\s?(\\d{1,2})(?!\\d)회?' + NUM_TAIL + '\\s*(사례형?|기록형?|기출|선택형)?' +
-  '|(\\d{2})\\s?(?:년\\s?|\\.\\s?)(\\d{1,2})\\s?모\\s*(사례|기록|기출|채점기준)?';
+  '|(?<pre>변사|변기|모사|모기)\\s?(?<preN>\\d{1,2})(?!\\d)(?<preTail>(?:\\s?·\\s?\\d{1,2}(?!\\d))*)' +
+  // 강성민 — 「12회 변시 1문」「12회 변시 1문의2」
+  '|(?<hoeN>\\d{1,2})\\s?회\\s?변시(?:\\s?(?<hoeMun>\\d)\\s?문(?:의\\s?(?<hoeSub>\\d))?)?' +
+  // 강성민 — 「25년 2차 2문」 (1차=6모 · 2차=8모 · 3차=10모)
+  '|(?<chaYY>\\d{2})\\s?년\\s?(?<chaN>[1-3])\\s?차(?:\\s?(?<chaMun>\\d)\\s?문(?:의\\s?(?<chaSub>\\d))?)?' +
+  '|변시?\\s?(?<n>\\d{1,2})(?!\\d)회?(?<tail>(?:\\s?·\\s?\\d{1,2}(?!\\d))*)\\s*(?<type>사례형?|기록형?|기출|선택형)?' +
+  '|(?<yy>\\d{2})\\s?(?:년\\s?|\\.\\s?)(?<mm>\\d{1,2})\\s?모\\s*(?<mtype>사례|기록|기출|채점기준)?';
 const LABEL_RE = new RegExp(LABEL_SRC, 'g');
-// 갈래별 묶음 번호 — 정규식을 손보면 여기도 같이 고쳐야 한다
-const G_PRE = 1, G_PRE_N = 2, G_PRE_TAIL = 3, G_N = 4, G_TAIL = 5, G_TYPE = 6, G_YY = 7, G_MM = 8, G_MTYPE = 9;
 const MONTH_ROUND = { 6: 1, 8: 2, 10: 3 };
 const GROUP_RE = /^\s*제\s?(\d)\s?문(?:의\s?(\d))?/;
 // 「변11(30점 중 일부)」 — 공법 본문은 표시 뒤에 **배점**을 적어 둔다. 이게 글자 맞추기보다 센 단서다.
@@ -118,7 +126,8 @@ function readLabels(text, subj) {
   LABEL_RE.lastIndex = 0;
   while ((m = LABEL_RE.exec(text))) {
     const raw = m[0].trim();
-    if (!m[G_PRE] && !m[G_N] && !m[G_YY]) {                         // 【】 단독 표시
+    const G = m.groups;
+    if (!G.pre && !G.n && !G.yy && !G.hoeN && !G.chaYY) {          // 【】 단독 표시
       if (/객빈|객관식|선택형/.test(raw)) { out.push({ raw, cls: 'mcq' }); continue; }
       const types = /사례/.test(raw) && /기록/.test(raw) ? ['사례', '기록'] : /사례/.test(raw) ? ['사례'] : /기록/.test(raw) ? ['기록'] : ['사례', '기록'];
       const kinds = /^변시|^변\s?기출/.test(raw) ? ['변시'] : /법모/.test(raw) ? ['모의'] : ['변시', '모의'];
@@ -128,16 +137,19 @@ function readLabels(text, subj) {
     }
     // 「특변13」 같은 낱말 속 숫자는 표시가 아니다 — 단 「(19년」「[변사24」처럼 괄호·대괄호 뒤는 된다
     const before = text.slice(Math.max(0, m.index - 1), m.index);
-    if ((m[G_PRE] || m[G_N]) && /[가-힣]/.test(before) && !/[(\s【\[·,]/.test(before)) continue;
+    if ((G.pre || G.n) && /[가-힣]/.test(before) && !/[(\s【\[·,]/.test(before)) continue;
     const tail = text.slice(m.index + m[0].length);
     const g = GROUP_RE.exec(tail);
-    const group = g ? '제' + g[1] + '문' + (g[2] ? '의' + g[2] : '') : null;
+    // 강성민은 문 번호를 표시 **안에** 적는다(「12회 변시 1문의2」) — 그쪽을 먼저 쓴다.
+    const mun = G.hoeMun || G.chaMun, sub = G.hoeSub || G.chaSub;
+    const group = mun ? '제' + mun + '문' + (sub ? '의' + sub : '')
+      : g ? '제' + g[1] + '문' + (g[2] ? '의' + g[2] : '') : null;
     const pm = PT_RE.exec(tail);
     const points = pm ? +pm[1] : null;
 
-    if (m[G_PRE]) {                                                 // 「변사25·20」「모사23·21」
-      const [kind, type] = PRE_TYPE[m[G_PRE]];
-      nums(m[G_PRE_N], m[G_PRE_TAIL]).forEach(y => {
+    if (G.pre) {                                                    // 「변사25·20」「모사23·21」
+      const [kind, type] = PRE_TYPE[G.pre];
+      nums(G.preN, G.preTail).forEach(y => {
         if (y < YEAR_MIN || y > YEAR_MAX) return;
         out.push(kind === '변시'
           ? { raw, cls: 'exam', kind, n: ROUND_OF_YEAR(y), type, group, points }
@@ -146,12 +158,25 @@ function readLabels(text, subj) {
       });
       continue;
     }
-    if (m[G_N]) {                                                   // 「변13 사례」「변25·23」
-      let type = m[G_TYPE];
+    // 문 번호가 적혀 있으면 **사례형**이다 — 기록형은 한 벌이라 「몇 문」이 없다.
+    const munType = mun ? '사례' : null;
+    if (G.hoeN) {                                                   // 강성민 「12회 변시 1문」
+      const n = +G.hoeN;
+      if (n >= 1 && n <= 15) out.push({ raw, cls: 'exam', kind: '변시', n, type: munType, group, points });
+      continue;
+    }
+    if (G.chaYY) {                                                  // 강성민 「25년 2차 2문」
+      // 차수가 그대로 적혀 있다 — 1차=6모·2차=8모·3차=10모. 민법처럼 달(6/8/10)을 환산할 일이 없다.
+      out.push({ raw, cls: 'exam', kind: '모의', year: 2000 + +G.chaYY, round: +G.chaN,
+                 type: munType, group, points });
+      continue;
+    }
+    if (G.n) {                                                      // 「변13 사례」「변25·23」
+      let type = G.type;
       if (type === '선택형') { out.push({ raw, cls: 'mcq' }); continue; }
       type = type ? type.replace(/형$/, '') : null;
       if (type === '채점기준') type = null;
-      nums(m[G_N], m[G_TAIL]).forEach(v => {
+      nums(G.n, G.tail).forEach(v => {
         if (S.scheme === '연도') {
           if (v < YEAR_MIN || v > YEAR_MAX) return;
           // 형사법에서 유형 없는 「변N」 은 선택형이다 — 민법과 기본값이 반대다
@@ -165,12 +190,12 @@ function readLabels(text, subj) {
       continue;
     }
     // 「24년 8모 사례」
-    const round = MONTH_ROUND[+m[G_MM]];
+    const round = MONTH_ROUND[+G.mm];
     if (!round) continue;
-    let type = m[G_MTYPE];
+    let type = G.mtype;
     if (type === '선택형') { out.push({ raw, cls: 'mcq' }); continue; }
     if (type === '채점기준') type = null;
-    out.push({ raw, cls: 'exam', kind: '모의', year: 2000 + +m[G_YY], round, type, group, points });
+    out.push({ raw, cls: 'exam', kind: '모의', year: 2000 + +G.yy, round, type, group, points });
   }
   return out;
 }
@@ -572,8 +597,15 @@ for (const [subj, S] of Object.entries(SUBJECTS)) {
               // 그 회차가 설문 단위로 안 쪼개져 있으면 하나도 안 맞는다 — 그때는 조용히 전체로 돌아간다.
               let pinned = false;
               if (l.group) {
-                const f = gs.filter(x => normGroup(x.g.key) === normGroup(l.group));
+                const want = normGroup(l.group);
+                let f = gs.filter(x => normGroup(x.g.key) === want);
                 if (f.length) { gs = f; pinned = true; }
+                else {
+                  // 「2문」처럼 **문 번호만** 적힌 것(강성민). 사이트는 「제2문-1」처럼 설문까지
+                  // 쪼개 두어 글자로는 안 맞는다 — 그 문에 속한 설문으로 좁히고 그 안에서 고른다.
+                  f = gs.filter(x => normGroup(x.g.key).startsWith(want));
+                  if (f.length) { gs = f; pinned = f.length === 1; }
+                }
               } else if (l.points) {
                 const f = gs.filter(x => x.g.points === l.points);
                 if (f.length) { gs = f; pinned = f.length === 1; }
