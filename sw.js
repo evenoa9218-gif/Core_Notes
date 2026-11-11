@@ -10,7 +10,7 @@
 
 // v3 — 데이터 파일을 과목별로 갈랐다(data-criminal/public → crim/crimpro/const/admin).
 // 이름을 올려 옛 캐시에 남은 합본 4MB 를 activate 에서 지운다.
-const CACHE = 'lawmj-v11';  // v11: 여백 판례 카드가 60자에서 생으로 끊기던 것
+const CACHE = 'lawmj-v12';  // v12: 여백 판례 카드에 소제목·물음을 붙였다
 const SCOPE = new URL('./', self.location).pathname;
 const SHELL = ['./', './manifest.json', './support.js',
                './vendor/react.production.min.js', './vendor/react-dom.production.min.js'];
