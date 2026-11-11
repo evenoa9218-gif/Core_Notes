@@ -53,6 +53,9 @@ const SUBJECTS = {
     modOf: { 채총: '채권총론', 채각: '채권각론', 민총: '민법총칙', 물권: '물권법' } },
   헌법: { app: '헌법', file: 'data-const.js', key: 'CONST_UNITS', track: '공법', scheme: '회차' },
   행정법: { app: '행정법', file: 'data-admin.js', key: 'ADMIN_UNITS', track: '공법', scheme: '회차' },
+  // 강성민 단권화 노트는 기출 표시에 **문 번호와 배점까지** 적어 둔다(「★12회 변시 1문 … (15)」) —
+  // 류정모보다 정확히 붙는다. 번호 체계는 공법이므로 회차다.
+  행정법강성민: { app: '행정법강성민', file: 'data-admin-kang.js', key: 'ADMIN_KANG_UNITS', track: '공법', scheme: '회차' },
   형법: { app: '형법', file: 'data-crim.js', key: 'CRIM_GAKRON_CONCEPT', track: '형사법', scheme: '연도',
     mcqHtml: 'criminal.html', mcq: ['형법총론', '형법각론'] },
   형소: { app: '형사소송법', file: 'data-crimpro.js', key: 'CRIMPRO_UNITS', track: '형사법', scheme: '연도',

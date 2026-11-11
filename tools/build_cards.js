@@ -23,7 +23,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
-const SUBJ = ['민법', '헌법', '행정법', '형법', '형소', '민소', '최판'];
+const SUBJ = ['민법', '헌법', '행정법', '행정법강성민', '형법', '형소', '민소', '최판'];
 
 const MIN = 300;    // 이보다 짧으면 다음 것을 붙인다 — 「Ⅰ. 의의」 한 줄 카드를 막는다
 const MAX = 800;    // 이보다 길면 경계가 아니어도 끊는다

@@ -153,6 +153,11 @@ mark.q-hit{background:var(--q-bg);color:var(--q-ink);border-radius:3px;padding:0
 .q-subj{padding:6px 12px;border-radius:7px;cursor:pointer;background:var(--surface);border:1px solid rgba(45,48,56,.09);font-weight:500;font-size:11.5px;color:var(--ink-fainter)}
 .q-subj[data-on="true"]{background:var(--accent-soft);border-color:transparent;color:var(--accent-ink);font-weight:600}
 
+/* 교재 고르개 — 과목 칩보다 한 단 작게. 과목을 고르는 것과 헷갈리면 안 된다 */
+.q-book{padding:4px 9px;border-radius:6px;cursor:pointer;background:transparent;border:1px dashed var(--line-20);
+        font-weight:500;font-size:10.5px;color:var(--ink-faint);line-height:1.3}
+.q-book[data-on="true"]{background:var(--surface);border-style:solid;border-color:var(--accent-ink);color:var(--accent-ink);font-weight:600}
+
 .q-part{padding:9px 16px;display:flex;align-items:flex-start;gap:8px;cursor:pointer;background:transparent}
 .q-part[data-on="true"]{background:var(--accent-pick)}
 .q-part-bar{width:3px;height:13px;border-radius:2px;background:transparent;flex:none;margin-top:3px}
@@ -495,6 +500,14 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div role="button" tabIndex="0" class="q-subj" data-on="{{ s.on }}" onClick="{{ s.pick }}">{{ s.name }}</div>
 </sc-for>
 </div>
+
+<sc-if value="{{ hasBooks }}" hint-placeholder-val="{{ false }}">
+<div class="q-navbody q-books" style="padding:0 14px 12px;display:flex;gap:5px;flex-wrap:wrap">
+<sc-for list="{{ books }}" as="b" hint-placeholder-count="2">
+<div role="button" tabIndex="0" class="q-book" data-on="{{ b.on }}" onClick="{{ b.pick }}">{{ b.label }}</div>
+</sc-for>
+</div>
+</sc-if>
 
 <div class="q-navbody q-sidelist" style="flex:1;overflow-y:auto;overflow-x:hidden;display:flex;flex-direction:column;min-width:0">
 <sc-if value="{{ hasParts }}" hint-placeholder-val="{{ true }}">
@@ -896,8 +909,29 @@ const DATA_FILES = {
   형사소송법: 'data-crimpro.js',
   헌법: 'data-const.js',
   행정법: 'data-admin.js',
+  행정법강성민: 'data-admin-kang.js',
   최신판례: 'data-choipan.js'
 };
+
+// 한 과목에 교재가 둘 이상일 수 있다 — 과목 칩은 하나로 두고 그 안에서 고른다.
+//
+// 속으로는 **별개 과목**이다(행정법 / 행정법강성민). 그래야 단원 파일·번들·카드 경계·
+// 기출 연결이 지금 구조 그대로 돈다 — 전부 과목을 열쇠로 삼고 있다.
+// 진도·회독·O·X 도 블록 id / 문항 id 에 붙으므로 교재가 다르면 **저절로 갈린다.**
+// 류정모를 읽던 기록이 강성민으로 새지 않고, 그 반대도 없다.
+const BOOKS = {
+  행정법: [
+    { id: '류정모', subject: '행정법', label: '류정모 진리 암기장' },
+    { id: '강성민', subject: '행정법강성민', label: '강성민 단권화 노트' },
+  ],
+};
+// 과목 → 그 과목이 속한 교재 묶음(칩에 쓸 이름). 역방향 표.
+const BOOK_OF = {};
+Object.keys(BOOKS).forEach(chip => BOOKS[chip].forEach(b => { BOOK_OF[b.subject] = chip; }));
+// 마지막으로 고른 교재를 기억한다 — 칩을 누를 때마다 1번 교재로 튕기면 성가시다
+const BOOK_KEY = 'lawmj_book_v1';
+let BOOK_PICK = {};
+try { BOOK_PICK = JSON.parse(localStorage.getItem(BOOK_KEY)) || {}; } catch (e) {}
 
 const DATASETS = {
   형법: { key:'CRIM_GAKRON_CONCEPT', label:'반반형법 논점 (총론·각론)', unit:'논점',
@@ -912,6 +946,8 @@ const DATASETS = {
          cats: () => window.CONST_CATS_DATA || [] },
   행정법: { key:'ADMIN_UNITS', label:'류정모 진리 행정법 암기장 제3판', unit:'논점',
          cats: () => window.ADMIN_CATS_DATA || [] },
+  행정법강성민: { key:'ADMIN_KANG_UNITS', label:'강성민 행정법 단권화 노트 제3판 (+ 정선균 엑기스 · 5개년 최신판례)', unit:'논점',
+         cats: () => window.ADMIN_KANG_CATS_DATA || [] },
   최신판례: { key:'CHOIPAN_UNITS', label:'정연석 2026 최신 민사판례 — 민법 22~26년 · 민소 · 가족법', unit:'판례',
          cats: () => window.CHOIPAN_CATS_DATA || [] }
 };
@@ -2501,6 +2537,9 @@ function searchIn(subject, rows, q, catName, cacheKey) {
 // 단원 링크를 북마크·공유할 수도 없었다. 해시 하나로 셋 다 풀린다.
 const SUBJ_TRACK = {};
 Object.keys(TRACKS).forEach(t => TRACKS[t].forEach(s => { SUBJ_TRACK[s] = t; }));
+// 교재가 여럿인 과목의 속 과목(행정법강성민)은 TRACKS 에 없다 — 칩이 하나뿐이라서다.
+// 그래도 트랙은 알아야 한다(제목·주소·검색이 트랙을 본다).
+Object.keys(BOOK_OF).forEach(s => { if (!SUBJ_TRACK[s]) SUBJ_TRACK[s] = SUBJ_TRACK[BOOK_OF[s]]; });
 
 function hashOf(s) {
   // 화면에 보이는 것이 주소가 된다. 검색 결과에서 단원으로 들어가면 검색어는 상태로만 남고
@@ -2716,7 +2755,9 @@ class Component extends DCLogic {
 
   // 이 런타임은 componentDidUpdate 에 prevProps 만 넘긴다 — 직전 화면은 직접 들고 비교한다.
   componentDidUpdate() {
-    const t = brandOf(this.state.track, this.state.subject) + ' — 변호사시험 ' + this.state.subject;
+    // 교재가 여럿인 과목은 속 과목 이름(행정법강성민)이 아니라 칩 이름(행정법)을 쓴다
+    const t = brandOf(this.state.track, this.state.subject) + ' — 변호사시험 '
+      + (BOOK_OF[this.state.subject] || this.state.subject);
     if (document.title !== t) document.title = t;
     const now = this.navSnap(this.state);
     const popped = this._popping;
@@ -3478,11 +3519,23 @@ class Component extends DCLogic {
           this.setState({ track:name, subject:TRACKS[name][0], view:'toc', chapter:null, quizOpen:false, q:'', mark:null }); } };
     });
 
+    // 교재가 여럿인 과목은 칩 이름(행정법)과 속 과목 이름(행정법강성민)이 다르다 —
+    // 어느 교재를 보고 있든 칩은 켜져 있어야 한다.
+    const chipNow = BOOK_OF[st.subject] || st.subject;
     const subjects = TRACKS[st.track].map((name, i) => {
-      const on = name === st.subject;
+      const on = name === chipNow;
+      // 교재를 고른 적이 있으면 그 교재로 돌아간다 — 칩을 누를 때마다 1번 교재로 튕기면 성가시다
+      const to = (BOOKS[name] && (BOOKS[name].find(b => b.id === (BOOK_PICK[name] || '')) || BOOKS[name][0]).subject) || name;
       return { name, on,
-        pick: () => this.setState({ subject:name, view:'toc', chapter:null, q:'', mark:null }) };
+        pick: () => this.setState({ subject:to, view:'toc', chapter:null, q:'', mark:null }) };
     });
+    // 교재 고르개 — 교재가 둘 이상인 과목에서만 뜬다
+    const books = (BOOKS[chipNow] || []).map(b => ({
+      label: b.label, on: b.subject === st.subject,
+      pick: () => { BOOK_PICK[chipNow] = b.id;
+        try { localStorage.setItem(BOOK_KEY, JSON.stringify(BOOK_PICK)); } catch (e) {}
+        this.setState({ subject:b.subject, view:'toc', chapter:null, q:'', mark:null }); } }));
+    const hasBooks = books.length > 1;
 
     // 오답이 있는 단원. 「다시 볼 곳」을 앱이 알고 있어야 표시가 쌓이기만 하고 안 돌아오는 일이 없다.
     const wrongUnits = {};
@@ -3716,13 +3769,16 @@ class Component extends DCLogic {
     const curTitle = curTopic ? curTopic.title : (st.chapter || '');
 
     return {
-      tracks, subjects, filters, marks, parts, navParts, hasParts: navParts.length > 0,
+      tracks, subjects, books, hasBooks, filters, marks, parts, navParts, hasParts: navParts.length > 0,
       brand: brandOf(st.track, st.subject), brandSub: '변호사시험 ' + st.subject,
       themeIcon: st.dark ? '☀' : '☾',
       themeLabel: st.dark ? '밝은 화면으로' : '어두운 화면으로',
-      crumb: st.track + ' · ' + st.subject, subjectName: st.subject,
+      crumb: st.track + ' · ' + chipNow, subjectName: chipNow,
       sourceNote: crim ? (DATASETS[st.subject] || {}).label + ' · ' + crimParts.length + '개 장 / ' + crimParts.reduce((a, p) => a + p.topics.length, 0) + '개 ' + (DATASETS[st.subject] || {}).unit
-        : dataLoading ? st.subject + ' 자료 불러오는 중…' : '준비 중 — 상법을 뺀 여섯 과목이 열려 있습니다',
+        : dataLoading ? chipNow + ' 자료 불러오는 중…'
+        // 교재가 비어 있는 것과 과목이 통째로 없는 것은 다른 말이다 — 섞어 쓰면 「상법 안 열렸다」가 뜬다
+        : BOOK_OF[st.subject] ? (DATASETS[st.subject] || {}).label + ' — 전사 작업 중. 위에서 다른 교재를 고르면 바로 읽을 수 있다'
+        : '준비 중 — 상법을 뺀 여섯 과목이 열려 있습니다',
       dday: ddayText(),
       totalQ: crim ? quizTotalOf(st.subject, rows) : 0,
       wrongQ: crim ? OX.wrongIn(st.subject) : 0,

@@ -12,6 +12,8 @@ const SUBJ = {
   민법:   ['data-civil.js',   'CIVIL_UNITS'],
   헌법:   ['data-const.js',   'CONST_UNITS'],
   행정법: ['data-admin.js',   'ADMIN_UNITS'],
+  // 한 과목에 교재가 둘 — 속으로는 별개 과목이라 번들도 따로다(index.html 의 BOOKS 참고)
+  행정법강성민: ['data-admin-kang.js', 'ADMIN_KANG_UNITS'],
   형법:   ['data-crim.js',    'CRIM_GAKRON_CONCEPT'],
   형소:   ['data-crimpro.js', 'CRIMPRO_UNITS'],
   민소:   ['data-minso.js',   'MINSO_UNITS'],
