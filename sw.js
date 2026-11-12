@@ -10,7 +10,7 @@
 
 // v3 — 데이터 파일을 과목별로 갈랐다(data-criminal/public → crim/crimpro/const/admin).
 // 이름을 올려 옛 캐시에 남은 합본 4MB 를 activate 에서 지운다.
-const CACHE = 'lawmj-v16';  // v16: 강성민 행정법에 5개년 최신판례 203건
+const CACHE = 'lawmj-v17';  // v17: 강성민 행정법에 인강 채점기준표 16건
 const SCOPE = new URL('./', self.location).pathname;
 const SHELL = ['./', './manifest.json', './support.js',
                './vendor/react.production.min.js', './vendor/react-dom.production.min.js'];
