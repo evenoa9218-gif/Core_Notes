@@ -462,6 +462,9 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
   /* 2026-09-15 에 더한 조작부들이 이 규칙 밖에 있었다. 폰에서 실측한 높이 —
      목차 토글 27px · 차례 줄 18px · O·X 단추 31px. 암기 확인은 한 단원에 120번을
      누르는 자리라 O·X 는 넉넉히 44px 로 둔다. */
+  /* 「전문|카드」 두 칸은 모서리 둥글기가 바깥 상자에 있어 위 규칙에 안 걸렸다 — 상자만 옆 단추 높이로 늘고
+     글자는 위에 붙어 있었다. 두 칸도 같은 높이로 두고 글자를 가운데에 놓는다. */
+  .q-seg>div{min-height:38px;display:flex;align-items:center;justify-content:center;box-sizing:border-box}
   .q-navtoggle{min-height:40px}
   .q-ohead{min-height:40px;box-sizing:border-box}
   .q-oitem{min-height:36px;display:flex;align-items:center;box-sizing:border-box}
@@ -661,7 +664,7 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div role="button" tabIndex="0" style="padding:5px 8px;border-radius:7px;cursor:pointer;background:var(--surface);border:1px solid var(--line-10);font-weight:500;font-size:11px;color:var(--ink-faint)" onClick="{{ onRevertUnit }}">되돌리기</div>
 </sc-if>
 <sc-if value="{{ hasCards }}" hint-placeholder-val="{{ true }}">
-<div style="display:flex;border:1px solid var(--line-10);border-radius:7px;overflow:hidden;flex:none">
+<div class="q-seg" style="display:flex;border:1px solid var(--line-10);border-radius:7px;overflow:hidden;flex:none">
 <div role="button" tabIndex="0" style="padding:5px 10px;cursor:pointer;background:{{ fullBg }};font-weight:600;font-size:11px;color:{{ fullInk }}" onClick="{{ goFull }}">전문</div>
 <div role="button" tabIndex="0" style="padding:5px 10px;cursor:pointer;background:{{ cardBg }};font-weight:600;font-size:11px;color:{{ cardInk }}" onClick="{{ goCards }}">카드</div>
 </div>
