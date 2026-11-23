@@ -338,6 +338,11 @@ mark.q-hit{background:var(--q-bg);color:var(--q-ink);border-radius:3px;padding:0
 .q-card[data-choice="O"] .q-v-x{display:none}
 .q-card[data-state="ask"] .q-src{display:none}
 
+/* 진도 표시(✓ 완료 · △ 약점) — 위의 「하는 일」 단추(네모)와 다른 기능이라 알약 모양에 제 색을 준다.
+   꺼져 있으면 옅은 바탕(인라인 바탕이 --surface 일 때), 켜면 템플릿이 주는 꽉 찬 색이 그대로 보인다. */
+.q-t-done,.q-t-weak{border-radius:999px!important}
+.q-t-done[style*="var(--surface)"]{background:var(--gbg)!important;color:var(--green)!important;border-color:color-mix(in srgb,var(--green) 32%,transparent)!important}
+.q-t-weak[style*="var(--surface)"]{background:var(--neg-bg)!important;color:var(--red)!important;border-color:color-mix(in srgb,var(--red) 32%,transparent)!important}
 /* 설정(톱니) — 화면을 어떻게 보여줄지는 여기로 모았다.
    제목 위 도구줄에는 「내용에 관한 것」만 남긴다(판례·완료·약점·암기 확인).
    고른 값 표시도 CSS 가 한다 — <html> 속성만 보면 되므로 다시 그릴 일이 없다. */
@@ -484,6 +489,9 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
   .q-t-seg{order:1}.q-t-run{order:2}.q-t-quiz{order:3}.q-t-case{order:4}.q-t-edit{order:5}.q-t-draft{order:6}.q-t-revert{order:7}.q-t-fold{order:8}.q-t-round{order:9}.q-t-done{order:10}.q-t-weak{order:11}
   .q-t-round,.q-t-done{grid-column-start:1}
   .q-t-round~.q-t-done{grid-column-start:auto}
+  /* 아랫줄(진도)은 윗줄보다 낮은 알약 — 줄 사이를 조금 띄워 묶음이 갈리게 */
+  .q-tools>.q-t-done,.q-tools>.q-t-weak{height:32px;border-radius:999px!important;margin-top:3px}
+  .q-tools>.q-t-round{height:32px;margin-top:3px}
   /* 회독 표시는 누르는 것이 아니다 — 테두리 없는 글로 */
   .q-t-round{border-color:transparent!important;background:none!important;justify-content:flex-start!important;padding-left:2px!important}
   /* 바닥 띠 — 단원 이름을 그대로 두면 자리가 없어 낱말 가운데서 잘리고(‹ 기간),
