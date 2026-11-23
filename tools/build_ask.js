@@ -1,16 +1,18 @@
-// data-ask.js 를 만든다 — O·X 문항을 완결된 문장으로 다시 쓴 것(ASK_FIX)과 손으로 쓴 해설(WHY_FIX).
+// data-ask.js 를 만든다 — 손으로 쓴 문항 층.
 //   node tools/build_ask.js
 //
-//   tools/ask/all.json        옛 것(2026-09) — { 문항 id: 다시 쓴 문장 }
-//   tools/ask/s*.json         새 것 — { 문항 id: { ask: 문장, why: 해설 } }   (같은 id 가 있으면 새 것이 이긴다)
+//   tools/ask/all.json        옛 것(2026-09) — { O·X 문항 id: 다시 쓴 문장 }
+//   tools/ask/s*.json         O·X 다시 쓰기 — { 문항 id: { ask: 문장, why: 해설 } }   (같은 id 가 있으면 새 것이 이긴다)
+//   tools/ask/cz*.json        빈칸 문항 — { 단원 id: [ { h: 소제목, q: '… ____ …', a: 답 } ] }
+//                             이 묶음이 있는 단원은 형광펜에서 추측한 빈칸 대신 **이것만** 낸다.
 //
-// 문항 id = 단원 id + ':' + 문항 글자의 해시. 본문이 바뀌면 그 문항의 덮어쓰기는 풀리고 원래 글자로 돌아간다
+// O·X 문항 id = 단원 id + ':' + 문항 글자의 해시. 본문이 바뀌면 그 문항의 덮어쓰기는 풀리고 원래 글자로 돌아간다
 // (틀린 문장이 남는 것보다 낫다). 풀린 열쇠는 D:\_audit\quiz_audit.js 가 센다.
 const fs = require('fs'), path = require('path');
 const DIR = path.join(__dirname, 'ask');
 const ask = JSON.parse(fs.readFileSync(path.join(DIR, 'all.json'), 'utf8'));
-const why = {};
-let n = 0;
+const why = {}, cz = {};
+let n = 0, nc = 0;
 fs.readdirSync(DIR).filter(f => /^s\d+.*\.json$/.test(f)).sort().forEach(f => {
   const d = JSON.parse(fs.readFileSync(path.join(DIR, f), 'utf8'));
   for (const [id, v] of Object.entries(d)) {
@@ -20,12 +22,24 @@ fs.readdirSync(DIR).filter(f => /^s\d+.*\.json$/.test(f)).sort().forEach(f => {
     n++;
   }
 });
-const head = `/* 문장으로 다시 쓴 O·X 문항과 손으로 쓴 해설. tools/build_ask.js 가 만든다 — 손으로 고치지 말 것.
-   원문이 「[사안] 계약 해제」처럼 줄임말이라, 그대로는 무엇을 묻는지 알 수 없는 문항이 많다.
+fs.readdirSync(DIR).filter(f => /^cz\d+.*\.json$/.test(f)).sort().forEach(f => {
+  const d = JSON.parse(fs.readFileSync(path.join(DIR, f), 'utf8'));
+  for (const [unit, list] of Object.entries(d)) {
+    list.forEach(c => {
+      if (!c.q || !c.a || c.q.split('____').length !== 2) throw new Error(f + ' ' + unit + ' — 빈칸은 한 문항에 하나: ' + c.q);
+      // 숫자 답(「20」)은 날짜(「2021. 7. 7.」) 속에 우연히 들어 있을 수 있다 — 글자 답만 본다
+      if (!/^\d+$/.test(c.a) && c.q.replace('____', '').indexOf(c.a) > -1) throw new Error(f + ' ' + unit + ' — 답이 문장에 그대로 보인다: ' + c.q);
+    });
+    cz[unit] = (cz[unit] || []).concat(list);
+    nc += list.length;
+  }
+});
+const head = `/* 손으로 쓴 문항 층. tools/build_ask.js 가 만든다 — 손으로 고치지 말 것.
+   ASK_FIX  O·X 문항을 완결된 문장으로 다시 쓴 것 · WHY_FIX 그 해설 · CZ_SET 단원별 빈칸 문항(문장 통째로 쓴 것)
    ⚠ 본문(data-*.js)은 한 글자도 건드리지 않는다. 이 파일은 문항 글자와 해설만 덮어쓴다.
-   ⚠ 열쇠는 문항 글자에서 뽑은 id 다 — 원문이 바뀌면 그 문항은 덮어쓰기가 풀리고
+   ⚠ O·X 열쇠는 문항 글자에서 뽑은 id 다 — 원문이 바뀌면 그 문항은 덮어쓰기가 풀리고
       원래 글자로 돌아간다(틀린 문장이 남는 것보다 낫다). */
 `;
 fs.writeFileSync(path.join(__dirname, '..', 'data-ask.js'),
-  head + 'window.ASK_FIX = ' + JSON.stringify(ask) + ';\nwindow.WHY_FIX = ' + JSON.stringify(why) + ';\n');
-console.log('다시 쓴 문장', Object.keys(ask).length, '(새 묶음', n + ')', '· 손 해설', Object.keys(why).length);
+  head + 'window.ASK_FIX = ' + JSON.stringify(ask) + ';\nwindow.WHY_FIX = ' + JSON.stringify(why) + ';\nwindow.CZ_SET = ' + JSON.stringify(cz) + ';\n');
+console.log('다시 쓴 O·X 문장', Object.keys(ask).length, '(새 묶음', n + ')', '· 손 해설', Object.keys(why).length, '· 빈칸 문항', nc, '(' + Object.keys(cz).length + '단원)');
