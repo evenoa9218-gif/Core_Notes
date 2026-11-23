@@ -150,6 +150,9 @@ html[data-theme="dark"] .q-theme::after{content:'☀'}
    꾸밈(굵은 글씨 b · 자주색 o-v · 사건번호 o-g · 결론 ○✕ o-x · 번호 제목 o-h · 正辯 o-n)을 붙여 온다. 블록 속이 아니라 상자 속이지만 span 만 쓴다. */
 .cs-orig-box{--ob-v:#8d2a69}
 html[data-theme="dark"] .cs-orig-box{--ob-v:#dfa0c9}
+.cs-orig-box[data-of="crim"]{--ob-v:#2f6aa3}
+html[data-theme="dark"] .cs-orig-box[data-of="crim"]{--ob-v:#93bbdb}
+.cs-orig-box[data-of="crim"] .o-h{margin-left:-.2em}
 .cs-orig-tag.cs-ot-in{display:inline-block;margin:0 8px 2px 0}
 .o-p{display:block}
 .o-l1{padding-left:1.2em}.o-l2{padding-left:2.4em}.o-l3{padding-left:3.6em}.o-l4{padding-left:4.8em}.o-l5{padding-left:6em}.o-l6{padding-left:7.2em}
@@ -1286,7 +1289,7 @@ function linkExams(id, html) {
 // 「원문」 단추 — 요약이 본문이고 교재 원문은 따로 있다. 누르면 그 블록 바로 아래에 펼치고, 다시 누르면 접는다.
 // 블록 속(innerHTML)은 건드리지 않는다 — 깁기·형광펜이 블록 속 HTML 을 통째로 견주기 때문이다.
 //   · 강성민 행정법: 원문이 블록의 data-orig 속성에 실려 있다.
-//   · 민법(로민정): 원문이 따로 파일(data-orig-civil.js)에 있고 **처음 누를 때 받는다** — 단추의 data-of 가 파일 이름.
+//   · 민법(로민정)·형법(반반형법): 원문이 따로 파일(data-orig-civil.js · data-orig-crim.js)에 있고 **처음 누를 때 받는다** — 단추의 data-of 가 파일 이름.
 //     민법은 첫 화면 과목이라 번들에 같이 실으면 들어올 때마다 1.8MB 를 더 받는다.
 const ORIG_LOAD = {};
 function loadOrig(of) {
@@ -1315,6 +1318,7 @@ document.addEventListener('click', e => {
   const inl = el.getAttribute('data-orig');
   if (inl != null) { fill(inl); return; }
   const id = el.getAttribute('data-i'), of = b.getAttribute('data-of') || '';
+  box.setAttribute('data-of', of);
   const have = () => (window.ORIG || {})[id];
   if (have()) { fill(have()); return; }
   fill('원문을 불러오는 중입니다…');
