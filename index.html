@@ -122,6 +122,14 @@ html[data-theme="dark"] .q-theme::after{content:'☀'}
 /* .cs-ext — 그 단원의 «원문이 아닌» 자료를 끼워 넣은 블록(민법 단원에 덧붙인 최신판례).
    배경을 --chip 으로 둔 이유: 본문 카드가 --surface(#fff)라 --surface-2(#fcfcfd)로는 구별이 안 된다.
    차례(HEAD_RE)·기출연결(EXAM_BLOCK_RE)은 cs-h/cs-li 만 보므로 이 바깥 div 는 그것들을 깨지 않는다. */
+/* 제목 단계(data-lv) — 강성민 행정법처럼 제목이 다섯 층인 교재용. class 는 cs-h 그대로 둔다(차례·모아보기가 class="cs-h" 를 글자로 찾는다).
+   1 제N절 · 2 Ⅰ. · 3 1. · 4 1) · 5 (1)·파란 소제목 */
+.cs-h[data-lv="1"]{font-size:calc(17.5px * var(--fs,1));margin:34px 0 14px;padding-bottom:8px;border-bottom:2px solid var(--line-12)}
+.cs-h[data-lv="2"]{font-size:calc(16.5px * var(--fs,1));margin:28px 0 12px;padding:2px 0 2px 10px;border-left:4px solid var(--blue)}
+.cs-h[data-lv="3"]{font-size:calc(15.5px * var(--fs,1));margin:24px 0 9px}
+.cs-h[data-lv="4"]{font-size:calc(14.5px * var(--fs,1));margin:16px 0 6px}
+.cs-h[data-lv="5"]{font-size:calc(14px * var(--fs,1));margin:13px 0 5px;color:var(--blue)}
+.cs-h[data-lv]:first-child{margin-top:0}
 .cs-ext{border:1px solid var(--line-12);border-left:3px solid var(--blue);border-radius:10px;background:var(--chip);padding:12px 14px;margin:22px 0}
 .cs-ext>.cs-h:first-child{margin-top:0}
 .cs-ext .cs-callout{background:var(--surface)}
@@ -1151,7 +1159,11 @@ const HEAD_RE = /<div class="cs-(?:h|li(?: cs-issue)?)"[^>]*>(?:(?!<\/div>)[\s\S
 
 const isHead = h => {
   if (h.indexOf('<summary') === 0) return stripTags(h) ? 2 : 0;
-  if (h.indexOf('class="cs-h"') > -1) return 1;
+  // 제목 단계가 적힌 교재(data-lv): 절·Ⅰ.·1. 은 첫 층, 1) 은 둘째 층, (1)·파란 소제목은 차례에서 뺀다
+  if (h.indexOf('class="cs-h"') > -1) {
+    const lv = (/data-lv="(\d)"/.exec(h) || [])[1];
+    return lv === '5' ? 0 : lv === '4' ? 2 : 1;
+  }
   const t = stripTags(h);
   if (!t || t.length > 80) return 0;   // 46자로 끊었더니 「나. 기산점 — …(166조)」 같은 긴 항목이 차례에서 빠졌다
   if (h.indexOf('cs-issue') > -1) return 2;
