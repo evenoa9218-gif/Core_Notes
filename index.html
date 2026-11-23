@@ -130,6 +130,11 @@ html[data-theme="dark"] .q-theme::after{content:'☀'}
 .cs-h[data-lv="4"]{font-size:calc(14.5px * var(--fs,1));margin:16px 0 6px}
 .cs-h[data-lv="5"]{font-size:calc(14px * var(--fs,1));margin:13px 0 5px;color:var(--blue)}
 .cs-h[data-lv]:first-child{margin-top:0}
+/* 본문은 양쪽 맞춤. 낱말 단위 줄바꿈(keep-all)인 채로 맞추면 낱말 사이가 들쭉날쭉 벌어지므로 본문만 글자 단위로 줄을 바꾼다
+   (* 에 keep-all 이 걸려 있어 안쪽 span 까지 같이 풀어야 한다). 제목·칩은 그대로 둔다. */
+.cs-li,.cs-fact,.cs-ans,.cs-ans-in{text-align:justify;line-break:strict}
+.cs-li,.cs-li *,.cs-fact,.cs-fact *,.cs-ans,.cs-ans *,.cs-ans-in,.cs-ans-in *{word-break:normal}
+.cs-li .cs-glabel,.cs-li .cs-star,.cs-li .cs-exam,.cs-li .cs-o,.cs-li .cs-x{word-break:keep-all;white-space:nowrap}
 .cs-ext{border:1px solid var(--line-12);border-left:3px solid var(--blue);border-radius:10px;background:var(--chip);padding:12px 14px;margin:22px 0}
 .cs-ext>.cs-h:first-child{margin-top:0}
 .cs-ext .cs-callout{background:var(--surface)}

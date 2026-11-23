@@ -10,7 +10,7 @@
 
 // v3 — 데이터 파일을 과목별로 갈랐다(data-criminal/public → crim/crimpro/const/admin).
 // 이름을 올려 옛 캐시에 남은 합본 4MB 를 activate 에서 지운다.
-const CACHE = 'lawmj-v20';  // v20: 강성민 행정법 단권화 노트 제목 다섯 단계·문단 나눔 · v19: 강성민 행정법 단권화 노트 글자 교정(다수결 + 지면 대조) · v18: 강성민 행정법 단권화 노트를 지면 구조대로 다시 세움(항목·상자·밑줄·✕○) · v17: 강성민 행정법에 인강 채점기준표 16건
+const CACHE = 'lawmj-v21';  // v21: 본문 양쪽 맞춤(글자 단위 줄바꿈) · v20: 강성민 행정법 단권화 노트 제목 다섯 단계·문단 나눔 · v19: 강성민 행정법 단권화 노트 글자 교정(다수결 + 지면 대조) · v18: 강성민 행정법 단권화 노트를 지면 구조대로 다시 세움(항목·상자·밑줄·✕○) · v17: 강성민 행정법에 인강 채점기준표 16건
 const SCOPE = new URL('./', self.location).pathname;
 const SHELL = ['./', './manifest.json', './support.js',
                './vendor/react.production.min.js', './vendor/react-dom.production.min.js'];
