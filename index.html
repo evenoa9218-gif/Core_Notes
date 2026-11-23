@@ -343,6 +343,10 @@ mark.q-hit{background:var(--q-bg);color:var(--q-ink);border-radius:3px;padding:0
 .q-t-done,.q-t-weak{border-radius:999px!important}
 .q-t-done[style*="var(--surface)"]{background:var(--gbg)!important;color:var(--green)!important;border-color:color-mix(in srgb,var(--green) 32%,transparent)!important}
 .q-t-weak[style*="var(--surface)"]{background:var(--neg-bg)!important;color:var(--red)!important;border-color:color-mix(in srgb,var(--red) 32%,transparent)!important}
+/* 여백의 판례 O·X — 본문이 아니라 문제라는 것이 보이게 카드로 띄운다(본문과 다른 바탕). */
+.q-mhead{font:700 11px Pretendard,sans-serif;color:var(--accent-ink);letter-spacing:.2px}
+.q-mhead span{margin-left:7px;font-weight:500;color:var(--ink-faint);letter-spacing:0}
+.q-mcard{background:var(--accent-tint);border:1px solid var(--accent-soft);border-radius:11px;padding:11px 13px}
 /* 설정(톱니) — 화면을 어떻게 보여줄지는 여기로 모았다.
    제목 위 도구줄에는 「내용에 관한 것」만 남긴다(판례·완료·약점·암기 확인).
    고른 값 표시도 CSS 가 한다 — <html> 속성만 보면 되므로 다시 그릴 일이 없다. */
@@ -472,7 +476,8 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
   .q-topbar,.q-crumbbar,.q-footbar{padding-left:14px!important;padding-right:14px!important;flex-wrap:wrap!important}
   /* 판례 여백단을 본문 아래로 */
   .q-grid{grid-template-columns:1fr!important}
-  .q-margincol{border-left:none!important;padding-left:0!important;padding-top:8px!important;border-top:1px solid var(--line-09)}
+  .q-margincol{border-left:none!important;padding-left:0!important;padding-top:16px!important;border-top:1px solid var(--line-09);gap:11px!important}
+  .q-mcard{padding:13px 14px}
   /* 목차 카드는 한 줄에 하나 */
   .q-cards{grid-template-columns:1fr!important}
   /* 고정폭 진도막대와 오른쪽 정렬 묶음 */
@@ -808,8 +813,9 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 </div>
 
 <div class="q-margincol" style="display:flex;flex-direction:column;gap:17px;padding-top:36px;border-left:1px solid var(--line-09);padding-left:19px">
+<sc-if value="{{ hasMargins }}" hint-placeholder-val="{{ true }}"><div class="q-mhead">판례 O·X<span>눌러서 답 확인</span></div></sc-if>
 <sc-for list="{{ margins }}" as="m" hint-placeholder-count="2">
-<div role="button" tabIndex="0" style="display:flex;flex-direction:column;gap:5px;cursor:pointer" onClick="{{ m.reveal }}">
+<div class="q-mcard" role="button" tabIndex="0" style="display:flex;flex-direction:column;gap:5px;cursor:pointer" onClick="{{ m.reveal }}">
 <div style="display:flex;gap:6px;align-items:center"><div style="width:15px;height:15px;border-radius:4px;background:{{ m.badgeBg }};display:flex;align-items:center;justify-content:center;font-weight:700;font-size:9px;color:{{ m.badgeInk }}">{{ m.badge }}</div><div style="font-weight:600;font-size:10.5px;color:{{ m.labelColor }}">判例</div></div>
 <sc-if value="{{ m.hasCtx }}" hint-placeholder-val="{{ true }}"><div style="font:500 10.5px/1.5 Pretendard,sans-serif;color:var(--ink-ghost)">{{ m.ctx }}</div></sc-if>
 <sc-if value="{{ m.hasFact }}" hint-placeholder-val="{{ true }}"><div style="font:400 12px/1.7 Pretendard,sans-serif;color:var(--ink-soft)">{{ m.fact }}</div></sc-if>
@@ -1087,6 +1093,10 @@ function frameQ(text, ctx) {
   if (m) {
     const fact = m[1].trim(), rest = m[2].trim();
     if (rest.length >= 4) return { fact: fact, ask: tail(rest) };
+    // 대괄호 안이 통째로 명제인 줄(「[주식반환의무는 종류채무 → … 사정만으로 이행불능] (X)」) — 그 명제가 맞는지를 묻는다.
+    // 예전에는 소제목을 술어로 빌려 「불특정물채권(종류채권)에 해당하는가?」가 됐다(뜻이 다른 물음).
+    // ⚠ 부정 꼬리표(cs-neg-tag)로 가르면 안 된다 — 「[매수인이 시가 묵비] (X)」처럼 소제목(사기 요건)이 술어인 줄도 같은 꼬리표를 쓴다.
+    if (/[→⇒∵]/.test(fact)) return { fact: '', ask: tail(fact) };
     const head = headWord(ctx);
     return { fact: fact, ask: head ? '「' + head + '」에 해당하는가?' : '맞는가?' };
   }
@@ -1110,7 +1120,8 @@ function buildQuiz(html, unitId) {
   const blocks = (html || '').match(/<div class="cs-(?:h|li)[^"]*"[^>]*>[\s\S]*?<\/div>/g) || [];
 
   blocks.forEach(line => {
-    if (isHead(line)) { ctx = cleanQ(stripTags(line)); return; }
+    // 보충 상자의 머리글(「최신판례 · 정연석 2026 [선사기] … 로민정 아님 · 강의 전사」)은 소제목이 아니다 — 짧은 이름표만 남긴다
+    if (isHead(line)) { ctx = line.indexOf('cs-ext-src') > -1 ? '최신판례 보충' : cleanQ(stripTags(line)); return; }
     if (line.indexOf('class="cs-o"') === -1 && line.indexOf('class="cs-x"') === -1) return;
 
     const marker = /<span class="cs-(o|x)">\s*(?:<strong>)?\s*\((O|X)\)/g;
@@ -1157,8 +1168,15 @@ function buildQuiz(html, unitId) {
       if (why.length < 3) why = '';
 
       const fix = (window.ASK_FIX || {})[unitId + ':' + hash32(text)];
+      // 보이는 글만 다듬는다 — 가림 표시 «», 앞 결론과 가르던 빗금·쌍점.
+      // ⚠ text 는 건드리지 않는다. 문항 id 가 text 에서 나오므로 바꾸면 푼 기록과 ASK_FIX 열쇠가 다 끊긴다.
+      const tidy = t => t.replace(/[«»]/g, '').replace(/^[\/:;·~]\s*/, '').replace(/\s{2,}/g, ' ').trim();
+      // 한 줄에 결론이 둘 이상이면 「결론 뒤 글」은 해설이 아니라 **다음 문항**이다 — 빗금으로 이어진 것은 해설로 쓰지 않는다
+      // (「원금 보장되면 대여 (O) / 원금 보장 안 되면 투자이므로 이자제한법 적용 (X)」 — 틀린 명제가 해설로 떴다).
+      if (n + 1 < spots.length && /^\//.test(why)) why = '';
+      why = tidy(why);
       // 다시 쓴 문장이 있으면 그것이 곧 문항이다(사안·술어를 따로 나누지 않는다)
-      const framed = fix ? { fact: '', ask: fix } : frameQ(cutAt(text, 220), ctx);
+      const framed = fix ? { fact: '', ask: fix } : frameQ(cutAt(tidy(text), 220), ctx);
       // 다시 쓰지도 못하고 사안도 없는 짧은 조각은 무엇을 묻는지 알 수 없다 — 문항에서 뺀다.
       // (「), 동의 없으면 취소」「, 경락인 소유권취득 요건」 같은 것들)
       if (!fix && !framed.fact) {
@@ -4082,7 +4100,7 @@ class Component extends DCLogic {
       chapterTitle: curTitle,
       pageEyebrow: page ? page.eyebrow : '', pageNo: page ? page.pageNo : '',
       pageTags: page ? page.tags.map(([text, kind]) => Object.assign({ text }, this.tagStyle(kind))) : [],
-      sections, margins,
+      sections, margins, hasMargins: margins.length > 0,
       statute: crimTopic ? ((crimTopic.tags || []).join(' · ') || '조문 태그 없음') : STATUTE,
       hasMemo: !!crimTopic,
       onMemo: e => { const v = e.target.value; clearTimeout(this._mt); this._mt = setTimeout(() => MEMO.set(crimTopic && crimTopic.id, v), 300); },
