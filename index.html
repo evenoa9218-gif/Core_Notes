@@ -474,8 +474,18 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
   .q-progbar{width:100%!important}
   .q-proghead{align-items:flex-start!important;width:100%}
   .q-tocheadrow{flex-direction:column!important;align-items:stretch!important;gap:10px!important}
-  /* 도구줄이 한 줄에 갇혀 넘치던 것 */
-  .q-tools{white-space:normal!important;flex-wrap:wrap!important;flex:1 1 100%!important}
+  /* 도구줄 — 폰에서는 네 칸 격자로 놓는다. 예전엔 글자 길이대로 폭이 제각각이었고, 회독 표시는 단추가 아닌데
+     단추 상자를 쓰고 혼자 키가 컸다(손끝 크기 규칙이 「누를 수 있는 것」에만 걸려서). 칸 폭·높이·글자 크기를 하나로 맞추고
+     윗줄 = 하는 일(전문·카드 / 읽기 시작 / 암기 확인 / 고치기), 아랫줄 = 진도(회독 · 완료 · 약점)로 가른다. */
+  .q-tools{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px!important;white-space:nowrap!important;flex:1 1 100%!important}
+  .q-tools>*{display:flex!important;align-items:center;justify-content:center;box-sizing:border-box;min-width:0;height:38px;min-height:0!important;padding:0 3px!important;border-radius:9px!important;font-size:12px!important;font-weight:600!important;letter-spacing:-.3px;overflow:hidden}
+  .q-tools>.q-seg{padding:0!important}
+  .q-tools>.q-seg>div{flex:1;height:100%;min-height:0!important;padding:0!important;font-size:12px!important}
+  .q-t-seg{order:1}.q-t-run{order:2}.q-t-quiz{order:3}.q-t-case{order:4}.q-t-edit{order:5}.q-t-draft{order:6}.q-t-revert{order:7}.q-t-fold{order:8}.q-t-round{order:9}.q-t-done{order:10}.q-t-weak{order:11}
+  .q-t-round,.q-t-done{grid-column-start:1}
+  .q-t-round~.q-t-done{grid-column-start:auto}
+  /* 회독 표시는 누르는 것이 아니다 — 테두리 없는 글로 */
+  .q-t-round{border-color:transparent!important;background:none!important;justify-content:flex-start!important;padding-left:2px!important}
   /* 바닥 띠 — 단원 이름을 그대로 두면 자리가 없어 낱말 가운데서 잘리고(‹ 기간),
      O·X 단추 글자는 세 줄로 쪼개졌다(실측). 폰에서는 이름을 감추고 화살표만 남긴다.
      글자는 칸 안에서 쪼개지 말고, 모자라면 칸 통째로 다음 줄에 내려보낸다. */
@@ -700,31 +710,31 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div style="flex:1"></div>
 <div class="q-tools" style="display:flex;gap:6px;flex:none;white-space:nowrap">
 <sc-if value="{{ canEdit }}" hint-placeholder-val="{{ true }}">
-<div role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;cursor:pointer;background:{{ editBg }};border:1px solid {{ editBorder }};font-weight:600;font-size:11px;color:{{ editInk }}" onClick="{{ toggleEdit }}">{{ editLabel }}</div>
+<div class="q-t-edit" role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;cursor:pointer;background:{{ editBg }};border:1px solid {{ editBorder }};font-weight:600;font-size:11px;color:{{ editInk }}" onClick="{{ toggleEdit }}">{{ editLabel }}</div>
 </sc-if>
 <sc-if value="{{ hasDraft }}" hint-placeholder-val="{{ false }}">
-<div role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;cursor:pointer;background:var(--accent);border:1px solid transparent;font-weight:700;font-size:11px;color:#fff" onClick="{{ onSave }}">{{ draftLabel }}</div>
-<div role="button" tabIndex="0" style="padding:5px 8px;border-radius:7px;cursor:pointer;background:var(--surface);border:1px solid var(--line-10);font-weight:500;font-size:11px;color:var(--ink-faint)" onClick="{{ onRevertUnit }}">되돌리기</div>
+<div class="q-t-draft" role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;cursor:pointer;background:var(--accent);border:1px solid transparent;font-weight:700;font-size:11px;color:#fff" onClick="{{ onSave }}">{{ draftLabel }}</div>
+<div class="q-t-revert" role="button" tabIndex="0" style="padding:5px 8px;border-radius:7px;cursor:pointer;background:var(--surface);border:1px solid var(--line-10);font-weight:500;font-size:11px;color:var(--ink-faint)" onClick="{{ onRevertUnit }}">되돌리기</div>
 </sc-if>
 <sc-if value="{{ hasCards }}" hint-placeholder-val="{{ true }}">
-<div class="q-seg" style="display:flex;border:1px solid var(--line-10);border-radius:7px;overflow:hidden;flex:none">
+<div class="q-seg q-t-seg" style="display:flex;border:1px solid var(--line-10);border-radius:7px;overflow:hidden;flex:none">
 <div role="button" tabIndex="0" style="padding:5px 10px;cursor:pointer;background:{{ fullBg }};font-weight:600;font-size:11px;color:{{ fullInk }}" onClick="{{ goFull }}">전문</div>
 <div role="button" tabIndex="0" style="padding:5px 10px;cursor:pointer;background:{{ cardBg }};font-weight:600;font-size:11px;color:{{ cardInk }}" onClick="{{ goCards }}">카드</div>
 </div>
 </sc-if>
 <sc-if value="{{ canRun }}" hint-placeholder-val="{{ true }}">
-<div role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;cursor:pointer;background:var(--surface);border:1px solid var(--accent);font-weight:600;font-size:11px;color:var(--accent-ink)" onClick="{{ startRun }}">읽기 시작</div>
+<div class="q-t-run" role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;cursor:pointer;background:var(--surface);border:1px solid var(--accent);font-weight:600;font-size:11px;color:var(--accent-ink)" onClick="{{ startRun }}">읽기 시작</div>
 </sc-if>
 <sc-if value="{{ hasRound }}" hint-placeholder-val="{{ true }}">
-<div style="padding:5px 10px;border-radius:7px;background:var(--surface);border:1px solid var(--line-10);font-weight:600;font-size:11px;color:var(--ink-faint);font-variant-numeric:tabular-nums">{{ roundLabel }}</div>
+<div class="q-t-round" style="padding:5px 10px;border-radius:7px;background:var(--surface);border:1px solid var(--line-10);font-weight:600;font-size:11px;color:var(--ink-faint);font-variant-numeric:tabular-nums">{{ roundLabel }}</div>
 </sc-if>
-<sc-if value="{{ hasCases }}" hint-placeholder-val="{{ false }}"><div role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;cursor:pointer;background:var(--surface);border:1px solid var(--line-10);font-weight:500;font-size:11px;color:var(--ink-soft)" onClick="{{ toggleFold }}">{{ foldLabel }}</div></sc-if>
+<sc-if value="{{ hasCases }}" hint-placeholder-val="{{ false }}"><div class="q-t-fold" role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;cursor:pointer;background:var(--surface);border:1px solid var(--line-10);font-weight:500;font-size:11px;color:var(--ink-soft)" onClick="{{ toggleFold }}">{{ foldLabel }}</div></sc-if>
 <sc-if value="{{ showProg }}" hint-placeholder-val="{{ true }}">
-<div role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;cursor:pointer;background:{{ doneBg }};border:1px solid {{ doneBorder }};font-weight:600;font-size:11px;color:{{ doneColor }}" onClick="{{ toggleDone }}">✓ 완료</div>
-<div role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;cursor:pointer;background:{{ weakBg }};border:1px solid {{ weakBorder }};font-weight:600;font-size:11px;color:{{ weakColor }}" onClick="{{ toggleWeak }}">△ 약점</div>
+<div class="q-t-done" role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;cursor:pointer;background:{{ doneBg }};border:1px solid {{ doneBorder }};font-weight:600;font-size:11px;color:{{ doneColor }}" onClick="{{ toggleDone }}">✓ 완료</div>
+<div class="q-t-weak" role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;cursor:pointer;background:{{ weakBg }};border:1px solid {{ weakBorder }};font-weight:600;font-size:11px;color:{{ weakColor }}" onClick="{{ toggleWeak }}">△ 약점</div>
 </sc-if>
-<sc-if value="{{ hasQuiz }}" hint-placeholder-val="{{ true }}"><div role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;background:var(--accent-soft);font-weight:600;font-size:11px;color:var(--accent-ink);cursor:pointer" onClick="{{ toggleQuiz }}">{{ quizLabel }}</div></sc-if>
-<sc-if value="{{ hasCaseDeck }}" hint-placeholder-val="{{ false }}"><div role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;background:var(--surface);border:1px solid var(--accent);font-weight:600;font-size:11px;color:var(--accent-ink);cursor:pointer" onClick="{{ openCases }}">{{ caseLabel }}</div></sc-if>
+<sc-if value="{{ hasQuiz }}" hint-placeholder-val="{{ true }}"><div class="q-t-quiz" role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;background:var(--accent-soft);font-weight:600;font-size:11px;color:var(--accent-ink);cursor:pointer" onClick="{{ toggleQuiz }}">{{ quizLabel }}</div></sc-if>
+<sc-if value="{{ hasCaseDeck }}" hint-placeholder-val="{{ false }}"><div class="q-t-case" role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;background:var(--surface);border:1px solid var(--accent);font-weight:600;font-size:11px;color:var(--accent-ink);cursor:pointer" onClick="{{ openCases }}">{{ caseLabel }}</div></sc-if>
 </div>
 </div>
 
