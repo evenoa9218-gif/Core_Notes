@@ -1203,6 +1203,11 @@ function buildQuiz(html, unitId) {
                  src: srcOf(raw, after) });
     });
   });
+  // 손으로 지은 O·X 묶음(data-ask.js 의 OX_SET) — 본문에 (O)(X) 줄이 없는 단원(행정법)에 문항을 준다.
+  // 본문에서 뽑은 문항 뒤에 붙인다. id 는 문장 글자에서 나온다(문장을 고치면 그 문항의 푼 기록은 끊긴다).
+  const madeOx = (typeof window !== 'undefined' && window.OX_SET || {})[unitId];
+  if (madeOx) madeOx.forEach(c => out.push({ id: unitId + ':x:' + hash32(c.q), badge: c.a, stars: '',
+    ctx: (c.h || '').slice(0, 44), why: c.why || '', fact: '', ask: c.q, text: c.q, bid: '', src: '', made: 1 }));
   return out;
 }
 
