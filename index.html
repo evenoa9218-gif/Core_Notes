@@ -146,6 +146,25 @@ html[data-theme="dark"] .q-theme::after{content:'☀'}
 .cs-orig-box{margin:6px 0 12px;padding:10px 13px;border-left:3px solid var(--line-12);border-radius:8px;background:var(--surface-2);color:var(--ink-3);font-size:calc(13.2px * var(--fs,1));line-height:var(--lh,1.9);text-align:justify}
 .cs-orig-box,.cs-orig-box *{word-break:normal}
 .cs-orig-tag{display:block;margin-bottom:3px;font-size:calc(11px * var(--fs,1));font-weight:700;color:var(--ink-muted);letter-spacing:.2px}
+/* 민법(로민정) 원문 상자 — 책 지면처럼 짠다. orig_align.py 가 문단(o-p)마다 들여쓰기 단계(o-l1~6)·내어쓰기(o-hg, 줄표·㉠ 가 한 칸 밖)·
+   꾸밈(굵은 글씨 b · 자주색 o-v · 사건번호 o-g · 결론 ○✕ o-x · 번호 제목 o-h · 正辯 o-n)을 붙여 온다. 블록 속이 아니라 상자 속이지만 span 만 쓴다. */
+.cs-orig-box{--ob-v:#8d2a69}
+html[data-theme="dark"] .cs-orig-box{--ob-v:#dfa0c9}
+.cs-orig-tag.cs-ot-in{display:inline-block;margin:0 8px 2px 0}
+.o-p{display:block}
+.o-l1{padding-left:1.2em}.o-l2{padding-left:2.4em}.o-l3{padding-left:3.6em}.o-l4{padding-left:4.8em}.o-l5{padding-left:6em}.o-l6{padding-left:7.2em}
+.o-hg{text-indent:-1.2em}
+.o-hg.o-l1{margin-top:.3em}
+.cs-stat + .o-p{margin-top:0}
+.o-m{display:inline-block;width:1.2em;text-indent:0;text-align:left}
+.o-p b{font-weight:700;color:var(--ink-strong)}
+.o-h{color:var(--ob-v);font-weight:600;font-size:1.04em;margin:.45em 0 .1em}
+.o-n{color:var(--ob-v);font-size:.92em;line-height:1.75}
+.o-n b{color:inherit}
+.o-v{color:var(--ob-v)}
+.o-g{font-size:.92em;letter-spacing:-.2px}
+.o-p b.o-x{color:var(--ob-v);font-weight:800}
+.o-b{display:inline-block;margin:0 2px 0 1px;padding:0 4px;border-radius:2px;background:#8d2a69;color:#fff;font-size:.76em;font-weight:700;line-height:1.5;text-indent:0;vertical-align:1px}
 .cs-ext{border:1px solid var(--line-12);border-left:3px solid var(--blue);border-radius:10px;background:var(--chip);padding:12px 14px;margin:22px 0}
 .cs-ext>.cs-h:first-child{margin-top:0}
 .cs-ext .cs-callout{background:var(--surface)}
@@ -1245,7 +1264,7 @@ document.addEventListener('click', e => {
   if (nx && nx.classList.contains('cs-orig-box')) { nx.remove(); return; }
   const box = document.createElement('div');
   box.className = 'cs-orig-box';
-  const fill = html => { box.innerHTML = '<span class="cs-orig-tag">교재 원문</span>' + html; };
+  const fill = html => { box.innerHTML = '<span class="cs-orig-tag' + (html.startsWith('<span class="cs-stat">') ? ' cs-ot-in' : '') + '">교재 원문</span>' + html; };
   el.insertAdjacentElement('afterend', box);
   const inl = el.getAttribute('data-orig');
   if (inl != null) { fill(inl); return; }
