@@ -30,6 +30,7 @@ const SUBJ = {
   형소: ['data-crimpro.js', 'CRIMPRO_UNITS'],
   민소: ['data-minso.js', 'MINSO_UNITS'],
   최판: ['data-choipan.js', 'CHOIPAN_UNITS'],
+  국거: ['data-intl.js', 'INTL_UNITS'],
 };
 
 // ── index.html 에서 빈칸 엔진만 떼어 온다 ────────────────────────

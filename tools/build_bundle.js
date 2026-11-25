@@ -18,6 +18,8 @@ const SUBJ = {
   형소:   ['data-crimpro.js', 'CRIMPRO_UNITS'],
   민소:   ['data-minso.js',   'MINSO_UNITS'],
   최판:   ['data-choipan.js', 'CHOIPAN_UNITS'],
+  // 국제거래법(장용준 필살기) — D:\_intluild_units.py 가 단원을 짓는다
+  국거:   ['data-intl.js', 'INTL_UNITS'],
 };
 
 const closeOf = open => '</' + /^<([a-z]+)/.exec(open)[1] + '>';

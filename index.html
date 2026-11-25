@@ -928,7 +928,8 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 const TRACKS = {
   민사법: ['민법','민사소송법','상법','최신판례'],
   형사법: ['형법','형사소송법'],
-  공법: ['헌법','행정법']
+  공법: ['헌법','행정법'],
+  선택법: ['국제거래법']
 };
 // 사이드바·탭 제목. 과목마다 부르는 이름이 달라 한 이름으로 묶을 수 없다.
 //   민법  → LawMJ Mastery   (과목 단위)
@@ -994,7 +995,8 @@ const DATA_FILES = {
   헌법: 'data-const.js',
   행정법: 'data-admin.js',
   행정법강성민: 'data-admin-kang.js',
-  최신판례: 'data-choipan.js'
+  최신판례: 'data-choipan.js',
+  국제거래법: 'data-intl.js'
 };
 
 // 한 과목에 교재가 둘 이상일 수 있다 — 과목 칩은 하나로 두고 그 안에서 고른다.
@@ -1033,7 +1035,9 @@ const DATASETS = {
   행정법강성민: { key:'ADMIN_KANG_UNITS', label:'강성민 행정법 단권화 노트 제3판 (+ 정선균 엑기스 · 5개년 최신판례)', unit:'논점',
          cats: () => window.ADMIN_KANG_CATS_DATA || [] },
   최신판례: { key:'CHOIPAN_UNITS', label:'정연석 2026 최신 민사판례 — 민법 22~26년 · 민소 · 가족법', unit:'판례',
-         cats: () => window.CHOIPAN_CATS_DATA || [] }
+         cats: () => window.CHOIPAN_CATS_DATA || [] },
+  국제거래법: { key:'INTL_UNITS', label:'장용준 국제거래법 필살기 — 국제사법 · UN협약', unit:'논점',
+         cats: () => window.INTL_CATS_DATA || [] }
 };
 
 function stripTags(s) {
@@ -1500,7 +1504,7 @@ function anchoredOf(id, html, ver) { outlineOf(id, html, ver); return ANCHORED[i
 //
 // 저장은 Worker 를 거친다(worker/). 저장소가 public 이라 쓰기 토큰을 여기 둘 수 없다.
 const UNIT_DIR = { 민법:'민법', 민사소송법:'민소', 형법:'형법', 형사소송법:'형소',
-                   헌법:'헌법', 행정법:'행정법', 최신판례:'최판' };
+                   헌법:'헌법', 행정법:'행정법', 최신판례:'최판', 국제거래법:'국거' };
 const DRAFT_KEY = 'lawmj_draft_v1';
 // 저장 서버(worker/). 배포하면 https://core-notes-writer.<계정>.workers.dev 같은 주소가 나온다.
 // 비어 있으면 저장 단추가 꺼진 채로 둔다 — 고치기 자체는 기기 안에서 그대로 된다.

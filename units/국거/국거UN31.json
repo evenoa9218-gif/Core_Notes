@@ -1,0 +1,16 @@
+{"id":"국거UN31","t":"이행기 전의 계약위반과 분할인도계약 · 의무이행정지","cat":"UN협약 · 제3편 제5장 매도인·매수인의 공통 규정","lv":1,"tg":[],"b":[
+ {"i":"국거UN31-001","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅰ. 의무이행정지권","k":"ebxk5f"},
+ {"i":"국거UN31-002","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>조문</strong> : 주의) 근거규정 없음","k":"1dgsb05"},
+ {"i":"국거UN31-003","o":"<div class=\"cs-callout\">","b":[
+  {"i":"국거UN31-004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제71조(의무이행정지권)</strong>","k":"lrl5ae"},
+  {"i":"국거UN31-005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(1) 당사자는 계약체결 후 다음의 사유로 상대방이 의무의 실질적 부분을 이행하지 아니할 것이 판명된 경우에는, 자신의 의무 이행을 정지할 수 있다.","k":"u9tcoo"},
+  {"i":"국거UN31-006","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(가) 상대방의 이행능력 또는 신용도의 중대한 결함","k":"i0fwel"},
+  {"i":"국거UN31-007","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(나) 계약의 이행 준비 또는 이행에 관한 상대방의 행위","k":"1r9uw7g"},
+  {"i":"국거UN31-008","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(2) 제1항의 사유가 명백하게 되기 전에 매도인이 물품을 발송한 경우에는, 매수인이 물품을 취득할 수 있는 증권을 소지하고 있더라도 매도인은 물품이 매수인에게 교부되는 것을 저지할 수 있다. 이 항은 매도인과 매수인간의 물품에 관한 권리에 대하여만 적용된다.","k":"1gge7rs"},
+  {"i":"국거UN31-009","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(3) 이행을 정지한 당사자는 물품의 발송 전후에 관계없이 즉시 상대방에게 그 정지를 통지하여야 하고, 상대방이 그 이행에 관하여 적절한 보장을 제공한 경우에는 이행을 계속하여야 한다.","k":"138jhdj"}
+ ]},
+ {"i":"국거UN31-010","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\">답안</span> <strong>법리</strong> : 의무의 실질적 부분을 이행하지 아니할 것이 객관적으로 판명되어야한다.","k":"185zxqr"},
+ {"i":"국거UN31-011","o":"<div class=\"cs-h\" data-lv=\"3\">","h":"기출 적용 (실전답안)","k":"19x1u2l"},
+ {"i":"국거UN31-012","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅳ. 의무이행정지권&lt;/strong&gt;&lt;br&gt;조문 : 상대방의 이행능력 또는 신용도의 중대한 결함, 의무이행정지권 및 통지(제71조).&lt;br&gt;법리 : 의무의 실질적 부분을 이행하지 아니할 것이 객관적으로 판명되어야 한다.&lt;br&gt;사안의 경우 : (1) 乙은 2020.7.25. 중국 파산법원에 기업회생절차를 신정하였고, 이 사실은 곧바로 甲 에게 알려졌으므로 乙이 실질적 부분을 이행하지 아니할 것이 객관적으로 판명되었다. (2) 甲은 2차 인도분 물품의 인도를 정지한 사실을 즉시 乙에게 통지하였다.\">","h":"<span class=\"cs-exam\">제11회 변시 문제3</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>의무이행정지권</strong> — (2) 甲은 2차 인도분 물품의 인도를 정지한 사실을 즉시 乙에게 통지하였다.</span>","k":"1ka7wan"},
+ {"i":"국거UN31-013","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅳ. 의무이행정지권&lt;/strong&gt;&lt;br&gt;조문 : 상대방의 이행능력 또는 신용도의 중대한 결함, 의무이행정지권 및 통지(제71조).&lt;br&gt;법리 : 의무의 실질적 부분을 이행하지 아니할 것이 객관적으로 판명되어야 한다.&lt;br&gt;사안의 경우 : (1) 甲은 거래은행으로부터 乙의 자금상태가 악화되어 乙이 3자분 대금을 지급할 수 없을 것이라는 정보를 입수하였으므로 乙 신용도의 중대한 결함이 객관적으로 판명되었다. (2) 甲은 3차 인도분 물품을 인도하지 않았으며, 이 사실을 즉시 乙에게 통지하였다.\">","h":"<span class=\"cs-exam\">제13회 변시 문제4</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>의무이행정지권</strong> — (2) 甲은 3차 인도분 물품을 인도하지 않았으며, 이 사실을 즉시 乙에게 통지하였다.</span>","k":"snredo"}
+]}

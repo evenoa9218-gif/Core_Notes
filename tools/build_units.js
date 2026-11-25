@@ -26,6 +26,7 @@ const SUBJ = {
   형소:   ['data-crimpro.js', 'CRIMPRO_UNITS'],
   민소:   ['data-minso.js',   'MINSO_UNITS'],
   최판:   ['data-choipan.js', 'CHOIPAN_UNITS'],
+  국거:   ['data-intl.js', 'INTL_UNITS'],
 };
 
 // ── 파서 ──────────────────────────────────────────────────────
