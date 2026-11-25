@@ -1,8 +1,7 @@
 {"id":"국거사47","t":"[친족] 국제재판관할 · 부양 후견","cat":"국제사법 · 제7장 친족","lv":1,"tg":[],"b":[
- {"i":"국거사47-001","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅰ. 부양사건의 관할","k":"xkg4oq"},
- {"i":"국거사47-002","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>조문</strong> : 주의) 개정 조문","k":"1qf4fv"},
+ {"i":"국거사47-n001","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅰ. 부양사건의 관할","k":"xkg4oq"},
  {"i":"국거사47-003","o":"<div class=\"cs-callout\">","b":[
-  {"i":"국거사47-004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제60조(부양에 관한 사건의 관할)</strong>","k":"1o3x9tf"},
+  {"i":"국거사47-n002","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제60조(부양에 관한 사건의 관할) 〔개정 조문〕</strong>","k":"yhokgj"},
   {"i":"국거사47-005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 부양에 관한 사건에 대해서는 부양권리자의 일상거소가 대한민국에 있는 경우 법원에 국제재판관할이 있다.","k":"1ogqdh2"},
   {"i":"국거사47-006","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 당사자가 부양에 관한 사건에 대하여 제8조에 따라 국제재판관할의 합의를 하는 경우 다음 각 호의 어느 하나에 해당하면 합의의 효력이 없다.","k":"1kljbw1"},
   {"i":"국거사47-007","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"1. 부양권리자가 미성년자이거나 피후견인인 경우. 다만, 해당 합의에서 미성년자이거나 피후견인인 부양권리자에게 법원 외에 외국법원에도 소를 제기할 수 있도록 한 경우는 제외한다.","k":"zwkk56"},
@@ -13,10 +12,9 @@
  ]},
  {"i":"국거사47-012","o":"<div class=\"cs-h\" data-lv=\"3\">","h":"기출 적용 (실전답안)","k":"19x1u2l"},
  {"i":"국거사47-013","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅳ. 일반관할 및 특별관할&lt;/strong&gt;&lt;br&gt;조문 : (1) A국의 국제사법 중 혼인관계에 관한 사건의 특별관할(제56조), 부부 모두 A국의 국민인 경우(제56조 제1항 제3호), B국의 국제사법의 부양에 관한 사건의 관할(제60조) 등 (2) 피고 甲의 일상거소와 재산이 B국에 있으므로 B국의 일반관할(제3조 제1항), 재산소재지의 특별관할(제5조) 등 국제사법 적용된다.&lt;br&gt;사안의 경우 : (1) 부부인 甲과 乙의 공통의 국적은 A국이므로, A국의 국제사법 제56조 제1항 제3호에 의해 A국 법원은 국제재판관할권은 가지며, 부양권리자인 丙의 일상거소가 B국에 있으므로 B국의 국제사법 제60조 제1항에 의해 B국 법원은 국제재판관할권을 갖는다. (2) 피고 甲의 일상거소는 B국에 있고, 재산 또한 B국에 있으므로, B국의 국제사법 제3조 제1항 일반관할 및 제5조 특별관할에 의해 B국 법원은 국제재판관할권을 갖는다.\">","h":"<span class=\"cs-exam\">제3회 변시 문제1</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>일반관할 및 특별관할</strong> — (2) 피고 甲의 일상거소는 B국에 있고, 재산 또한 B국에 있으므로, B국의 국제사법 제3조 제1항 일반관할 및 제5조 특별관할에 의해 B국 법원은 국제재판관할권을 갖는다.</span>","k":"1h02vqx"},
- {"i":"국거사47-014","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅱ. 후견사건의 특별관할","k":"kd7lz3"},
- {"i":"국거사47-015","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>조문</strong> : 주의) 개정 조문","k":"1qf4fv"},
+ {"i":"국거사47-n003","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅱ. 후견사건의 특별관할","k":"kd7lz3"},
  {"i":"국거사47-016","o":"<div class=\"cs-callout\">","b":[
-  {"i":"국거사47-017","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제61조(후견에 관한 사건의 특별관할)</strong>","k":"ufg8l2"},
+  {"i":"국거사47-n004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제61조(후견에 관한 사건의 특별관할) 〔개정 조문〕</strong>","k":"c84rti"},
   {"i":"국거사47-018","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 성년인 사람의 후견에 관한 사건에 대해서는 다음 각 호의 어느 하나에 해당하는 경우 법원에 국제재판관할이 있다.","k":"1rjavgf"},
   {"i":"국거사47-019","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"1. 피후견인(피후견인이 될 사람을 포함한다. 이하 같다)의 일상거소가 대한민국에 있는 경우","k":"3wseot"},
   {"i":"국거사47-020","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"2. 피후견인이 대한민국 국민인 경우","k":"1f7b9k8"},
@@ -27,16 +25,21 @@
  ]},
  {"i":"국거사47-025","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거사47-026","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제13조(적용 제외)</strong>","k":"1ucm752"},
-  {"i":"국거사47-027","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"제24조, 제56조부터 제59조까지, 제61조, 제62조, 제76조제4항 및 제89조에 따라 국제재판관할이 정하여지는 사건에는 제8조 및 제9조를 적용하지 아니한다.","k":"v21egx"}
+  {"i":"국거사47-n005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"제24조, 제56조부터 제59조까지, 제61조, 제62조, 제76조제4항 및 제89조에 따라 국제재판관할이 정하여지는 사건에는 제8조 및 제9조를 적용하지 아니한다.","k":"v21egx"}
  ]},
- {"i":"국거사47-028","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅰ. 가사조정사건의 관할","k":"l8jd9e"},
- {"i":"국거사47-029","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>조문</strong> : 주의) 개정 조문","k":"1qf4fv"},
- {"i":"국거사47-030","o":"<div class=\"cs-callout\">","b":[
-  {"i":"국거사47-031","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제62조(가사조정사건의 관할)</strong>","k":"16w8f39"},
-  {"i":"국거사47-032","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"제56조부터 제61조까지의 규정에 따라 법원에 국제재판관할이 있는 사건의 경우에는 그 조정사건에 대해서도 법원에 국제재판관할이 있다.","k":"czssbi"}
- ]},
- {"i":"국거사47-033","o":"<div class=\"cs-callout\">","b":[
-  {"i":"국거사47-034","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제13조(적용 제외)</strong>","k":"1ucm752"},
-  {"i":"국거사47-035","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"제24조, 제56조부터 제59조까지, 제61조, 제62조, 제76조제4항 및 제89조에 따라 국제재판관할이 정하여지는 사건에는 제8조 및 제9조를 적용하지 아니한다.","k":"v21egx"}
- ]}
+ {"i":"국거사47-035","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사47-001","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사47-002","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사47-015","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사47-029","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사47-030","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사47-033","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사47-004","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사47-014","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사47-017","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사47-034","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사47-027","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사47-028","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사47-031","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사47-032","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"}
 ]}

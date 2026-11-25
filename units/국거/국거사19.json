@@ -1,8 +1,7 @@
 {"id":"국거사19","t":"[사람] 국제재판관할","cat":"국제사법 · 제2장 사람","lv":1,"tg":[],"b":[
- {"i":"국거사19-001","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅰ. 실종선고 등 사건의 특별관할","k":"1nggvgm"},
- {"i":"국거사19-002","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>조문</strong> : 주의) 개정 조문","k":"1qf4fv"},
+ {"i":"국거사19-n001","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅰ. 실종선고 등 사건의 특별관할","k":"1nggvgm"},
  {"i":"국거사19-003","o":"<div class=\"cs-callout\">","b":[
-  {"i":"국거사19-004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제24조(실종선고 등 사건의 특별관할)</strong>","k":"1xf1f43"},
+  {"i":"국거사19-n002","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제24조(실종선고 등 사건의 특별관할) 〔개정 조문〕</strong>","k":"1vw87vn"},
   {"i":"국거사19-005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 실종선고에 관한 사건에 대해서는 다음 각 호의 어느 하나에 해당하는 경우 법원에 국제재판관할이 있다.","k":"1heni1v"},
   {"i":"국거사19-006","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"1. 부재자가 대한민국 국민인 경우","k":"1gykmy7"},
   {"i":"국거사19-007","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"2. 부재자의 마지막 일상거소가 대한민국에 있는 경우","k":"yfcgr5"},
@@ -12,15 +11,19 @@
  ]},
  {"i":"국거사19-011","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거사19-012","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제13조(적용 제외)</strong>","k":"1ucm752"},
-  {"i":"국거사19-013","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"제24조, 제56조부터 제59조까지, 제61조, 제62조, 제76조제4항 및 제89조에 따라 국제재판관할이 정하여지는 사건에는 제8조 및 제9조를 적용하지 아니한다.","k":"v21egx"}
+  {"i":"국거사19-n004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"제24조, 제56조부터 제59조까지, 제61조, 제62조, 제76조제4항 및 제89조에 따라 국제재판관할이 정하여지는 사건에는 제8조 및 제9조를 적용하지 아니한다.","k":"v21egx"}
  ]},
- {"i":"국거사19-014","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅰ. 사원 등에 대한 소의 특별관할","k":"1xlm29v"},
- {"i":"국거사19-015","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>조문</strong> : 주의) 개정 조문","k":"1qf4fv"},
- {"i":"국거사19-016","o":"<div class=\"cs-callout\">","b":[
-  {"i":"국거사19-017","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제25조(사원 등에 대한 소의 특별관할)</strong>","k":"1ykjsuf"},
-  {"i":"국거사19-018","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"법원이 제3조제3항에 따른 국제재판관할을 가지는 경우 다음 각 호의 소는 법원에 제기할 수 있다.","k":"maeqsz"},
-  {"i":"국거사19-019","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"1. 법인 또는 단체가 그 사원 또는 사원이었던 사람에 대하여 소를 제기하는 경우로서 그 소가 사원의 자격으로 말미암은 것인 경우","k":"upd3cd"},
-  {"i":"국거사19-020","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"2. 법인 또는 단체의 사원이 다른 사원 또는 사원이었던 사람에 대하여 소를 제기하는 경우로서 그 소가 사원의 자격으로 말미암은 것인 경우","k":"2c044a"},
-  {"i":"국거사19-021","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"3. 법인 또는 단체의 사원이었던 사람이 법인ㆍ단체의 사원에 대하여 소를 제기하는 경우로서 그 소가 사원의 자격으로 말미암은 것인 경우","k":"h9n87v"}
- ]}
+ {"i":"국거사19-n003","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사19-001","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사19-002","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사19-015","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사19-016","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사19-004","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사19-013","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사19-014","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사19-017","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사19-018","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사19-019","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사19-020","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사19-021","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"}
 ]}

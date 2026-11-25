@@ -1,8 +1,7 @@
 {"id":"국거사45","t":"[친족] 국제재판관할 · 친생자관계 입양관계","cat":"국제사법 · 제7장 친족","lv":1,"tg":[],"b":[
- {"i":"국거사45-001","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅰ. 친생자관계 사건의 특별관할","k":"8jhgf7"},
- {"i":"국거사45-002","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>조문</strong> : 주의) 개정 조문","k":"1qf4fv"},
+ {"i":"국거사45-n001","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅰ. 친생자관계 사건의 특별관할","k":"8jhgf7"},
  {"i":"국거사45-003","o":"<div class=\"cs-callout\">","b":[
-  {"i":"국거사45-004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제57조(친생자관계에 관한 사건의 특별관할)</strong>","k":"cw95gu"},
+  {"i":"국거사45-n002","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제57조(친생자관계에 관한 사건의 특별관할) 〔개정 조문〕</strong>","k":"1tq6lam"},
   {"i":"국거사45-005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"친생자관계의 성립 및 해소에 관한 사건에 대해서는 다음 각 호의 어느 하나에 해당하는 경우 법원에 국제재판관할이 있다.","k":"dkumgk"},
   {"i":"국거사45-006","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"1. 자녀의 일상거소가 대한민국에 있는 경우","k":"1q0z27z"},
   {"i":"국거사45-007","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"2. 자녀와 피고가 되는 부모 중 한쪽이 대한민국 국민인 경우","k":"9grrlo"}
@@ -11,15 +10,21 @@
   {"i":"국거사45-009","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제13조(적용 제외)</strong>","k":"1ucm752"},
   {"i":"국거사45-010","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"제24조, 제56조부터 제59조까지, 제61조, 제62조, 제76조제4항 및 제89조에 따라 국제재판관할이 정하여지는 사건에는 제8조 및 제9조를 적용하지 아니한다.","k":"v21egx"}
  ]},
- {"i":"국거사45-011","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅱ. 입양관계 사건의 특별관할","k":"17k8dnr"},
- {"i":"국거사45-012","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>조문</strong> : 주의) 개정 조문","k":"1qf4fv"},
+ {"i":"국거사45-n003","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅱ. 입양관계 사건의 특별관할","k":"17k8dnr"},
  {"i":"국거사45-013","o":"<div class=\"cs-callout\">","b":[
-  {"i":"국거사45-014","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제58조(입양관계에 관한 사건의 특별관할)</strong>","k":"1i88adg"},
+  {"i":"국거사45-n004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제58조(입양관계에 관한 사건의 특별관할) 〔개정 조문〕</strong>","k":"1oql7ms"},
   {"i":"국거사45-015","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 입양의 성립에 관한 사건에 대해서는 양자가 되려는 사람 또는 양친이 되려는 사람의 일상거소가 대한민국에 있는 경우 법원에 국제재판관할이 있다.","k":"1rpkxyy"},
   {"i":"국거사45-016","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 양친자관계의 존부확인, 입양의 취소 또는 파양(罷養)에 관한 사건에 관하여는 제57조를 준용한다.","k":"z3cyok"}
  ]},
  {"i":"국거사45-017","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거사45-018","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제13조(적용 제외)</strong>","k":"1ucm752"},
-  {"i":"국거사45-019","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"제24조, 제56조부터 제59조까지, 제61조, 제62조, 제76조제4항 및 제89조에 따라 국제재판관할이 정하여지는 사건에는 제8조 및 제9조를 적용하지 아니한다.","k":"v21egx"}
- ]}
+  {"i":"국거사45-n005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"제24조, 제56조부터 제59조까지, 제61조, 제62조, 제76조제4항 및 제89조에 따라 국제재판관할이 정하여지는 사건에는 제8조 및 제9조를 적용하지 아니한다.","k":"v21egx"}
+ ]},
+ {"i":"국거사45-019","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사45-001","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사45-002","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사45-012","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사45-004","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사45-011","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사45-014","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"}
 ]}

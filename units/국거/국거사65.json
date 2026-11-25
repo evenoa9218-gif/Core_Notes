@@ -1,44 +1,51 @@
-{"id":"국거사65","t":"[해상] 국제재판관할 · 공동해손·선박충돌 해난구조 · 공동해손 선박충돌 해난구조","cat":"국제사법 · 제10장 해상","lv":1,"tg":[],"b":[
- {"i":"국거사65-001","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅰ. 공동해손에 관한 소의 특별관할","k":"g0i1gm"},
- {"i":"국거사65-002","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>조문</strong> : 주의) 개정 조문","k":"1qf4fv"},
+{"id":"국거사65","t":"[해상] 국제재판관할 · 공동해손·선박충돌 해난구조","cat":"국제사법 · 제10장 해상","lv":1,"tg":[],"b":[
+ {"i":"국거사65-n001","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅰ. 공동해손에 관한 소의 특별관할","k":"g0i1gm"},
  {"i":"국거사65-003","o":"<div class=\"cs-callout\">","b":[
-  {"i":"국거사65-004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제91조(공동해손에 관한 소의 특별관할)</strong>","k":"1vyduj1"},
+  {"i":"국거사65-n002","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제91조(공동해손에 관한 소의 특별관할) 〔개정 조문〕</strong>","k":"uj3tyl"},
   {"i":"국거사65-005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"공동해손(共同海損)에 관한 소는 다음 각 호의 어느 하나에 해당하는 곳이 대한민국에 있는 경우 법원에 제기할 수 있다.","k":"119ke7f"},
   {"i":"국거사65-006","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"1. 선박의 소재지","k":"qh5xbr"},
   {"i":"국거사65-007","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"2. 사고 후 선박이 최초로 도착한 곳","k":"1dp3ire"},
   {"i":"국거사65-008","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"3. 선박이 압류등이 된 곳","k":"1oizmpq"}
  ]},
- {"i":"국거사65-009","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅱ. 선박충돌에 관한 소의 특별관할","k":"cwktrz"},
- {"i":"국거사65-010","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>조문</strong> : 주의) 개정 조문","k":"1qf4fv"},
+ {"i":"국거사65-n003","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅱ. 선박충돌에 관한 소의 특별관할","k":"cwktrz"},
  {"i":"국거사65-011","o":"<div class=\"cs-callout\">","b":[
-  {"i":"국거사65-012","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제92조(선박충돌에 관한 소의 특별관할)</strong>","k":"1jg2lcm"},
+  {"i":"국거사65-n004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제92조(선박충돌에 관한 소의 특별관할) 〔개정 조문〕</strong>","k":"5s7rli"},
   {"i":"국거사65-013","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"선박의 충돌이나 그 밖의 사고에 관한 소는 다음 각 호의 어느 하나에 해당하는 곳이 대한민국에 있는 경우 법원에 제기할 수 있다.","k":"bpmchn"},
   {"i":"국거사65-014","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"1. 가해 선박의 선적지 또는 소재지","k":"luh66e"},
   {"i":"국거사65-015","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"2. 사고 발생지","k":"i1gi50"},
   {"i":"국거사65-016","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"3. 피해 선박이 사고 후 최초로 도착한 곳","k":"15wm30z"},
   {"i":"국거사65-017","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"4. 가해 선박이 압류등이 된 곳","k":"9rfekt"}
  ]},
- {"i":"국거사65-018","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅲ. 해난구조에 관한 소의 특별관할","k":"y6m6t4"},
- {"i":"국거사65-019","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>조문</strong> : 주의) 개정 조문","k":"1qf4fv"},
+ {"i":"국거사65-n005","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅲ. 해난구조에 관한 소의 특별관할","k":"y6m6t4"},
  {"i":"국거사65-020","o":"<div class=\"cs-callout\">","b":[
-  {"i":"국거사65-021","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제93조(해난구조에 관한 소의 특별관할)</strong>","k":"1165wpf"},
+  {"i":"국거사65-n006","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제93조(해난구조에 관한 소의 특별관할) 〔개정 조문〕</strong>","k":"1294lwz"},
   {"i":"국거사65-022","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"해난구조에 관한 소는 다음 각 호의 어느 하나에 해당하는 곳이 대한민국에 있는 경우 법원에 제기할 수 있다","k":"1jb7iu7"},
   {"i":"국거사65-023","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"1. 해난구조가 있었던 곳","k":"1mbudph"},
   {"i":"국거사65-024","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"2. 구조된 선박이 최초로 도착한 곳","k":"1hepr8y"},
-  {"i":"국거사65-025","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"3. 구조된 선박이 압류등이 된 곳","k":"1vokiim"}
+  {"i":"국거사65-n008","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"3. 구조된 선박이 압류등이 된 곳","k":"1vokiim"}
  ]},
- {"i":"국거사65-026","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> 66. [해상] 준거법","k":"183m10h"},
- {"i":"국거사65-027","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅰ. 해상","k":"th3hby"},
- {"i":"국거사65-028","o":"<div class=\"cs-callout\">","b":[
-  {"i":"국거사65-029","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제94조(해상)</strong>","k":"rls0kw"},
-  {"i":"국거사65-030","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"해상에 관한 다음 각 호의 사항은 선적국법에 따른다.","k":"1vxyx33"},
-  {"i":"국거사65-031","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"1. 선박의 소유권 및 저당권, 선박우선특권, 그 밖의 선박에 관한 물권","k":"nd5qle"},
-  {"i":"국거사65-032","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"2. 선박에 관한 담보물권의 우선순위","k":"c86hs0"},
-  {"i":"국거사65-033","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"3. 선장과 해원(海員)의 행위에 대한 선박소유자의 책임범위","k":"1xlb87f"},
-  {"i":"국거사65-034","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"4. 선박소유자등이 책임제한을 주장할 수 있는지 여부 및 그 책임제한의 범위","k":"2kadfd"},
-  {"i":"국거사65-035","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"5. 공동해손","k":"cj9v86"},
-  {"i":"국거사65-036","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"6. 선장의 대리권","k":"ez37hc"}
- ]},
- {"i":"국거사65-037","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong> <span class=\"cs-stat\">(2013다203451)</span>","k":"1ysv5jl"},
- {"i":"국거사65-038","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\">답안</span> <strong>법리</strong> : 선박우선특권의 성립 여부, 일정한 채권이 선박우선특권에 의하여 담보되는지 여부 및 선박우선특권이 미치는 대상의 범위 등은 국제사법 제94조 제1호가 적용된다.","k":"zax08v"}
+ {"i":"국거사65-n007","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사65-001","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사65-002","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사65-010","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사65-019","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사65-028","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사65-004","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사65-009","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사65-012","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사65-018","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사65-021","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사65-025","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사65-026","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사65-027","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사65-029","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사65-030","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사65-031","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사65-032","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사65-033","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사65-034","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사65-035","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사65-036","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사65-037","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사65-038","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"}
 ]}

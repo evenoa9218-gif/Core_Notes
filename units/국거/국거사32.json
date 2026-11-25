@@ -3,17 +3,18 @@
  {"i":"국거사32-002","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거사32-003","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제49조(계약의 성립 및 유효성)</strong>","k":"11a3ota"},
   {"i":"국거사32-004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 계약의 성립 및 유효성은 그 계약이 유효하게 성립하였을 경우 이 법에 따라 적용되어야 하는 준거법에 따라 판단한다.","k":"7uas38"},
-  {"i":"국거사32-005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 제1항에 따른 준거법에 따라 당사자의 행위의 효력을 판단하는 것이 모든 사정에 비추어 명백히 부당한 경우에는 그 당사자는 계약에 동의하지 아니하였음을 주장하기 위하여 그의 일상거소지법을 원용할 수 있다.","k":"w8vs5h"}
+  {"i":"국거사32-n002","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 제1항에 따른 준거법에 따라 당사자의 행위의 효력을 판단하는 것이 모든 사정에 비추어 명백히 부당한 경우에는 그 당사자는 계약에 동의하지 아니하였음을 주장하기 위하여 그의 일상거소지법을 원용할 수 있다.","k":"w8vs5h"}
  ]},
- {"i":"국거사32-006","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅰ. 계약의 일부에 대한 준거법 선택","k":"1561b9e"},
- {"i":"국거사32-007","o":"<div class=\"cs-callout\">","b":[
-  {"i":"국거사32-008","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제45조(당사자 자치)</strong>","k":"52gxk4"},
-  {"i":"국거사32-009","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 계약은 당사자가 명시적 또는 묵시적으로 선택한 법에 따른다. 다만, 묵시적인 선택은 계약내용이나 그 밖의 모든 사정으로부터 합리적으로 인정할 수 있는 경우로 한정한다.","k":"1rla13y"},
-  {"i":"국거사32-010","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 당사자는 계약의 일부에 관하여도 준거법을 선택할 수 있다.","k":"1h66wy6"},
-  {"i":"국거사32-011","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"⑤ 준거법 선택에 관한 당사자 간 합의의 성립 및 유효성에 관하여는 제49조를 준용한다.","k":"1b55ted"}
- ]},
- {"i":"국거사32-012","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> 및 유효성)를 준용한다.","k":"v6803p"},
- {"i":"국거사32-013","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong> <span class=\"cs-stat\">(2015나5194)</span>","k":"kpzs6b"},
- {"i":"국거사32-014","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"계약에서 당사자가 계약의 일부에 관하여만 준거법을 선택한 경우에 그 해당 부분에 관하여는 당사자가 선택한 법이 준거법이 되지만, 준거법 선택이 없는 부분에 관하여는 계약과 가장 밀접한 관련이 있는 국가의 법이 준거법이 된다.","k":"1qdpblw"},
- {"i":"국거사32-015","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\">답안</span> <strong>법리</strong> : 계약에서 당사자는 계약의 일부에 대해서도 준거법 선택이 가능하다.","k":"1gbcp1h"}
+ {"i":"국거사32-n001","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사32-007","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사32-005","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사32-006","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사32-008","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사32-009","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사32-010","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사32-011","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사32-012","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사32-013","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사32-014","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사32-015","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"}
 ]}

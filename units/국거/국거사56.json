@@ -1,8 +1,7 @@
 {"id":"국거사56","t":"[상속] 국제재판관할 · 상속 유언","cat":"국제사법 · 제8장 상속","lv":1,"tg":[],"b":[
- {"i":"국거사56-001","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅰ. 상속 및 유언에 관한 사건의 관할","k":"hrvhmk"},
- {"i":"국거사56-002","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>조문</strong> : 주의) 개정 조문","k":"1qf4fv"},
+ {"i":"국거사56-n001","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅰ. 상속 및 유언에 관한 사건의 관할","k":"hrvhmk"},
  {"i":"국거사56-003","o":"<div class=\"cs-callout\">","b":[
-  {"i":"국거사56-004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제76조(상속 및 유언에 관한 사건의 관할)</strong>","k":"1jacwri"},
+  {"i":"국거사56-n002","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제76조(상속 및 유언에 관한 사건의 관할) 〔개정 조문〕</strong>","k":"9r8pby"},
   {"i":"국거사56-005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 상속에 관한 사건에 대해서는 다음 각 호의 어느 하나에 해당하는 경우 법원에 국제재판관할이 있다.","k":"1swu0y6"},
   {"i":"국거사56-006","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"1. 피상속인의 사망 당시 일상거소가 대한민국에 있는 경우. 피상속인의 일상거소가 어느 국가에도 없거나 이를 알 수 없고 그의 마지막 일상거소가 대한민국에 있었던 경우에도 또한 같다.","k":"d0ti4m"},
   {"i":"국거사56-007","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"2. 대한민국에 상속재산이 있는 경우. 다만, 그 상속재산의 가액이 현저하게 적은 경우에는 그러하지 아니하다.","k":"i212j8"},
@@ -17,6 +16,10 @@
  ]},
  {"i":"국거사56-016","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거사56-017","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제13조(적용 제외)</strong>","k":"1ucm752"},
-  {"i":"국거사56-018","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"제24조, 제56조부터 제59조까지, 제61조, 제62조, 제76조제4항 및 제89조에 따라 국제재판관할이 정하여지는 사건에는 제8조 및 제9조를 적용하지 아니한다.","k":"v21egx"}
- ]}
+  {"i":"국거사56-n003","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"제24조, 제56조부터 제59조까지, 제61조, 제62조, 제76조제4항 및 제89조에 따라 국제재판관할이 정하여지는 사건에는 제8조 및 제9조를 적용하지 아니한다.","k":"v21egx"}
+ ]},
+ {"i":"국거사56-018","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사56-001","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사56-002","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사56-004","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"}
 ]}

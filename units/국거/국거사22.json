@@ -18,9 +18,14 @@
   {"i":"국거사22-016","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"⑤ 대리권이 없는 대리인과 제3자 간의 관계에 관하여는 제2항을 준용한다.","k":"hqgna8"}
  ]},
  {"i":"국거사22-017","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong> <span class=\"cs-stat\">(2016다18753)</span>","k":"189ot9p"},
- {"i":"국거사22-018","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"원고는 네덜란드 회사이고 원고 대리인은 네덜란드 법률회사이다. 원고와 원고 대리인 사이의 관계약 원고가 대리인의 행위로 피고에 대하여 의무를 부담하는지는 (대리인의 영업소가 있는) 네덜란드 법에 따라 정하여야 한다.","k":"1xn8ild"},
- {"i":"국거사22-019","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\">답안</span> <strong>법리</strong> : 제3자에 대한 본인의 책임 여부는 “대리인의 영업소••가 있는 국가의 법에 따른다.","k":"1rtftz3"},
- {"i":"국거사22-020","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong> : 回 실전답안 (제12회 변시) 제12회 변시 〈문제 3&gt; V. 대리의 준거법","k":"com74l"},
- {"i":"국거사22-021","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>조문</strong> : 대리인의 행위로 제3자에 대하여 의무를 부담하는지 여부는 대리인의 영업소가 있는 국가의 법에 [디른다(제32조 제2항).","k":"7j8jvf"},
- {"i":"국거사22-022","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>사안</strong> : 대리인 乙은 대한민국 서울에 주된 사무소를 두고 거래를 대리 및 중개하고 있으므로 그의 영업소가 있는 국가의 법은 “대한민국법\"이다.","k":"g7bpxt"}
+ {"i":"국거사22-n001","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"원고는 네덜란드 회사이고 원고 대리인은 네덜란드 법률회사이다. 원고와 원고 대리인 사이의 관계와 원고가 대리인의 행위로 피고에 대하여 의무를 부담하는지는 (대리인의 영업소가 있는) 네덜란드 법에 따라 정하여야 한다.","k":"1otpfto"},
+ {"i":"국거사22-n002","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\">답안</span> <strong>법리</strong> : 제3자에 대한 본인의 책임 여부는 “대리인의 영업소••가 있는 국가의 법에 따른다.","k":"1rtftz3"},
+ {"i":"국거사22-n003","o":"<div class=\"cs-h\" data-lv=\"3\">","h":"기출 적용 (실전답안)","k":"19x1u2l"},
+ {"i":"국거사22-n005","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅴ. 대리의 준거법&lt;/strong&gt;&lt;br&gt;조문 : 대리인의 행위로 제3자에 대하여 의무를 부담하는지 여부는 대리인의 영업소가 있는 국가의 법에 [디른다(제32조 제2항).&lt;br&gt;사안 : 대리인 乙은 대한민국 서울에 주된 사무소를 두고 거래를 대리 및 중개하고 있으므로 그의 영업소가 있는 국가의 법은 “대한민국법&quot;이다.\">","h":"<span class=\"cs-exam\">제12회 변시 문제3</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>대리의 준거법</strong> — 대리인 乙은 대한민국 서울에 주된 사무소를 두고 거래를 대리 및 중개하고 있으므로 그의 영업소가 있는 국가의 법은 “대한민국법\"이다.</span>","k":"1o9mnbm"},
+ {"i":"국거사22-n004","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사22-018","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사22-019","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사22-020","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사22-021","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사22-022","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"}
 ]}

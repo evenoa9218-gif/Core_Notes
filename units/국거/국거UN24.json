@@ -6,12 +6,9 @@
  ]},
  {"i":"국거UN24-005","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong> <span class=\"cs-stat\">(2011 다103977)</span>","k":"kvpghl"},
  {"i":"국거UN24-006","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"협약이 준거법으로 적용되는 국제물품매매계약에서 당사자가 대금의 지급을 신용장에 의하기로 한 경우 매수인은 계약에서 합의된 조건에 따라 신용장을 개설할 의무가 있다.","k":"18677yn"},
- {"i":"국거UN24-007","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\">답안</span> <strong>법리</strong> : 매수인의 대금지급을 위한 조치와 절차에는 신용장 개설 의무 등이 포함된다.","k":"i4rc61"},
- {"i":"국거UN24-008","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong> : 回 실전답안 (제11회 변시) 제11회 변시 &lt;문제 3&gt;","k":"1a7slt"},
- {"i":"국거UN24-009","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅱ. 매수인의 대금지급의무","k":"ifm21n"},
- {"i":"국거UN24-010","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"매수인의 대금지급의무(제53조), 대금지급 조치 절차 이행의무(제54조).","k":"y1eeuh"},
- {"i":"국거UN24-011","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>법리</strong> : 매수인의 대금지급을 위한 조치와 절차는 신용장 개설 의무 등을 포함한다.","k":"z84t5w"},
- {"i":"국거UN24-012","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"乙은 현금흐름이 급속히 악화되어 2자 신용장 개설을 하지 못하였으므로, 이는 본질적 계약위반(제25조)에 해당한다.","k":"1s2tksx"},
+ {"i":"국거UN24-n001","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\">답안</span> <strong>법리</strong> : 매수인의 대금지급을 위한 조치와 절차에는 신용장 개설 의무 등이 포함된다.","k":"i4rc61"},
+ {"i":"국거UN24-n002","o":"<div class=\"cs-h\" data-lv=\"3\">","h":"기출 적용 (실전답안)","k":"19x1u2l"},
+ {"i":"국거UN24-n003","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅱ. 매수인의 대금지급의무&lt;/strong&gt;&lt;br&gt;조문 : 매수인의 대금지급의무(제53조), 대금지급 조치 절차 이행의무(제54조).&lt;br&gt;법리 : 매수인의 대금지급을 위한 조치와 절차는 신용장 개설 의무 등을 포함한다.&lt;br&gt;사안의 경우 : 乙은 현금흐름이 급속히 악화되어 2자 신용장 개설을 하지 못하였으므로, 이는 본질적 계약위반(제25조)에 해당한다.\">","h":"<span class=\"cs-exam\">제11회 변시 문제3</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>매수인의 대금지급의무</strong> — 乙은 현금흐름이 급속히 악화되어 2자 신용장 개설을 하지 못하였으므로, 이는 본질적 계약위반(제25조)에 해당한다.</span>","k":"ts1eof"},
  {"i":"국거UN24-013","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅱ. 미정대금의 결정","k":"1fqhmtu"},
  {"i":"국거UN24-014","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거UN24-015","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제55조(미정대금의 결정)</strong>","k":"1mioihc"},
@@ -40,14 +37,21 @@
  {"i":"국거UN24-034","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅵ. 대금지급기일","k":"1r2ke03"},
  {"i":"국거UN24-035","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거UN24-036","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제59조(대금지급기일)</strong>","k":"1inewfd"},
-  {"i":"국거UN24-037","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"매수인은 계약 또는 이 협약에서 지정되거나 확정될 수 있는 기일에 대금을 지급하여야 하며, 이 경우 매도인의 입장에서는 어떠한 요구를 하거나 절차를 따를 필요가 없다.","k":"1p1q7nx"}
+  {"i":"국거UN24-n005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"매수인은 계약 또는 이 협약에서 지정되거나 확정될 수 있는 기일에 대금을 지급하여야 하며, 이 경우 매도인의 입장에서는 어떠한 요구를 하거나 절차를 따를 필요가 없다.","k":"1p1q7nx"}
  ]},
- {"i":"국거UN24-038","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> 25. 인도의 수령","k":"a83239"},
- {"i":"국거UN24-039","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅰ. 매수인의 수령의무","k":"1dl9tp6"},
- {"i":"국거UN24-040","o":"<div class=\"cs-callout\">","b":[
-  {"i":"국거UN24-041","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제60조(매수인의 수령의무)</strong>","k":"13sk5un"},
-  {"i":"국거UN24-042","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"매수인의 수령의무는 다음과 같다.","k":"9sk3wn"},
-  {"i":"국거UN24-043","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(가) 매도인의 인도를 가능하게 하기 위하여 매수인에게 합리적으로 기대될 수 있는 모든 행위를 하는 것, 및","k":"la2bhs"},
-  {"i":"국거UN24-044","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(나) 물품을 수령하는 것","k":"7mvghu"}
- ]}
+ {"i":"국거UN24-n004","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN24-040","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN24-007","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN24-008","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN24-009","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN24-010","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN24-011","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN24-012","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN24-037","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN24-038","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN24-039","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN24-041","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN24-042","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN24-043","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN24-044","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"}
 ]}

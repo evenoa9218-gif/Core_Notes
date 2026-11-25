@@ -19,11 +19,12 @@
  {"i":"국거사14-015","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅳ. 공법적 성격을 가진 외국법","k":"122n1wx"},
  {"i":"국거사14-016","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거사14-017","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제19조(준거법의 범위)</strong>","k":"mkbpyl"},
-  {"i":"국거사14-018","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"이 법에 따라 준거법으로 지정되는 외국법의 규정은 공법적 성격이 있다는 이유만으로 적용이 배제되지 아니한다.","k":"1tp93ii"}
+  {"i":"국거사14-n002","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"이 법에 따라 준거법으로 지정되는 외국법의 규정은 공법적 성격이 있다는 이유만으로 적용이 배제되지 아니한다.","k":"1tp93ii"}
  ]},
- {"i":"국거사14-019","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅰ. 대한민국 법의 강행적 적용","k":"r9le2m"},
- {"i":"국거사14-020","o":"<div class=\"cs-callout\">","b":[
-  {"i":"국거사14-021","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제20조(대한민국 법의 강행적 적용)</strong>","k":"1105enz"},
-  {"i":"국거사14-022","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"입법목적에 비추어 준거법에 관계없이 해당 법률관계에 적용되어야 하는 대한민국의 강행규정은 이 법에 따라 외국법이 준거법으로 지정되는 경우에도 적용한다.","k":"eifmw0"}
- ]}
+ {"i":"국거사14-n001","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사14-020","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사14-018","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사14-019","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사14-021","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사14-022","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"}
 ]}

@@ -1,23 +1,28 @@
 {"id":"국거사24","t":"[지식재산권] 국제재판관할 · 계약","cat":"국제사법 · 제5장 지식재산권","lv":1,"tg":[],"b":[
- {"i":"국거사24-001","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅰ. 지식재산권 계약의 특별관할","k":"18f8x4q"},
- {"i":"국거사24-002","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>조문</strong> : 주의) 개정 조문","k":"1qf4fv"},
+ {"i":"국거사24-n001","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅰ. 지식재산권 계약의 특별관할","k":"18f8x4q"},
  {"i":"국거사24-003","o":"<div class=\"cs-callout\">","b":[
-  {"i":"국거사24-004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제38조(지식재산권 계약에 관한 소의 특별관할)</strong>","k":"1y9m7w2"},
+  {"i":"국거사24-n002","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제38조(지식재산권 계약에 관한 소의 특별관할) 〔개정 조문〕</strong>","k":"5egonm"},
   {"i":"국거사24-005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 지식재산권의 양도, 담보권 설정, 사용허락 등의 계약에 관한 소는 다음 각 호의 어느 하나에 해당하는 경우 법원에 제기할 수 있다.","k":"7odwri"},
   {"i":"국거사24-006","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"1. 지식재산권이 대한민국에서 보호되거나 사용 또는 행사되는 경우","k":"1y2wij"},
   {"i":"국거사24-007","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"2. 지식재산권에 관한 권리가 대한민국에서 등록되는 경우","k":"16ujqxg"},
   {"i":"국거사24-008","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 제1항에 따른 국제재판관할이 적용되는 소에는 제41조를 적용하지 아니한다.","k":"1qqegxi"}
  ]},
- {"i":"국거사24-009","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅱ. 지식재산권 침해의 특별관할","k":"3vwrku"},
- {"i":"국거사24-010","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>조문</strong> : 주의) 개정 조문","k":"1qf4fv"},
+ {"i":"국거사24-n003","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅱ. 지식재산권 침해의 특별관할","k":"3vwrku"},
  {"i":"국거사24-011","o":"<div class=\"cs-callout\">","b":[
-  {"i":"국거사24-012","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제39조(지식재산권 침해에 관한 소의 특별관할)</strong>","k":"wrswdy"},
+  {"i":"국거사24-n004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제39조(지식재산권 침해에 관한 소의 특별관할) 〔개정 조문〕</strong>","k":"1uykm6u"},
   {"i":"국거사24-013","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 지식재산권 침해에 관한 소는 다음 각 호의 어느 하나에 해당하는 경우 법원에 제기할 수 있다. 다만, 이 경우 대한민국에서 발생한 결과에 한정한다.","k":"wwpv9s"},
   {"i":"국거사24-014","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"1. 침해행위를 대한민국에서 한 경우","k":"nw28dj"},
   {"i":"국거사24-015","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"2. 침해의 결과가 대한민국에서 발생한 경우","k":"14oxxc0"},
   {"i":"국거사24-016","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"3. 침해행위를 대한민국을 향하여 한 경우","k":"hdnq70"},
   {"i":"국거사24-017","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 제1항에 따라 소를 제기하는 경우 제6조제1항을 적용하지 아니한다.","k":"3syrap"},
   {"i":"국거사24-018","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 제1항 및 제2항에도 불구하고 지식재산권에 대한 주된 침해행위가 대한민국에서 일어난 경우에는 외국에서 발생하는 결과를 포함하여 침해행위로 인한 모든 결과에 관한 소를 법원에 제기할 수 있다.","k":"nxh6x5"},
-  {"i":"국거사24-019","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"④ 제1항 및 제3항에 따라 소를 제기하는 경우 제44조를 적용하지 아니한다.","k":"ycmunk"}
- ]}
+  {"i":"국거사24-n005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"④ 제1항 및 제3항에 따라 소를 제기하는 경우 제44조를 적용하지 아니한다.","k":"ycmunk"}
+ ]},
+ {"i":"국거사24-019","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사24-001","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사24-002","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사24-010","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사24-004","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사24-009","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사24-012","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"}
 ]}

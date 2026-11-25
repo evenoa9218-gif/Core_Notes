@@ -9,10 +9,14 @@
   {"i":"국거UN38-007","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제90조(다른 협정과의 관계)</strong>","k":"pq1h15"},
   {"i":"국거UN38-008","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"이미 발효하였거나 또는 앞으로 발효하게 될 국제협정이 이 협약이 규율하는 사항에 관하여 규정을 두고 있는 경우에, 이 협약은 그러한 국제협정에 우선하지 아니한다. 다만, 당사자가 그 협정의 당사국에 영업소를 가지고 있는 경우에 한한다.","k":"1wx205e"}
  ]},
- {"i":"국거UN38-009","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅲ. 제2편(계약의 성립), 제3편(물품의 매매) 비구속 선언","k":"1ynb7eg"},
- {"i":"국거UN38-010","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"제92조 (제2편(계약의 성립), 제3편(물품의 매매) 비구속 선언) (1) 체약국은 서명, 비준, 수락, 승인 또는 가입시에 이 협약 제2편(계약의 성립) 또는 제3 편(물품의 매매)에 구속되지 아니한다는 취지의 선언을 할 수 있다. (2) 제1항에 따라 이 협약 제2편(계약의 성립) 또는 제3편(물품의 매매)에 관하여 유보선언을 한 체약국은, 그 선언이 적용되는 편에 의하여 규율되는 사항에 관하여는 이 협약 제1 조(국제성) 제1항에서 말하는 체약국으로 보지 아니한다.","k":"1we23w5"},
- {"i":"국거UN38-011","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅳ. 규정의 부분적 채택","k":"1nws0md"},
+ {"i":"국거UN38-n001","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅲ. 제2편(계약의 성립), 제3편(물품의 매매) 비구속 선언","k":"1ynb7eg"},
  {"i":"국거UN38-012","o":"<div class=\"cs-callout\">","b":[
+  {"i":"국거UN38-n002","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제92조(제2편(계약의 성립), 제3편(물품의 매매) 비구속 선언)</strong>","k":"1yuajua"},
+  {"i":"국거UN38-n003","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(1) 체약국은 서명, 비준, 수락, 승인 또는 가입시에 이 협약 제2편 또는 제3편에 구속되지 아니한다는 취지의 선언을 할 수 있다.","k":"1ws2ih7"},
+  {"i":"국거UN38-n004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(2) 제1항에 따라 이 협약 제2편 또는 제3편에 관하여 유보선언을 한 체약국은, 그 선언이 적용되는 편에 의하여 규율되는 사항에 관하여는 이 협약 제1조 제1항에서 말하는 체약국으로 보지 아니한다.","k":"1mi2mz1"}
+ ]},
+ {"i":"국거UN38-011","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅳ. 규정의 부분적 채택","k":"1nws0md"},
+ {"i":"국거UN38-019","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거UN38-013","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제93조(규정의 부분적 재택)</strong>","k":"g36j0n"},
   {"i":"국거UN38-014","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(1) 체약국이 그 헌법상 이 협약이 다루고 있는 사항에 관하여 각 영역마다 다른 법체계가 적용되는 2개 이상의 영역을 가지고 있는 경우에, 그 국가는 서명, 비준, 수락, 승인 또는 가입시에 이 협약을 전체 영역 또는 일부영역에만 적용한다는 취지의 선언을 할 수 있으며, 언제든지 새로운 선언을 함으로써 전의 선언을 수정할 수 있다.","k":"bl0f0g"},
   {"i":"국거UN38-015","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(2) 제1항의 선언은 수탁자에게 통고하여야 하며, 이 협약이 적용되는 영역을 명시하여야 한다.","k":"14wwijh"},
@@ -20,44 +24,38 @@
   {"i":"국거UN38-017","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(4) 체약국이 제1항의 선언을 하지 아니한 경우에 이 협약은 그 국가의 전체영역에 적용된다.","k":"1vvye6u"}
  ]},
  {"i":"국거UN38-018","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅴ. 연방국가의 선택적 채택","k":"1gm4cau"},
- {"i":"국거UN38-019","o":"<div class=\"cs-callout\">","b":[
+ {"i":"국거UN38-025","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거UN38-020","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제94조(연방국가의 선택적 재택)</strong>","k":"i03sv8"},
   {"i":"국거UN38-021","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(1) 이 협약이 규율하는 사항에 관하여 동일하거나 또는 밀접하게 관련된 법규를 가지는 둘 이상의 체약국은, 양당사자의 영업소가 그러한 국가에 있는 경우에 이 협약을 매매계약과 그 성립에 관하여 적용하지 아니한다는 취지의 선언을 언제든지 행할 수 있다. 그러한 선언은 공동으로 또는 상호간에 단독으로 할 수 있다.","k":"fiz9qg"},
   {"i":"국거UN38-022","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(2) 이 협약이 규율하는 사항에 관하여 하나 또는 둘 이상의 비체약국과 동일하거나 또는 밀접하게 관련된 법규를 가지는 체약국은 양 당사자의 영업소가 그러한 국가에 있는 경우에 이 협약을 매매계약과 그 성립에 대하여 적용하지 아니한다는 취지의 선언을 언제든지 행할 수 있다.","k":"3d5sm5"},
   {"i":"국거UN38-023","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(3) 제2항에 의한 선언의 대상이 된 국가가 그 후 체약국이 된 경우에, 그 선언은 이 협약이 새로운 체약국에 대하여 효력이 발생하는 날부터 제1항의 선언으로서 효력을 가진다. 다만, 새로운 체약국이 그 선언에 가담하거나 또는 상호간에 단독으로 선언하는 경우에 한한다.","k":"1e3s9sh"}
  ]},
  {"i":"국거UN38-024","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅵ. 협약 제1조 제1항 (나)호 간접적용 - 부적용 유보","k":"5s7l76"},
- {"i":"국거UN38-025","o":"<div class=\"cs-callout\">","b":[
-  {"i":"국거UN38-026","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제95조(협약 제1조 제1항 (나) 호 간접적용 - 부적용 유보)</strong>","k":"mlnfqw"},
-  {"i":"국거UN38-027","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"어떤 국가든지 비준서, 수락서, 승인서 또는 가입서를 기탁할 때, 이 협약 제1조 제1항 (나)호에 구속되지 아니한다는 취지의 선언을 행할 수 있다.","k":"15m7mjq"}
+ {"i":"국거UN38-043","o":"<div class=\"cs-callout\">","b":[
+  {"i":"국거UN38-026","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제95조(협약 제1조 제1항 (나)호 간접적용 - 부적용 유보)</strong>","k":"mlnfqw"},
+  {"i":"국거UN38-n005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"어떤 국가든지 비준서, 수락서, 승인서 또는 가입서를 기탁할 때, 이 협약 제1조 제1항 (나)호에 구속되지 아니한다는 취지의 선언을 행할 수 있다.","k":"15m7mjq"}
  ]},
- {"i":"국거UN38-028","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> 제1회 변시 &lt;문제 1&gt; II. 협약의 적용여부 5. 직접적용 또는 간접적용 여부","k":"1d9glbm"},
- {"i":"국거UN38-029","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> (1) 조문 당사자 모두 체약국이면 “직접적용“되고, 국제사법에 의하여 체약국법이 적용되고 제95조의 유보를 하지 않은 경우 \"간접적용\"된다(제1조, 제95조).","k":"6wvfcx"},
- {"i":"국거UN38-030","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> (2) 사안 대한민국과 중국 모두 체약국이므로 협약이 “직접적용”된다.","k":"1c93iow"},
  {"i":"국거UN38-031","o":"<div class=\"cs-h\" data-lv=\"3\">","h":"기출 적용 (실전답안)","k":"19x1u2l"},
+ {"i":"국거UN38-n006","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅱ. 협약의 적용여부&lt;/strong&gt;&lt;br&gt;5. 직접적용 또는 간접적용 여부 (1) 조문 당사자 모두 체약국이면 “직접적용“되고, 국제사법에 의하여 체약국법이 적용되고 제95조의 유보를 하지 않은 경우 &quot;간접적용&quot;된다(제1조, 제95조). (2) 사안 대한민국과 중국 모두 체약국이므로 협약이 “직접적용”된다.\">","h":"<span class=\"cs-exam\">제1회 변시 문제1</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>협약의 적용여부</strong> — 국제사법에 의하여 체약국법이 적용되고 제95조의 유보를 하지 않은 경우 \"간접적용\"된다(제1조, 제95조). (2) 사안 대한민국과 중국 모두 체약국이므로 협약이 “직접적용”된다.</span>","k":"xwlkpx"},
  {"i":"국거UN38-032","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅱ. 협약의 적용여부&lt;/strong&gt;&lt;br&gt;5. 직접적용 또는 간접적용 여부 (1) 조문 당사자 모두 체약국이면 &quot;직접적용&quot;되고, 국제사법에 의하여 체약국법이 적용되고 제95조의 유보를 하지 않은 경우 &quot;간접적용&quot;된다(제1조, 제95조). (2) 사안 대한민국, 중국 모두 체약국이므로, &quot;직접적용“된다.\">","h":"<span class=\"cs-exam\">제2회 변시 문제1</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>협약의 적용여부</strong> — 5. 직접적용 또는 간접적용 여부 (1) 조문 당사자 모두 체약국이면 \"직접적용\"되고, 국제사법에 의하여 체약국법이 적용되고 제95조의 유보를 하지 않은 경우 \"간접적용\"된다(제1조, 제95조). (2) 사안 대한민국, 중국 모두 체약국이므로, \"직접적용“된다.</span>","k":"wbxr9i"},
  {"i":"국거UN38-033","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅱ. 협약의 적용여부&lt;/strong&gt;&lt;br&gt;5. 직접적용 또는 간접적용 여부 (1) 조문 당사자 모두 체약국이면 &quot;직접적용 되고, 국제사법에 의하여 체약국법이 적용되고 제95조의 유보를 하지 않은 경우 “간접적용&quot;된다(제1조, 제95조). (2) 사안 한국과 미국 모두 체약국이므로 협약이 &quot;직접적용&quot;된다.\">","h":"<span class=\"cs-exam\">제3회 변시 문제1</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>협약의 적용여부</strong> — 국제사법에 의하여 체약국법이 적용되고 제95조의 유보를 하지 않은 경우 “간접적용\"된다(제1조, 제95조). (2) 사안 한국과 미국 모두 체약국이므로 협약이 \"직접적용\"된다.</span>","k":"rscv0t"},
  {"i":"국거UN38-034","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅱ. 협약의 적용여부&lt;/strong&gt;&lt;br&gt;5. 직접적용 또는 간접적용 여부 (1) 조문 당사자 모두 체약국이면 &quot;직접적용&quot;되고, 국제사법에 의하여 체약국법이 적용되고 제95조의 유보를 하지 않은 경우 &quot;간접적용&quot;된다(제1조, 제95조). (2) 사안 대한민국, 중국, 이탈리아 모두 체약국이므로, &quot;직접적용&quot;된다.\">","h":"<span class=\"cs-exam\">제4회 변시 문제1</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>협약의 적용여부</strong> — 5. 직접적용 또는 간접적용 여부 (1) 조문 당사자 모두 체약국이면 \"직접적용\"되고, 국제사법에 의하여 체약국법이 적용되고 제95조의 유보를 하지 않은 경우 \"간접적용\"된다(제1조, 제95조). (2) 사안 대한민국, 중국, 이탈리아 모두 체약국이므로, \"직접적용\"된다.</span>","k":"1o6hl3a"},
  {"i":"국거UN38-035","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅱ. 협약의 적용여부&lt;/strong&gt;&lt;br&gt;6. 직접적용 또는 간접적용 여부 (1) 조문 당사자 모두 체약국이면 &quot;직접적용&quot;되고, 국제사법에 의하여 체약국법이 적용되고 제95조의 유보를 하지 않은 경우 간접적용&quot;된다(제1조, 제95조). (2) 사안 대한민국과 러시아 모두 체약국이므로 협약이 &quot;직접적용&quot;된다.\">","h":"<span class=\"cs-exam\">제5회 변시 문제1</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>협약의 적용여부</strong> — 국제사법에 의하여 체약국법이 적용되고 제95조의 유보를 하지 않은 경우 간접적용\"된다(제1조, 제95조). (2) 사안 대한민국과 러시아 모두 체약국이므로 협약이 \"직접적용\"된다.</span>","k":"14gxnoq"},
  {"i":"국거UN38-036","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅱ. 협약의 적용여부&lt;/strong&gt;&lt;br&gt;5. 직접적용 또는 간접적용 여부 (1) 조문 당사자 모두 체약국이면 &quot;직접적용&quot;되고, 국제사법에 의하여 체약국법이 적용되고 제95조의 유보를 하지 않은 경우 &quot;간접적용&quot;된다(제1조, 제95조). (2) 사안 영국은 비체약국이지만 대한민국은 체약국이고, 甲과 乙이 준거법을 대한민국법으로 한 합의는 국제사법 제45조에 의하여 유효하므로, 협약 제1조 제2항 (나)호에 해당하며, 대한민국은 제95조를 유보한 바 없으므로 협약이 &quot;간접적용&quot;된다.\">","h":"<span class=\"cs-exam\">제6회 변시 문제1</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>협약의 적용여부</strong> — 대한민국은 제95조를 유보한 바 없으므로 협약이 \"간접적용\"된다.</span>","k":"190d3cm"},
  {"i":"국거UN38-037","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅱ. 협약의 적용여부&lt;/strong&gt;&lt;br&gt;5. 직접적용 또는 간접적용 여부 (1) 조문 당사자 모두 체약국이면 &quot;직접적용&quot;되고, 국제사법에 의하여 체약국법이 적용되고 제95조의 유보를 하지 않은 경우 간접적용&quot;된다(제1조, 제95조). (2) 사안 A국은 비체약국이지만 대한민국은 체약국이고, 甲과 乙이 준거법을 대한민국법으로 한 합의는 국제사법 제45조에 의하여 유효하므로, 협약 제1조 제2항 (나)호에 해당하며, 대한민국은 제95조를 유보한 바 없으므로 협약이 &quot;간접적용&quot;된다.\">","h":"<span class=\"cs-exam\">제7회 변시 문제1</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>협약의 적용여부</strong> — 대한민국은 제95조를 유보한 바 없으므로 협약이 \"간접적용\"된다.</span>","k":"1mtz113"},
- {"i":"국거UN38-038","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅱ. 협약의 적용여부&lt;/strong&gt;&lt;br&gt;6. 계약의 “성립&quot;에 간접적용 여부 (1) 조문 당사자 모두 체약국이면 &quot;직접적용”되고, 국제사법에 의하여 체약국법이 적용되고 제95조의 유보를 하지 않은 경우 간접적용&#x27;된다(제1조, 제95조). (2) 사안 A국은 비체약국이지만 대한민국은 체약국이고, 甲과 乙이 준거법을 대한민국법으로 한 합의는 국제사법 제45조에 의하여 유효하므로, 협약 제1조 제2항 (나)호에 해당하며, 대한민국은 제95조를 유보한 바 없으므로 계약의 &#x27;성립&#x27;에 대해 협약이 간접적용“된다.\">","h":"<span class=\"cs-exam\">제8회 변시 문제1</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>협약의 적용여부</strong> — 대한민국은 제95조를 유보한 바 없으므로 계약의 '성립'에 대해 협약이 간접적용“된다.</span>","k":"tnfch9"},
+ {"i":"국거UN38-038","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅱ. 협약의 적용여부&lt;/strong&gt;&lt;br&gt;(1) 조문 당사자 모두 체약국이면 &quot;직접적용”되고, 국제사법에 의하여 체약국법이 적용되고 제95조의 유보를 하지 않은 경우 간접적용&#x27;된다(제1조, 제95조). (2) 사안 A국은 비체약국이지만 대한민국은 체약국이고, 甲과 乙이 준거법을 대한민국법으로 한 합의는 국제사법 제45조에 의하여 유효하므로, 협약 제1조 제2항 (나)호에 해당하며, 대한민국은 제95조를 유보한 바 없으므로 계약의 &#x27;성립&#x27;에 대해 협약이 간접적용“된다.\">","h":"<span class=\"cs-exam\">제8회 변시 문제1</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>협약의 적용여부</strong> — 대한민국은 제95조를 유보한 바 없으므로 계약의 '성립'에 대해 협약이 간접적용“된다.</span>","k":"tnfch9"},
  {"i":"국거UN38-039","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅱ. 협약의 적용여부&lt;/strong&gt;&lt;br&gt;5. 직접적용 또는 간접적용 여부 (1) 조문 당사자 모두 체약국이면 &quot;직접적용”되고, 국제사법에 의하여 체약국법이 적용되고 제95조의 유보를 하지 않은 경우 간접적용”된다(제1조, 제95조). (2) 사안 영국은 비체약국이지만 대한민국은 제약국이고, 준거법을 대한민국법으로하였으며, 대한민국은 제95조를 유보한 바 없으므로 협약이 간접적용&quot;된다.\">","h":"<span class=\"cs-exam\">제9회 변시 문제1</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>협약의 적용여부</strong> — 대한민국은 제95조를 유보한 바 없으므로 협약이 간접적용\"된다.</span>","k":"1si7rdn"},
  {"i":"국거UN38-040","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"||. 협약의 적용여부 5. 직접적용 또는 간접적용 여부 (1) 조문 당사자 모두 체약국이면 “직접적용&quot;되고, 국제사법에 의하여 체약국법이 적용되고 제95조의 유보를 하지 않은 경우 &quot;간접적용“된다(제1조, 제95조). (2) 사안 대한민국과 멕시코 모두 체약국이므로 협약이 &quot;직접적용″된다.\">","h":"<span class=\"cs-exam\">제10회 변시 문제1</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\">국제사법에 의하여 체약국법이 적용되고 제95조의 유보를 하지 않은 경우 \"간접적용“된다(제1조, 제95조). (2) 사안 대한민국과 멕시코 모두 체약국이므로 협약이 \"직접적용″된다.</span>","k":"p8ovry"},
  {"i":"국거UN38-041","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅱ. 협약의 적용여부&lt;/strong&gt;&lt;br&gt;5. 직접적용 또는 간접적용 여부 (1) 조문 당사자 모두 체약국이면 “직접적용”되고, 국제사법에 의하여 체약국법이 적용되고 제95조의 유보를 하지 않은 경우 &quot;간접적용 된다(제1조, 제95조). (2) 사안 대한민국과 중국 모두 체약국이므로 협약이 “직접적용″된다.\">","h":"<span class=\"cs-exam\">제11회 변시 문제1</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>협약의 적용여부</strong> — 국제사법에 의하여 체약국법이 적용되고 제95조의 유보를 하지 않은 경우 \"간접적용 된다(제1조, 제95조). (2) 사안 대한민국과 중국 모두 체약국이므로 협약이 “직접적용″된다.</span>","k":"6ubzeg"},
  {"i":"국거UN38-042","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅶ. 의사표시에 서면 이외의 방법 허용 - 부적용 유보","k":"vjy9o9"},
- {"i":"국거UN38-043","o":"<div class=\"cs-callout\">","b":[
-  {"i":"국거UN38-044","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제96조(의사표시에 서면 이외의 방법 허용 - 부적용 유보)</strong>","k":"1bl9cwj"},
-  {"i":"국거UN38-045","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"그 국가의 법률상 매매계약의 체결 또는 입증에 서면을 요구하는 체약국은 제12조에 따라 매매계약, 합의에 의한 매매계약의 변경이나 종료, 청약, 승낙 기타의 의사표시를 서면 이외의 방법으로 하는 것을 허용하는 이 협약 제11조, 제29조 또는 제2편의 어떠한 규정도 당사자 일방이 그 국가에 영업소를 가지고 있는 경우에는 적용하지 아니한다는 취지의 선언을 언제든지 행할 수 있다.","k":"1fb0sse"}
- ]},
- {"i":"국거UN38-046","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> 제5회 변시 &lt;문제 1&gt; 4. 협약적용 배제합의 여부","k":"1y5jh81"},
- {"i":"국거UN38-047","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> (1) 조문 제12조 따를 것을 조건으로, 협약 적용을 배제할 수 있다(제6조, 제12조).","k":"1shp8qr"},
- {"i":"국거UN38-048","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> (2) 사안 러시아는 UN협약 제96조에 따라 유보선언을 한 체약국이다. 5. UN협약 제96조 적용 여부","k":"1r6qitf"},
- {"i":"국거UN38-049","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> (1) 조문 의사표시의 서면 이외의 방법 허용, 부적용 유보(제96조). 6. 직접적용 또는 간접적용 여부","k":"ozhplx"},
- {"i":"국거UN38-050","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> (1) 조문 당사자 모두 체약국이면 \"직접적용″되고, 국제사법에 의하여 체약국법이 적용되고 제95조의 유보를 하지 않은 경우 \"간접적용\"된다(제1조, 제95조).","k":"7grkxc"},
- {"i":"국거UN38-051","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> (2) 사안 대한민국과 러시아 모두 체약국이므로 협약이 \"직접적용\"된다. 甲과 乙 사이의 계약에 협약이 “직접적용\"되지만, 서면을 요구하지 않는 UN협약 제11조,","k":"k7sn1w"},
- {"i":"국거UN38-052","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅷ. 협약의 선언","k":"bn50ww"},
  {"i":"국거UN38-053","o":"<div class=\"cs-callout\">","b":[
+  {"i":"국거UN38-044","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제96조(의사표시에 서면 이외의 방법 허용 - 부적용 유보)</strong>","k":"1bl9cwj"},
+  {"i":"국거UN38-n007","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"그 국가의 법률상 매매계약의 체결 또는 입증에 서면을 요구하는 체약국은 제12조에 따라 매매계약, 합의에 의한 매매계약의 변경이나 종료, 청약, 승낙 기타의 의사표시를 서면 이외의 방법으로 하는 것을 허용하는 이 협약 제11조, 제29조 또는 제2편의 어떠한 규정도 당사자 일방이 그 국가에 영업소를 가지고 있는 경우에는 적용하지 아니한다는 취지의 선언을 언제든지 행할 수 있다.","k":"1fb0sse"}
+ ]},
+ {"i":"국거UN38-n008","o":"<div class=\"cs-h\" data-lv=\"3\">","h":"기출 적용 (실전답안)","k":"19x1u2l"},
+ {"i":"국거UN38-n009","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"4. 협약적용 배제합의 여부 (1) 조문 제12조 따를 것을 조건으로, 협약 적용을 배제할 수 있다(제6조, 제12조). (2) 사안 러시아는 UN협약 제96조에 따라 유보선언을 한 체약국이다. 5. UN협약 제96조 적용 여부 (1) 조문 의사표시의 서면 이외의 방법 허용, 부적용 유보(제96조). (2) 사안 甲의 영업소가 러시아에 있으므로, 매매계약의 체결 또는 입증에 서면을 요구하지 않는 UN협약 제11조, 제29조 또는 제2편은 적용되지 않는다. 6. 직접적용 또는 간접적용 여부 (1) 조문 당사자 모두 체약국이면 &quot;직접적용″되고, 국제사법에 의하여 체약국법이 적용되고 제95조의 유보를 하지 않은 경우 &quot;간접적용&quot;된다(제1조, 제95조). (2) 사안 대한민국과 러시아 모두 체약국이므로 협약이 &quot;직접적용&quot;된다. 7. 소결 甲과 乙 사이의 계약에 협약이 “직접적용&quot;되지만, 서면을 요구하지 않는 UN협약 제11조, 제29조 또는 제2편은 적용되지 않는다.\">","h":"<span class=\"cs-exam\">제5회 변시 문제1</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\">7. 소결 甲과 乙 사이의 계약에 협약이 “직접적용\"되지만, 서면을 요구하지 않는 UN협약 제11조, 제29조 또는 제2편은 적용되지 않는다.</span>","k":"15s9l8g"},
+ {"i":"국거UN38-052","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅷ. 협약의 선언","k":"bn50ww"},
+ {"i":"국거UN38-061","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거UN38-054","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제97조(협약의 선언)</strong>","k":"16ablka"},
   {"i":"국거UN38-055","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(1) 서명시에 이 협약에 따라 행한 선언은 비준, 수락 또는 승인시 다시 확인되어야 한다.","k":"1tc95ji"},
   {"i":"국거UN38-056","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(2) 선언 및 선언의 확인은 서면으로 하여야 하고, 또한 정식으로 수탁자에게 통고하여야 한다.","k":"rpg36q"},
@@ -66,22 +64,39 @@
   {"i":"국거UN38-059","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(5) 제94조에 따라 선언이 철회된 경우에는 그 철회의 효력이 발생하는 날부터 제94조에 따라 다른 국가가 행한 상호간의 선언의 효력이 상실된다.","k":"1ac1xgn"}
  ]},
  {"i":"국거UN38-060","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅸ. 유보의 금지","k":"1g9m4dj"},
- {"i":"국거UN38-061","o":"<div class=\"cs-callout\">","b":[
+ {"i":"국거UN38-065","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거UN38-062","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제98조(유보의 금지)</strong>","k":"uzwy5p"},
   {"i":"국거UN38-063","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"이 협약에 의하여 명시적으로 인정된 경우를 제외하고는 어떠한 유보도 허용되지 아니한다.","k":"15ovcbu"}
  ]},
  {"i":"국거UN38-064","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅹ. 계약의 성립과 효력의 시간적 범위","k":"neq6hb"},
- {"i":"국거UN38-065","o":"<div class=\"cs-callout\">","b":[
+ {"i":"국거UN38-n010","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거UN38-066","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제100조(계약의 성립과 효력의 시간적 범위)</strong>","k":"34v190"},
   {"i":"국거UN38-067","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(1) 이 협약은 제1조 제1항 (가)호 또는 (나)호의 체약국에게 협약의 효력이 발생한 날 이후에 계약체결을 위한 제안이 이루어진 경우에 한하여 계약의 성립에 대하여 적용된다.","k":"bvx9v"},
-  {"i":"국거UN38-068","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(2) 이 협약은 제1조 제1항 (가)호 또는 (나)호의 체약국에게 협약의 효력이 발생한 날 이후에 체결된 계약에 대하여만 적용된다.","k":"sjai6g"}
+  {"i":"국거UN38-n011","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(2) 이 협약은 제1조 제1항 (가)호 또는 (나)호의 체약국에게 협약의 효력이 발생한 날 이후에 체결된 계약에 대하여만 적용된다.","k":"sjai6g"}
  ]},
- {"i":"국거UN38-069","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> 제8회 변시 &lt;문제 1&gt; 5. 계약의 “성립″에 직접적용 여부","k":"12iqs7i"},
- {"i":"국거UN38-070","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> (1) 조문 계약의 \"성립“에 관한 시간적 범위(제100조 제1항).","k":"1xn03fp"},
- {"i":"국거UN38-071","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> (3) 사안 제안서는 2018. 3. 1. 乙에게 도달하였고, 협약의 효력발생일은 그 이후인 2018. 3. 기이므로 협약이 \"직접적용\"될 수 없다. 6. 계약의 ••성립″에 간접적용 여부","k":"elnw7e"},
- {"i":"국거UN38-072","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> (1) 조문 당사자 모두 체약국이면 \"직접적용\"되고, 국제사법에 의하여 체약국법이 적용되고 제95조의 유보를 하지 않은 경우 간접적용\"된다(제1조, 제95조).","k":"l0c57n"},
- {"i":"국거UN38-073","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> (2) 사안 A국은 비체약국이지만, 대한민국은 체약국이고, 甲과 乙이 준거법을 대한민국법으로 한 합의는 국제사법 제45조에 의하여 유효하므로, 협약 제1조 제2항 (나)호에 해당한다. 대한민국은 제95조를 유보한 바 없으므로 계약의 \"성립\"에 대해 협약이 “간접적용\"된다. 7. 계약의 \"효력″에 직접적용 여부","k":"1cuaife"},
- {"i":"국거UN38-074","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> (1) 조문 계약의 “효력\"에 관한 시간적 범위(제100조 제2항).","k":"1jvgxuv"},
- {"i":"국거UN38-075","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> (2) 법리 협약은 \"효력”에 관해 효력발생일 이후 체결된 계약에 대해서만 적용된다.","k":"1h51yf6"},
- {"i":"국거UN38-076","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> (3) 사안 협약의 효력발생일은 2018. 3. 기이고 계약체결일은 그 이후인 2018. 3. 10. 이므로 협약이 “직접적용“된다.","k":"1kxmmbz"}
+ {"i":"국거UN38-n012","o":"<div class=\"cs-h\" data-lv=\"3\">","h":"기출 적용 (실전답안)","k":"19x1u2l"},
+ {"i":"국거UN38-n014","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"(1) 조문 계약의 &quot;성립“에 관한 시간적 범위(제100조 제1항). (2) 법리 협약은 &quot;성립“에 관해 효력발생일 이후 제안이 이루어진 경우에만 적용된다. (3) 사안 제안서는 2018. 3. 1. 乙에게 도달하였고, 협약의 효력발생일은 그 이후인 2018. 3. 기이므로 협약이 &quot;직접적용&quot;될 수 없다. (1) 조문 당사자 모두 체약국이면 &quot;직접적용&quot;되고, 국제사법에 의하여 체약국법이 적용되고 제95조의 유보를 하지 않은 경우 간접적용&quot;된다(제1조, 제95조). (2) 사안 A국은 비체약국이지만, 대한민국은 체약국이고, 甲과 乙이 준거법을 대한민국법으로 한 합의는 국제사법 제45조에 의하여 유효하므로, 협약 제1조 제2항 (나)호에 해당한다. 대한민국은 제95조를 유보한 바 없으므로 계약의 &quot;성립&quot;에 대해 협약이 “간접적용&quot;된다. (1) 조문 계약의 “효력&quot;에 관한 시간적 범위(제100조 제2항). (2) 법리 협약은 &quot;효력”에 관해 효력발생일 이후 체결된 계약에 대해서만 적용된다. (3) 사안 협약의 효력발생일은 2018. 3. 기이고 계약체결일은 그 이후인 2018. 3. 10. 이므로 협약이 “직접적용“된다.\">","h":"<span class=\"cs-exam\">제8회 변시 문제1</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\">(3) 사안 협약의 효력발생일은 2018. 3. 기이고 계약체결일은 그 이후인 2018. 3. 10. 이므로 협약이 “직접적용“된다.</span>","k":"1en0stu"},
+ {"i":"국거UN38-n013","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN38-009","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN38-010","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN38-027","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN38-028","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN38-029","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN38-030","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN38-045","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN38-046","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN38-047","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN38-048","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN38-049","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN38-050","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN38-051","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN38-068","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN38-069","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN38-070","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN38-071","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN38-072","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN38-073","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN38-074","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN38-075","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN38-076","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"}
 ]}

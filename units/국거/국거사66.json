@@ -1,6 +1,19 @@
-{"id":"국거사66","t":"[친족] 준거법 · 반정","cat":"국제사법 · 제7장 친족","lv":1,"tg":[],"b":[
- {"i":"국거사66-001","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅱ. 반정의 금지","k":"17wtr4n"},
+{"id":"국거사66","t":"[해상] 준거법 · 반정","cat":"국제사법 · 제7장 친족","lv":1,"tg":[],"b":[
+ {"i":"국거사66-n001","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅰ. 해상","k":"th3hby"},
  {"i":"국거사66-002","o":"<div class=\"cs-callout\">","b":[
+  {"i":"국거사66-n002","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제94조(해상)</strong>","k":"rls0kw"},
+  {"i":"국거사66-n003","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"해상에 관한 다음 각 호의 사항은 선적국법에 따른다.","k":"1vxyx33"},
+  {"i":"국거사66-n004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"1. 선박의 소유권 및 저당권, 선박우선특권, 그 밖의 선박에 관한 물권","k":"nd5qle"},
+  {"i":"국거사66-n005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"2. 선박에 관한 담보물권의 우선순위","k":"c86hs0"},
+  {"i":"국거사66-n006","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"3. 선장과 해원(海員)의 행위에 대한 선박소유자의 책임범위","k":"1xlb87f"},
+  {"i":"국거사66-n007","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"4. 선박소유자등이 책임제한을 주장할 수 있는지 여부 및 그 책임제한의 범위","k":"2kadfd"},
+  {"i":"국거사66-n008","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"5. 공동해손","k":"cj9v86"},
+  {"i":"국거사66-n009","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"6. 선장의 대리권","k":"ez37hc"}
+ ]},
+ {"i":"국거사66-n010","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong> <span class=\"cs-stat\">(2013다203451)</span>","k":"1ysv5jl"},
+ {"i":"국거사66-n011","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\">답안</span> <strong>법리</strong> : 선박우선특권의 성립 여부, 일정한 채권이 선박우선특권에 의하여 담보되는지 여부 및 선박우선특권이 미치는 대상의 범위 등은 국제사법 제94조 제1호가 적용된다.","k":"zax08v"},
+ {"i":"국거사66-001","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅱ. 반정의 금지","k":"17wtr4n"},
+ {"i":"국거사66-n012","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거사66-003","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제22조(외국법에 따른 대한민국 법의 적용)</strong>","k":"1zjz94"},
   {"i":"국거사66-004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 이 법에 따라 외국법이 준거법으로 지정된 경우에 그 국가의 법에 따라 대한민국 법이 적용되어야 할 때에는 대한민국의 법(준거법의 지정에 관한 법규는 제외한다)에 따른다.","k":"1xs847n"},
   {"i":"국거사66-005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 다음 각 호의 어느 하나에 해당하는 경우에는 제1항을 적용하지 아니한다.","k":"1mgm8fz"},
@@ -11,9 +24,13 @@
   {"i":"국거사66-010","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"5. 제94조에 따라 선적국법이 지정되는 경우","k":"8nd32y"},
   {"i":"국거사66-011","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"6. 그 밖에 제1항을 적용하는 것이 이 법의 준거법 지정 취지에 반하는 경우","k":"1667z7g"}
  ]},
- {"i":"국거사66-012","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> * [실전답안] 구성상 조문 순서 변경 제9회 변시 〈문제 2- 가&gt;","k":"ngpwmh"},
- {"i":"국거사66-013","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅱ. 선박우선특권의 준거법","k":"1cwjyzr"},
- {"i":"국거사66-014","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"해상에 관한 선박우선특권의 준거법은 선적국법에 따른다(제94조 제1호).","k":"1qkud7z"},
- {"i":"국거사66-015","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>법리</strong> : 선박우선특권의 성립 여부, 일정한 채권이 선박우선특권에 의하여 담보되는지 여부 및선박우선특권이 미치는 대상의 범위 등은 국제사법 제94조 제1호가 적용된다.","k":"pfurr6"},
- {"i":"국거사66-016","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"선박우선특권에 의하여 담보되는 “채권 자제\"의 대위에 관한 사항은 국제사법 제94조 제1 호의 적용범위가 아니므로, 그 피담보채권의 임의대위에 관한 사항은 국제사법 제55조 제 2항을 적용하여야 한다.","k":"1nu0gqi"}
+ {"i":"국거사66-n013","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> * [실전답안] 구성상 조문 순서 변경","k":"khcawx"},
+ {"i":"국거사66-n014","o":"<div class=\"cs-h\" data-lv=\"3\">","h":"기출 적용 (실전답안)","k":"19x1u2l"},
+ {"i":"국거사66-n016","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅱ. 선박우선특권의 준거법&lt;/strong&gt;&lt;br&gt;조문 : 해상에 관한 선박우선특권의 준거법은 선적국법에 따른다(제94조 제1호).&lt;br&gt;법리 : 선박우선특권의 성립 여부, 일정한 채권이 선박우선특권에 의하여 담보되는지 여부 및선박우선특권이 미치는 대상의 범위 등은 국제사법 제94조 제1호가 적용된다.&lt;br&gt;사안의 경우 : 선박우선특권에 의하여 담보되는 “채권 자제&quot;의 대위에 관한 사항은 국제사법 제94조 제1 호의 적용범위가 아니므로, 그 피담보채권의 임의대위에 관한 사항은 국제사법 제55조 제 2항을 적용하여야 한다.\">","h":"<span class=\"cs-exam\">제9회 변시 문제2-가</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>선박우선특권의 준거법</strong> — 그 피담보채권의 임의대위에 관한 사항은 국제사법 제55조 제 2항을 적용하여야 한다.</span>","k":"95kf0m"},
+ {"i":"국거사66-n015","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사66-012","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사66-013","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사66-014","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사66-015","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사66-016","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"}
 ]}
