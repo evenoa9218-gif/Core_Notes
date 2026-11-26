@@ -389,6 +389,37 @@ html[data-nav="1"] .q-navtoggle::after{content:'목차 ▴'}
   .q-marks::-webkit-scrollbar{display:none}
   .q-marks>div{flex:none}
 }
+/* ── 첫 화면: 과목별 교재와 진도 (2026-11-26) ───────────────────
+   로고스 첫 화면처럼 한눈에 — 다만 과목이 여럿이라 과목 카드 안에 교재 줄을 둔다.
+   기능은 더 얹지 않는다: 이어 읽기·막대·한 줄 숫자뿐. */
+.q-homebtn{padding:5px 11px;border-radius:99px;border:1px solid var(--line-09);background:var(--chip);font:600 11.5px Pretendard,sans-serif;color:var(--ink-soft);cursor:pointer;flex:none}
+.q-homebtn[data-on="true"]{background:var(--accent-soft);border-color:transparent;color:var(--accent-ink)}
+.q-home{padding:24px 26px 40px;display:flex;flex-direction:column;gap:14px;background:var(--surface-2);flex:1}
+.q-home-head{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}
+.q-home-due{font:600 12.5px Pretendard,sans-serif;color:var(--accent-ink);background:var(--accent-soft);padding:6px 12px;border-radius:99px;white-space:nowrap}
+.q-home-resume{display:flex;align-items:center;gap:10px;padding:14px 16px;border-radius:14px;background:var(--surface);border:1px solid var(--line-09);cursor:pointer;min-width:0}
+.q-home-resume:hover{border-color:var(--accent)}
+.q-home-play{width:30px;height:30px;border-radius:50%;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-size:12px;flex:none}
+.q-home-resume-t{font:700 13.5px Pretendard,sans-serif;color:var(--ink);flex:none}
+.q-home-resume-s{font:400 12.5px Pretendard,sans-serif;color:var(--ink-soft);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.q-home-track{display:flex;align-items:center;gap:8px;margin-top:8px;font:700 13px Pretendard,sans-serif;color:var(--ink-soft)}
+.q-home-dot{width:9px;height:9px;border-radius:50%;flex:none}
+.q-home-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px}
+.q-home-card{background:var(--surface);border:1px solid var(--line-08);border-radius:14px;padding:14px 16px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.q-home-subj{font:700 15px Pretendard,sans-serif;color:var(--ink)}
+.q-home-book{display:flex;flex-direction:column;gap:6px;min-width:0}
+.q-home-book+.q-home-book{border-top:1px dashed var(--line-09);padding-top:11px}
+.q-home-bname{font:500 12.5px/1.45 Pretendard,sans-serif;color:var(--ink-soft);cursor:pointer;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.q-home-bname:hover{color:var(--accent-ink)}
+.q-home-book[data-ready="false"] .q-home-bname{cursor:default;color:var(--ink-faint)}
+.q-home-bar{height:6px;border-radius:99px;background:var(--rule);overflow:hidden;display:flex}
+.q-home-bar>div{background:var(--accent);border-radius:99px}
+.q-home-meta{font:400 11.5px Pretendard,sans-serif;color:var(--ink-faint)}
+.q-home-go{align-self:flex-start;max-width:100%;font:500 11.5px Pretendard,sans-serif;color:var(--accent-ink);background:var(--accent-tint);border:1px solid var(--accent-soft);padding:5px 10px;border-radius:99px;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media (max-width:760px){
+  .q-home{padding:16px 16px 32px}
+  .q-home-grid{grid-template-columns:1fr}
+}
 /* 마우스로 누를 때는 안 보이고, 탭으로 옮겨 다닐 때만 보이는 테두리 */
 [role="button"]:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--callout-line);outline-offset:2px;border-radius:8px}
 [role="button"]{-webkit-tap-highlight-color:transparent}
@@ -623,6 +654,7 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div role="main" id="main" style="flex:1;display:flex;flex-direction:column;min-width:0;background:var(--surface)">
 
 <div class="q-topbar" style="padding:12px 26px;display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--line-08);position:sticky;top:0;background:var(--surface);z-index:2">
+<div role="button" tabIndex="0" class="q-homebtn" data-on="{{ isHome }}" aria-label="첫 화면 — 과목별 진도" title="첫 화면 — 과목별 진도" onClick="{{ goHome }}">홈</div>
 <div role="button" tabIndex="0" style="display:flex;align-items:center;gap:10px;cursor:pointer" onClick="{{ goToc }}"><div style="width:3px;height:13px;border-radius:2px;background:var(--accent)"></div><div style="font:600 12.5px Pretendard,sans-serif;color:var(--ink)">목차</div></div>
 <div style="font:400 11.5px Pretendard,sans-serif;color:var(--ink-ghostest)">{{ crumb }}</div>
 <div style="flex:1"></div>
@@ -651,6 +683,38 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 </sc-if>
 </div>
 </div>
+
+<sc-if value="{{ isHome }}" hint-placeholder-val="{{ false }}">
+<div class="q-home">
+<div class="q-home-head">
+<div style="display:flex;align-items:baseline;gap:12px;flex-wrap:wrap"><div style="font:700 32px/1 Pretendard,sans-serif;color:var(--ink);letter-spacing:-1px">D-{{ dday }}</div><div style="font:600 13.5px Pretendard,sans-serif;color:var(--ink-soft);white-space:nowrap">변호사시험 2027.01.12</div></div>
+<div class="q-home-due">{{ homeDue }}</div>
+</div>
+<sc-if value="{{ hasResume }}" hint-placeholder-val="{{ true }}">
+<div role="button" tabIndex="0" class="q-home-resume" onClick="{{ resumeGo }}"><span class="q-home-play">▶</span><span class="q-home-resume-t">이어 읽기</span><span class="q-home-resume-s">{{ resumeLabel }}</span></div>
+</sc-if>
+<sc-for list="{{ homeTracks }}" as="t" hint-placeholder-count="4">
+<div class="q-home-track"><span class="q-home-dot" style="background:{{ t.dot }}"></span>{{ t.name }}</div>
+<div class="q-home-grid">
+<sc-for list="{{ t.subjects }}" as="s" hint-placeholder-count="3">
+<div class="q-home-card">
+<div class="q-home-subj">{{ s.name }}</div>
+<sc-for list="{{ s.books }}" as="b" hint-placeholder-count="1">
+<div class="q-home-book" data-ready="{{ b.ready }}">
+<div role="button" tabIndex="0" class="q-home-bname" onClick="{{ b.open }}">{{ b.label }}</div>
+<div class="q-home-bar"><div style="width:{{ b.pct }}"></div></div>
+<div class="q-home-meta">{{ b.meta }}</div>
+<sc-if value="{{ b.hasLast }}" hint-placeholder-val="{{ false }}">
+<div role="button" tabIndex="0" class="q-home-go" onClick="{{ b.resume }}">▶ {{ b.lastTitle }}</div>
+</sc-if>
+</div>
+</sc-for>
+</div>
+</sc-for>
+</div>
+</sc-for>
+</div>
+</sc-if>
 
 <sc-if value="{{ isToc }}" hint-placeholder-val="{{ true }}">
 <div class="q-toc" style="padding:24px 26px 34px;display:flex;flex-direction:column;gap:18px;background:var(--surface-2);flex:1">
@@ -2706,6 +2770,7 @@ Object.keys(TRACKS).forEach(t => TRACKS[t].forEach(s => { SUBJ_TRACK[s] = t; }))
 Object.keys(BOOK_OF).forEach(s => { if (!SUBJ_TRACK[s]) SUBJ_TRACK[s] = SUBJ_TRACK[BOOK_OF[s]]; });
 
 function hashOf(s) {
+  if (s.view === 'home') return '#/';
   // 화면에 보이는 것이 주소가 된다. 검색 결과에서 단원으로 들어가면 검색어는 상태로만 남고
   // (뒤로가기로 결과가 되살아나게) 주소에는 지금 읽는 단원이 적힌다.
   let name = s.chapter;
@@ -2750,7 +2815,33 @@ function lastSeen() {
   } catch (e) { return null; }
 }
 
-const BOOT = parseHash(location.hash) || lastSeen();
+// 과목마다 마지막으로 읽던 단원 — 첫 화면의 「이어 읽기」가 쓴다. { 과목: { chapter, cards, title, t } }
+const LASTBY_KEY = 'lawmj_lastby_v1';
+const LASTBY = {
+  data: null,
+  load() {
+    if (this.data) return this.data;
+    try { this.data = JSON.parse(localStorage.getItem(LASTBY_KEY)) || {}; } catch (e) { this.data = {}; }
+    return this.data;
+  },
+  put(subject, rec) {
+    const d = this.load(), old = d[subject];
+    // 다시 그릴 때마다 불린다 — 같은 자리면 1분에 한 번만 적는다(가장 최근 과목을 가리려고 t 는 갱신)
+    if (old && old.chapter === rec.chapter && old.cards === rec.cards && old.title === rec.title
+        && rec.t - (old.t || 0) < 60000) return;
+    d[subject] = rec;
+    try { localStorage.setItem(LASTBY_KEY, JSON.stringify(d)); } catch (e) {}
+  }
+};
+
+// 첫 화면 — 과목 번들 폴더(units/…). 진도는 data-cards.js 의 CARD_SUBJ·CARD_N 과 블록 기록으로 잰다
+const HOME_DIR = { 민법:'민법', 민사소송법:'민소', 최신판례:'최판', 형법:'형법', 형사소송법:'형소',
+  헌법:'헌법', 행정법:'행정법', 행정법강성민:'행정법강성민', 국제거래법:'국거' };
+const TRACK_DOT = { 민사법:'#d9a3b0', 형사법:'#9dbcd4', 공법:'#8aa89c', 선택법:'#c9b27c' };
+
+// 해시 없이 열면(홈 화면 아이콘·바로가기) 첫 화면이다. 과목은 마지막 것을 들고 있어 옆 목차가 그대로 뜬다.
+const BOOT = parseHash(location.hash)
+  || Object.assign({}, lastSeen() || {}, { view:'home', chapter:null, mark:null, q:'', quizOpen:false });
 // 첫 칠 전에 트랙 색을 정한다 — 렌더 뒤에 바꾸면 분홍으로 한 번 번쩍인다
 try { document.documentElement.dataset.track = (BOOT && BOOT.track) || '민사법'; } catch (e) {}
 
@@ -2911,6 +3002,80 @@ class Component extends DCLogic {
     }
   }
 
+  // ── 첫 화면: 과목별 교재와 진도 ─────────────────────────────
+  // 과목 번들(수 MB)을 받지 않는다. 분모(단원별 잎 블록 수)는 data-cards.js, 분자는 블록 기록.
+  // 회독은 「이번 회독을 다 채운 블록 비율」로 보인다 — 1회독을 다 채워야 2회독 막대가 시작한다.
+  homeVals() {
+    const blk = BLK.load(), ox = OX.load(), now = Date.now();
+    const units = window.CARD_SUBJ || {}, N = window.CARD_N || {};
+    const last = LASTBY.load();
+    const go = (track, subject, extra) => {
+      document.documentElement.dataset.track = track;
+      if (BOOK_OF[subject]) {
+        const b = (BOOKS[BOOK_OF[subject]] || []).find(x => x.subject === subject);
+        if (b) { BOOK_PICK[BOOK_OF[subject]] = b.id; try { localStorage.setItem(BOOK_KEY, JSON.stringify(BOOK_PICK)); } catch (e) {} }
+      }
+      this.setState(Object.assign({ track, subject, view:'toc', chapter:null, q:'', mark:null, quizOpen:false,
+        shown:{}, peek:{}, fold:true }, extra || {}));
+      this.toMain();
+    };
+    // 과목 → 단원 집합 → 기록을 한 번만 훑는다
+    const unitDir = {};
+    Object.keys(units).forEach(dir => units[dir].forEach(u => { unitDir[u] = dir; }));
+    const agg = {};
+    Object.keys(blk).forEach(b => {
+      const r = blk[b], dir = r && unitDir[r.u];
+      if (!dir) return;
+      const a = agg[dir] || (agg[dir] = { cnt: [], unk: 0 });
+      for (let k = 1; k <= Math.min(r.n || 0, 9); k++) a.cnt[k] = (a.cnt[k] || 0) + 1;
+      if (r.m === '?') a.unk++;
+    });
+    const dueOf = subject => Object.keys(ox).reduce((n, k) => {
+      const r = ox[k];
+      if (!r || r.s !== subject) return n;
+      const due = r.due || ((r.t || 0) + (r.ok ? 3 : 1) * DAY);
+      return due <= now ? n + 1 : n;
+    }, 0);
+    let dueAll = 0, newest = null;
+    const bookOf = (track, subject, label) => {
+      const dir = HOME_DIR[subject], list = (dir && units[dir]) || [];
+      const total = list.reduce((n, u) => n + (N[u] || 0), 0);
+      const a = agg[dir] || { cnt: [], unk: 0 };
+      let R = 1;
+      while (R < 9 && total && (a.cnt[R] || 0) >= total) R++;
+      const pct = total ? Math.floor((a.cnt[R] || 0) / total * 100) : 0;
+      const due = DATASETS[subject] ? dueOf(subject) : 0;
+      dueAll += due;
+      const lr = last[subject];
+      if (lr && (!newest || lr.t > newest.t)) newest = Object.assign({ track, subject, label }, lr);
+      const ready = !!DATASETS[subject] && total > 0;
+      const meta = !ready ? '준비 중입니다'
+        : [R + '회독 ' + pct + '%', list.length + '단원', a.unk ? '모름 ' + a.unk : '', due ? '복습 ' + due : '']
+          .filter(Boolean).join(' · ');
+      return { label, pct: pct + '%', meta, ready, notReady: !ready, hasLast: ready && !!lr,
+        lastTitle: lr ? lr.title : '',
+        open: () => { if (ready) go(track, subject); },
+        resume: e => { if (e) e.stopPropagation();
+          go(track, subject, { view:'page', chapter: lr.chapter, cards: !!lr.cards }); } };
+    };
+    const homeTracks = Object.keys(TRACKS).map(track => ({
+      name: track, dot: TRACK_DOT[track] || 'var(--accent)',
+      subjects: TRACKS[track].map(name => {
+        const bs = BOOKS[name] ? BOOKS[name].map(b => bookOf(track, b.subject, b.label))
+          : [bookOf(track, name, (DATASETS[name] || {}).label || '교재 준비 중')];
+        return { name, books: bs };
+      })
+    }));
+    return {
+      homeTracks,
+      homeDue: dueAll ? '오늘 복습 ' + dueAll + '개' : '오늘 복습할 것이 없습니다',
+      hasResume: !!newest,
+      resumeLabel: newest ? newest.subject.replace('행정법강성민', '행정법') + ' · ' + newest.title : '',
+      resumeGo: () => { if (newest) go(newest.track, newest.subject,
+        { view:'page', chapter: newest.chapter, cards: !!newest.cards }); }
+    };
+  }
+
   // 「지금 어느 화면인가」만 추린다 — 글자 크기·필터 같은 보기 설정은 기록에 남기지 않는다.
   navSnap(s) {
     return { track:s.track, subject:s.subject, view:s.view, chapter:s.chapter,
@@ -2935,6 +3100,12 @@ class Component extends DCLogic {
         const typingOnly = moved.length === 1 && moved[0] === 'q' && !!this._nav.q && !!now.q;
         history[typingOnly ? 'replaceState' : 'pushState']({ __nav: now }, '', hashOf(now));
         try { localStorage.setItem(LAST_KEY, JSON.stringify(now)); } catch (e) {}
+      }
+      // 과목별 「이어 읽기」 — 단원을 읽고 있을 때만 적는다(모아보기·검색은 읽던 자리가 아니다)
+      if (now.view === 'page' && now.chapter && !now.mark) {
+        let title = now.chapter;
+        try { const t = findTopic(topicsOf(now.subject), now.chapter); if (t) title = t.title; } catch (e) {}
+        LASTBY.put(now.subject, { chapter: now.chapter, cards: !!now.cards, title, t: Date.now() });
       }
       this._nav = now;
       // 단원이 바뀌면 카드 번호를 처음으로 되돌린다 — 3장짜리 단원에서 7번 카드를 보려 들면 빈다
@@ -3932,7 +4103,9 @@ class Component extends DCLogic {
     const idx = curTopic ? list.findIndex(c => c.id === curTopic.id) : -1;
     const curTitle = curTopic ? curTopic.title : (st.chapter || '');
 
-    return {
+    const home = st.view === 'home' ? this.homeVals()
+      : { homeTracks: [], homeDue: '', hasResume: false, resumeLabel: '', resumeGo: () => {} };
+    return Object.assign(home, {
       tracks, subjects, books, hasBooks, filters, marks, parts, navParts, hasParts: navParts.length > 0,
       brand: brandOf(st.track, st.subject), brandSub: '변호사시험 ' + st.subject,
       themeIcon: st.dark ? '☀' : '☾',
@@ -4134,7 +4307,9 @@ class Component extends DCLogic {
         };
         r.readAsText(f);
       },
-      isToc: st.view === 'toc' || !page, isPage: st.view === 'page' && !!page,
+      isHome: st.view === 'home',
+      isToc: st.view !== 'home' && (st.view === 'toc' || !page), isPage: st.view === 'page' && !!page,
+      goHome: () => { this.setState({ view:'home', quizOpen:false, mark:null, q:'', chapter:null }); this.toMain(); },
       chapterTitle: curTitle,
       pageEyebrow: page ? page.eyebrow : '', pageNo: page ? page.pageNo : '',
       pageTags: page ? page.tags.map(([text, kind]) => Object.assign({ text }, this.tagStyle(kind))) : [],
@@ -4199,7 +4374,7 @@ class Component extends DCLogic {
       prev: () => this.step(-1), next: () => this.step(1),
       prevTitle: !list.length ? '' : idx > 0 ? list[idx - 1].title : list[list.length - 1].title,
       nextTitle: !list.length ? '' : idx >= 0 && idx < list.length - 1 ? list[idx + 1].title : list[0].title
-    };
+    });
   }
 }
 </script>

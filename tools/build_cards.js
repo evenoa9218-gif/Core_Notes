@@ -24,6 +24,7 @@ const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
 const SUBJ = ['민법', '헌법', '행정법', '행정법강성민', '형법', '형소', '민소', '최판'];
+const EXTRA = ['국거'];   // 카드 경계는 아직 안 만들고 진도 분모만 준다
 
 const MIN = 300;    // 이보다 짧으면 다음 것을 붙인다 — 「Ⅰ. 의의」 한 줄 카드를 막는다
 const MAX = 800;    // 이보다 길면 경계가 아니어도 끊는다
@@ -136,7 +137,20 @@ function main() {
     '// { 단원id: 잎 블록 수 } — 「이 단원을 다 봤나」를 앱이 재는 분모.\n' +
     '//   블록 id 25,730개를 싣지 않고 수만 준다. 진도는 기록 쪽에 적힌 u(단원)로 모은다.\n' +
     'window.CARD_N = ' + JSON.stringify(nOf) + ';\n';
-  fs.writeFileSync(path.join(ROOT, 'data-cards.js'), body, 'utf8');
+  // 첫 화면(과목별 진도)이 과목 번들을 받지 않고 진도를 재려면 「과목 → 단원 목록」과 분모가 있어야 한다.
+  //   카드 경계가 없는 과목(국거)도 분모는 같은 잎 셈법으로 준다 — 카드는 만들지 않는다.
+  const bySubj = {};
+  for (const s of SUBJ.concat(EXTRA)) {
+    const idx = JSON.parse(fs.readFileSync(path.join(ROOT, 'units', s, '_index.json'), 'utf8'));
+    bySubj[s] = idx.order;
+    if (EXTRA.indexOf(s) >= 0) idx.order.forEach(id => {
+      nOf[id] = leaves(JSON.parse(fs.readFileSync(path.join(ROOT, 'units', s, id + '.json'), 'utf8')).b).length;
+    });
+  }
+  const full = body.replace(/window\.CARD_N = .*;\n$/, 'window.CARD_N = ' + JSON.stringify(nOf) + ';\n') +
+    '// { 단원 폴더: [단원 id…] } — 첫 화면이 과목별 진도를 재는 데 쓴다.\n' +
+    'window.CARD_SUBJ = ' + JSON.stringify(bySubj) + ';\n';
+  fs.writeFileSync(path.join(ROOT, 'data-cards.js'), full, 'utf8');
   console.log('data-cards.js', (body.length / 1024).toFixed(0) + 'KB');
 }
 
