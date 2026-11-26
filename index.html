@@ -425,6 +425,39 @@ html[data-nav="1"] .q-navtoggle::after{content:'목차 ▴'}
 .q-home-acts:empty{display:none}
 .q-home-chip{font:600 11.5px Pretendard,sans-serif;color:var(--accent-ink);background:var(--surface);border:1px solid var(--accent-soft);padding:5px 10px;border-radius:99px;cursor:pointer;white-space:nowrap}
 .q-home-chip-x{color:var(--ox-x,#c0574e)}
+.q-home-chip-fin{background:var(--accent-soft);border-color:transparent}
+/* 직전 정리 줄 — 결론을 가렸다가 누르면 보인다(개선안 6) */
+.q-fin{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 6px;padding:8px 10px;margin:4px 0;border-radius:9px;background:var(--surface);border:1px solid var(--line-08);cursor:pointer;font:400 calc(14px*var(--fs))/1.7 Pretendard,sans-serif;color:var(--ink)}
+.q-fin-h{font-weight:700}
+.q-fin-t{color:transparent;background:var(--rule);border-radius:5px;transition:color .15s,background .15s;user-select:none}
+.q-fin.open .q-fin-t{color:var(--ink-soft);background:transparent;user-select:auto}
+.q-fin-go{margin-left:auto;font:500 11px Pretendard,sans-serif;color:var(--accent-ink);white-space:nowrap}
+/* 기록 칸(개선안 7·8) — 접어 둔다 */
+.q-home-rec{margin-top:10px;background:var(--surface);border:1px solid var(--line-08);border-radius:14px;padding:0 16px}
+.q-home-rec>summary{list-style:none;display:flex;align-items:center;gap:10px;padding:13px 0;cursor:pointer;flex-wrap:wrap}
+.q-home-rec>summary::-webkit-details-marker{display:none}
+.q-home-rec>summary::after{content:'펼치기 ▾';margin-left:auto;font:500 11px Pretendard,sans-serif;color:var(--ink-faint)}
+.q-home-rec[open]>summary::after{content:'접기 ▴'}
+.q-home-rec-t{font:700 13.5px Pretendard,sans-serif;color:var(--ink)}
+.q-home-rec-s{font:500 12px Pretendard,sans-serif;color:var(--ink-soft)}
+.q-home-rec-body{display:flex;flex-direction:column;gap:10px;padding:2px 0 16px}
+.q-home-rec-h{font:600 11.5px Pretendard,sans-serif;color:var(--ink-faint);margin-top:6px}
+.q-week{display:flex;gap:8px;align-items:flex-end;height:110px}
+.q-week-col{flex:1;display:flex;flex-direction:column;align-items:center;gap:4px;height:100%;min-width:0}
+.q-week-n{font:500 10px Pretendard,sans-serif;color:var(--ink-faint);min-height:13px}
+.q-week-bar{flex:1;width:100%;max-width:34px;display:flex;align-items:flex-end;background:var(--surface-2);border-radius:6px;overflow:hidden}
+.q-week-bar>div{width:100%;background:var(--accent);opacity:.55;border-radius:6px 6px 0 0}
+.q-week-col[data-today="true"] .q-week-bar>div{opacity:1}
+.q-week-lab{font:500 11px Pretendard,sans-serif;color:var(--ink-faint)}
+.q-week-col[data-today="true"] .q-week-lab{color:var(--accent-ink);font-weight:700}
+.q-dist{display:grid;grid-template-columns:minmax(80px,140px) 1fr;gap:3px 12px;align-items:center}
+.q-dist-name{font:600 12px Pretendard,sans-serif;color:var(--ink-soft);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.q-dist-bar{height:8px;border-radius:99px;overflow:hidden;display:flex;background:var(--rule)}
+.q-dist-bar>div[data-k="0"]{background:var(--rule)}
+.q-dist-bar>div[data-k="1"]{background:var(--accent);opacity:.45}
+.q-dist-bar>div[data-k="2"]{background:var(--accent);opacity:.75}
+.q-dist-bar>div[data-k="3"]{background:var(--accent-ink)}
+.q-dist-txt{grid-column:2;font:400 11px Pretendard,sans-serif;color:var(--ink-faint)}
 .q-home-quota{background:var(--surface);border:1px solid var(--line-09);border-radius:14px;padding:13px 16px;display:flex;flex-direction:column;gap:8px}
 .q-home-quota-top{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .q-home-quota-t{font:700 13.5px Pretendard,sans-serif;color:var(--ink)}
@@ -736,6 +769,9 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <sc-if value="{{ b.hasUnk }}" hint-placeholder-val="{{ false }}">
 <div role="button" tabIndex="0" class="q-home-chip q-home-chip-x" title="? 를 찍은 줄만 모아 봅니다" onClick="{{ b.unkGo }}">{{ b.unkTxt }}</div>
 </sc-if>
+<sc-if value="{{ b.hasFin }}" hint-placeholder-val="{{ false }}">
+<div role="button" tabIndex="0" class="q-home-chip q-home-chip-fin" title="☆·? 를 찍은 줄만 — 머리를 보고 결론을 떠올립니다" onClick="{{ b.finGo }}">{{ b.finTxt }}</div>
+</sc-if>
 </div>
 </div>
 </sc-for>
@@ -743,6 +779,25 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 </sc-for>
 </div>
 </sc-for>
+<details class="q-home-rec">
+<summary><span class="q-home-rec-t">기록</span><span class="q-home-rec-s">{{ recSummary }}</span></summary>
+<div class="q-home-rec-body">
+<div class="q-home-rec-h">최근 7일 읽은 줄</div>
+<div class="q-week">
+<sc-for list="{{ weekBars }}" as="w" hint-placeholder-count="7">
+<div class="q-week-col" data-today="{{ w.today }}"><div class="q-week-n">{{ w.n }}</div><div class="q-week-bar"><div style="height:{{ w.h }}"></div></div><div class="q-week-lab">{{ w.lab }}</div></div>
+</sc-for>
+</div>
+<div class="q-home-rec-h">회독 분포 (줄 수)</div>
+<sc-for list="{{ distRows }}" as="d" hint-placeholder-count="5">
+<div class="q-dist">
+<div class="q-dist-name">{{ d.name }}</div>
+<div class="q-dist-bar"><sc-for list="{{ d.segs }}" as="g" hint-placeholder-count="4"><div data-k="{{ g.k }}" style="width:{{ g.w }}"></div></sc-for></div>
+<div class="q-dist-txt">{{ d.txt }}</div>
+</div>
+</sc-for>
+</div>
+</details>
 </div>
 </sc-if>
 
@@ -2742,8 +2797,25 @@ function collect(subject, rows, key, catName, keep) {
 const MY_MARKS = [
   { key:'my-unk',  name:'모름' },
   { key:'my-star', name:'중요' },
-  { key:'my-old',  name:'오래 봄' }
+  { key:'my-old',  name:'오래 봄' },
+  // 시험 직전 정리(개선안 6) — ☆·? 를 찍은 줄만, 머리만 보이고 누르면 결론이 드러난다
+  { key:'my-final', name:'직전 정리' }
 ];
+// 직전 정리 줄 — 「머리 : 결론」을 갈라 결론을 가린다. 갈림표가 없으면 앞 14자만 보인다.
+const FIN_SEP = [' : ', ': ', ':', ' — ', ' – ', ' → ', '→', ' ⇒ ', ' = ', ' - '];
+const escH = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+function finWrap(id, line) {
+  const t = stripTags(line);
+  let cut = -1, sep = '';
+  FIN_SEP.forEach(s => { const i = t.indexOf(s); if (i >= 2 && i <= 45 && (cut < 0 || i < cut)) { cut = i; sep = s; } });
+  // 갈림표 없는 짧은 줄은 소제목 같은 것이다 — 통째로 보인다(가릴 결론이 없다)
+  const whole = cut < 0 && t.length <= 30;
+  const head = cut >= 0 ? t.slice(0, cut + sep.length) : whole ? t : t.slice(0, 14);
+  const tail = cut >= 0 ? t.slice(cut + sep.length) : whole ? '' : t.slice(14);
+  return '<div class="q-fin" onclick="this.classList.toggle(\'open\')"><span class="q-fin-h">' + escH(head)
+    + '</span><span class="q-fin-t">' + escH(tail) + '</span><span class="q-fin-go" title="본문의 그 자리로" '
+    + 'onclick="event.stopPropagation();window.__lawmjJump(&quot;' + id + '&quot;,&quot;' + keyOf(t) + '&quot;)">본문 ›</span></div>';
+}
 const OLD_DAYS = 14;
 const MYCACHE = {};
 function collectMine(subject, rows, key, catName, keep) {
@@ -2753,9 +2825,9 @@ function collectMine(subject, rows, key, catName, keep) {
   if (!c || c.ver !== ver) {
     const cut = new Date(); cut.setDate(cut.getDate() - OLD_DAYS);
     const old = cut.getFullYear() + '-' + String(cut.getMonth() + 1).padStart(2, '0') + '-' + String(cut.getDate()).padStart(2, '0');
-    const hits = { 'my-unk': [], 'my-star': [], 'my-old': [] };
+    const hits = { 'my-unk': [], 'my-star': [], 'my-old': [], 'my-final': [] };
     lineIndex(subject, rows).forEach(u => {
-      const per = { 'my-unk': [], 'my-star': [], 'my-old': [] };
+      const per = { 'my-unk': [], 'my-star': [], 'my-old': [], 'my-final': [] };
       u.lines.forEach(l => {
         // 소제목도 넣는다 — 카드에 ? 를 찍으면 카드 머리(소제목) 블록에도 표시가 간다. 빼면 첫 화면 수와 어긋난다
         const m = /data-i="([^"]+)"/.exec(l);
@@ -2763,6 +2835,7 @@ function collectMine(subject, rows, key, catName, keep) {
         if (!r) return;
         if (r.m === '?') per['my-unk'].push(l);
         else if (r.m === '★') per['my-star'].push(l);
+        if ((r.m === '?' || r.m === '★') && l.indexOf('class="cs-h"') === -1) per['my-final'].push(l);
         const last = (r.d || []).slice().sort().pop();
         if (r.n >= 1 && last && last < old) per['my-old'].push(l);
       });
@@ -2782,7 +2855,7 @@ function collectMine(subject, rows, key, catName, keep) {
     count += g.lines.length;
     out.push('<div class="cs-h" role="button" tabindex="0" style="cursor:pointer" onclick="window.__lawmjOpen(&quot;' + g.u.id + '&quot;)">'
       + (catName ? catName(g.u.cat) : g.u.cat) + ' · ' + g.u.title + ' <span class="cs-stat">' + g.lines.length + '줄</span></div>'
-      + g.lines.map(l => jumpWrap(g.u.id, l)).join(''));
+      + g.lines.map(l => key === 'my-final' ? finWrap(g.u.id, l) : jumpWrap(g.u.id, l)).join(''));
   });
   return { count, html: out.join(''), groups: out };
 }
@@ -2939,6 +3012,7 @@ const HOME_DIR = { 민법:'민법', 민사소송법:'민소', 최신판례:'최�
   헌법:'헌법', 행정법:'행정법', 행정법강성민:'행정법강성민', 국제거래법:'국거' };
 const TRACK_DOT = { 민사법:'#d9a3b0', 형사법:'#9dbcd4', 공법:'#8aa89c', 선택법:'#c9b27c' };
 // 목표 회독 수 — 오늘 몫의 분자. 1~5, 기본 2.
+const FINAL_DAYS = 30;   // 이 날수 안쪽이면 첫 화면에 「직전 정리」를 꺼내 둔다
 const GOAL_KEY = 'lawmj_goal_v1';
 const GOAL = {
   get() { try { const n = +localStorage.getItem(GOAL_KEY); return n >= 1 && n <= 5 ? n : 2; } catch (e) { return 2; } },
@@ -3128,14 +3202,16 @@ class Component extends DCLogic {
     // 과목 → 단원 집합 → 기록을 한 번만 훑는다
     const unitDir = {};
     Object.keys(units).forEach(dir => units[dir].forEach(u => { unitDir[u] = dir; }));
-    const agg = {}, day = today(), goal = GOAL.get();
+    const agg = {}, day = today(), goal = GOAL.get(), daySet = {};
     const quota = { left: 0, today: 0 };
     Object.keys(blk).forEach(b => {
       const r = blk[b], dir = r && unitDir[r.u];
       if (!dir) return;
-      const a = agg[dir] || (agg[dir] = { cnt: [], unk: 0, today: 0 });
+      const a = agg[dir] || (agg[dir] = { cnt: [], unk: 0, star: 0, today: 0 });
       for (let k = 1; k <= Math.min(r.n || 0, 9); k++) a.cnt[k] = (a.cnt[k] || 0) + 1;
       if (r.m === '?') a.unk++;
+      if (r.m === '★') a.star++;
+      (r.d || []).forEach(x => { daySet[x] = (daySet[x] || 0) + 1; });
       // 오늘 읽은 줄 중 목표 회독 안쪽의 것(목표를 넘긴 회독은 몫에 안 친다)
       if ((r.d || []).indexOf(day) > -1 && (r.n || 0) <= goal) a.today++;
     });
@@ -3174,6 +3250,14 @@ class Component extends DCLogic {
         dueGo: e => { if (e) e.stopPropagation(); go(track, subject, { autoDue: true }); },
         hasUnk: ready && a.unk > 0, unkTxt: '모름 ' + a.unk,
         unkGo: e => { if (e) e.stopPropagation(); go(track, subject, { mark: 'my-unk' }); },
+        // 시험 직전(D-30 안쪽)에만 첫 화면에 꺼내 둔다. 그 전에는 목차 「내 표시」에서 쓴다.
+        hasFin: ready && daysLeft() <= FINAL_DAYS && (a.unk + a.star) > 0, finTxt: '직전 정리 ' + (a.unk + a.star),
+        finGo: e => { if (e) e.stopPropagation(); go(track, subject, { mark: 'my-final' }); },
+        // 회독 분포(개선안 7) — 0회·1회·2회·3회 이상 줄 수
+        dist: (() => {
+          const c1 = a.cnt[1] || 0, c2 = a.cnt[2] || 0, c3 = a.cnt[3] || 0;
+          return [['0회', total - c1], ['1회', c1 - c2], ['2회', c2 - c3], ['3회+', c3]];
+        })(),
         open: () => { if (ready) go(track, subject); },
         resume: e => { if (e) e.stopPropagation();
           go(track, subject, { view:'page', chapter: lr.chapter, cards: !!lr.cards }); } };
@@ -3186,12 +3270,40 @@ class Component extends DCLogic {
         return { name, books: bs };
       })
     }));
+    // ── 기록(개선안 7·8) — 첫 화면 맨 아래 접힌 칸. 기록 탭은 따로 만들지 않는다.
+    const fmtN = n => n.toLocaleString('ko-KR');
+    const distRows = [];
+    homeTracks.forEach(t => t.subjects.forEach(s => s.books.forEach(b => {
+      if (!b.ready) return;
+      const sum = b.dist.reduce((n, x) => n + x[1], 0) || 1;
+      distRows.push({ name: s.name + (s.books.length > 1 ? ' · ' + b.label.split(' ')[0] : ''),
+        segs: b.dist.map((x, i) => ({ w: (x[1] / sum * 100).toFixed(2) + '%', k: String(i) })),
+        txt: b.dist.map(x => x[0] + ' ' + fmtN(x[1])).join(' · ') });
+    })));
+    const dayKey = d => d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+    const sessByDay = {};
+    SESS.all().forEach(r => { const k = dayKey(new Date(r.at)); sessByDay[k] = (sessByDay[k] || 0) + (r.sec || 0); });
+    const studied = k => (daySet[k] || 0) > 0 || (sessByDay[k] || 0) > 0;
+    let streak = 0;
+    { const d = new Date(); if (!studied(dayKey(d))) d.setDate(d.getDate() - 1);
+      while (studied(dayKey(d)) && streak < 999) { streak++; d.setDate(d.getDate() - 1); } }
+    const week = [];
+    for (let i = 6; i >= 0; i--) { const d = new Date(); d.setDate(d.getDate() - i);
+      week.push({ k: dayKey(d), lab: '일월화수목금토'[d.getDay()], n: daySet[dayKey(d)] || 0 }); }
+    const wmax = Math.max(1, ...week.map(w => w.n));
+    const todayMin = Math.round((sessByDay[day] || 0) / 60);
+    const rec = {
+      recSummary: '오늘 ' + fmtN(daySet[day] || 0) + '줄 · ' + todayMin + '분 · 연속 ' + streak + '일',
+      distRows,
+      weekBars: week.map(w => ({ lab: w.lab, h: Math.round(w.n / wmax * 100) + '%', n: w.n ? fmtN(w.n) : '', today: w.k === day }))
+    };
+
     // 오늘 몫 = (지금 남은 것 + 오늘 이미 읽은 것) ÷ 남은 날. 오늘 읽은 만큼 막대가 찬다.
     const left = Math.max(1, daysLeft());
     const dayQuota = Math.ceil((quota.left + quota.today) / left);
     const qPct = dayQuota ? Math.min(100, Math.floor(quota.today / dayQuota * 100)) : 100;
     const fmt = n => n.toLocaleString('ko-KR');
-    return {
+    return Object.assign(rec, {
       homeTracks,
       goalTxt: goal + '회독',
       goalDown: () => { GOAL.set(goal - 1); this.forceUpdate(); },
@@ -3205,7 +3317,7 @@ class Component extends DCLogic {
       resumeLabel: newest ? newest.subject.replace('행정법강성민', '행정법') + ' · ' + newest.title : '',
       resumeGo: () => { if (newest) go(newest.track, newest.subject,
         { view:'page', chapter: newest.chapter, cards: !!newest.cards }); }
-    };
+    });
   }
 
   // 「지금 어느 화면인가」만 추린다 — 글자 크기·필터 같은 보기 설정은 기록에 남기지 않는다.
@@ -4267,7 +4379,8 @@ class Component extends DCLogic {
     const noop = () => {};
     const home = st.view === 'home' ? this.homeVals()
       : { homeTracks: [], homeDue: '', hasResume: false, resumeLabel: '', resumeGo: noop,
-          goalTxt: '', goalDown: noop, goalUp: noop, quotaPct: '0%', quotaTxt: '', quotaNote: '' };
+          goalTxt: '', goalDown: noop, goalUp: noop, quotaPct: '0%', quotaTxt: '', quotaNote: '',
+          recSummary: '', distRows: [], weekBars: [] };
     return Object.assign(home, {
       tracks, subjects, books, hasBooks, filters, marks, parts, navParts, hasParts: navParts.length > 0,
       myMarks, hasMyMarks: myMarks.length > 0,
@@ -4299,7 +4412,8 @@ class Component extends DCLogic {
       isMark: !found && !!picked,
       isBrowse: !found && !picked,
       markTitle: markName + ' 모아보기',
-      markNote: picked ? (picked.count + '건' + (st.filter === '전체' ? '' : ' · ' + st.filter + '만')) : '',
+      markNote: picked ? (picked.count + '건' + (st.filter === '전체' ? '' : ' · ' + st.filter + '만')
+        + (st.mark === 'my-final' ? ' · 머리만 보입니다 — 떠올려 본 뒤 누르면 결론이 나옵니다' : '')) : '',
       markBody: picked
         ? React.createElement('div', {
             dangerouslySetInnerHTML: { __html: picked.groups.slice(0, FIRST_GROUPS).join('') || '<div class="cs-li" style="color:var(--ink-fainter)">이 조건에 맞는 줄이 없다.</div>' } })
