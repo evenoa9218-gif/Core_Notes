@@ -251,6 +251,11 @@ mark.q-hit{background:var(--q-bg);color:var(--q-ink);border-radius:3px;padding:0
 .q-tag{padding:4px 9px;border-radius:7px;font-weight:500;font-size:11px;font-variant-numeric:tabular-nums}
 .q-tcard-bar{height:3px;border-radius:99px;background:var(--rule);overflow:hidden;display:flex}
 .q-tcard-fill{background:var(--accent)}
+/* 목차 단원 카드의 회독 원형(개선안 2) — 로고스처럼 원 하나와 한 줄 숫자. 묶음으로 쪼개지는 않는다 */
+.q-tcard-prog{display:flex;align-items:center;gap:7px;min-height:18px}
+.q-ring{width:16px;height:16px;border-radius:50%;flex:none;-webkit-mask:radial-gradient(circle,transparent 4.5px,#000 5px);mask:radial-gradient(circle,transparent 4.5px,#000 5px)}
+.q-ring-txt{font:500 11px Pretendard,sans-serif;color:var(--ink-faint)}
+.q-unk{font:700 11px Pretendard,sans-serif;color:var(--ox-x,#d9534f)}
 /* 암기 확인 카드 — 색과 상태를 CSS 로 내린 이유 (2026-09-15)
    O·X 를 한 번 누를 때마다 앱 전체가 다시 그려져 실측 86ms 가 걸렸다.
    한 단원에 120번을 누르는 자리라 폰에서는 이게 그대로 굼뜸으로 느껴진다.
@@ -416,8 +421,19 @@ html[data-nav="1"] .q-navtoggle::after{content:'목차 ▴'}
 .q-home-bar>div{background:var(--accent);border-radius:99px}
 .q-home-meta{font:400 11.5px Pretendard,sans-serif;color:var(--ink-faint)}
 .q-home-go{align-self:flex-start;max-width:100%;font:500 11.5px Pretendard,sans-serif;color:var(--accent-ink);background:var(--accent-tint);border:1px solid var(--accent-soft);padding:5px 10px;border-radius:99px;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.q-home-acts{display:flex;gap:6px;flex-wrap:wrap;min-width:0}
+.q-home-acts:empty{display:none}
+.q-home-chip{font:600 11.5px Pretendard,sans-serif;color:var(--accent-ink);background:var(--surface);border:1px solid var(--accent-soft);padding:5px 10px;border-radius:99px;cursor:pointer;white-space:nowrap}
+.q-home-chip-x{color:var(--ox-x,#c0574e)}
+.q-home-quota{background:var(--surface);border:1px solid var(--line-09);border-radius:14px;padding:13px 16px;display:flex;flex-direction:column;gap:8px}
+.q-home-quota-top{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.q-home-quota-t{font:700 13.5px Pretendard,sans-serif;color:var(--ink)}
+.q-home-quota-v{font:500 12.5px Pretendard,sans-serif;color:var(--ink-soft)}
+.q-home-goal{display:flex;align-items:center;gap:6px;font:500 12px Pretendard,sans-serif;color:var(--ink)}
+.q-home-goalbtn{width:24px;height:24px;border-radius:50%;border:1px solid var(--line-10);display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--ink-soft);background:var(--chip)}
 @media (max-width:760px){
   .q-home{padding:16px 16px 32px}
+  .q-home-goalbtn{width:32px;height:32px}
   .q-home-grid{grid-template-columns:1fr}
 }
 /* 마우스로 누를 때는 안 보이고, 탭으로 옮겨 다닐 때만 보이는 테두리 */
@@ -690,6 +706,12 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div style="display:flex;align-items:baseline;gap:12px;flex-wrap:wrap"><div style="font:700 32px/1 Pretendard,sans-serif;color:var(--ink);letter-spacing:-1px">D-{{ dday }}</div><div style="font:600 13.5px Pretendard,sans-serif;color:var(--ink-soft);white-space:nowrap">변호사시험 2027.01.12</div></div>
 <div class="q-home-due">{{ homeDue }}</div>
 </div>
+<div class="q-home-quota">
+<div class="q-home-quota-top"><span class="q-home-quota-t">오늘 몫</span><span class="q-home-quota-v">{{ quotaTxt }}</span><span style="flex:1"></span>
+<span class="q-home-goal"><span style="color:var(--ink-faint)">목표</span><span role="button" tabIndex="0" class="q-home-goalbtn" aria-label="목표 회독 줄이기" onClick="{{ goalDown }}">−</span><b>{{ goalTxt }}</b><span role="button" tabIndex="0" class="q-home-goalbtn" aria-label="목표 회독 늘리기" onClick="{{ goalUp }}">+</span></span></div>
+<div class="q-home-bar"><div style="width:{{ quotaPct }}"></div></div>
+<div class="q-home-meta">{{ quotaNote }}</div>
+</div>
 <sc-if value="{{ hasResume }}" hint-placeholder-val="{{ true }}">
 <div role="button" tabIndex="0" class="q-home-resume" onClick="{{ resumeGo }}"><span class="q-home-play">▶</span><span class="q-home-resume-t">이어 읽기</span><span class="q-home-resume-s">{{ resumeLabel }}</span></div>
 </sc-if>
@@ -704,9 +726,17 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div role="button" tabIndex="0" class="q-home-bname" onClick="{{ b.open }}">{{ b.label }}</div>
 <div class="q-home-bar"><div style="width:{{ b.pct }}"></div></div>
 <div class="q-home-meta">{{ b.meta }}</div>
+<div class="q-home-acts">
 <sc-if value="{{ b.hasLast }}" hint-placeholder-val="{{ false }}">
 <div role="button" tabIndex="0" class="q-home-go" onClick="{{ b.resume }}">▶ {{ b.lastTitle }}</div>
 </sc-if>
+<sc-if value="{{ b.hasDue }}" hint-placeholder-val="{{ false }}">
+<div role="button" tabIndex="0" class="q-home-chip" title="기한이 된 O·X·빈칸을 바로 풉니다" onClick="{{ b.dueGo }}">{{ b.dueTxt }}</div>
+</sc-if>
+<sc-if value="{{ b.hasUnk }}" hint-placeholder-val="{{ false }}">
+<div role="button" tabIndex="0" class="q-home-chip q-home-chip-x" title="? 를 찍은 줄만 모아 봅니다" onClick="{{ b.unkGo }}">{{ b.unkTxt }}</div>
+</sc-if>
+</div>
 </div>
 </sc-for>
 </div>
@@ -739,6 +769,13 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 </div>
 
 <div class="q-marks" style="display:flex;gap:7px;flex-wrap:wrap;align-items:center;padding:0 30px 16px">
+<sc-if value="{{ hasMyMarks }}" hint-placeholder-val="{{ false }}">
+<div style="font:500 11px Pretendard,sans-serif;color:var(--ink-fainter);margin-right:3px;letter-spacing:.2px;flex:none">내 표시</div>
+<sc-for list="{{ myMarks }}" as="m" hint-placeholder-count="3">
+<div role="button" tabIndex="0" class="q-mchip q-mymchip" data-on="{{ m.on }}" onClick="{{ m.pick }}">{{ m.name }}</div>
+</sc-for>
+<div style="width:1px;height:14px;background:var(--line-10);margin:0 4px;flex:none"></div>
+</sc-if>
 <div style="font:500 11px Pretendard,sans-serif;color:var(--ink-fainter);margin-right:3px;letter-spacing:.2px;flex:none">표시 모아보기</div>
 <sc-for list="{{ marks }}" as="m" hint-placeholder-count="8">
 <div role="button" tabIndex="0" class="q-mchip" data-on="{{ m.on }}" onClick="{{ m.pick }}">{{ m.name }}</div>
@@ -784,7 +821,7 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div class="q-tag" style="background:{{ g.bg }};color:{{ g.color }}">{{ g.text }}</div>
 </sc-for>
 </div>
-<div class="q-tcard-bar"><div class="q-tcard-fill" style="width:{{ c.pct }}"></div></div>
+<div class="q-tcard-prog"><div class="q-ring" style="background:conic-gradient(var(--accent) {{ c.ring }}, var(--rule) 0)"></div><span class="q-ring-txt">{{ c.ringTxt }}</span><sc-if value="{{ c.hasUnk }}" hint-placeholder-val="{{ false }}"><span class="q-unk">모름 {{ c.unk }}</span></sc-if></div>
 </div>
 </sc-for>
 </div>
@@ -2497,7 +2534,7 @@ const BLK = {
       if (!off && r.d.indexOf(day) < 0) { r.d.push(day); r.n = r.d.length; }
       if (!r.m && !r.d.length) delete d[b];
     });
-    this.byUnit.cache = null;
+    this.byUnit.cache = null; this.ver = (this.ver || 0) + 1;
     this.save();
     return !off;
   },
@@ -2515,7 +2552,7 @@ const BLK = {
       if (!r.m) { r.m = m; hit++; }
       if (r.d.indexOf(day) < 0) { r.d.push(day); r.n = r.d.length; }
     });
-    this.byUnit.cache = null;
+    this.byUnit.cache = null; this.ver = (this.ver || 0) + 1;
     this.save();
     return hit;
   },
@@ -2542,9 +2579,11 @@ const BLK = {
     Object.keys(d).forEach(b => {
       const r = d[b];
       if (!r.u) return;                  // u 가 없는 옛 기록 — 다음에 누를 때 붙는다
-      const o = out[r.u] || (out[r.u] = { n: 0, marked: 0, min: Infinity });
+      const o = out[r.u] || (out[r.u] = { n: 0, marked: 0, min: Infinity, cnt: [], unk: 0 });
       o.n++;
       if (r.m) o.marked++;
+      if (r.m === '?') o.unk++;
+      for (let k = 1; k <= Math.min(r.n || 0, 9); k++) o.cnt[k] = (o.cnt[k] || 0) + 1;
       o.min = Math.min(o.min, r.n || 0);
     });
     return (this.byUnit.cache = out);
@@ -2560,6 +2599,17 @@ const BLK = {
     const o = this.byUnit()[unitId], all = (window.CARD_N || {})[unitId];
     if (!o || !all) return 0;
     return Math.min(100, Math.round(o.marked / all * 100));
+  },
+  // 목차 원형 — 「지금 몇 회독째, 그 회독을 몇 % 채웠나」. 한 회독을 다 채우면 「N회독 끝」.
+  unitStat(unitId) {
+    const o = this.byUnit()[unitId], all = (window.CARD_N || {})[unitId];
+    if (!all) return null;
+    const cnt = o ? o.cnt : [];
+    let R = 1;
+    while (R < 9 && (cnt[R] || 0) >= all) R++;
+    const pct = Math.floor((cnt[R] || 0) / all * 100);
+    return { R, pct, unk: o ? o.unk : 0, any: !!o,
+             done: R > 1 && pct === 0 ? R - 1 : 0 };   // 막 한 회독을 채운 참
   }
 };
 
@@ -2685,6 +2735,56 @@ function collect(subject, rows, key, catName, keep) {
       + hit.map(l => jumpWrap(id, l)).join(''));
   });
   return { count: count, html: out.join(''), groups: out };
+}
+
+// 내 표시 모아보기 — 줄의 data-i(블록 id)로 블록 기록을 본다. 책의 표시(★·암기…)와 따로 둔다.
+// 오래 봄 = 읽은 적은 있는데 마지막으로 읽은 날이 OLD_DAYS 일보다 전인 줄 — 잊을 때가 된 것.
+const MY_MARKS = [
+  { key:'my-unk',  name:'모름' },
+  { key:'my-star', name:'중요' },
+  { key:'my-old',  name:'오래 봄' }
+];
+const OLD_DAYS = 14;
+const MYCACHE = {};
+function collectMine(subject, rows, key, catName, keep) {
+  // key 가 없으면 세 표시의 수만 준다(칩). 기록이 바뀔 때만 다시 센다.
+  const ver = subject + ':' + (BLK.ver || 0) + ':' + today();
+  let c = MYCACHE[subject];
+  if (!c || c.ver !== ver) {
+    const cut = new Date(); cut.setDate(cut.getDate() - OLD_DAYS);
+    const old = cut.getFullYear() + '-' + String(cut.getMonth() + 1).padStart(2, '0') + '-' + String(cut.getDate()).padStart(2, '0');
+    const hits = { 'my-unk': [], 'my-star': [], 'my-old': [] };
+    lineIndex(subject, rows).forEach(u => {
+      const per = { 'my-unk': [], 'my-star': [], 'my-old': [] };
+      u.lines.forEach(l => {
+        // 소제목도 넣는다 — 카드에 ? 를 찍으면 카드 머리(소제목) 블록에도 표시가 간다. 빼면 첫 화면 수와 어긋난다
+        const m = /data-i="([^"]+)"/.exec(l);
+        const r = m && BLK.get(m[1]);
+        if (!r) return;
+        if (r.m === '?') per['my-unk'].push(l);
+        else if (r.m === '★') per['my-star'].push(l);
+        const last = (r.d || []).slice().sort().pop();
+        if (r.n >= 1 && last && last < old) per['my-old'].push(l);
+      });
+      Object.keys(per).forEach(k => { if (per[k].length) hits[k].push({ u, lines: per[k] }); });
+    });
+    c = MYCACHE[subject] = { ver, hits };
+  }
+  if (!key) {
+    const n = {};
+    Object.keys(c.hits).forEach(k => { n[k] = c.hits[k].reduce((a, g) => a + g.lines.length, 0); });
+    return n;
+  }
+  const out = [];
+  let count = 0;
+  (c.hits[key] || []).forEach(g => {
+    if (keep && !keep(g.u.id)) return;
+    count += g.lines.length;
+    out.push('<div class="cs-h" role="button" tabindex="0" style="cursor:pointer" onclick="window.__lawmjOpen(&quot;' + g.u.id + '&quot;)">'
+      + (catName ? catName(g.u.cat) : g.u.cat) + ' · ' + g.u.title + ' <span class="cs-stat">' + g.lines.length + '줄</span></div>'
+      + g.lines.map(l => jumpWrap(g.u.id, l)).join(''));
+  });
+  return { count, html: out.join(''), groups: out };
 }
 
 // ── 줄 색인 ──────────────────────────────────────────────────
@@ -2838,6 +2938,12 @@ const LASTBY = {
 const HOME_DIR = { 민법:'민법', 민사소송법:'민소', 최신판례:'최판', 형법:'형법', 형사소송법:'형소',
   헌법:'헌법', 행정법:'행정법', 행정법강성민:'행정법강성민', 국제거래법:'국거' };
 const TRACK_DOT = { 민사법:'#d9a3b0', 형사법:'#9dbcd4', 공법:'#8aa89c', 선택법:'#c9b27c' };
+// 목표 회독 수 — 오늘 몫의 분자. 1~5, 기본 2.
+const GOAL_KEY = 'lawmj_goal_v1';
+const GOAL = {
+  get() { try { const n = +localStorage.getItem(GOAL_KEY); return n >= 1 && n <= 5 ? n : 2; } catch (e) { return 2; } },
+  set(n) { n = Math.max(1, Math.min(5, n)); try { localStorage.setItem(GOAL_KEY, String(n)); } catch (e) {} }
+};
 
 // 해시 없이 열면(홈 화면 아이콘·바로가기) 첫 화면이다. 과목은 마지막 것을 들고 있어 옆 목차가 그대로 뜬다.
 const BOOT = parseHash(location.hash)
@@ -3022,13 +3128,16 @@ class Component extends DCLogic {
     // 과목 → 단원 집합 → 기록을 한 번만 훑는다
     const unitDir = {};
     Object.keys(units).forEach(dir => units[dir].forEach(u => { unitDir[u] = dir; }));
-    const agg = {};
+    const agg = {}, day = today(), goal = GOAL.get();
+    const quota = { left: 0, today: 0 };
     Object.keys(blk).forEach(b => {
       const r = blk[b], dir = r && unitDir[r.u];
       if (!dir) return;
-      const a = agg[dir] || (agg[dir] = { cnt: [], unk: 0 });
+      const a = agg[dir] || (agg[dir] = { cnt: [], unk: 0, today: 0 });
       for (let k = 1; k <= Math.min(r.n || 0, 9); k++) a.cnt[k] = (a.cnt[k] || 0) + 1;
       if (r.m === '?') a.unk++;
+      // 오늘 읽은 줄 중 목표 회독 안쪽의 것(목표를 넘긴 회독은 몫에 안 친다)
+      if ((r.d || []).indexOf(day) > -1 && (r.n || 0) <= goal) a.today++;
     });
     const dueOf = subject => Object.keys(ox).reduce((n, k) => {
       const r = ox[k];
@@ -3049,11 +3158,22 @@ class Component extends DCLogic {
       const lr = last[subject];
       if (lr && (!newest || lr.t > newest.t)) newest = Object.assign({ track, subject, label }, lr);
       const ready = !!DATASETS[subject] && total > 0;
-      const meta = !ready ? '준비 중입니다'
-        : [R + '회독 ' + pct + '%', list.length + '단원', a.unk ? '모름 ' + a.unk : '', due ? '복습 ' + due : '']
-          .filter(Boolean).join(' · ');
+      const meta = !ready ? '준비 중입니다' : R + '회독 ' + pct + '% · ' + list.length + '단원';
+      // 오늘 몫 — 고른 교재만 센다(행정법은 둘 중 하나). 목표 회독까지 남은 「줄 읽기」 수
+      const counted = ready && (!BOOK_OF[subject]
+        || ((BOOKS[BOOK_OF[subject]] || []).find(b => b.id === BOOK_PICK[BOOK_OF[subject]]) || BOOKS[BOOK_OF[subject]][0]).subject === subject);
+      if (counted) {
+        let have = 0;                      // 목표 회독 안쪽에서 이미 읽은 줄 읽기 수
+        for (let k = 1; k <= goal; k++) have += a.cnt[k] || 0;
+        quota.left += goal * total - have;
+        quota.today += a.today || 0;
+      }
       return { label, pct: pct + '%', meta, ready, notReady: !ready, hasLast: ready && !!lr,
         lastTitle: lr ? lr.title : '',
+        hasDue: ready && due > 0, dueTxt: '복습 ' + due,
+        dueGo: e => { if (e) e.stopPropagation(); go(track, subject, { autoDue: true }); },
+        hasUnk: ready && a.unk > 0, unkTxt: '모름 ' + a.unk,
+        unkGo: e => { if (e) e.stopPropagation(); go(track, subject, { mark: 'my-unk' }); },
         open: () => { if (ready) go(track, subject); },
         resume: e => { if (e) e.stopPropagation();
           go(track, subject, { view:'page', chapter: lr.chapter, cards: !!lr.cards }); } };
@@ -3066,8 +3186,20 @@ class Component extends DCLogic {
         return { name, books: bs };
       })
     }));
+    // 오늘 몫 = (지금 남은 것 + 오늘 이미 읽은 것) ÷ 남은 날. 오늘 읽은 만큼 막대가 찬다.
+    const left = Math.max(1, daysLeft());
+    const dayQuota = Math.ceil((quota.left + quota.today) / left);
+    const qPct = dayQuota ? Math.min(100, Math.floor(quota.today / dayQuota * 100)) : 100;
+    const fmt = n => n.toLocaleString('ko-KR');
     return {
       homeTracks,
+      goalTxt: goal + '회독',
+      goalDown: () => { GOAL.set(goal - 1); this.forceUpdate(); },
+      goalUp: () => { GOAL.set(goal + 1); this.forceUpdate(); },
+      quotaPct: qPct + '%',
+      quotaTxt: quota.left <= 0 ? '목표 회독을 다 채웠습니다'
+        : '오늘 ' + fmt(quota.today) + ' / ' + fmt(dayQuota) + '줄 (' + qPct + '%)',
+      quotaNote: quota.left <= 0 ? '' : '남은 ' + fmt(quota.left) + '줄 ÷ ' + left + '일 · 고른 교재만 셉니다',
       homeDue: dueAll ? '오늘 복습 ' + dueAll + '개' : '오늘 복습할 것이 없습니다',
       hasResume: !!newest,
       resumeLabel: newest ? newest.subject.replace('행정법강성민', '행정법') + ' · ' + newest.title : '',
@@ -3896,13 +4028,24 @@ class Component extends DCLogic {
       if (p) return p + '%';
       return stateOf(id) === 'done' ? '100%' : stateOf(id) === 'weak' ? '50%' : '0%';
     };
+    const RING = {};
+    const ringOf = id => RING[id] || (RING[id] = (() => {
+      const s = BLK.unitStat(id);
+      if (!s || !s.any) {
+        const old = stateOf(id) === 'done';      // 블록 기록 전의 옛 「완료」
+        return { ring: old ? '100%' : '0%', ringTxt: old ? '1회독 끝' : '안 읽음', unk: 0 };
+      }
+      return { ring: (s.done ? 100 : s.pct) + '%',
+               ringTxt: s.done ? s.done + '회독 끝' : s.R + '회독 ' + s.pct + '%', unk: s.unk };
+    })());
     const crimDecorate = list => list.map(t => ({
       title: (stateOf(t.id) === 'done' ? '✓ ' : stateOf(t.id) === 'weak' ? '△ ' : '') + t.title,
       sub: (t.tags || []).slice(0, 3).join(' · ') || (DATASETS[st.subject] || {}).unit + ' ' + t.id,
       concepts: quizCountOf(st.subject, rows, t.id),
       cases: (t.html.match(/判例|大判全合|통판|【판례】/g) || []).length,
-      round: BLK.unitRound(t.id) ? BLK.unitRound(t.id) + '회독' : '',
+      round: '',
       pct: pctOf(t.id),
+      ring: ringOf(t.id).ring, ringTxt: ringOf(t.id).ringTxt, unk: ringOf(t.id).unk, hasUnk: ringOf(t.id).unk > 0,
       tags: (t.tags || []).slice(0, 3).map(x => Object.assign({ text: x }, this.tagStyle(/^§|\d/.test(x) ? 'grey' : 'chip'))),
       open: () => this.openChapter(t.id)
     }));
@@ -3921,8 +4064,18 @@ class Component extends DCLogic {
 
     const catNames = {};
     ((DATASETS[st.subject] || {}).cats ? DATASETS[st.subject].cats() : []).forEach(c => { catNames[c[0]] = c[1]; });
-    const picked = st.mark ? collect(st.subject, rows, st.mark, c => catNames[c] || c, keepId) : null;
-    const markName = st.mark ? (MARKS.filter(m => m.key === st.mark)[0] || {}).name : '';
+    const isMine = !!st.mark && MY_MARKS.some(m => m.key === st.mark);
+    const picked = !st.mark ? null : isMine
+      ? collectMine(st.subject, rows, st.mark, c => catNames[c] || c, keepId)
+      : collect(st.subject, rows, st.mark, c => catNames[c] || c, keepId);
+    const markName = st.mark ? (MARKS.concat(MY_MARKS).filter(m => m.key === st.mark)[0] || {}).name : '';
+    // 내 표시 — 읽으며 ☆·? 를 찍은 줄, 오래전에 읽고 다시 안 본 줄. 거르는 칩은 이 셋뿐이다(개선안 3)
+    const myCnt = crim ? collectMine(st.subject, rows, null) : {};
+    const myMarks = MY_MARKS.filter(m => myCnt[m.key] > 0).map(m => {
+      const on = st.mark === m.key;
+      return { name: m.name + ' ' + myCnt[m.key], on,
+        pick: () => this.setState(on ? { mark:null } : { mark:m.key, view:'toc', chapter:null, quizOpen:false, q:'' }) };
+    });
 
     // 이 목록이 「같은 목록」인지 가리는 열쇠. 바뀌면 다시 첫 몫부터 그린다.
     const pass = this.listPass([st.subject, st.filter, st.mark, st.q, st.view, st.chapter,
@@ -3979,6 +4132,14 @@ class Component extends DCLogic {
     const unitCases = crimTopic ? buildCases(unitHtml, crimTopic.id) : [];
     const crimCards = crimTopic ? buildQuiz(unitHtml, crimTopic.id).concat(buildCloze(unitHtml, crimTopic.id)) : [];
     const todo = crim ? dueCards(st.subject, rows) : [];
+    // 첫 화면 「복습 N」으로 들어왔다 — 자료가 도착하는 대로 오늘 볼 것을 바로 연다(개선안 3)
+    if (st.autoDue && crim) {
+      const ids = todo.map(c => c.id);
+      setTimeout(() => {
+        if (ids.length) this.setState({ autoDue:false, deck:'due', quizOpen:true, quizFilter:'all', dueAt: Date.now(), dueIds: ids });
+        else { this.setState({ autoDue:false }); this.say('오늘 볼 문항이 없습니다'); }
+      }, 0);
+    }
     const caseBlocks = crimTopic ? (unitHtml.match(/<details class="cs-case"/g) || []).length : 0;
     this._memoUnit = crimTopic ? crimTopic.id : '';
     const page = crimTopic
@@ -4103,10 +4264,13 @@ class Component extends DCLogic {
     const idx = curTopic ? list.findIndex(c => c.id === curTopic.id) : -1;
     const curTitle = curTopic ? curTopic.title : (st.chapter || '');
 
+    const noop = () => {};
     const home = st.view === 'home' ? this.homeVals()
-      : { homeTracks: [], homeDue: '', hasResume: false, resumeLabel: '', resumeGo: () => {} };
+      : { homeTracks: [], homeDue: '', hasResume: false, resumeLabel: '', resumeGo: noop,
+          goalTxt: '', goalDown: noop, goalUp: noop, quotaPct: '0%', quotaTxt: '', quotaNote: '' };
     return Object.assign(home, {
       tracks, subjects, books, hasBooks, filters, marks, parts, navParts, hasParts: navParts.length > 0,
+      myMarks, hasMyMarks: myMarks.length > 0,
       brand: brandOf(st.track, st.subject), brandSub: '변호사시험 ' + st.subject,
       themeIcon: st.dark ? '☀' : '☾',
       themeLabel: st.dark ? '밝은 화면으로' : '어두운 화면으로',
