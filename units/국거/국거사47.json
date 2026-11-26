@@ -3,10 +3,10 @@
  {"i":"국거사47-003","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거사47-n002","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제60조(부양에 관한 사건의 관할) 〔개정 조문〕</strong>","k":"yhokgj"},
   {"i":"국거사47-005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 부양에 관한 사건에 대해서는 부양권리자의 일상거소가 대한민국에 있는 경우 법원에 국제재판관할이 있다.","k":"1ogqdh2"},
-  {"i":"국거사47-006","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 당사자가 부양에 관한 사건에 대하여 제8조에 따라 국제재판관할의 합의를 하는 경우 다음 각 호의 어느 하나에 해당하면 합의의 효력이 없다.","k":"1kljbw1"},
+  {"i":"국거사47-n006","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 당사자가 부양에 관한 사건에 대하여 제8조<span class=\"cs-stat\">(합의관할)</span>에 따라 국제재판관할의 합의를 하는 경우 다음 각 호의 어느 하나에 해당하면 합의의 효력이 없다.","k":"5xcbmp"},
   {"i":"국거사47-007","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"1. 부양권리자가 미성년자이거나 피후견인인 경우. 다만, 해당 합의에서 미성년자이거나 피후견인인 부양권리자에게 법원 외에 외국법원에도 소를 제기할 수 있도록 한 경우는 제외한다.","k":"zwkk56"},
   {"i":"국거사47-008","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"2. 합의로 지정된 국가가 사안과 아무런 관련이 없거나 근소한 관련만 있는 경우","k":"1e1h15v"},
-  {"i":"국거사47-009","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 부양에 관한 사건이 다음 각 호의 어느 하나에 해당하는 경우에는 제9조를 적용하지 아니한다.","k":"1g3rpr4"},
+  {"i":"국거사47-n007","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 부양에 관한 사건이 다음 각 호의 어느 하나에 해당하는 경우에는 제9조<span class=\"cs-stat\">(변론관할)</span>를 적용하지 아니한다.","k":"xbktd"},
   {"i":"국거사47-010","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"1. 부양권리자가 미성년자이거나 피후견인인 경우","k":"wl6rz7"},
   {"i":"국거사47-011","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"2. 대한민국이 사안과 아무런 관련이 없거나 근소한 관련만 있는 경우","k":"7km8ab"}
  ]},
@@ -25,8 +25,11 @@
  ]},
  {"i":"국거사47-025","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거사47-026","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제13조(적용 제외)</strong>","k":"1ucm752"},
-  {"i":"국거사47-n005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"제24조, 제56조부터 제59조까지, 제61조, 제62조, 제76조제4항 및 제89조에 따라 국제재판관할이 정하여지는 사건에는 제8조 및 제9조를 적용하지 아니한다.","k":"v21egx"}
+  {"i":"국거사47-n008","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"제24조, 제56조부터 제59조까지, 제61조, 제62조, 제76조제4항 및 제89조에 따라 국제재판관할이 정하여지는 사건에는 제8조 및 제9조<span class=\"cs-stat\">(변론관할)</span>를 적용하지 아니한다.<span class=\"cs-stat\">(합의관할)</span>","k":"188wqog"}
  ]},
+ {"i":"국거사47-006","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사47-009","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사47-n005","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거사47-035","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거사47-001","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거사47-002","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},

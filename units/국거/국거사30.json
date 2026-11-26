@@ -4,7 +4,7 @@
   {"i":"국거사30-003","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제45조(당사자 자치)</strong>","k":"52gxk4"},
   {"i":"국거사30-004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 계약은 당사자가 명시적 또는 묵시적으로 선택한 법에 따른다. 다만, 묵시적인 선택은 계약내용이나 그 밖의 모든 사정으로부터 합리적으로 인정할 수 있는 경우로 한정한다.","k":"1rla13y"},
   {"i":"국거사30-005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 당사자는 계약의 일부에 관하여도 준거법을 선택할 수 있다.","k":"1h66wy6"},
-  {"i":"국거사30-006","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 당사자는 합의에 의하여 이 조 또는 제46조에 따른 준거법을 변경할 수 있다. 다만, 계약체결 후 이루어진 준거법의 변경은 계약 방식의 유효 여부와 제3자의 권리에 영향을 미치지 아니한다.","k":"riedc6"},
+  {"i":"국거사30-n003","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 당사자는 합의에 의하여 이 조 또는 제46조<span class=\"cs-stat\">(준거법 결정 시의 객관적 연결)</span>에 따른 준거법을 변경할 수 있다. 다만, 계약체결 후 이루어진 준거법의 변경은 계약 방식의 유효 여부와 제3자의 권리에 영향을 미치지 아니한다.","k":"1uukpkv"},
   {"i":"국거사30-007","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"④ 모든 요소가 오로지 한 국가와 관련이 있음에도 불구하고 당사자가 그 외의 다른 국가의 법을 선택한 경우에 관련된 국가의 강행규정은 적용이 배제되지 아니한다.","k":"1ghlqc0"},
   {"i":"국거사30-008","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"⑤ 준거법 선택에 관한 당사자 간 합의의 성립 및 유효성에 관하여는 제49조를 준용한다.","k":"1b55ted"}
  ]},
@@ -17,9 +17,9 @@
   {"i":"국거사30-015","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제46조(준거법 결정 시의 객관적 연결)</strong>","k":"12ptyeq"},
   {"i":"국거사30-016","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 당사자가 준거법을 선택하지 아니한 경우에 계약은 그 계약과 가장 밀접한 관련이 있는 국가의 법에 따른다.","k":"lzrxrr"},
   {"i":"국거사30-017","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 당사자가 계약에 따라 다음 각 호의 어느 하나에 해당하는 이행을 하여야 하는 경우에는 계약체결 당시 그의 일상거소가 있는 국가의 법(당사자가 법인 또는 단체인 경우에는 주된 사무소가 있는 국가의 법을 말한다)이 가장 밀접한 관련이 있는 것으로 추정한다. 다만, 계약이 당사자의 직업 또는 영업활동으로 체결된 경우에는 당사자의 영업소가 있는 국가의 법이 가장 밀접한 관련이 있는 것으로 추정한다.","k":"jlgdgg"},
-  {"i":"국거사30-018","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"1. 양도계약의 경우에는 양도인의 이행","k":"1065tdb"},
-  {"i":"국거사30-019","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"2. 이용계약의 경우에는 물건 또는 권리를 이용하도록 하는 당사자의 이행","k":"4vzqa4"},
-  {"i":"국거사30-020","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"3. 위임ㆍ도급계약 및 이와 유사한 용역제공계약의 경우에는 용역의 이행","k":"rde7xq"},
+  {"i":"국거사30-n004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"1. 양도계약의 경우에는 양도인<span class=\"cs-stat\">(해주는쪽)</span>의 이행","k":"mpvgbz"},
+  {"i":"국거사30-n005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"2. 이용계약의 경우에는 물건 또는 권리를 이용하도록 하는 당사자<span class=\"cs-stat\">(해주는쪽)</span>의 이행","k":"14muzkc"},
+  {"i":"국거사30-n006","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"3. 위임ㆍ도급계약 및 이와 유사한 용역제공계약의 경우에는 용역<span class=\"cs-stat\">(해주는쪽)</span>의 이행","k":"fld9ri"},
   {"i":"국거사30-021","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 부동산에 대한 권리를 대상으로 하는 계약의 경우에는 부동산이 있는 국가의 법이 가장 밀접한 관련이 있는 것으로 추정한다.","k":"1dzebxu"}
  ]},
  {"i":"국거사30-022","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong> <span class=\"cs-stat\">(2012나10751)</span>","k":"10gju1r"},
@@ -60,6 +60,10 @@
   {"i":"국거사30-057","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"6. 그 밖에 제1항을 적용하는 것이 이 법의 준거법 지정 취지에 반하는 경우","k":"1667z7g"}
  ]},
  {"i":"국거사30-n002","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> * [실전답안] 구성상 조문 순서 변경","k":"khcawx"},
+ {"i":"국거사30-006","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사30-018","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사30-019","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사30-020","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거사30-058","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거사30-043","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"}
 ]}

@@ -12,7 +12,7 @@
  {"i":"국거UN04-010","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거UN04-011","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제15조(청약의 효력발생)</strong>","k":"104jq4o"},
   {"i":"국거UN04-012","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(1) 청약은 상대방에게 도달한 때에 효력이 발생한다.","k":"qnsabb"},
-  {"i":"국거UN04-013","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(2) 청약은 철회될 수 없는 것이더라도, 회수의 의사표시가 청약의 도달 전 또는 그와 동시에 상대방에게 도달하는 경우에는 회수될 수 있다.","k":"16olcqd"}
+  {"i":"국거UN04-n005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(2) 청약은 철회될 수 없는 것이더라도, 회수의 의사표시가 청약의 도달 전 또는 그와 동시에 상대방에게 도달하는 경우에는 회수될 수 있다<span class=\"cs-stat\">(청약의 회수)</span>.","k":"18x9ax4"}
  ]},
  {"i":"국거UN04-014","o":"<div class=\"cs-h\" data-lv=\"3\">","h":"기출 적용 (실전답안)","k":"19x1u2l"},
  {"i":"국거UN04-015","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅲ. 계약의 청약&lt;/strong&gt;&lt;br&gt;조문 : 청약의 요소, 승낙시 구속된다는 표시(제14조), 청약의 효력발생, 도달시(제15조 제1항)&lt;br&gt;법리 : 청약은 특정인에 대한 제안으로, 청약조건의 확정가능성과 승낙시 구속성이 있어야 한다.&lt;br&gt;사안의 경우 : 매수인 X은 Y에게 대나무 카시트의 종류(규격과 색상), 수량 및 대금을 기재한 주문을 송부하였으므로, 청약에 해당한다.\">","h":"<span class=\"cs-exam\">제1회 변시 문제1</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>계약의 청약</strong> — 매수인 X은 Y에게 대나무 카시트의 종류(규격과 색상), 수량 및 대금을 기재한 주문을 송부하였으므로, 청약에 해당한다.</span>","k":"1abdxko"},
@@ -37,6 +37,7 @@
   {"i":"국거UN04-034","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제17조(청약의 거절)</strong>","k":"eir6v2"},
   {"i":"국거UN04-n004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"청약은 철회될 수 없는 것이더라도, 거절의 의사표시가 청약자에게 도달한 때에는 효력을 상실한다.","k":"8eo9pm"}
  ]},
+ {"i":"국거UN04-013","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거UN04-035","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거UN04-028","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거UN04-029","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},

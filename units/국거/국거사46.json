@@ -4,9 +4,10 @@
   {"i":"국거사46-n003","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제59조(부모ㆍ자녀 간의 법률관계 등에 관한 사건의 특별관할) 〔개정 조문〕</strong>","k":"19llsgs"},
   {"i":"국거사46-n004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"미성년인 자녀 등에 대한 친권, 양육권 및 면접교섭권에 관한 사건에 대해서는 다음 각 호의 어느 하나에 해당하는 경우 법원에 국제재판관할이 있다.","k":"1i6vplt"},
   {"i":"국거사46-n005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"1. 자녀의 일상거소가 대한민국에 있는 경우","k":"1q0z27z"},
-  {"i":"국거사46-n006","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"2. 부모 중 한쪽과 자녀가 대한민국 국민인 경우","k":"1b7oev8"}
+  {"i":"국거사46-n009","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"2. 부모 중 한쪽과 자녀가 대한민국 국민인 경우<span class=\"cs-stat\">(적용 제외)</span>","k":"1i73mnd"}
  ]},
  {"i":"국거사46-n008","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> 제8조(합의관할) 및 제9조(변론관할)를 적용하지 아니한다.","k":"9i7whc"},
+ {"i":"국거사46-n006","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거사46-n007","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거사46-001","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거사46-002","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"}

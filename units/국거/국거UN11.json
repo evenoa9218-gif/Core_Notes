@@ -1,14 +1,14 @@
 {"id":"국거UN11","t":"물품의 적합성과 제3자의 권리주장 · 물품적합성[물·검·통·본]","cat":"UN협약 · 제3편 제2장 매도인의 의무","lv":1,"tg":[],"b":[
- {"i":"국거UN11-001","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅰ. 器적합성","k":"al5aai"},
+ {"i":"국거UN11-n001","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅰ. 물품적합성","k":"btfaw6"},
  {"i":"국거UN11-002","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거UN11-003","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제35조(물품적합성) + 제25조 (본질적 계약위반)</strong>","k":"jk7ad2"},
-  {"i":"국거UN11-004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(1) 매도인은 계약에서 정한 수량, 품질 및 종류에 적합하고, 계약에서 정한 방법으로 용기에 담겨지거나 포장된 물품을 인도하여야 한다.","k":"dowwco"},
-  {"i":"국거UN11-005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(2) 당사자가 달리 합의한 경우를 제외하고, 물품은 다음의 경우에 계약에 적합하지 아니한 것으로 한다.","k":"1ygrd5m"},
-  {"i":"국거UN11-006","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(가) 동종 물품의 통상 사용목적에 맞지 아니한 경우,","k":"psr3si"},
-  {"i":"국거UN11-007","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(나) 계약 체결시 매도인에게 명시적 또는 묵시적으로 알려진 특별한 목적에 맞지 아니한 경우. 다만, 그 상황에서 매수인이 매도인의 기술과 판단을 신뢰하지 아니하였거나 또는 신뢰하는 것이 불합리하였다고 인정되는 경우에는 그러하지 아니하다.","k":"3t4k9p"},
-  {"i":"국거UN11-008","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(다) 매도인이 견본 또는 모형으로 매수인에게 제시한 물품의 품질을 가지고 있지 아니한 경우.","k":"c2sik6"},
-  {"i":"국거UN11-009","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(라) 그러한 물품에 대하여 통상의 방법으로, 통상의 방법이 없는 경우에는 그 물품을 보존하고 보호하는 데 적절한 방법으로 용기에 담겨지거나 포장되어 있지 아니한 경우.","k":"ekavu1"},
-  {"i":"국거UN11-010","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(3) 매수인이 계약 체결시에 물품의 부적합을 알았거나 또는 모를 수 없었던 경우에는, 매도인은 그 부적합에 대하여 제2항의 (가)호 내지 (라)호에 따른 책임을 지지 아니한다.","k":"pmagw9"}
+  {"i":"국거UN11-n002","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(1) 매도인은 계약에서 정한 수량, 품질 및 종류에 적합하고, 계약에서 정한 방법으로 용기에 담겨지거나 포장된 물품을 인도하여야 한다<span class=\"cs-stat\">(인도의무)</span>.","k":"1dsusqh"},
+  {"i":"국거UN11-n003","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(2) 당사자가 달리 합의한 경우를 제외하고, 물품은 다음의 경우에 계약에 적합하지 아니한 것으로 한다<span class=\"cs-stat\">(판단기준)</span>.","k":"1niwgkz"},
+  {"i":"국거UN11-n004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(가) 동종 물품의 통상 사용목적에 맞지 아니한 경우<span class=\"cs-stat\">(통상목적)</span>,","k":"187s5xr"},
+  {"i":"국거UN11-n005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(나) 계약 체결시 매도인에게 명시적 또는 묵시적으로 알려진 특별한 목적에 맞지 아니한 경우. 다만, 그 상황에서 매수인이 매도인의 기술과 판단을 신뢰하지 아니하였거나 또는 신뢰하는 것이 불합리하였다고 인정되는 경우에는 그러하지 아니하다<span class=\"cs-stat\">(특별목적)</span>.","k":"4rkvvt"},
+  {"i":"국거UN11-n006","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(다) 매도인이 견본 또는 모형으로 매수인에게 제시한 물품의 품질을 가지고 있지 아니한 경우<span class=\"cs-stat\">(견본품질)</span>.","k":"1xlvhhf"},
+  {"i":"국거UN11-n007","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(라) 그러한 물품에 대하여 통상의 방법으로, 통상의 방법이 없는 경우에는 그 물품을 보존하고 보호하는 데 적절한 방법으로 용기에 담겨지거나 포장되어 있지 아니한 경우<span class=\"cs-stat\">(포장)</span>.","k":"ae4nup"},
+  {"i":"국거UN11-n008","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(3) 매수인이 계약 체결시에 물품의 부적합을 알았거나 또는 모를 수 없었던 경우에는, 매도인은 그 부적합에 대하여 제2항의 (가)호 내지 (라)호에 따른 책임을 지지 아니한다<span class=\"cs-stat\">(면책)</span>.","k":"qewr2x"}
  ]},
  {"i":"국거UN11-011","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong> <span class=\"cs-stat\">(2016가합515860)</span>","k":"76sd13"},
  {"i":"국거UN11-012","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"매수인이 물품의 부적합을 발견한 때로부터 합리적인 기간 내에 매도인에게 그 부적합한 성질을 특정하여 통지하지 못한 경우 매수인은 매도인에게 물품의 부적합을 주장할 권리를 상실하므로, 매수인은 이를 이유로 매매계약을 해제할 수 없다.","k":"tfujqq"},
@@ -20,15 +20,15 @@
   {"i":"국거UN11-018","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(2) 계약에 물품의 운송이 포함되는 경우에는, 검사는 물품이 목적지에 도착한 후까지 연기될 수 있다.","k":"fa8t4s"},
   {"i":"국거UN11-019","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(3) 매수인이 검사할 합리적인 기회를 가지지 못한 채 운송중에 물품의 목적지를 변경하거나 물품을 전송(轉送)하고, 매도인이 계약 체결시에 그 변경 또는 전송의 가능성을 알았거나 알 수 있었던 경우에는, 검사는 물품이 새로운 목적지에 도착한 후까지 연기될 수 있다.","k":"biik2i"}
  ]},
- {"i":"국거UN11-020","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> * [실전답안] 구성상 조문 순서 변경 11. 물좀의 적합성과 제3자의 권리주장 물품적합성 [들·검·통·본1","k":"1bth27d"},
+ {"i":"국거UN11-027","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> * [실전답안] 구성상 조문 순서 변경","k":"khcawx"},
  {"i":"국거UN11-021","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅲ. 하자통지의무 - 물품부적합","k":"eb93ex"},
  {"i":"국거UN11-022","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거UN11-023","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제39조(하자통지의무 - 물품부적합)</strong>","k":"gvw7eq"},
-  {"i":"국거UN11-024","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(1) 매수인이 물품의 부적합을 발견하였거나 발견할 수 있었던 때로부터 합리적인 기간 내에 매도인에게 그 부적합한 성질을 특정하여 통지하지 아니한 경우에는, 매수인은 물품의 부적합을 주장할 권리를 상실한다.","k":"14x7e5a"},
+  {"i":"국거UN11-n009","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(1) 매수인이 물품의 부적합을 발견하였거나 발견할 수 있었던 때로부터 합리적인 기간 내에 매도인에게 그 부적합한 성질을 특정하여 통지하지 아니한 경우에는, 매수인은 물품의 부적합을 주장할 권리를 상실한다<span class=\"cs-stat\">(통지 해태의 효력)</span>.","k":"19et4c7"},
   {"i":"국거UN11-025","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(2) 매수인은 물품이 매수인에게 현실로 교부된 날부터 늦어도 2년 내에 매도인에게 제1항의 통지를 하지 아니한 경우에는, 물품의 부적합을 주장할 권리를 상실한다. 다만, 이 기간제한이 계약상의 보증기간과 양립하지 아니하는 경우에는 그러하지 아니하다.","k":"5mdtvi"}
  ]},
  {"i":"국거UN11-026","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> (if, 물·검·통·본)물품의 부적합을 주장할 권리를 갖는다.","k":"419t1s"},
- {"i":"국거UN11-027","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> * [실전답안] 구성상 조문 순서 변경","k":"khcawx"},
+ {"i":"국거UN11-n010","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> * [실전답안] 구성상 조문 순서 변경","k":"khcawx"},
  {"i":"국거UN11-028","o":"<div class=\"cs-h\" data-lv=\"3\">","h":"기출 적용 (실전답안)","k":"19x1u2l"},
  {"i":"국거UN11-029","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅳ. 물품부적합&lt;/strong&gt;&lt;br&gt;조문 : 물품적합성(제35조), 물품검사의무(제38조), 하자통지의무(제39조).&lt;br&gt;법리 : 매수인이 합리적인 기간 내에 매도인에게 검사 후 통지하지 않은 경우, 매수인은 물품의 부적합을 주장할 권리를 상실한다.&lt;br&gt;사안 : A가 순도 50%의 오리털의 물품부적합에 대해 검사(제38조)를 한 후 B에게 통지 지(제39조)하였는지 여부는 제시되지 않았다.\">","h":"<span class=\"cs-exam\">제2회 변시 문제3</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>물품부적합</strong> — A가 순도 50%의 오리털의 물품부적합에 대해 검사(제38조)를 한 후 B에게 통지 지(제39조)하였는지 여부는 제시되지 않았다.</span>","k":"he7b1f"},
  {"i":"국거UN11-030","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅲ. 물품부적합&lt;/strong&gt;&lt;br&gt;조문 : 물품적합성(제35조), 물품검사의무(제38조), 하자통지의무(제39조).&lt;br&gt;법리 : 매수인이 합리적인 기간 내에 매도인에게 검사 후 통지하지 않은 경우, 매수인은 물품의 부적합을 주장할 권리를 상실한다.&lt;br&gt;사안 : 乙이 검사를 하던 중, 甲이 인도한 원단은 스펙과는 달리 세탁을 하면 색상이변하고, 丙이 요구하는 품질의 실크스카프를 제조하기에는 합당하지 않아, 乙은 2014. 9. 7. 甲에게 이를 통지하면서 계약해제도 함께 표시하였다.\">","h":"<span class=\"cs-exam\">제4회 변시 문제3</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>물품부적합</strong> — 丙이 요구하는 품질의 실크스카프를 제조하기에는 합당하지 않아, 乙은 2014. 9. 7. 甲에게 이를 통지하면서 계약해제도 함께 표시하였다.</span>","k":"jz0asj"},
@@ -42,5 +42,15 @@
  {"i":"국거UN11-038","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅲ. 물품부적합&lt;/strong&gt;&lt;br&gt;조문 : 물품적합성(제35조), 물품검사의무(제38조), 하자통지의무(제39조).&lt;br&gt;법리 : 매수인이 합리적인 기간 내에 매도인에게 검사 후 통지하지 않은 경우, 매수인은 물품의 부적합을 주장할 권리를 상실한다.&lt;br&gt;사안 : 매수인 甲이 곧바로 검사한 결과 2차 인도분 5개 중 3개의 전력 손실이 10%를 넘어, 甲은 乙에게 하자를 통지함과 동시에 문제가 된 3개에 대한 대체물인도를 청구하였다.\">","h":"<span class=\"cs-exam\">제12회 변시 문제2</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>물품부적합</strong> — 매수인 甲이 곧바로 검사한 결과 2차 인도분 5개 중 3개의 전력 손실이 10%를 넘어, 甲은 乙에게 하자를 통지함과 동시에 문제가 된 3개에 대한 대체물인도를 청구하였다.</span>","k":"u37g7a"},
  {"i":"국거UN11-039","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅲ. 물품부적합&lt;/strong&gt;&lt;br&gt;조문 : 물품적합성(제35조), 물품검사의무(제38조), 하자통지의무(제39조).&lt;br&gt;법리 : 매수인이 합리적인 기간 내에 매도인에게 검사 후 통지하지 않은 경우, 매수인은 물품의 부적합을 주장할 권리를 상실한다.&lt;br&gt;사안 : 乙은 2차 인도분을 시험·가동하던 중 5 대 모두 특정센서기능이 없거나 작동하지 않는 것을 확인하였고, 이러한 하자를 즉시 甲에게 통지하였다.\">","h":"<span class=\"cs-exam\">제13회 변시 문제3</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>물품부적합</strong> — 乙은 2차 인도분을 시험·가동하던 중 5 대 모두 특정센서기능이 없거나 작동하지 않는 것을 확인하였고, 이러한 하자를 즉시 甲에게 통지하였다.</span>","k":"1wlra2q"},
  {"i":"국거UN11-040","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅲ. 물품부적합&lt;/strong&gt;&lt;br&gt;조문 : 물품적합성(제35조), 물품검사의무(제38조), 하자통지의무(제39조).&lt;br&gt;법리 : 매수인이 합리적인 기간 내에 매도인에게 검사 후 통지하지 않은 경우, 매수인은 물품의 부적합을 주장할 권리를 상실한다.&lt;br&gt;사안 : 乙은 2차 인도분을 즉시 검사하였는데, 유황화합물이 전체 성분의 5% 이상이어서 최첨단 중장비에 사용되는 경우 부식을 발생시길 있음이 확인되었고, 이 사실을 즉시 甲에게 통지하였다.\">","h":"<span class=\"cs-exam\">제14회 변시 문제2</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>물품부적합</strong> — 乙은 2차 인도분을 즉시 검사하였는데, 유황화합물이 전체 성분의 5% 이상이어서 최첨단 중장비에 사용되는 경우 부식을 발생시길 있음이 확인되었고, 이 사실을 즉시 甲에게 통지하였다.</span>","k":"qugy65"},
- {"i":"국거UN11-041","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅲ. 물품부적합&lt;/strong&gt;&lt;br&gt;조문 : 물품적합성(제35조), 물품검사의무(제38조), 하자통지의무(제39조).&lt;br&gt;법리 : 매수인이 합리적인 기간 내에 매도인에게 검사 후 통지하지 않은 경우, 매수인은 물품의 부적합을 주장할 권리를 상실한다.&lt;br&gt;사안 : 乙은 2차 인도분을 즉시 검사하였는데, 유황화합물이 전체 성분의 5% 이상이어서 최첨단 중장비에 사용되는 경우 부식을 발생시길 있음이 확인되었고, 이 사실을 즉시 甲에게 통지하였다.\">","h":"<span class=\"cs-exam\">제14회 변시 문제4</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>물품부적합</strong> — 乙은 2차 인도분을 즉시 검사하였는데, 유황화합물이 전체 성분의 5% 이상이어서 최첨단 중장비에 사용되는 경우 부식을 발생시길 있음이 확인되었고, 이 사실을 즉시 甲에게 통지하였다.</span>","k":"1ia1e7v"}
+ {"i":"국거UN11-041","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅲ. 물품부적합&lt;/strong&gt;&lt;br&gt;조문 : 물품적합성(제35조), 물품검사의무(제38조), 하자통지의무(제39조).&lt;br&gt;법리 : 매수인이 합리적인 기간 내에 매도인에게 검사 후 통지하지 않은 경우, 매수인은 물품의 부적합을 주장할 권리를 상실한다.&lt;br&gt;사안 : 乙은 2차 인도분을 즉시 검사하였는데, 유황화합물이 전체 성분의 5% 이상이어서 최첨단 중장비에 사용되는 경우 부식을 발생시길 있음이 확인되었고, 이 사실을 즉시 甲에게 통지하였다.\">","h":"<span class=\"cs-exam\">제14회 변시 문제4</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>물품부적합</strong> — 乙은 2차 인도분을 즉시 검사하였는데, 유황화합물이 전체 성분의 5% 이상이어서 최첨단 중장비에 사용되는 경우 부식을 발생시길 있음이 확인되었고, 이 사실을 즉시 甲에게 통지하였다.</span>","k":"1ia1e7v"},
+ {"i":"국거UN11-001","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN11-004","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN11-005","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN11-006","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN11-007","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN11-008","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN11-009","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN11-010","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN11-020","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN11-024","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"}
 ]}

@@ -3,20 +3,20 @@
  {"i":"국거UN03-002","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거UN03-003","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제7조(협약의 해석원칙)</strong>","k":"x6v5gr"},
   {"i":"국거UN03-004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(1) 이 협약의 해석에는 그 국제적 성격 및 적용상의 통일과 국제거래상의 신의 준수를 증진할 필요성을 고려하여야 한다.","k":"1m9f4mx"},
-  {"i":"국거UN03-005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(2) 이 협약에 의하여 규율되는 사항으로서 협약에서 명시적으로 해결되지 아니하는 문제는, 이 협약이 기초하고 있는 일반원칙, 그 원칙이 없는 경우에는 국제사법 규칙에 의하여 적용되는 법에 따라 해결되어야 한다.","k":"1hk57q6"}
+  {"i":"국거UN03-n009","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(2) 이 협약에 의하여 규율되는 사항으로서 협약에서 명시적으로 해결되지 아니하는 문제는, 이 협약이 기초하고 있는 일반원칙, 그 원칙이 없는 경우에는 국제사법 규칙에 의하여 적용되는 법에 따라 해결되어야 한다<span class=\"cs-stat\">(협약 규정 흠결시 보충원칙)</span>.","k":"uscmv6"}
  ]},
  {"i":"국거UN03-006","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅱ. 당사자 의사의 해석기준","k":"1q8xxa2"},
  {"i":"국거UN03-007","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거UN03-008","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제8조(당사자 의사의 해석기준)</strong>","k":"5yrpcw"},
-  {"i":"국거UN03-009","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(1) 이 협약의 적용상, 당사자의 진술 그 밖의 행위는 상대방이 그 당사자의 의도 를 알았거나 모를 수 없었던 경우에는 그 의도에 따라 해석되어야 한다.","k":"ocsdyf"},
+  {"i":"국거UN03-n010","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(1) 이 협약의 적용상, 당사자의 진술 그 밖의 행위는 상대방이 그 당사자의 의도 를 알았거나 모를 수 없었던 경우에는 그 의도에 따라 해석되어야 한다<span class=\"cs-stat\">(주관적 의도)</span><span class=\"cs-stat\">(객관적 의도)</span>.","k":"1wdp0p2"},
   {"i":"국거UN03-010","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(2) 제1항이 적용되지 아니하는 경우에 당사자의 진술 그 밖의 행위는, 상대방과 동일한 부류의 합리적인 사람이 동일한 상황에서 이해하였을 바에 따라 해석되어야 한다.","k":"i7w9va"},
-  {"i":"국거UN03-011","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(3) 당사자의 의도 또는 합리적인 사람이 이해하였을 바를 결정함에 있어서는 교섭, 당사자간에 확립된 관례, 관행 및 당사자의 후속 행위를 포함하여 관련된 모든 사항을 적절히 고려하여야 한다.","k":"1fw9s32"}
+  {"i":"국거UN03-n011","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(3) 당사자의 의도 또는 합리적인 사람이 이해하였을 바를 결정함에 있어서는 교섭, 당사자간에 확립된 관례, 관행 및 당사자의 후속 행위를 포함하여 관련된 모든 사항을 적절히 고려하여야 한다<span class=\"cs-stat\">(관련된 모든 상황)</span>.","k":"ftjke3"}
  ]},
  {"i":"국거UN03-012","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅲ. 관행 및 관례의 구속력","k":"1sblmgj"},
  {"i":"국거UN03-013","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거UN03-014","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제9조(관행 및 관례의 구속력)</strong>","k":"1jp8qz"},
-  {"i":"국거UN03-015","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(1) 당사자는 합의한 관행과 당사자간에 확립된 관례에 구속된다.","k":"dtc7cu"},
-  {"i":"국거UN03-016","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(2) 별도의 합의가 없는 한, 당사자가 알았거나 알 수 있었던 관행으로서 국제거래에서 당해 거래와 동종의 계약을 하는 사람에게 널리 알려져 있고 통상적으로 준수되고 있는 관행은 당사자의 계약 또는 그 성립에 묵시적으로 적용되는 것으로 본다.","k":"be04s9"}
+  {"i":"국거UN03-n012","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(1) 당사자는 합의한 관행과 당사자간에 확립된 관례에 구속된다<span class=\"cs-stat\">(합의한 관행, 확립된 관례)</span>.","k":"1fa6p6r"},
+  {"i":"국거UN03-n013","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(2) 별도의 합의가 없는 한, 당사자가 알았거나 알 수 있었던 관행으로서 국제거래에서 당해 거래와 동종의 계약을 하는 사람에게 널리 알려져 있고 통상적으로 준수되고 있는 관행은 당사자의 계약 또는 그 성립에 묵시적으로 적용되는 것으로 본다<span class=\"cs-stat\">(합의되지 않은 관행의 효력)</span>.","k":"1qyfkiv"}
  ]},
  {"i":"국거UN03-017","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅳ. 영업소의 정의","k":"1dkjz5h"},
  {"i":"국거UN03-018","o":"<div class=\"cs-callout\">","b":[
@@ -31,12 +31,17 @@
   {"i":"국거UN03-n001","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"매매계약은 서면에 의하여 체결되거나 입증될 필요가 없고, 방식에 관한 그 밖의 어떠한 요건도 요구되지 아니한다. 매매계약은 증인을 포함하여 어떠한 방법에 의하여도 입증될 수 있다.","k":"klfxpc"}
  ]},
  {"i":"국거UN03-n002","o":"<div class=\"cs-h\" data-lv=\"3\">","h":"기출 적용 (실전답안)","k":"19x1u2l"},
- {"i":"국거UN03-n003","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅲ. 계약의 성립 여부&lt;/strong&gt;&lt;br&gt;(1) 조문 매매계약은 서면에 의하여 체결되거나 입증될 필요가 없다(제11조). (2) 사안 甲과 乙의 위 계약체결은 서면화되지 않았고, 러시아는 UN협약 제96조에 따라 유보선언을 한 체약국이므로 계약의 성립에 관하여 lJNe약 제11조는 적용되지 않아 준거법인 러시아법에 따라야 한다. 2. 소결서면화되지 않은 위 계약이 성립하였는지 여부는 법정지인 러시아의 국제사법에 의하여 결정되는 방식의 준거법에 의한다.&lt;br&gt;&lt;strong&gt;Ⅳ. 결론&lt;/strong&gt;&lt;br&gt;甲과 乙 사이의 계약에 협약이 직접적용&#x27;되지만, 계약의 성립 여부는 러시아가 협약 제96조의 유보선언을 한 체약국이므로 계약의 준거법인 러시아의 국제사법에 의하여 결정되는 방식의 준거법에 의한다.\">","h":"<span class=\"cs-exam\">제5회 변시 문제1</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>계약의 성립 여부</strong> — 2. 소결서면화되지 않은 위 계약이 성립하였는지 여부는 법정지인 러시아의 국제사법에 의하여 결정되는 방식의 준거법에 의한다.</span>","k":"1updz6l"},
+ {"i":"국거UN03-n003","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅲ. 계약의 성립 여부&lt;/strong&gt;&lt;br&gt;1. 계약의 방식과 입증방법 (1) 조문 매매계약은 서면에 의하여 체결되거나 입증될 필요가 없다(제11조). (2) 사안 甲과 乙의 위 계약체결은 서면화되지 않았고, 러시아는 UN협약 제96조에 따라 유보선언을 한 체약국이므로 계약의 성립에 관하여 UN협약 제11조는 적용되지 않아 준거법인 러시아법에 따라야 한다. 2. 소결서면화되지 않은 위 계약이 성립하였는지 여부는 법정지인 러시아의 국제사법에 의하여 결정되는 방식의 준거법에 의한다.&lt;br&gt;&lt;strong&gt;Ⅳ. 결론&lt;/strong&gt;&lt;br&gt;甲과 乙 사이의 계약에 협약이 직접적용&#x27;되지만, 계약의 성립 여부는 러시아가 협약 제96조의 유보선언을 한 체약국이므로 계약의 준거법인 러시아의 국제사법에 의하여 결정되는 방식의 준거법에 의한다.\">","h":"<span class=\"cs-exam\">제5회 변시 문제1</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>계약의 성립 여부</strong> — 2. 소결서면화되지 않은 위 계약이 성립하였는지 여부는 법정지인 러시아의 국제사법에 의하여 결정되는 방식의 준거법에 의한다.</span>","k":"1updz6l"},
  {"i":"국거UN03-n004","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅵ. 서면의 정의","k":"19g8sqb"},
  {"i":"국거UN03-n005","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거UN03-n006","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제13조(서면의 정의)</strong>","k":"lxoj4n"},
   {"i":"국거UN03-n008","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"이 협약의 적용상 『서면』에는 전보와 텔렉스가 포함된다.","k":"122y55m"}
  ]},
+ {"i":"국거UN03-005","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN03-009","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN03-011","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN03-015","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN03-016","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거UN03-n007","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거UN03-026","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거UN03-027","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},

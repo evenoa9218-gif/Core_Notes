@@ -4,15 +4,19 @@
   {"i":"국거UN28-003","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제64조(계약해제권) + 제61조(근거규정) + 제25조(본질적 계약위반)</strong>","k":"wnt96u"},
   {"i":"국거UN28-004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(1) 매도인은 다음의 경우에 계약을 해제할 수 있다.","k":"ujuk33"},
   {"i":"국거UN28-005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(가) 계약 또는 이 협약상 매수인의 의무 불이행이 본질적 계약위반으로 되는 경우","k":"b0geis"},
-  {"i":"국거UN28-006","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(나) 매수인이 제63조 제1항에 따라 매도인이 정한 부가기간 내에 대금지급 또는 물품수령 의무를 이행하지 아니하거나 그 기간 내에 그러한 의무를 이행하지 아니하겠다고 선언한 경우.","k":"hop1fb"},
-  {"i":"국거UN28-007","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(2) 그러나 매수인이 대금을 지급한 경우에는, 매도인은 다음의 기간 내에 계약을 해제하지 아니하는 한 계약해제권을 상실한다.","k":"1dcurbp"},
+  {"i":"국거UN28-n001","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(나) 매수인이 제63조<span class=\"cs-stat\">(부가기간지정권)</span> 제1항에 따라 매도인이 정한 부가기간 내에 대금지급 또는 물품수령 의무를 이행하지 아니하거나 그 기간 내에 그러한 의무를 이행하지 아니하겠다고 선언한 경우.","k":"1kh46nv"},
+  {"i":"국거UN28-n002","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(2) 그러나 매수인이 대금을 지급한 경우에는, 매도인은 다음의 기간 내에 계약을 해제하지 아니하는 한 계약해제권을 상실한다<span class=\"cs-stat\">(매수인의 계약해제권 상실사유)</span>.","k":"18krda4"},
   {"i":"국거UN28-008","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(가) 매수인의 이행지체의 경우, 매도인이 이행이 이루어진 것을 알기 전","k":"jnjx8e"},
   {"i":"국거UN28-009","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(나) 매수인의 이행지체 이외의 위반의 경우, 다음의 시기로부터 합리적인 기간 내","k":"1u99cl0"},
   {"i":"국거UN28-010","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(1) 매도인이 그 위반을 알았거나 또는 알 수 있었던 때","k":"9sqqf5"},
-  {"i":"국거UN28-011","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(2) 매도인이 제63조 제1항에 따라 정한 부가기간이 경과한 때 또는 매수인이 그 부가기간 내에 의무를 이행하지 아니하겠다고 선언한 때.","k":"a2jzfs"}
+  {"i":"국거UN28-n003","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(2) 매도인이 제63조<span class=\"cs-stat\">(부가기간지정권)</span> 제1항에 따라 정한 부가기간이 경과한 때 또는 매수인이 그 부가기간 내에 의무를 이행하지 아니하겠다고 선언한 때.","k":"1ajf690"}
  ]},
  {"i":"국거UN28-012","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> + 제26조(계약해제의 방법) + 제81조 ~ 제84조(해제의 효력)","k":"tcuaea"},
- {"i":"국거UN28-013","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>법리</strong> : {실전답안] 2. 법리 매도인 또는 매수인의 의무 불이행이 본질적 계약위반(제25조)가 되는 경우, 상대방에 대한 통지(제26조)로서 계약을 해제할 수 있다.","k":"wpo19t"},
- {"i":"국거UN28-014","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong> <span class=\"cs-stat\">(2011 다103977)</span>","k":"kvpghl"},
- {"i":"국거UN28-015","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\">답안</span> <strong>법리</strong> : 매도인은 계약 또는 협약상 매수인의 의무 불이행이 본질적인 계약위반으로 되는 경우 계약을 해제할 수 있다.","k":"9vwklc"}
+ {"i":"국거UN28-n004","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\">답안</span> <strong>법리</strong> : 매도인 또는 매수인의 의무 불이행이 본질적 계약위반(제25조)가 되는 경우, 상대방에 대한 통지(제26조)로서 계약을 해제할 수 있다.","k":"1o4z5ci"},
+ {"i":"국거UN28-014","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong> <span class=\"cs-stat\">(2011다103977)</span>","k":"kvpghl"},
+ {"i":"국거UN28-015","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\">답안</span> <strong>법리</strong> : 매도인은 계약 또는 협약상 매수인의 의무 불이행이 본질적인 계약위반으로 되는 경우 계약을 해제할 수 있다.","k":"9vwklc"},
+ {"i":"국거UN28-006","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN28-007","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN28-011","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN28-013","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"}
 ]}

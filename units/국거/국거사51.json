@@ -1,5 +1,5 @@
 {"id":"국거사51","t":"[친족] 준거법 · 혼외자 입양 파양","cat":"국제사법 · 제7장 친족","lv":1,"tg":[],"b":[
- {"i":"국거사51-001","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅰ. 흑인 외의 출생자","k":"4bibkj"},
+ {"i":"국거사51-n001","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅰ. 혼인 외의 출생자","k":"jgd1tq"},
  {"i":"국거사51-002","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거사51-003","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제69조(혼인 외의 출생자)</strong>","k":"p9gj5e"},
   {"i":"국거사51-004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 혼인 외의 출생자가 혼인 중의 출생자로 그 지위가 변동되는 경우에 관하여는 그 요건인 사실의 완성 당시 아버지 또는 어머니의 본국법 또는 자녀의 일상거소지법에 따른다.","k":"hu0wra"},
@@ -9,5 +9,6 @@
  {"i":"국거사51-007","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거사51-008","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제70조(입양 및 파양)</strong>","k":"11wuc09"},
   {"i":"국거사51-009","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"입양 및 파양은 입양 당시 양부모의 본국법에 따른다.","k":"194drc1"}
- ]}
+ ]},
+ {"i":"국거사51-001","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"}
 ]}

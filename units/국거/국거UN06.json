@@ -2,7 +2,7 @@
  {"i":"국거UN06-001","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅰ. 계약의 성립시기","k":"b0zip6"},
  {"i":"국거UN06-002","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거UN06-003","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제23조(계약의 성립시기)</strong>","k":"lzuors"},
-  {"i":"국거UN06-004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"계약은 청약에 대한 승낙이 이 협약에 따라 효력을 발생하는 시점에 성립된다.","k":"18p826q"}
+  {"i":"국거UN06-n005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"계약은 청약<span class=\"cs-stat\">(제14조, 청약의 요소)</span>에 대한 승낙이 이 협약에 따라 효력을 발생하는 시점에 성립된다.","k":"1lapwee"}
  ]},
  {"i":"국거UN06-n001","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> 18조 제2항, 도달주의)에 성립된다.","k":"1d5mo1s"},
  {"i":"국거UN06-010","o":"<div class=\"cs-h\" data-lv=\"3\">","h":"기출 적용 (실전답안)","k":"19x1u2l"},
@@ -13,6 +13,7 @@
  {"i":"국거UN06-013","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅴ. 계약의 성립&lt;/strong&gt;&lt;br&gt;계약은 청약(제14조)에 대한 승낙의 효력발생시점(제18조 제2항)에 성립된다(제23조).&lt;br&gt;사안의 경우 : 甲과 乙의 매매계약은 乙이 동의하는 이메일을 송부한 2020. 10. 17. 성립되었다.\">","h":"<span class=\"cs-exam\">제10회 변시 문제1</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>계약의 성립</strong> — 甲과 乙의 매매계약은 乙이 동의하는 이메일을 송부한 2020. 10. 17. 성립되었다.</span>","k":"1e2676w"},
  {"i":"국거UN06-014","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅵ. 계약의 성립&lt;/strong&gt;&lt;br&gt;조문 : 계약은 청약(제14조)에 대한 승낙의 효력발생시점(제18조 제2항)에 성립된다(제23조).&lt;br&gt;사안의 경우 : 甲과 乙의 매매계약은 乙이 동의하는 이메일을 송부한 2020. 5. 5. 성립되었다.\">","h":"<span class=\"cs-exam\">제11회 변시 문제1</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>계약의 성립</strong> — 甲과 乙의 매매계약은 乙이 동의하는 이메일을 송부한 2020. 5. 5. 성립되었다.</span>","k":"1dl91fy"},
  {"i":"국거UN06-n004","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅵ. 계약의 성립&lt;/strong&gt;&lt;br&gt;계약은 청약(제14조)에 대한 승낙의 효력발생시점(제18조 제2항)에 성립된다(제23조).&lt;br&gt;사안의 경우 : 甲과 乙의 매매계약은 乙이 동의하는 이메일을 송부한 2023. 7. 21. 성립되었다.\">","h":"<span class=\"cs-exam\">제13회 변시 문제2</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>계약의 성립</strong> — 甲과 乙의 매매계약은 乙이 동의하는 이메일을 송부한 2023. 7. 21. 성립되었다.</span>","k":"t76vo8"},
+ {"i":"국거UN06-004","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거UN06-015","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거UN06-005","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거UN06-006","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},

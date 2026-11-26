@@ -1,10 +1,10 @@
 {"id":"국거UN08","t":"[총칙] 물품의 매매","cat":"UN협약 · 제3편 제1장 총칙","lv":1,"tg":[],"b":[
  {"i":"국거UN08-001","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅰ. 본질적 계약위반 [상·가실·박]","k":"eta99l"},
  {"i":"국거UN08-002","o":"<div class=\"cs-callout\">","b":[
-  {"i":"국거UN08-003","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제25조(본질적 계약위반) + 제26조 (계약해제의 방법) [상·가실·박1</strong>","k":"sns0uu"},
-  {"i":"국거UN08-004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"당사자 일방의 계약위반은, 그 계약에서 상대방이 기대할 수 있는 바를 실질적으로 박탈할 정도의 손실을 상대방에게 주는 경우에 본질적인 것으로 한다. 다만, 위반 당사자가 그러한 결과를 예견하지 못하였고, 동일한 부류의 합리적인 사람도 동일한 상황에서 그러한 결과를 예견하지 못하였을 경우에는 그러하지 아니하다.","k":"13efthr"}
+  {"i":"국거UN08-n007","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제25조(본질적 계약위반) + 제26조 (계약해제의 방법) [상·가실·박]</strong>","k":"sns0u2"},
+  {"i":"국거UN08-n008","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"당사자 일방의 계약위반은, 그 계약에서 상대방이 기대할 수 있는 바를 실질적으로 박탈할 정도의 손실을 상대방에게 주는 경우에 본질적<span class=\"cs-stat\">(fundamental)</span>인 것으로 한다. 다만, 위반 당사자가 그러한 결과를 예견하지 못하였고, 동일한 부류의 합리적인 사람도 동일한 상황에서 그러한 결과를 예견하지 못하였을 경우에는 그러하지 아니하다<span class=\"cs-stat\">(예견가능성)</span>.","k":"12zaiuw"}
  ]},
- {"i":"국거UN08-005","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong> : [201 1 다103977] 매수인이 단순히 신용장의 개설을 지체한 것이 아니라 계약에서 합의된| 조건에 따른 신용장의 개설을 거절한 경우 이는 계약에서 매도인이 기대할 수 있는 바를 실질적으로 박탈하는 것으로서 협약 제25조가 규정한 본질적인 계약위반에 해당하므로, 매도인은 계약을 해제할 수 있다.","k":"3rsp70"},
+ {"i":"국거UN08-n009","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong> : [201 1 다103977] 매수인이 단순히 신용장의 개설을 지체한 것이 아니라 계약에서 합의된 조건에 따른 신용장의 개설을 거절한 경우 이는 계약에서 매도인이 기대할 수 있는 바를 실질적으로 박탈하는 것으로서 협약 제25조가 규정한 본질적인 계약위반에 해당하므로, 매도인은 계약을 해제할 수 있다.","k":"1n1d5u8"},
  {"i":"국거UN08-006","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\">답안</span> <strong>법리</strong> : 물품의 중대한 부적합, 신용장개설 불이행 등은 본질적 계약위반에 해당한다.","k":"q5035"},
  {"i":"국거UN08-007","o":"<div class=\"cs-h\" data-lv=\"3\">","h":"기출 적용 (실전답안)","k":"19x1u2l"},
  {"i":"국거UN08-008","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅲ. 본질적 계약위반&lt;/strong&gt;&lt;br&gt;조문 : 상대방이 기대할 수 있는 바를 실질적으로 박탈할 정도의 손실(제25조).&lt;br&gt;법리 : 물품의 중대한 부적합, 신용장개설 불이행 등은 본질적 계약위반에 해당한다.&lt;br&gt;사안 : Y는 여름 계절상품인 대나무 카시트를 2011. 10. 1.에 인도하겠다고 통보하므로, 이는 계약에서 기대하는 바를 실질적으로 박탈하는 본질적 계약위반에 해당한다.\">","h":"<span class=\"cs-exam\">제1회 변시 문제2</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>본질적 계약위반</strong> — Y는 여름 계절상품인 대나무 카시트를 2011. 10. 1.에 인도하겠다고 통보하므로, 이는 계약에서 기대하는 바를 실질적으로 박탈하는 본질적 계약위반에 해당한다.</span>","k":"1ji5mk1"},
@@ -18,7 +18,7 @@
  {"i":"국거UN08-016","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅳ. 본질적 계약위반&lt;/strong&gt;&lt;br&gt;조문 : 상대방이 기대할 수 있는 바를 실질적으로 박탈할 정도의 손실(제25조).&lt;br&gt;법리 : 물품의 중대한 부적합, 신용장개설 불이행 등은 본질적 계약위반에 해당한다.&lt;br&gt;사안 : 乙이 제공한 USB 메모리 중 500개는 자료를 저장하는 기능을 하지 못하므로, 이는 계약에서 기대하는 바를 실질적으로 박탈하는 본질적 계약위반에 해당한다.\">","h":"<span class=\"cs-exam\">제8회 변시 문제2-가</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>본질적 계약위반</strong> — 乙이 제공한 USB 메모리 중 500개는 자료를 저장하는 기능을 하지 못하므로, 이는 계약에서 기대하는 바를 실질적으로 박탈하는 본질적 계약위반에 해당한다.</span>","k":"sh6kjf"},
  {"i":"국거UN08-017","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅳ. 본질적 계약위반&lt;/strong&gt;&lt;br&gt;조문 : 상대방이 기대할 수 있는 바를 실질적으로 박탈할 정도의 손실(제25조).&lt;br&gt;법리 : 물품의 중대한 부적합, 신용장개설 불이행 등은 본질적 계약위반에 해당한다.&lt;br&gt;사안 : 乙의 물품적합성 위반으로 甲은 丙으로부터 은괴를 모두 반품 받게 되었고, 이는 계약에서 기대하는 바를 실질적으로 박탈하는 본질적 계약위반에 해당한다.\">","h":"<span class=\"cs-exam\">제9회 변시 문제3</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>본질적 계약위반</strong> — 乙의 물품적합성 위반으로 甲은 丙으로부터 은괴를 모두 반품 받게 되었고, 이는 계약에서 기대하는 바를 실질적으로 박탈하는 본질적 계약위반에 해당한다.</span>","k":"2kgmzp"},
  {"i":"국거UN08-018","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅳ. 본질적 계약위반&lt;/strong&gt;&lt;br&gt;조문 : 상대방이 기대할 수 있는 바를 실질적으로 박탈할 정도의 손실(제25조).&lt;br&gt;법리 : 물품의 중대한 부적합, 신용장개설 불이행 등은 본질적 계약위반에 해당한다.&lt;br&gt;사안 : 乙의 희토류 인도부분의 불이행은 상대방이 기대할 수 있는 바를 실질적으로 박탈할 정도의 손실을 주는 것이므로, 본질적 계약위반에 해당한다.\">","h":"<span class=\"cs-exam\">제9회 변시 문제4</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>본질적 계약위반</strong> — 乙의 희토류 인도부분의 불이행은 상대방이 기대할 수 있는 바를 실질적으로 박탈할 정도의 손실을 주는 것이므로, 본질적 계약위반에 해당한다.</span>","k":"180cph5"},
- {"i":"국거UN08-019","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅳ. 본질적 계약위반&lt;/strong&gt;&lt;br&gt;조문 : 상대방이 기대할 수 있는 바를 실질적으로 박탈할 정도의 손실을 주는 것(제25조).&lt;br&gt;법리 : 물품의 중대한 부적합, 신용장개설 불이행 등은 본질적 계약위반에 해당한다.&lt;br&gt;사안의 경우 : 甲이 2020. 11. 1.에 1차 인도한 1,000대 중 100대에 한하여 본질적 계약위반에 해당하고, 甲 2020. 11.10.에 2大卜 인도한 2,000대의 휴대전화는 본질적 계약위반이 없다.\">","h":"<span class=\"cs-exam\">제10회 변시 문제3-가</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>본질적 계약위반</strong> — 甲이 2020. 11. 1.에 1차 인도한 1,000대 중 100대에 한하여 본질적 계약위반에 해당하고, 甲 2020. 11.10.에 2大卜 인도한 2,000대의 휴대전화는 본질적 계약위반이 없다.</span>","k":"1tlw4h0"},
+ {"i":"국거UN08-n010","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅳ. 본질적 계약위반&lt;/strong&gt;&lt;br&gt;조문 : 상대방이 기대할 수 있는 바를 실질적으로 박탈할 정도의 손실을 주는 것(제25조).&lt;br&gt;법리 : 물품의 중대한 부적합, 신용장개설 불이행 등은 본질적 계약위반에 해당한다.&lt;br&gt;사안의 경우 : 甲이 2020. 11. 1.에 1차 인도한 1,000대 중 100대에 한하여 본질적 계약위반에 해당하고, 甲 2020. 11.10.에 2차 인도한 2,000대의 휴대전화는 본질적 계약위반이 없다.\">","h":"<span class=\"cs-exam\">제10회 변시 문제3-가</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>본질적 계약위반</strong> — 甲이 2020. 11. 1.에 1차 인도한 1,000대 중 100대에 한하여 본질적 계약위반에 해당하고, 甲 2020. 11.10.에 2차 인도한 2,000대의 휴대전화는 본질적 계약위반이 없다.</span>","k":"b51fjr"},
  {"i":"국거UN08-020","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅳ. 본질적 계약위반&lt;/strong&gt;&lt;br&gt;조문 : 상대방이 기대할 수 있는 바를 실질적으로 박탈할 정도의 손실(제25조).&lt;br&gt;법리 : 물품의 중대한 부적합, 신용장개설 불이행 등은 본질적 계약위반에 해당한다.&lt;br&gt;사안 : 乙의 신용장 미개설은 대금의 지급이라는 본 계약에서 기대할 수 있는 바를 실질적으로 박탈하는 정도의 손실을 주므로 본질적 계약위반에 해당한다.\">","h":"<span class=\"cs-exam\">제11회 변시 문제3-가</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>본질적 계약위반</strong> — 乙의 신용장 미개설은 대금의 지급이라는 본 계약에서 기대할 수 있는 바를 실질적으로 박탈하는 정도의 손실을 주므로 본질적 계약위반에 해당한다.</span>","k":"1v5a35c"},
  {"i":"국거UN08-021","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅳ. 본질적 계약위반&lt;/strong&gt;&lt;br&gt;조문 : 상대방이 기대할 수 있는 바를 실질적으로 박탈할 정도의 손실(제25조).&lt;br&gt;법리 : 물품의 중대한 부적합, 신용장개설 불이행 등은 본질적 계약위반에 해당한다.&lt;br&gt;사안 : 3% 이내의 전력손실은 사업성 확보의 중요한 요소이므로 乙의 물품적합성 위반은 계약에서 기대하는 바를 실질적으로 박탈하는 본질적 계약위반에 해당한다.\">","h":"<span class=\"cs-exam\">제12회 변시 문제2</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>본질적 계약위반</strong> — 3% 이내의 전력손실은 사업성 확보의 중요한 요소이므로 乙의 물품적합성 위반은 계약에서 기대하는 바를 실질적으로 박탈하는 본질적 계약위반에 해당한다.</span>","k":"oez0jh"},
  {"i":"국거UN08-022","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅲ. 본질적 계약위반&lt;/strong&gt;&lt;br&gt;조문 : 상대방이 기대할 수 있는 바를 실질적으로 박탈할 정도의 손실(제25조).&lt;br&gt;법리 : 물품의 중대한 부적합, 신용장개설 불이행 =은 본질적 계약위반에 해당한다.&lt;br&gt;사안 : 중국정부의 대만해협 봉쇄조치로 대만으로부터 물품운송이 불가능한 상황이고, 이는 계약에서 기대하는 바를 실질적으로 박탈하는 본질적 계약위반에 해당한다.\">","h":"<span class=\"cs-exam\">제12회 변시 문제4</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>본질적 계약위반</strong> — 중국정부의 대만해협 봉쇄조치로 대만으로부터 물품운송이 불가능한 상황이고, 이는 계약에서 기대하는 바를 실질적으로 박탈하는 본질적 계약위반에 해당한다.</span>","k":"1b1bhu9"},
@@ -28,7 +28,7 @@
  {"i":"국거UN08-026","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅱ. 계약해제의 방법","k":"1relxzz"},
  {"i":"국거UN08-027","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거UN08-028","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제26조(계약해제의 방법)</strong>","k":"1flryzd"},
-  {"i":"국거UN08-029","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"계약해제의 의사표시는 상대방에 대한 통지로 행하여진 경우에만 효력이 있다.","k":"16omsoi"}
+  {"i":"국거UN08-n011","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"계약해제의 의사표시는 상대방에 대한 통지로 행하여진 경우에만 효력이 있다<span class=\"cs-stat\">(제한적)</span>.","k":"iysfma"}
  ]},
  {"i":"국거UN08-030","o":"<div class=\"cs-h\" data-lv=\"3\">","h":"기출 적용 (실전답안)","k":"19x1u2l"},
  {"i":"국거UN08-031","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"사안의 경우 : A는 B에게 합리적인 기간 내(제49조 제2항) 계약해제 의사표시를 통지하여(제26조) 계약을 해제할 수 있다.\">","h":"<span class=\"cs-exam\">제1회 변시 문제2</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\">A는 B에게 합리적인 기간 내(제49조 제2항) 계약해제 의사표시를 통지하여(제26조) 계약을 해제할 수 있다.</span>","k":"1xl0s6c"},
@@ -47,9 +47,8 @@
  {"i":"국거UN08-044","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅲ. 통신의 지연·오류 및 부도달","k":"1orrtaw"},
  {"i":"국거UN08-045","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거UN08-046","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제27조(통신의 지연·오류 및 부도달)</strong>","k":"1q5up4s"},
-  {"i":"국거UN08-047","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"이 협약 제3편에 별도의 명시규정이 있는 경우를 제외하고, 당사자가 이 협약 제3편에 따라 상황에 맞는 적절한 방법으로 통지, 청구 그 밖의 통신을 한 경우에, 당사자는 통신의 전달 중에 지연이나 오류가 있거나 또는 통신이 도달되지 아니하더라도 그 통신을 주장할 권리를 상실하지 아니한다.","k":"1r9ux7b"}
+  {"i":"국거UN08-n012","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"이 협약 제3편<span class=\"cs-stat\">(물품의 매매)</span>에 별도의 명시규정이 있는 경우를 제외하고, 당사자가 이 협약 제3편<span class=\"cs-stat\">(물품의 매매)</span>에 따라 상황에 맞는 적절한 방법으로 통지, 청구 그 밖의 통신을 한 경우에, 당사자는 통신의 전달 중에 지연이나 오류가 있거나 또는 통신이 도달되지 아니하더라도 그 통신을 주장할 권리를 상실하지 아니한다.","k":"1ksvzzr"}
  ]},
- {"i":"국거UN08-048","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> 8. [총칙] 불醬의 매매","k":"1k2th4h"},
  {"i":"국거UN08-049","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅳ. 특정이행 - 강제이행","k":"b3oww0"},
  {"i":"국거UN08-050","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거UN08-051","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제28조(특정이행 - 강제이행)</strong>","k":"kmpg16"},
@@ -59,10 +58,18 @@
  {"i":"국거UN08-054","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거UN08-055","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제29조(계약의 변경·종료 - 계약 성립 후)</strong>","k":"k0x999"},
   {"i":"국거UN08-056","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(1) 계약은 당사자의 합의만으로 변경 또는 종료될 수 있다.","k":"18y519i"},
-  {"i":"국거UN08-n003","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(2) 서면에 의한 계약에 합의에 의한 변경 또는 종료는 서면에 의하여야 한다는 규정이 있는 경우에, 다른 방법으로 합의 변경 또는 합의 종료될 수 없다. 다만, 당사자는 상대방이 자신의 행동을 신뢰한 한도까지는 그러한 규정을 원용할 수 없다.","k":"1bv5gjn"}
+  {"i":"국거UN08-n013","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(2) 서면에 의한 계약에 합의에 의한 변경 또는 종료는 서면에 의하여야 한다는 규정이 있는 경우에, 다른 방법으로 합의 변경 또는 합의 종료될 수 없다. 다만, 당사자는 상대방이 자신의 행동을 신뢰한 한도까지는 그러한 규정을 원용할 수 없다<span class=\"cs-stat\">(행위에 의한 금반언)</span>.","k":"8455tf"}
  ]},
  {"i":"국거UN08-n004","o":"<div class=\"cs-h\" data-lv=\"3\">","h":"기출 적용 (실전답안)","k":"19x1u2l"},
  {"i":"국거UN08-n006","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅱ. 계약의 변경&lt;/strong&gt;&lt;br&gt;조문 : 당사자의 합의에 의한 계약의 변경 종료(제29조 제1항), 서면의 방식(제29조 제2항).&lt;br&gt;사안의 경우 : 甲과 乙의 매매계약은 서면에 의한 계약이 아니므로, 제29조 제1항이 적용되어 당사자 간의 합의만으로 변경될 수 있으나, 상대방의 동의가 필요하다.\">","h":"<span class=\"cs-exam\">제5회 변시 문제2</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>계약의 변경</strong> — 甲과 乙의 매매계약은 서면에 의한 계약이 아니므로, 제29조 제1항이 적용되어 당사자 간의 합의만으로 변경될 수 있으나, 상대방의 동의가 필요하다.</span>","k":"1xt4ucc"},
+ {"i":"국거UN08-003","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN08-004","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN08-005","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN08-019","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN08-029","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN08-047","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN08-048","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN08-n003","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거UN08-n005","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거UN08-012","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거UN08-040","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},

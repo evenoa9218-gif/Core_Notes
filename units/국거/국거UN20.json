@@ -2,11 +2,13 @@
  {"i":"국거UN20-n001","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅰ. 불출의 일부 불이행·부적합","k":"1q0rqmp"},
  {"i":"국거UN20-002","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거UN20-003","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제51조(물품의 일부 불이행·부적합) + 제45조(근거규정)</strong>","k":"sxdzck"},
-  {"i":"국거UN20-004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(1) 매도인이 물품의 일부만을 인도하거나 인도된 물품의 일부만이 계약에 적합한 경우에, 제46조 내지 제50조는 부족 또는 부적합한 부분에 적용된다.","k":"4f0mn9"},
-  {"i":"국거UN20-005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(2) 매수인은 인도가 완전하게 또는 계약에 적합하게 이루어지지 아니한 것이 본질적 계약위반으로 되는 경우에 한하여 계약 전체를 해제할 수 있다.","k":"1l65wsu"}
+  {"i":"국거UN20-n004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(1) 매도인이 물품의 일부만을 인도하거나 인도된 물품의 일부만이 계약에 적합한 경우에, 제46조 내지 제50조<span class=\"cs-stat\">(이상, “매도인의 계약위반에 대한 구제”)</span>는 부족 또는 부적합한 부분에 적용된다.","k":"1vnvvt1"},
+  {"i":"국거UN20-n005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(2) 매수인은 인도가 완전하게 또는 계약에 적합하게 이루어지지 아니한 것이 본질적 계약위반으로 되는 경우에 한하여 계약 전체를 해제<span class=\"cs-stat\">(제49조, 제45조)</span>할 수 있다.<span class=\"cs-stat\">(제25조)</span>","k":"29w1tx"}
  ]},
  {"i":"국거UN20-006","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> * [실전답안] 구성상 조문 순서 변경","k":"khcawx"},
  {"i":"국거UN20-n003","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\">답안</span> <strong>법리</strong> : 물품의 일부 불이행·부적합이 본질적 계약위반(제25조)가 되는 경우, 그 일부에 대하여 계약해제가 가능하다.","k":"13qizs0"},
+ {"i":"국거UN20-004","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN20-005","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거UN20-n002","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거UN20-001","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거UN20-009","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},

@@ -2,8 +2,9 @@
  {"i":"국거UN14-n001","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅰ. 매도인의 악의","k":"4smhyu"},
  {"i":"국거UN14-002","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거UN14-003","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제40조(매도인의 악의)</strong>","k":"1irexip"},
-  {"i":"국거UN14-n002","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"물품의 부적합이 매도인이 알았거나 모를 수 없었던 사실에 관한 것이고, 매도인이 매수인에게 이를 밝히지 아니한 경우에는, 매도인은 제38조와 제39조를 원용할 수 없다.","k":"13fwqz8"}
+  {"i":"국거UN14-n003","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"물품의 부적합이 매도인이 알았거나 모를 수 없었던 사실에 관한 것이고, 매도인이 매수인에게 이를 밝히지 아니한 경우에는, 매도인은 제38조<span class=\"cs-stat\">(물품검사의무)</span>와 제39조<span class=\"cs-stat\">(하자통지의무)</span>를 원용할 수 없다.","k":"1nlf5n5"}
  ]},
+ {"i":"국거UN14-n002","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거UN14-004","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거UN14-001","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"}
 ]}

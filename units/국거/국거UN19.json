@@ -4,14 +4,18 @@
   {"i":"국거UN19-003","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제49조(계약해제권) + 제45조(근거규정) + 제25조(본질적 계약위반)</strong>","k":"3g2xv3"},
   {"i":"국거UN19-004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(1) 매수인은 다음의 경우에 계약을 해제할 수 있다.","k":"11v01kj"},
   {"i":"국거UN19-005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(가) 계약 또는 이 협약상 매도인의 의무 불이행이 본질적 계약위반으로 되는 경우","k":"cqkvko"},
-  {"i":"국거UN19-006","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(나) 인도 불이행의 경우에는, 매도인이 제47조 제1항에 따라 매수인이 정한 부가기간 내에 물품을 인도하지 아니하거나 그 기간 내에 인도하지 아니하겠다고 선언한 경우.","k":"3hxgml"},
-  {"i":"국거UN19-007","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(2) 그러나 매도인이 물품을 인도한 경우에는, 매수인은 다음의 기간 내에 계약을 해제하지 아니하는 한 계약해제권을 상실한다.","k":"qzj6cc"},
+  {"i":"국거UN19-n001","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(나) 인도 불이행의 경우에는, 매도인이 제47조<span class=\"cs-stat\">(부가기간지정권)</span> 제1항에 따라 매수인이 정한 부가기간 내에 물품을 인도하지 아니하거나 그 기간 내에 인도하지 아니하겠다고 선언한 경우.","k":"21zxup"},
+  {"i":"국거UN19-n002","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(2) 그러나 매도인이 물품을 인도한 경우에는, 매수인은 다음의 기간 내에 계약을 해제하지 아니하는 한 계약해제권을 상실한다<span class=\"cs-stat\">(매도인의 계약해제권 상실사유)</span>.","k":"103ppxl"},
   {"i":"국거UN19-008","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(가) 인도지체의 경우, 매수인이 인도가 이루어진 것을 안 후 합리적인 기간 내","k":"1qypts2"},
   {"i":"국거UN19-009","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(나) 인도지체 이외의 위반의 경우, 다음의 시기로부터 합리적인 기간 내","k":"t2ww2x"},
   {"i":"국거UN19-010","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(1) 매수인이 그 위반을 알았거나 또는 알 수 있었던 때","k":"16utgv1"},
-  {"i":"국거UN19-011","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(2) 매수인이 제47조 제1항에 따라 정한 부가기간이 경과한 때 또는 매도인이 그 부가기간 내에 의무를 이행하지 아니하겠다고 선언한 때.","k":"1cs2sha"},
-  {"i":"국거UN19-012","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(3) 매도인이 제48조 제2항에 따라 정한 부가기간이 경과한 때 또는 매수인이 이행을 수령하지 아니하겠다고 선언한 때","k":"10gztxs"}
+  {"i":"국거UN19-n003","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(2) 매수인이 제47조<span class=\"cs-stat\">(부가기간지정권)</span> 제1항에 따라 정한 부가기간이 경과한 때 또는 매도인이 그 부가기간 내에 의무를 이행하지 아니하겠다고 선언한 때.","k":"k7o5nm"},
+  {"i":"국거UN19-n004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"(3) 매도인이 제48조<span class=\"cs-stat\">(매도인의 하자보완권)</span> 제2항에 따라 정한 부가기간이 경과한 때 또는 매수인이 이행을 수령하지 아니하겠다고 선언한 때","k":"1x8y8qt"}
  ]},
  {"i":"국거UN19-013","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"<span class=\"cs-glabel\">메모</span> + 제26조(계약해제의 방법) + 제81조 ~ 제84조(해제의 효력)","k":"tcuaea"},
- {"i":"국거UN19-014","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\">답안</span> <strong>법리</strong> : 매도인 또는 매수인의 의무 불이행이 본질적 계약위반(제25조)가 되는 경우, 상대방에 대한 통지(제26조)로서 계약을 해제할 수 있다.","k":"1o4z5ci"}
+ {"i":"국거UN19-014","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\">답안</span> <strong>법리</strong> : 매도인 또는 매수인의 의무 불이행이 본질적 계약위반(제25조)가 되는 경우, 상대방에 대한 통지(제26조)로서 계약을 해제할 수 있다.","k":"1o4z5ci"},
+ {"i":"국거UN19-006","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN19-007","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN19-011","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거UN19-012","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"}
 ]}

@@ -14,10 +14,12 @@
   {"i":"국거사24-014","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"1. 침해행위를 대한민국에서 한 경우","k":"nw28dj"},
   {"i":"국거사24-015","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"2. 침해의 결과가 대한민국에서 발생한 경우","k":"14oxxc0"},
   {"i":"국거사24-016","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"3. 침해행위를 대한민국을 향하여 한 경우","k":"hdnq70"},
-  {"i":"국거사24-017","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 제1항에 따라 소를 제기하는 경우 제6조제1항을 적용하지 아니한다.","k":"3syrap"},
+  {"i":"국거사24-n006","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 제1항에 따라 소를 제기하는 경우 제6조제1항<span class=\"cs-stat\">(관련사건의 관할)</span>을 적용하지 아니한다.","k":"3yvw60"},
   {"i":"국거사24-018","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"③ 제1항 및 제2항에도 불구하고 지식재산권에 대한 주된 침해행위가 대한민국에서 일어난 경우에는 외국에서 발생하는 결과를 포함하여 침해행위로 인한 모든 결과에 관한 소를 법원에 제기할 수 있다.","k":"nxh6x5"},
-  {"i":"국거사24-n005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"④ 제1항 및 제3항에 따라 소를 제기하는 경우 제44조를 적용하지 아니한다.","k":"ycmunk"}
+  {"i":"국거사24-n007","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"④ 제1항 및 제3항에 따라 소를 제기하는 경우 제44조<span class=\"cs-stat\">(불법행위에 관한 소의 특별관할)</span>를 적용하지 아니한다.","k":"p8ock"}
  ]},
+ {"i":"국거사24-017","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사24-n005","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거사24-019","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거사24-001","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거사24-002","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},

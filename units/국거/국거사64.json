@@ -2,7 +2,7 @@
  {"i":"국거사64-n001","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅰ. 선박소유자 등의 책임제한사건의 관할","k":"lelgzu"},
  {"i":"국거사64-003","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거사64-n002","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제89조(선박소유자등의 책임제한사건의 관할) 〔개정 조문〕</strong>","k":"9r2w08"},
-  {"i":"국거사64-005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"선박소유자ㆍ용선자(傭船者)ㆍ선박관리인ㆍ선박운항자, 그 밖의 선박사용인(이하 “선박소유자등”이라 한다)의 책임제한사건에 대해서는 다음 각 호의 어느 하나에 해당하는 곳이 대한민국에 있는 경우에만 법원에 국제재판관할이 있다.","k":"mdmfbf"},
+  {"i":"국거사64-n006","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"선박소유자ㆍ용선자(傭船者)ㆍ선박관리인ㆍ선박운항자, 그 밖의 선박사용인(이하 “선박소유자등”이라 한다)의 책임제한사건에 대해서는 다음 각 호의 어느 하나에 해당하는 곳이 대한민국에 있는 경우에만 법원에 국제재판관할이 있다<span class=\"cs-stat\">(제한적)</span>.","k":"hexv63"},
   {"i":"국거사64-006","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"1. 선박소유자등의 책임제한을 할 수 있는 채권(이하 “제한채권”이라 한다)이 발생한 선박의 선적(船籍)이 있는 곳","k":"12zugdo"},
   {"i":"국거사64-007","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"2. 신청인인 선박소유자등에 대하여 제3조에 따른 일반관할이 인정되는 곳","k":"d0kd71"},
   {"i":"국거사64-008","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"3. 사고발생지(사고로 인한 결과 발생지를 포함한다)","k":"qzb6zx"},
@@ -12,13 +12,16 @@
  ]},
  {"i":"국거사64-012","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거사64-013","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제13조(적용 제외)</strong>","k":"1ucm752"},
-  {"i":"국거사64-014","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"제24조, 제56조부터 제59조까지, 제61조, 제62조, 제76조제4항 및 제89조에 따라 국제재판관할이 정하여지는 사건에는 제8조 및 제9조를 적용하지 아니한다.","k":"v21egx"}
+  {"i":"국거사64-n007","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"제24조, 제56조부터 제59조까지, 제61조, 제62조, 제76조제4항 및 제89조에 따라 국제재판관할이 정하여지는 사건에는 제8조 및 제9조<span class=\"cs-stat\">(변론관할)</span>를 적용하지 아니한다.<span class=\"cs-stat\">(합의관할)</span>","k":"188wqog"}
  ]},
  {"i":"국거사64-n003","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅱ. 선박 또는 항해에 관한 소의 특별관할","k":"11gvirr"},
  {"i":"국거사64-017","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거사64-n004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제90조(선박 또는 항해에 관한 소의 특별관할) 〔개정 조문〕</strong>","k":"abkd1o"},
-  {"i":"국거사64-n005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"선박소유자등에 대한 선박 또는 항해에 관한 소는 선박이 압류등이 된 곳이 대한민국에 있는 경우 법원에 제기할 수 있다.","k":"1e3mbdc"}
+  {"i":"국거사64-n008","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"선박소유자등에 대한 선박 또는 항해에 관한 소는 선박이 압류등이 된 곳이 대한민국에 있는 경우 법원에 제기할 수 있다<span class=\"cs-stat\">(제한적)</span>.","k":"1u7x29c"}
  ]},
+ {"i":"국거사64-005","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사64-014","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사64-n005","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거사64-019","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거사64-001","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거사64-002","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},

@@ -2,8 +2,8 @@
  {"i":"국거사49-001","o":"<div class=\"cs-h\" data-lv=\"2\">","h":"Ⅰ. 혼인 성립의 준거법","k":"mt0yqm"},
  {"i":"국거사49-002","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거사49-003","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제63조(혼인의 성립)</strong>","k":"j18zel"},
-  {"i":"국거사49-004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 혼인의 성립요건은 각 당사자에 관하여 그 본국법에 따른다.","k":"xx9w73"},
-  {"i":"국거사49-005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 혼인의 방식은 혼인을 한 곳의 법 또는 당사자 중 한쪽의 본국법에 따른다. 다만, 대한민국에서 혼인을 하는 경우에 당사자 중 한쪽이 대한민국 국민인 때에는 대한민국 법에 따른다.","k":"1ua41s6"}
+  {"i":"국거사49-n011","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"① 혼인의 성립요건은 각 당사자에 관하여 그 본국법에 따른다<span class=\"cs-stat\">(실질적 성립요건)</span>.","k":"1ibvhzz"},
+  {"i":"국거사49-n012","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"② 혼인의 방식은 혼인을 한 곳의 법 또는 당사자 중 한쪽의 본국법에 따른다. 다만, 대한민국에서 혼인을 하는 경우에 당사자 중 한쪽이 대한민국 국민인 때에는 대한민국 법에 따른다<span class=\"cs-stat\">(형식적 성립요건)</span>.","k":"79x1ky"}
  ]},
  {"i":"국거사49-006","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<strong>판례</strong> <span class=\"cs-stat\">(96도2049)</span>","k":"1x6m71s"},
  {"i":"국거사49-007","o":"<div class=\"cs-li\" style=\"margin-left:16px\">","h":"국제사법 제63조 제2항에 의하면 혼인의 방식은 혼인거행지의 법에 의하도록 되어 있기는 하나, 같은 법 제63조 제1항은 혼인의 성립요건은 각 당사자에 관하여 그 본국법에 의하여 정한다고 규정하고 있으므되 이 사건 혼인이 중국에서 중국의 방식에 의하여 성립되었다 하더라도 혼인의 실질적 성립요건을 구비한 것으로서 유효한지 여부는 부부인 피고인들의본국법인 대한민국 법에 의하여 정하여져야 할 것이다.","k":"1f0f10p"},
@@ -53,6 +53,8 @@
  {"i":"국거사49-n007","o":"<div class=\"cs-li cs-bul\" style=\"margin-left:0px\">","h":"<span class=\"cs-glabel\">답안</span> <strong>법리</strong> : 재산분할은 이혼에 부수하여 부부간의 재산관계를 조정하는 것으로, 부부재산제의청산이 아니라 이혼의 재산적 효력의 문제이므로, 이혼의 준거법인 국제사법 제66 조를 적용한다.","k":"1tyhx5n"},
  {"i":"국거사49-n008","o":"<div class=\"cs-h\" data-lv=\"3\">","h":"기출 적용 (실전답안)","k":"19x1u2l"},
  {"i":"국거사49-n010","o":"<div class=\"cs-li cs-sum\" style=\"margin-left:0px\" data-orig=\"&lt;strong&gt;Ⅱ. 재산분할의 준거법&lt;/strong&gt;&lt;br&gt;조문 : 이혼의 준거법인 제64조를 준용(제66조 본문), 내국인의 국적관할의 인정(제66조 단서)&lt;br&gt;법리 : 재산분할은 이혼에 부수하여 부부간의 재산관계를 조정하는 것으로, 부부재산제의 청산이 아니라 이혼의 재산적 효력의 문제이므로, 이혼의 준거법인 국제사법 제66조를 적용한다.&lt;br&gt;사안의 경우 : 甲과 乙의 재산분할청구는 이혼에 관한 국제사법 제66조를 적용하여야 하고, 제66조 단서에서 부부 중 한쪽이 A국에 일상거소가 있는 A국 국민일 경우 A국 법을 따르게 되는데 乙은 A국 국민이고 별거를 결심하고 A국으로 돌아와 부모와 함께 생활하고 있으므로 단서가 적용되어 &quot;A국법”이 준거법이 된다.\">","h":"<span class=\"cs-exam\">제3회 변시 문제1-가</span> <span class=\"cs-ob\"></span><span class=\"cs-sl cs-sb\"><strong>재산분할의 준거법</strong> — 제66조 단서에서 부부 중 한쪽이 A국에 일상거소가 있는 A국 국민일 경우 A국 법을 따르게 되는데 乙은 A국 국민이고 별거를 결심하고 A국으로 돌아와 부모와 함께 생활하고 있으므로 단서가 적용되어 \"A국법”이 준거법이 된다.</span>","k":"6wfg2b"},
+ {"i":"국거사49-004","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
+ {"i":"국거사49-005","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거사49-n009","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거사49-013","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거사49-014","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},

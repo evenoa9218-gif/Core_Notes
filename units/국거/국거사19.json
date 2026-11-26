@@ -11,8 +11,9 @@
  ]},
  {"i":"국거사19-011","o":"<div class=\"cs-callout\">","b":[
   {"i":"국거사19-012","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"<strong>제13조(적용 제외)</strong>","k":"1ucm752"},
-  {"i":"국거사19-n004","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"제24조, 제56조부터 제59조까지, 제61조, 제62조, 제76조제4항 및 제89조에 따라 국제재판관할이 정하여지는 사건에는 제8조 및 제9조를 적용하지 아니한다.","k":"v21egx"}
+  {"i":"국거사19-n005","o":"<div class=\"cs-li\" style=\"margin-left:0px\">","h":"제24조, 제56조부터 제59조까지, 제61조, 제62조, 제76조제4항 및 제89조에 따라 국제재판관할이 정하여지는 사건에는 제8조 및 제9조<span class=\"cs-stat\">(변론관할)</span>를 적용하지 아니한다.<span class=\"cs-stat\">(합의관할)</span>","k":"188wqog"}
  ]},
+ {"i":"국거사19-n004","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거사19-n003","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거사19-001","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
  {"i":"국거사19-002","o":"<div class=\"cs-li\" style=\"display:none\">","h":"","k":"45h"},
