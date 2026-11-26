@@ -30,7 +30,8 @@ document.documentElement.dataset.nav = innerWidth > 760 ? '1' : '0';
 try{
   document.documentElement.dataset.fs = localStorage.getItem('lawmj_fs') || 'm';
   document.documentElement.dataset.lh = localStorage.getItem('lawmj_lh') || 'm';
-}catch(e){ document.documentElement.dataset.fs='m'; document.documentElement.dataset.lh='m'; }
+  document.documentElement.dataset.autorun = localStorage.getItem('lawmj_autorun') || 'on';
+}catch(e){ document.documentElement.dataset.autorun='on'; document.documentElement.dataset.fs='m'; document.documentElement.dataset.lh='m'; }
 /* React 를 저장소 사본으로 돌린다 — CDN 이 막히거나 오프라인이어도 앱이 뜬다.
    support.js 의 cdnScriptFor() 가 이 표를 먼저 본다. 파일은 unpkg 원본과
    sha384 가 일치함을 확인하고 받아둔 것. */
@@ -380,7 +381,8 @@ mark.q-hit{background:var(--q-bg);color:var(--q-ink);border-radius:3px;padding:0
 html[data-theme="light"] .q-setbtn[data-k="theme-light"],
 html[data-theme="dark"]  .q-setbtn[data-k="theme-dark"],
 html[data-fs="s"] .q-setbtn[data-k="fs-s"], html[data-fs="m"] .q-setbtn[data-k="fs-m"], html[data-fs="l"] .q-setbtn[data-k="fs-l"],
-html[data-lh="s"] .q-setbtn[data-k="lh-s"], html[data-lh="m"] .q-setbtn[data-k="lh-m"], html[data-lh="l"] .q-setbtn[data-k="lh-l"]
+html[data-lh="s"] .q-setbtn[data-k="lh-s"], html[data-lh="m"] .q-setbtn[data-k="lh-m"], html[data-lh="l"] .q-setbtn[data-k="lh-l"],
+html[data-autorun="on"] .q-setbtn[data-k="autorun-on"], html[data-autorun="off"] .q-setbtn[data-k="autorun-off"]
 {background:var(--accent-soft);border-color:transparent;color:var(--accent-ink);font-weight:700}
 @media (max-width:760px) and (pointer:coarse){ .q-setbtn{min-height:40px} .q-gear{min-height:40px;min-width:40px} }
 .q-navtoggle{display:none;margin-left:auto;padding:6px 10px;border-radius:8px;background:var(--chip);border:1px solid var(--line-09);font:600 11px Pretendard,sans-serif;color:var(--ink-soft);cursor:pointer;white-space:nowrap;align-items:center;flex:none}
@@ -727,6 +729,10 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div role="button" tabIndex="0" class="q-setbtn" data-k="lh-s" onClick="{{ lhS }}">좁게</div>
 <div role="button" tabIndex="0" class="q-setbtn" data-k="lh-m" onClick="{{ lhM }}">보통</div>
 <div role="button" tabIndex="0" class="q-setbtn" data-k="lh-l" onClick="{{ lhL }}">넓게</div>
+</div></div>
+<div class="q-setrow"><div class="q-setlabel">읽기 타이머</div><div class="q-setbtns">
+<div role="button" tabIndex="0" class="q-setbtn" data-k="autorun-on" title="단원을 열면 그 단원 분량으로 타이머가 바로 돕니다" onClick="{{ autoOn }}">자동 시작</div>
+<div role="button" tabIndex="0" class="q-setbtn" data-k="autorun-off" title="「읽기 시작」을 눌러야 돕니다" onClick="{{ autoOff }}">직접 시작</div>
 </div></div>
 </div>
 </sc-if>
@@ -3358,6 +3364,16 @@ class Component extends DCLogic {
         if (this.state.cardAt) this.setState({ cardAt: 0 });
       }
     }
+    // 단원을 새로 열면 읽기 타이머를 저절로 켠다(설정 「자동 시작」일 때). 자료가 와서 카드가 잡힌 뒤에만 —
+    // 그 전에 「열었다」고 적어 두면 자료가 늦게 오는 첫 단원은 영영 안 켜진다.
+    {
+      const s2 = this.state;
+      if (s2.view === 'page' && s2.chapter && !s2.mark && this._canAuto && this._autoFor !== s2.chapter) {
+        this._autoFor = s2.chapter;
+        const on = document.documentElement.dataset.autorun !== 'off';
+        if (on && !RUN.get() && !this._jumpKey) setTimeout(() => this.autoSession(), 0);
+      } else if (s2.view !== 'page') this._autoFor = null;
+    }
     // ⚠ 아래 다섯은 **되돌아온 경우에도** 돌아야 한다. 본문은 다시 그려질 때마다
     //   통째로 갈아 끼워지므로, 여기서 다시 입히지 않으면 뒤로가기로 들어간 단원에는
     //   체크 3단추도 고치기도 붙지 않는다(기록을 쌓는 일만 되돌림에서 빼면 된다).
@@ -3602,6 +3618,20 @@ class Component extends DCLogic {
               at: Date.now(), pause: 0, done: {}, from: unit, fromAt: this.state.cardAt || 0 });
     this.setState({ cards: true, run: Date.now() }, () => window.scrollTo({ top: 0 }));
     this.tickSession();
+  }
+
+  // 자동 시작 — 로고스처럼 단원(묶음)을 열면 묻지 않고 바로 돈다. 목표는 이 단원에 남은 장 수,
+  // 제한 시간은 실측 속도로 환산된다(RUN.goalCards·left). 끄려면 ⚙ 「읽기 타이머 → 직접 시작」.
+  autoSession() {
+    const unit = this._memoUnit;
+    if (!unit || RUN.get() || !this._canAuto) return;
+    const n = Math.max(1, (this._unitCardN || 1) - (this.state.cardAt || 0));
+    const lim = Math.max(30, Math.round(n * SESS.secPerCard()));   // 제한 시간(초) — 실측 속도로
+    RUN.set({ subj: this.state.subject, goal: 'cards', n, auto: true, lim,
+              at: Date.now(), pause: 0, done: {}, from: unit, fromAt: this.state.cardAt || 0 });
+    this.setState({ cards: true, run: Date.now() });
+    this.tickSession();
+    this.say('읽기 타이머 시작 — ' + n + '장 · 제한 ' + Math.floor(lim / 60) + '분 ' + String(lim % 60).padStart(2, '0') + '초');
   }
 
   // 1초마다 다시 그린다. 수 자체는 Date.now() 에서 빼므로 틱이 늦어도 틀리지 않는다.
@@ -4282,6 +4312,8 @@ class Component extends DCLogic {
     // ── 읽기 세션 (6단계) ─────────────────────────────────────
     const run = RUN.get();
     this._curCard = unitCards[cardNow];   // 마치기가 마지막 장을 셀 수 있게 (endSession)
+    this._unitCardN = unitCards.length;   // 자동 시작이 이 단원 분량을 목표로 잡는다
+    this._canAuto = !!crimTopic && !!(page && page.rich) && unitCards.length > 0;
     const runGoal = run ? RUN.goalCards(run) : 0;
     const runDone = run ? RUN.doneN(run) : 0;
     const mmss = s => Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0');
@@ -4500,12 +4532,14 @@ class Component extends DCLogic {
       // 돌고 있는 동안에는 숨긴다 — 다시 누르면 돌던 묶음이 말없이 덮인다. 마치기는 막대에 있다
       canRun: !!crimTopic && !!(page && page.rich) && !run,
       runOn: !!run,
-      runLabel: run ? (run.goal === 'min' ? run.n + '분 묶음' : run.n + '장 묶음') : '',
+      runLabel: run ? (run.goal === 'min' ? run.n + '분 묶음' : run.auto ? '이 단원 ' + run.n + '장' : run.n + '장 묶음') : '',
       runCount: runDone + ' / ' + runGoal + '장',
       // 목표에 닿으면 그렇다고 말해 준다. 막대만 100% 로 차 있으면 알아채지 못한다.
       runTime: !run ? ''
         : (run.goal === 'min' ? RUN.left(run) === 0 : runDone >= runGoal) ? '다 채웠다'
         : run.goal === 'min' ? mmss(RUN.left(run)) + ' 남음'
+        // 자동 묶음은 로고스처럼 제한 시간을 거꾸로 센다(장수 × 실측 속도). 넘기면 넘긴 만큼
+        : run.lim ? (RUN.sec(run) <= run.lim ? mmss(run.lim - RUN.sec(run)) + ' 남음' : '+' + mmss(RUN.sec(run) - run.lim) + ' 초과')
         : mmss(RUN.sec(run)),
       runEdge: (run && (run.goal === 'min' ? !RUN.left(run) : runDone >= runGoal))
         ? 'var(--ox-o)' : 'var(--accent)',
@@ -4554,6 +4588,7 @@ class Component extends DCLogic {
       toggleSettings: () => this.setState(s2 => ({ settings: !s2.settings })),
       setLight: () => this.setView('theme', 'light'),
       setDark: () => this.setView('theme', 'dark'),
+      autoOn: () => this.setView('autorun', 'on'), autoOff: () => this.setView('autorun', 'off'),
       fsS: () => this.setView('fs', 's'), fsM: () => this.setView('fs', 'm'), fsL: () => this.setView('fs', 'l'),
       lhS: () => this.setView('lh', 's'), lhM: () => this.setView('lh', 'm'), lhL: () => this.setView('lh', 'l'),
       toggleNav: () => { const d = document.documentElement.dataset; d.nav = d.nav === '0' ? '1' : '0'; },
