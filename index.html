@@ -740,7 +740,7 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div class="q-home-due">{{ homeDue }}</div>
 </div>
 <div class="q-home-quota">
-<div class="q-home-quota-top"><span class="q-home-quota-t">오늘 몫</span><span class="q-home-quota-v">{{ quotaTxt }}</span><span style="flex:1"></span>
+<div class="q-home-quota-top"><span class="q-home-quota-t">오늘 분량</span><span class="q-home-quota-v">{{ quotaTxt }}</span><span style="flex:1"></span>
 <span class="q-home-goal"><span style="color:var(--ink-faint)">목표</span><span role="button" tabIndex="0" class="q-home-goalbtn" aria-label="목표 회독 줄이기" onClick="{{ goalDown }}">−</span><b>{{ goalTxt }}</b><span role="button" tabIndex="0" class="q-home-goalbtn" aria-label="목표 회독 늘리기" onClick="{{ goalUp }}">+</span></span></div>
 <div class="q-home-bar"><div style="width:{{ quotaPct }}"></div></div>
 <div class="q-home-meta">{{ quotaNote }}</div>
@@ -3011,7 +3011,7 @@ const LASTBY = {
 const HOME_DIR = { 민법:'민법', 민사소송법:'민소', 최신판례:'최판', 형법:'형법', 형사소송법:'형소',
   헌법:'헌법', 행정법:'행정법', 행정법강성민:'행정법강성민', 국제거래법:'국거' };
 const TRACK_DOT = { 민사법:'#d9a3b0', 형사법:'#9dbcd4', 공법:'#8aa89c', 선택법:'#c9b27c' };
-// 목표 회독 수 — 오늘 몫의 분자. 1~5, 기본 2.
+// 목표 회독 수 — 오늘 분량의 분자. 1~5, 기본 2.
 const FINAL_DAYS = 30;   // 이 날수 안쪽이면 첫 화면에 「직전 정리」를 꺼내 둔다
 const GOAL_KEY = 'lawmj_goal_v1';
 const GOAL = {
@@ -3235,7 +3235,7 @@ class Component extends DCLogic {
       if (lr && (!newest || lr.t > newest.t)) newest = Object.assign({ track, subject, label }, lr);
       const ready = !!DATASETS[subject] && total > 0;
       const meta = !ready ? '준비 중입니다' : R + '회독 ' + pct + '% · ' + list.length + '단원';
-      // 오늘 몫 — 고른 교재만 센다(행정법은 둘 중 하나). 목표 회독까지 남은 「줄 읽기」 수
+      // 오늘 분량 — 고른 교재만 센다(행정법은 둘 중 하나). 목표 회독까지 남은 「줄 읽기」 수
       const counted = ready && (!BOOK_OF[subject]
         || ((BOOKS[BOOK_OF[subject]] || []).find(b => b.id === BOOK_PICK[BOOK_OF[subject]]) || BOOKS[BOOK_OF[subject]][0]).subject === subject);
       if (counted) {
@@ -3298,7 +3298,7 @@ class Component extends DCLogic {
       weekBars: week.map(w => ({ lab: w.lab, h: Math.round(w.n / wmax * 100) + '%', n: w.n ? fmtN(w.n) : '', today: w.k === day }))
     };
 
-    // 오늘 몫 = (지금 남은 것 + 오늘 이미 읽은 것) ÷ 남은 날. 오늘 읽은 만큼 막대가 찬다.
+    // 오늘 분량 = (지금 남은 것 + 오늘 이미 읽은 것) ÷ 남은 날. 오늘 읽은 만큼 막대가 찬다.
     const left = Math.max(1, daysLeft());
     const dayQuota = Math.ceil((quota.left + quota.today) / left);
     const qPct = dayQuota ? Math.min(100, Math.floor(quota.today / dayQuota * 100)) : 100;
