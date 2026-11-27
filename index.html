@@ -772,6 +772,9 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <sc-if value="{{ b.hasDue }}" hint-placeholder-val="{{ false }}">
 <div role="button" tabIndex="0" class="q-home-chip" title="기한이 된 O·X·빈칸을 바로 풉니다" onClick="{{ b.dueGo }}">{{ b.dueTxt }}</div>
 </sc-if>
+<sc-if value="{{ b.hasOld }}" hint-placeholder-val="{{ false }}">
+<div role="button" tabIndex="0" class="q-home-chip" title="읽은 지 14일이 지난 줄만 모아 다시 읽습니다" onClick="{{ b.oldGo }}">{{ b.oldTxt }}</div>
+</sc-if>
 <sc-if value="{{ b.hasUnk }}" hint-placeholder-val="{{ false }}">
 <div role="button" tabIndex="0" class="q-home-chip q-home-chip-x" title="? 를 찍은 줄만 모아 봅니다" onClick="{{ b.unkGo }}">{{ b.unkTxt }}</div>
 </sc-if>
@@ -3210,10 +3213,15 @@ class Component extends DCLogic {
     Object.keys(units).forEach(dir => units[dir].forEach(u => { unitDir[u] = dir; }));
     const agg = {}, day = today(), goal = GOAL.get(), daySet = {};
     const quota = { left: 0, today: 0 };
+    // 다시 읽을 줄 = 목차 「오래 봄」과 같은 기준(읽은 적 있고 마지막으로 읽은 날이 OLD_DAYS 일 전)
+    const oldCut = (() => { const c = new Date(); c.setDate(c.getDate() - OLD_DAYS);
+      return c.getFullYear() + '-' + String(c.getMonth() + 1).padStart(2, '0') + '-' + String(c.getDate()).padStart(2, '0'); })();
     Object.keys(blk).forEach(b => {
       const r = blk[b], dir = r && unitDir[r.u];
       if (!dir) return;
-      const a = agg[dir] || (agg[dir] = { cnt: [], unk: 0, star: 0, today: 0 });
+      const a = agg[dir] || (agg[dir] = { cnt: [], unk: 0, star: 0, today: 0, old: 0 });
+      const lastRead = (r.d || []).slice().sort().pop();
+      if ((r.n || 0) >= 1 && lastRead && lastRead < oldCut) a.old++;
       for (let k = 1; k <= Math.min(r.n || 0, 9); k++) a.cnt[k] = (a.cnt[k] || 0) + 1;
       if (r.m === '?') a.unk++;
       if (r.m === '★') a.star++;
@@ -3227,11 +3235,11 @@ class Component extends DCLogic {
       const due = r.due || ((r.t || 0) + (r.ok ? 3 : 1) * DAY);
       return due <= now ? n + 1 : n;
     }, 0);
-    let dueAll = 0, newest = null;
+    let dueAll = 0, oldAll = 0, newest = null;
     const bookOf = (track, subject, label) => {
       const dir = HOME_DIR[subject], list = (dir && units[dir]) || [];
       const total = list.reduce((n, u) => n + (N[u] || 0), 0);
-      const a = agg[dir] || { cnt: [], unk: 0 };
+      const a = agg[dir] || { cnt: [], unk: 0, old: 0 };
       let R = 1;
       while (R < 9 && total && (a.cnt[R] || 0) >= total) R++;
       const pct = total ? Math.floor((a.cnt[R] || 0) / total * 100) : 0;
@@ -3240,6 +3248,7 @@ class Component extends DCLogic {
       const lr = last[subject];
       if (lr && (!newest || lr.t > newest.t)) newest = Object.assign({ track, subject, label }, lr);
       const ready = !!DATASETS[subject] && total > 0;
+      if (ready) oldAll += a.old || 0;
       const meta = !ready ? '준비 중입니다' : R + '회독 ' + pct + '% · ' + list.length + '단원';
       // 오늘 분량 — 고른 교재만 센다(행정법은 둘 중 하나). 목표 회독까지 남은 「줄 읽기」 수
       const counted = ready && (!BOOK_OF[subject]
@@ -3254,6 +3263,9 @@ class Component extends DCLogic {
         lastTitle: lr ? lr.title : '',
         hasDue: ready && due > 0, dueTxt: '복습 ' + due,
         dueGo: e => { if (e) e.stopPropagation(); go(track, subject, { autoDue: true }); },
+        // 내용 복습 — 읽은 지 OLD_DAYS 일 지난 줄. 누르면 목차 「오래 봄」 모아보기
+        hasOld: ready && (a.old || 0) > 0, oldTxt: '다시 읽기 ' + (a.old || 0),
+        oldGo: e => { if (e) e.stopPropagation(); go(track, subject, { mark: 'my-old' }); },
         hasUnk: ready && a.unk > 0, unkTxt: '모름 ' + a.unk,
         unkGo: e => { if (e) e.stopPropagation(); go(track, subject, { mark: 'my-unk' }); },
         // 시험 직전(D-30 안쪽)에만 첫 화면에 꺼내 둔다. 그 전에는 목차 「내 표시」에서 쓴다.
@@ -3318,7 +3330,10 @@ class Component extends DCLogic {
       quotaTxt: quota.left <= 0 ? '목표 회독을 다 채웠습니다'
         : '오늘 ' + fmt(quota.today) + ' / ' + fmt(dayQuota) + '줄 (' + qPct + '%)',
       quotaNote: quota.left <= 0 ? '' : '남은 ' + fmt(quota.left) + '줄 ÷ ' + left + '일 · 고른 교재만 셉니다',
-      homeDue: dueAll ? '오늘 복습 ' + dueAll + '개' : '오늘 복습할 것이 없습니다',
+      // 복습 = 다시 읽을 줄(내용) + 기한이 된 문제(O·X·빈칸·사례). 내용을 앞에 둔다
+      homeDue: (oldAll || dueAll)
+        ? '오늘 복습 — ' + [oldAll ? '다시 읽기 ' + fmt(oldAll) + '줄' : '', dueAll ? '문제 ' + dueAll + '개' : ''].filter(Boolean).join(' · ')
+        : '오늘 복습할 것이 없습니다',
       hasResume: !!newest,
       resumeLabel: newest ? newest.subject.replace('행정법강성민', '행정법') + ' · ' + newest.title : '',
       resumeGo: () => { if (newest) go(newest.track, newest.subject,
