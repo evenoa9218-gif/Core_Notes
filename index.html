@@ -711,7 +711,6 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div style="font:400 11.5px Pretendard,sans-serif;color:var(--ink-ghostest)">{{ crumb }}</div>
 <div style="flex:1"></div>
 <div style="padding:5px 11px;border-radius:99px;background:var(--accent-soft);font-weight:700;font-size:11.5px;color:var(--accent-ink);white-space:nowrap;flex:none">D-{{ dday }}</div>
-<a href="/" title="다른 앱 고르기" style="padding:5px 11px;border-radius:99px;background:var(--chip);border:1px solid var(--line-09);font:500 11.5px Pretendard,sans-serif;color:var(--ink-soft);cursor:pointer;text-decoration:none;flex:none">앱 전환</a>
 <div class="q-setwrap">
 <div role="button" tabIndex="0" class="q-gear" aria-label="보기 설정" title="보기 설정 — 화면·글자 크기·줄간격" onClick="{{ toggleSettings }}">⚙</div>
 <sc-if value="{{ settingsOpen }}" hint-placeholder-val="{{ false }}">
@@ -734,6 +733,14 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div class="q-setrow"><div class="q-setlabel">읽기 타이머</div><div class="q-setbtns">
 <div role="button" tabIndex="0" class="q-setbtn" data-k="autorun-on" title="단원을 열면 그 단원 분량으로 타이머가 바로 돕니다" onClick="{{ autoOn }}">자동 시작</div>
 <div role="button" tabIndex="0" class="q-setbtn" data-k="autorun-off" title="「읽기 시작」을 눌러야 돕니다" onClick="{{ autoOff }}">직접 시작</div>
+</div></div>
+<sc-if value="{{ canEditMenu }}" hint-placeholder-val="{{ false }}">
+<div class="q-setrow"><div class="q-setlabel">이 단원</div><div class="q-setbtns">
+<div role="button" tabIndex="0" class="q-setbtn" title="본문 글을 직접 고칩니다(고친 것은 저장 전까지 되돌릴 수 있음)" onClick="{{ editFromMenu }}">본문 고치기</div>
+</div></div>
+</sc-if>
+<div class="q-setrow"><div class="q-setlabel">앱</div><div class="q-setbtns">
+<a href="/" class="q-setbtn" title="다른 앱 고르기" style="text-decoration:none">앱 전환</a>
 </div></div>
 </div>
 </sc-if>
@@ -847,9 +854,17 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div style="width:1px;height:14px;background:var(--line-10);margin:0 4px;flex:none"></div>
 </sc-if>
 <div style="font:500 11px Pretendard,sans-serif;color:var(--ink-fainter);margin-right:3px;letter-spacing:.2px;flex:none">표시 모아보기</div>
-<sc-for list="{{ marks }}" as="m" hint-placeholder-count="8">
+<sc-for list="{{ marksMain }}" as="m" hint-placeholder-count="3">
 <div role="button" tabIndex="0" class="q-mchip" data-on="{{ m.on }}" onClick="{{ m.pick }}">{{ m.name }}</div>
 </sc-for>
+<sc-if value="{{ marksOpen }}" hint-placeholder-val="{{ false }}">
+<sc-for list="{{ marksMore }}" as="m" hint-placeholder-count="5">
+<div role="button" tabIndex="0" class="q-mchip" data-on="{{ m.on }}" onClick="{{ m.pick }}">{{ m.name }}</div>
+</sc-for>
+</sc-if>
+<sc-if value="{{ hasMarksMore }}" hint-placeholder-val="{{ true }}">
+<div role="button" tabIndex="0" class="q-mchip q-mchip-more" onClick="{{ toggleMarksMore }}">{{ marksMoreLabel }}</div>
+</sc-if>
 </div>
 
 <sc-if value="{{ isEmpty }}" hint-placeholder-val="{{ false }}">
@@ -907,7 +922,7 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div role="button" tabIndex="0" style="font:500 11.5px Pretendard,sans-serif;color:var(--ink-faint);cursor:pointer" onClick="{{ goToc }}">{{ crumb }}</div><div style="font:400 11px Pretendard,sans-serif;color:var(--ink-ghostest)">/</div><div style="font:600 11.5px Pretendard,sans-serif;color:var(--ink)">{{ chapterTitle }}</div>
 <div style="flex:1"></div>
 <div class="q-tools" style="display:flex;gap:6px;flex:none;white-space:nowrap">
-<sc-if value="{{ canEdit }}" hint-placeholder-val="{{ true }}">
+<sc-if value="{{ editing }}" hint-placeholder-val="{{ false }}">
 <div class="q-t-edit" role="button" tabIndex="0" style="padding:5px 10px;border-radius:7px;cursor:pointer;background:{{ editBg }};border:1px solid {{ editBorder }};font-weight:600;font-size:11px;color:{{ editInk }}" onClick="{{ toggleEdit }}">{{ editLabel }}</div>
 </sc-if>
 <sc-if value="{{ hasDraft }}" hint-placeholder-val="{{ false }}">
@@ -2763,6 +2778,8 @@ const MARKS = [
   { key:'exam',  name:'변시 기출', test: h => /class="cs-exam">【변\d/.test(h) },
   { key:'ox',    name:'O·X 결론', test: h => /class="cs-(?:o|x)"/.test(h) }
 ];
+// 목차에 늘 보이는 표시 모아보기 칩 — 나머지는 「더보기」
+const MARKS_MAIN = ['star3', 'choi', 'exam'];
 
 // 마커 집계는 데이터가 바뀌지 않는 한 그대로다 — 과목별로 한 번만 센다
 const MARK_COUNTS = {};
@@ -4230,9 +4247,12 @@ class Component extends DCLogic {
     const counts = crim ? markCounts(st.subject, rows) : {};
     const marks = crim ? MARKS.filter(m => counts[m.key] > 0).map(m => {
       const on = st.mark === m.key;
-      return { name: m.name + ' ' + counts[m.key], on,
+      return { name: m.name + ' ' + counts[m.key], on, key: m.key,
         pick: () => this.setState(on ? { mark:null } : { mark:m.key, view:'toc', chapter:null, quizOpen:false, q:'' }) };
     }) : [];
+    // 표시 모아보기는 자주 쓰는 셋만 늘 보이고 나머지는 「더보기」 안에 — 고른 것은 접혀 있어도 보인다
+    const marksMain = marks.filter(m => MARKS_MAIN.indexOf(m.key) > -1 || m.on);
+    const marksMore = marks.filter(m => MARKS_MAIN.indexOf(m.key) === -1 && !m.on);
 
     const splitCat = c => {
       const i = (c || '').indexOf(' · ');
@@ -4450,6 +4470,9 @@ class Component extends DCLogic {
           recSummary: '', distRows: [], weekBars: [] };
     return Object.assign(home, {
       tracks, subjects, books, hasBooks, filters, marks, parts, navParts, hasParts: navParts.length > 0,
+      marksMain, marksMore, hasMarksMore: marksMore.length > 0, marksOpen: !!st.marksOpen,
+      marksMoreLabel: st.marksOpen ? '접기 ▴' : '더보기 ' + marksMore.length + ' ▾',
+      toggleMarksMore: () => this.setState(s2 => ({ marksOpen: !s2.marksOpen })),
       myMarks, hasMyMarks: myMarks.length > 0,
       brand: brandOf(st.track, st.subject), brandSub: '변호사시험 ' + st.subject,
       themeIcon: st.dark ? '☀' : '☾',
@@ -4543,8 +4566,11 @@ class Component extends DCLogic {
       editBg: st.edit ? 'var(--ox-x)' : 'var(--surface)',
       editBorder: st.edit ? 'transparent' : 'var(--line-10)',
       editInk: st.edit ? '#fff' : 'var(--ink-soft)',
-      editLabel: st.edit ? '고치는 중' : '고치기',
+      editLabel: st.edit ? '고치기 끝 ✕' : '고치기',
       toggleEdit: () => this.setState(s2 => ({ edit: !s2.edit }), () => this.syncEditable()),
+      // 고치기는 ⚙ 안에서 켠다(도구줄을 줄이려고). 켜진 동안만 도구줄에 「고치기 끝」이 보인다
+      canEditMenu: !!crimTopic && !st.edit && st.view === 'page',
+      editFromMenu: () => this.setState({ edit: true, settings: false }, () => this.syncEditable()),
       draftN: DRAFT.count(),
       hasDraft: DRAFT.count() > 0,
       draftLabel: '저장 ' + DRAFT.count(),
