@@ -404,6 +404,7 @@ html[data-nav="1"] .q-navtoggle::after{content:'목차 ▴'}
 .q-home{padding:24px 26px 40px;display:flex;flex-direction:column;gap:14px;background:var(--surface-2);flex:1}
 .q-home-head{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}
 .q-home-due{font:600 12.5px Pretendard,sans-serif;color:var(--accent-ink);background:var(--accent-soft);padding:6px 12px;border-radius:99px;white-space:nowrap}
+.q-home-due-go{cursor:pointer}
 .q-home-resume{display:flex;align-items:center;gap:10px;padding:14px 16px;border-radius:14px;background:var(--surface);border:1px solid var(--line-09);cursor:pointer;min-width:0}
 .q-home-resume:hover{border-color:var(--accent)}
 .q-home-play{width:30px;height:30px;border-radius:50%;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-size:12px;flex:none}
@@ -743,7 +744,12 @@ body{margin:0;background:var(--bg);font-family:Pretendard,system-ui,sans-serif;-
 <div class="q-home">
 <div class="q-home-head">
 <div style="display:flex;align-items:baseline;gap:12px;flex-wrap:wrap"><div style="font:700 32px/1 Pretendard,sans-serif;color:var(--ink);letter-spacing:-1px">D-{{ dday }}</div><div style="font:600 13.5px Pretendard,sans-serif;color:var(--ink-soft);white-space:nowrap">변호사시험 2027.01.12</div></div>
+<sc-if value="{{ hasHomeDue }}" hint-placeholder-val="{{ false }}">
+<div role="button" tabIndex="0" class="q-home-due q-home-due-go" title="다시 읽을 줄이 가장 많은 교재(없으면 문제가 가장 밀린 교재)로 갑니다" onClick="{{ homeDueGo }}">{{ homeDue }} ›</div>
+</sc-if>
+<sc-if value="{{ noHomeDue }}" hint-placeholder-val="{{ true }}">
 <div class="q-home-due">{{ homeDue }}</div>
+</sc-if>
 </div>
 <div class="q-home-quota">
 <div class="q-home-quota-top"><span class="q-home-quota-t">오늘 분량</span><span class="q-home-quota-v">{{ quotaTxt }}</span><span style="flex:1"></span>
@@ -3236,6 +3242,7 @@ class Component extends DCLogic {
       return due <= now ? n + 1 : n;
     }, 0);
     let dueAll = 0, oldAll = 0, newest = null;
+    const qList = [], revq = [];
     const bookOf = (track, subject, label) => {
       const dir = HOME_DIR[subject], list = (dir && units[dir]) || [];
       const total = list.reduce((n, u) => n + (N[u] || 0), 0);
@@ -3256,9 +3263,10 @@ class Component extends DCLogic {
       if (counted) {
         let have = 0;                      // 목표 회독 안쪽에서 이미 읽은 줄 읽기 수
         for (let k = 1; k <= goal; k++) have += a.cnt[k] || 0;
-        quota.left += goal * total - have;
-        quota.today += a.today || 0;
+        // 진행 중인 과목 = 한 번이라도 열었거나(이어 읽기 기록) 읽은 줄이 있는 교재. 그것만 몫에 친다
+        qList.push({ left: goal * total - have, today: a.today || 0, active: !!lr || (a.cnt[1] || 0) > 0 });
       }
+      if (ready) revq.push({ track, subject, old: a.old || 0, due });
       return { label, pct: pct + '%', meta, ready, notReady: !ready, hasLast: ready && !!lr,
         lastTitle: lr ? lr.title : '',
         hasDue: ready && due > 0, dueTxt: '복습 ' + due,
@@ -3317,6 +3325,17 @@ class Component extends DCLogic {
     };
 
     // 오늘 분량 = (지금 남은 것 + 오늘 이미 읽은 것) ÷ 남은 날. 오늘 읽은 만큼 막대가 찬다.
+    // 진행 중인 과목만 센다 — 아직 아무것도 안 연 상태면 전부(첫 화면이 비지 않게)
+    const act = qList.filter(q => q.active), qUse = act.length ? act : qList;
+    qUse.forEach(q => { quota.left += q.left; quota.today += q.today; });
+    const qScope = act.length ? '진행 중인 ' + act.length + '과목만 셉니다' : '아직 읽은 과목이 없어 전부 셉니다';
+    // 「오늘 복습」 배지 — 누르면 다시 읽을 줄이 가장 많은 교재로, 없으면 문제가 가장 밀린 교재로
+    const pickRev = revq.slice().sort((x, y) => y.old - x.old)[0];
+    const pickDue = revq.slice().sort((x, y) => y.due - x.due)[0];
+    const homeDueGo = () => {
+      if (pickRev && pickRev.old > 0) go(pickRev.track, pickRev.subject, { mark: 'my-old' });
+      else if (pickDue && pickDue.due > 0) go(pickDue.track, pickDue.subject, { autoDue: true });
+    };
     const left = Math.max(1, daysLeft());
     const dayQuota = Math.ceil((quota.left + quota.today) / left);
     const qPct = dayQuota ? Math.min(100, Math.floor(quota.today / dayQuota * 100)) : 100;
@@ -3329,7 +3348,8 @@ class Component extends DCLogic {
       quotaPct: qPct + '%',
       quotaTxt: quota.left <= 0 ? '목표 회독을 다 채웠습니다'
         : '오늘 ' + fmt(quota.today) + ' / ' + fmt(dayQuota) + '줄 (' + qPct + '%)',
-      quotaNote: quota.left <= 0 ? '' : '남은 ' + fmt(quota.left) + '줄 ÷ ' + left + '일 · 고른 교재만 셉니다',
+      quotaNote: quota.left <= 0 ? '' : '남은 ' + fmt(quota.left) + '줄 ÷ ' + left + '일 · ' + qScope,
+      hasHomeDue: !!(oldAll || dueAll), noHomeDue: !(oldAll || dueAll), homeDueGo,
       // 복습 = 다시 읽을 줄(내용) + 기한이 된 문제(O·X·빈칸·사례). 내용을 앞에 둔다
       homeDue: (oldAll || dueAll)
         ? '오늘 복습 — ' + [oldAll ? '다시 읽기 ' + fmt(oldAll) + '줄' : '', dueAll ? '문제 ' + dueAll + '개' : ''].filter(Boolean).join(' · ')
@@ -4425,7 +4445,7 @@ class Component extends DCLogic {
 
     const noop = () => {};
     const home = st.view === 'home' ? this.homeVals()
-      : { homeTracks: [], homeDue: '', hasResume: false, resumeLabel: '', resumeGo: noop,
+      : { homeTracks: [], homeDue: '', hasHomeDue: false, noHomeDue: false, homeDueGo: noop, hasResume: false, resumeLabel: '', resumeGo: noop,
           goalTxt: '', goalDown: noop, goalUp: noop, quotaPct: '0%', quotaTxt: '', quotaNote: '',
           recSummary: '', distRows: [], weekBars: [] };
     return Object.assign(home, {
@@ -4694,7 +4714,19 @@ class Component extends DCLogic {
       doneBg: crimTopic && stateOf(crimTopic.id) === 'done' ? 'var(--ox-o)' : 'var(--surface)',
       doneBorder: crimTopic && stateOf(crimTopic.id) === 'done' ? 'transparent' : 'var(--line-10)',
       doneColor: crimTopic && stateOf(crimTopic.id) === 'done' ? '#fff' : 'var(--ink-soft)',
-      toggleDone: () => this.markProg(crimTopic && crimTopic.id, 'done'),
+      // 단원 완료 = 그 단원을 다 읽은 것 — 아직 표시가 없는 줄을 ✓(오늘 읽음)로 채운다.
+      // 전문 보기로 끝까지 읽고 완료를 눌러도 회독이 오르게. 완료를 떼도 읽은 기록은 남긴다(회독은 줄지 않는다).
+      toggleDone: () => {
+        if (!crimTopic) return;
+        const on = stateOf(crimTopic.id) !== 'done';
+        if (on && unitBids.length) {
+          const before = BLK.round(unitBids);
+          BLK.fill(st.subject, this._memoUnit || crimTopic.id, unitBids, '✓');
+          const after = BLK.round(unitBids);
+          this.say('완료 — 이 단원 ' + unitBids.length + '줄을 읽음으로 셉니다' + (after > before ? ' (' + after + '회독)' : ''));
+        }
+        this.markProg(crimTopic.id, 'done');
+      },
       weakBg: crimTopic && stateOf(crimTopic.id) === 'weak' ? 'var(--ox-x)' : 'var(--surface)',
       weakBorder: crimTopic && stateOf(crimTopic.id) === 'weak' ? 'transparent' : 'var(--line-10)',
       weakColor: crimTopic && stateOf(crimTopic.id) === 'weak' ? '#fff' : 'var(--ink-soft)',
