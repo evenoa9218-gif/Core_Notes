@@ -512,16 +512,26 @@ html[data-nav="1"] .q-navtoggle::after{content:'목차 ▴'}
   font:600 11.5px Pretendard,sans-serif;color:var(--ink-2)}
 .q-sel button:hover{background:var(--surface-2)}
 .q-sel button+button{border-left:1px solid var(--line-08)}
-/* 내 필기 — 이 기기에만 남는다(INK). 본문 형광(.cs-hl, 연분홍)과 섞이지 않게 진한 노랑 */
-.ik-hl{background:#fff07a;border-radius:2px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+/* 내 필기 — 이 기기에만 남는다(INK). 형광 6색: 분홍·연두는 본문 색(--hl·--gbg) 그대로,
+   나머지(연노랑·하늘·연회색·베이지)는 그 둘과 같은 연한 명도·채도로 맞춤 */
+:root{--ik-y:#fcf5d9;--ik-s:#e5f3fa;--ik-n:#efefed;--ik-e:#f7efe2}
+html[data-theme="dark"]{--ik-y:#3a3622;--ik-s:#22313a;--ik-n:#353432;--ik-e:#3a3227}
+.ik-hl,.ik-hp,.ik-hg,.ik-hs,.ik-hn,.ik-he{border-radius:2px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.ik-hl{background:var(--ik-y)}.ik-hp{background:var(--hl)}.ik-hg{background:var(--gbg)}
+.ik-hs{background:var(--ik-s)}.ik-hn{background:var(--ik-n)}.ik-he{background:var(--ik-e)}
+.q-sel[data-mode="ink"]{flex-direction:column;gap:0}
+.q-sel-row{display:flex}
+.q-sel-sw{gap:7px;padding:7px 10px;border-bottom:1px solid var(--line-08)}
+.q-sel .q-sel-sw button{width:24px;height:24px;padding:0;border-radius:50%;border:1px solid var(--line-15)}
+.q-sel .q-sel-sw button+button{border-left:1px solid var(--line-15)}
+.q-sel-row:not(.q-sel-sw) button{flex:1}
 .ik-u{text-decoration:underline;text-decoration-color:#e5484d;text-decoration-thickness:2px;text-underline-offset:3px}
 .ik-r{color:#d22f3a}
 .ik-b{color:#1f5fd1}
-html[data-theme="dark"] .ik-hl{background:#6a5c14}
 html[data-theme="dark"] .ik-u{text-decoration-color:#ff7b80}
 html[data-theme="dark"] .ik-r{color:#ff8a8f}
 html[data-theme="dark"] .ik-b{color:#8fb6ff}
-.q-sel button .ik-hl,.q-sel button .ik-u{color:var(--ink-2)}
+.q-sel button .ik-u{color:var(--ink-2)}
 /* 「빈칸 아님」 — 푸는 김에 골라내는 단추(8단계 ④). 채점 옆에 있되 눈에 덜 띄게 둔다,
    거절이 쉬워야 쌓이지만 실수로 누를 만큼 쉬우면 안 된다. */
 .q-czno{padding:0 12px;min-height:44px;display:flex;align-items:center;border-radius:9px;
@@ -1879,8 +1889,15 @@ function patched(unitId, html) {
 // 줄 글자가 달라지면 q 를 원래 자리에서 가장 가까운 곳에서 다시 찾는다 —
 // 못 찾으면 그리지만 않는다(기록은 지우지 않는다).
 const INK_KEY = 'lawmj_ink_v1';
-const INK_CLS = { hl: 'ik-hl', u: 'ik-u', r: 'ik-r', b: 'ik-b' };
-const INK_GROUP = { r: 'c', b: 'c' };          // 글자색은 한 자리에 하나만
+// 형광 6색: hl 연노랑(처음 판의 「형광」 기록이 이 색으로 이어진다)·hp 분홍·hg 연두·hs 하늘·hn 연회색·he 베이지
+const INK_HL = [['hl', '연노랑'], ['hp', '분홍'], ['hg', '연두'], ['hs', '하늘'], ['hn', '연회색'], ['he', '베이지']];
+const INK_CLS = { u: 'ik-u', r: 'ik-r', b: 'ik-b' };
+INK_HL.forEach(h => { INK_CLS[h[0]] = 'ik-' + h[0]; });
+// 한 자리에 하나만 — 형광 색끼리, 글자색끼리
+const INK_GROUP = { r: 'c', b: 'c' };
+INK_HL.forEach(h => { INK_GROUP[h[0]] = 'h'; });
+// 막대의 색 동그라미 — 마우스를 올려도 색이 안 바뀌게 style 로 직접 칠한다
+const INK_SW = { hl: 'var(--ik-y)', hp: 'var(--hl)', hg: 'var(--gbg)', hs: 'var(--ik-s)', hn: 'var(--ik-n)', he: 'var(--ik-e)' };
 const INK = {
   data: null,
   load() {
@@ -3591,11 +3608,14 @@ class Component extends DCLogic {
     // 고칠 때 = 본문을 바꾸는 단추(저장소로 간다). 읽을 때 = 내 필기(이 기기에만).
     const EDIT_BTNS = '<button data-w="cs-cz">빈칸</button><button data-w="cs-hl">본문 형광</button>'
       + '<button data-w="">지우기</button>';
-    const INK_BTNS = '<button data-k="hl"><span class="ik-hl">형광</span></button>'
+    // 윗줄 = 형광 색 동그라미, 아랫줄 = 밑줄·글자색·지우기·고치기
+    const INK_BTNS = '<div class="q-sel-row q-sel-sw">'
+      + INK_HL.map(h => '<button data-k="' + h[0] + '" style="background:' + INK_SW[h[0]] + '" title="형광 ' + h[1]
+        + '" aria-label="형광 ' + h[1] + '"></button>').join('') + '</div><div class="q-sel-row">'
       + '<button data-k="u"><span class="ik-u">밑줄</span></button>'
       + '<button data-k="r"><span class="ik-r">빨강</span></button>'
       + '<button data-k="b"><span class="ik-b">파랑</span></button>'
-      + '<button data-k="">지우기</button><button data-fix="1">고치기</button>';
+      + '<button data-k="">지우기</button><button data-fix="1">고치기</button></div>';
     document.body.appendChild(bar);
 
     const hide = () => { bar.hidden = true; this._selRange = null; };
